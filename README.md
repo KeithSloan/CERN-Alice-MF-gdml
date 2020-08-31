@@ -1,1 +1,1 @@
-# CERN-Alice-MF-gdml
+# CERN-Alice-MultiFile-gdml
