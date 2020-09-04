@@ -26,7 +26,7 @@ One can then deleted the expanded Volume and repeat the exercise for another bas
 In addition it is possible to select the root/world volume and use the standard FreeCAD facility to export a STEP file version.
 
 The idea being that having created such directories, then it would not be to arduous to create a gdml file that would recombine base volumes.
-i.e. a GDML file with includes for the common sections and a number of individual files (Solids and Structure)
+i.e. a GDML file with includes for the common sections and a number of individual files (Solids and Structure).
 Obviously a combination of all base voumes would still an issue for the Wokrbench, but should be loadable into Geant4. For ROOT that does
 not support imbeded GDML files then one should be able to use the supply standalone python utility **CombineGDML.py** ( in the Workbenches **Utils** directory)
 to process the Multi-file GDML version and produce a single file GDML version.
