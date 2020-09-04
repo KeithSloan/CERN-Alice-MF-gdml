@@ -35,4 +35,4 @@ to process the Multi-file GDML version and produce a single file GDML version.
 At the present time it is bugs in the workbench handling of GDML assemblies that is holding up this project/exercise
 
 The plan is also to add the facility to the workbench to import XML files with solids and structure definitions so that one could work on the GDML
-of a Base Volume whilst having neighbouring base volumes loaded.
+of a Base Volume whilst also having neighbouring base volumes loaded.
