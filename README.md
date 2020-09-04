@@ -13,7 +13,7 @@ In an attempt to address these isssues the Workbench offers a facility to **scan
 
 The scan just parses the file for first level GDML Volumes (Base Volumes) which it then indicates as **NOT Expanded**.
 The workbench then offers two facilites to select an individual  **NOT Expanded** Volume and expand it.
-Having expanded an individual Volume, if one then selects the root/world volume ( First / highlest level App::Part in FreeCAD ) and invoke the standard FreeCAD export facility, one then can create a GDML file for just the selected volume. This can either be a single GDML file if the file extension used is lower case **gdml** or a multi files version, if the file extension upper case **GDML** is used. If an upper case **GDML** file extension is used then the path name without the **GDML** is used to create a directory which includes a gdml file that has includes for individual XML files for the various sections of a GDML file namely
+Having expanded an individual Volume, if one then selects the root/world volume ( First / highlest level App::Part in FreeCAD ) and invoke the standard FreeCAD export facility, one then can create a GDML file for just the selected expanded volume. This can either be a single GDML file if the file extension used is lower case **gdml** or a multi files version, if the file extension upper case **GDML** is used. If an upper case **GDML** file extension is used then the path name without the **GDML** is used to create a directory which includes a gdml file that has includes for individual XML files for the various sections of a GDML file namely
 
 * Constants
 * Defines
