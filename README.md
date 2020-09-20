@@ -29,7 +29,7 @@ The idea being that having created such directories, then it should not be too a
 i.e. a GDML file with includes for the common sections and a number of individual files (Solids and Structure).
 
 Obviously a combination of all base voumes would still be an issue for the Workbench, but should be loadable into Geant4. For ROOT that does
-not support imbeded GDML files, then one should be able to use the supply standalone python utility **CombineGDML.py** ( in the Workbenches **Utils** directory)
+not support imbeded GDML files, then one should be able to use the supplied standalone python utility **CombineGDML.py** ( in the Workbenches **Utils** directory)
 to process the Multi-file GDML version and produce a single file GDML version.
 
 At the present time it is bugs in the workbench handling of GDML assemblies that is holding up this project/exercise
