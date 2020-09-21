@@ -13,7 +13,7 @@ In an attempt to address these isssues the Workbench offers a facility to **scan
 
 The scan just parses the file for first level GDML Volumes (Base Volumes) which it then indicates as **NOT Expanded**.
 The workbench then offers two facilites to select an individual  **NOT Expanded** Volume and expand it.
-Having expanded an individual Volume, if one then selects the root/world volume ( First / highlest level App::Part in FreeCAD ) and invoke the standard FreeCAD export facility, one then can create a GDML file for just the selected expanded volume. This can either be a single GDML file if the file extension used is lower case **gdml** or a multi files version, if the file extension upper case **GDML** is used. If an upper case **GDML** file extension is used then the path name without the **GDML** is used to create a directory which includes a gdml file that has includes for individual XML files for the various sections of a GDML file namely
+Having expanded an individual Volume, if one then selects the root/world volume ( First / highlest level App::Part in FreeCAD ) and invoke the standard FreeCAD export facility, one then can create a GDML file for just the selected expanded volume. This can either be a single GDML file if the file extension used is lower case **gdml** or a multi files version. If an upper case **GDML** file extension is used then the path name without the **GDML** is used to create a directory which includes a gdml file that has includes for individual XML files for the various sections of a GDML file namely
 
 * Constants
 * Defines
@@ -25,11 +25,11 @@ One can then deleted the expanded Volume and repeat the exercise for another bas
 
 In addition it is possible to select the root/world volume and use the standard FreeCAD facility to export a STEP file version.
 
-The idea being that having created such directories, then it would not be to arduous to create a gdml file that would recombine base volumes.
+The idea being that having created such directories, then it should not be too arduous to create a gdml file that would recombine base volumes.
 i.e. a GDML file with includes for the common sections and a number of individual files (Solids and Structure).
 
 Obviously a combination of all base voumes would still be an issue for the Workbench, but should be loadable into Geant4. For ROOT that does
-not support imbeded GDML files then one should be able to use the supply standalone python utility **CombineGDML.py** ( in the Workbenches **Utils** directory)
+not support imbeded GDML files, then one should be able to use the supplied standalone python utility **CombineGDML.py** ( in the Workbenches **Utils** directory)
 to process the Multi-file GDML version and produce a single file GDML version.
 
 At the present time it is bugs in the workbench handling of GDML assemblies that is holding up this project/exercise
