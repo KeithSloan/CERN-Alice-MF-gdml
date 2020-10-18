@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY BBMO_define SYSTEM "BBMO_define">
+<!ENTITY BBMO_materials SYSTEM "BBMO_materials">
+<!ENTITY BBMO_solids SYSTEM "BBMO_solids">
+<!ENTITY BBMO_structure SYSTEM "BBMO_structure">
+<!ENTITY BBMO_setup SYSTEM "BBMO_setup">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&BBMO_define;&BBMO_materials;&BBMO_solids;&BBMO_structure;&BBMO_setup;</gdml>

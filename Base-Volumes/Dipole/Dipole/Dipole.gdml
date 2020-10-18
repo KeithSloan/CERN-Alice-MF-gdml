@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY Dipole_define SYSTEM "Dipole_define">
+<!ENTITY Dipole_materials SYSTEM "Dipole_materials">
+<!ENTITY Dipole_solids SYSTEM "Dipole_solids">
+<!ENTITY Dipole_structure SYSTEM "Dipole_structure">
+<!ENTITY Dipole_setup SYSTEM "Dipole_setup">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&Dipole_define;&Dipole_materials;&Dipole_solids;&Dipole_structure;&Dipole_setup;</gdml>

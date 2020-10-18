@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY HALL_define SYSTEM "HALL_define">
+<!ENTITY HALL_materials SYSTEM "HALL_materials">
+<!ENTITY HALL_solids SYSTEM "HALL_solids">
+<!ENTITY HALL_structure SYSTEM "HALL_structure">
+<!ENTITY HALL_setup SYSTEM "HALL_setup">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&HALL_define;&HALL_materials;&HALL_solids;&HALL_structure;&HALL_setup;</gdml>

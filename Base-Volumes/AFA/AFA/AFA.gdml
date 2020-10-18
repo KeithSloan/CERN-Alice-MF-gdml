@@ -1,16 +1,10 @@
 
 <!DOCTYPE gdml [
-<!ENTITY define SYSTEM "define.xml">
-<!ENTITY materials SYSTEM "materials.xml">
-<!ENTITY solids SYSTEM "AFA-solids.xml">
-<!ENTITY structure SYSTEM "AFA-structure.xml">
-<!ENTITY setup SYSTEM "setup.xml">
+<!ENTITY AFA_define SYSTEM "AFA_define">
+<!ENTITY AFA_materials SYSTEM "AFA_materials">
+<!ENTITY AFA_solids SYSTEM "AFA_solids">
+<!ENTITY AFA_structure SYSTEM "AFA_structure">
+<!ENTITY AFA_setup SYSTEM "AFA_setup">
 ]>
 
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
-  &define;
-&materials;
-&solids;
-&structure;
-&setup;
-</gdml>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&AFA_define;&AFA_materials;&AFA_solids;&AFA_structure;&AFA_setup;</gdml>

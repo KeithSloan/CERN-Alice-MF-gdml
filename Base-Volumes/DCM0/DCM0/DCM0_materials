@@ -1,0 +1,2442 @@
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="NITROGEN_elm" formula="N" Z="7">
+      <atom unit="g/mole" value="14.006740000000001"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="ARGON_elm" formula="AR" Z="18">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <material name="BODY_Vacuum__">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="BODY_Air_____">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="BODY_Be______" Z="4">
+      <D unit="g/cm3" value="1.8480000495910645"/>
+      <atom unit="g/mole" value="9.0100002288818359"/>
+    </material>
+    <material name="MAG_Al0" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="MAG_Al1" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <element name="IRON_elm" formula="FE" Z="26">
+      <atom unit="g/mole" value="55.844999999999999"/>
+    </element>
+    <element name="CHROMIUM_elm" formula="CR" Z="24">
+      <atom unit="g/mole" value="51.996099999999998"/>
+    </element>
+    <element name="NICKEL_elm" formula="NI" Z="28">
+      <atom unit="g/mole" value="58.693399999999997"/>
+    </element>
+    <element name="SILICON_elm" formula="SI" Z="14">
+      <atom unit="g/mole" value="28.0855"/>
+    </element>
+    <material name="MAG_STAINLESS_STEEL1">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="MAG_STAINLESS_STEEL2">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="MAG_STAINLESS_STEEL3">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="MAG_Fe0" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="MAG_Fe1" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="MAG_AIR0">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MAG_AIR1">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    <material name="MAG_WATER">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.11189399659633636" ref="HYDROGEN_elm"/>
+      <fraction n="0.88810598850250244" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ABSO_CARBON0" Z="6">
+      <D unit="g/cm3" value="1.75"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="ABSO_CARBON1" Z="6">
+      <D unit="g/cm3" value="1.75"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="ABSO_CARBON2" Z="6">
+      <D unit="g/cm3" value="1.75"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="ABSO_MAGNESIUM" Z="12">
+      <D unit="g/cm3" value="1.7400000095367432"/>
+      <atom unit="g/mole" value="24.309999465942383"/>
+    </material>
+    <material name="ABSO_ALUMINIUM0" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="ABSO_ALUMINIUM1" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="ABSO_ALUMINIUM2" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="ABSO_IRON0" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="ABSO_IRON1" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="ABSO_IRON2" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="ABSO_COPPER0" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="ABSO_COPPER1" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="ABSO_COPPER2" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="ABSO_TUNGSTEN0" Z="74">
+      <D unit="g/cm3" value="19.299999237060547"/>
+      <atom unit="g/mole" value="183.85000610351562"/>
+    </material>
+    <material name="ABSO_TUNGSTEN1" Z="74">
+      <D unit="g/cm3" value="19.299999237060547"/>
+      <atom unit="g/mole" value="183.85000610351562"/>
+    </material>
+    <material name="ABSO_TUNGSTEN2" Z="74">
+      <D unit="g/cm3" value="19.299999237060547"/>
+      <atom unit="g/mole" value="183.85000610351562"/>
+    </material>
+    <element name="TUNGSTEN_elm" formula="W" Z="74">
+      <atom unit="g/mole" value="183.84"/>
+    </element>
+    <element name="COPPER_elm" formula="CU" Z="29">
+      <atom unit="g/mole" value="63.545999999999999"/>
+    </element>
+    <material name="ABSO_Ni-W-Cu0">
+      <D unit="g/cm3" value="18.780000686645508"/>
+      <fraction n="0.035000000149011612" ref="COPPER_elm"/>
+      <fraction n="0.014999999664723873" ref="NICKEL_elm"/>
+      <fraction n="0.94999998807907104" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="ABSO_Ni-W-Cu1">
+      <D unit="g/cm3" value="18.780000686645508"/>
+      <fraction n="0.035000000149011612" ref="COPPER_elm"/>
+      <fraction n="0.014999999664723873" ref="NICKEL_elm"/>
+      <fraction n="0.94999998807907104" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="ABSO_Ni-W-Cu2">
+      <D unit="g/cm3" value="18.780000686645508"/>
+      <fraction n="0.035000000149011612" ref="COPPER_elm"/>
+      <fraction n="0.014999999664723873" ref="NICKEL_elm"/>
+      <fraction n="0.94999998807907104" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="ABSO_LEAD0" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="ABSO_LEAD1" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="ABSO_LEAD2" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="ABSO_AIR0">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ABSO_AIR1">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ABSO_AIR2">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ABSO_VACUUM0">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ABSO_VACUUM1">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ABSO_VACUUM2">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <element name="SODIUM_elm" formula="NA" Z="11">
+      <atom unit="g/mole" value="22.98977"/>
+    </element>
+    <element name="MAGNESIUM_elm" formula="MG" Z="12">
+      <atom unit="g/mole" value="24.305"/>
+    </element>
+    <element name="ALUMINIUM_elm" formula="AL" Z="13">
+      <atom unit="g/mole" value="26.981538"/>
+    </element>
+    <element name="POTASSIUM_elm" formula="K" Z="19">
+      <atom unit="g/mole" value="39.098300000000002"/>
+    </element>
+    <element name="CALCIUM_elm" formula="CA" Z="20">
+      <atom unit="g/mole" value="40.078000000000003"/>
+    </element>
+    <material name="ABSO_CONCRETE0">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="ABSO_CONCRETE1">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="ABSO_CONCRETE2">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="ABSO_POLYETHYLEN0">
+      <D unit="g/cm3" value="0.94999998807907104"/>
+      <fraction n="0.85539466142654419" ref="CARBON_elm"/>
+      <fraction n="0.144605353474617" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="ABSO_POLYETHYLEN1">
+      <D unit="g/cm3" value="0.94999998807907104"/>
+      <fraction n="0.85539466142654419" ref="CARBON_elm"/>
+      <fraction n="0.144605353474617" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="ABSO_POLYETHYLEN2">
+      <D unit="g/cm3" value="0.94999998807907104"/>
+      <fraction n="0.85539466142654419" ref="CARBON_elm"/>
+      <fraction n="0.144605353474617" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="ABSO_STAINLESS_STEEL0">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="ABSO_STAINLESS_STEEL1">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="ABSO_STAINLESS_STEEL2">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <element name="TITANIUM_elm" formula="TI" Z="22">
+      <atom unit="g/mole" value="47.866999999999997"/>
+    </element>
+    <material name="ABSO_INSULATION0">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <material name="ABSO_INSULATION1">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <material name="ABSO_INSULATION2">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <element name="LITHIUM_elm" formula="LI" Z="3">
+      <atom unit="g/mole" value="6.9409999999999998"/>
+    </element>
+    <element name="FLUORINE_elm" formula="F" Z="9">
+      <atom unit="g/mole" value="18.998403199999998"/>
+    </element>
+    <element name="LEAD_elm" formula="PB" Z="82">
+      <atom unit="g/mole" value="207.19999999999999"/>
+    </element>
+    <material name="ABSO_Poly_Concrete0">
+      <D unit="g/cm3" value="3.5299999713897705"/>
+      <fraction n="0.018329642713069916" ref="ALUMINIUM_elm"/>
+      <fraction n="0.010891258716583252" ref="CALCIUM_elm"/>
+      <fraction n="0.05983516201376915" ref="CARBON_elm"/>
+      <fraction n="0.1118592768907547" ref="FLUORINE_elm"/>
+      <fraction n="0.022193044424057007" ref="HYDROGEN_elm"/>
+      <fraction n="0.6569141149520874" ref="LEAD_elm"/>
+      <fraction n="0.037724554538726807" ref="LITHIUM_elm"/>
+      <fraction n="0.079708807170391083" ref="OXYGEN_elm"/>
+      <fraction n="0.0025441381148993969" ref="SILICON_elm"/>
+    </material>
+    <material name="ABSO_Poly_Concrete1">
+      <D unit="g/cm3" value="3.5299999713897705"/>
+      <fraction n="0.018329642713069916" ref="ALUMINIUM_elm"/>
+      <fraction n="0.010891258716583252" ref="CALCIUM_elm"/>
+      <fraction n="0.05983516201376915" ref="CARBON_elm"/>
+      <fraction n="0.1118592768907547" ref="FLUORINE_elm"/>
+      <fraction n="0.022193044424057007" ref="HYDROGEN_elm"/>
+      <fraction n="0.6569141149520874" ref="LEAD_elm"/>
+      <fraction n="0.037724554538726807" ref="LITHIUM_elm"/>
+      <fraction n="0.079708807170391083" ref="OXYGEN_elm"/>
+      <fraction n="0.0025441381148993969" ref="SILICON_elm"/>
+    </material>
+    <material name="ABSO_Poly_Concrete2">
+      <D unit="g/cm3" value="3.5299999713897705"/>
+      <fraction n="0.018329642713069916" ref="ALUMINIUM_elm"/>
+      <fraction n="0.010891258716583252" ref="CALCIUM_elm"/>
+      <fraction n="0.05983516201376915" ref="CARBON_elm"/>
+      <fraction n="0.1118592768907547" ref="FLUORINE_elm"/>
+      <fraction n="0.022193044424057007" ref="HYDROGEN_elm"/>
+      <fraction n="0.6569141149520874" ref="LEAD_elm"/>
+      <fraction n="0.037724554538726807" ref="LITHIUM_elm"/>
+      <fraction n="0.079708807170391083" ref="OXYGEN_elm"/>
+      <fraction n="0.0025441381148993969" ref="SILICON_elm"/>
+    </material>
+    <material name="DIPO_ALUMINIUM0" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="DIPO_ALUMINIUM1" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="DIPO_ALUMINIUM2" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="DIPO_IRON0" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="DIPO_IRON1" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="DIPO_IRON2" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="DIPO_COPPER0" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="DIPO_COPPER1" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="DIPO_COPPER2" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="DIPO_AIR0">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_AIR1">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_AIR2">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_AIR_MUON">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_VACUUM0">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_VACUUM1">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_VACUUM2">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_STAINLESS_STEEL0">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="DIPO_STAINLESS_STEEL1">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="DIPO_STAINLESS_STEEL2">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="DIPO_Al0">
+      <D unit="g/cm3" value="2.121999979019165"/>
+      <fraction n="0.6600000262260437" ref="ALUMINIUM_elm"/>
+      <fraction n="0.22599999606609344" ref="HYDROGEN_elm"/>
+      <fraction n="0.11400000005960464" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_Al1">
+      <D unit="g/cm3" value="2.121999979019165"/>
+      <fraction n="0.6600000262260437" ref="ALUMINIUM_elm"/>
+      <fraction n="0.22599999606609344" ref="HYDROGEN_elm"/>
+      <fraction n="0.11400000005960464" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_Al2">
+      <D unit="g/cm3" value="2.121999979019165"/>
+      <fraction n="0.6600000262260437" ref="ALUMINIUM_elm"/>
+      <fraction n="0.22599999606609344" ref="HYDROGEN_elm"/>
+      <fraction n="0.11400000005960464" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_RESIN0">
+      <D unit="g/cm3" value="1.0499999523162842"/>
+      <fraction n="0.76550000905990601" ref="CARBON_elm"/>
+      <fraction n="0.064400002360343933" ref="HYDROGEN_elm"/>
+      <fraction n="0.17010000348091125" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_RESIN1">
+      <D unit="g/cm3" value="1.0499999523162842"/>
+      <fraction n="0.76550000905990601" ref="CARBON_elm"/>
+      <fraction n="0.064400002360343933" ref="HYDROGEN_elm"/>
+      <fraction n="0.17010000348091125" ref="OXYGEN_elm"/>
+    </material>
+    <material name="DIPO_RESIN2">
+      <D unit="g/cm3" value="1.0499999523162842"/>
+      <fraction n="0.76550000905990601" ref="CARBON_elm"/>
+      <fraction n="0.064400002360343933" ref="HYDROGEN_elm"/>
+      <fraction n="0.17010000348091125" ref="OXYGEN_elm"/>
+    </material>
+    <element name="BROMINE_elm" formula="BR" Z="35">
+      <atom unit="g/mole" value="79.903999999999996"/>
+    </element>
+    <material name="DIPO_G100">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.05737999826669693" ref="BROMINE_elm"/>
+      <fraction n="0.22337999939918518" ref="CARBON_elm"/>
+      <fraction n="0.020889999344944954" ref="HYDROGEN_elm"/>
+      <fraction n="0.28492999076843262" ref="OXYGEN_elm"/>
+      <fraction n="0.41341999173164368" ref="SILICON_elm"/>
+    </material>
+    <material name="DIPO_G101">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.05737999826669693" ref="BROMINE_elm"/>
+      <fraction n="0.22337999939918518" ref="CARBON_elm"/>
+      <fraction n="0.020889999344944954" ref="HYDROGEN_elm"/>
+      <fraction n="0.28492999076843262" ref="OXYGEN_elm"/>
+      <fraction n="0.41341999173164368" ref="SILICON_elm"/>
+    </material>
+    <material name="DIPO_G102">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.05737999826669693" ref="BROMINE_elm"/>
+      <fraction n="0.22337999939918518" ref="CARBON_elm"/>
+      <fraction n="0.020889999344944954" ref="HYDROGEN_elm"/>
+      <fraction n="0.28492999076843262" ref="OXYGEN_elm"/>
+      <fraction n="0.41341999173164368" ref="SILICON_elm"/>
+    </material>
+    <material name="HALL_AIR0">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="HALL_AIR1">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="HALL_AIR2">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="HALL_CONCRETE0">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="HALL_CONCRETE1">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="HALL_CONCRETE2">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="HALL_STAINLESS_STEEL1">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="HALL_STAINLESS_STEEL2">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="HALL_STAINLESS_STEEL3">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="FRAME_STAINLESS_STEEL">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="FRAME_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="FRAME_ALU" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="SHIL_ALU1" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="SHIL_ALU2" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="SHIL_ALU3" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="SHIL_IRON1" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="SHIL_IRON2" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="SHIL_IRON3" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="SHIL_COPPER1" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="SHIL_COPPER2" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="SHIL_COPPER3" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="SHIL_TUNGSTEN1" Z="74">
+      <D unit="g/cm3" value="19.299999237060547"/>
+      <atom unit="g/mole" value="183.85000610351562"/>
+    </material>
+    <material name="SHIL_TUNGSTEN2" Z="74">
+      <D unit="g/cm3" value="19.299999237060547"/>
+      <atom unit="g/mole" value="183.85000610351562"/>
+    </material>
+    <material name="SHIL_TUNGSTEN3" Z="74">
+      <D unit="g/cm3" value="19.299999237060547"/>
+      <atom unit="g/mole" value="183.85000610351562"/>
+    </material>
+    <material name="SHIL_LEAD1" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="SHIL_LEAD2" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="SHIL_LEAD3" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="SHIL_AIR1">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="SHIL_AIR2">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="SHIL_AIR3">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="SHIL_AIR_MUON">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="SHIL_VACUUM1">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="SHIL_VACUUM2">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="SHIL_VACUUM3">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="SHIL_STAINLESS_STEEL1">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="SHIL_STAINLESS_STEEL2">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="SHIL_STAINLESS_STEEL3">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="SHIL_LEADTUNGSTEN1">
+      <D unit="g/cm3" value="15.324999809265137"/>
+      <fraction n="0.5" ref="LEAD_elm"/>
+      <fraction n="0.5" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="SHIL_LEADTUNGSTEN2">
+      <D unit="g/cm3" value="15.324999809265137"/>
+      <fraction n="0.5" ref="LEAD_elm"/>
+      <fraction n="0.5" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="SHIL_LEADTUNGSTEN3">
+      <D unit="g/cm3" value="15.324999809265137"/>
+      <fraction n="0.5" ref="LEAD_elm"/>
+      <fraction n="0.5" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="SHIL_Ni-W-Cu1">
+      <D unit="g/cm3" value="18.780000686645508"/>
+      <fraction n="0.035000000149011612" ref="COPPER_elm"/>
+      <fraction n="0.014999999664723873" ref="NICKEL_elm"/>
+      <fraction n="0.94999998807907104" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="SHIL_Ni-W-Cu2">
+      <D unit="g/cm3" value="18.780000686645508"/>
+      <fraction n="0.035000000149011612" ref="COPPER_elm"/>
+      <fraction n="0.014999999664723873" ref="NICKEL_elm"/>
+      <fraction n="0.94999998807907104" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="SHIL_Ni-W-Cu3">
+      <D unit="g/cm3" value="18.780000686645508"/>
+      <fraction n="0.035000000149011612" ref="COPPER_elm"/>
+      <fraction n="0.014999999664723873" ref="NICKEL_elm"/>
+      <fraction n="0.94999998807907104" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="SHIL_CONCRETE1">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="SHIL_CONCRETE2">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="SHIL_CONCRETE3">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="SHIL_INSULATION1">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <material name="SHIL_INSULATION2">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <material name="SHIL_INSULATION3">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <material name="PIPE_BERILLIUM" Z="4">
+      <D unit="g/cm3" value="1.8480000495910645"/>
+      <atom unit="g/mole" value="9.0100002288818359"/>
+    </material>
+    <material name="PIPE_CARBON" Z="6">
+      <D unit="g/cm3" value="2.2650001049041748"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="PIPE_ALUMINIUM" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="PIPE_COPPER" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="PIPE_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PIPE_AIR_HIGH">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PIPE_VACUUM">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PIPE_STAINLESS_STEEL">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="PIPE_GETTER">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <element name="BERYLLIUM_elm" formula="BE" Z="4">
+      <atom unit="g/mole" value="9.0121800000000007"/>
+    </element>
+    <material name="PIPE_AlBe">
+      <D unit="g/cm3" value="2.0699999332427979"/>
+      <fraction n="0.40000000596046448" ref="ALUMINIUM_elm"/>
+      <fraction n="0.60000002384185791" ref="BERYLLIUM_elm"/>
+    </material>
+    <material name="PIPE_PA">
+      <D unit="g/cm3" value="1.1399999856948853"/>
+      <fraction n="0.63716816902160645" ref="CARBON_elm"/>
+      <fraction n="0.097345136106014252" ref="HYDROGEN_elm"/>
+      <fraction n="0.12389380484819412" ref="NITROGEN_elm"/>
+      <fraction n="0.14159291982650757" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PIPE_KAPTON">
+      <D unit="g/cm3" value="1.4199999570846558"/>
+      <fraction n="0.69112998247146606" ref="CARBON_elm"/>
+      <fraction n="0.026362000033259392" ref="HYDROGEN_elm"/>
+      <fraction n="0.073270000517368317" ref="NITROGEN_elm"/>
+      <fraction n="0.20923499763011932" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PIPE_ANTICORODAL">
+      <D unit="g/cm3" value="2.6600000858306885"/>
+      <fraction n="0.92400002479553223" ref="ALUMINIUM_elm"/>
+      <fraction n="0.0060000000521540642" ref="MAGNESIUM_elm"/>
+      <fraction n="0.070000000298023224" ref="SILICON_elm"/>
+    </material>
+    <material name="PIPE_INSULATION0">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <material name="PIPE_INSULATION1">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <material name="PIPE_INSULATION2">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <fraction n="0.017999999225139618" ref="ALUMINIUM_elm"/>
+      <fraction n="0.48870000243186951" ref="OXYGEN_elm"/>
+      <fraction n="0.30189999938011169" ref="SILICON_elm"/>
+      <fraction n="0.19140000641345978" ref="TITANIUM_elm"/>
+    </material>
+    <element name="VANADIUM_elm" formula="V" Z="23">
+      <atom unit="g/mole" value="50.941499999999998"/>
+    </element>
+    <element name="ZIRCONIUM_elm" formula="ZR" Z="40">
+      <atom unit="g/mole" value="91.224000000000004"/>
+    </element>
+    <material name="PIPE_NEG_COATING">
+      <D unit="g/cm3" value="5.5999999046325684"/>
+      <fraction n="0.25188106298446655" ref="TITANIUM_elm"/>
+      <fraction n="0.26803472638130188" ref="VANADIUM_elm"/>
+      <fraction n="0.48008418083190918" ref="ZIRCONIUM_elm"/>
+    </material>
+    <material name="ITS_SI" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_SPD_SI_CHIP" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_SPD_SI_BUS" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_C_M55J">
+      <D unit="g/cm3" value="1.6299999952316284"/>
+      <fraction n="0.9085080623626709" ref="CARBON_elm"/>
+      <fraction n="0.025146765634417534" ref="HYDROGEN_elm"/>
+      <fraction n="0.010387573391199112" ref="NITROGEN_elm"/>
+      <fraction n="0.055957585573196411" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_GEN_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <element name="SILVER_elm" formula="AG" Z="47">
+      <atom unit="g/mole" value="107.8682"/>
+    </element>
+    <material name="ITS_SDD_SI_CHIP">
+      <D unit="g/cm3" value="2.3643600940704346"/>
+      <fraction n="0.03973064199090004" ref="CARBON_elm"/>
+      <fraction n="0.0043677710928022861" ref="HYDROGEN_elm"/>
+      <fraction n="0.0013967979466542602" ref="NITROGEN_elm"/>
+      <fraction n="0.011696339584887028" ref="OXYGEN_elm"/>
+      <fraction n="0.84466499090194702" ref="SILICON_elm"/>
+      <fraction n="0.098143450915813446" ref="SILVER_elm"/>
+    </material>
+    <material name="ITS_SDD_C_M55J">
+      <D unit="g/cm3" value="1.6299999952316284"/>
+      <fraction n="0.9085080623626709" ref="CARBON_elm"/>
+      <fraction n="0.025146765634417534" ref="HYDROGEN_elm"/>
+      <fraction n="0.010387573391199112" ref="NITROGEN_elm"/>
+      <fraction n="0.055957585573196411" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDD_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_AL" Z="13">
+      <D unit="g/cm3" value="2.6988999843597412"/>
+      <atom unit="g/mole" value="26.982000350952148"/>
+    </material>
+    <material name="ITS_Water">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.11189399659633636" ref="HYDROGEN_elm"/>
+      <fraction n="0.88810598850250244" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_Freon">
+      <D unit="g/cm3" value="1.5199999809265137"/>
+      <fraction n="0.20184177160263062" ref="CARBON_elm"/>
+      <fraction n="0.79815822839736938" ref="FLUORINE_elm"/>
+    </material>
+    <material name="ITS_COPPER" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <element name="MANGANESE_elm" formula="MN" Z="25">
+      <atom unit="g/mole" value="54.938048999999999"/>
+    </element>
+    <material name="ITS_CERAMICS">
+      <D unit="g/cm3" value="3.5999999046325684"/>
+      <fraction n="0.44434079527854919" ref="ALUMINIUM_elm"/>
+      <fraction n="0.0034209999721497297" ref="CHROMIUM_elm"/>
+      <fraction n="0.017813500016927719" ref="MANGANESE_elm"/>
+      <fraction n="0.52133750915527344" ref="OXYGEN_elm"/>
+      <fraction n="0.013087200000882149" ref="SILICON_elm"/>
+    </material>
+    <material name="ITS_SSD_C_M55J">
+      <D unit="g/cm3" value="1.6299999952316284"/>
+      <fraction n="0.9085080623626709" ref="CARBON_elm"/>
+      <fraction n="0.025146765634417534" ref="HYDROGEN_elm"/>
+      <fraction n="0.010387573391199112" ref="NITROGEN_elm"/>
+      <fraction n="0.055957585573196411" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SSD_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <element name="BORON_elm" formula="B" Z="5">
+      <atom unit="g/mole" value="10.811"/>
+    </element>
+    <material name="ITS_G10FR4">
+      <D unit="g/cm3" value="1.7999999523162842"/>
+      <fraction n="0.041281580924987793" ref="ALUMINIUM_elm"/>
+      <fraction n="0.013975700363516808" ref="BORON_elm"/>
+      <fraction n="0.081474773585796356" ref="CALCIUM_elm"/>
+      <fraction n="0.27529427409172058" ref="CARBON_elm"/>
+      <fraction n="0.00419999985024333" ref="FLUORINE_elm"/>
+      <fraction n="0.034275658428668976" ref="HYDROGEN_elm"/>
+      <fraction n="0.0020982800051569939" ref="IRON_elm"/>
+      <fraction n="0.0090455403551459312" ref="MAGNESIUM_elm"/>
+      <fraction n="0.014158519916236401" ref="NITROGEN_elm"/>
+      <fraction n="0.36043787002563477" ref="OXYGEN_elm"/>
+      <fraction n="0.004980890080332756" ref="POTASSIUM_elm"/>
+      <fraction n="0.15144893527030945" ref="SILICON_elm"/>
+      <fraction n="0.0044511398300528526" ref="SODIUM_elm"/>
+      <fraction n="0.0028768500778824091" ref="TITANIUM_elm"/>
+    </material>
+    <material name="ITS_GEN_C_M55J">
+      <D unit="g/cm3" value="1.6299999952316284"/>
+      <fraction n="0.9085080623626709" ref="CARBON_elm"/>
+      <fraction n="0.025146765634417534" ref="HYDROGEN_elm"/>
+      <fraction n="0.010387573391199112" ref="NITROGEN_elm"/>
+      <fraction n="0.055957585573196411" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_GEN_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SPD_SI" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_SPD_SI_CHIP0x1" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_SPD_SI_BUS0x1" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_SPD_C_M55J">
+      <D unit="g/cm3" value="1.6299999952316284"/>
+      <fraction n="0.9085080623626709" ref="CARBON_elm"/>
+      <fraction n="0.025146765634417534" ref="HYDROGEN_elm"/>
+      <fraction n="0.010387573391199112" ref="NITROGEN_elm"/>
+      <fraction n="0.055957585573196411" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SPD_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SPD_KAPTONPOLYCH2">
+      <D unit="g/cm3" value="1.4199999570846558"/>
+      <fraction n="0.69112998247146606" ref="CARBON_elm"/>
+      <fraction n="0.026362000033259392" ref="HYDROGEN_elm"/>
+      <fraction n="0.073270000517368317" ref="NITROGEN_elm"/>
+      <fraction n="0.20923499763011932" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_EPOXY">
+      <D unit="g/cm3" value="1.7999999523162842"/>
+      <fraction n="0.76301026344299316" ref="CARBON_elm"/>
+      <fraction n="0.067589282989501953" ref="HYDROGEN_elm"/>
+      <fraction n="0.1694004237651825" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SILICON" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_KAPTONHPOLYCH2">
+      <D unit="g/cm3" value="1.4199999570846558"/>
+      <fraction n="0.69112998247146606" ref="CARBON_elm"/>
+      <fraction n="0.026362000033259392" ref="HYDROGEN_elm"/>
+      <fraction n="0.073270000517368317" ref="NITROGEN_elm"/>
+      <fraction n="0.20923499763011932" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_ALUMINUM" Z="13">
+      <D unit="g/cm3" value="2.6988999843597412"/>
+      <atom unit="g/mole" value="26.982000350952148"/>
+    </material>
+    <element name="PHOSPHORUS_elm" formula="P" Z="15">
+      <atom unit="g/mole" value="30.973761"/>
+    </element>
+    <element name="SULFUR_elm" formula="S" Z="16">
+      <atom unit="g/mole" value="32.066000000000003"/>
+    </element>
+    <element name="MOLYBDENUM_elm" formula="MO" Z="42">
+      <atom unit="g/mole" value="95.939999999999998"/>
+    </element>
+    <material name="ITS_INOX">
+      <D unit="g/cm3" value="8.0299997329711914"/>
+      <fraction n="0.00030000001424923539" ref="CARBON_elm"/>
+      <fraction n="0.17000000178813934" ref="CHROMIUM_elm"/>
+      <fraction n="0.65399998426437378" ref="IRON_elm"/>
+      <fraction n="0.019999999552965164" ref="MANGANESE_elm"/>
+      <fraction n="0.02500000037252903" ref="MOLYBDENUM_elm"/>
+      <fraction n="0.11999999731779099" ref="NICKEL_elm"/>
+      <fraction n="0.00044999999227002263" ref="PHOSPHORUS_elm"/>
+      <fraction n="0.0099999997764825821" ref="SILICON_elm"/>
+      <fraction n="0.00030000001424923539" ref="SULFUR_elm"/>
+    </material>
+    <material name="ITS_ROHACELL">
+      <D unit="g/cm3" value="0.052000001072883606"/>
+      <fraction n="0.55627602338790894" ref="CARBON_elm"/>
+      <fraction n="0.033414937555789948" ref="HYDROGEN_elm"/>
+      <fraction n="0.092701643705368042" ref="NITROGEN_elm"/>
+      <fraction n="0.3176073431968689" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDD_C_AL_M55J">
+      <D unit="g/cm3" value="1.9866000413894653"/>
+      <fraction n="0.10000000149011612" ref="ALUMINIUM_elm"/>
+      <fraction n="0.81765788793563843" ref="CARBON_elm"/>
+      <fraction n="0.022632088512182236" ref="HYDROGEN_elm"/>
+      <fraction n="0.0093488153070211411" ref="NITROGEN_elm"/>
+      <fraction n="0.05036182701587677" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDDKAPTON_POLYCH2">
+      <D unit="g/cm3" value="1.4199999570846558"/>
+      <fraction n="0.69112998247146606" ref="CARBON_elm"/>
+      <fraction n="0.026362000033259392" ref="HYDROGEN_elm"/>
+      <fraction n="0.073270000517368317" ref="NITROGEN_elm"/>
+      <fraction n="0.20923499763011932" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_ITS_SANDW_A" Z="6">
+      <D unit="g/cm3" value="0.21150000393390656"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="ITS_ITS_SANDW_B" Z="6">
+      <D unit="g/cm3" value="0.27000001072883606"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="ITS_ITS_SANDW_C" Z="6">
+      <D unit="g/cm3" value="0.40999999642372131"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="ITS_HEAT_COND_GLUE" Z="6">
+      <D unit="g/cm3" value="1.9299999475479126"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="ITS_ELASTO_SIL" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_SPDBUSALKPTEPOX">
+      <D unit="g/cm3" value="2.1285049915313721"/>
+      <fraction n="0.57059097290039062" ref="ALUMINIUM_elm"/>
+      <fraction n="0.31805300712585449" ref="CARBON_elm"/>
+      <fraction n="0.023522999137639999" ref="HYDROGEN_elm"/>
+      <fraction n="0.0097759999334812164" ref="NITROGEN_elm"/>
+      <fraction n="0.078056998550891876" ref="OXYGEN_elm"/>
+    </material>
+    <element name="BARIUM_elm" formula="BA" Z="56">
+      <atom unit="g/mole" value="137.327"/>
+    </element>
+    <element name="TIN_elm" formula="SN" Z="50">
+      <atom unit="g/mole" value="118.70999999999999"/>
+    </element>
+    <material name="ITS_SDD_X7R_capacitors">
+      <D unit="g/cm3" value="7.1456699371337891"/>
+      <fraction n="0.25163942575454712" ref="BARIUM_elm"/>
+      <fraction n="0.0094712711870670319" ref="COPPER_elm"/>
+      <fraction n="0.20817680656909943" ref="LEAD_elm"/>
+      <fraction n="0.03824475035071373" ref="NICKEL_elm"/>
+      <fraction n="0.085975818336009979" ref="OXYGEN_elm"/>
+      <fraction n="0.32173648476600647" ref="TIN_elm"/>
+      <fraction n="0.08475504070520401" ref="TITANIUM_elm"/>
+    </material>
+    <material name="ITS_SDD_ruby_sph._Al2O3">
+      <D unit="g/cm3" value="3.9700000286102295"/>
+      <fraction n="0.47069999575614929" ref="ALUMINIUM_elm"/>
+      <fraction n="0.52929997444152832" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDD_SI_insensitive" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="ITS_SDD_HV_microcable">
+      <D unit="g/cm3" value="1.6087000370025635"/>
+      <fraction n="0.24753600358963013" ref="ALUMINIUM_elm"/>
+      <fraction n="0.520088791847229" ref="CARBON_elm"/>
+      <fraction n="0.019838713109493256" ref="HYDROGEN_elm"/>
+      <fraction n="0.055136799812316895" ref="NITROGEN_elm"/>
+      <fraction n="0.15739966928958893" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDD_LVsignal_cable">
+      <D unit="g/cm3" value="2.1034998893737793"/>
+      <fraction n="0.68572002649307251" ref="ALUMINIUM_elm"/>
+      <fraction n="0.2172243595123291" ref="CARBON_elm"/>
+      <fraction n="0.0082859918475151062" ref="HYDROGEN_elm"/>
+      <fraction n="0.023028867319226265" ref="NITROGEN_elm"/>
+      <fraction n="0.065740779042243958" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDD_hybrid_microcab">
+      <D unit="g/cm3" value="2.0501999855041504"/>
+      <fraction n="0.64868998527526855" ref="ALUMINIUM_elm"/>
+      <fraction n="0.24281880259513855" ref="CARBON_elm"/>
+      <fraction n="0.0092622879892587662" ref="HYDROGEN_elm"/>
+      <fraction n="0.025742240250110626" ref="NITROGEN_elm"/>
+      <fraction n="0.073486670851707458" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDD_anode_microcab">
+      <D unit="g/cm3" value="2.0501999855041504"/>
+      <fraction n="0.4319089949131012" ref="ALUMINIUM_elm"/>
+      <fraction n="0.3926537036895752" ref="CARBON_elm"/>
+      <fraction n="0.012859592214226723" ref="HYDROGEN_elm"/>
+      <fraction n="0.041626866906881332" ref="NITROGEN_elm"/>
+      <fraction n="0.11883270740509033" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SDDSSD_rings">
+      <D unit="g/cm3" value="0.28749999403953552"/>
+      <fraction n="0.8543238639831543" ref="CARBON_elm"/>
+      <fraction n="0.026408778503537178" ref="HYDROGEN_elm"/>
+      <fraction n="0.02305026538670063" ref="NITROGEN_elm"/>
+      <fraction n="0.096217066049575806" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_inoxalum">
+      <D unit="g/cm3" value="3.0750000476837158"/>
+      <fraction n="0.81616401672363281" ref="ALUMINIUM_elm"/>
+      <fraction n="0.033090598881244659" ref="CHROMIUM_elm"/>
+      <fraction n="0.13144299387931824" ref="IRON_elm"/>
+      <fraction n="0.018383599817752838" ref="NICKEL_elm"/>
+      <fraction n="0.00091918202815577388" ref="SILICON_elm"/>
+    </material>
+    <material name="ITS_AIRFMDSDD">
+      <D unit="g/cm3" value="1.5253275632858276"/>
+      <fraction n="0.0081209996715188026" ref="ALUMINIUM_elm"/>
+      <fraction n="0.34096100926399231" ref="CARBON_elm"/>
+      <fraction n="0.0014669999945908785" ref="CHROMIUM_elm"/>
+      <fraction n="0.38126200437545776" ref="COPPER_elm"/>
+      <fraction n="0.019965000450611115" ref="HYDROGEN_elm"/>
+      <fraction n="0.0051130000501871109" ref="IRON_elm"/>
+      <fraction n="0.00015500000154133886" ref="MANGANESE_elm"/>
+      <fraction n="0.00099299999419599771" ref="NICKEL_elm"/>
+      <fraction n="0.041225001215934753" ref="NITROGEN_elm"/>
+      <fraction n="0.20035199820995331" ref="OXYGEN_elm"/>
+      <fraction n="0.00038599999970756471" ref="SILICON_elm"/>
+    </material>
+    <material name="ITS_AIRFMDSSD">
+      <D unit="g/cm3" value="1.2464275360107422"/>
+      <fraction n="0.014546000398695469" ref="ALUMINIUM_elm"/>
+      <fraction n="0.32590100169181824" ref="CARBON_elm"/>
+      <fraction n="0.01399299968034029" ref="CHROMIUM_elm"/>
+      <fraction n="0.35069701075553894" ref="COPPER_elm"/>
+      <fraction n="0.019776999950408936" ref="HYDROGEN_elm"/>
+      <fraction n="0.048792000859975815" ref="IRON_elm"/>
+      <fraction n="0.0014789999695494771" ref="MANGANESE_elm"/>
+      <fraction n="0.0094769997522234917" ref="NICKEL_elm"/>
+      <fraction n="0.0318479984998703" ref="NITROGEN_elm"/>
+      <fraction n="0.14766800403594971" ref="OXYGEN_elm"/>
+      <fraction n="0.030609000474214554" ref="SILICON_elm"/>
+      <fraction n="0.0052129998803138733" ref="SILVER_elm"/>
+    </material>
+    <material name="ITS_ITS_SANDW_CFMDSDD">
+      <D unit="g/cm3" value="1.9353276491165161"/>
+      <fraction n="0.006630999967455864" ref="ALUMINIUM_elm"/>
+      <fraction n="0.46187001466751099" ref="CARBON_elm"/>
+      <fraction n="0.0011970000341534615" ref="CHROMIUM_elm"/>
+      <fraction n="0.31131500005722046" ref="COPPER_elm"/>
+      <fraction n="0.016302000731229782" ref="HYDROGEN_elm"/>
+      <fraction n="0.0041749998927116394" ref="IRON_elm"/>
+      <fraction n="0.00012700000661425292" ref="MANGANESE_elm"/>
+      <fraction n="0.00081100000534206629" ref="NICKEL_elm"/>
+      <fraction n="0.033661998808383942" ref="NITROGEN_elm"/>
+      <fraction n="0.16359500586986542" ref="OXYGEN_elm"/>
+      <fraction n="0.00031500001205131412" ref="SILICON_elm"/>
+    </material>
+    <material name="ITS_ITS_SANDW_CFMDSSD">
+      <D unit="g/cm3" value="1.6564275026321411"/>
+      <fraction n="0.010344999842345715" ref="ALUMINIUM_elm"/>
+      <fraction n="0.52059799432754517" ref="CARBON_elm"/>
+      <fraction n="0.0099520003423094749" ref="CHROMIUM_elm"/>
+      <fraction n="0.24940599501132965" ref="COPPER_elm"/>
+      <fraction n="0.014065000228583813" ref="HYDROGEN_elm"/>
+      <fraction n="0.034699998795986176" ref="IRON_elm"/>
+      <fraction n="0.0010509999701753259" ref="MANGANESE_elm"/>
+      <fraction n="0.0067400000989437103" ref="NICKEL_elm"/>
+      <fraction n="0.022649999707937241" ref="NITROGEN_elm"/>
+      <fraction n="0.10501799732446671" ref="OXYGEN_elm"/>
+      <fraction n="0.021767999976873398" ref="SILICON_elm"/>
+      <fraction n="0.00037069999962113798" ref="SILVER_elm"/>
+    </material>
+    <material name="ITS_SPD_SERVICES">
+      <D unit="g/cm3" value="80.311363220214844"/>
+      <fraction n="0.30470401048660278" ref="CARBON_elm"/>
+      <fraction n="0.030948000028729439" ref="CHROMIUM_elm"/>
+      <fraction n="0.36089500784873962" ref="COPPER_elm"/>
+      <fraction n="0.0059699998237192631" ref="HYDROGEN_elm"/>
+      <fraction n="0.10790999978780746" ref="IRON_elm"/>
+      <fraction n="0.0032699999865144491" ref="MANGANESE_elm"/>
+      <fraction n="0.020959999412298203" ref="NICKEL_elm"/>
+      <fraction n="0.042509999126195908" ref="NITROGEN_elm"/>
+      <fraction n="0.1217150017619133" ref="OXYGEN_elm"/>
+      <fraction n="0.0011180000146850944" ref="SILICON_elm"/>
+    </material>
+    <material name="ITS_SPD_shield" Z="6">
+      <D unit="g/cm3" value="1.9299999475479126"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="ITS_SPD_End_ladder">
+      <D unit="g/cm3" value="3.9034030437469482"/>
+      <fraction n="0.10727400332689285" ref="CARBON_elm"/>
+      <fraction n="0.84471899271011353" ref="COPPER_elm"/>
+      <fraction n="0.0040919999592006207" ref="HYDROGEN_elm"/>
+      <fraction n="0.01143800001591444" ref="NITROGEN_elm"/>
+      <fraction n="0.032476000487804413" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ITS_SPD_cone" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.085500717163086"/>
+    </material>
+    <material name="ITS_SDD_cone" Z="29">
+      <D unit="g/cm3" value="1.1499999761581421"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="ITS_SSD_cone" Z="29">
+      <D unit="g/cm3" value="1.1499999761581421"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="ITS_SDD_OPTICFIB">
+      <D unit="g/cm3" value="2.5499999523162842"/>
+      <fraction n="0.53256505727767944" ref="OXYGEN_elm"/>
+      <fraction n="0.46743491291999817" ref="SILICON_elm"/>
+    </material>
+    <material name="TPC_CO2">
+      <D unit="g/cm3" value="0.0019769999198615551"/>
+      <fraction n="0.27289998531341553" ref="CARBON_elm"/>
+      <fraction n="0.72710001468658447" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Air">
+      <D unit="g/cm3" value="0.0012049999786540866"/>
+      <fraction n="0.76700001955032349" ref="NITROGEN_elm"/>
+      <fraction n="0.23299999535083771" ref="OXYGEN_elm"/>
+    </material>
+    <element name="NEON_elm" formula="NE" Z="10">
+      <atom unit="g/mole" value="20.1797"/>
+    </element>
+    <material name="TPC_Ne-CO2-N-1">
+      <D unit="g/cm3" value="0.0010252000065520406"/>
+      <fraction n="0.053899999707937241" ref="CARBON_elm"/>
+      <fraction n="0.77069997787475586" ref="NEON_elm"/>
+      <fraction n="0.031599998474121094" ref="NITROGEN_elm"/>
+      <fraction n="0.14380000531673431" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Ne-CO2-N-2">
+      <D unit="g/cm3" value="0.0010252000065520406"/>
+      <fraction n="0.053899999707937241" ref="CARBON_elm"/>
+      <fraction n="0.77069997787475586" ref="NEON_elm"/>
+      <fraction n="0.031599998474121094" ref="NITROGEN_elm"/>
+      <fraction n="0.14380000531673431" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Ne-CO2-N-3">
+      <D unit="g/cm3" value="0.0010252000065520406"/>
+      <fraction n="0.053899999707937241" ref="CARBON_elm"/>
+      <fraction n="0.77069997787475586" ref="NEON_elm"/>
+      <fraction n="0.031599998474121094" ref="NITROGEN_elm"/>
+      <fraction n="0.14380000531673431" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Kevlar">
+      <D unit="g/cm3" value="1.4500000476837158"/>
+      <fraction n="0.67217504978179932" ref="CARBON_elm"/>
+      <fraction n="0.087942317128181458" ref="HYDROGEN_elm"/>
+      <fraction n="0.11197454482316971" ref="NITROGEN_elm"/>
+      <fraction n="0.12790809571743011" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_NOMEX">
+      <D unit="g/cm3" value="0.028999999165534973"/>
+      <fraction n="0.67217504978179932" ref="CARBON_elm"/>
+      <fraction n="0.087942317128181458" ref="HYDROGEN_elm"/>
+      <fraction n="0.11197454482316971" ref="NITROGEN_elm"/>
+      <fraction n="0.12790809571743011" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Makrolon">
+      <D unit="g/cm3" value="1.2000000476837158"/>
+      <fraction n="0.7443690299987793" ref="CARBON_elm"/>
+      <fraction n="0.069720692932605743" ref="HYDROGEN_elm"/>
+      <fraction n="0.18591021001338959" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Tedlar">
+      <D unit="g/cm3" value="1.7100000381469727"/>
+      <fraction n="0.52199047803878784" ref="CARBON_elm"/>
+      <fraction n="0.41282051801681519" ref="FLUORINE_elm"/>
+      <fraction n="0.065189056098461151" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="TPC_Mylar">
+      <D unit="g/cm3" value="1.3899999856948853"/>
+      <fraction n="0.62522250413894653" ref="CARBON_elm"/>
+      <fraction n="0.041643328964710236" ref="HYDROGEN_elm"/>
+      <fraction n="0.33313414454460144" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Prepreg1">
+      <D unit="g/cm3" value="1.8589999675750732"/>
+      <fraction n="0.92299997806549072" ref="CARBON_elm"/>
+      <fraction n="0.023000000044703484" ref="HYDROGEN_elm"/>
+      <fraction n="0.054000001400709152" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Prepreg2">
+      <D unit="g/cm3" value="1.8200000524520874"/>
+      <fraction n="0.1940000057220459" ref="CARBON_elm"/>
+      <fraction n="0.023000000044703484" ref="HYDROGEN_elm"/>
+      <fraction n="0.44299998879432678" ref="OXYGEN_elm"/>
+      <fraction n="0.34000000357627869" ref="SILICON_elm"/>
+    </material>
+    <material name="TPC_Prepreg3">
+      <D unit="g/cm3" value="1.1629999876022339"/>
+      <fraction n="0.22499999403953552" ref="CARBON_elm"/>
+      <fraction n="0.029999999329447746" ref="HYDROGEN_elm"/>
+      <fraction n="0.44299998879432678" ref="OXYGEN_elm"/>
+      <fraction n="0.30000001192092896" ref="SILICON_elm"/>
+    </material>
+    <material name="TPC_G10">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.1940000057220459" ref="CARBON_elm"/>
+      <fraction n="0.023000000044703484" ref="HYDROGEN_elm"/>
+      <fraction n="0.44299998879432678" ref="OXYGEN_elm"/>
+      <fraction n="0.34000000357627869" ref="SILICON_elm"/>
+    </material>
+    <material name="TPC_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="TPC_Si" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="TPC_Cu" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="TPC_Epoxy">
+      <D unit="g/cm3" value="1.25"/>
+      <fraction n="0.71205776929855347" ref="CARBON_elm"/>
+      <fraction n="0.084691144526004791" ref="HYDROGEN_elm"/>
+      <fraction n="0.20325113832950592" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Plexiglas">
+      <D unit="g/cm3" value="1.1799999475479126"/>
+      <fraction n="0.60022705793380737" ref="CARBON_elm"/>
+      <fraction n="0.079956978559494019" ref="HYDROGEN_elm"/>
+      <fraction n="0.31981593370437622" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_C" Z="6">
+      <D unit="g/cm3" value="2.2650001049041748"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="TPC_Fe" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.845001220703125"/>
+    </material>
+    <material name="TPC_Peek">
+      <D unit="g/cm3" value="1.2999999523162842"/>
+      <fraction n="0.79182261228561401" ref="CARBON_elm"/>
+      <fraction n="0.041636709123849869" ref="HYDROGEN_elm"/>
+      <fraction n="0.16654059290885925" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Alumina">
+      <D unit="g/cm3" value="3.9700000286102295"/>
+      <fraction n="0.52923649549484253" ref="ALUMINIUM_elm"/>
+      <fraction n="0.47076353430747986" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Water">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.11111480742692947" ref="HYDROGEN_elm"/>
+      <fraction n="0.88888514041900635" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TOF_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TOF_Nomex">
+      <D unit="g/cm3" value="0.2199999988079071"/>
+      <fraction n="0.67169994115829468" ref="CARBON_elm"/>
+      <fraction n="0.088577926158905029" ref="HYDROGEN_elm"/>
+      <fraction n="0.11190130561590195" ref="NITROGEN_elm"/>
+      <fraction n="0.12782087922096252" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TOF_G10">
+      <D unit="g/cm3" value="2"/>
+      <fraction n="0.28463166952133179" ref="CARBON_elm"/>
+      <fraction n="0.034122496843338013" ref="HYDROGEN_elm"/>
+      <fraction n="0.40078485012054443" ref="OXYGEN_elm"/>
+      <fraction n="0.28046095371246338" ref="SILICON_elm"/>
+    </material>
+    <material name="TOF_fibre_glass">
+      <D unit="g/cm3" value="2.0499999523162842"/>
+      <fraction n="0.51502001285552979" ref="CARBON_elm"/>
+      <fraction n="0.061870001256465912" ref="HYDROGEN_elm"/>
+      <fraction n="0.29405000805854797" ref="OXYGEN_elm"/>
+      <fraction n="0.12906000018119812" ref="SILICON_elm"/>
+    </material>
+    <material name="TOF_Al_" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.981538772583008"/>
+    </material>
+    <material name="TOF_Al_honeycomb" Z="13">
+      <D unit="g/cm3" value="0.48000001907348633"/>
+      <atom unit="g/mole" value="26.981538772583008"/>
+    </material>
+    <material name="TOF_Freon">
+      <D unit="g/cm3" value="0.0037499999161809683"/>
+      <fraction n="0.21250000596046448" ref="CARBON_elm"/>
+      <fraction n="0.74826997518539429" ref="FLUORINE_elm"/>
+      <fraction n="0.017869999632239342" ref="HYDROGEN_elm"/>
+      <fraction n="0.021354999393224716" ref="SULFUR_elm"/>
+    </material>
+    <material name="TOF_Glass">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <fraction n="0.53256505727767944" ref="OXYGEN_elm"/>
+      <fraction n="0.46743491291999817" ref="SILICON_elm"/>
+    </material>
+    <material name="TOF_Water">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.11189835518598557" ref="HYDROGEN_elm"/>
+      <fraction n="0.88810169696807861" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TOF_cablestubes">
+      <D unit="g/cm3" value="0.68000000715255737"/>
+      <fraction n="0.40700000524520874" ref="ALUMINIUM_elm"/>
+      <fraction n="0.59299999475479126" ref="COPPER_elm"/>
+    </material>
+    <material name="TOF_Cu_" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="TOF_cable">
+      <D unit="g/cm3" value="1.2230000495910645"/>
+      <fraction n="0.32440000772476196" ref="ALUMINIUM_elm"/>
+      <fraction n="0.37462443113327026" ref="CARBON_elm"/>
+      <fraction n="0.23810000717639923" ref="COPPER_elm"/>
+      <fraction n="0.062875531613826752" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="TOF_AlCusteel">
+      <D unit="g/cm3" value="0.76999998092651367"/>
+      <fraction n="0.69999998807907104" ref="ALUMINIUM_elm"/>
+      <fraction n="0.017999999225139618" ref="CHROMIUM_elm"/>
+      <fraction n="0.20000000298023224" ref="COPPER_elm"/>
+      <fraction n="0.070000000298023224" ref="IRON_elm"/>
+      <fraction n="0.012000000104308128" ref="NICKEL_elm"/>
+    </material>
+    <material name="TOF_plastic">
+      <D unit="g/cm3" value="0.93000000715255737"/>
+      <fraction n="0.85628443956375122" ref="CARBON_elm"/>
+      <fraction n="0.143715500831604" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="TOF_Al_honey_for_holes" Z="13">
+      <D unit="g/cm3" value="0.073972605168819427"/>
+      <atom unit="g/mole" value="26.981538772583008"/>
+    </material>
+    <material name="HMPID_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="HMPID_C6F14">
+      <D unit="g/cm3" value="1.6799999475479126"/>
+      <fraction n="0.21324574947357178" ref="CARBON_elm"/>
+      <fraction n="0.786754310131073" ref="FLUORINE_elm"/>
+    </material>
+    <material name="HMPID_SiO2">
+      <D unit="g/cm3" value="2.6400001049041748"/>
+      <fraction n="0.5323789119720459" ref="OXYGEN_elm"/>
+      <fraction n="0.46762111783027649" ref="SILICON_elm"/>
+    </material>
+    <material name="HMPID_CH4">
+      <D unit="g/cm3" value="0.00071699998807162046"/>
+      <fraction n="0.7482866644859314" ref="CARBON_elm"/>
+      <fraction n="0.25171339511871338" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="HMPID_CsIPCB">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.51501601934432983" ref="CARBON_elm"/>
+      <fraction n="0.061873000115156174" ref="HYDROGEN_elm"/>
+      <fraction n="0.29405000805854797" ref="OXYGEN_elm"/>
+      <fraction n="0.12906000018119812" ref="SILICON_elm"/>
+    </material>
+    <material name="HMPID_Neo">
+      <D unit="g/cm3" value="2.6400001049041748"/>
+      <fraction n="0.39323049783706665" ref="OXYGEN_elm"/>
+      <fraction n="0.60676950216293335" ref="SILICON_elm"/>
+    </material>
+    <material name="HMPID_Roha" Z="6">
+      <D unit="g/cm3" value="0.10000000149011612"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="HMPID_Cu" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="HMPID_W" Z="74">
+      <D unit="g/cm3" value="19.299999237060547"/>
+      <atom unit="g/mole" value="183.83999633789062"/>
+    </material>
+    <material name="HMPID_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="HMPID_Ar" Z="18">
+      <D unit="g/cm3" value="0.0013960000360384583"/>
+      <atom unit="g/mole" value="39.939998626708984"/>
+    </material>
+    <material name="ZDC_WALL">
+      <D unit="g/cm3" value="17.600000381469727"/>
+      <fraction n="0.029999999329447746" ref="IRON_elm"/>
+      <fraction n="0.039999999105930328" ref="NICKEL_elm"/>
+      <fraction n="0.93000000715255737" ref="TUNGSTEN_elm"/>
+    </material>
+    <element name="ZINC_elm" formula="ZN" Z="30">
+      <atom unit="g/mole" value="65.390000000000001"/>
+    </element>
+    <material name="ZDC_BRASS">
+      <D unit="g/cm3" value="8.4799995422363281"/>
+      <fraction n="0.62999999523162842" ref="COPPER_elm"/>
+      <fraction n="0.37000000476837158" ref="ZINC_elm"/>
+    </material>
+    <material name="ZDC_SIO2">
+      <D unit="g/cm3" value="2.6400001049041748"/>
+      <fraction n="0.53256064653396606" ref="OXYGEN_elm"/>
+      <fraction n="0.46743935346603394" ref="SILICON_elm"/>
+    </material>
+    <material name="ZDC_LEAD" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="ZDC_COPP0" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.540000915527344"/>
+    </material>
+    <material name="ZDC_IRON0" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="ZDC_IRON1" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="ZDC_VOID">
+      <D unit="g/cm3" value="3.2000000116079799e-14"/>
+      <fraction n="0.2800000011920929" ref="CARBON_elm"/>
+      <fraction n="0.2800000011920929" ref="HYDROGEN_elm"/>
+      <fraction n="0.43999999761581421" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ZDC_VOIM">
+      <D unit="g/cm3" value="3.2000000116079799e-14"/>
+      <fraction n="0.2800000011920929" ref="CARBON_elm"/>
+      <fraction n="0.2800000011920929" ref="HYDROGEN_elm"/>
+      <fraction n="0.43999999761581421" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ZDC_Air____">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRD_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="TRD_Xe" Z="54">
+      <D unit="g/cm3" value="0.0054899998940527439"/>
+      <atom unit="g/mole" value="131.28999328613281"/>
+    </material>
+    <material name="TRD_Cu" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.540000915527344"/>
+    </material>
+    <material name="TRD_C" Z="6">
+      <D unit="g/cm3" value="2.2650001049041748"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="TRD_Sn" Z="50">
+      <D unit="g/cm3" value="7.309999942779541"/>
+      <atom unit="g/mole" value="118.70999908447266"/>
+    </material>
+    <material name="TRD_Si" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.090000152587891"/>
+    </material>
+    <material name="TRD_Fe" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="TRD_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRD_Polyethilene">
+      <D unit="g/cm3" value="0.94999998807907104"/>
+      <fraction n="0.8562893271446228" ref="CARBON_elm"/>
+      <fraction n="0.14371061325073242" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="TRD_CO2">
+      <D unit="g/cm3" value="0.0018599999602884054"/>
+      <fraction n="0.27291646599769592" ref="CARBON_elm"/>
+      <fraction n="0.72708350419998169" ref="OXYGEN_elm"/>
+    </material>
+    <element name="XENON_elm" formula="XE" Z="54">
+      <atom unit="g/mole" value="131.28999999999999"/>
+    </element>
+    <material name="TRD_XeCO2">
+      <D unit="g/cm3" value="0.0049454998224973679"/>
+      <fraction n="0.015242274850606918" ref="CARBON_elm"/>
+      <fraction n="0.040608331561088562" ref="OXYGEN_elm"/>
+      <fraction n="0.9441494345664978" ref="XENON_elm"/>
+    </material>
+    <material name="TRD_G10">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.10640999674797058" ref="CARBON_elm"/>
+      <fraction n="0.1520099937915802" ref="HYDROGEN_elm"/>
+      <fraction n="0.4944399893283844" ref="OXYGEN_elm"/>
+      <fraction n="0.24714000523090363" ref="SILICON_elm"/>
+    </material>
+    <material name="TRD_Water">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.1118943989276886" ref="HYDROGEN_elm"/>
+      <fraction n="0.88810563087463379" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRD_Plexiglas">
+      <D unit="g/cm3" value="1.1799999475479126"/>
+      <fraction n="0.59984815120697021" ref="CARBON_elm"/>
+      <fraction n="0.080537766218185425" ref="HYDROGEN_elm"/>
+      <fraction n="0.31961405277252197" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRD_Epoxy">
+      <D unit="g/cm3" value="1.7999999523162842"/>
+      <fraction n="0.76301687955856323" ref="CARBON_elm"/>
+      <fraction n="0.067585498094558716" ref="HYDROGEN_elm"/>
+      <fraction n="0.16939766705036163" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TRD_Araldite">
+      <D unit="g/cm3" value="1.0499999523162842"/>
+      <fraction n="0.76301687955856323" ref="CARBON_elm"/>
+      <fraction n="0.067585498094558716" ref="HYDROGEN_elm"/>
+      <fraction n="0.16939766705036163" ref="OXYGEN_elm"/>
+    </material>
+    <material name="FMD_Si" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.085500717163086"/>
+    </material>
+    <material name="FMD_Carbon" Z="6">
+      <D unit="g/cm3" value="2.2650001049041748"/>
+      <atom unit="g/mole" value="12.01099967956543"/>
+    </material>
+    <material name="FMD_Aluminum" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.981538772583008"/>
+    </material>
+    <material name="FMD_Copper" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="FMD_Si_Chip">
+      <D unit="g/cm3" value="2.3643600940704346"/>
+      <fraction n="0.03973064199090004" ref="CARBON_elm"/>
+      <fraction n="0.0043677710928022861" ref="HYDROGEN_elm"/>
+      <fraction n="0.0013967979466542602" ref="NITROGEN_elm"/>
+      <fraction n="0.011696339584887028" ref="OXYGEN_elm"/>
+      <fraction n="0.84466499090194702" ref="SILICON_elm"/>
+      <fraction n="0.098143450915813446" ref="SILVER_elm"/>
+    </material>
+    <material name="FMD_Kaption">
+      <D unit="g/cm3" value="1.4199999570846558"/>
+      <fraction n="0.69112998247146606" ref="CARBON_elm"/>
+      <fraction n="0.026362000033259392" ref="HYDROGEN_elm"/>
+      <fraction n="0.073270000517368317" ref="NITROGEN_elm"/>
+      <fraction n="0.20923499763011932" ref="OXYGEN_elm"/>
+    </material>
+    <material name="FMD_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="FMD_PCB">
+      <D unit="g/cm3" value="1.7999999523162842"/>
+      <fraction n="0.041281580924987793" ref="ALUMINIUM_elm"/>
+      <fraction n="0.013975700363516808" ref="BORON_elm"/>
+      <fraction n="0.081474773585796356" ref="CALCIUM_elm"/>
+      <fraction n="0.27529427409172058" ref="CARBON_elm"/>
+      <fraction n="0.00419999985024333" ref="FLUORINE_elm"/>
+      <fraction n="0.034275658428668976" ref="HYDROGEN_elm"/>
+      <fraction n="0.0020982800051569939" ref="IRON_elm"/>
+      <fraction n="0.0090455403551459312" ref="MAGNESIUM_elm"/>
+      <fraction n="0.014158519916236401" ref="NITROGEN_elm"/>
+      <fraction n="0.36043787002563477" ref="OXYGEN_elm"/>
+      <fraction n="0.004980890080332756" ref="POTASSIUM_elm"/>
+      <fraction n="0.15144893527030945" ref="SILICON_elm"/>
+      <fraction n="0.0044511398300528526" ref="SODIUM_elm"/>
+      <fraction n="0.0028768500778824091" ref="TITANIUM_elm"/>
+    </material>
+    <material name="FMD_Steel">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="FMD_Plastic">
+      <D unit="g/cm3" value="1.0299999713897705"/>
+      <fraction n="0.92242699861526489" ref="CARBON_elm"/>
+      <fraction n="0.077572964131832123" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="MUON_ALUMINIUM0" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="MUON_ALUMINIUM1" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="MUON_Kapton" Z="6">
+      <D unit="g/cm3" value="1.4199999570846558"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="MUON_Copper" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="MUON_FR4">
+      <D unit="g/cm3" value="1.7999999523162842"/>
+      <fraction n="0.43106207251548767" ref="CARBON_elm"/>
+      <fraction n="0.057627689093351364" ref="HYDROGEN_elm"/>
+      <fraction n="0.36292886734008789" ref="OXYGEN_elm"/>
+      <fraction n="0.14838135242462158" ref="SILICON_elm"/>
+    </material>
+    <material name="MUON_FrameEpoxy" Z="6">
+      <D unit="g/cm3" value="1.8500000238418579"/>
+      <atom unit="g/mole" value="12.239999771118164"/>
+    </material>
+    <material name="MUON_AIR">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_Bakelite">
+      <D unit="g/cm3" value="1.3999999761581421"/>
+      <fraction n="0.76561844348907471" ref="CARBON_elm"/>
+      <fraction n="0.064385890960693359" ref="HYDROGEN_elm"/>
+      <fraction n="0.1699957549571991" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_ArC4H10_GAS">
+      <D unit="g/cm3" value="0.0019596000202000141"/>
+      <fraction n="0.80000001192092896" ref="ARGON_elm"/>
+      <fraction n="0.057000000029802322" ref="CARBON_elm"/>
+      <fraction n="0.14300000667572021" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="MUON_TRIG_GAS">
+      <D unit="g/cm3" value="0.0031463000923395157"/>
+      <fraction n="0.27844101190567017" ref="ARGON_elm"/>
+      <fraction n="0.18449607491493225" ref="CARBON_elm"/>
+      <fraction n="0.49726945161819458" ref="FLUORINE_elm"/>
+      <fraction n="0.021549290046095848" ref="HYDROGEN_elm"/>
+      <fraction n="0.018244212493300438" ref="SULFUR_elm"/>
+    </material>
+    <material name="MUON_ArCO2_80">
+      <D unit="g/cm3" value="0.0018210000125691295"/>
+      <fraction n="0.80000001192092896" ref="ARGON_elm"/>
+      <fraction n="0.066699996590614319" ref="CARBON_elm"/>
+      <fraction n="0.13333000242710114" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_Ar-freon_">
+      <D unit="g/cm3" value="0.0025989999994635582"/>
+      <fraction n="0.56000000238418579" ref="ARGON_elm"/>
+      <fraction n="0.12628570199012756" ref="CARBON_elm"/>
+      <fraction n="0.028000000864267349" ref="FLUORINE_elm"/>
+      <fraction n="0.28571429848670959" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="MUON_ArCO2_GAS">
+      <D unit="g/cm3" value="0.0018326999852433801"/>
+      <fraction n="0.74000000953674316" ref="ARGON_elm"/>
+      <fraction n="0.086684003472328186" ref="CARBON_elm"/>
+      <fraction n="0.17331600189208984" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_COPPER" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.540000915527344"/>
+    </material>
+    <material name="MUON_G10">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.14631985127925873" ref="CARBON_elm"/>
+      <fraction n="0.0016779544530436397" ref="HYDROGEN_elm"/>
+      <fraction n="0.41644281148910522" ref="OXYGEN_elm"/>
+      <fraction n="0.43555933237075806" ref="SILICON_elm"/>
+    </material>
+    <material name="MUON_Carbon" Z="6">
+      <D unit="g/cm3" value="2.2650001049041748"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="MUON_Rohacell">
+      <D unit="g/cm3" value="0.029999999329447746"/>
+      <fraction n="0.64635533094406128" ref="CARBON_elm"/>
+      <fraction n="0.078514620661735535" ref="HYDROGEN_elm"/>
+      <fraction n="0.083776839077472687" ref="NITROGEN_elm"/>
+      <fraction n="0.19135323166847229" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_Nomex">
+      <D unit="g/cm3" value="0.024000000208616257"/>
+      <fraction n="0.69106030464172363" ref="CARBON_elm"/>
+      <fraction n="0.026416279375553131" ref="HYDROGEN_elm"/>
+      <fraction n="0.073285557329654694" ref="NITROGEN_elm"/>
+      <fraction n="0.20923785865306854" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_Noryl">
+      <D unit="g/cm3" value="1.059999942779541"/>
+      <fraction n="0.79960054159164429" ref="CARBON_elm"/>
+      <fraction n="0.067243672907352448" ref="HYDROGEN_elm"/>
+      <fraction n="0.13315579295158386" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_Nomex_bulk">
+      <D unit="g/cm3" value="1.4299999475479126"/>
+      <fraction n="0.65347075462341309" ref="CARBON_elm"/>
+      <fraction n="0.0021006814204156399" ref="HYDROGEN_elm"/>
+      <fraction n="0.080839522182941437" ref="NITROGEN_elm"/>
+      <fraction n="0.26358911395072937" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_Aluminium_II" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="MUON_FOAM">
+      <D unit="g/cm3" value="0.052000001072883606"/>
+      <fraction n="0.64635533094406128" ref="CARBON_elm"/>
+      <fraction n="0.078514620661735535" ref="HYDROGEN_elm"/>
+      <fraction n="0.083776839077472687" ref="NITROGEN_elm"/>
+      <fraction n="0.19135323166847229" ref="OXYGEN_elm"/>
+    </material>
+    <material name="MUON_SnPb">
+      <D unit="g/cm3" value="8.925999641418457"/>
+      <fraction n="0.40000000596046448" ref="LEAD_elm"/>
+      <fraction n="0.60000002384185791" ref="TIN_elm"/>
+    </material>
+    <material name="MUON_Plastic">
+      <D unit="g/cm3" value="1.1069999933242798"/>
+      <fraction n="0.92242699861526489" ref="CARBON_elm"/>
+      <fraction n="0.077572964131832123" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="MUON_StainlessSteel">
+      <D unit="g/cm3" value="7.929999828338623"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.73000001907348633" ref="IRON_elm"/>
+      <fraction n="0.090000003576278687" ref="NICKEL_elm"/>
+    </material>
+    <material name="PHOS_PbWO4">
+      <D unit="g/cm3" value="8.2799997329711914"/>
+      <fraction n="0.45532259345054626" ref="LEAD_elm"/>
+      <fraction n="0.14064697921276093" ref="OXYGEN_elm"/>
+      <fraction n="0.40403041243553162" ref="TUNGSTEN_elm"/>
+    </material>
+    <material name="PHOS_Polystyrene">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.92257893085479736" ref="CARBON_elm"/>
+      <fraction n="0.077421054244041443" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="PHOS_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="PHOS_Tyvek">
+      <D unit="g/cm3" value="0.33100000023841858"/>
+      <fraction n="0.85628443956375122" ref="CARBON_elm"/>
+      <fraction n="0.143715500831604" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="PHOS_Foam">
+      <D unit="g/cm3" value="0.11999999731779099"/>
+      <fraction n="0.92257893085479736" ref="CARBON_elm"/>
+      <fraction n="0.077421054244041443" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="PHOS_Titanium">
+      <D unit="g/cm3" value="4.5"/>
+      <fraction n="0.04598158597946167" ref="ALUMINIUM_elm"/>
+      <fraction n="0.015605561435222626" ref="MANGANESE_elm"/>
+      <fraction n="0.93841290473937988" ref="TITANIUM_elm"/>
+    </material>
+    <material name="PHOS_Si" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.085500717163086"/>
+    </material>
+    <material name="PHOS_Thermo_Insul.">
+      <D unit="g/cm3" value="0.039999999105930328"/>
+      <fraction n="0.92257893085479736" ref="CARBON_elm"/>
+      <fraction n="0.077421054244041443" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="PHOS_Textolit">
+      <D unit="g/cm3" value="1.75"/>
+      <fraction n="0.43106207251548767" ref="CARBON_elm"/>
+      <fraction n="0.057627689093351364" ref="HYDROGEN_elm"/>
+      <fraction n="0.36292886734008789" ref="OXYGEN_elm"/>
+      <fraction n="0.14838135242462158" ref="SILICON_elm"/>
+    </material>
+    <material name="PHOS_FR4">
+      <D unit="g/cm3" value="1.7999999523162842"/>
+      <fraction n="0.43106207251548767" ref="CARBON_elm"/>
+      <fraction n="0.057627689093351364" ref="HYDROGEN_elm"/>
+      <fraction n="0.36292886734008789" ref="OXYGEN_elm"/>
+      <fraction n="0.14838135242462158" ref="SILICON_elm"/>
+    </material>
+    <material name="PHOS_Compo_Mat">
+      <D unit="g/cm3" value="0.93500000238418579"/>
+      <fraction n="0.85724484920501709" ref="CARBON_elm"/>
+      <fraction n="0.1427551656961441" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="PHOS_Cu" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    <material name="PHOS_G10">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.23717948794364929" ref="CARBON_elm"/>
+      <fraction n="0.021978020668029785" ref="HYDROGEN_elm"/>
+      <fraction n="0.30280828475952148" ref="OXYGEN_elm"/>
+      <fraction n="0.43803417682647705" ref="SILICON_elm"/>
+    </material>
+    <material name="PHOS_Pb" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19999694824219"/>
+    </material>
+    <material name="PHOS_CO2">
+      <D unit="g/cm3" value="0.0019769999198615551"/>
+      <fraction n="0.27272728085517883" ref="CARBON_elm"/>
+      <fraction n="0.72727274894714355" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PHOS_Ar" Z="18">
+      <D unit="g/cm3" value="0.0017819999484345317"/>
+      <atom unit="g/mole" value="39.948001861572266"/>
+    </material>
+    <material name="PHOS_ArCO2">
+      <D unit="g/cm3" value="0.0018209998961538076"/>
+      <fraction n="0.78409361839294434" ref="ARGON_elm"/>
+      <fraction n="0.058883562684059143" ref="CARBON_elm"/>
+      <fraction n="0.15702283382415771" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PHOS_Steel" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.845001220703125"/>
+    </material>
+    <material name="PHOS_Fibergla">
+      <D unit="g/cm3" value="1.8999999761581421"/>
+      <fraction n="0.43106207251548767" ref="CARBON_elm"/>
+      <fraction n="0.057627689093351364" ref="HYDROGEN_elm"/>
+      <fraction n="0.36292886734008789" ref="OXYGEN_elm"/>
+      <fraction n="0.14838135242462158" ref="SILICON_elm"/>
+    </material>
+    <material name="PHOS_Cables__">
+      <D unit="g/cm3" value="0.80000001192092896"/>
+      <fraction n="0.018776610493659973" ref="CARBON_elm"/>
+      <fraction n="0.5545649528503418" ref="COPPER_elm"/>
+      <fraction n="0.00025472146808169782" ref="HYDROGEN_elm"/>
+      <fraction n="0.4264037013053894" ref="IRON_elm"/>
+    </material>
+    <material name="PHOS_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PMD_Pb____" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19000244140625"/>
+    </material>
+    <material name="PMD_Argon" Z="18">
+      <D unit="g/cm3" value="0.0017819999484345317"/>
+      <atom unit="g/mole" value="39.950000762939453"/>
+    </material>
+    <material name="PMD_CO2__">
+      <D unit="g/cm3" value="0.0019769999198615551"/>
+      <fraction n="0.27272728085517883" ref="CARBON_elm"/>
+      <fraction n="0.72727274894714355" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PMD_Al___" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="PMD_ArCO2">
+      <D unit="g/cm3" value="0.0018404999282211065"/>
+      <fraction n="0.69999998807907104" ref="ARGON_elm"/>
+      <fraction n="0.079999998211860657" ref="CARBON_elm"/>
+      <fraction n="0.2199999988079071" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PMD_Fe___" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="PMD_G10">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.10640999674797058" ref="CARBON_elm"/>
+      <fraction n="0.1520099937915802" ref="HYDROGEN_elm"/>
+      <fraction n="0.4944399893283844" ref="OXYGEN_elm"/>
+      <fraction n="0.24714000523090363" ref="SILICON_elm"/>
+    </material>
+    <material name="PMD_Cu___" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.540000915527344"/>
+    </material>
+    <material name="PMD_STAINLESS_STEEL">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="PMD_Vacum">
+      <D unit="g/cm3" value="1.2047900177503124e-10"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="PMD_Air__">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="T0_Steel" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.849998474121094"/>
+    </material>
+    <material name="T0_Vacuum" Z="1">
+      <D unit="g/cm3" value="1.0000000168623835e-16"/>
+      <atom unit="g/mole" value="1.0000000168623835e-16"/>
+    </material>
+    <material name="T0_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="T0_CarbonPlastic" Z="6">
+      <D unit="g/cm3" value="2.2599999904632568"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="T0_Aliminium" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="T0_Ceramic__">
+      <D unit="g/cm3" value="3.5999999046325684"/>
+      <fraction n="0.52925068140029907" ref="ALUMINIUM_elm"/>
+      <fraction n="0.47074928879737854" ref="OXYGEN_elm"/>
+    </material>
+    <material name="T0_PMT_glass___">
+      <D unit="g/cm3" value="2.6500000953674316"/>
+      <fraction n="0.53256505727767944" ref="OXYGEN_elm"/>
+      <fraction n="0.46743491291999817" ref="SILICON_elm"/>
+    </material>
+    <material name="T0_Scintillator">
+      <D unit="g/cm3" value="1.0299999713897705"/>
+      <fraction n="0.92242699861526489" ref="CARBON_elm"/>
+      <fraction n="0.077572964131832123" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="T0_Brass____">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <fraction n="0.80000001192092896" ref="COPPER_elm"/>
+      <fraction n="0.20000000298023224" ref="ZINC_elm"/>
+    </material>
+    <material name="T0_Ribber_">
+      <D unit="g/cm3" value="0.80000001192092896"/>
+      <fraction n="0.62068963050842285" ref="CARBON_elm"/>
+      <fraction n="0.10344827920198441" ref="HYDROGEN_elm"/>
+      <fraction n="0.27586206793785095" ref="SULFUR_elm"/>
+    </material>
+    <material name="T0_Lucite">
+      <D unit="g/cm3" value="1.1599999666213989"/>
+      <fraction n="0.59973233938217163" ref="CARBON_elm"/>
+      <fraction n="0.080696702003479004" ref="HYDROGEN_elm"/>
+      <fraction n="0.31957092881202698" ref="OXYGEN_elm"/>
+    </material>
+    <material name="T0_Penoplast">
+      <D unit="g/cm3" value="0.10000000149011612"/>
+      <fraction n="0.92307692766189575" ref="CARBON_elm"/>
+      <fraction n="0.076923079788684845" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="T0_PMT_Optical_glass___">
+      <D unit="g/cm3" value="2.6500000953674316"/>
+      <fraction n="0.39358744025230408" ref="OXYGEN_elm"/>
+      <fraction n="0.60641258955001831" ref="SILICON_elm"/>
+    </material>
+    <material name="T0_PMT_Optical_glass_cathode_">
+      <D unit="g/cm3" value="2.6500000953674316"/>
+      <fraction n="0.26993358135223389" ref="OXYGEN_elm"/>
+      <fraction n="0.73006641864776611" ref="SILICON_elm"/>
+    </material>
+    <material name="T0_T0_Opt_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="T0_T0_Opt_Air_Next">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="EMCAL_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="EMCAL_Pb" Z="82">
+      <D unit="g/cm3" value="11.350000381469727"/>
+      <atom unit="g/mole" value="207.19999694824219"/>
+    </material>
+    <material name="EMCAL_Polystyrene">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.92257893085479736" ref="CARBON_elm"/>
+      <fraction n="0.077421054244041443" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="EMCAL_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="EMCAL_STAINLESS_STEEL">
+      <D unit="g/cm3" value="7.880000114440918"/>
+      <fraction n="0.18000000715255737" ref="CHROMIUM_elm"/>
+      <fraction n="0.7149999737739563" ref="IRON_elm"/>
+      <fraction n="0.10000000149011612" ref="NICKEL_elm"/>
+      <fraction n="0.004999999888241291" ref="SILICON_elm"/>
+    </material>
+    <material name="ACORDE_ALUMINIUM0" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="ACORDE_AIR0">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <material name="ACORDE_Polystyrene">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.92257893085479736" ref="CARBON_elm"/>
+      <fraction n="0.077421054244041443" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="ACORDE_Molasse">
+      <D unit="g/cm3" value="2.4000000953674316"/>
+      <fraction n="0.037000000476837158" ref="ALUMINIUM_elm"/>
+      <fraction n="0.10000000149011612" ref="CALCIUM_elm"/>
+      <fraction n="0.043000001460313797" ref="CARBON_elm"/>
+      <fraction n="0.0080000003799796104" ref="HYDROGEN_elm"/>
+      <fraction n="0.039999999105930328" ref="IRON_elm"/>
+      <fraction n="0.041999999433755875" ref="MAGNESIUM_elm"/>
+      <fraction n="0.48500001430511475" ref="OXYGEN_elm"/>
+      <fraction n="0.023000000044703484" ref="POTASSIUM_elm"/>
+      <fraction n="0.21500000357627869" ref="SILICON_elm"/>
+      <fraction n="0.0070000002160668373" ref="SODIUM_elm"/>
+    </material>
+    <material name="ACORDE_CONCRETE">
+      <D unit="g/cm3" value="2.3499999046325684"/>
+      <fraction n="0.033872000873088837" ref="ALUMINIUM_elm"/>
+      <fraction n="0.043999999761581421" ref="CALCIUM_elm"/>
+      <fraction n="0.0010000000474974513" ref="CARBON_elm"/>
+      <fraction n="0.0099999997764825821" ref="HYDROGEN_elm"/>
+      <fraction n="0.014000000432133675" ref="IRON_elm"/>
+      <fraction n="0.0020000000949949026" ref="MAGNESIUM_elm"/>
+      <fraction n="0.52910697460174561" ref="OXYGEN_elm"/>
+      <fraction n="0.013000000268220901" ref="POTASSIUM_elm"/>
+      <fraction n="0.33702099323272705" ref="SILICON_elm"/>
+      <fraction n="0.016000000759959221" ref="SODIUM_elm"/>
+    </material>
+    <material name="VZERO_V0CAlu" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="VZERO_V0CCar" Z="6">
+      <D unit="g/cm3" value="2.2650001049041748"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="VZERO_V0CSci">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.92257893085479736" ref="CARBON_elm"/>
+      <fraction n="0.077421054244041443" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0ASci">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.91555047035217285" ref="CARBON_elm"/>
+      <fraction n="0.084449529647827148" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0ALuc">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.91555047035217285" ref="CARBON_elm"/>
+      <fraction n="0.084449529647827148" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0APlaOu">
+      <D unit="g/cm3" value="3.0339999198913574"/>
+      <fraction n="0.27009820938110352" ref="ALUMINIUM_elm"/>
+      <fraction n="0.72990179061889648" ref="MAGNESIUM_elm"/>
+    </material>
+    <material name="VZERO_V0APlaIn">
+      <D unit="g/cm3" value="0.041999999433755875"/>
+      <fraction n="0.91555047035217285" ref="CARBON_elm"/>
+      <fraction n="0.084449529647827148" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0AFib">
+      <D unit="g/cm3" value="1.0499999523162842"/>
+      <fraction n="0.92302095890045166" ref="CARBON_elm"/>
+      <fraction n="0.076979033648967743" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0APMA" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="VZERO_V0APMG" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+  </materials>
+  

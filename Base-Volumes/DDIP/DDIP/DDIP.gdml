@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY DDIP_define SYSTEM "DDIP_define">
+<!ENTITY DDIP_materials SYSTEM "DDIP_materials">
+<!ENTITY DDIP_solids SYSTEM "DDIP_solids">
+<!ENTITY DDIP_structure SYSTEM "DDIP_structure">
+<!ENTITY DDIP_setup SYSTEM "DDIP_setup">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&DDIP_define;&DDIP_materials;&DDIP_solids;&DDIP_structure;&DDIP_setup;</gdml>

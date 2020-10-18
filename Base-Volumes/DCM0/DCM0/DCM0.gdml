@@ -1,16 +1,10 @@
 
 <!DOCTYPE gdml [
-<!ENTITY define SYSTEM "define.xml">
-<!ENTITY materials SYSTEM "materials.xml">
-<!ENTITY solids SYSTEM "DCM0-solids.xml">
-<!ENTITY structure SYSTEM "DCM0-structure.xml">
-<!ENTITY setup SYSTEM "setup.xml">
+<!ENTITY DCM0_define SYSTEM "DCM0_define">
+<!ENTITY DCM0_materials SYSTEM "DCM0_materials">
+<!ENTITY DCM0_solids SYSTEM "DCM0_solids">
+<!ENTITY DCM0_structure SYSTEM "DCM0_structure">
+<!ENTITY DCM0_setup SYSTEM "DCM0_setup">
 ]>
 
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
-  &define;
-&materials;
-&solids;
-&structure;
-&setup;
-</gdml>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&DCM0_define;&DCM0_materials;&DCM0_solids;&DCM0_structure;&DCM0_setup;</gdml>

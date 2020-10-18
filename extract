@@ -1,0 +1,66 @@
+#python3 Utils/extractVol.py 1 L3MO Alice_original.gdml Base-Volumes/L3MO/L3MO
+#python3 Utils/extractVol.py 1 AFA Alice_original.gdml Base-Volumes/AFA/AFA
+#python3 Utils/extractVol.py 1 Dipole Alice_original.gdml Base-Volumes/Dipole/Dipole
+#python3 Utils/extractVol.py 1 DDIP Alice_original.gdml Base-Volumes/DDIP/DDIP
+#python3 Utils/extractVol.py 1 DCM0 Alice_original.gdml Base-Volumes/DCM0/DCM0
+#python3 Utils/extractVol.py 1 HALL Alice_original.gdml Base-Volumes/HALL/HALL
+#B077
+#python3 Utils/extractVol.py 1 BRS1 Alice_original.gdml Base-Volumes/BRS1/BRS1
+#python3 Utils/extractVol.py 1 BRS4 Alice_original.gdml Base-Volumes/BRS4/BRS4
+#python3 Utils/extractVol.py 1 BFMO Alice_original.gdml Base-Volumes/BFMO/BFMO
+#python3 Utils/extractVol.py 1 BBMO Alice_original.gdml Base-Volumes/BBMO/BBMO
+#python3 Utils/extractVol.py 1 YSAA Alice_original.gdml Base-Volumes/YSAA/YSAA
+python3 Utils/extractVol.py 1 YOUT1 Alice_original.gdml Base-Volumes/YOUT1/YOUT1
+exit
+YOUT2
+CP
+RB24
+RB26Pipe
+ITSV
+ICYL
+ICYL
+TPC_M
+Hmp0
+Hmp1
+Hcradle
+Hmp2
+Hmp3
+Hcradle
+Hmp4
+Hmp5
+Hcradle
+Hmp6
+ZDCC
+ZDCA
+ZEM
+ZEM
+ZEL2
+F1MT
+F1MB
+F2MT
+F2MB
+F3MT
+F3MB
+PRRD
+PCRA
+PCRA
+PWHE
+PWHE
+PWHE
+PWHE
+PHOS
+PHOS
+PHOS
+PHOS
+PHOS
+EPM1
+EPM2
+EPM3
+EPM4
+OSUP
+OSTR
+OSTL
+XEN1
+CalFrame
+ACORDE
+VZERO
