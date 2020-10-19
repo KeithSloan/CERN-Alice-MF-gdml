@@ -10,12 +10,15 @@
 #python3 Utils/extractVol.py 1 BFMO Alice_original.gdml Base-Volumes/BFMO/BFMO
 #python3 Utils/extractVol.py 1 BBMO Alice_original.gdml Base-Volumes/BBMO/BBMO
 #python3 Utils/extractVol.py 1 YSAA Alice_original.gdml Base-Volumes/YSAA/YSAA
-python3 Utils/extractVol.py 1 YOUT1 Alice_original.gdml Base-Volumes/YOUT1/YOUT1
+# YOUT1
+#python3 Utils/extractVol.py 1 YOUT1 Alice_original.gdml Base-Volumes/YOUT1/YOUT1
+# YOUT2
+#python3 Utils/extractVol.py 1 YOUT2 Alice_original.gdml Base-Volumes/YOUT2/YOUT2
+#python3 Utils/extractVol.py 1 CP Alice_original.gdml Base-Volumes/CP/CP
+#python3 Utils/extractVol.py 1 RB24 Alice_original.gdml Base-Volumes/RB24/RB24
+#python3 Utils/extractVol.py 1 RB26Pipe Alice_original.gdml Base-Volumes/RB26Pipe/RB26Pipe
+python3 Utils/extractVol.py 1 ITSV Alice_original.gdml Base-Volumes/ITSV/ITSV
 exit
-YOUT2
-CP
-RB24
-RB26Pipe
 ITSV
 ICYL
 ICYL

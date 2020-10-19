@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY RB24_define SYSTEM "RB24_define">
+<!ENTITY RB24_materials SYSTEM "RB24_materials">
+<!ENTITY RB24_solids SYSTEM "RB24_solids">
+<!ENTITY RB24_structure SYSTEM "RB24_structure">
+<!ENTITY RB24_setup SYSTEM "RB24_setup">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&RB24_define;&RB24_materials;&RB24_solids;&RB24_structure;&RB24_setup;</gdml>

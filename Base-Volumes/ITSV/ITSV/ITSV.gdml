@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY ITSV_define SYSTEM "ITSV_define">
+<!ENTITY ITSV_materials SYSTEM "ITSV_materials">
+<!ENTITY ITSV_solids SYSTEM "ITSV_solids">
+<!ENTITY ITSV_structure SYSTEM "ITSV_structure">
+<!ENTITY ITSV_setup SYSTEM "ITSV_setup">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&ITSV_define;&ITSV_materials;&ITSV_solids;&ITSV_structure;&ITSV_setup;</gdml>

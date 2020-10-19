@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY YOUT2_define SYSTEM "YOUT2_define">
+<!ENTITY YOUT2_materials SYSTEM "YOUT2_materials">
+<!ENTITY YOUT2_solids SYSTEM "YOUT2_solids">
+<!ENTITY YOUT2_structure SYSTEM "YOUT2_structure">
+<!ENTITY YOUT2_setup SYSTEM "YOUT2_setup">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&YOUT2_define;&YOUT2_materials;&YOUT2_solids;&YOUT2_structure;&YOUT2_setup;</gdml>
