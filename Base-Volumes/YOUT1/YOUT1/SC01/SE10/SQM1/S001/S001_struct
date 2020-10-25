@@ -1,0 +1,13 @@
+<volume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="S001">
+      <materialref ref="MUON_AIR"/>
+      <solidref ref="S0010x1"/>
+      <physvol name="S201_1" copynumber="1">
+        <volumeref ref="S201"/>
+        <positionref ref="S201_1inS001pos"/>
+      </physvol>
+      <physvol name="S401_1" copynumber="1">
+        <volumeref ref="S401"/>
+        <positionref ref="S401_1inS001pos"/>
+      </physvol>
+    </volume>
+    

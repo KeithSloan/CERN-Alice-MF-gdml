@@ -1,0 +1,6 @@
+<intersection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="shFaWring3">
+      <first ref="shFaWring3a"/>
+      <second ref="shFaWring3b"/>
+      <position name="shFaWring3shFaWring3bpos" x="12.549999713897705" y="12.549999713897705" z="0" unit="cm"/>
+    </intersection>
+    

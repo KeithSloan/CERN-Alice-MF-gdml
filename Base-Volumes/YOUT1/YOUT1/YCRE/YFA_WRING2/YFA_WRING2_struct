@@ -1,0 +1,5 @@
+<volume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="YFA_WRING2">
+      <materialref ref="SHIL_Ni-W-Cu1"/>
+      <solidref ref="shFaWring2"/>
+    </volume>
+    

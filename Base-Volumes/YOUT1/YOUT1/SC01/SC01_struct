@@ -1,0 +1,22 @@
+<assembly xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="SC01">
+      <physvol name="SE10_1" copynumber="1">
+        <volumeref ref="SE10"/>
+        <positionref ref="SE10_1inSC01pos"/>
+        <rotationref ref="SE10_1inSC01rot"/>
+      </physvol>
+      <physvol name="SE11_1" copynumber="1">
+        <volumeref ref="SE11"/>
+        <positionref ref="SE11_1inSC01pos"/>
+      </physvol>
+      <physvol name="SE12_1" copynumber="1">
+        <volumeref ref="SE12"/>
+        <positionref ref="SE12_1inSC01pos"/>
+        <rotationref ref="SE12_1inSC01rot"/>
+      </physvol>
+      <physvol name="SE13_1" copynumber="1">
+        <volumeref ref="SE13"/>
+        <positionref ref="SE13_1inSC01pos"/>
+        <rotationref ref="SE13_1inSC01rot"/>
+      </physvol>
+    </assembly>
+    

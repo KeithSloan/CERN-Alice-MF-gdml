@@ -1,0 +1,31 @@
+<volume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="YOUT1">
+      <materialref ref="SHIL_AIR_MUON"/>
+      <solidref ref="TGeoPcon0x30"/>
+      <physvol name="YSAA1ExtraShield_1" copynumber="1">
+        <volumeref ref="YSAA1ExtraShield"/>
+        <positionref ref="YSAA1ExtraShield_1inYOUT1pos"/>
+        <scale name="YSAA1ExtraShield_1inYOUT1scl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="YCRE_1" copynumber="1">
+        <volumeref ref="YCRE"/>
+        <positionref ref="YCRE_1inYOUT1pos"/>
+        <scale name="YCRE_1inYOUT1scl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="SC01_1" copynumber="1">
+        <volumeref ref="SC01"/>
+        <positionref ref="SC01_1inYOUT1pos"/>
+      </physvol>
+      <physvol name="SC02_1" copynumber="1">
+        <volumeref ref="SC02"/>
+        <positionref ref="SC02_1inYOUT1pos"/>
+      </physvol>
+      <physvol name="SC03_1" copynumber="1">
+        <volumeref ref="SC03"/>
+        <positionref ref="SC03_1inYOUT1pos"/>
+      </physvol>
+      <physvol name="SC04_1" copynumber="1">
+        <volumeref ref="SC04"/>
+        <positionref ref="SC04_1inYOUT1pos"/>
+      </physvol>
+    </volume>
+    
