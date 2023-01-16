@@ -1,1 +1,1 @@
-python3 Utils/buildDirStruct.py 1 VeloSensorslvVeloRDetector lhcbvelo.gdml /tmp/test2
+python3 newUtils/buildDirStruct.py 1 VeloSensorslvVeloRDetector lhcbvelo.gdml /tmp/test2

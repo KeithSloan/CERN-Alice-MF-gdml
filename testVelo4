@@ -1,1 +1,1 @@
-python3 Utils/buildDirStruct.py 1 VeloStationslvVeloUStation lhcbvelo.gdml /tmp/test4
+python3 newUtils/buildDirStruct.py 1 VeloStationslvVeloUStation lhcbvelo.gdml /tmp/test4
