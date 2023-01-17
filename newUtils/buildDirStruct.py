@@ -23,6 +23,7 @@ class gdml_lxml() :
         self.materials = self.root.find('materials')
         self.solids    = self.root.find('solids')
         self.structure = self.root.find('structure')
+        self.volAsmDict = {}  # Can have number of PhysVols that refer to same
 
     def printElement(self, elem):
         import lxml.html as html    
@@ -33,6 +34,14 @@ class gdml_lxml() :
         name = elem.attrib.get('name')
         print(f"{elem} : {name}")
 
+    def checkVolAsmDict(self, name):
+        #print(f"Check Vol Asm Dict {self.volAsmDict}")
+        if name in self.volAsmDict.keys():
+            return False        # No need to process
+        return True             # NEED to process
+
+    def addVolAsmDict(self, name, elem):
+        self.volAsmDict[name] = elem
 
     def getPosition(self, posName) :
         return self.define.find(f"position[@name='{posName}']")
@@ -41,10 +50,12 @@ class gdml_lxml() :
         return self.define.find(f"rotation[@name='{rotName}']")
 
     def getSolid(self, sname) :
+        self.solids    = self.root.find('solids')
         print(f"getSolid : {self.solids} {len(self.solids)} {sname}")
         #self.printElement(self.solids)
         #return self.solids.find(f"*[@name='{sname}']")
         ret = self.solids.find(f"*[@name='{sname}']")
+        print(f"getSolid : {self.solids} {len(self.solids)} {sname}")
         if ret is not None:
             self.printElement(ret)
         print(ret)
@@ -70,31 +81,31 @@ class gdml_lxml() :
 
 class VolAsm() :
 
-   def __init__(self, vaname) :
-       from lxml import etree
+    def __init__(self, vaname) :
+        from lxml import etree
 
-       self.vaname    = vaname
-       NS = 'http://www.w3.org/2001/XMLSchema-instance'
-       location_attribute = '{%s}noNameSpaceSchemaLocation' % NS
-       self.gdml = etree.Element('gdml',attrib={location_attribute: \
-       'http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd'})
-       self.newDefine = etree.SubElement(self.gdml,'define')
-       self.newSolids = etree.SubElement(self.gdml,'solids')
-       self.newMaterials = etree.SubElement(self.gdml,'materials')
-       self.materialDict = {}
-       self.solidDict = {}
-       self.posDict  = {}
-       self.rotDict  = {}
+        self.vaname    = vaname
+        NS = 'http://www.w3.org/2001/XMLSchema-instance'
+        location_attribute = '{%s}noNameSpaceSchemaLocation' % NS
+        self.gdml = etree.Element('gdml',attrib={location_attribute: \
+        'http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd'})
+        self.newDefine = etree.SubElement(self.gdml,'define')
+        self.newSolids = etree.SubElement(self.gdml,'solids')
+        self.newMaterials = etree.SubElement(self.gdml,'materials')
+        self.materialDict = {}
+        self.solidDict = {}
+        self.posDict  = {}
+        self.rotDict  = {}
 
 
-   def addDefine(self, d) :
+    def addDefine(self, d) :
         if d is not None  :
             self.newDefine.append(d)
         else :
             print('==== Problem with define')
             exit(1)
   
-   def processPosition(self, lxml, posName) :
+    def processPosition(self, lxml, posName) :
        #print(lxml.getPosition(posName))
        if posName not in self.posDict :
           pxml = lxml.getPosition(posName)
@@ -104,7 +115,7 @@ class VolAsm() :
           else:
              print(f"Position {posName} Not Found")
 
-   def processRotation(self,lxml, rotName) :
+    def processRotation(self,lxml, rotName) :
        #print(lxml.getPosition(rotName))
        if rotName not in self.rotDict :
            rxml = lxml.getPosition(rotName)
@@ -116,7 +127,7 @@ class VolAsm() :
                print(f"Rotation {rotName} Not Found")
 
    
-   def processSolid(self, lxml, sname) :
+    def processSolid(self, lxml, sname) :
        print(f"{self.vaname} Solid List {self.solidDict}")
        if sname not in self.solidDict :
            sxml = lxml.getSolid(sname)
@@ -127,18 +138,20 @@ class VolAsm() :
                print(f"Solid : {sname} Not Found")
                exit(1)
 
-   def processPhysVols(self, lxml, volasm, path) :
+    def processPhysVols(self, lxml, volasm, path) :
        vaname = volasm.attrib.get('name')
        print('Process Phys Vols of : '+vaname)
        for pv in volasm.findall('physvol') :
            volref = pv.find('volumeref')
            pname = volref.attrib.get('ref')
            print('physvol : '+pname)
-           npath = os.path.join(path, pname)
-           print('New path : '+npath)
-           checkDirectory(npath)
-           new_pa = VolAsm(pname)
-           new_pa.processVolAsm(lxml, npath, pname)
+           # Is this a new VolAsm
+           if lxml.checkVolAsmDict(pname) == True:
+                npath = os.path.join(path, pname)
+                print('New path : '+npath)
+                checkDirectory(npath)
+                new_pa = VolAsm(pname)
+                new_pa.processVolAsm(lxml, npath, pname)
            posref = pv.find('positionref')
            if posref is not None :
               posname = posref.attrib.get('ref')
@@ -149,16 +162,16 @@ class VolAsm() :
               rotname = rotref.attrib.get('ref')
               print('Stack Rotation ref : '+rotname)
               self.processRotation(lxml, rotname)
-       print('Number of positions in : '+vaname+' : '+str(len(self.posDict)))
-       print(self.posDict)
-       for posName in self.posDict :
-           print('Pull Position '+posName)
-           self.addDefine(self.posDict[posName])
-       for rotName in self.rotDict :
-           self.addDefine(self.rotDict[rotName])
-       writeElement(path, vaname, 'defines', self.newDefine)
+           print('Number of positions in : '+vaname+' : '+str(len(self.posDict)))
+           #print(self.posDict)
+           for posName in self.posDict :
+               print('Pull Position '+posName)
+               self.addDefine(self.posDict[posName])
+           for rotName in self.rotDict :
+               self.addDefine(self.rotDict[rotName])
+           writeElement(path, vaname, 'defines', self.newDefine)
   
-   def processVolume(self, lxml, path, vol) :
+    def processVolume(self, lxml, path, vol) :
         print('Process Volume')
         lxml.printName(vol)
         # Need to process physvols first
@@ -178,28 +191,32 @@ class VolAsm() :
         #writeElement(path, vaname, 'solids', self.newSolids)
         #writeElement(path, vname, 'materials', materials)
 
-   def processAssembly(self, lxml, path, assem) :
+    def processAssembly(self, lxml, path, assem) :
        aname = assem.attrib.get('name')
        print('Process Assembly ; '+aname)
        self.processPhysVols(lxml, assem, path)
 
-   def processVolAsm(self, lxml, path, vaname):
-       print('Processing VolAsm : '+vaname)
-       volasm = lxml.getVolAsm(vaname)
-       lxml.printName(volasm)
-       #print(lxml.printElement(volasm))
-       if volasm is not None :
-          writeElement(path, vaname, 'struct', volasm)
-          if volasm.tag == 'volume' :
-             self.processVolume(lxml, path, volasm)
-          elif volasm.tag == 'assembly' :
-             self.processAssembly(lxml, path, volasm)
-          else :
-             print('Not Volume or Assembly : '+volasm.tag)
-       else :
-          print(vaname+ ' : Not Found')
+    def processVolAsm(self, lxml, path, vaname):
+        if lxml.checkVolAsmDict(vaname):
+            volasm = lxml.getVolAsm(vaname)
+            lxml.addVolAsmDict(vaname, volasm)
+            print('Processing VolAsm : '+vaname)
+            lxml.printName(volasm)
+            if volasm is not None:
+                writeElement(path, vaname, 'struct', volasm)
+                if volasm.tag == 'volume':
+                    self.processVolume(lxml, path, volasm)
+                elif volasm.tag == 'assembly':
+                    self.processAssembly(lxml, path, volasm)
+                else:
+                    print('Not Volume or Assembly : '+volasm.tag)
+                self.flushDicts(path, vaname)
+            return True    
+        else:
+            print(f"Already processed {vaname}")
+            return False
 
-    #def flushDicts(self, path, vaname):
+    def flushDicts(self, path, vaname):
        print(f"Flush Dicts {vaname}") 
        for sName in self.solidDict:
             self.newSolids.append(self.solidDict.get(sName))
