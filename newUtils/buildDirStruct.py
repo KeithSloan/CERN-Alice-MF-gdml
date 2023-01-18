@@ -67,12 +67,12 @@ class gdml_lxml() :
     def getVolAsm(self, vaname) :
         return self.structure.find(f"*[@name='{vaname}']")
 
-    def addElement(self, elemName) :
-        self.docString += '<!ENTITY '+elemName+' SYSTEM "'+elemName+'">\n'
-        self.gdml.append(etree.Entity(elemName))
+    #def addEntity(self, elemName, xmlFile) :
+    #    self.docString += "<!ENTITY " + elemName + ' SYSTEM "' + xmlFile+'">\n'
+    #    self.gdml.append(etree.Entity(elemName))
 
-    def closeElements(self) :
-        self.docString += ']\n'
+    #def closeElements(self) :
+    #    self.docString += ']\n'
 
     def writeGDML(self, path,vname) :
         #indent(iself.gdml)
@@ -89,9 +89,13 @@ class VolAsm() :
         location_attribute = '{%s}noNameSpaceSchemaLocation' % NS
         self.gdml = etree.Element('gdml',attrib={location_attribute: \
         'http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd'})
-        self.newDefine = etree.SubElement(self.gdml,'define')
-        self.newSolids = etree.SubElement(self.gdml,'solids')
-        self.newMaterials = etree.SubElement(self.gdml,'materials')
+        self.docString = "\n<!DOCTYPE gdml [\n"
+        #self.newDefine = etree.SubElement(self.gdml,'define')
+        self.newDefine = etree.Element('define')
+        #self.newSolids = etree.SubElement(self.gdml,'solids')
+        self.newSolids = etree.Element('solids')
+        #self.newMaterials = etree.SubElement(self.gdml,'materials')
+        self.newMaterials = etree.Element('materials')
         self.materialDict = {}
         self.solidDict = {}
         self.posDict  = {}
@@ -170,6 +174,7 @@ class VolAsm() :
            for rotName in self.rotDict :
                self.addDefine(self.rotDict[rotName])
            writeElement(path, vaname, 'defines', self.newDefine)
+           self.addEntity('define',vaname+'_defines.xml')
   
     def processVolume(self, lxml, path, vol) :
         print('Process Volume')
@@ -221,12 +226,26 @@ class VolAsm() :
        for sName in self.solidDict:
             self.newSolids.append(self.solidDict.get(sName))
        writeElement(path, vaname, 'solids', self.newSolids)
+       self.addEntity('solids',vaname+'_solids.xml')
  
        for mName in self.materialDict: 
             self.newMaterialss.append(self.materialDict.get(mName))
-       writeElement(path, vaname, 'solids', self.newSolids)
+       writeElement(path, vaname, 'materials', self.newMaterials)
+       self.addEntity('materials',vaname+'_materials.xml')
+       self.closeEntities()
+       self.writeGDML(path, vaname)
 
+    def addEntity(self, elemName, xmlFile) :
+        self.docString += "<!ENTITY "+elemName+' SYSTEM "'+xmlFile+'">\n'
+        self.gdml.append(etree.Entity(elemName))
 
+    def closeEntities(self) :
+        self.docString += ']\n'
+
+    def writeGDML(self, path, vname) :
+        #indent(iself.gdml)
+        etree.ElementTree(self.gdml).write(os.path.join(path,vname+'.gdml'), \
+               doctype=self.docString.encode('UTF-8'))
 
 
 def checkDirectory(path):
@@ -234,14 +253,14 @@ def checkDirectory(path):
        print('Creating Directory : '+path)
        os.mkdir(path)
 
-def writeElement(path, sname, type, elem) :
+def writeElement(path, sname, type, elem, ext="xml") :
     import os
 
     fpath = os.path.join(path,sname+'_'+type)
     print('writing file : '+fpath)
-    etree.ElementTree(elem).write(fpath)
+    etree.ElementTree(elem).write(fpath+'.'+ext)
 
-def exportElement(dirPath, elemName, elem) :
+def exportEntity(dirPath, elemName, elem) :
     import os
     global gdml, docString
 
