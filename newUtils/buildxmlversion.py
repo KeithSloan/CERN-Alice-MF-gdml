@@ -1,5 +1,6 @@
 import sys, os
-from lxml import etree
+#from xml import etree
+import xml.etree.ElementTree as etree
 
 class gdml_lxml() :
     def __init__(self, filename) :
@@ -73,8 +74,8 @@ class gdml_lxml() :
 
 
     def processMaterial(self, newMat, mat):
-        print(f"Process Material : {len(self.materials)} {mat}")
-        #self.printElement(self.materials)
+        print(f"Process Material : {self.materials} {mat}")
+        self.printElement(self.materials)
         matXml = self.materials.find(f"*[@name='{mat}']")
         print(f"matXml {matXml}")
         if matXml is not None:
@@ -270,6 +271,8 @@ class VolAsm() :
        self.writeGDML(path, vaname)
 
     def addEntity(self, elemName, xmlFile) :
+        print(f"Not supported with xml - needs lxml")
+        return
         self.docString += "<!ENTITY "+elemName+' SYSTEM "'+xmlFile+'">\n'
         self.gdml.append(etree.Entity(elemName))
 
@@ -278,8 +281,9 @@ class VolAsm() :
 
     def writeGDML(self, path, vname) :
         #indent(iself.gdml)
-        etree.ElementTree(self.gdml).write(os.path.join(path,vname+'.gdml'), \
-               doctype=self.docString.encode('UTF-8'))
+        etree.ElementTree(self.gdml).write(os.path.join(path,vname+'.gdml'))
+        #etree.ElementTree(self.gdml).write(os.path.join(path,vname+'.gdml')
+        # not supported xml doctype=self.docString.encode('UTF-8'))
 
 
 def checkDirectory(path):
