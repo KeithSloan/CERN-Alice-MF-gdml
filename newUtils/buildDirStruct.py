@@ -65,17 +65,28 @@ class gdml_lxml() :
         return(self.materials)
 
 
+    def getMaterialElement(self, name):
+        print(f"Get Material Element : {name}")
+        # Use copy as possible workaround
+        materialsElem = self.materials
+        elemXml = materialsElem.find(f"*[@name='{name}']")
+        if elemXml is not None:
+            print(f"Element : {elemXml.get('name')}")
+        return(elemXml)
+
+
     def processElement(self, elem):
-        print(f"Process Element : {elem}")
-        elemXml = self.materials.find(f"*[@name='{elem}']")
+        print(f"Process Element : {elem} {len(self.materials)}")
+        materialsElem = self.materials
+        elemXml = materialsElem.find(f"*[@name='{elem}']")
         if elemXml is not None:
             print(f"Element : {elemXml.get('name')}")
 
 
     def processMaterial(self, newMat, mat):
-        print(f"Process Material : {len(self.materials)} {mat}")
+        print(f"Process Material : {self.materials} {len(self.materials)} {mat}")
         #self.printElement(self.materials)
-        matXml = self.materials.find(f"*[@name='{mat}']")
+        matXml = self.getMaterialElement(mat)
         print(f"matXml {matXml}")
         if matXml is not None:
             #newMat.insert(0, matXml)
@@ -99,7 +110,7 @@ class gdml_lxml() :
             if matXml is not None:
                 print(f"insert into Materials XML {volAsm.newMaterials}")
             #    newMat.insert(0, matXml)
-                volAsm.newMaterials.append(matXml)
+                #volAsm.newMaterials.append(matXml)
 
     def getVolAsm(self, vaname) :
         return self.structure.find(f"*[@name='{vaname}']")
@@ -191,7 +202,7 @@ class VolAsm() :
                 print('New path : '+npath)
                 checkDirectory(npath)
                 new_pa = VolAsm(pname)
-                new_pa.processVolAsm(lxml, npath, pname)
+                new_pa.processVolAsm(lxml, self, npath, pname)
            posref = pv.find('positionref')
            if posref is not None :
               posname = posref.attrib.get('ref')
@@ -212,7 +223,7 @@ class VolAsm() :
            writeElement(path, vaname, 'defines', self.newDefine)
            self.addEntity('define',vaname+'_defines.xml')
   
-    def processVolume(self, lxml, path, vol) :
+    def processVolume(self, lxml, parent, path, vol) :
         print('Process Volume')
         lxml.printName(vol)
         # Need to process physvols first
@@ -228,15 +239,18 @@ class VolAsm() :
             material = materialRef.attrib.get('ref')
             if material not in self.matList:
                 self.matList.append(material)
+            if parent is not None:    
+                if material not in parent.matList:
+                    parent.matList.append(material)
         #writeElement(path, vaname, 'solids', self.newSolids)
         #writeElement(path, vname, 'materials', materials)
 
-    def processAssembly(self, lxml, path, assem) :
+    def processAssembly(self, lxml, parent, path, assem) :
        aname = assem.attrib.get('name')
        print('Process Assembly ; '+aname)
-       self.processPhysVols(lxml, assem, path)
+       self.processPhysVols(lxml, parent, ssem, path)
 
-    def processVolAsm(self, lxml, path, vaname):
+    def processVolAsm(self, lxml, parent, path, vaname):
         if lxml.checkVolAsmDict(vaname):
             volasm = lxml.getVolAsm(vaname)
             lxml.addVolAsmDict(vaname, volasm)
@@ -245,9 +259,9 @@ class VolAsm() :
             if volasm is not None:
                 writeElement(path, vaname, 'struct', volasm)
                 if volasm.tag == 'volume':
-                    self.processVolume(lxml, path, volasm)
+                    self.processVolume(lxml, parent, path, volasm)
                 elif volasm.tag == 'assembly':
-                    self.processAssembly(lxml, path, volasm)
+                    self.processAssembly(lxml, parent, ath, volasm)
                 else:
                     print('Not Volume or Assembly : '+volasm.tag)
                 self.flushDicts(lxml, path, vaname)
@@ -262,7 +276,8 @@ class VolAsm() :
             self.newSolids.append(self.solidDict.get(sName))
        writeElement(path, vaname, 'solids', self.newSolids)
        self.addEntity('solids',vaname+'_solids.xml')
- 
+
+       print(f"Len Materials {len(lxml.materials)}") 
        materialsXML = lxml.processMaterials(self, self.matList)
        #writeElement(path, vaname, 'materials', materialsXML)
        #self.addEntity('materials',vaname+'_materials.xml')
@@ -319,6 +334,6 @@ path = os.path.join(oName,vName)
 checkDirectory(path)
 lxml = gdml_lxml(iName)
 volasm = VolAsm(vName)
-volasm.processVolAsm(lxml, path, vName)
+volasm.processVolAsm(lxml, None, path, vName)
 #setup = etree.Element('setup', {'name':'Default', 'version':'1.0'})
 #etree.SubElement(setup,'world', { 'ref' : volList[-1]})

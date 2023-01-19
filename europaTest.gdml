@@ -616,7 +616,7 @@
       </physvol>
     </volume>
     <volume name="LWorld">
-      <materialref ref="Vacuum"/>
+      <materialref ref="Tungsten"/>
       <solidref ref="Box_LWorld"/>
       <physvol name="PV-mds_EL_Lander_Top_Panel_Con2_Bv53_A1">
         <volumeref ref="mds_EL_Lander_Top_Panel_Con2_Bv53_A1"/>
