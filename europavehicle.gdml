@@ -1,0 +1,2057 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:gdml="http://cern.ch/2001/Schemas/GDML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schema/gdml.xsd" >
+ <define>
+	<!-- mil to mm -->
+       <constant name="mil"		value="0.00254"/>
+	<!-- Use tolerance to minimize overlap problems where possible -->
+       <constant name="tolerance"		value="0.01"/>
+       <constant name="atolerance"		value="0.000001"/>
+	<!-- 70 degrees F -->
+       <constant name="temperature"		value="274."/>
+
+       <!-- constant name="thickness_Detector"					value="(0.001*mil)"/ -->
+       <!-- "5 micrometer thickness_Detector"					"/ -->
+       <constant name="thickness_Detector"					value="0.005"/>
+
+       <constant name="xb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="-575."/>
+       <constant name="xt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="575."/>
+       <constant name="yb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="-575."/>
+       <constant name="yt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="575."/>
+       <constant name="zb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="1939.856689453125"/>
+       <constant name="zt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="1989.856689453125"/>
+
+       <constant name="xb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="-554.54"/>
+       <constant name="xt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="554.54"/>
+       <constant name="yb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="-554.54"/>
+       <constant name="yt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="554.54"/>
+       <constant name="zb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="1948.356689453125"/>
+       <constant name="zt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="1989.856689453125"/>
+
+       <constant name="thickness_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"		value="thickness_Detector"/>
+
+       <constant name="xb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"		value="-260."/>
+       <constant name="xt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"		value="425."/>
+       <constant name="yb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"		value="-365."/>
+       <constant name="yt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"		value="270."/>
+       <constant name="zb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"		value="1889.056640625"/>
+       <constant name="zt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"		value="1939.856689453125"/>
+
+       <constant name="xb_mds_EL_Tel_Iso_Pnl_A1"			value="-407.487"/>
+       <constant name="xt_mds_EL_Tel_Iso_Pnl_A1"			value="407.487"/>
+       <constant name="yb_mds_EL_Tel_Iso_Pnl_A1"			value="-595.76863"/>
+       <constant name="yt_mds_EL_Tel_Iso_Pnl_A1"			value="-613.76863"/>
+       <constant name="zb_mds_EL_Tel_Iso_Pnl_A1"			value="2025.7965087890625"/>
+       <constant name="zt_mds_EL_Tel_Iso_Pnl_A1"			value="2429.4169921875"/>
+
+       <constant name="xb_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="(xb_mds_EL_Tel_Iso_Pnl_A1+2.)"/>
+       <constant name="xt_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="(xt_mds_EL_Tel_Iso_Pnl_A1-2.)"/>
+       <constant name="yb_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="(yb_mds_EL_Tel_Iso_Pnl_A1)"/>
+       <constant name="yt_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="(yt_mds_EL_Tel_Iso_Pnl_A1+2.)"/>
+       <constant name="zb_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="(zb_mds_EL_Tel_Iso_Pnl_A1+2.)"/>
+       <constant name="zt_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="(zt_mds_EL_Tel_Iso_Pnl_A1-2.)"/>
+
+       <constant name="thickness_mds_EL_Tel_Iso_Pnl_A1_Detector"	value="thickness_Detector"/>
+
+       <!--  measured side panel values -->
+       <!-- constant name="xb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="-522.674"/ -->
+       <!-- constant name="xt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="522.674"/ -->
+       <!-- constant name="yb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="-570.77074"/ -->
+       <!-- constant name="yt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="-579.22814"/ -->
+
+       <!-- close side panel gap and avoid overlap -->
+       <constant name="thickness_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	value="579.22814-570.77074"/>
+
+       <constant name="xb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="(-575+thickness_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1/2.)"/>
+       <constant name="xt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="(575.-thickness_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1/2.)"/>
+       <constant name="yb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="-570.77074"/>
+       <constant name="yt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="-579.22814"/>
+       <constant name="zb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="1989.86"/>
+       <constant name="zt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"		value="2433.56"/>
+
+       <constant name="xb_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"		value="-575."/>
+       <constant name="xt_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"		value="575."/>
+       <constant name="yb_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"		value="-575"/>
+       <constant name="yt_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"		value="575"/>
+       <constant name="zb_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"		value="2435.356689453125"/>
+       <constant name="zt_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"		value="2439.856689453125"/>
+
+       <constant name="xb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"		value="-564."/>
+       <constant name="xt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"		value="564."/>
+       <constant name="yb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"		value="-564"/>
+       <constant name="yt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"		value="564"/>
+       <constant name="zb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"		value="2433.856689453125"/>
+       <constant name="zt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"		value="2434.856689453125"/>
+
+       <constant name="xb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="-566."/>
+       <constant name="xt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="566."/>
+       <constant name="yb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="-566"/>
+       <constant name="yt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="566"/>
+       <constant name="zb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="2433.356689453125"/>
+       <constant name="zt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="2435.356689453125"/>
+
+       <constant name="xb_mds_EL_TSS_Sandia_FiberFraxLarger_A"			value="-427."/>
+       <constant name="xt_mds_EL_TSS_Sandia_FiberFraxLarger_A"			value="427."/>
+       <constant name="yb_mds_EL_TSS_Sandia_FiberFraxLarger_A"			value="-412."/>
+       <constant name="yt_mds_EL_TSS_Sandia_FiberFraxLarger_A"			value="412."/>
+       <constant name="zb_mds_EL_TSS_Sandia_FiberFraxLarger_A"			value="2474.316650390625"/>
+       <constant name="zt_mds_EL_TSS_Sandia_FiberFraxLarger_A"			value="2476.856689453125"/>
+
+       <constant name="xb_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"		value="-391.88"/>
+       <constant name="xt_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"		value="-25."/>
+       <constant name="yb_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"		value="586.7"/>
+       <constant name="yt_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"		value="755.69"/>
+       <constant name="zb_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"		value="2043.56"/>
+       <constant name="zt_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"		value="2381.66"/>
+
+       <constant name="ro_center_10447445_1_B001_2"				value="819.25"/>
+       <constant name="zb_center_10447445_1_B001_2"				value="2570.81298828125"/>
+       <constant name="zt_center_10447445_1_B001_2"				value="2571.625732421875"/>
+
+       <constant name="ro_BC_ELM_BIG_FAT_TANKS_MRK1_A003"			value="391.79050"/>
+
+       <constant name="ro_BC_ELM_DS_PRSRNT_ARDE_5004_A002"			value="212.63214"/>
+       <constant name="zb_BC_ELM_DS_PRSRNT_ARDE_5004_A002"			value="-142.47682189941406"/>
+       <constant name="zt_BC_ELM_DS_PRSRNT_ARDE_5004_A002"			value="142.8750457763672"/>
+
+       <constant name="xb_BC_ELM_DS_VAULT_MRK3_A002"				value="-500."/>
+       <constant name="xt_BC_ELM_DS_VAULT_MRK3_A002"				value="500."/>
+       <constant name="yb_BC_ELM_DS_VAULT_MRK3_A002"				value="-500."/>
+       <constant name="yt_BC_ELM_DS_VAULT_MRK3_A002"				value="500."/>
+       <constant name="zb_BC_ELM_DS_VAULT_MRK3_A002"				value="1071.5"/>
+       <constant name="zt_BC_ELM_DS_VAULT_MRK3_A002"				value="1437.5"/>
+
+       <constant name="xb_BC_ELM_DS_VAULT_MRK3_A002i"				value="-494."/>
+       <constant name="xt_BC_ELM_DS_VAULT_MRK3_A002i"				value="494."/>
+       <constant name="yb_BC_ELM_DS_VAULT_MRK3_A002i"				value="-494."/>
+       <constant name="yt_BC_ELM_DS_VAULT_MRK3_A002i"				value="494."/>
+       <constant name="zb_BC_ELM_DS_VAULT_MRK3_A002i"				value="1074.5"/>
+       <constant name="zt_BC_ELM_DS_VAULT_MRK3_A002i"				value="1431.5"/>
+
+       <constant name="xb_BC_ELM_DS_VAULT_MRK3_A1"				value="-500."/>
+       <constant name="xt_BC_ELM_DS_VAULT_MRK3_A1"				value="500."/>
+       <constant name="yb_BC_ELM_DS_VAULT_MRK3_A1"				value="-500."/>
+       <constant name="yt_BC_ELM_DS_VAULT_MRK3_A1"				value="500."/>
+       <constant name="zb_BC_ELM_DS_VAULT_MRK3_A1"				value="1021.5"/>
+       <constant name="zt_BC_ELM_DS_VAULT_MRK3_A1"				value="1071.5"/>
+
+       <constant name="xb_BC_ELM_DS_BATT_VOL_MRK2_A003"				value="514.428955078125"/>
+       <constant name="xt_BC_ELM_DS_BATT_VOL_MRK2_A003"				value="584.428955078125"/>
+       <constant name="yb_BC_ELM_DS_BATT_VOL_MRK2_A003"				value="-140."/>
+       <constant name="yt_BC_ELM_DS_BATT_VOL_MRK2_A003"				value="140."/>
+       <constant name="zb_BC_ELM_DS_BATT_VOL_MRK2_A003"				value="1134.5"/>
+       <constant name="zt_BC_ELM_DS_BATT_VOL_MRK2_A003"				value="1374.5"/>
+
+       <constant name="xb_BC_ELM_DS_BATT_VOL_MRK2_A003i"			value="516.428955078125"/>
+       <constant name="xt_BC_ELM_DS_BATT_VOL_MRK2_A003i"			value="582.428955078125"/>
+       <constant name="yb_BC_ELM_DS_BATT_VOL_MRK2_A003i"			value="-138."/>
+       <constant name="yt_BC_ELM_DS_BATT_VOL_MRK2_A003i"			value="138."/>
+       <constant name="zb_BC_ELM_DS_BATT_VOL_MRK2_A003i"			value="1136.5"/>
+       <constant name="zt_BC_ELM_DS_BATT_VOL_MRK2_A003i"			value="1372.5"/>
+
+       <constant name="xb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"		value="-350."/>
+       <constant name="xt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"		value="350."/>
+       <constant name="yb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"		value="-350."/>
+       <constant name="yt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"		value="350."/>
+       <constant name="zb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"		value="1792.1317138671875"/>
+       <constant name="zt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"		value="1812.1317138671875"/>
+
+       <constant name="xb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"		value="-300."/>
+       <constant name="xt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"		value="300."/>
+       <constant name="yb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"		value="-300."/>
+       <constant name="yt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"		value="300."/>
+       <constant name="zb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"		value="1792.1317138671875"/>
+       <constant name="zt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"		value="1812.1317138671875"/>
+
+       <constant name="xb_Detector_z1438"						value="-50.0"/>
+       <constant name="xt_Detector_z1438"						value="50.0"/>
+       <constant name="yb_Detector_z1438"						value="-50.0"/>
+       <constant name="yt_Detector_z1438"						value="50.0"/>
+       <constant name="zb_Detector_z1438"						value="1438.0"/>
+       <constant name="zt_Detector_z1438"						value="(zb_Detector_z1438+thickness_Detector)"/>
+
+       <constant name="dx_Detector_z1438"						value="(xt_Detector_z1438-xb_Detector_z1438)"/>
+       <constant name="dy_Detector_z1438"						value="(yt_Detector_z1438-yb_Detector_z1438)"/>
+       <constant name="dz_Detector_z1438"						value="thickness_Detector"/>
+
+       <constant name="x_Detector_z1438"						value="((xt_Detector_z1438+xb_Detector_z1438)/2.)"/>
+       <constant name="y_Detector_z1438"						value="((yt_Detector_z1438+yb_Detector_z1438)/2.)"/>
+       <constant name="z_Detector_z1438"						value="((zt_Detector_z1438+zb_Detector_z1438)/2.)"/>
+
+       <position name="pos_Detector_z1438" 	x="x_Detector_z1438" 	y="y_Detector_z1438" 	z="z_Detector_z1438"		unit="mm" />
+
+       <constant name="xb_Detector_z1889"						value="-50.0"/>
+       <constant name="xt_Detector_z1889"						value="50.0"/>
+       <constant name="yb_Detector_z1889"						value="-50.0"/>
+       <constant name="yt_Detector_z1889"						value="50.0"/>
+       <constant name="zb_Detector_z1889"						value="1889.0"/>
+       <constant name="zt_Detector_z1889"						value="(zb_Detector_z1889+thickness_Detector)"/>
+
+       <constant name="dx_Detector_z1889"						value="(xt_Detector_z1889-xb_Detector_z1889)"/>
+       <constant name="dy_Detector_z1889"						value="(yt_Detector_z1889-yb_Detector_z1889)"/>
+       <constant name="dz_Detector_z1889"						value="thickness_Detector"/>
+
+       <constant name="x_Detector_z1889"						value="((xt_Detector_z1889+xb_Detector_z1889)/2.)"/>
+       <constant name="y_Detector_z1889"						value="((yt_Detector_z1889+yb_Detector_z1889)/2.)"/>
+       <constant name="z_Detector_z1889"						value="((zt_Detector_z1889+zb_Detector_z1889)/2.)"/>
+
+       <position name="pos_Detector_z1889" 	x="x_Detector_z1889" 	y="y_Detector_z1889" 	z="z_Detector_z1889"		unit="mm" />
+
+       <constant name="xb_Detector_z2440"						value="-50.0"/>
+       <constant name="xt_Detector_z2440"						value="50.0"/>
+       <constant name="yb_Detector_z2440"						value="-50.0"/>
+       <constant name="yt_Detector_z2440"						value="50.0"/>
+       <constant name="zb_Detector_z2440"						value="2440.0"/>
+       <constant name="zt_Detector_z2440"						value="(zb_Detector_z2440+thickness_Detector)"/>
+
+       <constant name="dx_Detector_z2440"						value="(xt_Detector_z2440-xb_Detector_z2440)"/>
+       <constant name="dy_Detector_z2440"						value="(yt_Detector_z2440-yb_Detector_z2440)"/>
+       <constant name="dz_Detector_z2440"						value="thickness_Detector"/>
+
+       <constant name="x_Detector_z2440"						value="((xt_Detector_z2440+xb_Detector_z2440)/2.)"/>
+       <constant name="y_Detector_z2440"						value="((yt_Detector_z2440+yb_Detector_z2440)/2.)"/>
+       <constant name="z_Detector_z2440"						value="((zt_Detector_z2440+zb_Detector_z2440)/2.)"/>
+
+       <position name="pos_Detector_z2440" 	x="x_Detector_z2440" 	y="y_Detector_z2440" 	z="z_Detector_z2440"		unit="mm" />
+
+       <constant name="xb_Detector_z1990"						value="-50.0"/>
+       <constant name="xt_Detector_z1990"						value="50.0"/>
+       <constant name="yb_Detector_z1990"						value="-50.0"/>
+       <constant name="yt_Detector_z1990"						value="50.0"/>
+       <constant name="zb_Detector_z1990"						value="1990.0"/>
+       <constant name="zt_Detector_z1990"						value="(zb_Detector_z1990+thickness_Detector)"/>
+
+       <constant name="dx_Detector_z1990"						value="(xt_Detector_z1990-xb_Detector_z1990)"/>
+       <constant name="dy_Detector_z1990"						value="(yt_Detector_z1990-yb_Detector_z1990)"/>
+       <constant name="dz_Detector_z1990"						value="thickness_Detector"/>
+
+       <constant name="x_Detector_z1990"						value="((xt_Detector_z1990+xb_Detector_z1990)/2.)"/>
+       <constant name="y_Detector_z1990"						value="((yt_Detector_z1990+yb_Detector_z1990)/2.)"/>
+       <constant name="z_Detector_z1990"						value="((zt_Detector_z1990+zb_Detector_z1990)/2.)"/>
+
+       <position name="pos_Detector_z1990" 	x="x_Detector_z1990" 	y="y_Detector_z1990" 	z="z_Detector_z1990"		unit="mm" />
+
+       <constant name="xb_Detector_z2573"						value="-50.0"/>
+       <constant name="xt_Detector_z2573"						value="50.0"/>
+       <constant name="yb_Detector_z2573"						value="-50.0"/>
+       <constant name="yt_Detector_z2573"						value="50.0"/>
+       <constant name="zb_Detector_z2573"						value="2573.0"/>
+       <constant name="zt_Detector_z2573"						value="(zb_Detector_z2573+thickness_Detector)"/>
+
+       <constant name="dx_Detector_z2573"						value="(xt_Detector_z2573-xb_Detector_z2573)"/>
+       <constant name="dy_Detector_z2573"						value="(yt_Detector_z2573-yb_Detector_z2573)"/>
+       <constant name="dz_Detector_z2573"						value="thickness_Detector"/>
+
+       <constant name="x_Detector_z2573"						value="((xt_Detector_z2573+xb_Detector_z2573)/2.)"/>
+       <constant name="y_Detector_z2573"						value="((yt_Detector_z2573+yb_Detector_z2573)/2.)"/>
+       <constant name="z_Detector_z2573"						value="((zt_Detector_z2573+zb_Detector_z2573)/2.)"/>
+
+       <position name="pos_Detector_z2573" 	x="x_Detector_z2573" 	y="y_Detector_z2573" 	z="z_Detector_z2573"		unit="mm" />
+
+
+	<!-- World -->
+       	<constant name="dx_LWorld"						value="8000."/>
+       	<constant name="dy_LWorld"						value="dx_LWorld"/>
+       	<constant name="dz_LWorld"						value="dx_LWorld"/>
+
+       	<constant name="dx_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	value="(xt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1-xb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1)"/>
+       	<constant name="dy_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	value="(yt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1-yb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1)"/>
+       	<constant name="dz_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	value="(zt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1-zb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1)"/>
+       	<constant name="x_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="((xb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1+xt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1)/2.)"/>
+       	<constant name="y_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="((yb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1+yt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1)/2.)"/>
+       	<constant name="z_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"		value="((zb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1+zt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1)/2.)"/>
+
+       	<constant name="dx_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="(xt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity-xb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity)"/>
+       	<constant name="dy_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="(yt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity-yb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity)"/>
+       	<constant name="dz_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="(zt_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity-zb_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity)"/>
+       	<constant name="x_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="0."/>
+       	<constant name="y_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="0."/>
+       	<constant name="z_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	value="((dz_mds_EL_Lander_Top_Panel_Con2_Bv53_A1-dz_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity)/2.)"/>
+
+       	<constant name="z_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"	value="(-(dz_mds_EL_Lander_Top_Panel_Con2_Bv53_A1-thickness_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector)/2.)"/>
+
+       	<constant name="dx_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	value="(xt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1-xb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1)"/>
+       	<constant name="dy_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	value="(yt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1-yb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1)"/>
+       	<constant name="dz_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	value="(zt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1-zb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1)"/>
+       	<constant name="x_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	value="(-(yb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1+yt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1)/2.)"/>
+       	<constant name="y_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	value="((xb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1+xt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1)/2.)"/>
+       	<constant name="z_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	value="((zb_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1+zt_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1)/2.)"/>
+
+       	<constant name="dx_mds_EL_Tel_Iso_Pnl_A1"			value="(xt_mds_EL_Tel_Iso_Pnl_A1-xb_mds_EL_Tel_Iso_Pnl_A1)"/>
+       	<constant name="dy_mds_EL_Tel_Iso_Pnl_A1"			value="(yb_mds_EL_Tel_Iso_Pnl_A1-yt_mds_EL_Tel_Iso_Pnl_A1)"/>
+       	<constant name="dz_mds_EL_Tel_Iso_Pnl_A1"			value="(zt_mds_EL_Tel_Iso_Pnl_A1-zb_mds_EL_Tel_Iso_Pnl_A1)"/>
+       	<constant name="x_mds_EL_Tel_Iso_Pnl_A1"			value="-427.636"/>
+       	<constant name="y_mds_EL_Tel_Iso_Pnl_A1"			value="-427.636"/>
+       	<constant name="z_mds_EL_Tel_Iso_Pnl_A1"			value="2227.61"/>
+
+       	<constant name="dx_mds_EL_Tel_Iso_Pnl_A1_Cavity"		value="(xt_mds_EL_Tel_Iso_Pnl_A1_Cavity-xb_mds_EL_Tel_Iso_Pnl_A1_Cavity)"/>
+       	<constant name="dy_mds_EL_Tel_Iso_Pnl_A1_Cavity"		value="(yb_mds_EL_Tel_Iso_Pnl_A1_Cavity-yt_mds_EL_Tel_Iso_Pnl_A1_Cavity)"/>
+       	<constant name="dz_mds_EL_Tel_Iso_Pnl_A1_Cavity"		value="(zt_mds_EL_Tel_Iso_Pnl_A1_Cavity-zb_mds_EL_Tel_Iso_Pnl_A1_Cavity)"/>
+       	<constant name="x_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="0."/>
+       	<constant name="y_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="((dy_mds_EL_Tel_Iso_Pnl_A1-dy_mds_EL_Tel_Iso_Pnl_A1_Cavity)/2.)"/>
+       	<constant name="z_mds_EL_Tel_Iso_Pnl_A1_Cavity"			value="0."/>
+
+       	<constant name="y_mds_EL_Tel_Iso_Pnl_A1_Detector"		value="(-(dy_mds_EL_Tel_Iso_Pnl_A1-thickness_mds_EL_Tel_Iso_Pnl_A1_Detector)/2.)"/>
+
+       	<constant name="dx_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	value="(xt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1-xb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1)"/>
+       	<constant name="dy_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	value="(yb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1-yt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1)"/>
+       	<constant name="dz_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	value="(zt_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1-zb_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1)"/>
+
+       	<constant name="dx_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	value="(xt_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1-xb_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1)"/>
+       	<constant name="dy_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	value="(yt_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1-yb_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1)"/>
+       	<constant name="dz_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	value="(zt_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1-zb_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1)"/>
+
+       	<constant name="dx_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	value="(xt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1-xb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1)"/>
+       	<constant name="dy_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	value="(yt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1-yb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1)"/>
+       	<constant name="dz_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	value="(zt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1-zb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1)"/>
+
+       	<constant name="dx_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="(xt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002-xb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002)"/>
+       	<constant name="dy_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="(yt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002-yb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002)"/>
+       	<constant name="dz_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="(zt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002-zb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002)"/>
+
+       	<constant name="dx_mds_EL_TSS_Sandia_FiberFraxLarger_A"	value="(xt_mds_EL_TSS_Sandia_FiberFraxLarger_A-xb_mds_EL_TSS_Sandia_FiberFraxLarger_A)"/>
+       	<constant name="dy_mds_EL_TSS_Sandia_FiberFraxLarger_A"	value="(yt_mds_EL_TSS_Sandia_FiberFraxLarger_A-yb_mds_EL_TSS_Sandia_FiberFraxLarger_A)"/>
+       	<constant name="dz_mds_EL_TSS_Sandia_FiberFraxLarger_A"	value="(zt_mds_EL_TSS_Sandia_FiberFraxLarger_A-zb_mds_EL_TSS_Sandia_FiberFraxLarger_A)"/>
+
+       	<constant name="dx_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	value="(xt_mds_EL_Lander_Battery_D_Cell_10x11x3_A005-xb_mds_EL_Lander_Battery_D_Cell_10x11x3_A005)"/>
+       	<constant name="dy_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	value="(yt_mds_EL_Lander_Battery_D_Cell_10x11x3_A005-yb_mds_EL_Lander_Battery_D_Cell_10x11x3_A005)"/>
+       	<constant name="dz_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	value="(zt_mds_EL_Lander_Battery_D_Cell_10x11x3_A005-zb_mds_EL_Lander_Battery_D_Cell_10x11x3_A005)"/>
+
+       	<constant name="dz_center_10447445_1_B001_2"	value="(zt_center_10447445_1_B001_2-zb_center_10447445_1_B001_2)"/>
+
+       	<constant name="dz_BC_ELM_DS_PRSRNT_ARDE_5004_A002"	value="(zt_BC_ELM_DS_PRSRNT_ARDE_5004_A002-zb_BC_ELM_DS_PRSRNT_ARDE_5004_A002)"/>
+
+       	<constant name="dx_BC_ELM_DS_VAULT_MRK3_A002"	value="(xt_BC_ELM_DS_VAULT_MRK3_A002-xb_BC_ELM_DS_VAULT_MRK3_A002)"/>
+       	<constant name="dy_BC_ELM_DS_VAULT_MRK3_A002"	value="(yt_BC_ELM_DS_VAULT_MRK3_A002-yb_BC_ELM_DS_VAULT_MRK3_A002)"/>
+       	<constant name="dz_BC_ELM_DS_VAULT_MRK3_A002"	value="(zt_BC_ELM_DS_VAULT_MRK3_A002-zb_BC_ELM_DS_VAULT_MRK3_A002)"/>
+
+       	<constant name="dx_BC_ELM_DS_VAULT_MRK3_A002i"	value="(xt_BC_ELM_DS_VAULT_MRK3_A002i-xb_BC_ELM_DS_VAULT_MRK3_A002i)"/>
+       	<constant name="dy_BC_ELM_DS_VAULT_MRK3_A002i"	value="(yt_BC_ELM_DS_VAULT_MRK3_A002i-yb_BC_ELM_DS_VAULT_MRK3_A002i)"/>
+       	<constant name="dz_BC_ELM_DS_VAULT_MRK3_A002i"	value="(zt_BC_ELM_DS_VAULT_MRK3_A002i-zb_BC_ELM_DS_VAULT_MRK3_A002i)"/>
+
+       	<constant name="dx_BC_ELM_DS_VAULT_MRK3_A1"	value="(xt_BC_ELM_DS_VAULT_MRK3_A1-xb_BC_ELM_DS_VAULT_MRK3_A1)"/>
+       	<constant name="dy_BC_ELM_DS_VAULT_MRK3_A1"	value="(yt_BC_ELM_DS_VAULT_MRK3_A1-yb_BC_ELM_DS_VAULT_MRK3_A1)"/>
+       	<constant name="dz_BC_ELM_DS_VAULT_MRK3_A1"	value="(zt_BC_ELM_DS_VAULT_MRK3_A1-zb_BC_ELM_DS_VAULT_MRK3_A1)"/>
+
+       	<constant name="dx_BC_ELM_DS_BATT_VOL_MRK2_A003"	value="(xt_BC_ELM_DS_BATT_VOL_MRK2_A003-xb_BC_ELM_DS_BATT_VOL_MRK2_A003)"/>
+       	<constant name="dy_BC_ELM_DS_BATT_VOL_MRK2_A003"	value="(yt_BC_ELM_DS_BATT_VOL_MRK2_A003-yb_BC_ELM_DS_BATT_VOL_MRK2_A003)"/>
+       	<constant name="dz_BC_ELM_DS_BATT_VOL_MRK2_A003"	value="(zt_BC_ELM_DS_BATT_VOL_MRK2_A003-zb_BC_ELM_DS_BATT_VOL_MRK2_A003)"/>
+
+       	<constant name="dx_BC_ELM_DS_BATT_VOL_MRK2_A003i"	value="(xt_BC_ELM_DS_BATT_VOL_MRK2_A003i-xb_BC_ELM_DS_BATT_VOL_MRK2_A003i)"/>
+       	<constant name="dy_BC_ELM_DS_BATT_VOL_MRK2_A003i"	value="(yt_BC_ELM_DS_BATT_VOL_MRK2_A003i-yb_BC_ELM_DS_BATT_VOL_MRK2_A003i)"/>
+       	<constant name="dz_BC_ELM_DS_BATT_VOL_MRK2_A003i"	value="(zt_BC_ELM_DS_BATT_VOL_MRK2_A003i-zb_BC_ELM_DS_BATT_VOL_MRK2_A003i)"/>
+
+       	<constant name="dx_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	value="(xt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1-xb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1)"/>
+       	<constant name="dy_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	value="(yt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1-yb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1)"/>
+       	<constant name="dz_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	value="(zt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1-zb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1)"/>
+
+       	<constant name="dx_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	value="(xt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i-xb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i)"/>
+       	<constant name="dy_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	value="(yt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i-yb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i)"/>
+       	<constant name="dz_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	value="(zt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i-zb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i)"/>
+
+       	<constant name="x_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"	value="406.586"/>
+       	<constant name="y_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"	value="406.586"/>
+       	<constant name="z_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"	value="2212.6067"/>
+
+      	<constant name="x_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	value="0."/>
+       	<constant name="y_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	value="0."/>
+       	<constant name="z_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	value="((zb_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1+zt_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1)/2.)"/>
+
+      	<constant name="x_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	value="0."/>
+       	<constant name="y_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	value="0."/>
+       	<constant name="z_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	value="0."/>
+
+      	<constant name="x_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="0."/>
+       	<constant name="y_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="0."/>
+       	<constant name="z_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	value="((zb_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002+zt_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002)/2.)"/>
+
+      	<constant name="x_mds_EL_TSS_Sandia_FiberFraxLarger_A"		value="0."/>
+       	<constant name="y_mds_EL_TSS_Sandia_FiberFraxLarger_A"		value="0."/>
+       	<constant name="z_mds_EL_TSS_Sandia_FiberFraxLarger_A"		value="((zb_mds_EL_TSS_Sandia_FiberFraxLarger_A+zt_mds_EL_TSS_Sandia_FiberFraxLarger_A)/2.)"/>
+
+      	<constant name="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	value="326.5101013183594"/>
+       	<constant name="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	value="-621.28876"/>
+       	<constant name="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	value="((zb_mds_EL_Lander_Battery_D_Cell_10x11x3_A005+zt_mds_EL_Lander_Battery_D_Cell_10x11x3_A005)/2.)"/>
+
+      	<constant name="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A006"	value="621.2887573242188"/>
+       	<constant name="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A006"	value="-326.51009"/>
+       	<constant name="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A006"	value="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"/>
+
+      	<constant name="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A007"	value="-626.5590209960938"/>
+       	<constant name="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A007"	value="321.23985"/>
+       	<constant name="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A007"	value="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"/>
+
+      	<constant name="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A008"	value="-336.6452331542969"/>
+       	<constant name="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A008"	value="611.1536"/>
+       	<constant name="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A008"	value="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"/>
+
+      	<constant name="x_center_10447445_1_B001_2"			value="0."/>
+       	<constant name="y_center_10447445_1_B001_2"			value="0."/>
+       	<constant name="z_center_10447445_1_B001_2"			value="((zb_center_10447445_1_B001_2+zt_center_10447445_1_B001_2)/2.)"/>
+
+      	<constant name="x_BC_ELM_BIG_FAT_TANKS_MRK1_A003"		value="1123.7450"/>
+       	<constant name="y_BC_ELM_BIG_FAT_TANKS_MRK1_A003"		value="0."/>
+       	<constant name="z_BC_ELM_BIG_FAT_TANKS_MRK1_A003"		value="1123.800048828125"/>
+
+      	<constant name="x_BC_ELM_BIG_FAT_TANKS_MRK1_A004"		value="-1123.7450"/>
+       	<constant name="y_BC_ELM_BIG_FAT_TANKS_MRK1_A004"		value="0."/>
+       	<constant name="z_BC_ELM_BIG_FAT_TANKS_MRK1_A004"		value="1123.800048828125"/>
+
+      	<constant name="x_BC_ELM_DS_PRSRNT_ARDE_5004_A002"		value="0.0"/>
+       	<constant name="y_BC_ELM_DS_PRSRNT_ARDE_5004_A002"		value="-1110.0"/>
+       	<constant name="z_BC_ELM_DS_PRSRNT_ARDE_5004_A002"		value="826.59296"/>
+
+      	<constant name="x_BC_ELM_DS_PRSRNT_ARDE_5004_A003"		value="0.0"/>
+       	<constant name="y_BC_ELM_DS_PRSRNT_ARDE_5004_A003"		value="1110.0"/>
+       	<constant name="z_BC_ELM_DS_PRSRNT_ARDE_5004_A003"		value="826.59296"/>
+
+       	<constant name="x_BC_ELM_DS_VAULT_MRK3_A002"			value="((xb_BC_ELM_DS_VAULT_MRK3_A002+xt_BC_ELM_DS_VAULT_MRK3_A002)/2.)"/>
+       	<constant name="y_BC_ELM_DS_VAULT_MRK3_A002"			value="((yb_BC_ELM_DS_VAULT_MRK3_A002+yt_BC_ELM_DS_VAULT_MRK3_A002)/2.)"/>
+       	<constant name="z_BC_ELM_DS_VAULT_MRK3_A002"			value="((zb_BC_ELM_DS_VAULT_MRK3_A002+zt_BC_ELM_DS_VAULT_MRK3_A002)/2.)"/>
+
+       	<constant name="x_BC_ELM_DS_VAULT_MRK3_A002i"			value="0."/>
+       	<constant name="y_BC_ELM_DS_VAULT_MRK3_A002i"			value="0."/>
+       	<constant name="z_BC_ELM_DS_VAULT_MRK3_A002i"			value="0."/>
+
+       	<constant name="x_BC_ELM_DS_VAULT_MRK3_A1"			value="((xb_BC_ELM_DS_VAULT_MRK3_A1+xt_BC_ELM_DS_VAULT_MRK3_A1)/2.)"/>
+       	<constant name="y_BC_ELM_DS_VAULT_MRK3_A1"			value="((yb_BC_ELM_DS_VAULT_MRK3_A1+yt_BC_ELM_DS_VAULT_MRK3_A1)/2.)"/>
+       	<constant name="z_BC_ELM_DS_VAULT_MRK3_A1"			value="((zb_BC_ELM_DS_VAULT_MRK3_A1+zt_BC_ELM_DS_VAULT_MRK3_A1)/2.)"/>
+
+       	<constant name="x_BC_ELM_DS_BATT_VOL_MRK2_A003"			value="((xb_BC_ELM_DS_BATT_VOL_MRK2_A003+xt_BC_ELM_DS_BATT_VOL_MRK2_A003)/2.)"/>
+       	<constant name="y_BC_ELM_DS_BATT_VOL_MRK2_A003"			value="((yb_BC_ELM_DS_BATT_VOL_MRK2_A003+yt_BC_ELM_DS_BATT_VOL_MRK2_A003)/2.)"/>
+       	<constant name="z_BC_ELM_DS_BATT_VOL_MRK2_A003"			value="((zb_BC_ELM_DS_BATT_VOL_MRK2_A003+zt_BC_ELM_DS_BATT_VOL_MRK2_A003)/2.)"/>
+
+       	<constant name="x_BC_ELM_DS_BATT_VOL_MRK2_A003i"		value="0."/>
+       	<constant name="y_BC_ELM_DS_BATT_VOL_MRK2_A003i"		value="0."/>
+       	<constant name="z_BC_ELM_DS_BATT_VOL_MRK2_A003i"		value="0."/>
+
+       	<constant name="x_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	value="((xb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1+xt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1)/2.)"/>
+       	<constant name="y_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	value="((yb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1+yt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1)/2.)"/>
+       	<constant name="z_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	value="((zb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1+zt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1)/2.)"/>
+
+       	<constant name="x_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	value="((xb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i+xt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i)/2.)"/>
+       	<constant name="y_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	value="((yb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i+yt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i)/2.)"/>
+       	<constant name="z_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	value="((zb_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i+zt_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i)/2.)"/>
+
+       <constant name="xt0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="0."/>
+       <constant name="yb0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="707."/>
+       <constant name="yt0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="1207.1"/>
+       <constant name="xt1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="75."/>
+       <constant name="yt1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="1207.1"/>
+       <constant name="xt2_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="164."/>
+       <constant name="yt2_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="544.2"/>
+
+       <constant name="zb_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="1021.5"/>
+       <constant name="zt_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="1437.4"/>
+       <constant name="thickness_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"	value="2."/>
+
+       <constant name="dy_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="(yt0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004-yb0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)"/>
+       <constant name="dz_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		value="(zt_BC_ELM_DS_PROP_STRCTRE_MRK6_A004-zb_BC_ELM_DS_PROP_STRCTRE_MRK6_A004-thickness_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)"/>
+
+       <position name="pos_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 		x="0" 		y="0" 		z="(zb_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)"		unit="mm" />
+       <position name="pos_t_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 		x="0" 		y="0" 		
+									z="(dz_BC_ELM_DS_PROP_STRCTRE_MRK6_A004+thickness_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)"	unit="mm" />
+       <position name="pos_b_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 		x="0" 		
+		y="(dy_BC_ELM_DS_PROP_STRCTRE_MRK6_A004/2.+yb0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)"	
+		z="((dz_BC_ELM_DS_PROP_STRCTRE_MRK6_A004+thickness_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)/2.)"			
+		unit="mm" />
+
+       <constant name="x0_BC_ELM_GNC_VAULT_MRK2_A008"		value="0."/>
+       <constant name="y0_BC_ELM_GNC_VAULT_MRK2_A008"		value="1042.816162109375"/>
+       <constant name="x1_BC_ELM_GNC_VAULT_MRK2_A008"		value="76.13662719726562"/>
+       <constant name="y1_BC_ELM_GNC_VAULT_MRK2_A008"		value="1067.681396484375"/>
+       <constant name="x2_BC_ELM_GNC_VAULT_MRK2_A008"		value="126.57969665527344"/>
+       <constant name="y2_BC_ELM_GNC_VAULT_MRK2_A008"		value="1141.5"/>
+       <constant name="x3_BC_ELM_GNC_VAULT_MRK2_A008"		value="352.76080322265625"/>
+       <constant name="y3_BC_ELM_GNC_VAULT_MRK2_A008"		value="1141.5"/>
+       <constant name="x4_BC_ELM_GNC_VAULT_MRK2_A008"		value="393.8938293457031"/>
+       <constant name="y4_BC_ELM_GNC_VAULT_MRK2_A008"		value="1374.7769775390625"/>
+       <constant name="x5_BC_ELM_GNC_VAULT_MRK2_A008"		value="238.71322631835938"/>
+       <constant name="y5_BC_ELM_GNC_VAULT_MRK2_A008"		value="1486.5"/>
+
+       <constant name="yb_BC_ELM_GNC_VAULT_MRK2_A008"		value="970.0"/>
+       <constant name="yt_BC_ELM_GNC_VAULT_MRK2_A008"		value="1020.0"/>
+       <constant name="y_BC_ELM_GNC_VAULT_MRK2_A008"		value="((yt_BC_ELM_GNC_VAULT_MRK2_A008+yb_BC_ELM_GNC_VAULT_MRK2_A008)/2.)"/>
+       <constant name="thickness_BC_ELM_GNC_VAULT_MRK2_A008"	value="(yt_BC_ELM_GNC_VAULT_MRK2_A008-yb_BC_ELM_GNC_VAULT_MRK2_A008)"/>
+
+       <position name="pos_BC_ELM_GNC_VAULT_MRK2_A008" 		x="0" 		y="y_BC_ELM_GNC_VAULT_MRK2_A008" 		z="0."			unit="mm" />
+       <position name="pos_BC_ELM_GNC_VAULT_MRK2_A006" 		x="0" 		y="(-y_BC_ELM_GNC_VAULT_MRK2_A008)" 		z="0."			unit="mm" />
+
+       <constant name="yb_BC_ELM_GNC_VAULT_MRK2_A005"		value="1020.0"/>
+       <constant name="yt_BC_ELM_GNC_VAULT_MRK2_A005"		value="1026.0"/>
+       <constant name="y_BC_ELM_GNC_VAULT_MRK2_A005"		value="((yt_BC_ELM_GNC_VAULT_MRK2_A005+yb_BC_ELM_GNC_VAULT_MRK2_A005)/2.)"/>
+       <constant name="thickness_BC_ELM_GNC_VAULT_MRK2_A005"	value="(yt_BC_ELM_GNC_VAULT_MRK2_A005-yb_BC_ELM_GNC_VAULT_MRK2_A005)"/>
+
+       <position name="pos_BC_ELM_GNC_VAULT_MRK2_A005" 		x="0" 		y="y_BC_ELM_GNC_VAULT_MRK2_A005" 		z="0."			unit="mm" />
+       <position name="pos_BC_ELM_GNC_VAULT_MRK2_A007" 		x="0" 		y="(-y_BC_ELM_GNC_VAULT_MRK2_A005)" 		z="0."			unit="mm" />
+
+       <constant name="ybo_BC_ELM_GNC_VAULT_MRK2_A005"		value="1194.0"/>
+       <constant name="yto_BC_ELM_GNC_VAULT_MRK2_A005"		value="1200.0"/>
+       <constant name="yo_BC_ELM_GNC_VAULT_MRK2_A005"		value="((yto_BC_ELM_GNC_VAULT_MRK2_A005+ybo_BC_ELM_GNC_VAULT_MRK2_A005)/2.)"/>
+       <constant name="thicknesso_BC_ELM_GNC_VAULT_MRK2_A005"	value="(yto_BC_ELM_GNC_VAULT_MRK2_A005-ybo_BC_ELM_GNC_VAULT_MRK2_A005)"/>
+
+       <position name="poso_BC_ELM_GNC_VAULT_MRK2_A005" 		x="0" 		y="yo_BC_ELM_GNC_VAULT_MRK2_A005" 		z="0."			unit="mm" />
+       <position name="poso_BC_ELM_GNC_VAULT_MRK2_A007" 		x="0" 		y="(-yo_BC_ELM_GNC_VAULT_MRK2_A005)" 		z="0."			unit="mm" />
+
+
+       <constant name="xb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="-575.330078125"/>
+       <constant name="xt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="575.330078125"/>
+       <constant name="yb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="-575.330078125"/>
+       <constant name="yt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="575.330078125"/>
+       <constant name="zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="794.5"/>
+       <constant name="zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="1023.5"/>
+
+       <constant name="z_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="((zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1+zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1)/2.)"/>
+
+       <constant name="dx_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="(xt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1-xb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1)"/>
+       <constant name="dy_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="(yt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1-yb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1)"/>
+       <constant name="dz_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		value="(zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1-zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1)"/>
+
+       <constant name="zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		value="794.5"/>
+       <constant name="zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		value="798.5"/>
+       <constant name="ri_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		value="464.776"/>
+       <constant name="ro_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		value="484.939"/>
+
+       <constant name="z_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		value="((zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring+zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring)/2.)"/>
+
+       <constant name="dz_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		value="(zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring-zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring)"/>
+
+       <constant name="zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_icone"		value="798.5"/>
+       <constant name="zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_icone"		value="1023.5"/>
+       <constant name="rb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_icone"		value="484.99928"/>
+       <constant name="rt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_icone"		value="749.99853"/>
+
+       <constant name="zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		value="794.5"/>
+       <constant name="zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		value="1013.557373046875"/>
+       <constant name="rb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		value="486.46777"/>
+       <constant name="rt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		value="753.49853"/>
+
+       <constant name="z_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		value="((zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone+zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone)/2.)"/>
+
+       <constant name="dz_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		value="(zt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone-zb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone)"/>
+
+       <position name="pos_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 		x="0" 		y="0" 		z="z_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		unit="mm" />
+       <position name="pos_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		x="0" 		y="0" 		z="z_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"	unit="mm" />
+       <position name="pos_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_icone"	x="0" 		y="0" 		z="0."						unit="mm" />
+       <position name="pos_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"	x="0" 		y="0" 		z="0."						unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Top_Panel_Con2_Bv53_A1" 		
+			x="x_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"
+			y="y_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"
+			z="z_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity" 		
+			x="x_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"
+			y="y_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"
+			z="z_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector" 		
+			x="0."
+			y="0."
+			z="z_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1" 		
+			x="x_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"
+			y="y_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"
+			z="z_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Tel_Iso_Pnl_A1" 		
+			x="x_mds_EL_Tel_Iso_Pnl_A1"
+			y="y_mds_EL_Tel_Iso_Pnl_A1"
+			z="z_mds_EL_Tel_Iso_Pnl_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Tel_Iso_Pnl_A1_Cavity" 		
+			x="x_mds_EL_Tel_Iso_Pnl_A1_Cavity"
+			y="y_mds_EL_Tel_Iso_Pnl_A1_Cavity"
+			z="z_mds_EL_Tel_Iso_Pnl_A1_Cavity"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Tel_Iso_Pnl_A1_Detector" 		
+			x="0."
+			y="y_mds_EL_Tel_Iso_Pnl_A1_Detector"
+			z="0."
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1" 		
+			x="-x_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			y="-y_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			z="z_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1" 		
+			x="x_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			y="y_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			z="z_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Concept_Vault_Pnl1v3_Blue_A1" 		
+			x="-x_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			y="y_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			z="z_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Concept_Vault_Pnl3v3_Blue_A1" 		
+			x="x_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			y="-y_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+			z="z_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1" 		
+			x="x_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"
+			y="y_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"
+			z="z_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1" 		
+			x="x_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"
+			y="y_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"
+			z="z_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002" 		
+			x="x_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"
+			y="y_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"
+			z="z_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_TSS_Sandia_FiberFraxLarger_A" 		
+			x="x_mds_EL_TSS_Sandia_FiberFraxLarger_A"
+			y="y_mds_EL_TSS_Sandia_FiberFraxLarger_A"
+			z="z_mds_EL_TSS_Sandia_FiberFraxLarger_A"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A005" 		
+			x="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"
+			y="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"
+			z="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A006" 		
+			x="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A006"
+			y="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A006"
+			z="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A006"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A007" 		
+			x="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A007"
+			y="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A007"
+			z="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A007"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A008" 		
+			x="x_mds_EL_Lander_Battery_D_Cell_10x11x3_A008"
+			y="y_mds_EL_Lander_Battery_D_Cell_10x11x3_A008"
+			z="z_mds_EL_Lander_Battery_D_Cell_10x11x3_A008"
+ 			unit="mm" />
+
+       	<position name="pos_center_10447445_1_B001_2" 		
+			x="x_center_10447445_1_B001_2"
+			y="y_center_10447445_1_B001_2"
+			z="z_center_10447445_1_B001_2"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_BIG_FAT_TANKS_MRK1_A003" 		
+			x="x_BC_ELM_BIG_FAT_TANKS_MRK1_A003"
+			y="y_BC_ELM_BIG_FAT_TANKS_MRK1_A003"
+			z="z_BC_ELM_BIG_FAT_TANKS_MRK1_A003"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_BIG_FAT_TANKS_MRK1_A004" 		
+			x="x_BC_ELM_BIG_FAT_TANKS_MRK1_A004"
+			y="y_BC_ELM_BIG_FAT_TANKS_MRK1_A004"
+			z="z_BC_ELM_BIG_FAT_TANKS_MRK1_A004"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_PRSRNT_ARDE_5004_A002" 		
+			x="x_BC_ELM_DS_PRSRNT_ARDE_5004_A002"
+			y="y_BC_ELM_DS_PRSRNT_ARDE_5004_A002"
+			z="z_BC_ELM_DS_PRSRNT_ARDE_5004_A002"
+ 			unit="mm" />
+
+       	<position name="pos_ENDt_BC_ELM_DS_PRSRNT_ARDE_5004_A002" 		
+			x="0."
+			y="0."
+			z="zt_BC_ELM_DS_PRSRNT_ARDE_5004_A002"
+ 			unit="mm" />
+
+       	<position name="pos_ENDb_BC_ELM_DS_PRSRNT_ARDE_5004_A002" 		
+			x="0."
+			y="0."
+			z="zb_BC_ELM_DS_PRSRNT_ARDE_5004_A002"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_PRSRNT_ARDE_5004_A003" 		
+			x="x_BC_ELM_DS_PRSRNT_ARDE_5004_A003"
+			y="y_BC_ELM_DS_PRSRNT_ARDE_5004_A003"
+			z="z_BC_ELM_DS_PRSRNT_ARDE_5004_A003"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_VAULT_MRK3_A002" 		
+			x="x_BC_ELM_DS_VAULT_MRK3_A002"
+			y="y_BC_ELM_DS_VAULT_MRK3_A002"
+			z="z_BC_ELM_DS_VAULT_MRK3_A002"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_VAULT_MRK3_A002i" 		
+			x="x_BC_ELM_DS_VAULT_MRK3_A002i"
+			y="y_BC_ELM_DS_VAULT_MRK3_A002i"
+			z="z_BC_ELM_DS_VAULT_MRK3_A002i"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_VAULT_MRK3_A1" 		
+			x="x_BC_ELM_DS_VAULT_MRK3_A1"
+			y="y_BC_ELM_DS_VAULT_MRK3_A1"
+			z="z_BC_ELM_DS_VAULT_MRK3_A1"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_BATT_VOL_MRK2_A003" 		
+			x="x_BC_ELM_DS_BATT_VOL_MRK2_A003"
+			y="y_BC_ELM_DS_BATT_VOL_MRK2_A003"
+			z="z_BC_ELM_DS_BATT_VOL_MRK2_A003"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_BATT_VOL_MRK2_A003i" 		
+			x="x_BC_ELM_DS_BATT_VOL_MRK2_A003i"
+			y="y_BC_ELM_DS_BATT_VOL_MRK2_A003i"
+			z="z_BC_ELM_DS_BATT_VOL_MRK2_A003i"
+ 			unit="mm" />
+
+       	<position name="pos_BC_ELM_DS_BATT_VOL_MRK2_A004" 		
+			x="(-x_BC_ELM_DS_BATT_VOL_MRK2_A003)"
+			y="y_BC_ELM_DS_BATT_VOL_MRK2_A003"
+			z="z_BC_ELM_DS_BATT_VOL_MRK2_A003"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1" 		
+			x="x_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"
+			y="y_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"
+			z="z_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"
+ 			unit="mm" />
+
+       	<position name="pos_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i" 		
+			x="0."
+			y="0."
+			z="0."
+ 			unit="mm" />
+
+	<!-- Descent Engine -->
+	<!-- spacecraft wall -->
+
+	<!-- Shell (Forward spacecraft wall) -->
+       <constant name="zb_Shell_Wall_FDome"		value="772.986"/>
+       <constant name="ro_Shell_Wall_FDome"		value="623.11279296875"/>
+
+	<!-- Shell (Aft spacecraft wall)-->
+       <constant name="zb_Shell_Wall_ADome"		value="592.073974609375"/>
+       <constant name="zt_Shell_Wall_ADome"		value="17.526018142700195"/>
+       <constant name="ro_Shell_Wall_ADome"		value="622.486"/>
+       <constant name="theta_Shell_ADome"		value="40.781437"/>
+       <constant name="z_Shell_ADEndCut"		value="zb_Shell_Wall_ADome-zt_Shell_Wall_ADome+ro_Shell_Wall_ADome/2."/>
+
+	<!-- Shell (Connecting Ring spacecraft wall)-->
+       <constant name="ro_Shell_Cylinder"		value="623.11279296875"/>
+       <constant name="zt_Shell_Cylinder"		value="772.986"/>
+       <constant name="zb_Shell_Cylinder"		value="592.073974609375"/>
+       <constant name="dz_Shell_Cylinder"		value="(zt_Shell_Cylinder-zb_Shell_Cylinder)"/>
+       <constant name="z_Shell_Cylinder"		value="(dz_Shell_Cylinder/2.+zb_Shell_Cylinder)"/>
+
+	<!-- spacecraft insulation -->
+
+	<!-- Insulation (Forward dome) -->
+       <constant name="zb_Insulation_FDome"		value="772.986"/>
+       <constant name="ro_Insulation_FDome"		value="620.39501953125"/>
+
+	<!-- Insulation (Aft dome)-->
+       <constant name="zb_Insulation_ADome"		value="592.073974609375"/>
+       <constant name="zt_Insulation_ADome"		value="17.526018142700195"/>
+       <constant name="ro_Insulation_ADome"		value="621.425"/>
+       <constant name="theta_Insulation_ADome"		value="theta_Shell_ADome+atolerance"/>
+       <constant name="z_Insul_ADEndCut"		value="zb_Insulation_ADome-zt_Insulation_ADome+ro_Insulation_ADome/2."/>
+
+	<!-- Insulation (Connecting cylinder)-->
+       <constant name="ro_Insulation_Cylinder"		value="620.39501953125"/>
+       <constant name="zt_Insulation_Cylinder"		value="772.986"/>
+       <constant name="zb_Insulation_Cylinder"		value="592.073974609375"/>
+       <constant name="dz_Insulation_Cylinder"		value="(zt_Insulation_Cylinder-zb_Insulation_Cylinder)"/>
+       <constant name="z_Insulation_Cylinder"		value="0."/>
+
+	<!-- spacecraft propellent -->
+
+	<!-- Propellent (Forward dome) -->
+       <constant name="zb_Propellent_FDome"		value="772.986"/>
+       <constant name="ro_Propellent_FDome"		value="619.3790283203125"/>
+
+	<!-- Propellent (Aft dome)-->
+       <constant name="zb_Propellent_ADome"		value="592.073974609375"/>
+       <constant name="zt_Propellent_ADome"		value="80.58833312988281"/>
+       <constant name="ro_Propellent_ADome"		value="612.708"/>
+       <constant name="dz_Propellent_ADome"		value="(zb_Propellent_ADome-zt_Propellent_ADome)"/>
+       <constant name="theta_Propellent_ADome"		value="theta_Insulation_ADome+atolerance"/>
+       <constant name="z_Propellent_ADEndCut"		value="dz_Propellent_ADome+ro_Propellent_ADome/2."/>
+
+	<!-- Propellent (Connecting cylinder)-->
+       <constant name="ro_Propellent_Cylinder"		value="619.3790283203125"/>
+       <constant name="zt_Propellent_Cylinder"		value="772.986"/>
+       <constant name="zb_Propellent_Cylinder"		value="592.073974609375"/>
+       <constant name="dz_Propellent_Cylinder"		value="(zt_Propellent_Cylinder-zb_Propellent_Cylinder)"/>
+       <constant name="z_Propellent_Cylinder"		value="0."/>
+
+	<!-- Insulation Cavity (Aft dome)-->
+       <constant name="ro_Insulation_ADCavity"		value="225."/>
+       <constant name="zt_Insulation_ADCavity"		value="zt_Insulation_ADome"/>
+       <constant name="zb_Insulation_ADCavity"		value="zt_Propellent_ADome"/>
+       <constant name="dz_Insulation_ADCavity"		value="(zb_Insulation_ADCavity-zt_Insulation_ADCavity)"/>
+       <constant name="z_Insulation_ADCavity"		value="(dz_Propellent_ADome+dz_Insulation_ADCavity/2.)"/>
+
+	<!-- Propellent Cavity (Forward dome)-->
+       <constant name="ro_Propellent_FDCavity"		value="100.33"/>
+       <constant name="zt_Propellent_FDCavity"		value="871.73"/>
+       <constant name="zb_Propellent_FDCavity"		value="zb_Propellent_FDome"/>
+       <constant name="dz_Propellent_FDCavity"		value="(zt_Propellent_FDCavity-zb_Propellent_FDCavity)"/>
+       <constant name="z_Propellent_FDCavity"		value="dz_Propellent_FDCavity/2."/>
+
+	<!-- Propellent Cavity (Connecting cylinder)-->
+       <constant name="ro_Propellent_CyCavity"		value="ro_Propellent_FDCavity"/>
+       <constant name="zt_Propellent_CyCavity"		value="zt_Propellent_Cylinder"/>
+       <constant name="zb_Propellent_CyCavity"		value="zb_Propellent_Cylinder"/>
+       <constant name="dz_Propellent_CyCavity"		value="(zt_Propellent_CyCavity-zb_Propellent_CyCavity)"/>
+       <constant name="z_Propellent_CyCavity"		value="0."/>
+
+	<!-- Propellent Cavity 1 (Aft dome)-->
+       <constant name="ro_Propellent_ADCavity1"		value="ro_Propellent_FDCavity"/>
+       <constant name="zt_Propellent_ADCavity1"		value="445.0"/>
+       <constant name="zb_Propellent_ADCavity1"		value="zb_Propellent_ADome"/>
+       <constant name="dz_Propellent_ADCavity1"		value="(zb_Propellent_ADCavity1-zt_Propellent_ADCavity1)"/>
+       <constant name="z_Propellent_ADCavity1"		value="dz_Propellent_ADCavity1/2."/>
+
+	<!-- Propellent Cavity 2  (Aft dome)-->
+       <constant name="ro_Propellent_ADCavity2"		value="134.97"/>
+       <constant name="zt_Propellent_ADCavity2"		value="180.34"/>
+       <constant name="zb_Propellent_ADCavity2"		value="zt_Propellent_ADCavity1"/>
+       <constant name="dz_Propellent_ADCavity2"		value="(zb_Propellent_ADCavity2-zt_Propellent_ADCavity2)"/>
+       <constant name="z_Propellent_ADCavity2"		value="(z_Propellent_ADCavity1+(dz_Propellent_ADCavity1+dz_Propellent_ADCavity2)/2.)"/>
+
+	<!-- Propellent Cavity 3 (Aft dome)-->
+       <constant name="ro_Propellent_ADCavity3"		value="237.49"/>
+       <constant name="zt_Propellent_ADCavity3"		value="zt_Propellent_ADome"/>
+       <constant name="zb_Propellent_ADCavity3"		value="zt_Propellent_ADCavity2"/>
+       <constant name="dz_Propellent_ADCavity3"		value="(zb_Propellent_ADCavity3-zt_Propellent_ADCavity3)"/>
+       <constant name="z_Propellent_ADCavity3"		value="(z_Propellent_ADCavity2+(dz_Propellent_ADCavity2+dz_Propellent_ADCavity3)/2.)"/>
+
+       <constant name="dz_Propellent_ADCavity"		value="(dz_Propellent_ADCavity1+dz_Propellent_ADCavity2+dz_Propellent_ADCavity3)"/>
+       <constant name="z_Propellent_ADCavity"		value="0."/>
+
+	<!-- Nozzle -->
+       <constant name="z_Nozzle"			value="0"/>
+
+       <constant name="zt_NozzleInProp"			value="-204.5415496826172"/>
+       <constant name="zb_NozzleInProp"			value="-80.588315"/>
+       <constant name="z_NozzleInProp"			value="(dz_Propellent_ADCavity-zb_NozzleInProp)"/>
+
+       <constant name="zt_NozzleInInsul"		value="-80.588315"/>
+       <constant name="zb_NozzleInInsul"		value="-17.526"/>
+       <constant name="z_NozzleInInsul"			value="dz_Insulation_ADCavity/2.-zb_NozzleInInsul"/>
+
+	<!-- Shift to place Descent Engine relative to Lander-->
+       <constant name="z_Shift_Engine"			value="-385.50114"/>
+
+       <position name="pos_Shell_Cyl"	 		x="0" 		y="0" 		z="(z_Shell_Cylinder+z_Shift_Engine)"		unit="mm" />
+       <position name="pos_Shell_FDome"	 		x="0" 		y="0" 		z="(zb_Shell_Wall_FDome+z_Shift_Engine)"	unit="mm" />
+       <position name="pos_Shell_ADome"	 		x="0" 		y="0" 		z="(zb_Shell_Wall_ADome+z_Shift_Engine)"	unit="mm" />
+       <position name="pos_Nozzle" 			x="0" 		y="0" 		z="(z_Nozzle+z_Shift_Engine)"			unit="mm" />
+
+       <position name="pos_Shell_ADEndCut"	 	x="0" 		y="0" 		z="z_Shell_ADEndCut"		unit="mm" />
+
+       <position name="pos_Insul_Cyl"	 		x="0" 		y="0" 		z="z_Insulation_Cylinder"	unit="mm" />
+       <position name="pos_Insul_FDome"	 		x="0" 		y="0" 		z="0."				unit="mm" />
+       <position name="pos_Insul_ADome"	 		x="0" 		y="0" 		z="0."				unit="mm" />
+       <position name="pos_Insul_ADEndCut"	 	x="0" 		y="0" 		z="z_Insul_ADEndCut"		unit="mm" />
+
+       <position name="pos_Prop_Cyl"	 		x="0" 		y="0" 		z="z_Propellent_Cylinder"	unit="mm" />
+       <position name="pos_Prop_FDome"	 		x="0" 		y="0" 		z="0."				unit="mm" />
+       <position name="pos_Prop_ADome"	 		x="0" 		y="0" 		z="0."				unit="mm" />
+       <position name="pos_Insul_ADCavity" 		x="0" 		y="0" 		z="z_Insulation_ADCavity"	unit="mm" />
+       <position name="pos_Depth" 			x="0" 		y="0" 		z="0"				unit="mm" />
+
+       <position name="pos_Prop_FDCavity" 		x="0" 		y="0" 		z="z_Propellent_FDCavity"	unit="mm" />
+       <position name="pos_Prop_CyCavity" 		x="0" 		y="0" 		z="z_Propellent_CyCavity"	unit="mm" />
+       <position name="pos_Prop_ADCavity1" 		x="0" 		y="0" 		z="z_Propellent_ADCavity1"	unit="mm" />
+       <position name="pos_Prop_ADCavity2" 		x="0" 		y="0" 		z="z_Propellent_ADCavity2"	unit="mm" />
+       <position name="pos_Prop_ADCavity3" 		x="0" 		y="0" 		z="z_Propellent_ADCavity3"	unit="mm" />
+       <position name="pos_Prop_ADCavity" 		x="0" 		y="0" 		z="z_Propellent_ADCavity"	unit="mm" />
+       <position name="pos_Propellent_ADEndCut" 	x="0" 		y="0" 		z="z_Propellent_ADEndCut"	unit="mm" />
+
+       <position name="pos_NozzleInProp" 		x="0" 		y="0" 		z="z_NozzleInProp"		unit="mm" />
+       <position name="pos_NozzleInInsul" 		x="0" 		y="0" 		z="z_NozzleInInsul"		unit="mm" />
+
+       <position name="pos_star3_sep_motor" 		x="330"		y="115"		z="-30"				unit="mm" />
+       <position name="pos_bracket"	 		x="0" 		y="0" 		z="0"				unit="mm" />
+
+       <rotation name="rotation_x90"	 		x="90." 							unit="degree" />
+       <rotation name="rotation_xMinus90yMinus90" 	x="-90."	y="-90."					unit="degree" />
+       <rotation name="rotation_xMinus90" 		x="-90." 							unit="degree" />
+       <rotation name="rotation_y90"	 		y="90." 							unit="degree" />
+       <rotation name="rotation_yMinus90" 		y="-90." 							unit="degree" />
+       <rotation name="rotation_x180" 			x="180." 							unit="degree" />
+       <rotation name="rotation_z90" 			z="90." 							unit="degree" />
+       <rotation name="rotation_z180" 			z="180." 							unit="degree" />
+       <rotation name="rotation_z45"			z="45." 							unit="degree" />
+       <rotation name="rotation_z135"			z="135." 							unit="degree" />
+       <rotation name="rotation_zMinus45"		z="-45." 							unit="degree" />
+       <rotation name="rotation_zMinus135"		z="-135." 							unit="degree" />
+       <rotation name="rotation_z225"			z="225." 							unit="degree" />
+
+ </define>
+
+ <materials>
+	<element name="Hydrogen"	formula="H"	Z="1" >		<atom value="1.00" 	/> </element>
+	<element name="Boron" 		formula="B" 	Z="5" > 	<atom value="10.811" 	/> </element>
+	<element name="Carbon" 		formula="C"	Z="6" > 	<atom value="12.01" 	/> </element>
+	<element name="Nitrogen" 	formula="N" 	Z="7" >		<atom value="14.01" 	/> </element>
+	<element name="Oxygen" 		formula="O"	Z="8" > 	<atom value="16" 	/> </element>
+	<element name="Sodium" 		formula="Na" 	Z="11" > 	<atom value="22.990" 	/> </element>
+	<element name="Magnesium" 	formula="Mg" 	Z="12" > 	<atom value="24.305" 	/> </element>
+	<element name="Aluminum" 	formula="Al" 	Z="13" > 	<atom value="26.982" 	/> </element>
+	<element name="Silicon" 	formula="Si" 	Z="14" > 	<atom value="28.086" 	/> </element>
+	<element name="Chlorine" 	formula="Cl" 	Z="17" > 	<atom value="35.45" 	/> </element>
+	<element name="Calcium" 	formula="Ca" 	Z="20" > 	<atom value="40.078" 	/> </element>
+	<element name="Iodine" 		formula="I" 	Z="53" > 	<atom value="126.90447" /> </element>
+	<element name="Cesium" 		formula="Cs" 	Z="55" > 	<atom value="132.9054" 	/> </element>
+	<element name="Cerium" 		formula="Ce" 	Z="58" > 	<atom value="140.116" 	/> </element>
+	<element name="Titanium" 	formula="Ti" 	Z="22" > 	<atom value="47.867" 	/> </element>
+	<element name="Vanadium" 	formula="V" 	Z="23" > 	<atom value="50.94" 	/> </element>
+
+	<material name="AluminumM" 	formula="AL" 	Z="13"> 
+		<T value="temperature"	 		/>
+		<D value="2.7" 			/>
+		<atom value="26.9815386" 	/>
+	</material>
+
+	<material name="SiliconM" 	formula="SI" 	Z="14"> 	<D value="2.33" /> 	<atom value="28.0855" 		/> </material>
+	<material name="Tungsten" 	formula="W" 	Z="74"> 	<D value="18." /> 	<atom value="183.84" 		/> </material>
+
+	<material name="Air" 		formula="noFormula" >
+		<T value="temperature" />
+		<D value="1.29e-3" />
+   		<fraction 	 	ref="Oxygen"	n="0.3"	/>
+   		<fraction 		ref="Nitrogen"	n="0.7" />
+   	</material>
+
+	<material name="Vacuum" 	formula="noFormula" > 		<D value="1.29e-20" />
+   		<fraction 	 	ref="Oxygen"	n="0.3"		/>
+   		<fraction 		ref="Nitrogen"	n="0.7" 	/>
+   	</material>
+
+  	<material name="Water" 		formula="H2O" > 		<D value="1.0" />
+		<composite 		ref="Hydrogen" 	n="2" 		/>
+		<composite 		ref="Oxygen" 	n="1" 		/>
+	</material>
+
+  	<material name="AP" 		formula="NH4ClO4" > 		<D value="1.95" />
+		<composite 		ref="Nitrogen" 	n="1" 		/>
+		<composite 		ref="Hydrogen" 	n="4" 		/>
+		<composite 		ref="Chlorine" 	n="1" 		/>
+		<composite 		ref="Oxygen" 	n="4" 		/>
+	</material>
+
+  	<material name="Binder" 		formula="C25H42N2O6" > 		<D value="1.005" />
+		<composite 		ref="Nitrogen" 	n="2" 		/>
+		<composite 		ref="Hydrogen" 	n="42" 		/>
+		<composite 		ref="Carbon" 	n="25" 		/>
+		<composite 		ref="Oxygen" 	n="6" 		/>
+	</material>
+
+
+	<material name="Ti6Al4V" 		formula="noFormula" > 		<D value="4.5" />
+   		<fraction 	 	ref="Titanium"	n="0.9"		/>
+   		<fraction 		ref="Aluminum"	n="0.06" 	/>
+   		<fraction 	 	ref="Vanadium"	n="0.04"	/>
+   	</material>
+
+	<!-- Place holders -->
+  	<material name="Propellent" 		formula="noFormula" > 		<D value="1.95" />
+		<fraction 		ref="Binder" 	n="0.1" 		/>
+		<fraction 		ref="AP" 	n="0.7" 		/>
+		<fraction 		ref="AluminumM"	n="0.2" 		/>
+		</material>
+
+	<!-- Place holders -->
+  	<material name="Insulation" 		formula="C25H42N2O6" > 		<D value="1.005" />
+		<composite 		ref="Nitrogen" 	n="2" 		/>
+		<composite 		ref="Hydrogen" 	n="42" 		/>
+		<composite 		ref="Carbon" 	n="25" 		/>
+		<composite 		ref="Oxygen" 	n="6" 		/>
+	</material>
+
+	<!-- Place holders Carbon phenyal Composite-->
+	<material name="NozzleM" 	formula="C" 	Z="8"> 
+		<T value="temperature"	 		/>
+		<D value="1.37" 			/>
+		<atom value="12.01" 	/>
+	</material>
+
+ </materials>
+
+ <solids>
+  <box name="Box_LWorld"	x="dx_LWorld" 	y="dy_LWorld"	z="dz_LWorld"	lunit="mm" 	/>
+
+  <box name="Box_Detector_z1438"	x="dx_Detector_z1438" 	y="dy_Detector_z1438"	z="dz_Detector_z1438"	lunit="mm" 	/>
+  <box name="Box_Detector_z1889"	x="dx_Detector_z1889" 	y="dy_Detector_z1889"	z="dz_Detector_z1889"	lunit="mm" 	/>
+  <box name="Box_Detector_z2440"	x="dx_Detector_z2440" 	y="dy_Detector_z2440"	z="dz_Detector_z2440"	lunit="mm" 	/>
+  <box name="Box_Detector_z1990"	x="dx_Detector_z1990" 	y="dy_Detector_z1990"	z="dz_Detector_z1990"	lunit="mm" 	/>
+  <box name="Box_Detector_z2573"	x="dx_Detector_z2573" 	y="dy_Detector_z2573"	z="dz_Detector_z2573"	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	
+	x="dx_mds_EL_Lander_Top_Panel_Con2_Bv53_A1" 	
+	y="dy_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	
+	z="dz_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	
+	x="dx_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity" 	
+	y="dy_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	
+	z="dz_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"	
+	x="dx_mds_EL_Lander_Top_Panel_Con2_Bv53_A1" 	
+	y="dy_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	
+	z="thickness_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	
+	x="dx_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1" 	
+	y="dy_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	
+	z="dz_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Tel_Iso_Pnl_A1"	
+	x="dx_mds_EL_Tel_Iso_Pnl_A1" 	
+	y="dy_mds_EL_Tel_Iso_Pnl_A1"	
+	z="dz_mds_EL_Tel_Iso_Pnl_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Tel_Iso_Pnl_A1_Cavity"	
+	x="dx_mds_EL_Tel_Iso_Pnl_A1_Cavity" 	
+	y="dy_mds_EL_Tel_Iso_Pnl_A1_Cavity"	
+	z="dz_mds_EL_Tel_Iso_Pnl_A1_Cavity"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Tel_Iso_Pnl_A1_Detector"	
+	x="dx_mds_EL_Tel_Iso_Pnl_A1" 	
+	y="thickness_mds_EL_Tel_Iso_Pnl_A1_Detector"	
+	z="dz_mds_EL_Tel_Iso_Pnl_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	
+	x="dx_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1" 	
+	y="dy_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	
+	z="dz_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	
+	x="dx_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1" 	
+	y="dy_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	
+	z="dz_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	
+	x="dx_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1" 	
+	y="dy_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	
+	z="dz_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	
+	x="dx_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002" 	
+	y="dy_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	
+	z="dz_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_TSS_Sandia_FiberFraxLarger_A"	
+	x="dx_mds_EL_TSS_Sandia_FiberFraxLarger_A" 	
+	y="dy_mds_EL_TSS_Sandia_FiberFraxLarger_A"	
+	z="dz_mds_EL_TSS_Sandia_FiberFraxLarger_A"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	
+	x="dx_mds_EL_Lander_Battery_D_Cell_10x11x3_A005" 	
+	y="dy_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	
+	z="dz_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	
+	lunit="mm" 	/>
+
+  <tube name="Cylinder_center_10447445_1_B001_2"	
+	rmin="0." rmax="ro_center_10447445_1_B001_2" 	z="dz_center_10447445_1_B001_2"	deltaphi="360"
+	aunit="degree" lunit="mm" 	/>
+
+  <sphere name="Sphere_BC_ELM_BIG_FAT_TANKS_MRK1_A003"	
+	rmax="ro_BC_ELM_BIG_FAT_TANKS_MRK1_A003" 	deltatheta="180"			deltaphi="360"
+	aunit="degree" lunit="mm" 	/>
+
+  <tube name="Cylinder_BC_ELM_DS_PRSRNT_ARDE_5004_A002"	
+	rmin="0." rmax="ro_BC_ELM_DS_PRSRNT_ARDE_5004_A002" 	z="dz_BC_ELM_DS_PRSRNT_ARDE_5004_A002"	deltaphi="360"
+	aunit="degree" lunit="mm" 	/>
+
+  <sphere name="Sphere_BC_ELM_DS_PRSRNT_ARDE_5004_A002"	
+	rmax="ro_BC_ELM_DS_PRSRNT_ARDE_5004_A002" 	deltatheta="90."			deltaphi="360"
+	aunit="degree" lunit="mm" 	/>
+
+   <union name="Union_tBC_ELM_DS_PRSRNT_ARDE_5004_A002"			>
+	<first ref="Cylinder_BC_ELM_DS_PRSRNT_ARDE_5004_A002"		/>
+	<second ref="Sphere_BC_ELM_DS_PRSRNT_ARDE_5004_A002"		/>
+	<positionref ref="pos_ENDt_BC_ELM_DS_PRSRNT_ARDE_5004_A002"	/>
+   </union>
+
+   <union name="Union_BC_ELM_DS_PRSRNT_ARDE_5004_A002"			>
+	<first ref="Union_tBC_ELM_DS_PRSRNT_ARDE_5004_A002"		/>
+	<second ref="Sphere_BC_ELM_DS_PRSRNT_ARDE_5004_A002"		/>
+	<positionref ref="pos_ENDb_BC_ELM_DS_PRSRNT_ARDE_5004_A002"	/>
+	<rotationref ref="rotation_x180"				/>
+   </union>
+
+  <box 	name="Box_BC_ELM_DS_VAULT_MRK3_A002"	
+	x="dx_BC_ELM_DS_VAULT_MRK3_A002" 	
+	y="dy_BC_ELM_DS_VAULT_MRK3_A002"	
+	z="dz_BC_ELM_DS_VAULT_MRK3_A002"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_BC_ELM_DS_VAULT_MRK3_A002i"	
+	x="dx_BC_ELM_DS_VAULT_MRK3_A002i" 	
+	y="dy_BC_ELM_DS_VAULT_MRK3_A002i"	
+	z="dz_BC_ELM_DS_VAULT_MRK3_A002i"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_BC_ELM_DS_VAULT_MRK3_A1"	
+	x="dx_BC_ELM_DS_VAULT_MRK3_A1" 	
+	y="dy_BC_ELM_DS_VAULT_MRK3_A1"	
+	z="dz_BC_ELM_DS_VAULT_MRK3_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_BC_ELM_DS_BATT_VOL_MRK2_A003"	
+	x="dx_BC_ELM_DS_BATT_VOL_MRK2_A003" 	
+	y="dy_BC_ELM_DS_BATT_VOL_MRK2_A003"	
+	z="dz_BC_ELM_DS_BATT_VOL_MRK2_A003"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_BC_ELM_DS_BATT_VOL_MRK2_A003i"	
+	x="dx_BC_ELM_DS_BATT_VOL_MRK2_A003i" 	
+	y="dy_BC_ELM_DS_BATT_VOL_MRK2_A003i"	
+	z="dz_BC_ELM_DS_BATT_VOL_MRK2_A003i"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	
+	x="dx_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1" 	
+	y="dy_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	
+	z="dz_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	
+	lunit="mm" 	/>
+
+  <box 	name="Box_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	
+	x="dx_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i" 	
+	y="dy_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	
+	z="dz_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	
+	lunit="mm" 	/>
+
+  <xtru name="Xtru_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 										lunit="mm" >
+	<twoDimVertex 			x="(-xt2_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)" 	y="yt2_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+	<twoDimVertex 			x="(-xt1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004)" 	y="yt1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+	<twoDimVertex 			x="xt1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	y="yt1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+	<twoDimVertex 			x="xt2_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	y="yt2_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+	<twoDimVertex 			x="xt0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	y="yb0_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+	<section zOrder="0" 		zPosition="(-thickness_BC_ELM_DS_PROP_STRCTRE_MRK6_A004/2.)"		xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="1" 		zPosition="0." 								xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="2" 		zPosition="(thickness_BC_ELM_DS_PROP_STRCTRE_MRK6_A004/2.)" 		xOffset="0" yOffset="0" scalingFactor="1." />
+  </xtru>
+  <box name="Box_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		
+	x="thickness_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		
+	y="dy_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	
+	z="dz_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		
+	aunit="degree" 	lunit="mm" />
+
+   <union name="Union1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		>
+	<first ref="Xtru_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		/>
+	<second ref="Xtru_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		/>
+	<positionref ref="pos_t_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"	/>
+   </union>
+
+   <union name="Union_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"			>
+	<first ref="Union1_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		/>
+	<second ref="Box_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"		/>
+	<positionref ref="pos_b_BC_ELM_DS_PROP_STRCTRE_MRK6_A004"	/>
+   </union>
+
+  <xtru name="Xtru_BC_ELM_GNC_VAULT_MRK2_A008" 										lunit="mm" >
+	<twoDimVertex 			x="x5_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y5_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x4_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y4_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x3_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y3_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x2_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y2_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x1_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y1_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x0_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y0_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x1_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y1_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x2_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y2_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x3_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y3_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x4_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y4_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x5_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y5_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<section zOrder="0" 		zPosition="(-thickness_BC_ELM_GNC_VAULT_MRK2_A008/2.)"		xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="1" 		zPosition="0." 							xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="2" 		zPosition="(thickness_BC_ELM_GNC_VAULT_MRK2_A008/2.)" 		xOffset="0" yOffset="0" scalingFactor="1." />
+  </xtru>
+
+  <xtru name="Xtru_BC_ELM_GNC_VAULT_MRK2_A005" 										lunit="mm" >
+	<twoDimVertex 			x="x5_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y5_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x4_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y4_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x3_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y3_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x2_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y2_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x1_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y1_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x0_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y0_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x1_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y1_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x2_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y2_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x3_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y3_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x4_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y4_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x5_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y5_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<section zOrder="0" 		zPosition="(-thickness_BC_ELM_GNC_VAULT_MRK2_A005/2.)"		xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="1" 		zPosition="0." 							xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="2" 		zPosition="(thickness_BC_ELM_GNC_VAULT_MRK2_A005/2.)" 		xOffset="0" yOffset="0" scalingFactor="1." />
+  </xtru>
+
+  <xtru name="Xtruo_BC_ELM_GNC_VAULT_MRK2_A005" 										lunit="mm" >
+	<twoDimVertex 			x="x5_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y5_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x4_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y4_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x3_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y3_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x2_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y2_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x1_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y1_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="x0_BC_ELM_GNC_VAULT_MRK2_A008" 	y="y0_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x1_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y1_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x2_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y2_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x3_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y3_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x4_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y4_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<twoDimVertex 			x="(-x5_BC_ELM_GNC_VAULT_MRK2_A008)" 	y="y5_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+	<section zOrder="0" 		zPosition="(-thicknesso_BC_ELM_GNC_VAULT_MRK2_A005/2.)"		xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="1" 		zPosition="0." 							xOffset="0" yOffset="0" scalingFactor="1." />
+	<section zOrder="2" 		zPosition="(thicknesso_BC_ELM_GNC_VAULT_MRK2_A005/2.)" 		xOffset="0" yOffset="0" scalingFactor="1." />
+  </xtru>
+
+  <box name="Box_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 
+		x="dx_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		
+		y="dy_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 	
+		z="dz_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		
+		aunit="degree" 	lunit="mm" /> 
+
+  <tube name="Ring_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 
+		rmin="ri_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		
+		rmax="ro_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring" 	
+		z="dz_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring"		
+		deltaphi="360."
+		aunit="degree" 	lunit="mm" /> 
+
+  <cone name="Cone_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 
+		rmin1="rb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_icone"		
+		rmax1="rb_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		
+		rmin2="rt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_icone" 	
+		rmax2="rt_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone" 	
+		z="dz_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"		
+		deltaphi="360."
+		aunit="degree" 	lunit="mm" /> 
+
+   <intersection name="Inter_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		>
+	<first ref="Box_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"			/>
+	<second ref="Cone_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1"		/>
+	<positionref ref="pos_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ocone"	/>
+   </intersection>
+
+<!-- Descent Engine -->
+  <tube name="S_ShellCy"		rmin="0." 			rmax="ro_Shell_Cylinder" z="dz_Shell_Cylinder"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <sphere name="S_ShellFDome"		rmax="ro_Shell_Wall_FDome" 		deltatheta="90" 			deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <sphere name="S_ShellADomeSph"	rmax="ro_Shell_Wall_ADome" 		starttheta="0."				deltatheta="90." deltaphi="360"	aunit="degree" lunit="mm" 	/>
+  <tube name="S_Shell_ADEndCut"		rmin="0." 	rmax="ro_Shell_Wall_ADome" 	z="ro_Shell_Wall_ADome"			deltaphi="360"						aunit="degree" lunit="mm" 	/>
+
+  <tube name="S_InsulationCy"		rmin="0." 	rmax="ro_Insulation_Cylinder" 	z="dz_Insulation_Cylinder"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <sphere name="S_InsulationFDome"	rmax="ro_Insulation_FDome" 		deltatheta="90" 			deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <sphere name="S_InsulationADomeSph"	rmax="ro_Insulation_ADome" 		starttheta="0."				deltatheta="90." deltaphi="360"	aunit="degree" lunit="mm" 	/>
+  <tube name="S_Insulation_ADEndCut"	rmin="0." 	rmax="ro_Insulation_ADome" 	z="ro_Insulation_ADome"		deltaphi="360"						aunit="degree" lunit="mm" 	/>
+
+  <tube name="S_PropellentCy"		rmin="0." 	rmax="ro_Propellent_Cylinder" 	z="dz_Propellent_Cylinder"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <sphere name="S_PropellentFDome"	rmax="ro_Propellent_FDome" 		deltatheta="90" 			deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <sphere name="S_PropellentADomeSph"	rmax="ro_Propellent_ADome" 		starttheta="0."				deltatheta="90." deltaphi="360"	aunit="degree" lunit="mm" 	/>
+  <tube name="S_Propellent_ADEndCut"	rmin="0." 	rmax="ro_Propellent_ADome" 	z="ro_Propellent_ADome"		deltaphi="360"						aunit="degree" lunit="mm" 	/>
+
+  <tube name="S_Insulation_ADCavity"	rmin="0." 	rmax="ro_Insulation_ADCavity" 	z="dz_Insulation_ADCavity"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+
+  <tube name="S_Propellent_CyCavity"	rmin="0." 	rmax="ro_Propellent_CyCavity" 	z="dz_Propellent_CyCavity"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <tube name="S_Propellent_FDCavity"	rmin="0." 	rmax="ro_Propellent_FDCavity" 	z="dz_Propellent_FDCavity"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <tube name="S_Propellent_ADCavity1"	rmin="0." 	rmax="ro_Propellent_ADCavity1" 	z="dz_Propellent_ADCavity1"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <tube name="S_Propellent_ADCavity2"	rmin="0." 	rmax="ro_Propellent_ADCavity2" 	z="dz_Propellent_ADCavity2"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+  <tube name="S_Propellent_ADCavity3"	rmin="0." 	rmax="ro_Propellent_ADCavity3" 	z="dz_Propellent_ADCavity3"	deltaphi="360"						aunit="degree" lunit="mm" 	/>
+
+  <polycone name="S_Propellent_ADCavity"				deltaphi="360.0" 		startphi="0.0"			aunit="degree" >
+	<zplane z="0." 							rmin="0."	rmax="ro_Propellent_ADCavity1"	/>
+	<zplane z="dz_Propellent_ADCavity1" 				rmin="0."	rmax="ro_Propellent_ADCavity1"			/>
+	<zplane z="dz_Propellent_ADCavity1" 				rmin="0."	rmax="ro_Propellent_ADCavity2"			/>
+	<zplane z="dz_Propellent_ADCavity1+dz_Propellent_ADCavity2" 	rmin="0."	rmax="ro_Propellent_ADCavity2"			/>
+	<zplane z="dz_Propellent_ADCavity1+dz_Propellent_ADCavity2" 	rmin="0."	rmax="ro_Propellent_ADCavity3"			/>
+	<zplane z="dz_Propellent_ADCavity1+dz_Propellent_ADCavity2+dz_Propellent_ADCavity3" 	rmin="0."	rmax="ro_Propellent_ADCavity3"			/>
+  </polycone>
+
+  <subtraction	name="S_ShellADome" 	>
+  <first	ref="S_ShellADomeSph" 	/>
+  <second	ref="S_Shell_ADEndCut" 	/>
+  <positionref	ref="pos_Shell_ADEndCut"	/>
+  </subtraction>
+
+  <subtraction	name="S_InsulationADome" 	>
+  <first	ref="S_InsulationADomeSph" 	/>
+  <second	ref="S_Insulation_ADEndCut" 	/>
+  <positionref	ref="pos_Insul_ADEndCut"	/>
+  </subtraction>
+
+  <subtraction	name="S_PropellentADome" 	>
+  <first	ref="S_PropellentADomeSph" 	/>
+  <second	ref="S_Propellent_ADEndCut" 	/>
+  <positionref	ref="pos_Propellent_ADEndCut"	/>
+  </subtraction>
+
+  <polycone name="S_NozzleInProp"	deltaphi="360.0" 		startphi="0.0"			aunit="degree" >
+	<zplane z="-204.5415496826172" 	rmin="71.93360900878906"	rmax="109.37672424316406"	/>
+	<zplane z="-150" 		rmin="96.0598" 			rmax="126.291"			/>
+	<zplane z="-100" 		rmin="118.572" 			rmax="139.428"			/>
+	<zplane z="-80.5883" 		rmin="127.322" 			rmax="147.2"			/>
+  </polycone>
+
+  <polycone name="S_NozzleInInsul" 		deltaphi="360.0" 		startphi="0.0"			aunit="degree" >
+	<zplane z="-80.5883" 		rmin="127.322" 			rmax="147.2"			/>
+	<zplane z="-50" 		rmin="141.066" 			rmax="159.555"			/>
+	<zplane z="-17.526" 		rmin="154.95" 			rmax="172.555"			/>
+  </polycone>
+
+  <polycone name="S_Nozzle" 		deltaphi="360.0" 		startphi="0.0"			aunit="degree" >
+	<zplane z="-17.526" 		rmin="154.95" 			rmax="172.555"			/>
+	<zplane z="0" 			rmin="162.318" 			rmax="179.584"			/>
+	<zplane z="50" 			rmin="183.34" 			rmax="199.477"			/>
+	<zplane z="100" 		rmin="203.665" 			rmax="218.935"			/>
+	<zplane z="150" 		rmin="222.308" 			rmax="237.223"			/>
+	<zplane z="200" 		rmin="240.951" 			rmax="254.439"			/>
+	<zplane z="250" 		rmin="259.147" 			rmax="271.236"			/>
+	<zplane z="300" 		rmin="276.075" 			rmax="287.388"			/>
+	<zplane z="350" 		rmin="292.15" 			rmax="303.179"			/>
+	<zplane z="400" 		rmin="307.459" 			rmax="318.474"			/>
+	<zplane z="450" 		rmin="322.474" 			rmax="333.017"			/>
+	<zplane z="500" 		rmin="337.362" 			rmax="347.498"			/>
+	<zplane z="550" 		rmin="351.433" 			rmax="361.716"			/>
+	<zplane z="600" 		rmin="364.704" 			rmax="374.601"			/>
+	<zplane z="636.0795288085938" 	rmin="374.15301513671875"	rmax="382.71142578125"		/>
+  </polycone>
+
+
+ </solids>
+
+ <structure>
+
+  	<volume name="mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity" >
+		<materialref 	ref="Vacuum" 						/>
+   		<solidref 	ref="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"	/>
+   		<auxiliary 	auxtype="white"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector" >
+		<materialref 	ref="Water" 						/>
+   		<solidref 	ref="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"	/>
+		<auxiliary 	auxtype="SensDet" 		auxvalue="1"		/>
+   		<auxiliary 	auxtype="red"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Top_Panel_Con2_Bv53_A1" >
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1"	 	/>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector" 	/>
+   		</physvol>
+
+   		<auxiliary 	auxtype="blue" 			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1" >
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1"	 	/>
+   		<auxiliary 	auxtype="blue" 			auxvalue="1"		/>
+  	</volume>
+
+
+  	<volume name="mds_EL_Tel_Iso_Pnl_A1_Cavity" >
+		<materialref 	ref="Vacuum" 						/>
+   		<solidref 	ref="Box_mds_EL_Tel_Iso_Pnl_A1_Cavity"	/>
+   		<auxiliary 	auxtype="white"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Tel_Iso_Pnl_A1_Detector" >
+		<materialref 	ref="Water" 						/>
+   		<solidref 	ref="Box_mds_EL_Tel_Iso_Pnl_A1_Detector"	/>
+		<auxiliary 	auxtype="SensDet" 		auxvalue="1"		/>
+   		<auxiliary 	auxtype="red"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Tel_Iso_Pnl_A1" >
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Tel_Iso_Pnl_A1"	 	/>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Tel_Iso_Pnl_A1_Cavity" 	/>
+    			<positionref 	ref="pos_mds_EL_Tel_Iso_Pnl_A1_Cavity" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Tel_Iso_Pnl_A1_Detector" 	/>
+    			<positionref 	ref="pos_mds_EL_Tel_Iso_Pnl_A1_Detector" 	/>
+   		</physvol>
+
+   		<auxiliary 	auxtype="blue" 			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1"	/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1"	/>
+   		<auxiliary 	auxtype="green"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002"	/>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A1" 	/>
+   		</physvol>
+
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_TSS_Sandia_FiberFraxLarger_A">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_TSS_Sandia_FiberFraxLarger_A"	/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_Battery_D_Cell_10x11x3_A005">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_Battery_D_Cell_10x11x3_A005"	/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="center_10447445_1_B001_2">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Cylinder_center_10447445_1_B001_2"			/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_BIG_FAT_TANKS_MRK1_A003">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Sphere_BC_ELM_BIG_FAT_TANKS_MRK1_A003"		/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_DS_PRSRNT_ARDE_5004_A002">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Union_BC_ELM_DS_PRSRNT_ARDE_5004_A002"		/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_DS_VAULT_MRK3_A002i">
+		<materialref 	ref="Vacuum" 					/>
+   		<solidref 	ref="Box_BC_ELM_DS_VAULT_MRK3_A002i"	/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_DS_VAULT_MRK3_A002">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_BC_ELM_DS_VAULT_MRK3_A002"	/>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_VAULT_MRK3_A002i" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_VAULT_MRK3_A002i" 	/>
+   		</physvol>
+
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_DS_VAULT_MRK3_A1">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_BC_ELM_DS_VAULT_MRK3_A1"	/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_DS_BATT_VOL_MRK2_A003i">
+		<materialref 	ref="Vacuum" 					/>
+   		<solidref 	ref="Box_BC_ELM_DS_BATT_VOL_MRK2_A003i"	/>
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_DS_BATT_VOL_MRK2_A003">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_BC_ELM_DS_BATT_VOL_MRK2_A003"	/>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_BATT_VOL_MRK2_A003i" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_BATT_VOL_MRK2_A003i" 	/>
+   		</physvol>
+
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i">
+		<materialref 	ref="Vacuum" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i"	/>
+   		<auxiliary 	auxtype="white"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1">
+		<materialref 	ref="AluminumM" 					/>
+   		<solidref 	ref="Box_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1"	/>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1i" 	/>
+   		</physvol>
+
+   		<auxiliary 	auxtype="blue"			auxvalue="1"		/>
+  	</volume>
+
+  	<volume name="BC_ELM_DS_PROP_STRCTRE_MRK6_A004" >
+		<materialref 	ref="AluminumM" 		/>
+   		<solidref 	ref="Union_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+   		<auxiliary 	auxtype="green" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="BC_ELM_GNC_VAULT_MRK2_A008" >
+		<materialref 	ref="AluminumM" 		/>
+   		<solidref 	ref="Xtru_BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+   		<auxiliary 	auxtype="green" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="BC_ELM_GNC_VAULT_MRK2_A005" >
+		<materialref 	ref="AluminumM" 		/>
+   		<solidref 	ref="Xtru_BC_ELM_GNC_VAULT_MRK2_A005" 	/>
+   		<auxiliary 	auxtype="green" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="BC_ELM_GNC_VAULT_MRK2_A005o" >
+		<materialref 	ref="AluminumM" 		/>
+   		<solidref 	ref="Xtruo_BC_ELM_GNC_VAULT_MRK2_A005" 	/>
+   		<auxiliary 	auxtype="green" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" >
+		<materialref 	ref="AluminumM" 		/>
+   		<solidref 	ref="Inter_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 	/>
+   		<auxiliary 	auxtype="green" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="LRing_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" >
+		<materialref 	ref="AluminumM" 		/>
+   		<solidref 	ref="Ring_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 	/>
+   		<auxiliary 	auxtype="green" 		auxvalue="1"/>
+  	</volume>
+
+	<!-- Descent Engine -->
+
+  	<volume name="PropCyCavity" >
+		<materialref 	ref="Air" 			/>
+   		<solidref 	ref="S_Propellent_CyCavity" 			/>
+   		<auxiliary 	auxtype="white" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropCy" >
+		<materialref 	ref="Propellent" 			/>
+   		<solidref 	ref="S_PropellentCy" 			/>
+
+			<physvol>
+    				<volumeref 	ref="PropCyCavity" 		/>
+    				<positionref 	ref="pos_Prop_CyCavity" 			/>
+   			</physvol> 
+
+   		<auxiliary 	auxtype="red" 			auxvalue="1"/>
+  	</volume>
+
+  	<volume name="InsulCy" >
+		<materialref 	ref="Insulation" 			/>
+   		<solidref 	ref="S_InsulationCy" 			/>
+
+   		<physvol>
+    			<volumeref 	ref="PropCy" 		/>
+    			<positionref 	ref="pos_Prop_Cyl" 	/>
+   		</physvol> 
+
+   		<auxiliary 	auxtype="blue" 			auxvalue="1"/>
+  	</volume>
+
+  	<volume name="ShellCy" >
+		<materialref 	ref="Ti6Al4V" 			/>
+   		<solidref 	ref="S_ShellCy" 		/>
+
+   		<physvol>
+    			<volumeref 	ref="InsulCy" 	/>
+    			<positionref 	ref="pos_Insul_Cyl" 	/>
+   		</physvol> 
+
+   		<auxiliary 	auxtype="yellow" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropFDCavity" >
+		<materialref 	ref="Air" 			/>
+   		<solidref 	ref="S_Propellent_FDCavity" 			/>
+   		<auxiliary 	auxtype="white" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropFDo" >
+		<materialref 	ref="Propellent" 			/>
+   		<solidref 	ref="S_PropellentFDome" 			/>
+   		<physvol>
+    			<volumeref 	ref="PropFDCavity" 	/>
+    			<positionref 	ref="pos_Prop_FDCavity" 	/>
+   		</physvol> 
+   		<auxiliary 	auxtype="red" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="InsulFDo" >
+		<materialref 	ref="Insulation" 			/>
+   		<solidref 	ref="S_InsulationFDome" 			/>
+   		<physvol>
+    			<volumeref 	ref="PropFDo" 	/>
+    			<positionref 	ref="pos_Prop_FDome" 	/>
+   		</physvol> 
+   		<auxiliary 	auxtype="blue" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="ShellFDo" >
+		<materialref 	ref="Ti6Al4V" 			/>
+   		<solidref 	ref="S_ShellFDome" 			/>
+   		<physvol>
+    			<volumeref 	ref="InsulFDo" 	/>
+    			<positionref 	ref="pos_Insul_FDome" 	/>
+   		</physvol> 
+
+   		<auxiliary 	auxtype="yellow" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="NozzleInProp" >
+		<materialref 	ref="NozzleM" 			/>
+   		<solidref 	ref="S_NozzleInProp" 			/>
+   		<auxiliary 	auxtype="blue" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropADCavity" >
+		<materialref 	ref="Air" 			/>
+   		<solidref 	ref="S_Propellent_ADCavity" 			/>
+
+   		<physvol>
+    			<volumeref 	ref="NozzleInProp" 	/>
+    			<positionref 	ref="pos_NozzleInProp" 	/>
+   		</physvol> 
+
+   		<auxiliary 	auxtype="white" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropADCavity1" >
+		<materialref 	ref="Air" 			/>
+   		<solidref 	ref="S_Propellent_ADCavity1" 			/>
+   		<auxiliary 	auxtype="white" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropADCavity2" >
+		<materialref 	ref="Air" 			/>
+   		<solidref 	ref="S_Propellent_ADCavity2" 			/>
+   		<auxiliary 	auxtype="white" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropADCavity3" >
+		<materialref 	ref="Air" 			/>
+   		<solidref 	ref="S_Propellent_ADCavity3" 			/>
+   		<auxiliary 	auxtype="white" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="PropADo" >
+		<materialref 	ref="Propellent" 			/>
+   		<solidref 	ref="S_PropellentADome" 			/>
+
+   		<physvol>
+    			<volumeref 	ref="PropADCavity" 	/>
+    			<positionref 	ref="pos_Prop_ADCavity" 	/>
+   		</physvol> 
+
+   		<auxiliary 	auxtype="red" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="NozzleInInsul" >
+		<materialref 	ref="NozzleM" 			/>
+   		<solidref 	ref="S_NozzleInInsul" 			/>
+   		<auxiliary 	auxtype="blue" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="InsulADCavity" >
+		<materialref 	ref="Air" 				/>
+   		<solidref 	ref="S_Insulation_ADCavity"			/>
+
+   		<physvol>
+    			<volumeref 	ref="NozzleInInsul" 	/>
+    			<positionref 	ref="pos_NozzleInInsul" 	/>
+   		</physvol> 
+
+   		<auxiliary 	auxtype="white" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="InsulADo" >
+		<materialref 	ref="Insulation" 			/>
+   		<solidref 	ref="S_InsulationADome" 			/>
+   		<physvol>
+    			<volumeref 	ref="PropADo" 	/>
+    			<positionref 	ref="pos_Prop_ADome" 	/>
+		</physvol> 
+   		<physvol>
+    			<volumeref 	ref="InsulADCavity" 	/>
+    			<positionref 	ref="pos_Insul_ADCavity" 	/>
+		</physvol> 
+   		<auxiliary 	auxtype="blue" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="ShellADo" >
+		<materialref 	ref="Ti6Al4V" 			/>
+   		<solidref 	ref="S_ShellADome" 			/>
+
+   		<physvol>
+    			<volumeref 	ref="InsulADo" 	/>
+    			<positionref 	ref="pos_Insul_ADome" 	/>
+   		</physvol> 
+   		<auxiliary 	auxtype="yellow" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="Nozzle" >
+		<materialref 	ref="NozzleM" 			/>
+   		<solidref 	ref="S_Nozzle" 			/>
+   		<auxiliary 	auxtype="blue" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="Detector_z1438" >
+		<materialref 	ref="Water" 			/>
+   		<solidref 	ref="Box_Detector_z1438" 			/>
+   		<auxiliary 	auxtype="SensDet" 		auxvalue="1"/>
+   		<auxiliary 	auxtype="red" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="Detector_z1889" >
+		<materialref 	ref="Water" 			/>
+   		<solidref 	ref="Box_Detector_z1889" 			/>
+   		<auxiliary 	auxtype="SensDet" 		auxvalue="1"/>
+   		<auxiliary 	auxtype="red" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="Detector_z2440" >
+		<materialref 	ref="Water" 			/>
+   		<solidref 	ref="Box_Detector_z2440" 			/>
+   		<auxiliary 	auxtype="SensDet" 		auxvalue="1"/>
+   		<auxiliary 	auxtype="red" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="Detector_z1990" >
+		<materialref 	ref="Water" 			/>
+   		<solidref 	ref="Box_Detector_z1990" 			/>
+   		<auxiliary 	auxtype="SensDet" 		auxvalue="1"/>
+   		<auxiliary 	auxtype="red" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="Detector_z2573" >
+		<materialref 	ref="Water" 			/>
+   		<solidref 	ref="Box_Detector_z2573" 			/>
+   		<auxiliary 	auxtype="SensDet" 		auxvalue="1"/>
+   		<auxiliary 	auxtype="red" 		auxvalue="1"/>
+  	</volume>
+
+  	<volume name="LWorld" >
+   		<materialref 		ref="Vacuum" 		/>
+   		<solidref 		ref="Box_LWorld" />
+
+   		<physvol>
+    			<volumeref 	ref="Detector_z1438" 	/>
+    			<positionref 	ref="pos_Detector_z1438" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="Detector_z1889" 	/>
+    			<positionref 	ref="pos_Detector_z1889" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="Detector_z2440" 	/>
+    			<positionref 	ref="pos_Detector_z2440" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="Detector_z1990" 	/>
+    			<positionref 	ref="pos_Detector_z1990" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="Detector_z2573" 	/>
+    			<positionref 	ref="pos_Detector_z2573" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Top_Panel_Con2_Bv53_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Top_Panel_Con2_Bv53_A1" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Tel_Iso_Pnl_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Tel_Iso_Pnl_A1" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Concept_Vault_Pnl4v3_Blue_A1" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1"	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Concept_Vault_Pnl1v3_Blue_A1" 	/>
+			<rotationref	ref="rotation_z135"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Concept_Vault_Pnl2v3_Blue_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Concept_Vault_Pnl3v3_Blue_A1" 	/>
+			<rotationref	ref="rotation_z135"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Concept_Vault_Pnl5v3_Blue_A1" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Concept_Vlt_Pnl5_TDv2_Blue_A002" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_TSS_Sandia_FiberFraxLarger_A" 	/>
+    			<positionref 	ref="pos_mds_EL_TSS_Sandia_FiberFraxLarger_A" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Battery_D_Cell_10x11x3_A005" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A005" 	/>
+			<rotationref	ref="rotation_zMinus45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Battery_D_Cell_10x11x3_A005" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A006" 	/>
+			<rotationref	ref="rotation_zMinus45"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Battery_D_Cell_10x11x3_A005" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A007" 	/>
+			<rotationref	ref="rotation_z135"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Battery_D_Cell_10x11x3_A005" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Battery_D_Cell_10x11x3_A008" 	/>
+			<rotationref	ref="rotation_z135"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="center_10447445_1_B001_2" 	/>
+    			<positionref 	ref="pos_center_10447445_1_B001_2" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_BIG_FAT_TANKS_MRK1_A003" 	/>
+    			<positionref 	ref="pos_BC_ELM_BIG_FAT_TANKS_MRK1_A003" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_BIG_FAT_TANKS_MRK1_A003" 	/>
+    			<positionref 	ref="pos_BC_ELM_BIG_FAT_TANKS_MRK1_A004" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_PRSRNT_ARDE_5004_A002" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_PRSRNT_ARDE_5004_A002" 	/>
+			<rotationref	ref="rotation_y90"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_PRSRNT_ARDE_5004_A002" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_PRSRNT_ARDE_5004_A003" 	/>
+			<rotationref	ref="rotation_y90"				/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_VAULT_MRK3_A002" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_VAULT_MRK3_A002" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_VAULT_MRK3_A1" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_VAULT_MRK3_A1" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_BATT_VOL_MRK2_A003" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_BATT_VOL_MRK2_A003" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_BATT_VOL_MRK2_A003" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_BATT_VOL_MRK2_A004" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_DTE_HGA_Antenna_Boomv2_A1" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" />
+    			<rotationref 	ref="rotation_z45" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" />
+    			<rotationref 	ref="rotation_z135" 			/>
+   		</physvol>
+
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" />
+    			<rotationref 	ref="rotation_zMinus45" 			/>
+   		</physvol>
+
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_DS_PROP_STRCTRE_MRK6_A004" 	/>
+    			<positionref 	ref="pos_BC_ELM_DS_PROP_STRCTRE_MRK6_A004" />
+    			<rotationref 	ref="rotation_zMinus135" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+    			<positionref 	ref="pos_BC_ELM_GNC_VAULT_MRK2_A008" />
+    			<rotationref 	ref="rotation_xMinus90" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_GNC_VAULT_MRK2_A008" 	/>
+    			<positionref 	ref="pos_BC_ELM_GNC_VAULT_MRK2_A006" />
+    			<rotationref 	ref="rotation_xMinus90" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_GNC_VAULT_MRK2_A005" 	/>
+    			<positionref 	ref="pos_BC_ELM_GNC_VAULT_MRK2_A005" />
+    			<rotationref 	ref="rotation_xMinus90" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_GNC_VAULT_MRK2_A005" 	/>
+    			<positionref 	ref="pos_BC_ELM_GNC_VAULT_MRK2_A007" />
+    			<rotationref 	ref="rotation_xMinus90" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_GNC_VAULT_MRK2_A005o" 	/>
+    			<positionref 	ref="poso_BC_ELM_GNC_VAULT_MRK2_A005" />
+    			<rotationref 	ref="rotation_xMinus90" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_GNC_VAULT_MRK2_A005o" 	/>
+    			<positionref 	ref="poso_BC_ELM_GNC_VAULT_MRK2_A007" />
+    			<rotationref 	ref="rotation_xMinus90" 			/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 	/>
+    			<positionref 	ref="pos_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" />
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="LRing_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1" 	/>
+    			<positionref 	ref="pos_BC_ELM_SRM_FRWRD_ADPTR_MRK2_A1_ring" />
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1" 	/>
+    			<positionref 	ref="pos_mds_EL_Lander_Pnl6_Pyld_TSS_180824_A1" 	/>
+			<rotationref	ref="rotation_z45"				/>
+   		</physvol>
+
+	<!-- Descent Engine -->
+
+   		<physvol>
+    			<volumeref 	ref="ShellFDo" 	/>
+    			<positionref 	ref="pos_Shell_FDome" 	/>
+   		</physvol>
+
+   		<physvol>
+    			<volumeref 	ref="ShellADo" 	/>
+    			<positionref 	ref="pos_Shell_ADome" 	/>
+			<rotationref 	ref="rotation_x180"	/>
+   		</physvol> 
+
+   		<physvol>
+    			<volumeref 	ref="ShellCy" 	/>
+    			<positionref 	ref="pos_Shell_Cyl" 	/>
+   		</physvol> 
+
+   		<physvol>
+    			<volumeref 	ref="Nozzle" 	/>
+    			<positionref 	ref="pos_Nozzle" 	/>
+			<rotationref 	ref="rotation_x180"	/>
+   		</physvol> 
+
+		<auxiliary 		auxtype="Steps" 		auxvalue="1"		/>
+   		<auxiliary 		auxtype="white" 	auxvalue="1"/>
+  	</volume>
+
+ </structure>
+
+ <setup name="worlde" 	version="1.0" >
+  	<world 		ref="LWorld" 		/>
+ </setup>
+</gdml> 

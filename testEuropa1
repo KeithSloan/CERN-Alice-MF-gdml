@@ -1,1 +1,1 @@
-python3 newUtils/buildDirStruct.py 1 LWorld europaTest.gdml /tmp/testEu1
+python3 newUtils/buildDirStruct.py 1 LWorld europaTest-LWorld.gdml /tmp/testEu1

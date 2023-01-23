@@ -466,7 +466,6 @@
     <rotation name="R-mds_EL_Lander_Top_Panel_Con2_Bv53_A11" unit="deg" z="45.000000000000014"/>
     <position name="P-mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity2" unit="mm" z="4.25"/>
     <rotation name="identity" x="0" y="0" z="0"/>
-    <position name="P-mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector3" unit="mm" z="-24.9975"/>
   </define>
   <materials>
     <element name="Hydrogen" Z="1" formula="H">
@@ -586,20 +585,12 @@
     <box name="Box_LWorld" x="8000.0" y="8000.0" z="8000.0" lunit="mm"/>
     <box name="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1" x="1150.0" y="1150.0" z="50.0" lunit="mm"/>
     <box name="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity" x="1109.08" y="1109.08" z="41.5" lunit="mm"/>
-    <box name="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector" x="1150.0" y="1150.0" z="0.005" lunit="mm"/>
   </solids>
   <structure>
     <volume name="mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity">
       <materialref ref="Vacuum"/>
       <solidref ref="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity"/>
       <auxiliary auxtype="Color" auxvalue="#ff40ff00"/>
-    </volume>
-    <volume name="mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector">
-      <materialref ref="Water"/>
-      <solidref ref="Box_mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"/>
-      <auxiliary auxtype="Color" auxvalue="#ff9f0000"/>
-      <auxiliary auxtype="SensDet" auxvalue="1"/>
-      <auxiliary auxtype="SensDet" auxvalue="1"/>
     </volume>
     <volume name="mds_EL_Lander_Top_Panel_Con2_Bv53_A1">
       <materialref ref="AluminumM"/>
@@ -609,14 +600,9 @@
         <positionref ref="P-mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Cavity2"/>
         <rotationref ref="identity"/>
       </physvol>
-      <physvol name="PV-mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector">
-        <volumeref ref="mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector"/>
-        <positionref ref="P-mds_EL_Lander_Top_Panel_Con2_Bv53_A1_Detector3"/>
-        <rotationref ref="identity"/>
-      </physvol>
     </volume>
     <volume name="LWorld">
-      <materialref ref="Tungsten"/>
+      <materialref ref="Vacuum"/>
       <solidref ref="Box_LWorld"/>
       <physvol name="PV-mds_EL_Lander_Top_Panel_Con2_Bv53_A1">
         <volumeref ref="mds_EL_Lander_Top_Panel_Con2_Bv53_A1"/>
