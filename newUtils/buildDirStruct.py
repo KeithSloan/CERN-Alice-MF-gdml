@@ -1,5 +1,6 @@
 import sys, os
 from lxml import etree
+import copy
 
 class gdml_lxml() :
     def __init__(self, filename):
@@ -28,6 +29,10 @@ class gdml_lxml() :
     def printElement(self, elem):
         import lxml.html as html
         print(html.tostring(elem))
+
+    def printMaterials(self):
+        import lxml.html as html
+        print(html.tostring(self.materials))
 
     def printName(self, elem):
         name = elem.attrib.get('name')
@@ -67,8 +72,11 @@ class gdml_lxml() :
         print(f"Process Element : {elem}")
         elemXml = self.materials.find(f"*[@name='{elem}']")
         if elemXml is not None:
+            # <- make a deep copy of the found elemen
+            newelemXml = copy.deepcopy(elemXml)
             print(f"Element : {elemXml.get('name')}")
-            matxml.append(elemXml)
+            matxml.append(newelemXml)
+            self.printMaterials()
 
     def processMaterial(self, mat):
         print(f"Process Material : {mat}")
@@ -77,8 +85,9 @@ class gdml_lxml() :
         print(f"matXml {matXml}")
         if matXml is not None:
             # Munther please review
-            #newMat.insert(0, matXml)
-            newMat.append(matXml)
+            # <- make a deep copy of the found elemen
+            newmatXml = copy.deepcopy(matXml)
+            newMat.append(newmatXml)
             for fractXml in matXml.findall("fraction"):
                 ref = fractXml.get("ref")
                 print(f"Faction ref {ref}")
