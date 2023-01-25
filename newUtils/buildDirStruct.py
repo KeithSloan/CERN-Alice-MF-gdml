@@ -163,6 +163,38 @@ class gdml_lxml() :
             self.processSolid(volAsm, sname)
 
 
+    def processPosDefine(self, volAsm, pos):
+        posXml = self.define.find(f"*[@name='{pos}']")
+        print(f"posXml {posXml}")
+        newPosXml = copy.deepcopy(posXml)
+        if newPosXml is not None:
+            volAsm.newDefine.append(newPosXml)
+
+
+    def processPosDefines(self, volAsm, definePosList):
+        #print(f"Process Solids {definePosList} {volAsm}")
+        print(f"Process Pos defines {definePosList}")
+        if len(definePosList) > 0:
+            for pos in definePosList:
+                self.processPosDefine(volAsm, pos)
+
+
+    def processRotDefine(self, volAsm, rot):
+        rotXml = self.define.find(f"*[@name='{rot}']")
+        print(f"rotXml {rotXml}")
+        newRotXml = copy.deepcopy(rotXml)
+        if newRotXml is not None:
+            volAsm.newDefine.append(newRotXml)
+
+
+    def processRotDefines(self, volAsm, defineRotList):
+        #print(f"Process Solids {definePosList} {volAsm}")
+        print(f"Process Rot defines {defineRotList}")
+        if len(defineRotList) > 0:
+            for rot in defineRotList:
+                self.processRotDefine(volAsm, rot)
+
+
     def getVolAsm(self, vaname):
         return self.structure.find(f"*[@name='{vaname}']")
 
@@ -198,6 +230,8 @@ class VolAsm():
         self.newMaterials = etree.Element('materials')
         self.matList = []       # List of found materials
         self.solidList = []
+        self.definePosList = []
+        self.defineRotList = []
         self.posDict = {}
         self.rotDict = {}
 
@@ -262,21 +296,30 @@ class VolAsm():
             if posref is not None:
                 posname = posref.attrib.get('ref')
                 print('Stack Position ref : '+posname)
-                self.processPosition(lxml, posname)
+                if posname not in self.definePosList:
+                    self.definePosList.append(posname)
+                self.updateParentPosDefines(posname)
+                #self.processPosition(lxml, posname)
             rotref = pv.find('rotationref')
             if rotref is not None:
                 rotname = rotref.attrib.get('ref')
                 print('Stack Rotation ref : '+rotname)
-                self.processRotation(lxml, rotname)
-            print('Number of positions in : '+vaname+' : '+str(len(self.posDict)))
+                if rotname not in self.defineRotList:
+                    self.defineRotList.append(rotname)
+                self.updateParentRotDefines(rotname)
+                #self.processRotation(lxml, rotname)
+            print(f"Number of positions in : {vaname} : \
+                     {len(self.definePosList)}")
+            print(f"Number of rotations in : {vaname} : \
+                     {len(self.definePosList)}")
             # print(self.posDict)
-            for posName in self.posDict:
-                print('Pull Position '+posName)
-                self.addDefine(self.posDict[posName])
-            for rotName in self.rotDict:
-                self.addDefine(self.rotDict[rotName])
-            writeElement(path, vaname, 'defines', self.newDefine)
-            self.addEntity('define', vaname+'_defines.xml')
+            #for posName in self.definePosList:
+            #    print('Pull Position '+posName)
+            #    self.addDefine(lxml.getPosition(posName))
+            #for rotName in self.rotDict:
+            #    self.addDefine(lxml.getRotation(rotNamer))
+            #writeElement(path, vaname, 'defines', self.newDefine)
+            #self.addEntity('define', vaname+'_defines.xml')
 
 
     def updateParentLists(self, material, sname):
@@ -288,6 +331,22 @@ class VolAsm():
             if sname is not None:        
                 if sname not in parent.solidList:
                     parent.solidList.append(sname)
+            parent = parent.getParent()    
+
+
+    def updateParentPosDefines(self, pos):
+        parent = self.getParent()
+        while parent is not None:
+            if pos not in parent.definePosList:
+               parent.definePosList.append(pos)
+            parent = parent.getParent()    
+
+
+    def updateParentRotDefines(self, rot):
+        parent = self.getParent()
+        while parent is not None:
+            if rot not in parent.defineRotList:
+               parent.defineRotList.append(rot)
             parent = parent.getParent()    
 
 
@@ -341,9 +400,11 @@ class VolAsm():
 
     def flushDicts(self, lxml, path, vaname):
         print(f"Flush Dicts {vaname}")
-        lxml.processSolids(self, self.solidList)
-        writeElement(path, vaname, 'solids', self.newSolids)
-        self.addEntity('solids', vaname+'_solids.xml')
+        lxml.processPosDefines(self, self.definePosList)
+        lxml.processRotDefines(self, self.defineRotList)
+        if len(self.definePosList) > 0 or len(self.defineRotList) > 0:
+            writeElement(path, vaname, 'define', self.newDefine)
+            self.addEntity('define', vaname+'_define.xml')
         # Need to process Elements first to add to matList 
         print(f"Process Elements {self.matList}")
         lxml.processMaterialsElements(self, self.matList)
@@ -352,6 +413,9 @@ class VolAsm():
         #materialsXML = lxml.processMaterials(self, self.matList)
         writeElement(path, vaname, 'materials', self.newMaterials)
         self.addEntity('materials',vaname+'_materials.xml')
+        lxml.processSolids(self, self.solidList)
+        writeElement(path, vaname, 'solids', self.newSolids)
+        self.addEntity('solids', vaname+'_solids.xml')
         self.closeEntities()
         self.writeGDML(path, vaname)
 
