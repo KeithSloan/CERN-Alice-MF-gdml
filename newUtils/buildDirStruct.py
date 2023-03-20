@@ -149,10 +149,10 @@ class gdml_lxml() :
 
 
     def checkBooleanSolids(self, volAsm, solidXml):
-        print(f"{solidXml}")
-        print(solidXml.attrib)
+        #print(f"{solidXml}")
+        #print(solidXml.attrib)
         #print(solidXml.keys)
-        print(dir(solidXml))
+        #print(dir(solidXml))
         tag = solidXml.tag
         if tag == 'union' or tag == 'subtraction' or tag == 'intersection':
             for child in solidXml:
@@ -188,7 +188,7 @@ class gdml_lxml() :
 
     def processPosDefine(self, volAsm, pos):
         posXml = self.define.find(f"*[@name='{pos}']")
-        print(f"posXml {posXml}")
+        #print(f"posXml {posXml}")
         newPosXml = copy.deepcopy(posXml)
         if newPosXml is not None:
             volAsm.newDefine.append(newPosXml)
@@ -196,7 +196,7 @@ class gdml_lxml() :
 
     def processPosDefines(self, volAsm, definePosList):
         #print(f"Process Solids {definePosList} {volAsm}")
-        print(f"Process Pos defines {definePosList}")
+        #print(f"Process Pos defines {definePosList}")
         if len(definePosList) > 0:
             for pos in definePosList:
                 self.processPosDefine(volAsm, pos)
@@ -204,7 +204,7 @@ class gdml_lxml() :
 
     def processRotDefine(self, volAsm, rot):
         rotXml = self.define.find(f"*[@name='{rot}']")
-        print(f"rotXml {rotXml}")
+        #print(f"rotXml {rotXml}")
         newRotXml = copy.deepcopy(rotXml)
         if newRotXml is not None:
             volAsm.newDefine.append(newRotXml)
@@ -212,7 +212,7 @@ class gdml_lxml() :
 
     def processRotDefines(self, volAsm, defineRotList):
         #print(f"Process Solids {definePosList} {volAsm}")
-        print(f"Process Rot defines {defineRotList}")
+        #print(f"Process Rot defines {defineRotList}")
         if len(defineRotList) > 0:
             for rot in defineRotList:
                 self.processRotDefine(volAsm, rot)
@@ -304,6 +304,11 @@ class VolAsm():
             self.solidList.append(sname)
 
 
+    def getStructContents(self):
+        print(f"Children {self.newStruct.getchildren()}")
+        return self.newStruct.getchildren()
+
+
     def processPhysVols(self, lxml, volasm, path):
         vaname = volasm.attrib.get('name')
         print(f"Process Phys Vols of : {vaname}")
@@ -318,6 +323,8 @@ class VolAsm():
                 checkDirectory(npath)
                 new_pa = VolAsm(pname, self)
                 new_pa.processVolAsm(lxml, npath, pname)
+                for i, c in enumerate(new_pa.getStructContents()):
+                    self.newStruct.insert(i,c)
             posref = pv.find('positionref')
             if posref is not None:
                 posname = posref.attrib.get('ref')
