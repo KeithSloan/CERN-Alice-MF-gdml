@@ -24,8 +24,9 @@ class gdml_lxml() :
         self.materials = self.root.find('materials')
         self.solids    = self.root.find('solids')
         self.structure = self.root.find('structure')
-        self.volAsmDict = {}  # Can have number of PhysVols that refer to same
-
+        #self.volAsmDict = {}  # Can have number of PhysVols that refer to same
+        # Needs to be in VolAsm   
+        self.volStructDict = {}
 
     def printElement(self, elem):
         import lxml.html as html
@@ -47,15 +48,15 @@ class gdml_lxml() :
         print(f"{elem} : {name}")
 
 
-    def checkVolAsmDict(self, name):
-        # print(f"Check Vol Asm Dict {self.volAsmDict}")
-        if name in self.volAsmDict.keys():
-            return False        # No need to process
-        return True             # NEED to process
+    #def checkVolAsmDict(self, name):
+    #    # print(f"Check Vol Asm Dict {self.volAsmDict}")
+    #    if name in self.volAsmDict.keys():
+    #        return False        # No need to process
+    #    return True             # NEED to process
 
 
-    def addVolAsmDict(self, name, elem):
-        self.volAsmDict[name] = elem
+    #def addVolAsmDict(self, name, elem):
+    #    self.volAsmDict[name] = elem
 
 
     def getPosition(self, posName):
@@ -219,7 +220,17 @@ class gdml_lxml() :
 
 
     def getVolAsm(self, vaname):
-        return self.structure.find(f"*[@name='{vaname}']")
+        newStruct = copy.deepcopy(self.structure)
+        struct = newStruct.find(f"*[@name='{vaname}']")
+        return struct
+
+    def addStructDict(self, vname, struct):
+        print(f"Add struct dict {vname} {struct}")
+        self.structure = self.root.find('structure')
+        self.volStructDict[vname] = struct
+
+    def getVolStruct(self, vname):
+        return self.volStructDict[vname]   
 
     # def addEntity(self, elemName, xmlFile) :
     #    self.docString += "<!ENTITY " + elemName + ' SYSTEM "' + xmlFile+'">\n'
@@ -238,7 +249,6 @@ class VolAsm():
 
     def __init__(self, vaname, parent):
         from lxml import etree
-
         self.vaname = vaname
         self.parent = parent
         NS = 'http://www.w3.org/2001/XMLSchema-instance'
@@ -257,6 +267,7 @@ class VolAsm():
         self.solidList = []
         self.definePosList = []
         self.defineRotList = []
+        self.volAsmDict = {}
         self.posDict = {}
         self.rotDict = {}
 
@@ -269,6 +280,18 @@ class VolAsm():
         else:
             print('==== Problem with define')
             exit(1)
+
+    def checkVolAsmDict(self, name):
+        # print(f"Check Vol Asm Dict {self.volAsmDict}")
+        print("Always return True for now")
+        return True
+        if name in self.volAsmDict.keys():
+            return False        # No need to process
+        return True             # NEED to process
+
+
+    def addVolAsmDict(self, name, elem):
+        self.volAsmDict[name] = elem
 
 
     def checkAddMaterial(self, mat):
@@ -317,14 +340,23 @@ class VolAsm():
             pname = volref.attrib.get('ref')
             print('physvol : '+pname)
             # Is this a new VolAsm
-            if lxml.checkVolAsmDict(pname) is True:
+            # if lxml.checkVolAsmDict(pname) is True:
+            if self.checkVolAsmDict(pname) is True:
+                print(f"need to process {pname}")
                 npath = os.path.join(path, pname)
                 print('New path : '+npath)
                 checkDirectory(npath)
                 new_pa = VolAsm(pname, self)
                 new_pa.processVolAsm(lxml, npath, pname)
-                for i, c in enumerate(new_pa.getStructContents()):
-                    self.newStruct.insert(i,c)
+            else:
+                print(f"Existing Volume {pname}")
+                print(f"Volume {lxml.getVolStruct(pname)}")
+                print(lxml.volStructDict)
+            for i, c in enumerate(lxml.getVolStruct(pname)):
+                print(f"c {c} ")
+                #print(dir(c))
+                #print(c.text)
+                self.newStruct.insert(i,c)
             posref = pv.find('positionref')
             if posref is not None:
                 posname = posref.attrib.get('ref')
@@ -412,11 +444,12 @@ class VolAsm():
         self.processPhysVols(lxml, assem, path)
 
     def processVolAsm(self, lxml, path, vaname):
-        if lxml.checkVolAsmDict(vaname):
+        #if lxml.checkVolAsmDict(vaname):
+        if self.checkVolAsmDict(vaname):
             volasm = lxml.getVolAsm(vaname)
-            lxml.addVolAsmDict(vaname, volasm)
-            print(f"Processing VolAsm : {vaname}")
-            lxml.printName(volasm)
+            #lxml.addVolAsmDict(vaname, volasm)
+            self.addVolAsmDict(vaname, volasm)
+            print(f"Processing VolAsm : {vaname} {volasm}")
             if volasm is not None:
                 #writeElement(path, vaname, 'struct', volasm)
                 self.newStruct.append(volasm)
@@ -460,6 +493,8 @@ class VolAsm():
         self.addEntity('solids', vaname+'_solids.xml')
         writeElement(path, vaname, 'struct', self.newStruct)
         self.addEntity('struct',vaname+'_struct.xml')
+        print(f"Add struct dict")
+        lxml.addStructDict(vaname, self.newStruct)
         self.processSetup(lxml, vaname)
         writeElement(path, vaname, 'setup', self.newSetup)
         self.addEntity('setup', vaname+'_setup.xml')
