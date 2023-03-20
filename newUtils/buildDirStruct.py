@@ -148,12 +148,35 @@ class gdml_lxml() :
             volAsm = volAsm.getParent()
 
 
+    def checkBooleanSolids(self, volAsm, solidXml):
+        print(f"{solidXml}")
+        print(solidXml.attrib)
+        #print(solidXml.keys)
+        print(dir(solidXml))
+        tag = solidXml.tag
+        if tag == 'union' or tag == 'subtraction' or tag == 'intersection':
+            for child in solidXml:
+                if child.tag == "first" or child.tag == "second":
+                    solidRef = child.attrib.get("ref")
+                    print(f"Solid Ref {solidRef}")
+                    self.processSolid(volAsm, solidRef)
+
+        elif tag == 'multiUnion':
+            for child in solidXml:
+                if child.tag == 'multiUnionNode':
+                    for el in child:
+                        if el.tag == 'solid':
+                            solidRef = el.attrib.get("ref")            
+                            print(f"Solid Ref {solidRef}")
+                            self.processSolid(volAsm, solidRef)
+
     def processSolid(self, volAsm, sname):
         solidXml = self.solids.find(f"*[@name='{sname}']")
-        print(f"solidXml {solidXml}")
+        #print(f"solidXml {solidXml}")
         newSolidXml = copy.deepcopy(solidXml)
         if newSolidXml is not None:
             volAsm.newSolids.append(newSolidXml)
+            self.checkBooleanSolids(volAsm, newSolidXml)
 
 
     def processSolids(self, volAsm, solidList):
@@ -226,8 +249,10 @@ class VolAsm():
         # self.newDefine = etree.SubElement(self.gdml,'define')
         self.newDefine = etree.Element('define')
         # self.newSolids = etree.SubElement(self.gdml,'solids')
-        self.newSolids = etree.Element('solids')
         self.newMaterials = etree.Element('materials')
+        self.newSolids = etree.Element('solids')
+        self.newStruct = etree.Element('structure')
+        self.newSetup = etree.Element('setup')
         self.matList = []       # List of found materials
         self.solidList = []
         self.definePosList = []
@@ -271,6 +296,7 @@ class VolAsm():
                 #  self.newDefine.append(p)
             else:
                 print(f"Rotation {rotName} Not Found")
+
 
     def processSolid(self, lxml, sname):
         print(f"{self.vaname} Solid List {self.solidList}")
@@ -385,7 +411,8 @@ class VolAsm():
             print(f"Processing VolAsm : {vaname}")
             lxml.printName(volasm)
             if volasm is not None:
-                writeElement(path, vaname, 'struct', volasm)
+                #writeElement(path, vaname, 'struct', volasm)
+                self.newStruct.append(volasm)
                 if volasm.tag == 'volume':
                     self.processVolume(lxml, path, volasm)
                 elif volasm.tag == 'assembly':
@@ -397,6 +424,14 @@ class VolAsm():
         else:
             print(f"Already processed {vaname}")
             return False
+
+    def processSetup(self, lxml, vaname):
+        #worldVol = next(iter(lxml.volAsmDict))
+        #print(f"Vol Asm {worldVol}")
+        setup = self.newSetup = etree.Element("setup", {"name" : "Default", "version" : "1.0"})
+        etree.SubElement(setup, "world", {"ref" : vaname})
+        #self.newSetup.append(setup)
+
 
     def flushDicts(self, lxml, path, vaname):
         print(f"Flush Dicts {vaname}")
@@ -416,6 +451,11 @@ class VolAsm():
         lxml.processSolids(self, self.solidList)
         writeElement(path, vaname, 'solids', self.newSolids)
         self.addEntity('solids', vaname+'_solids.xml')
+        writeElement(path, vaname, 'struct', self.newStruct)
+        self.addEntity('struct',vaname+'_struct.xml')
+        self.processSetup(lxml, vaname)
+        writeElement(path, vaname, 'setup', self.newSetup)
+        self.addEntity('setup', vaname+'_setup.xml')
         self.closeEntities()
         self.writeGDML(path, vaname)
 
@@ -424,7 +464,7 @@ class VolAsm():
         self.gdml.append(etree.Entity(elemName))
 
     def closeEntities(self):
-        self.docString += ']\n'
+        self.docString += ']>\n'
 
     def writeGDML(self, path, vname):
         # indent(iself.gdml)
