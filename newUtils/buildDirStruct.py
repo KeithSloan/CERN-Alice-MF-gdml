@@ -1,3 +1,49 @@
+# **************************************************************************
+# *                                                                        *
+# *   Copyright (c) 2022 Keith Sloan <keith@sloan-home.co.uk>              *
+# *                      Munther Hind                                      *
+# *                                                                        **
+# *   This program is free software; you can redistribute it and/or modify *
+# *   it under the terms of the GNU Lesser General Public License (LGPL)   *
+# *   as published by the Free Software Foundation; either version 2 of    *
+# *   the License, or (at your option) any later version.                  *
+# *   for detail see the LICENCE text file.                                *
+# *                                                                        *
+# *   This program is distributed in the hope that it will be useful,      *
+# *   but WITHOUT ANY WARRANTY; without even the implied warranty of       *
+# *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        *
+# *   GNU Library General Public License for more details.                 *
+# *                                                                        *
+# *   You should have received a copy of the GNU Library General Public    *
+# *   License along with this program; if not, write to the Free Software  *
+# *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 *
+# *   USA                                                                  *
+# *                                                                        *
+# *   Acknowledgements :                                                   *
+#                                                                          *
+#    Takes as input a Volume Name, GDML file  and outputs                  *
+#              a directory structure starting at the specified Volume Name *
+#                                                                          *
+#                                                                          *
+#    python3 buildDirStruct.py <parms> <Volume> <gdml_file> <Out_dir>      *
+#                                                                          *
+#       parms for future use ( use 1 for now )                             *
+#       Volume    : Name of Volume to be extracted                         *
+#       gdml_file : Source GDML file                                       *
+#       Out_dir   : Output Directory                                       *
+#                                                                          *
+#  Where each Volume, Assembly is created as a sub directory               *
+#                                                                          *
+#           volumeName.gdml                                                *
+#           volumeName_define.xml                                          *
+#           volumeName_materials.xml                                       *
+#           volumeName_solids.xml                                          *
+#           volumeName_struct.xml                                          *
+#           volumeName_setup.xml                                           *
+#           < sub Volumes/Assemblies >                                     *
+#                                                                          *
+############################################################################
+
 import sys, os
 from lxml import etree
 import copy
