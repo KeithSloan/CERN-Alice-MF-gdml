@@ -1,0 +1,1 @@
+python3 newUtils/buildDirStruct.py 1 ALIC Alice_original.gdml $HOME/Downloads/CERN-Alice
