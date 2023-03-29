@@ -1,0 +1,2 @@
+B077_struct.xml filter=lfs diff=lfs merge=lfs -text
+CERN-Alice/ALIC/B077/B077_struct.xml filter=lfs diff=lfs merge=lfs -text
