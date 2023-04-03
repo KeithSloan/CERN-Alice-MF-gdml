@@ -1,3 +1,19 @@
+### Latest Status
+
+testAlice - ran. took several days but not to completion, not sure if resource or bug, need to try again.
+            but seems to have created a good structure for what was processed.
+            
+GDML workbench https://github.com/KeithSloan/GDML/tree/Main/freecad/gdml has been updated such that on a scan,
+     where before it would create a Part with Not_Expanded it now checks if the scan is on a directory structure
+     and if a step files exits for the said Part. It then creats a new GDMLPartStep Object
+     
+The appropriate step files have been created in  Subdirectory Dipole/DCoil    
+
+The next stage is to test if this approach might work for large directories/Volumes like B077
+
+Note: B077_struct.xml exceeds github file size limit, so needs decompressing before use.
+
+
 # CERN-Alice-MultiFile-gdml
 
 One of the aims of this exercise/project is to provide a testing/proving ground for the the FreeCAD GDML workbench
