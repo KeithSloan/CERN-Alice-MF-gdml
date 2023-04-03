@@ -328,15 +328,19 @@ class VolAsm():
             exit(1)
 
     def checkVolAsmDict(self, name):
-        # print(f"Check Vol Asm Dict {self.volAsmDict}")
-        print("Always return True for now")
-        return True
+        print(f"Check Vol Asm Dict {self.volAsmDict}")
         if name in self.volAsmDict.keys():
-            return False        # No need to process
-        return True             # NEED to process
+            print(f"volasm {name} already processed")
+            return True
+        else:
+            print(f"volasm {name} Not Yet processed")
+            return False
+        #print("Always return True for now")
+        #return True
 
 
     def addVolAsmDict(self, name, elem):
+        print(f"add VolAsmDict {name} {elem}")
         self.volAsmDict[name] = elem
 
 
@@ -384,11 +388,12 @@ class VolAsm():
         for pv in volasm.findall('physvol'):
             volref = pv.find('volumeref')
             pname = volref.attrib.get('ref')
-            print('physvol : '+pname)
+            print(f"physvol : {pname} volume {vaname}")
             # Is this a new VolAsm
-            # if lxml.checkVolAsmDict(pname) is True:
-            if self.checkVolAsmDict(pname) is True:
+            if self.checkVolAsmDict(pname) is False:
                 print(f"need to process {pname}")
+                volasm = lxml.getVolAsm(pname)
+                self.addVolAsmDict(pname, volasm)
                 npath = os.path.join(path, pname)
                 print('New path : '+npath)
                 checkDirectory(npath)
@@ -490,10 +495,8 @@ class VolAsm():
         self.processPhysVols(lxml, assem, path)
 
     def processVolAsm(self, lxml, path, vaname):
-        #if lxml.checkVolAsmDict(vaname):
-        if self.checkVolAsmDict(vaname):
+        if self.checkVolAsmDict(vaname) == False:
             volasm = lxml.getVolAsm(vaname)
-            #lxml.addVolAsmDict(vaname, volasm)
             self.addVolAsmDict(vaname, volasm)
             print(f"Processing VolAsm : {vaname} {volasm}")
             if volasm is not None:
