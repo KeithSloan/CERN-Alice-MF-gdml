@@ -6,6 +6,8 @@ Fixes for volume and assembly structure
 
 testAlice - ran to completion in 12 hours approx
 
+CERN-Alice - 272.4 Mb
+
 
 27/03/23
 
