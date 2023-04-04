@@ -4,7 +4,7 @@
 
 Fixes for volume and assembly structure
 
-testAlice - ran to completion < 24 hours
+testAlice - ran to completion in 12 hours approx
 
 
 27/03/23
