@@ -1,0 +1,61 @@
+<solids><subtraction name="bar14top0x1">
+      <first ref="bar14topOUT"/>
+      <second ref="bar14topIN"/>
+    </subtraction>
+    <xtru name="bar14topOUT" lunit="cm">
+      <twoDimVertex x="-74.400000000000006" y="5"/>
+      <twoDimVertex x="74.400000000000006" y="5"/>
+      <twoDimVertex x="74.400000000000006" y="-5"/>
+      <twoDimVertex x="-74.400000000000006" y="-5"/>
+      <section zOrder="0" zPosition="-2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="bar14topIN" lunit="cm">
+      <twoDimVertex x="-74.400000500000502" y="4.5"/>
+      <twoDimVertex x="74.400000500000502" y="4.5"/>
+      <twoDimVertex x="74.400000500000502" y="-4.5"/>
+      <twoDimVertex x="-74.400000500000502" y="-4.5"/>
+      <section zOrder="0" zPosition="-2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <subtraction name="bar14vert0x1">
+      <first ref="bar14vertOUT"/>
+      <second ref="bar14vertIN"/>
+    </subtraction>
+    <xtru name="bar14vertOUT" lunit="cm">
+      <twoDimVertex x="-19.350000000000001" y="5"/>
+      <twoDimVertex x="19.350000000000001" y="5"/>
+      <twoDimVertex x="19.350000000000001" y="-5"/>
+      <twoDimVertex x="-19.350000000000001" y="-5"/>
+      <section zOrder="0" zPosition="-2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="bar14vertIN" lunit="cm">
+      <twoDimVertex x="-19.350000500000501" y="4.5"/>
+      <twoDimVertex x="19.350000500000501" y="4.5"/>
+      <twoDimVertex x="19.350000500000501" y="-4.5"/>
+      <twoDimVertex x="-19.350000500000501" y="-4.5"/>
+      <section zOrder="0" zPosition="-2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <subtraction name="bar14incl0x1">
+      <first ref="bar14inclOUT"/>
+      <second ref="bar14inclIN"/>
+    </subtraction>
+    <xtru name="bar14inclOUT" lunit="cm">
+      <twoDimVertex x="-23.009259966289427" y="2.5"/>
+      <twoDimVertex x="37.290740033710577" y="2.5"/>
+      <twoDimVertex x="30.150000000000002" y="-2.5"/>
+      <twoDimVertex x="-30.150000000000002" y="-2.5"/>
+      <section zOrder="0" zPosition="-2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="bar14inclIN" lunit="cm">
+      <twoDimVertex x="-23.723333969660484" y="2"/>
+      <twoDimVertex x="38.004814037081637" y="2"/>
+      <twoDimVertex x="30.864074003371059" y="-2"/>
+      <twoDimVertex x="-30.864074003371059" y="-2"/>
+      <section zOrder="0" zPosition="-2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

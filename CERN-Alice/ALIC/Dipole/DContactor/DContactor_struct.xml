@@ -2,10 +2,6 @@
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x4"/>
     </volume>
-    <volume name="DC10">
-      <materialref ref="DIPO_ALUMINIUM2"/>
-      <solidref ref="TGeoTubeSeg0x4"/>
-    </volume>
     <assembly name="DContactor">
       <physvol name="DC10_1" copynumber="1">
         <volumeref ref="DC10"/>

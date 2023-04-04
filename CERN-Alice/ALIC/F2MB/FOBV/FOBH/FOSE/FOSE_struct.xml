@@ -1,0 +1,9 @@
+<structure><volume name="FOSE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDO_physical_sensor"/>
+      <physvol name="FOAC_0" copynumber="0">
+        <volumeref ref="FOAC"/>
+        <positionref ref="FOAC_0inFOSEpos"/>
+      </physvol>
+    </volume>
+    </structure>

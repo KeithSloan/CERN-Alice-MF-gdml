@@ -1,0 +1,5 @@
+<structure><volume name="OSUA">
+      <materialref ref="T0_Aliminium"/>
+      <solidref ref="Osupsh"/>
+    </volume>
+    </structure>

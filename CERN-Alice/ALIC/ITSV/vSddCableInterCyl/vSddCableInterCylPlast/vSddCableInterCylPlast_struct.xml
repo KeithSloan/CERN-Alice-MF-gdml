@@ -1,0 +1,5 @@
+<structure><volume name="vSddCableInterCylPlast">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="sddCableInterCylPlast"/>
+    </volume>
+    </structure>

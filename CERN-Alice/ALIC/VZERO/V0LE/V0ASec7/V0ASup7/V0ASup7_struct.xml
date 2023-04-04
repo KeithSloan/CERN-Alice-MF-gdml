@@ -1,0 +1,7 @@
+<structure><assembly name="V0ASup7">
+      <physvol name="V0AOct27_1" copynumber="1">
+        <volumeref ref="V0AOct27"/>
+        <positionref ref="V0AOct27_1inV0ASup7pos"/>
+      </physvol>
+    </assembly>
+    </structure>

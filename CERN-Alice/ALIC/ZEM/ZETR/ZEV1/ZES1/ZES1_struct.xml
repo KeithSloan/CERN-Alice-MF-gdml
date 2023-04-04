@@ -1,0 +1,10 @@
+<structure><volume name="ZES1">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="TGeoPara0x6"/>
+      <physvol name="ZEMF_1" copynumber="1">
+        <volumeref ref="ZEMF"/>
+        <positionref ref="ZEMF_10x1inZES1pos"/>
+        <rotationref ref="ZEMF_10x1inZES1rot"/>
+      </physvol>
+    </volume>
+    </structure>

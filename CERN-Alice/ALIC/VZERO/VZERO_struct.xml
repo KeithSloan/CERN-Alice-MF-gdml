@@ -1,0 +1,11 @@
+<structure><assembly name="VZERO">
+      <physvol name="V0RI_1" copynumber="1">
+        <volumeref ref="V0RI"/>
+        <positionref ref="V0RI_1inVZEROpos"/>
+      </physvol>
+      <physvol name="V0LE_1" copynumber="1">
+        <volumeref ref="V0LE"/>
+        <positionref ref="V0LE_1inVZEROpos"/>
+      </physvol>
+    </assembly>
+    </structure>

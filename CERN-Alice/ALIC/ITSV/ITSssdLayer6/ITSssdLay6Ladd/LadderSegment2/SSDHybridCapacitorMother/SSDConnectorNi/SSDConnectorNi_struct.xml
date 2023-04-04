@@ -1,0 +1,5 @@
+<structure><volume name="SSDConnectorNi">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoBBox0x1120"/>
+    </volume>
+    </structure>

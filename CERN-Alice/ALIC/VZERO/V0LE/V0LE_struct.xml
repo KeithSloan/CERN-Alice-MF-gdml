@@ -1,0 +1,50 @@
+<structure><volume name="V0APlaOuNailsHoles">
+      <materialref ref="VZERO_V0APlaOu"/>
+      <solidref ref="sV0APlaOuNailsHoles"/>
+    </volume>
+    <assembly name="V0LE">
+      <physvol name="V0ASec_1" copynumber="1">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec_2" copynumber="2">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_2inV0LEpos"/>
+        <rotationref ref="V0ASec_2inV0LErot"/>
+      </physvol>
+      <physvol name="V0ASec_3" copynumber="3">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_3inV0LEpos"/>
+        <rotationref ref="V0ASec_3inV0LErot"/>
+      </physvol>
+      <physvol name="V0ASec_4" copynumber="4">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_4inV0LEpos"/>
+        <rotationref ref="V0ASec_4inV0LErot"/>
+      </physvol>
+      <physvol name="V0ASuppur_1" copynumber="1">
+        <volumeref ref="V0ASuppur"/>
+        <positionref ref="V0ASuppur_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASuppul_1" copynumber="1">
+        <volumeref ref="V0ASuppul"/>
+        <positionref ref="V0ASuppul_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec5_1" copynumber="1">
+        <volumeref ref="V0ASec5"/>
+        <positionref ref="V0ASec5_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec6_1" copynumber="1">
+        <volumeref ref="V0ASec6"/>
+        <positionref ref="V0ASec6_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec7_1" copynumber="1">
+        <volumeref ref="V0ASec7"/>
+        <positionref ref="V0ASec7_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec8_1" copynumber="1">
+        <volumeref ref="V0ASec8"/>
+        <positionref ref="V0ASec8_1inV0LEpos"/>
+      </physvol>
+    </assembly>
+    </structure>

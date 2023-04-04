@@ -1,0 +1,5 @@
+<structure><volume name="EndCapStiffener">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1141"/>
+    </volume>
+    </structure>

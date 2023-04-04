@@ -1,0 +1,8 @@
+<structure><volume name="ZNEU">
+      <materialref ref="ZDC_WALL"/>
+      <solidref ref="ZNEU0x1"/>
+      <divisionvol axis="kXAxis" number="2" width="3.5199000000000003" offset="0" unit="cm">
+        <volumeref ref="ZNTX"/>
+      </divisionvol>
+    </volume>
+    </structure>

@@ -1,0 +1,5 @@
+<structure><volume name="inclinedbar">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="inclinedbar0x1"/>
+    </volume>
+    </structure>

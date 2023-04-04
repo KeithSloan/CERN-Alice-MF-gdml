@@ -1,0 +1,5 @@
+<structure><volume name="Hlar0x12">
+      <materialref ref="HMPID_Ar"/>
+      <solidref ref="Hlar0x13"/>
+    </volume>
+    </structure>

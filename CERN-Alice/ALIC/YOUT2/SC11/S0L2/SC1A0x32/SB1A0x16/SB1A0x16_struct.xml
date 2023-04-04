@@ -1,8 +1,4 @@
-<structure><volume name="S11G0x16">
-      <materialref ref="MUON_TRIG_GAS"/>
-      <solidref ref="TGeoBBox0x604"/>
-    </volume>
-    <volume name="SB1A0x16">
+<structure><volume name="SB1A0x16">
       <materialref ref="MUON_Bakelite"/>
       <solidref ref="TGeoBBox0x603"/>
       <physvol name="S11G_1" copynumber="1">

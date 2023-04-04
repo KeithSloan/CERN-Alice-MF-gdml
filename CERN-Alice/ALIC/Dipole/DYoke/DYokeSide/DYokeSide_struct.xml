@@ -2,30 +2,6 @@
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x8"/>
     </volume>
-    <volume name="DSideBlock">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x8"/>
-    </volume>
-    <volume name="DSideBlock">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x8"/>
-    </volume>
-    <volume name="DSideBlock">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x8"/>
-    </volume>
-    <volume name="DSideBlock">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x8"/>
-    </volume>
-    <volume name="DSideBlock">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x8"/>
-    </volume>
-    <volume name="DSideBlock">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x8"/>
-    </volume>
     <assembly name="DYokeSide">
       <physvol name="DSideBlock_0" copynumber="0">
         <volumeref ref="DSideBlock"/>

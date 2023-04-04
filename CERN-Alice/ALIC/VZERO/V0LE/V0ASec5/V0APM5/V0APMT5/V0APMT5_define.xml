@@ -1,0 +1,7 @@
+<define><position name="V0APMT15_1inV0APMT5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0APMT25_1inV0APMT5pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0APMTT5_1inV0APMT5pos" x="0" y="5.5" z="0" unit="cm"/>
+    <rotation name="V0APMT15_1inV0APMT5rot" x="90" y="-0" z="0" unit="deg"/>
+    <rotation name="V0APMT25_1inV0APMT5rot" x="90" y="-0" z="0" unit="deg"/>
+    <rotation name="V0APMTT5_1inV0APMT5rot" x="90" y="-0" z="0" unit="deg"/>
+    </define>

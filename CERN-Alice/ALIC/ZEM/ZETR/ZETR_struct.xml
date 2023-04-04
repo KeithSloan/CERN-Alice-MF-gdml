@@ -1,0 +1,21 @@
+<structure><volume name="ZETR">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="TGeoPara0x4"/>
+      <physvol name="ZEL0_1" copynumber="1">
+        <volumeref ref="ZEL0"/>
+        <positionref ref="ZEL0_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEL1_1" copynumber="1">
+        <volumeref ref="ZEL1"/>
+        <positionref ref="ZEL1_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEV0_1" copynumber="1">
+        <volumeref ref="ZEV0"/>
+        <positionref ref="ZEV0_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEV1_1" copynumber="1">
+        <volumeref ref="ZEV1"/>
+        <positionref ref="ZEV1_1inZETRpos"/>
+      </physvol>
+    </volume>
+    </structure>

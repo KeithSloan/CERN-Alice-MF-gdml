@@ -1,0 +1,4 @@
+<define><position name="ITScablesSDDpcon3Plast_0invpcon3containerpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITScablesSDDpcon3Cu_0invpcon3containerpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ITScablesSDDpcon3glass_0invpcon3containerpos" x="0" y="0" z="0" unit="cm"/>
+    </define>

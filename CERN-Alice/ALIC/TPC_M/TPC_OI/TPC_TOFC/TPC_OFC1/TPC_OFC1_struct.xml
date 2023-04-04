@@ -1,0 +1,9 @@
+<structure><volume name="TPC_OFC1">
+      <materialref ref="TPC_Tedlar"/>
+      <solidref ref="TGeoTube0x166"/>
+      <physvol name="TPC_OFC2_1" copynumber="1">
+        <volumeref ref="TPC_OFC2"/>
+        <positionref ref="TPC_OFC2_1inTPC_OFC1pos"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,35 @@
+<structure><volume name="FOLL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FOLL0x1"/>
+    </volume>
+    <assembly name="FOFH">
+      <physvol name="FOSE_0" copynumber="0">
+        <volumeref ref="FOSE"/>
+        <positionref ref="FOSE_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOPB_0" copynumber="0">
+        <volumeref ref="FOPB"/>
+        <positionref ref="FOPB_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOCU_0" copynumber="0">
+        <volumeref ref="FOCU"/>
+        <positionref ref="FOCU_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOCH_0" copynumber="0">
+        <volumeref ref="FOCH"/>
+        <positionref ref="FOCH_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_0" copynumber="0">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_1" copynumber="1">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_1inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_2" copynumber="2">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_2inFOFHpos"/>
+      </physvol>
+    </assembly>
+    </structure>

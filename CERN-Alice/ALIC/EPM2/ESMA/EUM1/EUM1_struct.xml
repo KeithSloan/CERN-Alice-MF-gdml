@@ -1,0 +1,17 @@
+<structure><volume name="EUM1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EUM10x1"/>
+      <physvol name="EBKA_1" copynumber="1">
+        <volumeref ref="EBKA"/>
+        <positionref ref="EBKA_10x1inEUM1pos"/>
+      </physvol>
+      <physvol name="ESSA_1" copynumber="1">
+        <volumeref ref="ESSA"/>
+        <positionref ref="ESSA_1inEUM1pos"/>
+      </physvol>
+      <physvol name="EBPA_1" copynumber="1">
+        <volumeref ref="EBPA"/>
+        <positionref ref="EBPA_10x1inEUM1pos"/>
+      </physvol>
+    </volume>
+    </structure>

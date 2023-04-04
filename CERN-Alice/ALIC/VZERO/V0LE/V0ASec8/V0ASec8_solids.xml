@@ -1,0 +1,299 @@
+<solids><arb8 name="sV0AFraB18" v1x="4.1000000000000005" v1y="0" v2x="41.399999999999999" v2y="0" v3x="41.399999999999999" v3y="-0.025000000000000001" v4x="4.1000000000000005" v4y="-0.025000000000000001" v5x="4.1000000000000005" v5y="0" v6x="41.399999999999999" v6y="0" v7x="41.399999999999999" v7y="-0.025000000000000001" v8x="4.1000000000000005" v8y="-0.025000000000000001" dz="1.25" lunit="cm"/>
+    <arb8 name="sV0AFraB28" v1x="2.8698484809834994" v1y="-2.8284271247461898" v2x="14.672465709620859" v2y="-14.601755031502204" v3x="14.637110370561532" v3y="-14.637110370561532" v4x="2.8991378028648449" v4y="-2.8991378028648449" v5x="2.8698484809834994" v5y="-2.8284271247461898" v6x="14.672465709620859" v6y="-14.601755031502204" v7x="14.637110370561532" v7y="-14.637110370561532" v8x="2.8991378028648449" v8y="-2.8991378028648449" dz="1.25" lunit="cm"/>
+    <subtraction name="sV0AFraR18">
+      <first ref="sV0AFraR1b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AFraR1b8" rmin="4.1000000000000005" rmax="4.2999999999999998" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AFraR28">
+      <first ref="sV0AFraR2b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AFraR2b8" rmin="7.5" rmax="7.6999999999999993" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AFraR38">
+      <first ref="sV0AFraR3b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AFraR3b8" rmin="13.700000000000001" rmax="13.9" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AFraR48">
+      <first ref="sV0AFraR4b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AFraR4b8" rmin="22.599999999999998" rmax="22.800000000000001" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AFraR58">
+      <first ref="sV0AFraR5b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AFraR5b8" rmin="41.199999999999996" rmax="41.399999999999999" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="sV0AOct28" v1x="70.599999999999994" v1y="0" v2x="72.599999999999994" v2y="0" v3x="38.41869436416895" v3y="-83.594281642661258" v4x="37.583505356252239" v4y="-81.777014650429493" v5x="70.599999999999994" v5y="0" v6x="72.599999999999994" v6y="0" v7x="38.41869436416895" v7y="-83.594281642661258" v8x="37.583505356252239" v8y="-81.777014650429493" dz="2" lunit="cm"/>
+    <subtraction name="sV0AFib18Hole">
+      <first ref="sV0AFib18"/>
+      <second ref="sV0AFicR58"/>
+      <firstposition name="sV0AFib18HolesV0AFib18pos" x="49.314939376517778" y="-20.293821473191862" z="0" unit="cm"/>
+      <firstrotation name="sV0AFib18HolesV0AFib18rot" x="-90" y="-0" z="-112.5" unit="deg"/>
+    </subtraction>
+    <arb8 name="sV0AFib18" v1x="-14" v1y="1.615" v2x="-14" v2y="1.635" v3x="14" v3y="1.635" v4x="14" v4y="1.615" v5x="-10" v5y="0" v6x="-10" v6y="0.25" v7x="10" v7y="0.25" v8x="10" v8y="0" dz="11.800000000000001" lunit="cm"/>
+    <tube name="sV0AFicR58" rmin="41.399999999999999" rmax="45.5" z="3.2999999999999998" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AFib28Hole">
+      <first ref="sV0AFib28"/>
+      <second ref="sV0AFicR58"/>
+      <firstposition name="sV0AFib28HolesV0AFib28pos" x="49.314939376517778" y="-20.293821473191862" z="0" unit="cm"/>
+      <firstrotation name="sV0AFib28HolesV0AFib28rot" x="90" y="7.0164775638926606e-15" z="67.5" unit="deg"/>
+    </subtraction>
+    <arb8 name="sV0AFib28" v1x="-14" v1y="1.615" v2x="-14" v2y="1.635" v3x="14" v3y="1.635" v4x="14" v4y="1.615" v5x="-10" v5y="0" v6x="-10" v6y="0.25" v7x="10" v7y="0.25" v8x="10" v8y="0" dz="11.800000000000001" lunit="cm"/>
+    <tube name="sV0AFicR58" rmin="41.399999999999999" rmax="45.5" z="3.2999999999999998" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AR18">
+      <first ref="sV0AR1b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AR1b8" rmin="4.2999999999999998" rmax="7.5" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AR28">
+      <first ref="sV0AR2b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AR2b8" rmin="7.6999999999999993" rmax="13.700000000000001" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AR38">
+      <first ref="sV0AR3b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AR3b8" rmin="13.9" rmax="22.599999999999998" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0AR48">
+      <first ref="sV0AR4b8"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AR4b8" rmin="22.800000000000001" rmax="41.199999999999996" z="2.5" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="V0AR580x1">
+      <first ref="sV0AR5S28"/>
+      <second ref="sV0ACha8"/>
+    </subtraction>
+    <tube name="sV0AR5S28" rmin="41.399999999999999" rmax="45.5" z="3.2999999999999998" startphi="315" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha8">
+      <first ref="sV0ACha128"/>
+      <second ref="sV0ANailsHoles8"/>
+    </union>
+    <union name="sV0ACha128">
+      <first ref="sV0ACha18"/>
+      <second ref="sV0ACha28"/>
+    </union>
+    <arb8 name="sV0ACha18" v1x="4.2999999999999998" v1y="0" v2x="41.199999999999996" v2y="0" v3x="41.199999999999996" v3y="-0.20000000000000001" v4x="4.2999999999999998" v4y="-0.20000000000000001" v5x="4.2999999999999998" v5y="0" v6x="41.199999999999996" v6y="0" v7x="41.199999999999996" v7y="-0.20000000000000001" v8x="4.2999999999999998" v8y="-0.20000000000000001" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha28" v1x="2.6698484809834993" v1y="-2.6284271247461901" v2x="29.544931419241717" v2y="-29.403510063004408" v3x="29.474220741123062" v3y="-29.674220741123062" v4x="2.6991378028648447" v4y="-2.8991378028648449" v5x="2.6698484809834993" v5y="-2.6284271247461901" v6x="29.544931419241717" v6y="-29.403510063004408" v7x="29.474220741123062" v7y="-29.674220741123062" v8x="2.6991378028648447" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles8">
+      <first ref="sV0ANail18Hole"/>
+      <second ref="sV0ANail28Hole"/>
+      <firstposition name="sV0ANailsHoles8sV0ANail18Holepos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles8sV0ANail28Holepos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail18Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail28Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0APlaInNailsHoles8">
+      <first ref="sV0APlaIn8"/>
+      <second ref="sV0ANailsPlaInHoles8"/>
+    </subtraction>
+    <arb8 name="sV0APlaIn8" v1x="4.2000000000000002" v1y="0" v2x="72.599999999999994" v2y="0" v3x="38.41869436416895" v3y="-83.594281642661258" v4x="1.7538969166251044" v4y="-3.8162606836867097" v5x="4.2000000000000002" v5y="0" v6x="72.599999999999994" v6y="0" v7x="38.41869436416895" v7y="-83.594281642661258" v8x="1.7538969166251044" v8y="-3.8162606836867097" dz="0.19" lunit="cm"/>
+    <union name="sV0ANailsPlaInHoles8">
+      <first ref="TGeoCompositeShape0x308"/>
+      <second ref="sV0ANail3PlaInHole8"/>
+      <position name="sV0ANailsPlaInHoles8sV0ANail3PlaInHole8pos" x="30.050000000000001" y="-30.789999999999999" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x308">
+      <first ref="sV0ANail1PlaInHole8"/>
+      <second ref="sV0ANail2PlaInHole8"/>
+      <firstposition name="TGeoCompositeShape0x308sV0ANail1PlaInHole8pos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="TGeoCompositeShape0x308sV0ANail2PlaInHole8pos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail1PlaInHole8" rmin="0" rmax="0.40000000000000002" z="0.38" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail2PlaInHole8" rmin="0" rmax="0.40000000000000002" z="0.38" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail3PlaInHole8" rmin="0" rmax="0.40000000000000002" z="0.38" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0APlaOuNailsHoles8">
+      <first ref="sV0APlaOu8"/>
+      <second ref="sV0ANailsPlaOuHoles8"/>
+    </subtraction>
+    <arb8 name="sV0APlaOu8" v1x="4.2000000000000002" v1y="0" v2x="72.599999999999994" v2y="0" v3x="38.41869436416895" v3y="-83.594281642661258" v4x="1.7538969166251044" v4y="-3.8162606836867097" v5x="4.2000000000000002" v5y="0" v6x="72.599999999999994" v6y="0" v7x="38.41869436416895" v7y="-83.594281642661258" v8x="1.7538969166251044" v8y="-3.8162606836867097" dz="0.029999999999999999" lunit="cm"/>
+    <union name="sV0ANailsPlaOuHoles8">
+      <first ref="TGeoCompositeShape0x309"/>
+      <second ref="sV0ANail3PlaOuHole8"/>
+      <position name="sV0ANailsPlaOuHoles8sV0ANail3PlaOuHole8pos" x="30.050000000000001" y="-30.789999999999999" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x309">
+      <first ref="sV0ANail1PlaOuHole8"/>
+      <second ref="sV0ANail2PlaOuHole8"/>
+      <firstposition name="TGeoCompositeShape0x309sV0ANail1PlaOuHole8pos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="TGeoCompositeShape0x309sV0ANail2PlaOuHole8pos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail1PlaOuHole8" rmin="0" rmax="0.40000000000000002" z="0.059999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail2PlaOuHole8" rmin="0" rmax="0.40000000000000002" z="0.059999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail3PlaOuHole8" rmin="0" rmax="0.40000000000000002" z="0.059999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <subtraction name="sV0APMB8">
+      <first ref="sV0APMB18"/>
+      <second ref="sV0APMB28"/>
+    </subtraction>
+    <box name="sV0APMB18" x="24.600000000000001" y="22" z="7.0999999999999996" lunit="cm"/>
+    <box name="sV0APMB28" x="24" y="20" z="6.5" lunit="cm"/>
+    <tube name="sV0APMT18" rmin="2.4399999999999999" rmax="2.54" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0APMT28" rmin="2.54" rmax="2.7000000000000002" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0APMTT8" rmin="0" rmax="2.7000000000000002" z="1" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail81" rmin="0" rmax="0.40000000000000002" z="5.0899999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail82" rmin="0" rmax="0.40000000000000002" z="5.0899999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+  </solids>

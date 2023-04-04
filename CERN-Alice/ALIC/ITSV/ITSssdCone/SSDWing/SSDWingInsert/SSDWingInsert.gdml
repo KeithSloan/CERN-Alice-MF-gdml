@@ -1,0 +1,9 @@
+
+<!DOCTYPE gdml [
+<!ENTITY materials SYSTEM "SSDWingInsert_materials.xml">
+<!ENTITY solids SYSTEM "SSDWingInsert_solids.xml">
+<!ENTITY struct SYSTEM "SSDWingInsert_struct.xml">
+<!ENTITY setup SYSTEM "SSDWingInsert_setup.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&struct;&setup;</gdml>

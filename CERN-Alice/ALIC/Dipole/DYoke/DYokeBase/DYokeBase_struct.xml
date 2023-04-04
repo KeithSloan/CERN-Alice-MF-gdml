@@ -1,32 +1,4 @@
-<structure><volume name="DYokeBaseBlock6">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x7"/>
-    </volume>
-    <volume name="DYokeBaseBlock5">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x6"/>
-    </volume>
-    <volume name="DYokeBaseBlock4">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x5"/>
-    </volume>
-    <volume name="DYokeBaseBlock3">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x4"/>
-    </volume>
-    <volume name="DYokeBaseBlock2">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x3"/>
-    </volume>
-    <volume name="DYokeBaseBlock1">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x2"/>
-    </volume>
-    <volume name="DYokeBaseBlock0">
-      <materialref ref="DIPO_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoBBox0x1"/>
-    </volume>
-    <assembly name="DYokeBase">
+<structure><assembly name="DYokeBase">
       <physvol name="DYokeBaseBlock0_1" copynumber="1">
         <volumeref ref="DYokeBaseBlock0"/>
         <positionref ref="DYokeBaseBlock0_1inDYokeBasepos"/>

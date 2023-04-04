@@ -1,0 +1,5 @@
+<structure><volume name="CoolingTubePhynoxPart">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTubeSeg0x59"/>
+    </volume>
+    </structure>

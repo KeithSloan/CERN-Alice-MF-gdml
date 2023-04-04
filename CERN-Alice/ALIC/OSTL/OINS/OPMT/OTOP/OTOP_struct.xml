@@ -1,0 +1,5 @@
+<structure><volume name="OTOP">
+      <materialref ref="T0_PMT_Optical_glass___"/>
+      <solidref ref="OTOP0x1"/>
+    </volume>
+    </structure>

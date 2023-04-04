@@ -2,62 +2,6 @@
       <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
       <solidref ref="ITSSPDGrease0x5"/>
     </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDGrease0x4">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x5"/>
-    </volume>
-    <volume name="ITSSPDgFoilGlueL0x3">
-      <materialref ref="ITS_EPOXY"/>
-      <solidref ref="ITSSPDSHgFoilGlue20x2"/>
-    </volume>
-    <volume name="ITSSPDgFoilGlueL0x2">
-      <materialref ref="ITS_EPOXY"/>
-      <solidref ref="ITSSPDSHgFoilGlue10x2"/>
-    </volume>
-    <volume name="ITSSPDgFoilAluL0x1">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="ITSSPDSHgFoilAlu0x2"/>
-    </volume>
-    <volume name="ITSSPDgFoilKapL0x1">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDSHgFoilKap0x2"/>
-    </volume>
     <volume name="ITSSPDgFOIL-L0x2">
       <materialref ref="ITS_AIR"/>
       <solidref ref="ITSSPDgFOIL-L0x3"/>

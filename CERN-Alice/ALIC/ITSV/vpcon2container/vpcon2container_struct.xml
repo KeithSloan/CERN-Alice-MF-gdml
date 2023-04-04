@@ -1,0 +1,17 @@
+<structure><volume name="vpcon2container">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x120"/>
+      <physvol name="ITScablesSDDpcon2Plast_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon2Plast"/>
+        <positionref ref="ITScablesSDDpcon2Plast_0invpcon2containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon2Cu_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon2Cu"/>
+        <positionref ref="ITScablesSDDpcon2Cu_0invpcon2containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon2glass_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon2glass"/>
+        <positionref ref="ITScablesSDDpcon2glass_0invpcon2containerpos"/>
+      </physvol>
+    </volume>
+    </structure>

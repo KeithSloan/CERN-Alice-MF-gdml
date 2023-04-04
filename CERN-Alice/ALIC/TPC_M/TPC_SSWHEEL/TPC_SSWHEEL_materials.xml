@@ -1,0 +1,20 @@
+<materials><material name="TPC_Si" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.086000442504883"/>
+    </material>
+    <material name="TPC_Air">
+      <D unit="g/cm3" value="0.0012049999786540866"/>
+      <fraction n="0.76700001955032349" ref="NITROGEN_elm"/>
+      <fraction n="0.23299999535083771" ref="OXYGEN_elm"/>
+    </material>
+    <element name="NITROGEN_elm" formula="N" Z="7">
+      <atom unit="g/mole" value="14.006740000000001"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <material name="TPC_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    </materials>

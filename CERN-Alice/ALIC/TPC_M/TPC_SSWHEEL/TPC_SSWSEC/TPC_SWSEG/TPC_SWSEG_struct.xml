@@ -1,0 +1,9 @@
+<structure><volume name="TPC_SWSEG">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoPgon0x182"/>
+      <physvol name="TPC_SWS1_1" copynumber="1">
+        <volumeref ref="TPC_SWS1"/>
+        <positionref ref="TPC_SWS1_1inTPC_SWSEGpos"/>
+      </physvol>
+    </volume>
+    </structure>

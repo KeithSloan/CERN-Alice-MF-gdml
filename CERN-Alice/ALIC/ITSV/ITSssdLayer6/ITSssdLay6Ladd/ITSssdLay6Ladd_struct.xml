@@ -1,0 +1,288 @@
+<structure><volume name="SSDSensorInsensitive2">
+      <materialref ref="ITS_SI"/>
+      <solidref ref="SSDSensorInsensitiveShape2"/>
+    </volume>
+    <volume name="CoolingTube3">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x96"/>
+      <physvol name="OuterCoolingTube3_1" copynumber="1">
+        <volumeref ref="OuterCoolingTube3"/>
+        <positionref ref="OuterCoolingTube3_1inCoolingTube3pos"/>
+      </physvol>
+      <physvol name="InnerCoolingTube3_1" copynumber="1">
+        <volumeref ref="InnerCoolingTube3"/>
+        <positionref ref="InnerCoolingTube3_1inCoolingTube3pos"/>
+      </physvol>
+    </volume>
+    <volume name="CoolingTube3">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x96"/>
+      <physvol name="OuterCoolingTube3_1" copynumber="1">
+        <volumeref ref="OuterCoolingTube3"/>
+        <positionref ref="OuterCoolingTube3_1inCoolingTube3pos"/>
+      </physvol>
+      <physvol name="InnerCoolingTube3_1" copynumber="1">
+        <volumeref ref="InnerCoolingTube3"/>
+        <positionref ref="InnerCoolingTube3_1inCoolingTube3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSssdLay6Ladd">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="Lay6LadderCompositeShape"/>
+      <physvol name="LadderSegment2_24" copynumber="24">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_24inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_24inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_24" copynumber="24">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_24inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_23" copynumber="23">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_23inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_23inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_23" copynumber="23">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_23inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_22" copynumber="22">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_22inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_22inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_22" copynumber="22">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_22inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_21" copynumber="21">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_210x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_210x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_21" copynumber="21">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_21inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_20" copynumber="20">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_200x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_200x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_20" copynumber="20">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_20inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_19" copynumber="19">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_190x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_190x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_19" copynumber="19">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_19inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_18" copynumber="18">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_180x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_180x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_18" copynumber="18">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_18inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_17" copynumber="17">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_170x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_170x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_17" copynumber="17">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_17inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_16" copynumber="16">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_160x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_160x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_16" copynumber="16">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_16inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_15" copynumber="15">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_150x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_150x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_15" copynumber="15">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_15inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_14" copynumber="14">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_140x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_140x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_14" copynumber="14">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_14inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_13" copynumber="13">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_130x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_130x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_13" copynumber="13">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_13inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_12" copynumber="12">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_120x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_120x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_12" copynumber="12">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_12inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_11" copynumber="11">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_110x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_110x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_11" copynumber="11">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_11inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_10" copynumber="10">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_100x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_100x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_10" copynumber="10">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_10inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_9" copynumber="9">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_90x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_90x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_9" copynumber="9">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_9inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_8" copynumber="8">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_80x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_80x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_8" copynumber="8">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_8inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_7" copynumber="7">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_70x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_70x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_7" copynumber="7">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_7inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_6" copynumber="6">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_60x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_60x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_6" copynumber="6">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_6inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_5" copynumber="5">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_50x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_50x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_5" copynumber="5">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_5inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_4" copynumber="4">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_40x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_40x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_4" copynumber="4">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_4inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_3" copynumber="3">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_30x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_30x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_3" copynumber="3">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_3inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_2" copynumber="2">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_20x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_20x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_2" copynumber="2">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_2inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment1_1" copynumber="1">
+        <volumeref ref="LadderSegment1"/>
+        <positionref ref="LadderSegment1_10x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment1_10x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_1" copynumber="1">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_1inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="LadderSegment2_0" copynumber="0">
+        <volumeref ref="LadderSegment2"/>
+        <positionref ref="LadderSegment2_00x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderSegment2_00x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="ITSssdSensor6_0" copynumber="0">
+        <volumeref ref="ITSssdSensor6"/>
+        <positionref ref="ITSssdSensor6_0inITSssdLay6Laddpos"/>
+      </physvol>
+      <physvol name="EndLadder1_1" copynumber="1">
+        <volumeref ref="EndLadder1"/>
+        <positionref ref="EndLadder1_10x1inITSssdLay6Laddpos"/>
+        <rotationref ref="EndLadder1_10x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="EndLadder2_1" copynumber="1">
+        <volumeref ref="EndLadder2"/>
+        <positionref ref="EndLadder2_10x1inITSssdLay6Laddpos"/>
+        <rotationref ref="EndLadder2_10x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="LadderCableAssembly1_1" copynumber="1">
+        <volumeref ref="LadderCableAssembly10x2"/>
+        <positionref ref="LadderCableAssembly1_10x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderCableAssembly1_10x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="LadderCableAssembly2_1" copynumber="1">
+        <volumeref ref="LadderCableAssembly20x2"/>
+        <positionref ref="LadderCableAssembly2_10x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderCableAssembly2_10x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="LadderCableAssembly1_2" copynumber="2">
+        <volumeref ref="LadderCableAssembly10x3"/>
+        <positionref ref="LadderCableAssembly1_20x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderCableAssembly1_20x1inITSssdLay6Laddrot"/>
+      </physvol>
+      <physvol name="LadderCableAssembly2_2" copynumber="2">
+        <volumeref ref="LadderCableAssembly20x3"/>
+        <positionref ref="LadderCableAssembly2_20x1inITSssdLay6Laddpos"/>
+        <rotationref ref="LadderCableAssembly2_20x1inITSssdLay6Laddrot"/>
+      </physvol>
+    </volume>
+    </structure>

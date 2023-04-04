@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY define SYSTEM "SSDexternalcylinder_define.xml">
+<!ENTITY materials SYSTEM "SSDexternalcylinder_materials.xml">
+<!ENTITY solids SYSTEM "SSDexternalcylinder_solids.xml">
+<!ENTITY struct SYSTEM "SSDexternalcylinder_struct.xml">
+<!ENTITY setup SYSTEM "SSDexternalcylinder_setup.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&define;&materials;&solids;&struct;&setup;</gdml>

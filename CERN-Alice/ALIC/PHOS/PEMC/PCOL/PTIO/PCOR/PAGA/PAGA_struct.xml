@@ -1,0 +1,9 @@
+<structure><volume name="PAGA">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PAGA0x1"/>
+      <physvol name="PTII_1" copynumber="1">
+        <volumeref ref="PTII"/>
+        <positionref ref="PTII_1inPAGApos"/>
+      </physvol>
+    </volume>
+    </structure>

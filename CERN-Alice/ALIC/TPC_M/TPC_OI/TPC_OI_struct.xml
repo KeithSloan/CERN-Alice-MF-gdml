@@ -1,0 +1,13 @@
+<structure><volume name="TPC_OI">
+      <materialref ref="TPC_CO2"/>
+      <solidref ref="TGeoPcon0x149"/>
+      <physvol name="TPC_OCV_1" copynumber="1">
+        <volumeref ref="TPC_OCV"/>
+        <positionref ref="TPC_OCV_1inTPC_OIpos"/>
+      </physvol>
+      <physvol name="TPC_TOFC_1" copynumber="1">
+        <volumeref ref="TPC_TOFC"/>
+        <positionref ref="TPC_TOFC_1inTPC_OIpos"/>
+      </physvol>
+    </volume>
+    </structure>

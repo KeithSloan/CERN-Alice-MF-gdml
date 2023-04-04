@@ -1,0 +1,367 @@
+<structure><volume name="PHOS">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PHOS0x1"/>
+      <physvol name="PEMC_1" copynumber="1">
+        <volumeref ref="PEMC"/>
+        <positionref ref="PEMC_1inPHOSpos"/>
+      </physvol>
+      <physvol name="PCPV_1" copynumber="1">
+        <volumeref ref="PCPV"/>
+        <positionref ref="PCPV_1inPHOSpos"/>
+        <rotationref ref="PCPV_1inPHOSrot"/>
+      </physvol>
+    </volume>
+    <volume name="PWHE">
+      <materialref ref="PHOS_Steel"/>
+      <solidref ref="PWHE0x1"/>
+    </volume>
+    <volume name="PCRA">
+      <materialref ref="PHOS_Steel"/>
+      <solidref ref="PCRA0x1"/>
+      <physvol name="PCRE_1" copynumber="1">
+        <volumeref ref="PCRE"/>
+        <positionref ref="PCRE_1inPCRApos"/>
+      </physvol>
+    </volume>
+    <volume name="ZETR">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="TGeoPara0x4"/>
+      <physvol name="ZEL0_1" copynumber="1">
+        <volumeref ref="ZEL0"/>
+        <positionref ref="ZEL0_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEL1_1" copynumber="1">
+        <volumeref ref="ZEL1"/>
+        <positionref ref="ZEL1_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEV0_1" copynumber="1">
+        <volumeref ref="ZEV0"/>
+        <positionref ref="ZEV0_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEV1_1" copynumber="1">
+        <volumeref ref="ZEV1"/>
+        <positionref ref="ZEV1_1inZETRpos"/>
+      </physvol>
+    </volume>
+    <volume name="bar14bot">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar14bot0x1"/>
+    </volume>
+    <volume name="ICYL">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ICYL0x1"/>
+    </volume>
+    <volume name="BRS4">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="BRS40x1"/>
+    </volume>
+    <volume name="BRS2">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="BRS20x1"/>
+    </volume>
+    <volume name="ALIC">
+      <materialref ref="BODY_Air_____"/>
+      <solidref ref="ALIC"/>
+      <physvol name="L3MO_1" copynumber="1">
+        <volumeref ref="L3MO"/>
+        <positionref ref="L3MO_1inALICpos"/>
+      </physvol>
+      <physvol name="AFA_1" copynumber="1">
+        <volumeref ref="AFA"/>
+        <positionref ref="AFA_1inALICpos"/>
+        <scale name="AFA_1inALICscl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="Dipole_1" copynumber="1">
+        <volumeref ref="Dipole"/>
+        <positionref ref="Dipole_1inALICpos"/>
+        <rotationref ref="Dipole_1inALICrot"/>
+      </physvol>
+      <physvol name="DDIP_1" copynumber="1">
+        <volumeref ref="DDIP"/>
+        <positionref ref="DDIP_1inALICpos"/>
+        <rotationref ref="DDIP_1inALICrot"/>
+      </physvol>
+      <physvol name="DCM0_1" copynumber="1">
+        <volumeref ref="DCM0"/>
+        <positionref ref="DCM0_1inALICpos"/>
+        <rotationref ref="DCM0_1inALICrot"/>
+      </physvol>
+      <physvol name="HALL_1" copynumber="1">
+        <volumeref ref="HALL"/>
+        <positionref ref="HALL_1inALICpos"/>
+      </physvol>
+      <physvol name="B077_1" copynumber="1">
+        <volumeref ref="B077"/>
+        <positionref ref="B077_1inALICpos"/>
+      </physvol>
+      <physvol name="BRS1_1" copynumber="1">
+        <volumeref ref="BRS1"/>
+        <positionref ref="BRS1_1inALICpos"/>
+      </physvol>
+      <physvol name="BRS1_2" copynumber="2">
+        <volumeref ref="BRS1"/>
+        <positionref ref="BRS1_2inALICpos"/>
+      </physvol>
+      <physvol name="BRS4_1" copynumber="1">
+        <volumeref ref="BRS4"/>
+        <positionref ref="BRS4_1inALICpos"/>
+      </physvol>
+      <physvol name="BRS4_2" copynumber="2">
+        <volumeref ref="BRS4"/>
+        <positionref ref="BRS4_2inALICpos"/>
+      </physvol>
+      <physvol name="BFMO_29" copynumber="29">
+        <volumeref ref="BFMO"/>
+        <positionref ref="BFMO_29inALICpos"/>
+      </physvol>
+      <physvol name="BBMO_1" copynumber="1">
+        <volumeref ref="BBMO"/>
+        <positionref ref="BBMO_1inALICpos"/>
+      </physvol>
+      <physvol name="YSAA_1" copynumber="1">
+        <volumeref ref="YSAA"/>
+        <positionref ref="YSAA_1inALICpos"/>
+        <scale name="YSAA_1inALICscl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="YOUT1_1" copynumber="1">
+        <volumeref ref="YOUT1"/>
+        <positionref ref="YOUT1_1inALICpos"/>
+      </physvol>
+      <physvol name="YOUT2_1" copynumber="1">
+        <volumeref ref="YOUT2"/>
+        <positionref ref="YOUT2_1inALICpos"/>
+      </physvol>
+      <physvol name="CP_1" copynumber="1">
+        <volumeref ref="CP"/>
+        <positionref ref="CP_1inALICpos"/>
+        <rotationref ref="CP_1inALICrot"/>
+      </physvol>
+      <physvol name="RB24_1" copynumber="1">
+        <volumeref ref="RB24"/>
+        <positionref ref="RB24_1inALICpos"/>
+        <rotationref ref="RB24_1inALICrot"/>
+      </physvol>
+      <physvol name="RB26Pipe_1" copynumber="1">
+        <volumeref ref="RB26Pipe"/>
+        <positionref ref="RB26Pipe_1inALICpos"/>
+        <rotationref ref="RB26Pipe_1inALICrot"/>
+      </physvol>
+      <physvol name="ITSV_1" copynumber="1">
+        <volumeref ref="ITSV"/>
+        <positionref ref="ITSV_1inALICpos"/>
+      </physvol>
+      <physvol name="ICYL_1" copynumber="1">
+        <volumeref ref="ICYL"/>
+        <positionref ref="ICYL_1inALICpos"/>
+        <rotationref ref="ICYL_1inALICrot"/>
+      </physvol>
+      <physvol name="ICYL_2" copynumber="2">
+        <volumeref ref="ICYL"/>
+        <positionref ref="ICYL_2inALICpos"/>
+      </physvol>
+      <physvol name="TPC_M_1" copynumber="1">
+        <volumeref ref="TPC_M"/>
+        <positionref ref="TPC_M_1inALICpos"/>
+      </physvol>
+      <physvol name="Hmp0_0" copynumber="0">
+        <volumeref ref="Hmp0"/>
+        <positionref ref="Hmp0_0inALICpos"/>
+        <rotationref ref="Hmp0_0inALICrot"/>
+      </physvol>
+      <physvol name="Hmp1_0" copynumber="0">
+        <volumeref ref="Hmp1"/>
+        <positionref ref="Hmp1_0inALICpos"/>
+        <rotationref ref="Hmp1_0inALICrot"/>
+      </physvol>
+      <physvol name="Hcradle_1" copynumber="1">
+        <volumeref ref="Hcradle"/>
+        <positionref ref="Hcradle_1inALICpos"/>
+        <rotationref ref="Hcradle_1inALICrot"/>
+      </physvol>
+      <physvol name="Hmp2_0" copynumber="0">
+        <volumeref ref="Hmp2"/>
+        <positionref ref="Hmp2_0inALICpos"/>
+        <rotationref ref="Hmp2_0inALICrot"/>
+      </physvol>
+      <physvol name="Hmp3_0" copynumber="0">
+        <volumeref ref="Hmp3"/>
+        <positionref ref="Hmp3_0inALICpos"/>
+        <rotationref ref="Hmp3_0inALICrot"/>
+      </physvol>
+      <physvol name="Hcradle_3" copynumber="3">
+        <volumeref ref="Hcradle"/>
+        <positionref ref="Hcradle_3inALICpos"/>
+        <rotationref ref="Hcradle_3inALICrot"/>
+      </physvol>
+      <physvol name="Hmp4_0" copynumber="0">
+        <volumeref ref="Hmp4"/>
+        <positionref ref="Hmp4_0inALICpos"/>
+        <rotationref ref="Hmp4_0inALICrot"/>
+      </physvol>
+      <physvol name="Hmp5_0" copynumber="0">
+        <volumeref ref="Hmp5"/>
+        <positionref ref="Hmp5_0inALICpos"/>
+        <rotationref ref="Hmp5_0inALICrot"/>
+      </physvol>
+      <physvol name="Hcradle_5" copynumber="5">
+        <volumeref ref="Hcradle"/>
+        <positionref ref="Hcradle_5inALICpos"/>
+        <rotationref ref="Hcradle_5inALICrot"/>
+      </physvol>
+      <physvol name="Hmp6_0" copynumber="0">
+        <volumeref ref="Hmp6"/>
+        <positionref ref="Hmp6_0inALICpos"/>
+        <rotationref ref="Hmp6_0inALICrot"/>
+      </physvol>
+      <physvol name="ZDCC_1" copynumber="1">
+        <volumeref ref="ZDCC"/>
+        <positionref ref="ZDCC_1inALICpos"/>
+      </physvol>
+      <physvol name="ZDCA_1" copynumber="1">
+        <volumeref ref="ZDCA"/>
+        <positionref ref="ZDCA_1inALICpos"/>
+      </physvol>
+      <physvol name="ZEM_1" copynumber="1">
+        <volumeref ref="ZEM"/>
+        <positionref ref="ZEM_1inALICpos"/>
+        <rotationref ref="ZEM_1inALICrot"/>
+      </physvol>
+      <physvol name="ZEM_2" copynumber="2">
+        <volumeref ref="ZEM"/>
+        <positionref ref="ZEM_2inALICpos"/>
+        <rotationref ref="ZEM_2inALICrot"/>
+      </physvol>
+      <physvol name="ZEL2_1" copynumber="1">
+        <volumeref ref="ZEL2"/>
+        <positionref ref="ZEL2_1inALICpos"/>
+        <rotationref ref="ZEL2_1inALICrot"/>
+      </physvol>
+      <physvol name="F1MT_1" copynumber="1">
+        <volumeref ref="F1MT"/>
+        <positionref ref="F1MT_1inALICpos"/>
+        <rotationref ref="F1MT_1inALICrot"/>
+      </physvol>
+      <physvol name="F1MB_1" copynumber="1">
+        <volumeref ref="F1MB"/>
+        <positionref ref="F1MB_1inALICpos"/>
+        <rotationref ref="F1MB_1inALICrot"/>
+      </physvol>
+      <physvol name="F2MT_2" copynumber="2">
+        <volumeref ref="F2MT"/>
+        <positionref ref="F2MT_2inALICpos"/>
+      </physvol>
+      <physvol name="F2MB_2" copynumber="2">
+        <volumeref ref="F2MB"/>
+        <positionref ref="F2MB_2inALICpos"/>
+      </physvol>
+      <physvol name="F3MT_3" copynumber="3">
+        <volumeref ref="F3MT"/>
+        <positionref ref="F3MT_3inALICpos"/>
+        <rotationref ref="F3MT_3inALICrot"/>
+      </physvol>
+      <physvol name="F3MB_3" copynumber="3">
+        <volumeref ref="F3MB"/>
+        <positionref ref="F3MB_3inALICpos"/>
+        <rotationref ref="F3MB_3inALICrot"/>
+      </physvol>
+      <physvol name="PRRD_1" copynumber="1">
+        <volumeref ref="PRRD"/>
+        <positionref ref="PRRD_1inALICpos"/>
+      </physvol>
+      <physvol name="PCRA_0" copynumber="0">
+        <volumeref ref="PCRA"/>
+        <positionref ref="PCRA_0inALICpos"/>
+      </physvol>
+      <physvol name="PCRA_1" copynumber="1">
+        <volumeref ref="PCRA"/>
+        <positionref ref="PCRA_1inALICpos"/>
+      </physvol>
+      <physvol name="PWHE_0" copynumber="0">
+        <volumeref ref="PWHE"/>
+        <positionref ref="PWHE_0inALICpos"/>
+      </physvol>
+      <physvol name="PWHE_1" copynumber="1">
+        <volumeref ref="PWHE"/>
+        <positionref ref="PWHE_1inALICpos"/>
+      </physvol>
+      <physvol name="PWHE_2" copynumber="2">
+        <volumeref ref="PWHE"/>
+        <positionref ref="PWHE_2inALICpos"/>
+      </physvol>
+      <physvol name="PWHE_3" copynumber="3">
+        <volumeref ref="PWHE"/>
+        <positionref ref="PWHE_3inALICpos"/>
+      </physvol>
+      <physvol name="PHOS_1" copynumber="1">
+        <volumeref ref="PHOS"/>
+        <positionref ref="PHOS_1inALICpos"/>
+        <rotationref ref="PHOS_1inALICrot"/>
+      </physvol>
+      <physvol name="PHOS_2" copynumber="2">
+        <volumeref ref="PHOS"/>
+        <positionref ref="PHOS_2inALICpos"/>
+        <rotationref ref="PHOS_2inALICrot"/>
+      </physvol>
+      <physvol name="PHOS_3" copynumber="3">
+        <volumeref ref="PHOS"/>
+        <positionref ref="PHOS_3inALICpos"/>
+        <rotationref ref="PHOS_3inALICrot"/>
+      </physvol>
+      <physvol name="PHOS_4" copynumber="4">
+        <volumeref ref="PHOS"/>
+        <positionref ref="PHOS_4inALICpos"/>
+        <rotationref ref="PHOS_4inALICrot"/>
+      </physvol>
+      <physvol name="PHOS_5" copynumber="5">
+        <volumeref ref="PHOS"/>
+        <positionref ref="PHOS_5inALICpos"/>
+        <rotationref ref="PHOS_5inALICrot"/>
+      </physvol>
+      <physvol name="EPM1_1" copynumber="1">
+        <volumeref ref="EPM1"/>
+        <positionref ref="EPM1_1inALICpos"/>
+      </physvol>
+      <physvol name="EPM2_1" copynumber="1">
+        <volumeref ref="EPM2"/>
+        <positionref ref="EPM2_1inALICpos"/>
+      </physvol>
+      <physvol name="EPM3_1" copynumber="1">
+        <volumeref ref="EPM3"/>
+        <positionref ref="EPM3_1inALICpos"/>
+      </physvol>
+      <physvol name="EPM4_1" copynumber="1">
+        <volumeref ref="EPM4"/>
+        <positionref ref="EPM4_1inALICpos"/>
+      </physvol>
+      <physvol name="0SUP_1" copynumber="1">
+        <volumeref ref="OSUP"/>
+        <positionref ref="OSUP_1inALICpos"/>
+        <scale name="OSUP_1inALICscl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="0STR_1" copynumber="1">
+        <volumeref ref="OSTR"/>
+        <positionref ref="OSTR_1inALICpos"/>
+        <scale name="OSTR_1inALICscl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="0STL_1" copynumber="1">
+        <volumeref ref="OSTL"/>
+        <positionref ref="OSTL_1inALICpos"/>
+      </physvol>
+      <physvol name="XEN1_1" copynumber="1">
+        <volumeref ref="XEN1"/>
+        <positionref ref="XEN1_1inALICpos"/>
+      </physvol>
+      <physvol name="CalFrame_1" copynumber="1">
+        <volumeref ref="CalFrame"/>
+        <positionref ref="CalFrame_1inALICpos"/>
+      </physvol>
+      <physvol name="ACORDE_1" copynumber="1">
+        <volumeref ref="ACORDE"/>
+        <positionref ref="ACORDE_10x1inALICpos"/>
+      </physvol>
+      <physvol name="VZERO_1" copynumber="1">
+        <volumeref ref="VZERO"/>
+        <positionref ref="VZERO_1inALICpos"/>
+      </physvol>
+    </volume>
+  </structure>

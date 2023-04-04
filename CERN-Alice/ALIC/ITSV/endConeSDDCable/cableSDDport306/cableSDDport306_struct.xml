@@ -1,0 +1,13 @@
+<structure><volume name="cableSDDport306">
+      <materialref ref="ITS_SDD_OPTICFIB"/>
+      <solidref ref="TGeoArb80x186"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x200"/>
+        <positionref ref="vCableSegLay_10x163incableSDDport306pos"/>
+      </physvol>
+      <physvol name="vCableSegLay_2" copynumber="2">
+        <volumeref ref="vCableSegLay0x201"/>
+        <positionref ref="vCableSegLay_20x21incableSDDport306pos"/>
+      </physvol>
+    </volume>
+    </structure>

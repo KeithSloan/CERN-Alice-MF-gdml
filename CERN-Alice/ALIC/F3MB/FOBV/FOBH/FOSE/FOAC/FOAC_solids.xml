@@ -1,0 +1,2 @@
+<solids><tube name="FOAC0x1" rmin="15.6" rmax="28" z="0.032000000000000001" startphi="351" deltaphi="18" aunit="deg" lunit="cm"/>
+    </solids>

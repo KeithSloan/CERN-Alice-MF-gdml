@@ -1,0 +1,55 @@
+<structure><assembly name="LadderCableAssembly0x5">
+      <physvol name="LadderCable_1" copynumber="1">
+        <volumeref ref="LadderCable0x57"/>
+        <positionref ref="LadderCable_10x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_2" copynumber="2">
+        <volumeref ref="LadderCable0x58"/>
+        <positionref ref="LadderCable_20x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_3" copynumber="3">
+        <volumeref ref="LadderCable0x59"/>
+        <positionref ref="LadderCable_30x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_4" copynumber="4">
+        <volumeref ref="LadderCable0x60"/>
+        <positionref ref="LadderCable_40x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_5" copynumber="5">
+        <volumeref ref="LadderCable0x61"/>
+        <positionref ref="LadderCable_50x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_6" copynumber="6">
+        <volumeref ref="LadderCable0x62"/>
+        <positionref ref="LadderCable_60x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_7" copynumber="7">
+        <volumeref ref="LadderCable0x63"/>
+        <positionref ref="LadderCable_70x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_8" copynumber="8">
+        <volumeref ref="LadderCable0x64"/>
+        <positionref ref="LadderCable_80x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_9" copynumber="9">
+        <volumeref ref="LadderCable0x65"/>
+        <positionref ref="LadderCable_90x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_10" copynumber="10">
+        <volumeref ref="LadderCable0x66"/>
+        <positionref ref="LadderCable_100x5inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_11" copynumber="11">
+        <volumeref ref="LadderCable0x67"/>
+        <positionref ref="LadderCable_110x3inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_12" copynumber="12">
+        <volumeref ref="LadderCable0x68"/>
+        <positionref ref="LadderCable_120x3inLadderCableAssembly0x5pos"/>
+      </physvol>
+      <physvol name="LadderCable_13" copynumber="13">
+        <volumeref ref="LadderCable0x69"/>
+        <positionref ref="LadderCable_130x1inLadderCableAssembly0x5pos"/>
+      </physvol>
+    </assembly>
+    </structure>

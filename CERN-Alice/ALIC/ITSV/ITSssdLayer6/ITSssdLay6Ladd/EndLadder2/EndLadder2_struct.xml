@@ -1,0 +1,183 @@
+<structure><volume name="EndLadderCoolingTube5">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x110"/>
+      <physvol name="OuterEndLadderCoolingTube5_1" copynumber="1">
+        <volumeref ref="OuterEndLadderCoolingTube5"/>
+        <positionref ref="OuterEndLadderCoolingTube5_1inEndLadderCoolingTube5pos"/>
+      </physvol>
+      <physvol name="InnerEndlLadderCoolingTube5_1" copynumber="1">
+        <volumeref ref="InnerEndlLadderCoolingTube5"/>
+        <positionref ref="InnerEndlLadderCoolingTube5_1inEndLadderCoolingTube5pos"/>
+      </physvol>
+    </volume>
+    <volume name="EndLadderCoolingTube4">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x107"/>
+      <physvol name="OuterEndLadderCoolingTube4_1" copynumber="1">
+        <volumeref ref="OuterEndLadderCoolingTube4"/>
+        <positionref ref="OuterEndLadderCoolingTube4_1inEndLadderCoolingTube4pos"/>
+      </physvol>
+      <physvol name="InnerEndlLadderCoolingTube4_1" copynumber="1">
+        <volumeref ref="InnerEndlLadderCoolingTube4"/>
+        <positionref ref="InnerEndlLadderCoolingTube4_1inEndLadderCoolingTube4pos"/>
+      </physvol>
+    </volume>
+    <volume name="CoolingTubeSupport">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x22"/>
+      <physvol name="CoolingTubeSupportArc_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportArc"/>
+        <positionref ref="CoolingTubeSupportArc_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubeSupportArc_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubeSupportBox_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportBox"/>
+        <positionref ref="CoolingTubeSupportBox_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeSupportSeg_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportSeg"/>
+        <positionref ref="CoolingTubeSupportSeg_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeWaterArcPart_1" copynumber="1">
+        <volumeref ref="CoolingTubeWaterArcPart"/>
+        <positionref ref="CoolingTubeWaterArcPart_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubeWaterArcPart_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubePhynoxArcPart_1" copynumber="1">
+        <volumeref ref="CoolingTubePhynoxArcPart"/>
+        <positionref ref="CoolingTubePhynoxArcPart_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubePhynoxArcPart_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubePhynoxPart_1" copynumber="1">
+        <volumeref ref="CoolingTubePhynoxPart"/>
+        <positionref ref="CoolingTubePhynoxPart_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeWaterPart_1" copynumber="1">
+        <volumeref ref="CoolingTubeWaterPart"/>
+        <positionref ref="CoolingTubeWaterPart_1inCoolingTubeSupportpos"/>
+      </physvol>
+    </volume>
+    <volume name="CarbonFiberLowerSupport1">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="CarbonFiberLowerSupportShape1"/>
+    </volume>
+    <volume name="SSDMountingBlockClip">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x48"/>
+      <physvol name="SSDClip_1" copynumber="1">
+        <volumeref ref="SSDClip"/>
+        <positionref ref="SSDClip_1inSSDMountingBlockClippos"/>
+      </physvol>
+      <physvol name="RingSupport_1" copynumber="1">
+        <volumeref ref="RingSupport"/>
+        <positionref ref="RingSupport_1inSSDMountingBlockClippos"/>
+      </physvol>
+      <physvol name="ClipScrewShape_1" copynumber="1">
+        <volumeref ref="ClipScrewShape"/>
+        <positionref ref="ClipScrewShape_1inSSDMountingBlockClippos"/>
+        <rotationref ref="ClipScrewShape_1inSSDMountingBlockCliprot"/>
+      </physvol>
+    </volume>
+    <volume name="CarbonFiberSupport2">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="CarbonFiberSupportShape2"/>
+    </volume>
+    <volume name="CarbonFiberSupport1">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="CarbonFiberSupportShape1"/>
+    </volume>
+    <volume name="CarbonFiberJunction0x3">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x53"/>
+    </volume>
+    <assembly name="EndLadder2">
+      <physvol name="CarbonFiberJunction_1" copynumber="1">
+        <volumeref ref="CarbonFiberJunction0x3"/>
+        <positionref ref="CarbonFiberJunction_10x3inEndLadder2pos"/>
+        <rotationref ref="CarbonFiberJunction_10x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CarbonFiberJunction_2" copynumber="2">
+        <volumeref ref="CarbonFiberJunction0x3"/>
+        <positionref ref="CarbonFiberJunction_20x3inEndLadder2pos"/>
+        <rotationref ref="CarbonFiberJunction_20x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CarbonFiberJunction_3" copynumber="3">
+        <volumeref ref="CarbonFiberJunction0x4"/>
+        <positionref ref="CarbonFiberJunction_30x3inEndLadder2pos"/>
+        <rotationref ref="CarbonFiberJunction_30x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CarbonFiberSupport1_1" copynumber="1">
+        <volumeref ref="CarbonFiberSupport1"/>
+        <positionref ref="CarbonFiberSupport1_10x3inEndLadder2pos"/>
+        <rotationref ref="CarbonFiberSupport1_10x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CarbonFiberSupport2_1" copynumber="1">
+        <volumeref ref="CarbonFiberSupport2"/>
+        <positionref ref="CarbonFiberSupport2_10x3inEndLadder2pos"/>
+        <rotationref ref="CarbonFiberSupport2_10x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CarbonFiberSupport1_2" copynumber="2">
+        <volumeref ref="CarbonFiberSupport1"/>
+        <positionref ref="CarbonFiberSupport1_20x3inEndLadder2pos"/>
+        <rotationref ref="CarbonFiberSupport1_20x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CarbonFiberSupport2_2" copynumber="2">
+        <volumeref ref="CarbonFiberSupport2"/>
+        <positionref ref="CarbonFiberSupport2_20x3inEndLadder2pos"/>
+        <rotationref ref="CarbonFiberSupport2_20x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="SSDMountingBlockMother_2" copynumber="2">
+        <volumeref ref="SSDMountingBlockMother"/>
+        <positionref ref="SSDMountingBlockMother_2inEndLadder2pos"/>
+        <rotationref ref="SSDMountingBlockMother_2inEndLadder2rot"/>
+      </physvol>
+      <physvol name="SSDMountingBlockClip_1" copynumber="1">
+        <volumeref ref="SSDMountingBlockClip"/>
+        <positionref ref="SSDMountingBlockClip_10x1inEndLadder2pos"/>
+        <rotationref ref="SSDMountingBlockClip_10x1inEndLadder2rot"/>
+      </physvol>
+      <physvol name="SSDMountingBlockClip_2" copynumber="2">
+        <volumeref ref="SSDMountingBlockClip"/>
+        <positionref ref="SSDMountingBlockClip_20x1inEndLadder2pos"/>
+        <rotationref ref="SSDMountingBlockClip_20x1inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CarbonFiberLowerSupport1_2" copynumber="2">
+        <volumeref ref="CarbonFiberLowerSupport1"/>
+        <positionref ref="CarbonFiberLowerSupport1_2inEndLadder2pos"/>
+      </physvol>
+      <physvol name="CarbonFiberLowerSupport1_3" copynumber="3">
+        <volumeref ref="CarbonFiberLowerSupport1"/>
+        <positionref ref="CarbonFiberLowerSupport1_3inEndLadder2pos"/>
+      </physvol>
+      <physvol name="CoolingTubeSupport_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupport"/>
+        <positionref ref="CoolingTubeSupport_10x3inEndLadder2pos"/>
+        <rotationref ref="CoolingTubeSupport_10x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="CoolingTubeSupport_2" copynumber="2">
+        <volumeref ref="CoolingTubeSupport"/>
+        <positionref ref="CoolingTubeSupport_20x3inEndLadder2pos"/>
+        <rotationref ref="CoolingTubeSupport_20x3inEndLadder2rot"/>
+      </physvol>
+      <physvol name="EndLadderCoolingTube4_1" copynumber="1">
+        <volumeref ref="EndLadderCoolingTube4"/>
+        <positionref ref="EndLadderCoolingTube4_1inEndLadder2pos"/>
+        <rotationref ref="EndLadderCoolingTube4_1inEndLadder2rot"/>
+      </physvol>
+      <physvol name="EndLadderCoolingTube4_2" copynumber="2">
+        <volumeref ref="EndLadderCoolingTube4"/>
+        <positionref ref="EndLadderCoolingTube4_2inEndLadder2pos"/>
+        <rotationref ref="EndLadderCoolingTube4_2inEndLadder2rot"/>
+      </physvol>
+      <physvol name="EndLadderCoolingTube5_1" copynumber="1">
+        <volumeref ref="EndLadderCoolingTube5"/>
+        <positionref ref="EndLadderCoolingTube5_1inEndLadder2pos"/>
+        <rotationref ref="EndLadderCoolingTube5_1inEndLadder2rot"/>
+      </physvol>
+      <physvol name="EndLadderCoolingTube5_2" copynumber="2">
+        <volumeref ref="EndLadderCoolingTube5"/>
+        <positionref ref="EndLadderCoolingTube5_2inEndLadder2pos"/>
+        <rotationref ref="EndLadderCoolingTube5_2inEndLadder2rot"/>
+      </physvol>
+    </assembly>
+    </structure>

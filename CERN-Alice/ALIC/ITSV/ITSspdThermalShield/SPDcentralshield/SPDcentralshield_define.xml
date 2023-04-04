@@ -1,0 +1,3 @@
+<define><position name="SPDcentralomega_1inSPDcentralairshieldpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SPDcentralairshield_1inSPDcentralshieldpos" x="0" y="0" z="0" unit="cm"/>
+    </define>

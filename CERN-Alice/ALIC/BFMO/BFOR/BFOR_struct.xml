@@ -1,8 +1,4 @@
-<structure><volume name="BFOO">
-      <materialref ref="FRAME_AIR"/>
-      <solidref ref="BFOO0x1"/>
-    </volume>
-    <volume name="BFOR">
+<structure><volume name="BFOR">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
       <solidref ref="BFOR0x1"/>
       <physvol name="BFOO_1" copynumber="1">

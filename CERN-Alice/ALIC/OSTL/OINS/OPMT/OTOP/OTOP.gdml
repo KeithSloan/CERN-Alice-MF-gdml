@@ -1,0 +1,9 @@
+
+<!DOCTYPE gdml [
+<!ENTITY materials SYSTEM "OTOP_materials.xml">
+<!ENTITY solids SYSTEM "OTOP_solids.xml">
+<!ENTITY struct SYSTEM "OTOP_struct.xml">
+<!ENTITY setup SYSTEM "OTOP_setup.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&struct;&setup;</gdml>

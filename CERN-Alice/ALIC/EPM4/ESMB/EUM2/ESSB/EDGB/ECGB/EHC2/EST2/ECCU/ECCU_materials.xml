@@ -1,0 +1,20 @@
+<materials><material name="PMD_ArCO2">
+      <D unit="g/cm3" value="0.0018404999282211065"/>
+      <fraction n="0.69999998807907104" ref="ARGON_elm"/>
+      <fraction n="0.079999998211860657" ref="CARBON_elm"/>
+      <fraction n="0.2199999988079071" ref="OXYGEN_elm"/>
+    </material>
+    <element name="ARGON_elm" formula="AR" Z="18">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <material name="PMD_Cu___" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.540000915527344"/>
+    </material>
+    </materials>

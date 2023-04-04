@@ -1,0 +1,23 @@
+<structure><assembly name="V0ASci8">
+      <physvol name="V0L18_1" copynumber="1">
+        <volumeref ref="V0L18"/>
+        <positionref ref="V0L18_1inV0ASci8pos"/>
+      </physvol>
+      <physvol name="V0L28_1" copynumber="1">
+        <volumeref ref="V0L28"/>
+        <positionref ref="V0L28_1inV0ASci8pos"/>
+      </physvol>
+      <physvol name="V0L38_1" copynumber="1">
+        <volumeref ref="V0L38"/>
+        <positionref ref="V0L38_1inV0ASci8pos"/>
+      </physvol>
+      <physvol name="V0L48_1" copynumber="1">
+        <volumeref ref="V0L48"/>
+        <positionref ref="V0L48_1inV0ASci8pos"/>
+      </physvol>
+      <physvol name="V0AR58_1" copynumber="1">
+        <volumeref ref="V0AR58"/>
+        <positionref ref="V0AR58_1inV0ASci8pos"/>
+      </physvol>
+    </assembly>
+    </structure>

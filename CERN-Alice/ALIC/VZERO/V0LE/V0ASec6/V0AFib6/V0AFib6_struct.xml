@@ -1,0 +1,11 @@
+<structure><assembly name="V0AFib6">
+      <physvol name="V0AFib16Hole_1" copynumber="1">
+        <volumeref ref="V0AFib16Hole"/>
+        <positionref ref="V0AFib16Hole_1inV0AFib6pos"/>
+      </physvol>
+      <physvol name="V0AFib26Hole_1" copynumber="1">
+        <volumeref ref="V0AFib26Hole"/>
+        <positionref ref="V0AFib26Hole_1inV0AFib6pos"/>
+      </physvol>
+    </assembly>
+    </structure>

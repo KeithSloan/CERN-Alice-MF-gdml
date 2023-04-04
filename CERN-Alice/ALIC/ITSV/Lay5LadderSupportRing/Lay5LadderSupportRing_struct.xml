@@ -1,0 +1,194 @@
+<structure><volume name="LowerLadderPConSupportNameLay5">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoPcon0x91"/>
+    </volume>
+    <volume name="MountingBlockSupportCenterLay5Arc">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x56"/>
+    </volume>
+    <volume name="MountingBlockSuppTrapezoidDownLay5">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x61"/>
+    </volume>
+    <assembly name="Lay5LadderSupportRing">
+      <physvol name="LadderSupportDownLay5_1" copynumber="1">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_1inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_1inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_2" copynumber="2">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_2inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_2inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_3" copynumber="3">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_3inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_3inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_4" copynumber="4">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_4inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_4inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_5" copynumber="5">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_5inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_5inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_6" copynumber="6">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_6inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_6inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_7" copynumber="7">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_7inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_7inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_8" copynumber="8">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_8inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_8inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_9" copynumber="9">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_9inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_9inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_10" copynumber="10">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_10inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_10inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_11" copynumber="11">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_11inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_11inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_12" copynumber="12">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_12inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_12inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_13" copynumber="13">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_13inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_13inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_14" copynumber="14">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_14inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_14inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_15" copynumber="15">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_15inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_15inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_16" copynumber="16">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_16inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_16inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_17" copynumber="17">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_17inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_17inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_18" copynumber="18">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_18inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_18inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_19" copynumber="19">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_19inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_19inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_20" copynumber="20">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_20inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_20inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_21" copynumber="21">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_21inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_21inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_22" copynumber="22">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_22inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_22inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_23" copynumber="23">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_23inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_23inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_24" copynumber="24">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_24inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_24inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_25" copynumber="25">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_25inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_25inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_26" copynumber="26">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_26inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_26inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_27" copynumber="27">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_27inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_27inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_28" copynumber="28">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_28inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_28inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_29" copynumber="29">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_29inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_29inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_30" copynumber="30">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_30inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_30inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_31" copynumber="31">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_31inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_31inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_32" copynumber="32">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_32inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_32inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_33" copynumber="33">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_33inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_33inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_34" copynumber="34">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_34inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_34inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LowerLadderPConSupportNameLay5_1" copynumber="1">
+        <volumeref ref="LowerLadderPConSupportNameLay5"/>
+        <positionref ref="LowerLadderPConSupportNameLay5_1inLay5LadderSupportRingpos"/>
+      </physvol>
+      <physvol name="LowerLadderPConSupportNameLay5_2" copynumber="2">
+        <volumeref ref="LowerLadderPConSupportNameLay5"/>
+        <positionref ref="LowerLadderPConSupportNameLay5_2inLay5LadderSupportRingpos"/>
+        <rotationref ref="LowerLadderPConSupportNameLay5_2inLay5LadderSupportRingrot"/>
+      </physvol>
+    </assembly>
+    </structure>

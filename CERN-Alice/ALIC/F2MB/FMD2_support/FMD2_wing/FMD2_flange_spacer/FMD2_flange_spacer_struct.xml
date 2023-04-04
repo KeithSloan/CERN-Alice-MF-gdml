@@ -1,0 +1,5 @@
+<structure><volume name="FMD2_flange_spacer">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="TGeoCompositeShape0x265"/>
+    </volume>
+    </structure>

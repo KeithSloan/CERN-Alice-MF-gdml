@@ -1,0 +1,10 @@
+<structure><volume name="PTIO">
+      <materialref ref="PHOS_Thermo_Insul."/>
+      <solidref ref="PTIO0x1"/>
+      <physvol name="PCOR_1" copynumber="1">
+        <volumeref ref="PCOR"/>
+        <positionref ref="PCOR_1inPTIOpos"/>
+        <rotationref ref="PCOR_1inPTIOrot"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,5 @@
+<structure><volume name="ACORDE8">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde8"/>
+    </volume>
+    </structure>

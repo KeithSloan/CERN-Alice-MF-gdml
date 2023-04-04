@@ -1,0 +1,18 @@
+<structure><volume name="SSDMountingBlockClip">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x48"/>
+      <physvol name="SSDClip_1" copynumber="1">
+        <volumeref ref="SSDClip"/>
+        <positionref ref="SSDClip_1inSSDMountingBlockClippos"/>
+      </physvol>
+      <physvol name="RingSupport_1" copynumber="1">
+        <volumeref ref="RingSupport"/>
+        <positionref ref="RingSupport_1inSSDMountingBlockClippos"/>
+      </physvol>
+      <physvol name="ClipScrewShape_1" copynumber="1">
+        <volumeref ref="ClipScrewShape"/>
+        <positionref ref="ClipScrewShape_1inSSDMountingBlockClippos"/>
+        <rotationref ref="ClipScrewShape_1inSSDMountingBlockCliprot"/>
+      </physvol>
+    </volume>
+    </structure>

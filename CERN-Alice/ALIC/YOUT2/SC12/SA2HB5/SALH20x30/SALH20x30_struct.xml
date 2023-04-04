@@ -1,8 +1,4 @@
-<structure><volume name="SAIH20x15">
-      <materialref ref="MUON_AIR"/>
-      <solidref ref="TGeoBBox0x682"/>
-    </volume>
-    <volume name="SALH20x30">
+<structure><volume name="SALH20x30">
       <materialref ref="MUON_ALUMINIUM0"/>
       <solidref ref="SALH20x31"/>
       <physvol name="SAIH2_1" copynumber="1">

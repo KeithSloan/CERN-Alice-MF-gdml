@@ -1,0 +1,321 @@
+<structure><volume name="PCF2">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCF20x1"/>
+    </volume>
+    <volume name="PCF1">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCF10x1"/>
+    </volume>
+    <volume name="PCPF">
+      <materialref ref="PHOS_Textolit"/>
+      <solidref ref="PCPF0x1"/>
+      <physvol name="PCP1_1" copynumber="1">
+        <volumeref ref="PCP1"/>
+        <positionref ref="PCP1_1inPCPFpos"/>
+      </physvol>
+    </volume>
+    <volume name="PCPC">
+      <materialref ref="PHOS_Textolit"/>
+      <solidref ref="PCPC0x1"/>
+      <physvol name="PCPD_1" copynumber="1">
+        <volumeref ref="PCPD"/>
+        <positionref ref="PCPD_1inPCPCpos"/>
+      </physvol>
+    </volume>
+    <volume name="PCPV">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PCPV0x1"/>
+      <physvol name="PCPC_1" copynumber="1">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_1inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_2" copynumber="2">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_2inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_3" copynumber="3">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_3inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_4" copynumber="4">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_4inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_5" copynumber="5">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_5inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_6" copynumber="6">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_6inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_7" copynumber="7">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_7inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_8" copynumber="8">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_8inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_9" copynumber="9">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_9inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_10" copynumber="10">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_10inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_11" copynumber="11">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_11inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_12" copynumber="12">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_12inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_13" copynumber="13">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_13inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_14" copynumber="14">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_14inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_15" copynumber="15">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_15inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_16" copynumber="16">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_16inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_17" copynumber="17">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_17inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_18" copynumber="18">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_18inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_19" copynumber="19">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_19inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_20" copynumber="20">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_20inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_21" copynumber="21">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_21inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_22" copynumber="22">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_22inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_23" copynumber="23">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_23inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_24" copynumber="24">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_24inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_25" copynumber="25">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_25inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_26" copynumber="26">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_26inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_27" copynumber="27">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_27inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_28" copynumber="28">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_28inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_29" copynumber="29">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_29inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_30" copynumber="30">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_30inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_31" copynumber="31">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_31inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_32" copynumber="32">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_32inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_33" copynumber="33">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_33inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_34" copynumber="34">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_34inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_35" copynumber="35">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_35inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_36" copynumber="36">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_36inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_37" copynumber="37">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_37inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_38" copynumber="38">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_38inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_39" copynumber="39">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_39inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_40" copynumber="40">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_40inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_41" copynumber="41">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_41inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_42" copynumber="42">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_42inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_43" copynumber="43">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_43inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_44" copynumber="44">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_44inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_45" copynumber="45">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_45inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_46" copynumber="46">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_46inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_47" copynumber="47">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_47inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_48" copynumber="48">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_48inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_49" copynumber="49">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_49inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_50" copynumber="50">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_50inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_51" copynumber="51">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_51inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_52" copynumber="52">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_52inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_53" copynumber="53">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_53inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_54" copynumber="54">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_54inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_55" copynumber="55">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_55inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_56" copynumber="56">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_56inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_57" copynumber="57">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_57inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_58" copynumber="58">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_58inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_59" copynumber="59">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_59inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_60" copynumber="60">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_60inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_61" copynumber="61">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_61inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_62" copynumber="62">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_62inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_63" copynumber="63">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_63inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPC_64" copynumber="64">
+        <volumeref ref="PCPC"/>
+        <positionref ref="PCPC_64inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPF_1" copynumber="1">
+        <volumeref ref="PCPF"/>
+        <positionref ref="PCPF_1inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPF_2" copynumber="2">
+        <volumeref ref="PCPF"/>
+        <positionref ref="PCPF_2inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPG_1" copynumber="1">
+        <volumeref ref="PCPG"/>
+        <positionref ref="PCPG_1inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPF_3" copynumber="3">
+        <volumeref ref="PCPF"/>
+        <positionref ref="PCPF_3inPCPVpos"/>
+      </physvol>
+      <physvol name="PCPF_4" copynumber="4">
+        <volumeref ref="PCPF"/>
+        <positionref ref="PCPF_4inPCPVpos"/>
+      </physvol>
+      <physvol name="PCF1_1" copynumber="1">
+        <volumeref ref="PCF1"/>
+        <positionref ref="PCF1_1inPCPVpos"/>
+      </physvol>
+      <physvol name="PCF2_1" copynumber="1">
+        <volumeref ref="PCF2"/>
+        <positionref ref="PCF2_1inPCPVpos"/>
+      </physvol>
+      <physvol name="PCF1_2" copynumber="2">
+        <volumeref ref="PCF1"/>
+        <positionref ref="PCF1_2inPCPVpos"/>
+      </physvol>
+      <physvol name="PCF2_2" copynumber="2">
+        <volumeref ref="PCF2"/>
+        <positionref ref="PCF2_2inPCPVpos"/>
+      </physvol>
+    </volume>
+    </structure>

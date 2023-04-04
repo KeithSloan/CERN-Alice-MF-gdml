@@ -1,0 +1,21 @@
+<solids><subtraction name="inclinedbar0x1">
+      <first ref="inclinedbarOUT"/>
+      <second ref="inclinedbarIN"/>
+    </subtraction>
+    <xtru name="inclinedbarOUT" lunit="cm">
+      <twoDimVertex x="-64.612612902726895" y="2.5"/>
+      <twoDimVertex x="77.187387097273117" y="2.5"/>
+      <twoDimVertex x="78.350000000000009" y="-2.5"/>
+      <twoDimVertex x="-78.350000000000009" y="-2.5"/>
+      <section zOrder="0" zPosition="-1.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="1.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="inclinedbarIN" lunit="cm">
+      <twoDimVertex x="-65.9863516124542" y="2"/>
+      <twoDimVertex x="77.303648387545806" y="2"/>
+      <twoDimVertex x="78.466261290272698" y="-2"/>
+      <twoDimVertex x="-79.723738709727314" y="-2"/>
+      <section zOrder="0" zPosition="-1.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="1.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

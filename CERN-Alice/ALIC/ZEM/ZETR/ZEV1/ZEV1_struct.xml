@@ -1,0 +1,382 @@
+<structure><volume name="ZES1">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="TGeoPara0x6"/>
+      <physvol name="ZEMF_1" copynumber="1">
+        <volumeref ref="ZEMF"/>
+        <positionref ref="ZEMF_10x1inZES1pos"/>
+        <rotationref ref="ZEMF_10x1inZES1rot"/>
+      </physvol>
+    </volume>
+    <volume name="ZEV1">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="ZEV10x1"/>
+      <physvol name="ZES1_1" copynumber="1">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_1inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_2" copynumber="2">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_2inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_3" copynumber="3">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_3inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_4" copynumber="4">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_4inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_5" copynumber="5">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_5inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_6" copynumber="6">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_6inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_7" copynumber="7">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_7inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_8" copynumber="8">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_8inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_9" copynumber="9">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_9inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_10" copynumber="10">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_10inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_11" copynumber="11">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_11inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_12" copynumber="12">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_12inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_13" copynumber="13">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_13inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_14" copynumber="14">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_14inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_15" copynumber="15">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_15inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_16" copynumber="16">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_16inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_17" copynumber="17">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_17inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_18" copynumber="18">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_18inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_19" copynumber="19">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_19inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_20" copynumber="20">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_20inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_21" copynumber="21">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_21inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_22" copynumber="22">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_22inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_23" copynumber="23">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_23inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_24" copynumber="24">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_24inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_25" copynumber="25">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_25inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_26" copynumber="26">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_26inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_27" copynumber="27">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_27inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_28" copynumber="28">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_28inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_29" copynumber="29">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_29inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_30" copynumber="30">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_30inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_31" copynumber="31">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_31inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_32" copynumber="32">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_32inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_33" copynumber="33">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_33inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_34" copynumber="34">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_34inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_35" copynumber="35">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_35inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_36" copynumber="36">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_36inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_37" copynumber="37">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_37inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_38" copynumber="38">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_38inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_39" copynumber="39">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_39inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_40" copynumber="40">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_40inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_41" copynumber="41">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_41inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_42" copynumber="42">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_42inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_43" copynumber="43">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_43inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_44" copynumber="44">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_44inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_45" copynumber="45">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_45inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_46" copynumber="46">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_46inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_47" copynumber="47">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_47inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_48" copynumber="48">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_48inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_49" copynumber="49">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_49inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_50" copynumber="50">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_50inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_51" copynumber="51">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_51inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_52" copynumber="52">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_52inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_53" copynumber="53">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_53inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_54" copynumber="54">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_54inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_55" copynumber="55">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_55inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_56" copynumber="56">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_56inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_57" copynumber="57">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_57inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_58" copynumber="58">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_58inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_59" copynumber="59">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_59inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_60" copynumber="60">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_60inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_61" copynumber="61">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_61inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_62" copynumber="62">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_62inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_63" copynumber="63">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_63inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_64" copynumber="64">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_64inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_65" copynumber="65">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_65inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_66" copynumber="66">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_66inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_67" copynumber="67">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_67inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_68" copynumber="68">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_68inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_69" copynumber="69">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_69inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_70" copynumber="70">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_70inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_71" copynumber="71">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_71inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_72" copynumber="72">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_72inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_73" copynumber="73">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_73inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_74" copynumber="74">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_74inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_75" copynumber="75">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_75inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_76" copynumber="76">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_76inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_77" copynumber="77">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_77inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_78" copynumber="78">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_78inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_79" copynumber="79">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_79inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_80" copynumber="80">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_80inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_81" copynumber="81">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_81inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_82" copynumber="82">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_82inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_83" copynumber="83">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_83inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_84" copynumber="84">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_84inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_85" copynumber="85">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_85inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_86" copynumber="86">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_86inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_87" copynumber="87">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_87inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_88" copynumber="88">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_88inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_89" copynumber="89">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_89inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_90" copynumber="90">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_90inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_91" copynumber="91">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_91inZEV1pos"/>
+      </physvol>
+      <physvol name="ZES1_92" copynumber="92">
+        <volumeref ref="ZES1"/>
+        <positionref ref="ZES1_92inZEV1pos"/>
+      </physvol>
+    </volume>
+    </structure>

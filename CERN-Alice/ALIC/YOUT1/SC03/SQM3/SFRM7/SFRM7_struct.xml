@@ -2,10 +2,6 @@
       <materialref ref="MUON_Rohacell"/>
       <solidref ref="SFRR70x1"/>
     </volume>
-    <volume name="SFRR7">
-      <materialref ref="MUON_Rohacell"/>
-      <solidref ref="SFRR70x1"/>
-    </volume>
     <volume name="SFRM7">
       <materialref ref="MUON_FrameEpoxy"/>
       <solidref ref="SFRM70x1"/>

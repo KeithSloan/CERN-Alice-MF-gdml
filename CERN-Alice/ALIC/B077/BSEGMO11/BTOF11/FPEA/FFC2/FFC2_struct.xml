@@ -1,8 +1,4 @@
-<structure><volume name="FCC2">
-      <materialref ref="TOF_Cu_"/>
-      <solidref ref="FCC20x1"/>
-    </volume>
-    <volume name="FFC2">
+<structure><volume name="FFC2">
       <materialref ref="TOF_plastic"/>
       <solidref ref="FFC20x1"/>
       <physvol name="FCC2_0" copynumber="0">

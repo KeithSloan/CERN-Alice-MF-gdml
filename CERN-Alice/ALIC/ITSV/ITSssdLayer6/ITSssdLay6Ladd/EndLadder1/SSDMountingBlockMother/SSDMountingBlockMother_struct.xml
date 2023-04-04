@@ -1,0 +1,42 @@
+<structure><volume name="SSDMountingBlockScrew">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x47"/>
+    </volume>
+    <volume name="SSDMountingBlock">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x46"/>
+    </volume>
+    <volume name="SSDMountingBlockMother">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x45"/>
+      <physvol name="SSDMountingBlock_1" copynumber="1">
+        <volumeref ref="SSDMountingBlock"/>
+        <positionref ref="SSDMountingBlock_1inSSDMountingBlockMotherpos"/>
+      </physvol>
+      <physvol name="SSDMountingBlock_2" copynumber="2">
+        <volumeref ref="SSDMountingBlock"/>
+        <positionref ref="SSDMountingBlock_2inSSDMountingBlockMotherpos"/>
+        <rotationref ref="SSDMountingBlock_2inSSDMountingBlockMotherrot"/>
+      </physvol>
+      <physvol name="SSDMountingBlockScrew_1" copynumber="1">
+        <volumeref ref="SSDMountingBlockScrew"/>
+        <positionref ref="SSDMountingBlockScrew_1inSSDMountingBlockMotherpos"/>
+        <rotationref ref="SSDMountingBlockScrew_1inSSDMountingBlockMotherrot"/>
+      </physvol>
+      <physvol name="SSDMountingBlockScrew_2" copynumber="2">
+        <volumeref ref="SSDMountingBlockScrew"/>
+        <positionref ref="SSDMountingBlockScrew_2inSSDMountingBlockMotherpos"/>
+        <rotationref ref="SSDMountingBlockScrew_2inSSDMountingBlockMotherrot"/>
+      </physvol>
+      <physvol name="SSDMountingBlockScrew_3" copynumber="3">
+        <volumeref ref="SSDMountingBlockScrew"/>
+        <positionref ref="SSDMountingBlockScrew_3inSSDMountingBlockMotherpos"/>
+        <rotationref ref="SSDMountingBlockScrew_3inSSDMountingBlockMotherrot"/>
+      </physvol>
+      <physvol name="SSDMountingBlockScrew_4" copynumber="4">
+        <volumeref ref="SSDMountingBlockScrew"/>
+        <positionref ref="SSDMountingBlockScrew_4inSSDMountingBlockMotherpos"/>
+        <rotationref ref="SSDMountingBlockScrew_4inSSDMountingBlockMotherrot"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,5 @@
+<structure><volume name="TPC_IFC10">
+      <materialref ref="TPC_NOMEX"/>
+      <solidref ref="TGeoTube0x143"/>
+    </volume>
+    </structure>

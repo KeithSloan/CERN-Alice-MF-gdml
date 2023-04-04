@@ -1,0 +1,3 @@
+<solids><box name="LadderEndCableSegmentBBoxShape10x55" x="7.3324998280000022" y="2.3500000000000001" z="0.0030000000000000001" lunit="cm"/>
+    <box name="LadderEndCableSegmentBBoxShape20x55" x="7.3324998280000022" y="2.3500000000000001" z="0.002" lunit="cm"/>
+    </solids>

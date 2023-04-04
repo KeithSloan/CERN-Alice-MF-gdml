@@ -1,0 +1,9 @@
+<structure><volume name="PWAR">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PWAR0x1"/>
+      <physvol name="PWTI_1" copynumber="1">
+        <volumeref ref="PWTI"/>
+        <positionref ref="PWTI_1inPWARpos"/>
+      </physvol>
+    </volume>
+    </structure>

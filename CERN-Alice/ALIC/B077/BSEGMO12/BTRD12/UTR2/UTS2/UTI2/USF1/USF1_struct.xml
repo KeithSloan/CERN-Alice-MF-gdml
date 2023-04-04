@@ -1,20 +1,4 @@
-<structure><volume name="USI10x3">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="TGeoBBox0x36"/>
-    </volume>
-    <volume name="USI10x2">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="TGeoBBox0x35"/>
-    </volume>
-    <volume name="USI10x1">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="TGeoBBox0x34"/>
-    </volume>
-    <volume name="USI1">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="TGeoBBox0x33"/>
-    </volume>
-    <volume name="USF1">
+<structure><volume name="USF1">
       <materialref ref="TRD_Al"/>
       <solidref ref="USF10x1"/>
       <physvol name="USI1_1" copynumber="1">

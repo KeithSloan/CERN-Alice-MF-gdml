@@ -1,0 +1,10 @@
+<define><position name="bar14top_1inHvboxlastpos" x="0" y="19.350000000000001" z="0" unit="cm"/>
+    <position name="bar14vert_1inHvboxlastpos" x="69.400000000000006" y="-5" z="0" unit="cm"/>
+    <position name="bar14vert_2inHvboxlastpos" x="-69.400000000000006" y="-5" z="0" unit="cm"/>
+    <position name="bar14incllast_1inHvboxlastpos" x="-35.5" y="-3" z="0" unit="cm"/>
+    <position name="bar14incllast_2inHvboxlastpos" x="35.5" y="-3" z="0" unit="cm"/>
+    <rotation name="bar14vert_1inHvboxlastrot" x="0" y="-0" z="-90" unit="deg"/>
+    <rotation name="bar14vert_2inHvboxlastrot" x="0" y="-0" z="-90" unit="deg"/>
+    <rotation name="bar14incllast_1inHvboxlastrot" x="0" y="-0" z="35" unit="deg"/>
+    <rotation name="bar14incllast_2inHvboxlastrot" x="180" y="-7.0164775638926622e-15" z="-145" unit="deg"/>
+    </define>

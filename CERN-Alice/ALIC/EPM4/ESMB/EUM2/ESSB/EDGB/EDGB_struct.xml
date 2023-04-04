@@ -1,0 +1,9 @@
+<structure><volume name="EDGB">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EDGB0x1"/>
+      <physvol name="ECGB_1" copynumber="1">
+        <volumeref ref="ECGB"/>
+        <positionref ref="ECGB_1inEDGBpos"/>
+      </physvol>
+    </volume>
+    </structure>

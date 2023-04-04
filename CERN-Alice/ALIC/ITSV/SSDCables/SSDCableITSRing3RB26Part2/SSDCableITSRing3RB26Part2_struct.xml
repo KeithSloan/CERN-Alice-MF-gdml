@@ -1,0 +1,5 @@
+<structure><volume name="SSDCableITSRing3RB26Part2">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x138"/>
+    </volume>
+    </structure>

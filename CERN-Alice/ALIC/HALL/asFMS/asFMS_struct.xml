@@ -1,24 +1,4 @@
-<structure><volume name="FmsDf2">
-      <materialref ref="HALL_CONCRETE2"/>
-      <solidref ref="TGeoBBox0x28"/>
-    </volume>
-    <volume name="FmsDf1">
-      <materialref ref="HALL_CONCRETE2"/>
-      <solidref ref="TGeoBBox0x27"/>
-    </volume>
-    <volume name="FmsMfTb2">
-      <materialref ref="HALL_CONCRETE2"/>
-      <solidref ref="TGeoBBox0x26"/>
-    </volume>
-    <volume name="FmsMfTb1">
-      <materialref ref="HALL_CONCRETE2"/>
-      <solidref ref="TGeoBBox0x25"/>
-    </volume>
-    <volume name="FmsMfPil">
-      <materialref ref="HALL_CONCRETE2"/>
-      <solidref ref="TGeoBBox0x24"/>
-    </volume>
-    <volume name="FmsMfPil">
+<structure><volume name="FmsMfPil">
       <materialref ref="HALL_CONCRETE2"/>
       <solidref ref="TGeoBBox0x24"/>
     </volume>

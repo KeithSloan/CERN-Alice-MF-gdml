@@ -1,8 +1,4 @@
-<structure><volume name="ITSSPDCarbonFiberSupportSectorAirA1">
-      <materialref ref="ITS_AIR"/>
-      <solidref ref="ITS_SPD_Carbon_fiber_support_Sector_Air_A1"/>
-    </volume>
-    <volume name="ITSSPDCarbonFiberSupportSectorA0">
+<structure><volume name="ITSSPDCarbonFiberSupportSectorA0">
       <materialref ref="ITS_SPD_C_M55J"/>
       <solidref ref="ITS_SPD_Carbon_fiber_support_Sector_A0"/>
       <physvol name="ITSSPDCarbonFiberSupportSectorAirA1_1" copynumber="1">

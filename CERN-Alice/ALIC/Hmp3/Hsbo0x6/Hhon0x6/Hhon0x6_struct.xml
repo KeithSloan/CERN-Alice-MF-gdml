@@ -1,0 +1,5 @@
+<structure><volume name="Hhon0x6">
+      <materialref ref="HMPID_Roha"/>
+      <solidref ref="Hhon0x7"/>
+    </volume>
+    </structure>

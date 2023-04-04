@@ -1,0 +1,25 @@
+<define><position name="SSDCoolingBlock_1inCoolingBlockSystempos" x="0.089999999999999969" y="0.20000000000000001" z="-0.125" unit="cm"/>
+    <position name="OuterCoolingTube_1inCoolingBlockSystempos" x="0.23999999999999999" y="0.20000000000000001" z="0.025000000000000022" unit="cm"/>
+    <position name="InnerCoolingTube_1inCoolingBlockSystempos" x="0.23999999999999999" y="0.20000000000000001" z="0.025000000000000022" unit="cm"/>
+    <position name="SSDCoolingBlock_2inCoolingBlockSystempos" x="0.089999999999999969" y="3.2200000000000002" z="-0.125" unit="cm"/>
+    <position name="OuterCoolingTube_2inCoolingBlockSystempos" x="0.23999999999999999" y="3.2200000000000002" z="0.025000000000000022" unit="cm"/>
+    <position name="InnerCoolingTube_2inCoolingBlockSystempos" x="0.23999999999999999" y="3.2200000000000002" z="0.025000000000000022" unit="cm"/>
+    <position name="SSDCoolingBlock_3inCoolingBlockSystempos" x="4.9500000000000002" y="0.20000000000000001" z="-0.125" unit="cm"/>
+    <position name="OuterCoolingTube_3inCoolingBlockSystempos" x="5.1000000000000005" y="0.20000000000000001" z="0.025000000000000022" unit="cm"/>
+    <position name="InnerCoolingTube_3inCoolingBlockSystempos" x="5.1000000000000005" y="0.20000000000000001" z="0.025000000000000022" unit="cm"/>
+    <position name="SSDCoolingBlock_4inCoolingBlockSystempos" x="4.9500000000000002" y="3.2200000000000002" z="-0.125" unit="cm"/>
+    <position name="OuterCoolingTube_4inCoolingBlockSystempos" x="5.1000000000000005" y="3.2200000000000002" z="0.025000000000000022" unit="cm"/>
+    <position name="InnerCoolingTube_4inCoolingBlockSystempos" x="5.1000000000000005" y="3.2200000000000002" z="0.025000000000000022" unit="cm"/>
+    <rotation name="SSDCoolingBlock_1inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="OuterCoolingTube_1inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="InnerCoolingTube_1inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="SSDCoolingBlock_2inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="OuterCoolingTube_2inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="InnerCoolingTube_2inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="SSDCoolingBlock_3inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="OuterCoolingTube_3inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="InnerCoolingTube_3inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="SSDCoolingBlock_4inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="OuterCoolingTube_4inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    <rotation name="InnerCoolingTube_4inCoolingBlockSystemrot" x="-90" y="-0" z="0" unit="deg"/>
+    </define>

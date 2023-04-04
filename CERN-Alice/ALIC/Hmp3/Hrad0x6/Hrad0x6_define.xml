@@ -1,0 +1,37 @@
+<define><position name="Hneo_10x3inHrad0x6pos" x="0" y="0" z="-1" unit="cm"/>
+    <position name="Hwin_10x3inHrad0x6pos" x="0" y="0" z="0.95000000000000007" unit="cm"/>
+    <position name="Hsi1_10x3inHrad0x6pos" x="0" y="-20.400000000000002" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hsi1_20x3inHrad0x6pos" x="0" y="20.400000000000002" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hsi2_10x3inHrad0x6pos" x="-66" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hsi2_20x3inHrad0x6pos" x="66" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_00x3inHrad0x6pos" x="-54.900000000000006" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_10x3inHrad0x6pos" x="-42.700000000000003" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_20x3inHrad0x6pos" x="-30.5" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_30x3inHrad0x6pos" x="-18.300000000000001" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_40x3inHrad0x6pos" x="-6.1000000000000005" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_50x3inHrad0x6pos" x="6.1000000000000005" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_60x3inHrad0x6pos" x="18.300000000000001" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_70x3inHrad0x6pos" x="30.5" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_80x3inHrad0x6pos" x="42.700000000000003" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_90x3inHrad0x6pos" x="54.900000000000006" y="-10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_100x3inHrad0x6pos" x="-54.900000000000006" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_110x3inHrad0x6pos" x="-42.700000000000003" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_120x3inHrad0x6pos" x="-30.5" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_130x3inHrad0x6pos" x="-18.300000000000001" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_140x3inHrad0x6pos" x="-6.1000000000000005" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_150x3inHrad0x6pos" x="6.1000000000000005" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_160x3inHrad0x6pos" x="18.300000000000001" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_170x3inHrad0x6pos" x="30.5" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_180x3inHrad0x6pos" x="42.700000000000003" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_190x3inHrad0x6pos" x="54.900000000000006" y="0" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_200x3inHrad0x6pos" x="-54.900000000000006" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_210x3inHrad0x6pos" x="-42.700000000000003" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_220x3inHrad0x6pos" x="-30.5" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_230x3inHrad0x6pos" x="-18.300000000000001" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_240x3inHrad0x6pos" x="-6.1000000000000005" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_250x3inHrad0x6pos" x="6.1000000000000005" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_260x3inHrad0x6pos" x="18.300000000000001" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_270x3inHrad0x6pos" x="30.5" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_280x3inHrad0x6pos" x="42.700000000000003" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    <position name="Hspa_290x3inHrad0x6pos" x="54.900000000000006" y="10.5" z="-0.050000000000000003" unit="cm"/>
+    </define>

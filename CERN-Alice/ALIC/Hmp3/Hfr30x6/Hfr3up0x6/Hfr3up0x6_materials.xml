@@ -1,0 +1,12 @@
+<materials><material name="HMPID_CH4">
+      <D unit="g/cm3" value="0.00071699998807162046"/>
+      <fraction n="0.7482866644859314" ref="CARBON_elm"/>
+      <fraction n="0.25171339511871338" ref="HYDROGEN_elm"/>
+    </material>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    </materials>

@@ -2,66 +2,6 @@
       <materialref ref="MUON_COPPER"/>
       <solidref ref="S09E0x1"/>
     </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
-    <volume name="S09E">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S09E0x1"/>
-    </volume>
     <volume name="S09B">
       <materialref ref="MUON_Rohacell"/>
       <solidref ref="S09B0x1"/>

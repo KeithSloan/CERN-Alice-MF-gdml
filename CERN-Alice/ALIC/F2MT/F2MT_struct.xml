@@ -1,0 +1,23 @@
+<structure><assembly name="F2MT">
+      <physvol name="FITV_73" copynumber="73">
+        <volumeref ref="FITV"/>
+        <positionref ref="FITV_730x1inF2MTpos"/>
+      </physvol>
+      <physvol name="F2HI_0" copynumber="0">
+        <volumeref ref="F2HI"/>
+        <positionref ref="F2HI_0inF2MTpos"/>
+      </physvol>
+      <physvol name="FOTV_79" copynumber="79">
+        <volumeref ref="FOTV"/>
+        <positionref ref="FOTV_79inF2MTpos"/>
+      </physvol>
+      <physvol name="F2HO_0" copynumber="0">
+        <volumeref ref="F2HO"/>
+        <positionref ref="F2HO_0inF2MTpos"/>
+      </physvol>
+      <physvol name="FMD2_support_0" copynumber="0">
+        <volumeref ref="FMD2_support"/>
+        <positionref ref="FMD2_support_0inF2MTpos"/>
+      </physvol>
+    </assembly>
+    </structure>

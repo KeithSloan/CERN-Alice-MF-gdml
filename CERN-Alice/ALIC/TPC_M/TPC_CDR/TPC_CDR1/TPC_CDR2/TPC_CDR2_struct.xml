@@ -1,0 +1,9 @@
+<structure><volume name="TPC_CDR2">
+      <materialref ref="TPC_Prepreg1"/>
+      <solidref ref="TGeoTube0x173"/>
+      <physvol name="TPC_CDR3_1" copynumber="1">
+        <volumeref ref="TPC_CDR3"/>
+        <positionref ref="TPC_CDR3_1inTPC_CDR2pos"/>
+      </physvol>
+    </volume>
+    </structure>

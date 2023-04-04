@@ -1,0 +1,8 @@
+<solids><subtraction name="TGeoCompositeShape0x232">
+      <first ref="ocap"/>
+      <second ref="ohole"/>
+      <position name="TGeoCompositeShape0x232oholepos" x="0" y="0" z="-2.1499999999999999" unit="cm"/>
+    </subtraction>
+    <trd name="ocap" x1="46.774799999999999" x2="87.047799999999995" y1="2.1800000000000002" y2="2.1800000000000002" z="114.2" lunit="cm"/>
+    <trd name="ohole" x1="44.587600000000002" x2="81.016800000000003" y1="2.1800000000000002" y2="2.1800000000000002" z="103.3" lunit="cm"/>
+    </solids>

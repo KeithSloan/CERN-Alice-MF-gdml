@@ -1,28 +1,4 @@
-<structure><volume name="UV28">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x363"/>
-    </volume>
-    <volume name="UO28">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x362"/>
-    </volume>
-    <volume name="UN28">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x361"/>
-    </volume>
-    <volume name="UM28">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x360"/>
-    </volume>
-    <volume name="UY28">
-      <materialref ref="TRD_Araldite"/>
-      <solidref ref="TGeoBBox0x359"/>
-    </volume>
-    <volume name="UL28">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x358"/>
-    </volume>
-    <volume name="UG28">
+<structure><volume name="UG28">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x357"/>
       <physvol name="UL28_1" copynumber="1">

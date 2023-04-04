@@ -1,0 +1,2 @@
+<solids><tube name="YMQ10x1" rmin="3.5" rmax="22" z="637" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

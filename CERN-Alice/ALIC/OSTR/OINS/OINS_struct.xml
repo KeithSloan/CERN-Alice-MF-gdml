@@ -1,0 +1,17 @@
+<structure><volume name="OINS">
+      <materialref ref="T0_Air"/>
+      <solidref ref="OINS0x1"/>
+      <physvol name="0PMT_1" copynumber="1">
+        <volumeref ref="OPMT"/>
+        <positionref ref="OPMT_1inOINSpos"/>
+      </physvol>
+      <physvol name="0SU6_1" copynumber="1">
+        <volumeref ref="OSU6"/>
+        <positionref ref="OSU6_1inOINSpos"/>
+      </physvol>
+      <physvol name="0SU7_1" copynumber="1">
+        <volumeref ref="OSU7"/>
+        <positionref ref="OSU7_1inOINSpos"/>
+      </physvol>
+    </volume>
+    </structure>

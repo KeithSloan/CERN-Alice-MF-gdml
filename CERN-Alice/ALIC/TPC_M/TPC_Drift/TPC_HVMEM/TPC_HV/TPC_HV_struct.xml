@@ -1,0 +1,5 @@
+<structure><volume name="TPC_HV">
+      <materialref ref="TPC_Mylar"/>
+      <solidref ref="TGeoTube0x151"/>
+    </volume>
+    </structure>

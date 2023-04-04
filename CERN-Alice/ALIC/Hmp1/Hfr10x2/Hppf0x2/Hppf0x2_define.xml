@@ -1,0 +1,17 @@
+<define><position name="Hlar_00x1inHppf0x2pos" x="-22.450000000000003" y="-15.1875" z="0" unit="cm"/>
+    <position name="Hlar_10x1inHppf0x2pos" x="-22.450000000000003" y="-5.0625" z="0" unit="cm"/>
+    <position name="Hlar_20x1inHppf0x2pos" x="-22.450000000000003" y="5.0625" z="0" unit="cm"/>
+    <position name="Hlar_30x1inHppf0x2pos" x="-22.450000000000003" y="15.1875" z="0" unit="cm"/>
+    <position name="Hlar_40x1inHppf0x2pos" x="22.450000000000003" y="-15.1875" z="0" unit="cm"/>
+    <position name="Hlar_50x1inHppf0x2pos" x="22.450000000000003" y="-5.0625" z="0" unit="cm"/>
+    <position name="Hlar_60x1inHppf0x2pos" x="22.450000000000003" y="5.0625" z="0" unit="cm"/>
+    <position name="Hlar_70x1inHppf0x2pos" x="22.450000000000003" y="15.1875" z="0" unit="cm"/>
+    <position name="Hsmo_00x1inHppf0x2pos" x="-6.5" y="-15.1875" z="0" unit="cm"/>
+    <position name="Hsmo_10x1inHppf0x2pos" x="-6.5" y="-5.0625" z="0" unit="cm"/>
+    <position name="Hsmo_20x1inHppf0x2pos" x="-6.5" y="5.0625" z="0" unit="cm"/>
+    <position name="Hsmo_30x1inHppf0x2pos" x="-6.5" y="15.1875" z="0" unit="cm"/>
+    <position name="Hsmo_40x1inHppf0x2pos" x="6.5" y="-15.1875" z="0" unit="cm"/>
+    <position name="Hsmo_50x1inHppf0x2pos" x="6.5" y="-5.0625" z="0" unit="cm"/>
+    <position name="Hsmo_60x1inHppf0x2pos" x="6.5" y="5.0625" z="0" unit="cm"/>
+    <position name="Hsmo_70x1inHppf0x2pos" x="6.5" y="15.1875" z="0" unit="cm"/>
+    </define>

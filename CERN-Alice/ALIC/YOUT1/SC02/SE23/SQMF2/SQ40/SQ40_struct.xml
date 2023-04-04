@@ -2,66 +2,6 @@
       <materialref ref="MUON_Kapton"/>
       <solidref ref="SQ440x1"/>
     </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
-    <volume name="SQ44">
-      <materialref ref="MUON_Kapton"/>
-      <solidref ref="SQ440x1"/>
-    </volume>
     <volume name="SQ40">
       <materialref ref="MUON_FrameEpoxy"/>
       <solidref ref="SQ400x1"/>

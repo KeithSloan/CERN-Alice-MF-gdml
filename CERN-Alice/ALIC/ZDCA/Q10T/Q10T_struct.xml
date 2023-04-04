@@ -1,0 +1,9 @@
+<structure><volume name="Q10T">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="Q10T0x1"/>
+      <physvol name="Q11T_1" copynumber="1">
+        <volumeref ref="Q11T"/>
+        <positionref ref="Q11T_1inQ10Tpos"/>
+      </physvol>
+    </volume>
+    </structure>

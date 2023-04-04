@@ -1,0 +1,115 @@
+<structure><volume name="FMD3_end_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_end_wire0x1"/>
+    </volume>
+    <volume name="FMD3_bend_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="TGeoTorus0x19"/>
+    </volume>
+    <volume name="FMD3_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_wire0x1"/>
+    </volume>
+    <volume name="FMD_tension_top">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_top0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_wing">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_wing0x1"/>
+    </volume>
+    <volume name="FMD3_bolt">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_bolt0x1"/>
+    </volume>
+    <volume name="FMD3_cooling_plate">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD3_cooling_plate0x1"/>
+    </volume>
+    <assembly name="F3SU">
+      <physvol name="FMD3_cooling_plate_0" copynumber="0">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_0inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_0inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_cooling_plate_1" copynumber="1">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_1inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_cooling_plate_2" copynumber="2">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_2inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_cooling_plate_3" copynumber="3">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_3inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_3inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bolt_1" copynumber="1">
+        <volumeref ref="FMD3_bolt"/>
+        <positionref ref="FMD3_bolt_1inF3SUpos"/>
+        <rotationref ref="FMD3_bolt_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bolt_2" copynumber="2">
+        <volumeref ref="FMD3_bolt"/>
+        <positionref ref="FMD3_bolt_2inF3SUpos"/>
+        <rotationref ref="FMD3_bolt_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_box_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_box"/>
+        <positionref ref="FMD3_sheeve_box_1inF3SUpos"/>
+        <rotationref ref="FMD3_sheeve_box_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_box_2" copynumber="2">
+        <volumeref ref="FMD3_sheeve_box"/>
+        <positionref ref="FMD3_sheeve_box_2inF3SUpos"/>
+        <rotationref ref="FMD3_sheeve_box_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_Cone_0" copynumber="0">
+        <volumeref ref="FMD3_Cone"/>
+        <positionref ref="FMD3_Cone_0inF3SUpos"/>
+      </physvol>
+      <physvol name="FMD_tension_box_1" copynumber="1">
+        <volumeref ref="FMD_tension_box"/>
+        <positionref ref="FMD_tension_box_10x1inF3SUpos"/>
+        <rotationref ref="FMD_tension_box_10x1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD_tension_box_2" copynumber="2">
+        <volumeref ref="FMD_tension_box"/>
+        <positionref ref="FMD_tension_box_2inF3SUpos"/>
+        <rotationref ref="FMD_tension_box_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_wire_1" copynumber="1">
+        <volumeref ref="FMD3_wire"/>
+        <positionref ref="FMD3_wire_1inF3SUpos"/>
+        <rotationref ref="FMD3_wire_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_wire_2" copynumber="2">
+        <volumeref ref="FMD3_wire"/>
+        <positionref ref="FMD3_wire_2inF3SUpos"/>
+        <rotationref ref="FMD3_wire_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bend_wire_1" copynumber="1">
+        <volumeref ref="FMD3_bend_wire"/>
+        <positionref ref="FMD3_bend_wire_1inF3SUpos"/>
+        <rotationref ref="FMD3_bend_wire_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bend_wire_2" copynumber="2">
+        <volumeref ref="FMD3_bend_wire"/>
+        <positionref ref="FMD3_bend_wire_2inF3SUpos"/>
+        <rotationref ref="FMD3_bend_wire_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_end_wire_1" copynumber="1">
+        <volumeref ref="FMD3_end_wire"/>
+        <positionref ref="FMD3_end_wire_1inF3SUpos"/>
+        <rotationref ref="FMD3_end_wire_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_end_wire_2" copynumber="2">
+        <volumeref ref="FMD3_end_wire"/>
+        <positionref ref="FMD3_end_wire_2inF3SUpos"/>
+        <rotationref ref="FMD3_end_wire_2inF3SUrot"/>
+      </physvol>
+    </assembly>
+    </structure>

@@ -1,0 +1,5 @@
+<structure><volume name="SSDCableLay5RightSidePConWater1">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoPcon0x131"/>
+    </volume>
+    </structure>

@@ -1,0 +1,59 @@
+<materials><material name="HMPID_Roha" Z="6">
+      <D unit="g/cm3" value="0.10000000149011612"/>
+      <atom unit="g/mole" value="12.010000228881836"/>
+    </material>
+    <material name="HMPID_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="HMPID_CH4">
+      <D unit="g/cm3" value="0.00071699998807162046"/>
+      <fraction n="0.7482866644859314" ref="CARBON_elm"/>
+      <fraction n="0.25171339511871338" ref="HYDROGEN_elm"/>
+    </material>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    <material name="HMPID_Neo">
+      <D unit="g/cm3" value="2.6400001049041748"/>
+      <fraction n="0.39323049783706665" ref="OXYGEN_elm"/>
+      <fraction n="0.60676950216293335" ref="SILICON_elm"/>
+    </material>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="SILICON_elm" formula="SI" Z="14">
+      <atom unit="g/mole" value="28.0855"/>
+    </element>
+    <material name="HMPID_SiO2">
+      <D unit="g/cm3" value="2.6400001049041748"/>
+      <fraction n="0.5323789119720459" ref="OXYGEN_elm"/>
+      <fraction n="0.46762111783027649" ref="SILICON_elm"/>
+    </material>
+    <material name="HMPID_C6F14">
+      <D unit="g/cm3" value="1.6799999475479126"/>
+      <fraction n="0.21324574947357178" ref="CARBON_elm"/>
+      <fraction n="0.786754310131073" ref="FLUORINE_elm"/>
+    </material>
+    <element name="FLUORINE_elm" formula="F" Z="9">
+      <atom unit="g/mole" value="18.998403199999998"/>
+    </element>
+    <material name="HMPID_Cu" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.549999237060547"/>
+    </material>
+    <material name="HMPID_CsIPCB">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.51501601934432983" ref="CARBON_elm"/>
+      <fraction n="0.061873000115156174" ref="HYDROGEN_elm"/>
+      <fraction n="0.29405000805854797" ref="OXYGEN_elm"/>
+      <fraction n="0.12906000018119812" ref="SILICON_elm"/>
+    </material>
+    <material name="HMPID_Ar" Z="18">
+      <D unit="g/cm3" value="0.0013960000360384583"/>
+      <atom unit="g/mole" value="39.939998626708984"/>
+    </material>
+    </materials>

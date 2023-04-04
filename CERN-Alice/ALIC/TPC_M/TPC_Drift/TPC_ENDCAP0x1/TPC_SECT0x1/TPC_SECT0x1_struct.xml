@@ -1,0 +1,17 @@
+<structure><assembly name="TPC_SECT0x1">
+      <physvol name="TPC_WCH_1" copynumber="1">
+        <volumeref ref="TPC_WCH"/>
+        <positionref ref="TPC_WCH_10x1inTPC_SECT0x1pos"/>
+      </physvol>
+      <physvol name="TPC_IROC_1" copynumber="1">
+        <volumeref ref="TPC_IROC"/>
+        <positionref ref="TPC_IROC_10x1inTPC_SECT0x1pos"/>
+        <rotationref ref="TPC_IROC_10x1inTPC_SECT0x1rot"/>
+      </physvol>
+      <physvol name="TPC_OROC_1" copynumber="1">
+        <volumeref ref="TPC_OROC"/>
+        <positionref ref="TPC_OROC_10x1inTPC_SECT0x1pos"/>
+        <rotationref ref="TPC_OROC_10x1inTPC_SECT0x1rot"/>
+      </physvol>
+    </assembly>
+    </structure>

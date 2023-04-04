@@ -1,0 +1,15 @@
+<structure><assembly name="TPC_HVMEM">
+      <physvol name="TPC_IHVH_1" copynumber="1">
+        <volumeref ref="TPC_IHVH"/>
+        <positionref ref="TPC_IHVH_1inTPC_HVMEMpos"/>
+      </physvol>
+      <physvol name="TPC_OHVH_1" copynumber="1">
+        <volumeref ref="TPC_OHVH"/>
+        <positionref ref="TPC_OHVH_1inTPC_HVMEMpos"/>
+      </physvol>
+      <physvol name="TPC_HV_1" copynumber="1">
+        <volumeref ref="TPC_HV"/>
+        <positionref ref="TPC_HV_1inTPC_HVMEMpos"/>
+      </physvol>
+    </assembly>
+    </structure>

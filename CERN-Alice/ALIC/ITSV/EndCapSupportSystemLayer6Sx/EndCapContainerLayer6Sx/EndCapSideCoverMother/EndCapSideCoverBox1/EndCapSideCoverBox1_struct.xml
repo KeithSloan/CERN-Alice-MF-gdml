@@ -1,0 +1,5 @@
+<structure><volume name="EndCapSideCoverBox1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1133"/>
+    </volume>
+    </structure>

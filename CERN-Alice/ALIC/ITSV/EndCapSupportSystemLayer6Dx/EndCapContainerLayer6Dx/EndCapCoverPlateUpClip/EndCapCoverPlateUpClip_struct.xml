@@ -1,0 +1,5 @@
+<structure><volume name="EndCapCoverPlateUpClip">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1137"/>
+    </volume>
+    </structure>

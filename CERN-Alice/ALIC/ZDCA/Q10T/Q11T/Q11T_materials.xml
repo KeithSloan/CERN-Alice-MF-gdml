@@ -1,0 +1,16 @@
+<materials><material name="ZDC_VOID">
+      <D unit="g/cm3" value="3.2000000116079799e-14"/>
+      <fraction n="0.2800000011920929" ref="CARBON_elm"/>
+      <fraction n="0.2800000011920929" ref="HYDROGEN_elm"/>
+      <fraction n="0.43999999761581421" ref="OXYGEN_elm"/>
+    </material>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    </materials>

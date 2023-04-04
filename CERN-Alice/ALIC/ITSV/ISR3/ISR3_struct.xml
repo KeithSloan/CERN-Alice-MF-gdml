@@ -1,8 +1,4 @@
-<structure><volume name="ISR5">
-      <materialref ref="ITS_GEN_AIR"/>
-      <solidref ref="ISR50x1"/>
-    </volume>
-    <volume name="ISR3">
+<structure><volume name="ISR3">
       <materialref ref="ITS_AL"/>
       <solidref ref="ISR30x1"/>
       <physvol name="ISR5_1" copynumber="1">

@@ -1,8 +1,4 @@
-<structure><volume name="DL2">
-      <materialref ref="DIPO_Al2"/>
-      <solidref ref="TGeoBBox0x11"/>
-    </volume>
-    <volume name="DL1">
+<structure><volume name="DL1">
       <materialref ref="DIPO_Al0"/>
       <solidref ref="TGeoBBox0x10"/>
       <physvol name="DL2_1" copynumber="1">

@@ -1,8 +1,4 @@
-<structure><volume name="YMuonFilterH">
-      <materialref ref="SHIL_STAINLESS_STEEL3"/>
-      <solidref ref="MuonFilterH"/>
-    </volume>
-    <volume name="YMuonFilter">
+<structure><volume name="YMuonFilter">
       <materialref ref="SHIL_STAINLESS_STEEL1"/>
       <solidref ref="MuonFilter"/>
       <physvol name="YMuonFilterH_1" copynumber="1">

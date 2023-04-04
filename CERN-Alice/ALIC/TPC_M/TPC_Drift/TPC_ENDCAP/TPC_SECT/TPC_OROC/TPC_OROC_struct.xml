@@ -1,0 +1,23 @@
+<structure><assembly name="TPC_OROC">
+      <physvol name="TPC_OROCB_1" copynumber="1">
+        <volumeref ref="TPC_OROCB"/>
+        <positionref ref="TPC_OROCB_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORCAP_1" copynumber="1">
+        <volumeref ref="TPC_ORCAP"/>
+        <positionref ref="TPC_ORCAP_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORPP_1" copynumber="1">
+        <volumeref ref="TPC_ORPP"/>
+        <positionref ref="TPC_ORPP_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORF1_1" copynumber="1">
+        <volumeref ref="TPC_ORF1"/>
+        <positionref ref="TPC_ORF1_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORF2_1" copynumber="1">
+        <volumeref ref="TPC_ORF2"/>
+        <positionref ref="TPC_ORF2_1inTPC_OROCpos"/>
+      </physvol>
+    </assembly>
+    </structure>

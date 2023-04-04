@@ -1,0 +1,15 @@
+<structure><assembly name="F1MT">
+      <physvol name="FITV_73" copynumber="73">
+        <volumeref ref="FITV"/>
+        <positionref ref="FITV_73inF1MTpos"/>
+      </physvol>
+      <physvol name="F1HI_0" copynumber="0">
+        <volumeref ref="F1HI"/>
+        <positionref ref="F1HI_0inF1MTpos"/>
+      </physvol>
+      <physvol name="FMD1_lid_0" copynumber="0">
+        <volumeref ref="FMD1_lid"/>
+        <positionref ref="FMD1_lid_0inF1MTpos"/>
+      </physvol>
+    </assembly>
+    </structure>

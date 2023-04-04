@@ -1,0 +1,5 @@
+<structure><volume name="MQXL">
+      <materialref ref="ZDC_VOIM"/>
+      <solidref ref="MQXL0x1"/>
+    </volume>
+    </structure>

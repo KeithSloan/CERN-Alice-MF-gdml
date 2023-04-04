@@ -1,0 +1,13 @@
+<structure><volume name="cableSDDport85">
+      <materialref ref="ITS_SDD_OPTICFIB"/>
+      <solidref ref="TGeoArb80x159"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x182"/>
+        <positionref ref="vCableSegLay_10x154incableSDDport85pos"/>
+      </physvol>
+      <physvol name="vCableSegLay_2" copynumber="2">
+        <volumeref ref="vCableSegLay0x183"/>
+        <positionref ref="vCableSegLay_20x12incableSDDport85pos"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,8 +1,4 @@
-<structure><volume name="ITSSPDCoolingTubeEndFluidTB1">
-      <materialref ref="ITS_Freon"/>
-      <solidref ref="ITS_SPD_Cooling_Tube_End_coolant_TB0"/>
-    </volume>
-    <volume name="ITSSPDCoolingTubeEndTB0">
+<structure><volume name="ITSSPDCoolingTubeEndTB0">
       <materialref ref="ITS_INOX"/>
       <solidref ref="ITS_SPD_Cooling_Tube_End_TB0"/>
       <physvol name="ITSSPDCoolingTubeEndFluidTB1_1" copynumber="1">

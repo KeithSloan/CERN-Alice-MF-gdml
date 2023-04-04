@@ -1,0 +1,2 @@
+<solids><cone name="TGeoCone0x24" z="31.5" rmin1="9" rmin2="10.635" rmax1="9.3000000000000007" rmax2="10.935" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

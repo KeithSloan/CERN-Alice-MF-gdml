@@ -1,0 +1,5 @@
+<structure><volume name="FMD3_Cone">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="FMD3_cone"/>
+    </volume>
+    </structure>

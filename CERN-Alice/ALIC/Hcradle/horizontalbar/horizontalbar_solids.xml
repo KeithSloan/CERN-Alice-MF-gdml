@@ -1,0 +1,21 @@
+<solids><subtraction name="horizontalbar0x1">
+      <first ref="horizontalbarOUT"/>
+      <second ref="horizontalbarIN"/>
+    </subtraction>
+    <xtru name="horizontalbarOUT" lunit="cm">
+      <twoDimVertex x="-86.317999999999998" y="2.5"/>
+      <twoDimVertex x="86.317999999999998" y="2.5"/>
+      <twoDimVertex x="87.200000000000003" y="-2.5"/>
+      <twoDimVertex x="-87.200000000000003" y="-2.5"/>
+      <section zOrder="0" zPosition="-1.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="1.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="horizontalbarIN" lunit="cm">
+      <twoDimVertex x="-86.406199999999998" y="2"/>
+      <twoDimVertex x="86.406199999999998" y="2"/>
+      <twoDimVertex x="87.288200000000003" y="-2"/>
+      <twoDimVertex x="-87.288200000000003" y="-2"/>
+      <section zOrder="0" zPosition="-1.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="1.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

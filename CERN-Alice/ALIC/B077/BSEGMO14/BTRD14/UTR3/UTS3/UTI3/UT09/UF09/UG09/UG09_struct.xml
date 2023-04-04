@@ -1,28 +1,4 @@
-<structure><volume name="UV09">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x194"/>
-    </volume>
-    <volume name="UO09">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x193"/>
-    </volume>
-    <volume name="UN09">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x192"/>
-    </volume>
-    <volume name="UM09">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x191"/>
-    </volume>
-    <volume name="UY09">
-      <materialref ref="TRD_Araldite"/>
-      <solidref ref="TGeoBBox0x190"/>
-    </volume>
-    <volume name="UL09">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x189"/>
-    </volume>
-    <volume name="UG09">
+<structure><volume name="UG09">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x188"/>
       <physvol name="UL09_1" copynumber="1">

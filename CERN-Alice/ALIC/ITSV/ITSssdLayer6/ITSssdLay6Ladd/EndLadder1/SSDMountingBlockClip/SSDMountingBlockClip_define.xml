@@ -1,0 +1,5 @@
+<define><position name="SSDClip_1inSSDMountingBlockClippos" x="0" y="0" z="0" unit="cm"/>
+    <position name="RingSupport_1inSSDMountingBlockClippos" x="0" y="0" z="0" unit="cm"/>
+    <position name="ClipScrewShape_1inSSDMountingBlockClippos" x="-0.9149999999999997" y="0.32125000000000004" z="0.52499999999999991" unit="cm"/>
+    <rotation name="ClipScrewShape_1inSSDMountingBlockCliprot" x="-90" y="-0" z="-0" unit="deg"/>
+    </define>

@@ -2,18 +2,6 @@
       <materialref ref="TRD_Air"/>
       <solidref ref="USC30x1"/>
     </volume>
-    <volume name="USC3">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USC30x1"/>
-    </volume>
-    <volume name="USC2">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USC20x1"/>
-    </volume>
-    <volume name="USC1">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USC10x1"/>
-    </volume>
     <volume name="USCB">
       <materialref ref="TRD_Al"/>
       <solidref ref="USCB0x1"/>

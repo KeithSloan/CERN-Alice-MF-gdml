@@ -1,0 +1,19 @@
+<structure><assembly name="SSDFlexMother">
+      <physvol name="AlFlexLay1_1" copynumber="1">
+        <volumeref ref="AlFlexLay1"/>
+        <positionref ref="AlFlexLay1_1inSSDFlexMotherpos"/>
+      </physvol>
+      <physvol name="KaptonFlexLay1_1" copynumber="1">
+        <volumeref ref="KaptonFlexLay1"/>
+        <positionref ref="KaptonFlexLay1_1inSSDFlexMotherpos"/>
+      </physvol>
+      <physvol name="AlFlexLay2_1" copynumber="1">
+        <volumeref ref="AlFlexLay2"/>
+        <positionref ref="AlFlexLay2_1inSSDFlexMotherpos"/>
+      </physvol>
+      <physvol name="KaptonFlexLay2_1" copynumber="1">
+        <volumeref ref="KaptonFlexLay2"/>
+        <positionref ref="KaptonFlexLay2_1inSSDFlexMotherpos"/>
+      </physvol>
+    </assembly>
+    </structure>

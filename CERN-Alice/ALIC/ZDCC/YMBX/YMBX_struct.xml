@@ -1,0 +1,5 @@
+<structure><volume name="YMBX">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YMBX0x1"/>
+    </volume>
+    </structure>

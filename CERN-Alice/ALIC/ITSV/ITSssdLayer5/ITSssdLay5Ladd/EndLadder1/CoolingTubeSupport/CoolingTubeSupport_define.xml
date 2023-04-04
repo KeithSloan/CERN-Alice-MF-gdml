@@ -1,0 +1,11 @@
+<define><position name="CoolingTubeSupportArc_1inCoolingTubeSupportpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CoolingTubeSupportBox_1inCoolingTubeSupportpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CoolingTubeSupportSeg_1inCoolingTubeSupportpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CoolingTubeWaterArcPart_1inCoolingTubeSupportpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CoolingTubePhynoxArcPart_1inCoolingTubeSupportpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CoolingTubePhynoxPart_1inCoolingTubeSupportpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CoolingTubeWaterPart_1inCoolingTubeSupportpos" x="0" y="0" z="0" unit="cm"/>
+    <rotation name="CoolingTubeSupportArc_1inCoolingTubeSupportrot" x="-0" y="0" z="90" unit="deg"/>
+    <rotation name="CoolingTubeWaterArcPart_1inCoolingTubeSupportrot" x="-0" y="0" z="90" unit="deg"/>
+    <rotation name="CoolingTubePhynoxArcPart_1inCoolingTubeSupportrot" x="-0" y="0" z="90" unit="deg"/>
+    </define>

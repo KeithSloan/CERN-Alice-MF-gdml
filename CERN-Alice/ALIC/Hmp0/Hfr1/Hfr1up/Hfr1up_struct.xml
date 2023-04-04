@@ -1,0 +1,65 @@
+<structure><volume name="Hgassipl3">
+      <materialref ref="HMPID_CsIPCB"/>
+      <solidref ref="Hgassipl30x1"/>
+    </volume>
+    <volume name="Hrect">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hrect0x1"/>
+      <physvol name="Hgassipl2_1" copynumber="1">
+        <volumeref ref="Hgassipl2"/>
+        <positionref ref="Hgassipl2_1inHrectpos"/>
+      </physvol>
+    </volume>
+    <volume name="Hfr1up">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr1up0x1"/>
+      <physvol name="Hcufoil_4" copynumber="4">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_4inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_5" copynumber="5">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_5inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_2" copynumber="2">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_2inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_3" copynumber="3">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_3inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_0" copynumber="0">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_0inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_1" copynumber="1">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_1inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_4" copynumber="4">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_4inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_5" copynumber="5">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_5inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_2" copynumber="2">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_2inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_3" copynumber="3">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_3inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_0" copynumber="0">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_0inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_1" copynumber="1">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_1inHfr1uppos"/>
+      </physvol>
+    </volume>
+    </structure>

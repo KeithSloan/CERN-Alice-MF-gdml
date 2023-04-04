@@ -1,0 +1,27 @@
+<structure><assembly name="LadderCable0x21">
+      <physvol name="LadderCableSegmentBBoxAssembly_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBoxAssembly0x21"/>
+        <positionref ref="LadderCableSegmentBBoxAssembly_10x21inLadderCable0x21pos"/>
+      </physvol>
+      <physvol name="LadderCableSegmentArbAssembly_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentArbAssembly0x20"/>
+        <positionref ref="LadderCableSegmentArbAssembly_10x20inLadderCable0x21pos"/>
+      </physvol>
+      <physvol name="LadderCableSegmentBBoxAssembly_2" copynumber="2">
+        <volumeref ref="LadderCableSegmentBBoxAssembly0x21"/>
+        <positionref ref="LadderCableSegmentBBoxAssembly_20x20inLadderCable0x21pos"/>
+      </physvol>
+      <physvol name="LadderCableSegmentArbAssembly_2" copynumber="2">
+        <volumeref ref="LadderCableSegmentArbAssembly0x20"/>
+        <positionref ref="LadderCableSegmentArbAssembly_20x19inLadderCable0x21pos"/>
+      </physvol>
+      <physvol name="LadderCableSegmentBBoxAssembly_3" copynumber="3">
+        <volumeref ref="LadderCableSegmentBBoxAssembly0x21"/>
+        <positionref ref="LadderCableSegmentBBoxAssembly_30x19inLadderCable0x21pos"/>
+      </physvol>
+      <physvol name="LadderEndCableSegmentBBoxAssembly_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBoxAssembly0x21"/>
+        <positionref ref="LadderEndCableSegmentBBoxAssembly_10x21inLadderCable0x21pos"/>
+      </physvol>
+    </assembly>
+    </structure>

@@ -1,0 +1,23 @@
+<structure><assembly name="F3MT">
+      <physvol name="FITV_73" copynumber="73">
+        <volumeref ref="FITV"/>
+        <positionref ref="FITV_730x2inF3MTpos"/>
+      </physvol>
+      <physvol name="F3HI_0" copynumber="0">
+        <volumeref ref="F3HI"/>
+        <positionref ref="F3HI_0inF3MTpos"/>
+      </physvol>
+      <physvol name="FOTV_79" copynumber="79">
+        <volumeref ref="FOTV"/>
+        <positionref ref="FOTV_790x1inF3MTpos"/>
+      </physvol>
+      <physvol name="F3HO_0" copynumber="0">
+        <volumeref ref="F3HO"/>
+        <positionref ref="F3HO_0inF3MTpos"/>
+      </physvol>
+      <physvol name="F3SU_1" copynumber="1">
+        <volumeref ref="F3SU"/>
+        <positionref ref="F3SU_1inF3MTpos"/>
+      </physvol>
+    </assembly>
+    </structure>

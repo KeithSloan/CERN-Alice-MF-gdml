@@ -1,0 +1,2 @@
+<solids><tube name="sddCableInterCylCu" rmin="25.305060590762626" rmax="25.350724830763031" z="3.2999999999999972" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

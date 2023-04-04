@@ -1,0 +1,67 @@
+<materials><material name="PHOS_PbWO4">
+      <D unit="g/cm3" value="8.2799997329711914"/>
+      <fraction n="0.45532259345054626" ref="LEAD_elm"/>
+      <fraction n="0.14064697921276093" ref="OXYGEN_elm"/>
+      <fraction n="0.40403041243553162" ref="TUNGSTEN_elm"/>
+    </material>
+    <element name="LEAD_elm" formula="PB" Z="82">
+      <atom unit="g/mole" value="207.19999999999999"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="TUNGSTEN_elm" formula="W" Z="74">
+      <atom unit="g/mole" value="183.84"/>
+    </element>
+    <material name="PHOS_Tyvek">
+      <D unit="g/cm3" value="0.33100000023841858"/>
+      <fraction n="0.85628443956375122" ref="CARBON_elm"/>
+      <fraction n="0.143715500831604" ref="HYDROGEN_elm"/>
+    </material>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    <material name="PHOS_Si" Z="14">
+      <D unit="g/cm3" value="2.3299999237060547"/>
+      <atom unit="g/mole" value="28.085500717163086"/>
+    </material>
+    <material name="PHOS_G10">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.23717948794364929" ref="CARBON_elm"/>
+      <fraction n="0.021978020668029785" ref="HYDROGEN_elm"/>
+      <fraction n="0.30280828475952148" ref="OXYGEN_elm"/>
+      <fraction n="0.43803417682647705" ref="SILICON_elm"/>
+    </material>
+    <element name="SILICON_elm" formula="SI" Z="14">
+      <atom unit="g/mole" value="28.0855"/>
+    </element>
+    <material name="PHOS_Air">
+      <D unit="g/cm3" value="0.0012047899654135108"/>
+      <fraction n="0.012826999649405479" ref="ARGON_elm"/>
+      <fraction n="0.00012399999832268804" ref="CARBON_elm"/>
+      <fraction n="0.75526702404022217" ref="NITROGEN_elm"/>
+      <fraction n="0.231781005859375" ref="OXYGEN_elm"/>
+    </material>
+    <element name="ARGON_elm" formula="AR" Z="18">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <element name="NITROGEN_elm" formula="N" Z="7">
+      <atom unit="g/mole" value="14.006740000000001"/>
+    </element>
+    <material name="PHOS_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="PHOS_Steel" Z="26">
+      <D unit="g/cm3" value="7.869999885559082"/>
+      <atom unit="g/mole" value="55.845001220703125"/>
+    </material>
+    <material name="PHOS_Thermo_Insul.">
+      <D unit="g/cm3" value="0.039999999105930328"/>
+      <fraction n="0.92257893085479736" ref="CARBON_elm"/>
+      <fraction n="0.077421054244041443" ref="HYDROGEN_elm"/>
+    </material>
+    </materials>

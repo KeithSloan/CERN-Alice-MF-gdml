@@ -1,0 +1,5 @@
+<structure><volume name="SSDCableHole">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="SSDCableHoleShape"/>
+    </volume>
+    </structure>

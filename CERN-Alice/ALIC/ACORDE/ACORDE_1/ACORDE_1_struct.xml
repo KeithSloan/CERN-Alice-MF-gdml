@@ -1,0 +1,333 @@
+<structure><volume name="ACORDE8">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde8"/>
+    </volume>
+    <volume name="ACORDE7_1">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde7q1"/>
+    </volume>
+    <volume name="ACORDE7">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde7"/>
+    </volume>
+    <assembly name="ACORDE_1">
+      <physvol name="ACORDE7_20" copynumber="20">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_20inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_20inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_21" copynumber="21">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_21inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_21inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_22" copynumber="22">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_22inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_22inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_23" copynumber="23">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_23inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_23inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_24" copynumber="24">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_24inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_24inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_25" copynumber="25">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_25inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_25inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_26" copynumber="26">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_26inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_26inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_27" copynumber="27">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_27inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_27inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_28" copynumber="28">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_28inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_28inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_29" copynumber="29">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_29inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_29inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_34" copynumber="34">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_34inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_34inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_35" copynumber="35">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_35inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_35inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_36" copynumber="36">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_36inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_36inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_37" copynumber="37">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_37inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_37inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_38" copynumber="38">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_38inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_38inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_39" copynumber="39">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_39inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_39inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_44" copynumber="44">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_44inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_44inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_45" copynumber="45">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_45inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_45inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_46" copynumber="46">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_46inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_46inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_47" copynumber="47">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_47inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_47inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_48" copynumber="48">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_48inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_48inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_49" copynumber="49">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_49inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_49inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_50" copynumber="50">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_50inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_50inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_51" copynumber="51">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_51inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_51inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_52" copynumber="52">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_52inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_52inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_53" copynumber="53">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_53inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_53inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_57" copynumber="57">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_57inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_57inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_58" copynumber="58">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_58inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_58inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_59" copynumber="59">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_59inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_59inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_60" copynumber="60">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_60inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_60inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_61" copynumber="61">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_61inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_61inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_62" copynumber="62">
+        <volumeref ref="ACORDE7"/>
+        <positionref ref="ACORDE7_62inACORDE_1pos"/>
+        <rotationref ref="ACORDE7_62inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE7_1_67" copynumber="67">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_67inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_68" copynumber="68">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_68inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_69" copynumber="69">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_69inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_70" copynumber="70">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_70inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_71" copynumber="71">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_71inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_72" copynumber="72">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_72inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_73" copynumber="73">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_73inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_74" copynumber="74">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_74inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_75" copynumber="75">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_75inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_76" copynumber="76">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_76inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_81" copynumber="81">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_81inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_82" copynumber="82">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_82inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_83" copynumber="83">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_83inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_84" copynumber="84">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_84inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_85" copynumber="85">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_85inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_86" copynumber="86">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_86inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_91" copynumber="91">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_91inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_92" copynumber="92">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_92inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_93" copynumber="93">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_93inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_94" copynumber="94">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_94inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_95" copynumber="95">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_95inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_96" copynumber="96">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_96inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_97" copynumber="97">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_97inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_98" copynumber="98">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_98inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_99" copynumber="99">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_99inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_100" copynumber="100">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_100inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_105" copynumber="105">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_105inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_106" copynumber="106">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_106inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_107" copynumber="107">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_107inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_108" copynumber="108">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_108inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_109" copynumber="109">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_109inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE7_1_110" copynumber="110">
+        <volumeref ref="ACORDE7_1"/>
+        <positionref ref="ACORDE7_1_110inACORDE_1pos"/>
+      </physvol>
+      <physvol name="ACORDE_SUPPORT_121" copynumber="121">
+        <volumeref ref="ACORDE_SUPPORT"/>
+        <positionref ref="ACORDE_SUPPORT_121inACORDE_1pos"/>
+        <rotationref ref="ACORDE_SUPPORT_121inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE_SUPPORT_122" copynumber="122">
+        <volumeref ref="ACORDE_SUPPORT"/>
+        <positionref ref="ACORDE_SUPPORT_122inACORDE_1pos"/>
+        <rotationref ref="ACORDE_SUPPORT_122inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE_SUPPORT_123" copynumber="123">
+        <volumeref ref="ACORDE_SUPPORT"/>
+        <positionref ref="ACORDE_SUPPORT_123inACORDE_1pos"/>
+        <rotationref ref="ACORDE_SUPPORT_123inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE_SUPPORT_124" copynumber="124">
+        <volumeref ref="ACORDE_SUPPORT"/>
+        <positionref ref="ACORDE_SUPPORT_124inACORDE_1pos"/>
+        <rotationref ref="ACORDE_SUPPORT_124inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE_SUPPORT_125" copynumber="125">
+        <volumeref ref="ACORDE_SUPPORT"/>
+        <positionref ref="ACORDE_SUPPORT_125inACORDE_1pos"/>
+        <rotationref ref="ACORDE_SUPPORT_125inACORDE_1rot"/>
+      </physvol>
+      <physvol name="ACORDE_SUPPORT_126" copynumber="126">
+        <volumeref ref="ACORDE_SUPPORT"/>
+        <positionref ref="ACORDE_SUPPORT_126inACORDE_1pos"/>
+        <rotationref ref="ACORDE_SUPPORT_126inACORDE_1rot"/>
+      </physvol>
+    </assembly>
+    </structure>

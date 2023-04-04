@@ -1,20 +1,4 @@
-<structure><volume name="AFassCentral">
-      <materialref ref="ABSO_STAINLESS_STEEL0"/>
-      <solidref ref="shFassCentral"/>
-    </volume>
-    <volume name="AFassLMFlange">
-      <materialref ref="ABSO_STAINLESS_STEEL0"/>
-      <solidref ref="TGeoTrap0x1"/>
-    </volume>
-    <volume name="AFassUMFlange">
-      <materialref ref="ABSO_STAINLESS_STEEL0"/>
-      <solidref ref="TGeoTrap"/>
-    </volume>
-    <volume name="AFassUBFlange">
-      <materialref ref="ABSO_STAINLESS_STEEL0"/>
-      <solidref ref="TGeoBBox"/>
-    </volume>
-    <volume name="AFassUBFlange">
+<structure><volume name="AFassUBFlange">
       <materialref ref="ABSO_STAINLESS_STEEL0"/>
       <solidref ref="TGeoBBox"/>
     </volume>

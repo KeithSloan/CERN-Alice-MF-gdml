@@ -1,0 +1,2 @@
+<solids><tube name="TPC_Rod0x97" rmin="1.8" rmax="2.2000000000000002" z="253.28" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

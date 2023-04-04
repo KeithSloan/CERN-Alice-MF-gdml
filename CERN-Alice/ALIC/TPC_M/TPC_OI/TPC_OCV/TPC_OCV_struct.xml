@@ -1,0 +1,9 @@
+<structure><volume name="TPC_OCV">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoPcon0x150"/>
+      <physvol name="TPC_OCV1_1" copynumber="1">
+        <volumeref ref="TPC_OCV1"/>
+        <positionref ref="TPC_OCV1_1inTPC_OCVpos"/>
+      </physvol>
+    </volume>
+    </structure>

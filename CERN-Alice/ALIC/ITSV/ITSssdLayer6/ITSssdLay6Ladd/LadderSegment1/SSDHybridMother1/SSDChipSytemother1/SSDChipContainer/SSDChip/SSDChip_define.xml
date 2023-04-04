@@ -1,0 +1,3 @@
+<define><position name="SSDChipComp_1inSSDChippos" x="0" y="0" z="-0.0015" unit="cm"/>
+    <position name="SSDChipGlueComp_1inSSDChippos" x="0" y="0" z="0.0074999999999999997" unit="cm"/>
+    </define>

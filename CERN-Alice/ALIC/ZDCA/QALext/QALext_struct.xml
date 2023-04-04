@@ -1,0 +1,9 @@
+<structure><volume name="QALext">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="outTrousers"/>
+      <physvol name="QALint_1" copynumber="1">
+        <volumeref ref="QALint"/>
+        <positionref ref="QALint_1inQALextpos"/>
+      </physvol>
+    </volume>
+    </structure>

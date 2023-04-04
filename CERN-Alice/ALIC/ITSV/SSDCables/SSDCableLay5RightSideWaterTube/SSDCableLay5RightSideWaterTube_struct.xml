@@ -1,0 +1,5 @@
+<structure><volume name="SSDCableLay5RightSideWaterTube">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x133"/>
+    </volume>
+    </structure>

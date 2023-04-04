@@ -1,0 +1,9 @@
+<structure><volume name="ESSA">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="ESSA0x1"/>
+      <physvol name="EDGA_1" copynumber="1">
+        <volumeref ref="EDGA"/>
+        <positionref ref="EDGA_1inESSApos"/>
+      </physvol>
+    </volume>
+    </structure>

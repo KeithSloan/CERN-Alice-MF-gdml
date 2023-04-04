@@ -1,0 +1,13 @@
+<structure><volume name="PEMC">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PEMC0x1"/>
+      <physvol name="PCOL_1" copynumber="1">
+        <volumeref ref="PCOL"/>
+        <positionref ref="PCOL_1inPEMCpos"/>
+      </physvol>
+      <physvol name="PWAR_1" copynumber="1">
+        <volumeref ref="PWAR"/>
+        <positionref ref="PWAR_1inPEMCpos"/>
+      </physvol>
+    </volume>
+    </structure>

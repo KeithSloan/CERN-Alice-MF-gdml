@@ -1,0 +1,5 @@
+<structure><volume name="TPC_RR_O">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TGeoTube0x156"/>
+    </volume>
+    </structure>

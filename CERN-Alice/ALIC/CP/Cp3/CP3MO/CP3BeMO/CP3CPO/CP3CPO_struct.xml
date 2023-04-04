@@ -1,8 +1,4 @@
-<structure><volume name="CP3CPI">
-      <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="connectionPlieI"/>
-    </volume>
-    <volume name="CP3CPO">
+<structure><volume name="CP3CPO">
       <materialref ref="PIPE_VACUUM"/>
       <solidref ref="connectionPlieO"/>
       <physvol name="CP3CPI_1" copynumber="1">

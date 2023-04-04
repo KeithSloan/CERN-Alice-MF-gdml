@@ -1,8 +1,4 @@
-<structure><volume name="S08G">
-      <materialref ref="MUON_ArCO2_80"/>
-      <solidref ref="S08G0x1"/>
-    </volume>
-    <volume name="S08H">
+<structure><volume name="S08H">
       <materialref ref="MUON_Noryl"/>
       <solidref ref="S08H0x1"/>
       <physvol name="S08G_1" copynumber="1">

@@ -1,0 +1,9 @@
+<structure><volume name="EDVA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EDVA0x1"/>
+      <physvol name="ECVA_1" copynumber="1">
+        <volumeref ref="ECVA"/>
+        <positionref ref="ECVA_1inEDVApos"/>
+      </physvol>
+    </volume>
+    </structure>

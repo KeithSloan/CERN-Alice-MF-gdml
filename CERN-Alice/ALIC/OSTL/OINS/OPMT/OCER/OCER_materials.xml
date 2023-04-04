@@ -1,0 +1,12 @@
+<materials><material name="T0_Ceramic__">
+      <D unit="g/cm3" value="3.5999999046325684"/>
+      <fraction n="0.52925068140029907" ref="ALUMINIUM_elm"/>
+      <fraction n="0.47074928879737854" ref="OXYGEN_elm"/>
+    </material>
+    <element name="ALUMINIUM_elm" formula="AL" Z="13">
+      <atom unit="g/mole" value="26.981538"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    </materials>

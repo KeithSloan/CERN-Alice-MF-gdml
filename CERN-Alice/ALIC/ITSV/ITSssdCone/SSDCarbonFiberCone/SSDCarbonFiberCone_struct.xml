@@ -1,0 +1,209 @@
+<structure><volume name="SSDCableHole">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="SSDCableHoleShape"/>
+    </volume>
+    <volume name="SSDMountingHole3">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="TGeoPcon0x115"/>
+    </volume>
+    <volume name="SSDMountingHole2">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="TGeoPcon0x114"/>
+    </volume>
+    <volume name="SSDCoolingHole3">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="TGeoPcon0x113"/>
+    </volume>
+    <volume name="SSDCoolingHole2">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="TGeoPcon0x112"/>
+    </volume>
+    <volume name="SSDCarbonFiberCone">
+      <materialref ref="ITS_SSD_C_M55J"/>
+      <solidref ref="TGeoPcon0x106"/>
+      <physvol name="SSDCarbonFiberConeInsert_1" copynumber="1">
+        <volumeref ref="SSDCarbonFiberConeInsert"/>
+        <positionref ref="SSDCarbonFiberConeInsert_1inSSDCarbonFiberConepos"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_1" copynumber="1">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_1inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_1inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_1" copynumber="1">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_1inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_1inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_2" copynumber="2">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_2inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_2inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_2" copynumber="2">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_2inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_2inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_3" copynumber="3">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_3inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_3inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_3" copynumber="3">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_3inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_3inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_4" copynumber="4">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_4inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_4inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_4" copynumber="4">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_4inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_4inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_5" copynumber="5">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_5inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_5inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_5" copynumber="5">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_5inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_5inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_6" copynumber="6">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_6inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_6inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_6" copynumber="6">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_6inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_6inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_7" copynumber="7">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_7inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_7inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_7" copynumber="7">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_7inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_7inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole2_8" copynumber="8">
+        <volumeref ref="SSDCoolingHole2"/>
+        <positionref ref="SSDCoolingHole2_8inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole2_8inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCoolingHole3_8" copynumber="8">
+        <volumeref ref="SSDCoolingHole3"/>
+        <positionref ref="SSDCoolingHole3_8inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCoolingHole3_8inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole2_1" copynumber="1">
+        <volumeref ref="SSDMountingHole2"/>
+        <positionref ref="SSDMountingHole2_1inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole2_1inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole3_1" copynumber="1">
+        <volumeref ref="SSDMountingHole3"/>
+        <positionref ref="SSDMountingHole3_1inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole3_1inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole2_2" copynumber="2">
+        <volumeref ref="SSDMountingHole2"/>
+        <positionref ref="SSDMountingHole2_2inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole2_2inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole3_2" copynumber="2">
+        <volumeref ref="SSDMountingHole3"/>
+        <positionref ref="SSDMountingHole3_2inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole3_2inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole2_3" copynumber="3">
+        <volumeref ref="SSDMountingHole2"/>
+        <positionref ref="SSDMountingHole2_3inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole2_3inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole3_3" copynumber="3">
+        <volumeref ref="SSDMountingHole3"/>
+        <positionref ref="SSDMountingHole3_3inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole3_3inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole2_4" copynumber="4">
+        <volumeref ref="SSDMountingHole2"/>
+        <positionref ref="SSDMountingHole2_4inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole2_4inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole3_4" copynumber="4">
+        <volumeref ref="SSDMountingHole3"/>
+        <positionref ref="SSDMountingHole3_4inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole3_4inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole2_5" copynumber="5">
+        <volumeref ref="SSDMountingHole2"/>
+        <positionref ref="SSDMountingHole2_5inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole2_5inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole3_5" copynumber="5">
+        <volumeref ref="SSDMountingHole3"/>
+        <positionref ref="SSDMountingHole3_5inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole3_5inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole2_6" copynumber="6">
+        <volumeref ref="SSDMountingHole2"/>
+        <positionref ref="SSDMountingHole2_6inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole2_6inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDMountingHole3_6" copynumber="6">
+        <volumeref ref="SSDMountingHole3"/>
+        <positionref ref="SSDMountingHole3_6inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDMountingHole3_6inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_1" copynumber="1">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_1inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_1inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_2" copynumber="2">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_2inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_2inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_3" copynumber="3">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_3inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_3inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_4" copynumber="4">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_4inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_4inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_5" copynumber="5">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_5inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_5inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_6" copynumber="6">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_6inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_6inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_7" copynumber="7">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_7inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_7inSSDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SSDCableHole_8" copynumber="8">
+        <volumeref ref="SSDCableHole"/>
+        <positionref ref="SSDCableHole_8inSSDCarbonFiberConepos"/>
+        <rotationref ref="SSDCableHole_8inSSDCarbonFiberConerot"/>
+      </physvol>
+    </volume>
+    </structure>

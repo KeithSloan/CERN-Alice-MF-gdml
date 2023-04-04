@@ -1,0 +1,81 @@
+<structure><volume name="EMOD">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="EMOD0x1"/>
+      <physvol name="SCM0_1" copynumber="1">
+        <volumeref ref="SCM0"/>
+        <positionref ref="SCM0_1inEMODpos"/>
+      </physvol>
+    </volume>
+    <volume name="EMOD">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="EMOD0x1"/>
+      <physvol name="SCM0_1" copynumber="1">
+        <volumeref ref="SCM0"/>
+        <positionref ref="SCM0_1inEMODpos"/>
+      </physvol>
+    </volume>
+    <volume name="XEN1">
+      <materialref ref="EMCAL_Air"/>
+      <solidref ref="XEN10x1"/>
+      <physvol name="SMOD_1" copynumber="1">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_1inXEN1pos"/>
+        <rotationref ref="SMOD_1inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_2" copynumber="2">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_2inXEN1pos"/>
+        <rotationref ref="SMOD_2inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_3" copynumber="3">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_3inXEN1pos"/>
+        <rotationref ref="SMOD_3inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_4" copynumber="4">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_4inXEN1pos"/>
+        <rotationref ref="SMOD_4inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_5" copynumber="5">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_5inXEN1pos"/>
+        <rotationref ref="SMOD_5inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_6" copynumber="6">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_6inXEN1pos"/>
+        <rotationref ref="SMOD_6inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_7" copynumber="7">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_7inXEN1pos"/>
+        <rotationref ref="SMOD_7inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_8" copynumber="8">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_8inXEN1pos"/>
+        <rotationref ref="SMOD_8inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_9" copynumber="9">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_9inXEN1pos"/>
+        <rotationref ref="SMOD_9inXEN1rot"/>
+      </physvol>
+      <physvol name="SMOD_10" copynumber="10">
+        <volumeref ref="SMOD"/>
+        <positionref ref="SMOD_10inXEN1pos"/>
+        <rotationref ref="SMOD_10inXEN1rot"/>
+      </physvol>
+      <physvol name="SM10_1" copynumber="1">
+        <volumeref ref="SM10"/>
+        <positionref ref="SM10_1inXEN1pos"/>
+        <rotationref ref="SM10_1inXEN1rot"/>
+      </physvol>
+      <physvol name="SM10_2" copynumber="2">
+        <volumeref ref="SM10"/>
+        <positionref ref="SM10_2inXEN1pos"/>
+        <rotationref ref="SM10_2inXEN1rot"/>
+      </physvol>
+    </volume>
+    </structure>

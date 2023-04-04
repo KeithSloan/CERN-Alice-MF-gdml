@@ -1,0 +1,9 @@
+<structure><volume name="PCOR">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCOR0x1"/>
+      <physvol name="PAGA_1" copynumber="1">
+        <volumeref ref="PAGA"/>
+        <positionref ref="PAGA_1inPCORpos"/>
+      </physvol>
+    </volume>
+    </structure>

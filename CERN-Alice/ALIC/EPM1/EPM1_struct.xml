@@ -1,0 +1,33 @@
+<structure><volume name="EFEE">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EFEE0x1"/>
+    </volume>
+    <volume name="EPM1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EPM10x1"/>
+      <physvol name="EFSA_1" copynumber="1">
+        <volumeref ref="EFSA"/>
+        <positionref ref="EFSA_1inEPM1pos"/>
+      </physvol>
+      <physvol name="EMVA_1" copynumber="1">
+        <volumeref ref="EMVA"/>
+        <positionref ref="EMVA_1inEPM1pos"/>
+      </physvol>
+      <physvol name="EFEA_1" copynumber="1">
+        <volumeref ref="EFEA"/>
+        <positionref ref="EFEA_1inEPM1pos"/>
+      </physvol>
+      <physvol name="ESPA_1" copynumber="1">
+        <volumeref ref="ESPA"/>
+        <positionref ref="ESPA_1inEPM1pos"/>
+      </physvol>
+      <physvol name="ESMA_1" copynumber="1">
+        <volumeref ref="ESMA"/>
+        <positionref ref="ESMA_1inEPM1pos"/>
+      </physvol>
+      <physvol name="EFSA_3" copynumber="3">
+        <volumeref ref="EFSA"/>
+        <positionref ref="EFSA_3inEPM1pos"/>
+      </physvol>
+    </volume>
+    </structure>

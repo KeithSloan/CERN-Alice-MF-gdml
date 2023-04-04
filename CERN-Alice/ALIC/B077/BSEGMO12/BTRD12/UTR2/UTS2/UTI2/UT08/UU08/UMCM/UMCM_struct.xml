@@ -1,20 +1,4 @@
-<structure><volume name="UMC4">
-      <materialref ref="TRD_Al"/>
-      <solidref ref="UMC40x1"/>
-    </volume>
-    <volume name="UMC3">
-      <materialref ref="TRD_Si"/>
-      <solidref ref="UMC30x1"/>
-    </volume>
-    <volume name="UMC2">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="UMC20x1"/>
-    </volume>
-    <volume name="UMC1">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="UMC10x1"/>
-    </volume>
-    <volume name="UMCM">
+<structure><volume name="UMCM">
       <materialref ref="TRD_Air"/>
       <solidref ref="UMCM0x1"/>
       <physvol name="UMC1_1" copynumber="1">

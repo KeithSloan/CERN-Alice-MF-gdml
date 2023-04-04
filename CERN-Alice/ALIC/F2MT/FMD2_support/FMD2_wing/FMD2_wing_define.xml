@@ -1,0 +1,16 @@
+<define><position name="FMD2_flange_1inFMD2_wingpos" x="7.8042499999999997" y="0" z="0.5" unit="cm"/>
+    <position name="FMD2_flange_2inFMD2_wingpos" x="7.8042499999999997" y="0" z="-13" unit="cm"/>
+    <position name="FMD2_flange_extra_1inFMD2_wingpos" x="-0.80049999999999955" y="0" z="0.5" unit="cm"/>
+    <position name="FMD2_flange_spacer_1inFMD2_wingpos" x="4.5" y="2.5" z="-6.25" unit="cm"/>
+    <position name="FMD2_flange_spacer_2inFMD2_wingpos" x="4.5" y="-2.5" z="-6.25" unit="cm"/>
+    <position name="FMD_tension_end_1inFMD_tension_boxpos" x="0.59999999999999998" y="0" z="-3.75" unit="cm"/>
+    <position name="FMD_tension_end_2inFMD_tension_boxpos" x="0.59999999999999998" y="0" z="3.75" unit="cm"/>
+    <position name="FMD_tension_top_1inFMD_tension_boxpos" x="0.10000000000000001" y="2.5" z="0" unit="cm"/>
+    <position name="FMD_tension_top_2inFMD_tension_boxpos" x="0.10000000000000001" y="-2.5" z="0" unit="cm"/>
+    <position name="FMD_tension_top_3inFMD_tension_boxpos" x="1.1000000000000001" y="2.5" z="0" unit="cm"/>
+    <position name="FMD_tension_top_4inFMD_tension_boxpos" x="1.1000000000000001" y="-2.5" z="0" unit="cm"/>
+    <position name="FMD_tension_box_1inFMD2_wingpos" x="4" y="0" z="2.2000000000000002" unit="cm"/>
+    <position name="FMD2_tension_wire_1inFMD2_wingpos" x="-14.655499999999998" y="0" z="2" unit="cm"/>
+    <rotation name="FMD_tension_box_1inFMD2_wingrot" x="-0" y="-90" z="0" unit="deg"/>
+    <rotation name="FMD2_tension_wire_1inFMD2_wingrot" x="-0" y="-90" z="0" unit="deg"/>
+    </define>

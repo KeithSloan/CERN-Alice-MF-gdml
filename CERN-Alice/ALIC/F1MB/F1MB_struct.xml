@@ -1,0 +1,17 @@
+<structure><assembly name="F1MB">
+      <physvol name="FIBV_73" copynumber="73">
+        <volumeref ref="FIBV"/>
+        <positionref ref="FIBV_73inF1MBpos"/>
+      </physvol>
+      <physvol name="F1HI_1" copynumber="1">
+        <volumeref ref="F1HI"/>
+        <positionref ref="F1HI_1inF1MBpos"/>
+        <rotationref ref="F1HI_1inF1MBrot"/>
+      </physvol>
+      <physvol name="FMD1_lid_1" copynumber="1">
+        <volumeref ref="FMD1_lid"/>
+        <positionref ref="FMD1_lid_1inF1MBpos"/>
+        <rotationref ref="FMD1_lid_1inF1MBrot"/>
+      </physvol>
+    </assembly>
+    </structure>

@@ -1,0 +1,183 @@
+<structure><volume name="EndCapCoverPlateDownClip">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1138"/>
+    </volume>
+    <volume name="EndCapSupportSystemLayer5Sx">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPgon0x180"/>
+      <physvol name="EndCapContainerLayer5Sx_1" copynumber="1">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_1inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_1inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_2" copynumber="2">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_2inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_2inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_3" copynumber="3">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_3inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_3inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_4" copynumber="4">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_4inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_4inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_5" copynumber="5">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_5inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_5inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_6" copynumber="6">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_6inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_6inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_7" copynumber="7">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_7inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_7inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_8" copynumber="8">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_8inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_8inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_9" copynumber="9">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_9inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_9inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_10" copynumber="10">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_10inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_10inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_11" copynumber="11">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_11inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_11inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_12" copynumber="12">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_12inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_12inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_13" copynumber="13">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_13inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_13inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_14" copynumber="14">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_14inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_14inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_15" copynumber="15">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_15inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_15inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_16" copynumber="16">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_16inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_16inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_17" copynumber="17">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_17inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_17inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_18" copynumber="18">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_18inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_18inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_19" copynumber="19">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_19inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_19inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_20" copynumber="20">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_20inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_20inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_21" copynumber="21">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_21inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_21inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_22" copynumber="22">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_22inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_22inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_23" copynumber="23">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_23inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_23inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_24" copynumber="24">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_24inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_24inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_25" copynumber="25">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_25inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_25inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_26" copynumber="26">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_26inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_26inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_27" copynumber="27">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_27inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_27inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_28" copynumber="28">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_28inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_28inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_29" copynumber="29">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_29inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_29inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_30" copynumber="30">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_30inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_30inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_31" copynumber="31">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_31inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_31inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_32" copynumber="32">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_32inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_32inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_33" copynumber="33">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_33inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_33inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_34" copynumber="34">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_34inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_34inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapSupportMotherLayer5_1" copynumber="1">
+        <volumeref ref="EndCapSupportMotherLayer5"/>
+        <positionref ref="EndCapSupportMotherLayer5_1inEndCapSupportSystemLayer5Sxpos"/>
+      </physvol>
+    </volume>
+    </structure>

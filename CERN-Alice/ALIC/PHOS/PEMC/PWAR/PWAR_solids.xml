@@ -1,0 +1,14 @@
+<solids><box name="PBE10x1" x="10.600000381469727" y="147" z="3.5" lunit="cm"/>
+    <box name="PCA10x1" x="155.24000549316406" y="147" z="3.5" lunit="cm"/>
+    <box name="PBE20x1" x="3.0999999046325684" y="147" z="5" lunit="cm"/>
+    <box name="PCA20x1" x="155.24000549316406" y="147" z="5" lunit="cm"/>
+    <box name="PFRX0x1" x="164.60000610351562" y="5" z="15" lunit="cm"/>
+    <box name="PFRZ0x1" x="5" y="141" z="15" lunit="cm"/>
+    <box name="PFG10x1" x="164.60000610351562" y="6" z="7.9000000953674316" lunit="cm"/>
+    <box name="PFG20x1" x="6" y="135" z="7.9000000953674316" lunit="cm"/>
+    <box name="PFG30x1" x="154.60000610351562" y="3" z="15" lunit="cm"/>
+    <box name="PFG40x1" x="3" y="135" z="15" lunit="cm"/>
+    <box name="PAFE0x1" x="148.60000610351562" y="135" z="19" lunit="cm"/>
+    <box name="PWTI0x1" x="167.56837463378906" y="158.80000305175781" z="35.400001525878906" lunit="cm"/>
+    <box name="PWAR0x1" x="167.76837158203125" y="159" z="35.5" lunit="cm"/>
+    </solids>

@@ -1,0 +1,294 @@
+<structure><volume name="YMQ2">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YMQ20x1"/>
+    </volume>
+    <volume name="YMQ1">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YMQ10x1"/>
+    </volume>
+    <volume name="QA29">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QA290x1"/>
+    </volume>
+    <volume name="QA28">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="TGeoCone0x34"/>
+    </volume>
+    <volume name="QA27">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QA270x1"/>
+    </volume>
+    <volume name="Q12T">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="Q12T0x1"/>
+    </volume>
+    <volume name="ZDCA">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="ZDCA0x1"/>
+      <physvol name="QA01_1" copynumber="1">
+        <volumeref ref="QA01"/>
+        <positionref ref="QA01_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA02_1" copynumber="1">
+        <volumeref ref="QA02"/>
+        <positionref ref="QA02_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA03_1" copynumber="1">
+        <volumeref ref="QA03"/>
+        <positionref ref="QA03_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA04_1" copynumber="1">
+        <volumeref ref="QA04"/>
+        <positionref ref="QA04_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA05_1" copynumber="1">
+        <volumeref ref="QA05"/>
+        <positionref ref="QA05_1inZDCApos"/>
+      </physvol>
+      <physvol name="QAV1_1" copynumber="1">
+        <volumeref ref="QAV1"/>
+        <positionref ref="QAV1_1inZDCApos"/>
+      </physvol>
+      <physvol name="QAV2_1" copynumber="1">
+        <volumeref ref="QAV2"/>
+        <positionref ref="QAV2_1inZDCApos"/>
+      </physvol>
+      <physvol name="QAV3_1" copynumber="1">
+        <volumeref ref="QAV3"/>
+        <positionref ref="QAV3_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q01T_1" copynumber="1">
+        <volumeref ref="Q01T"/>
+        <positionref ref="Q01T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q02T_1" copynumber="1">
+        <volumeref ref="Q02T"/>
+        <positionref ref="Q02T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q03T_1" copynumber="1">
+        <volumeref ref="Q03T"/>
+        <positionref ref="Q03T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q04T_1" copynumber="1">
+        <volumeref ref="Q04T"/>
+        <positionref ref="Q04T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q05T_1" copynumber="1">
+        <volumeref ref="Q05T"/>
+        <positionref ref="Q05T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q06T_1" copynumber="1">
+        <volumeref ref="Q06T"/>
+        <positionref ref="Q06T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q07T_1" copynumber="1">
+        <volumeref ref="Q07T"/>
+        <positionref ref="Q07T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q08T_1" copynumber="1">
+        <volumeref ref="Q08T"/>
+        <positionref ref="Q08T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q10T_1" copynumber="1">
+        <volumeref ref="Q10T"/>
+        <positionref ref="Q10T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q12T_1" copynumber="1">
+        <volumeref ref="Q12T"/>
+        <positionref ref="Q12T_1inZDCApos"/>
+      </physvol>
+      <physvol name="Q12T_2" copynumber="2">
+        <volumeref ref="Q12T"/>
+        <positionref ref="Q12T_2inZDCApos"/>
+      </physvol>
+      <physvol name="QA06_1" copynumber="1">
+        <volumeref ref="QA06"/>
+        <positionref ref="QA06_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA08_1" copynumber="1">
+        <volumeref ref="QA08"/>
+        <positionref ref="QA08_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA09_1" copynumber="1">
+        <volumeref ref="QA09"/>
+        <positionref ref="QA09_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA10_1" copynumber="1">
+        <volumeref ref="QA10"/>
+        <positionref ref="QA10_1inZDCApos"/>
+        <rotationref ref="QA10_1inZDCArot"/>
+      </physvol>
+      <physvol name="Q13TM_1" copynumber="1">
+        <volumeref ref="Q13TM"/>
+        <positionref ref="Q13TM_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA11_1" copynumber="1">
+        <volumeref ref="QA11"/>
+        <positionref ref="QA11_1inZDCApos"/>
+        <rotationref ref="QA11_1inZDCArot"/>
+      </physvol>
+      <physvol name="QA12_1" copynumber="1">
+        <volumeref ref="QA12"/>
+        <positionref ref="QA12_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA13_1" copynumber="1">
+        <volumeref ref="QA13"/>
+        <positionref ref="QA13_1inZDCApos"/>
+        <rotationref ref="QA13_1inZDCArot"/>
+      </physvol>
+      <physvol name="QA14_1" copynumber="1">
+        <volumeref ref="QA14"/>
+        <positionref ref="QA14_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA15_1" copynumber="1">
+        <volumeref ref="QA15"/>
+        <positionref ref="QA15_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA16_1" copynumber="1">
+        <volumeref ref="QA16"/>
+        <positionref ref="QA16_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA17_1" copynumber="1">
+        <volumeref ref="QA17"/>
+        <positionref ref="QA17_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA18_1" copynumber="1">
+        <volumeref ref="QA18"/>
+        <positionref ref="QA18_1inZDCApos"/>
+      </physvol>
+      <physvol name="QF01_1" copynumber="1">
+        <volumeref ref="QF01"/>
+        <positionref ref="QF01_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA19_1" copynumber="1">
+        <volumeref ref="QA19"/>
+        <positionref ref="QA19_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA20_1" copynumber="1">
+        <volumeref ref="QA20"/>
+        <positionref ref="QA20_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA21_1" copynumber="1">
+        <volumeref ref="QA21"/>
+        <positionref ref="QA21_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA22_1" copynumber="1">
+        <volumeref ref="QA22"/>
+        <positionref ref="QA22_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA23_1" copynumber="1">
+        <volumeref ref="QA23"/>
+        <positionref ref="QA23_1inZDCApos"/>
+      </physvol>
+      <physvol name="QF02_1" copynumber="1">
+        <volumeref ref="QF02"/>
+        <positionref ref="QF02_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA24_1" copynumber="1">
+        <volumeref ref="QA24"/>
+        <positionref ref="QA24_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA25_1" copynumber="1">
+        <volumeref ref="QA25"/>
+        <positionref ref="QA25_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA26_1" copynumber="1">
+        <volumeref ref="QA26"/>
+        <positionref ref="QA26_1inZDCApos"/>
+      </physvol>
+      <physvol name="QALext_1" copynumber="1">
+        <volumeref ref="QALext"/>
+        <positionref ref="QALext_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA27_1" copynumber="1">
+        <volumeref ref="QA27"/>
+        <positionref ref="QA27_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA27_2" copynumber="2">
+        <volumeref ref="QA27"/>
+        <positionref ref="QA27_2inZDCApos"/>
+      </physvol>
+      <physvol name="QA28_1" copynumber="1">
+        <volumeref ref="QA28"/>
+        <positionref ref="QA28_1inZDCApos"/>
+        <rotationref ref="QA28_1inZDCArot"/>
+      </physvol>
+      <physvol name="QA28_2" copynumber="2">
+        <volumeref ref="QA28"/>
+        <positionref ref="QA28_2inZDCApos"/>
+        <rotationref ref="QA28_2inZDCArot"/>
+      </physvol>
+      <physvol name="QA29_1" copynumber="1">
+        <volumeref ref="QA29"/>
+        <positionref ref="QA29_1inZDCApos"/>
+      </physvol>
+      <physvol name="QA29_2" copynumber="2">
+        <volumeref ref="QA29"/>
+        <positionref ref="QA29_2inZDCApos"/>
+      </physvol>
+      <physvol name="QLUA_1" copynumber="1">
+        <volumeref ref="QLUA"/>
+        <positionref ref="QLUA_1inZDCApos"/>
+      </physvol>
+      <physvol name="MCBW_1" copynumber="1">
+        <volumeref ref="MCBW"/>
+        <positionref ref="MCBW_1inZDCApos"/>
+      </physvol>
+      <physvol name="YMCB_1" copynumber="1">
+        <volumeref ref="YMCB"/>
+        <positionref ref="YMCB_1inZDCApos"/>
+      </physvol>
+      <physvol name="MQX1_1" copynumber="1">
+        <volumeref ref="MQX1"/>
+        <positionref ref="MQX1_1inZDCApos"/>
+      </physvol>
+      <physvol name="YMQ1_1" copynumber="1">
+        <volumeref ref="YMQ1"/>
+        <positionref ref="YMQ1_1inZDCApos"/>
+      </physvol>
+      <physvol name="MQX4_1" copynumber="1">
+        <volumeref ref="MQX4"/>
+        <positionref ref="MQX4_1inZDCApos"/>
+      </physvol>
+      <physvol name="YMQ1_2" copynumber="2">
+        <volumeref ref="YMQ1"/>
+        <positionref ref="YMQ1_2inZDCApos"/>
+      </physvol>
+      <physvol name="MQX2_1" copynumber="1">
+        <volumeref ref="MQX2"/>
+        <positionref ref="MQX2_1inZDCApos"/>
+      </physvol>
+      <physvol name="YMQ2_1" copynumber="1">
+        <volumeref ref="YMQ2"/>
+        <positionref ref="YMQ2_1inZDCApos"/>
+      </physvol>
+      <physvol name="MQX3_1" copynumber="1">
+        <volumeref ref="MQX3"/>
+        <positionref ref="MQX3_1inZDCApos"/>
+      </physvol>
+      <physvol name="YMQ2_2" copynumber="2">
+        <volumeref ref="YMQ2"/>
+        <positionref ref="YMQ2_2inZDCApos"/>
+      </physvol>
+      <physvol name="YD1L_1" copynumber="1">
+        <volumeref ref="YD1L"/>
+        <positionref ref="YD1L_1inZDCApos"/>
+      </physvol>
+      <physvol name="MD1L_1" copynumber="1">
+        <volumeref ref="MD1L"/>
+        <positionref ref="MD1L_1inZDCApos"/>
+      </physvol>
+      <physvol name="YD2L_1" copynumber="1">
+        <volumeref ref="YD2L"/>
+        <positionref ref="YD2L_1inZDCApos"/>
+      </physvol>
+      <physvol name="ZNEU_2" copynumber="2">
+        <volumeref ref="ZNEU"/>
+        <positionref ref="ZNEU_2inZDCApos"/>
+      </physvol>
+      <physvol name="ZPRO_2" copynumber="2">
+        <volumeref ref="ZPRO"/>
+        <positionref ref="ZPRO_2inZDCApos"/>
+      </physvol>
+    </volume>
+    </structure>

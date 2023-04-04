@@ -1,8 +1,4 @@
-<structure><volume name="RB26s5RFlange">
-      <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoPcon0x90"/>
-    </volume>
-    <volume name="RB26s5RFlangeM">
+<structure><volume name="RB26s5RFlangeM">
       <materialref ref="PIPE_VACUUM"/>
       <solidref ref="TGeoPcon0x89"/>
       <physvol name="RB26s5RFlange_1" copynumber="1">

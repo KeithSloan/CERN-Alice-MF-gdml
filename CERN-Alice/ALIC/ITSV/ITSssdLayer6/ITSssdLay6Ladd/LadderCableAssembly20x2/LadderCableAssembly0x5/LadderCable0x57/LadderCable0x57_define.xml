@@ -1,0 +1,35 @@
+<define><position name="LadderCableSegmentBBox1_10x57inLadderCableSegmentBBoxAssembly0x57pos" x="0.46700000000000003" y="1.175" z="0.0015" unit="cm"/>
+    <position name="LadderCableSegmentBBox2_10x57inLadderCableSegmentBBoxAssembly0x57pos" x="0.46700000000000003" y="1.175" z="0.0040000000000000001" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_10x57inLadderCable0x57pos" x="0" y="1.4159999999999999" z="0" unit="cm"/>
+    <position name="LadderCableSegmentArb1_10x52inLadderCableSegmentArbAssembly0x52pos" x="2.4220000000000002" y="0" z="0" unit="cm"/>
+    <position name="LadderCableSegmentArb2_10x52inLadderCableSegmentArbAssembly0x52pos" x="2.4220000000000002" y="0" z="0" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_10x52inLadderCable0x57pos" x="0" y="1.4159999999999999" z="0" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_20x52inLadderCable0x57pos" x="3.9100000000000001" y="1.4159999999999999" z="0.0050000000000000001" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_20x47inLadderCable0x57pos" x="3.9100000000000001" y="1.4159999999999999" z="0.0050000000000000001" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_30x47inLadderCable0x57pos" x="7.8200000000000003" y="1.4159999999999999" z="0.01" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_30x42inLadderCable0x57pos" x="7.8200000000000003" y="1.4159999999999999" z="0.01" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_40x42inLadderCable0x57pos" x="11.73" y="1.4159999999999999" z="0.014999999999999999" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_40x37inLadderCable0x57pos" x="11.73" y="1.4159999999999999" z="0.014999999999999999" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_50x37inLadderCable0x57pos" x="15.640000000000001" y="1.4159999999999999" z="0.02" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_50x32inLadderCable0x57pos" x="15.640000000000001" y="1.4159999999999999" z="0.02" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_60x32inLadderCable0x57pos" x="19.550000000000001" y="1.4159999999999999" z="0.025000000000000001" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_60x27inLadderCable0x57pos" x="19.550000000000001" y="1.4159999999999999" z="0.025000000000000001" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_70x27inLadderCable0x57pos" x="23.460000000000001" y="1.4159999999999999" z="0.029999999999999999" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_70x22inLadderCable0x57pos" x="23.460000000000001" y="1.4159999999999999" z="0.029999999999999999" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_80x22inLadderCable0x57pos" x="27.370000000000001" y="1.4159999999999999" z="0.035000000000000003" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_80x17inLadderCable0x57pos" x="27.370000000000001" y="1.4159999999999999" z="0.035000000000000003" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_90x17inLadderCable0x57pos" x="31.280000000000001" y="1.4159999999999999" z="0.040000000000000001" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_90x12inLadderCable0x57pos" x="31.280000000000001" y="1.4159999999999999" z="0.040000000000000001" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_100x12inLadderCable0x57pos" x="35.189999999999998" y="1.4159999999999999" z="0.044999999999999998" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_100x7inLadderCable0x57pos" x="35.189999999999998" y="1.4159999999999999" z="0.044999999999999998" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_110x7inLadderCable0x57pos" x="39.100000000000001" y="1.4159999999999999" z="0.050000000000000003" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_110x4inLadderCable0x57pos" x="39.100000000000001" y="1.4159999999999999" z="0.050000000000000003" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_120x4inLadderCable0x57pos" x="43.010000000000005" y="1.4159999999999999" z="0.055" unit="cm"/>
+    <position name="LadderCableSegmentArbAssembly_120x1inLadderCable0x57pos" x="43.010000000000005" y="1.4159999999999999" z="0.055" unit="cm"/>
+    <position name="LadderCableSegmentBBoxAssembly_130x1inLadderCable0x57pos" x="46.920000000000002" y="1.4159999999999999" z="0.059999999999999998" unit="cm"/>
+    <position name="LadderEndCableSegmentBBox1_10x57inLadderEndCableSegmentBBoxAssembly0x57pos" x="3.0732499140000011" y="1.175" z="0.0015" unit="cm"/>
+    <position name="LadderEndCableSegmentBBox2_10x57inLadderEndCableSegmentBBoxAssembly0x57pos" x="3.0732499140000011" y="1.175" z="0.0040000000000000001" unit="cm"/>
+    <position name="LadderEndCableSegmentBBoxAssembly_10x57inLadderCable0x57pos" x="47.853999999999999" y="1.4159999999999999" z="0.059999999999999998" unit="cm"/>
+    <rotation name="LadderCableSegmentArb1_10x52inLadderCableSegmentArbAssembly0x52rot" x="-90" y="-90" z="0" unit="deg"/>
+    <rotation name="LadderCableSegmentArb2_10x52inLadderCableSegmentArbAssembly0x52rot" x="-90" y="-90" z="0" unit="deg"/>
+    </define>

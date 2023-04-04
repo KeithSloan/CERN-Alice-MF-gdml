@@ -1,0 +1,117 @@
+<structure><volume name="MountingBlockSuppTrapezoidDownLay6">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x68"/>
+    </volume>
+    <volume name="MountingBlockPieceDownLay6">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x67"/>
+    </volume>
+    <volume name="CenterLadderSupportPieceLay6">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x66"/>
+    </volume>
+    <volume name="SideLadderSupportPieceLay6">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x65"/>
+    </volume>
+    <volume name="MountingBlockSupportSideLay6Arc">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x64"/>
+    </volume>
+    <volume name="MountingBlockSupportCenterLay6Arc">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x63"/>
+    </volume>
+    <volume name="MountingBlockSuppDownLay6Box2">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoBBox0x1124"/>
+    </volume>
+    <volume name="MountingBlockSuppDownLay6Box1">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoBBox0x1123"/>
+    </volume>
+    <volume name="LadderSupportDownLay6">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x62"/>
+      <physvol name="MountingBlockSuppDownLay6Box1_1" copynumber="1">
+        <volumeref ref="MountingBlockSuppDownLay6Box1"/>
+        <positionref ref="MountingBlockSuppDownLay6Box1_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSuppDownLay6Box1_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSuppDownLay6Box1_2" copynumber="2">
+        <volumeref ref="MountingBlockSuppDownLay6Box1"/>
+        <positionref ref="MountingBlockSuppDownLay6Box1_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSuppDownLay6Box1_2inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSuppDownLay6Box2_1" copynumber="1">
+        <volumeref ref="MountingBlockSuppDownLay6Box2"/>
+        <positionref ref="MountingBlockSuppDownLay6Box2_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSuppDownLay6Box2_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSuppDownLay6Box2_2" copynumber="2">
+        <volumeref ref="MountingBlockSuppDownLay6Box2"/>
+        <positionref ref="MountingBlockSuppDownLay6Box2_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSuppDownLay6Box2_2inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSupportCenterLay6Arc_1" copynumber="1">
+        <volumeref ref="MountingBlockSupportCenterLay6Arc"/>
+        <positionref ref="MountingBlockSupportCenterLay6Arc_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSupportCenterLay6Arc_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSupportSideLay6Arc_1" copynumber="1">
+        <volumeref ref="MountingBlockSupportSideLay6Arc"/>
+        <positionref ref="MountingBlockSupportSideLay6Arc_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSupportSideLay6Arc_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="SideLadderSupportPieceLay6_1" copynumber="1">
+        <volumeref ref="SideLadderSupportPieceLay6"/>
+        <positionref ref="SideLadderSupportPieceLay6_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="SideLadderSupportPieceLay6_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="CenterLadderSupportPieceLay6_1" copynumber="1">
+        <volumeref ref="CenterLadderSupportPieceLay6"/>
+        <positionref ref="CenterLadderSupportPieceLay6_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="CenterLadderSupportPieceLay6_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockPieceDownLay6_1" copynumber="1">
+        <volumeref ref="MountingBlockPieceDownLay6"/>
+        <positionref ref="MountingBlockPieceDownLay6_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockPieceDownLay6_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSuppTrapezoidDownLay6_1" copynumber="1">
+        <volumeref ref="MountingBlockSuppTrapezoidDownLay6"/>
+        <positionref ref="MountingBlockSuppTrapezoidDownLay6_1inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSuppTrapezoidDownLay6_1inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSupportCenterLay6Arc_2" copynumber="2">
+        <volumeref ref="MountingBlockSupportCenterLay6Arc"/>
+        <positionref ref="MountingBlockSupportCenterLay6Arc_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSupportCenterLay6Arc_2inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSupportSideLay6Arc_2" copynumber="2">
+        <volumeref ref="MountingBlockSupportSideLay6Arc"/>
+        <positionref ref="MountingBlockSupportSideLay6Arc_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSupportSideLay6Arc_2inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="SideLadderSupportPieceLay6_2" copynumber="2">
+        <volumeref ref="SideLadderSupportPieceLay6"/>
+        <positionref ref="SideLadderSupportPieceLay6_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="SideLadderSupportPieceLay6_2inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="CenterLadderSupportPieceLay6_2" copynumber="2">
+        <volumeref ref="CenterLadderSupportPieceLay6"/>
+        <positionref ref="CenterLadderSupportPieceLay6_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="CenterLadderSupportPieceLay6_2inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockPieceDownLay6_2" copynumber="2">
+        <volumeref ref="MountingBlockPieceDownLay6"/>
+        <positionref ref="MountingBlockPieceDownLay6_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockPieceDownLay6_2inLadderSupportDownLay6rot"/>
+      </physvol>
+      <physvol name="MountingBlockSuppTrapezoidDownLay6_2" copynumber="2">
+        <volumeref ref="MountingBlockSuppTrapezoidDownLay6"/>
+        <positionref ref="MountingBlockSuppTrapezoidDownLay6_2inLadderSupportDownLay6pos"/>
+        <rotationref ref="MountingBlockSuppTrapezoidDownLay6_2inLadderSupportDownLay6rot"/>
+      </physvol>
+    </volume>
+    </structure>

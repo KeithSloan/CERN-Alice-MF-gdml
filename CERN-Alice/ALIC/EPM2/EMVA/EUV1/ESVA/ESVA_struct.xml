@@ -1,0 +1,9 @@
+<structure><volume name="ESVA">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="ESVA0x1"/>
+      <physvol name="EDVA_1" copynumber="1">
+        <volumeref ref="EDVA"/>
+        <positionref ref="EDVA_1inESVApos"/>
+      </physvol>
+    </volume>
+    </structure>

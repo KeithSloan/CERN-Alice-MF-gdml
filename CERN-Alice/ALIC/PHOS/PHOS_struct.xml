@@ -1,0 +1,14 @@
+<structure><volume name="PHOS">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PHOS0x1"/>
+      <physvol name="PEMC_1" copynumber="1">
+        <volumeref ref="PEMC"/>
+        <positionref ref="PEMC_1inPHOSpos"/>
+      </physvol>
+      <physvol name="PCPV_1" copynumber="1">
+        <volumeref ref="PCPV"/>
+        <positionref ref="PCPV_1inPHOSpos"/>
+        <rotationref ref="PCPV_1inPHOSrot"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,17 @@
+<define><position name="SDDFoamCylinder_1inSDDCarbonFiberCylinderpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SDDFlangeBolt_1inSDDFlangeCylinderpos" x="11" y="0" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_2inSDDFlangeCylinderpos" x="1.6967659487634246" y="-10.86834786502148" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_3inSDDFlangeCylinderpos" x="-10.476542784566719" y="-3.3529168321243836" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_4inSDDFlangeCylinderpos" x="-4.9288097774208719" y="9.8339632996061361" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_5inSDDFlangeCylinderpos" x="8.9559906757921794" y="6.3867230263354573" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_6inSDDFlangeCylinderpos" x="7.6917588712621265" y="-7.8636407259208108" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_7inSDDFlangeCylinderpos" x="-6.5830607596364397" y="-8.8126789930721348" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_8inSDDFlangeCylinderpos" x="-9.7226522050060886" y="5.1449037017703487" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_9inSDDFlangeCylinderpos" x="3.5835943608866287" y="10.399896704132285" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_10inSDDFlangeCylinderpos" x="10.828201456957554" y="-1.9365054111833255" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_11inSDDFlangeCylinderpos" x="-0.24306281206552335" y="-10.997314238912645" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeBolt_12inSDDFlangeCylinderpos" x="-10.903187039307275" y="-1.4561979212599712" z="0.14999999999999991" unit="cm"/>
+    <position name="SDDFlangeCylinder_1inSDDCarbonFiberCylinderpos" x="0" y="0" z="38.75" unit="cm"/>
+    <position name="SDDFlangeCylinder_2inSDDCarbonFiberCylinderpos" x="0" y="0" z="-38.75" unit="cm"/>
+    <rotation name="SDDFlangeCylinder_2inSDDCarbonFiberCylinderrot" x="-180" y="-0" z="0" unit="deg"/>
+    </define>

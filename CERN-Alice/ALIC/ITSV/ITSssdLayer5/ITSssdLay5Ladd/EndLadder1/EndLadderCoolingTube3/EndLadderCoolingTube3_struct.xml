@@ -1,0 +1,13 @@
+<structure><volume name="EndLadderCoolingTube3">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x104"/>
+      <physvol name="OuterEndLadderCoolingTube3_1" copynumber="1">
+        <volumeref ref="OuterEndLadderCoolingTube3"/>
+        <positionref ref="OuterEndLadderCoolingTube3_1inEndLadderCoolingTube3pos"/>
+      </physvol>
+      <physvol name="InnerEndlLadderCoolingTube3_1" copynumber="1">
+        <volumeref ref="InnerEndlLadderCoolingTube3"/>
+        <positionref ref="InnerEndlLadderCoolingTube3_1inEndLadderCoolingTube3pos"/>
+      </physvol>
+    </volume>
+    </structure>

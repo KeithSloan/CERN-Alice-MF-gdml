@@ -1,0 +1,37 @@
+<structure><volume name="EFEE">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EFEE0x1"/>
+    </volume>
+    <volume name="EPM4">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EPM40x1"/>
+      <physvol name="EFSB_6" copynumber="6">
+        <volumeref ref="EFSB"/>
+        <positionref ref="EFSB_6inEPM4pos"/>
+        <rotationref ref="EFSB_6inEPM4rot"/>
+      </physvol>
+      <physvol name="EMVB_4" copynumber="4">
+        <volumeref ref="EMVB"/>
+        <positionref ref="EMVB_4inEPM4pos"/>
+        <rotationref ref="EMVB_4inEPM4rot"/>
+      </physvol>
+      <physvol name="EFEB_4" copynumber="4">
+        <volumeref ref="EFEB"/>
+        <positionref ref="EFEB_4inEPM4pos"/>
+      </physvol>
+      <physvol name="ESPB_4" copynumber="4">
+        <volumeref ref="ESPB"/>
+        <positionref ref="ESPB_4inEPM4pos"/>
+      </physvol>
+      <physvol name="ESMB_4" copynumber="4">
+        <volumeref ref="ESMB"/>
+        <positionref ref="ESMB_4inEPM4pos"/>
+        <rotationref ref="ESMB_4inEPM4rot"/>
+      </physvol>
+      <physvol name="EFSB_8" copynumber="8">
+        <volumeref ref="EFSB"/>
+        <positionref ref="EFSB_8inEPM4pos"/>
+        <rotationref ref="EFSB_8inEPM4rot"/>
+      </physvol>
+    </volume>
+    </structure>

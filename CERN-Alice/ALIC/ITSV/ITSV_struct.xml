@@ -1,0 +1,613 @@
+<structure><volume name="vpcon3container">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x124"/>
+      <physvol name="ITScablesSDDpcon3Plast_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon3Plast"/>
+        <positionref ref="ITScablesSDDpcon3Plast_0invpcon3containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon3Cu_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon3Cu"/>
+        <positionref ref="ITScablesSDDpcon3Cu_0invpcon3containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon3glass_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon3glass"/>
+        <positionref ref="ITScablesSDDpcon3glass_0invpcon3containerpos"/>
+      </physvol>
+    </volume>
+    <volume name="vSddCableInterCyl">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="sddCableInterCyl"/>
+      <physvol name="vSddCableInterCylPlast_0" copynumber="0">
+        <volumeref ref="vSddCableInterCylPlast"/>
+        <positionref ref="vSddCableInterCylPlast_0invSddCableInterCylpos"/>
+      </physvol>
+      <physvol name="vSddCableInterCylCu_0" copynumber="0">
+        <volumeref ref="vSddCableInterCylCu"/>
+        <positionref ref="vSddCableInterCylCu_0invSddCableInterCylpos"/>
+      </physvol>
+      <physvol name="vSddCableInterCylGlass_0" copynumber="0">
+        <volumeref ref="vSddCableInterCylGlass"/>
+        <positionref ref="vSddCableInterCylGlass_0invSddCableInterCylpos"/>
+      </physvol>
+    </volume>
+    <volume name="vpcon2container">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x120"/>
+      <physvol name="ITScablesSDDpcon2Plast_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon2Plast"/>
+        <positionref ref="ITScablesSDDpcon2Plast_0invpcon2containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon2Cu_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon2Cu"/>
+        <positionref ref="ITScablesSDDpcon2Cu_0invpcon2containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon2glass_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon2glass"/>
+        <positionref ref="ITScablesSDDpcon2glass_0invpcon2containerpos"/>
+      </physvol>
+    </volume>
+    <volume name="vpcon1container">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x116"/>
+      <physvol name="ITScablesSDDpcon1Plast_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon1Plast"/>
+        <positionref ref="ITScablesSDDpcon1Plast_0invpcon1containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon1Cu_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon1Cu"/>
+        <positionref ref="ITScablesSDDpcon1Cu_0invpcon1containerpos"/>
+      </physvol>
+      <physvol name="ITScablesSDDpcon1glass_0" copynumber="0">
+        <volumeref ref="ITScablesSDDpcon1glass"/>
+        <positionref ref="ITScablesSDDpcon1glass_0invpcon1containerpos"/>
+      </physvol>
+    </volume>
+    <volume name="SSDMountingBracket">
+      <materialref ref="ITS_ALUMINUM"/>
+      <solidref ref="TGeoTubeSeg0x65"/>
+    </volume>
+    <volume name="SDDCableHole32">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x99"/>
+    </volume>
+    <volume name="LowerLadderPConSupportNameLay6">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoPcon0x92"/>
+    </volume>
+    <volume name="LowerLadderPConSupportNameLay5">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoPcon0x91"/>
+    </volume>
+    <volume name="ISR6">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ISR60x1"/>
+    </volume>
+    <volume name="ISR1">
+      <materialref ref="ITS_inoxalum"/>
+      <solidref ref="ISR10x1"/>
+    </volume>
+    <assembly name="ITSV">
+      <physvol name="ICU1_1" copynumber="1">
+        <volumeref ref="ICU1"/>
+        <positionref ref="ICU1_1inITSVpos"/>
+        <rotationref ref="ICU1_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU2_1" copynumber="1">
+        <volumeref ref="ICU2"/>
+        <positionref ref="ICU2_1inITSVpos"/>
+        <rotationref ref="ICU2_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC1_1" copynumber="1">
+        <volumeref ref="ICC1"/>
+        <positionref ref="ICC1_1inITSVpos"/>
+        <rotationref ref="ICC1_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC2_1" copynumber="1">
+        <volumeref ref="ICC2"/>
+        <positionref ref="ICC2_1inITSVpos"/>
+        <rotationref ref="ICC2_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU3_1" copynumber="1">
+        <volumeref ref="ICU3"/>
+        <positionref ref="ICU3_1inITSVpos"/>
+        <rotationref ref="ICU3_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU4_1" copynumber="1">
+        <volumeref ref="ICU4"/>
+        <positionref ref="ICU4_1inITSVpos"/>
+        <rotationref ref="ICU4_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC3_1" copynumber="1">
+        <volumeref ref="ICC3"/>
+        <positionref ref="ICC3_1inITSVpos"/>
+        <rotationref ref="ICC3_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC4_1" copynumber="1">
+        <volumeref ref="ICC4"/>
+        <positionref ref="ICC4_1inITSVpos"/>
+        <rotationref ref="ICC4_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU5_1" copynumber="1">
+        <volumeref ref="ICU5"/>
+        <positionref ref="ICU5_1inITSVpos"/>
+        <rotationref ref="ICU5_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU9_1" copynumber="1">
+        <volumeref ref="ICU9"/>
+        <positionref ref="ICU9_1inITSVpos"/>
+        <rotationref ref="ICU9_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU6_1" copynumber="1">
+        <volumeref ref="ICU6"/>
+        <positionref ref="ICU6_1inITSVpos"/>
+        <rotationref ref="ICU6_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU0_1" copynumber="1">
+        <volumeref ref="ICU0"/>
+        <positionref ref="ICU0_1inITSVpos"/>
+        <rotationref ref="ICU0_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC5_1" copynumber="1">
+        <volumeref ref="ICC5"/>
+        <positionref ref="ICC5_1inITSVpos"/>
+        <rotationref ref="ICC5_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC9_1" copynumber="1">
+        <volumeref ref="ICC9"/>
+        <positionref ref="ICC9_1inITSVpos"/>
+        <rotationref ref="ICC9_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC6_1" copynumber="1">
+        <volumeref ref="ICC6"/>
+        <positionref ref="ICC6_1inITSVpos"/>
+        <rotationref ref="ICC6_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC0_1" copynumber="1">
+        <volumeref ref="ICC0"/>
+        <positionref ref="ICC0_1inITSVpos"/>
+        <rotationref ref="ICC0_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU7_1" copynumber="1">
+        <volumeref ref="ICU7"/>
+        <positionref ref="ICU7_1inITSVpos"/>
+        <rotationref ref="ICU7_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICU8_1" copynumber="1">
+        <volumeref ref="ICU8"/>
+        <positionref ref="ICU8_1inITSVpos"/>
+        <rotationref ref="ICU8_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC7_1" copynumber="1">
+        <volumeref ref="ICC7"/>
+        <positionref ref="ICC7_1inITSVpos"/>
+        <rotationref ref="ICC7_1inITSVrot"/>
+      </physvol>
+      <physvol name="ICC8_1" copynumber="1">
+        <volumeref ref="ICC8"/>
+        <positionref ref="ICC8_1inITSVpos"/>
+        <rotationref ref="ICC8_1inITSVrot"/>
+      </physvol>
+      <physvol name="IHK1_1" copynumber="1">
+        <volumeref ref="IHK1"/>
+        <positionref ref="IHK1_1inITSVpos"/>
+        <rotationref ref="IHK1_1inITSVrot"/>
+      </physvol>
+      <physvol name="IHK2_1" copynumber="1">
+        <volumeref ref="IHK2"/>
+        <positionref ref="IHK2_1inITSVpos"/>
+        <rotationref ref="IHK2_1inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_1" copynumber="1">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_1inITSVpos"/>
+        <rotationref ref="ISR1_1inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_2" copynumber="2">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_2inITSVpos"/>
+        <rotationref ref="ISR1_2inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_3" copynumber="3">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_3inITSVpos"/>
+        <rotationref ref="ISR1_3inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_4" copynumber="4">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_4inITSVpos"/>
+        <rotationref ref="ISR1_4inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_5" copynumber="5">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_5inITSVpos"/>
+        <rotationref ref="ISR1_5inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_6" copynumber="6">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_6inITSVpos"/>
+        <rotationref ref="ISR1_6inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_7" copynumber="7">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_7inITSVpos"/>
+        <rotationref ref="ISR1_7inITSVrot"/>
+      </physvol>
+      <physvol name="ISR1_8" copynumber="8">
+        <volumeref ref="ISR1"/>
+        <positionref ref="ISR1_8inITSVpos"/>
+        <rotationref ref="ISR1_8inITSVrot"/>
+      </physvol>
+      <physvol name="ISR2_1" copynumber="1">
+        <volumeref ref="ISR2"/>
+        <positionref ref="ISR2_1inITSVpos"/>
+      </physvol>
+      <physvol name="ISR3_1" copynumber="1">
+        <volumeref ref="ISR3"/>
+        <positionref ref="ISR3_1inITSVpos"/>
+      </physvol>
+      <physvol name="ISR6_1" copynumber="1">
+        <volumeref ref="ISR6"/>
+        <positionref ref="ISR6_1inITSVpos"/>
+      </physvol>
+      <physvol name="ISR6_2" copynumber="2">
+        <volumeref ref="ISR6"/>
+        <positionref ref="ISR6_2inITSVpos"/>
+      </physvol>
+      <physvol name="ISR6_3" copynumber="3">
+        <volumeref ref="ISR6"/>
+        <positionref ref="ISR6_3inITSVpos"/>
+      </physvol>
+      <physvol name="ITSSPD_1" copynumber="1">
+        <volumeref ref="ITSSPD"/>
+        <positionref ref="ITSSPD_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_0" copynumber="0">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_0inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_0inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_1" copynumber="1">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_1inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_1inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_2" copynumber="2">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_2inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_2inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_3" copynumber="3">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_3inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_3inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_4" copynumber="4">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_4inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_4inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_5" copynumber="5">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_5inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_5inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_6" copynumber="6">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_6inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_6inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_7" copynumber="7">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_7inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_7inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_8" copynumber="8">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_8inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_8inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_9" copynumber="9">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_9inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_9inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_10" copynumber="10">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_10inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_10inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_11" copynumber="11">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_11inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_11inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_12" copynumber="12">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_12inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_12inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_13" copynumber="13">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_13inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_13inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_14" copynumber="14">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_14inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_14inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_15" copynumber="15">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_15inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_15inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_16" copynumber="16">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_16inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_16inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_17" copynumber="17">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_17inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_17inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_18" copynumber="18">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_18inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_18inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDConeModule_19" copynumber="19">
+        <volumeref ref="ITSSPDConeModule"/>
+        <positionref ref="ITSSPDConeModule_19inITSVpos"/>
+        <rotationref ref="ITSSPDConeModule_19inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_0" copynumber="0">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_0inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_0inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_1" copynumber="1">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_1inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_1inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_2" copynumber="2">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_2inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_2inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_3" copynumber="3">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_3inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_3inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_4" copynumber="4">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_4inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_4inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_5" copynumber="5">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_5inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_5inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_6" copynumber="6">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_6inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_6inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_7" copynumber="7">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_7inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_7inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_8" copynumber="8">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_8inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_8inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_9" copynumber="9">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_9inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_9inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_10" copynumber="10">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_10inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_10inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_11" copynumber="11">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_11inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_11inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_12" copynumber="12">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_12inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_12inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_13" copynumber="13">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_13inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_13inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_14" copynumber="14">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_14inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_14inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_15" copynumber="15">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_15inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_15inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_16" copynumber="16">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_16inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_16inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_17" copynumber="17">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_17inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_17inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_18" copynumber="18">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_18inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_18inITSVrot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingModule_19" copynumber="19">
+        <volumeref ref="ITSSPDCoolingModule"/>
+        <positionref ref="ITSSPDCoolingModule_19inITSVpos"/>
+        <rotationref ref="ITSSPDCoolingModule_19inITSVrot"/>
+      </physvol>
+      <physvol name="ITSsddLayer3_1" copynumber="1">
+        <volumeref ref="ITSsddLayer3"/>
+        <positionref ref="ITSsddLayer3_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSsddLayer4_1" copynumber="1">
+        <volumeref ref="ITSsddLayer4"/>
+        <positionref ref="ITSsddLayer4_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSsddForward3Pos_1" copynumber="1">
+        <volumeref ref="ITSsddForward3Pos"/>
+        <positionref ref="ITSsddForward3Pos_1inITSVpos"/>
+        <rotationref ref="ITSsddForward3Pos_1inITSVrot"/>
+      </physvol>
+      <physvol name="ITSsddForward3Neg_1" copynumber="1">
+        <volumeref ref="ITSsddForward3Neg"/>
+        <positionref ref="ITSsddForward3Neg_1inITSVpos"/>
+        <rotationref ref="ITSsddForward3Neg_1inITSVrot"/>
+      </physvol>
+      <physvol name="ITSsddForward4Pos_1" copynumber="1">
+        <volumeref ref="ITSsddForward4Pos"/>
+        <positionref ref="ITSsddForward4Pos_1inITSVpos"/>
+        <rotationref ref="ITSsddForward4Pos_1inITSVrot"/>
+      </physvol>
+      <physvol name="ITSsddForward4Neg_1" copynumber="1">
+        <volumeref ref="ITSsddForward4Neg"/>
+        <positionref ref="ITSsddForward4Neg_1inITSVpos"/>
+        <rotationref ref="ITSsddForward4Neg_1inITSVrot"/>
+      </physvol>
+      <physvol name="ITSssdLayer5_1" copynumber="1">
+        <volumeref ref="ITSssdLayer5"/>
+        <positionref ref="ITSssdLayer5_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSssdLayer6_1" copynumber="1">
+        <volumeref ref="ITSssdLayer6"/>
+        <positionref ref="ITSssdLayer6_1inITSVpos"/>
+      </physvol>
+      <physvol name="Lay5LadderSupportRing_1" copynumber="1">
+        <volumeref ref="Lay5LadderSupportRing"/>
+        <positionref ref="Lay5LadderSupportRing_1inITSVpos"/>
+      </physvol>
+      <physvol name="Lay5LadderSupportRing_2" copynumber="2">
+        <volumeref ref="Lay5LadderSupportRing"/>
+        <positionref ref="Lay5LadderSupportRing_2inITSVpos"/>
+      </physvol>
+      <physvol name="Lay6LadderSupportRing_1" copynumber="1">
+        <volumeref ref="Lay6LadderSupportRing"/>
+        <positionref ref="Lay6LadderSupportRing_1inITSVpos"/>
+      </physvol>
+      <physvol name="Lay6LadderSupportRing_2" copynumber="2">
+        <volumeref ref="Lay6LadderSupportRing"/>
+        <positionref ref="Lay6LadderSupportRing_2inITSVpos"/>
+      </physvol>
+      <physvol name="EndCapSupportSystemLayer6Sx_1" copynumber="1">
+        <volumeref ref="EndCapSupportSystemLayer6Sx"/>
+        <positionref ref="EndCapSupportSystemLayer6Sx_1inITSVpos"/>
+      </physvol>
+      <physvol name="EndCapSupportSystemLayer6Dx_1" copynumber="1">
+        <volumeref ref="EndCapSupportSystemLayer6Dx"/>
+        <positionref ref="EndCapSupportSystemLayer6Dx_1inITSVpos"/>
+        <rotationref ref="EndCapSupportSystemLayer6Dx_1inITSVrot"/>
+      </physvol>
+      <physvol name="EndCapSupportSystemLayer5Sx_1" copynumber="1">
+        <volumeref ref="EndCapSupportSystemLayer5Sx"/>
+        <positionref ref="EndCapSupportSystemLayer5Sx_1inITSVpos"/>
+      </physvol>
+      <physvol name="EndCapSupportSystemLayer5Dx_1" copynumber="1">
+        <volumeref ref="EndCapSupportSystemLayer5Dx"/>
+        <positionref ref="EndCapSupportSystemLayer5Dx_1inITSVpos"/>
+        <rotationref ref="EndCapSupportSystemLayer5Dx_1inITSVrot"/>
+      </physvol>
+      <physvol name="ITSspdThermalShield_1" copynumber="1">
+        <volumeref ref="ITSspdThermalShield"/>
+        <positionref ref="ITSspdThermalShield_1inITSVpos"/>
+      </physvol>
+      <physvol name="SDDCarbonFiberCylinder_1" copynumber="1">
+        <volumeref ref="SDDCarbonFiberCylinder"/>
+        <positionref ref="SDDCarbonFiberCylinder_1inITSVpos"/>
+      </physvol>
+      <physvol name="SDDCarbonFiberCone_1" copynumber="1">
+        <volumeref ref="SDDCarbonFiberCone"/>
+        <positionref ref="SDDCarbonFiberCone_1inITSVpos"/>
+      </physvol>
+      <physvol name="SDDCarbonFiberCone_2" copynumber="2">
+        <volumeref ref="SDDCarbonFiberCone"/>
+        <positionref ref="SDDCarbonFiberCone_2inITSVpos"/>
+        <rotationref ref="SDDCarbonFiberCone_2inITSVrot"/>
+      </physvol>
+      <physvol name="SSDexternalcylinder_1" copynumber="1">
+        <volumeref ref="SSDexternalcylinder"/>
+        <positionref ref="SSDexternalcylinder_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSssdCone_1" copynumber="1">
+        <volumeref ref="ITSssdCone"/>
+        <positionref ref="ITSssdCone_1inITSVpos"/>
+      </physvol>
+      <physvol name="ITSssdCone_2" copynumber="2">
+        <volumeref ref="ITSssdCone"/>
+        <positionref ref="ITSssdCone_2inITSVpos"/>
+        <rotationref ref="ITSssdCone_2inITSVrot"/>
+      </physvol>
+      <physvol name="vpcon1container_1" copynumber="1">
+        <volumeref ref="vpcon1container"/>
+        <positionref ref="vpcon1container_1inITSVpos"/>
+      </physvol>
+      <physvol name="vpcon1container_2" copynumber="2">
+        <volumeref ref="vpcon1container"/>
+        <positionref ref="vpcon1container_2inITSVpos"/>
+        <rotationref ref="vpcon1container_2inITSVrot"/>
+      </physvol>
+      <physvol name="vpcon2container_1" copynumber="1">
+        <volumeref ref="vpcon2container"/>
+        <positionref ref="vpcon2container_1inITSVpos"/>
+      </physvol>
+      <physvol name="vpcon2container_2" copynumber="2">
+        <volumeref ref="vpcon2container"/>
+        <positionref ref="vpcon2container_2inITSVpos"/>
+        <rotationref ref="vpcon2container_2inITSVrot"/>
+      </physvol>
+      <physvol name="vSddCableInterCyl_1" copynumber="1">
+        <volumeref ref="vSddCableInterCyl"/>
+        <positionref ref="vSddCableInterCyl_1inITSVpos"/>
+      </physvol>
+      <physvol name="vSddCableInterCyl_2" copynumber="2">
+        <volumeref ref="vSddCableInterCyl"/>
+        <positionref ref="vSddCableInterCyl_2inITSVpos"/>
+      </physvol>
+      <physvol name="vpcon3container_1" copynumber="1">
+        <volumeref ref="vpcon3container"/>
+        <positionref ref="vpcon3container_1inITSVpos"/>
+      </physvol>
+      <physvol name="vpcon3container_2" copynumber="2">
+        <volumeref ref="vpcon3container"/>
+        <positionref ref="vpcon3container_2inITSVpos"/>
+        <rotationref ref="vpcon3container_2inITSVrot"/>
+      </physvol>
+      <physvol name="endConeSDDCable_1" copynumber="1">
+        <volumeref ref="endConeSDDCable"/>
+        <positionref ref="endConeSDDCable_1inITSVpos"/>
+      </physvol>
+      <physvol name="endConeSDDCable_2" copynumber="2">
+        <volumeref ref="endConeSDDCable"/>
+        <positionref ref="endConeSDDCable_2inITSVpos"/>
+        <scale name="endConeSDDCable_2inITSVscl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="SSDCables_1" copynumber="1">
+        <volumeref ref="SSDCables"/>
+        <positionref ref="SSDCables_1inITSVpos"/>
+      </physvol>
+    </assembly>
+    </structure>

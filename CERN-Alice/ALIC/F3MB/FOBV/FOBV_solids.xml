@@ -1,0 +1,65 @@
+<solids><tube name="FOAC0x1" rmin="15.6" rmax="28" z="0.032000000000000001" startphi="351" deltaphi="18" aunit="deg" lunit="cm"/>
+    <xtru name="FMDO_physical_sensor" lunit="cm">
+      <twoDimVertex x="15.010400000000001" y="-2.5798999999999999"/>
+      <twoDimVertex x="26.776599999999998" y="-4.4439000000000002"/>
+      <twoDimVertex x="28.149999999999999" y="-1.835"/>
+      <twoDimVertex x="28.149999999999999" y="1.835"/>
+      <twoDimVertex x="26.776599999999998" y="4.4439000000000002"/>
+      <twoDimVertex x="15.010400000000001" y="2.5798999999999999"/>
+      <section zOrder="0" zPosition="-0.016" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.016" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="FMDO_hybrid_pcb" lunit="cm">
+      <twoDimVertex x="14.910399999999999" y="-2.0783"/>
+      <twoDimVertex x="26.5395" y="-3.9201999999999999"/>
+      <twoDimVertex x="28.25" y="-0.6784"/>
+      <twoDimVertex x="28.25" y="0.6784"/>
+      <twoDimVertex x="26.5395" y="3.9201999999999999"/>
+      <twoDimVertex x="14.910399999999999" y="2.0783"/>
+      <section zOrder="0" zPosition="-0.040000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.040000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="FMDO_hybrid_copper" lunit="cm">
+      <twoDimVertex x="14.910399999999999" y="-2.0783"/>
+      <twoDimVertex x="26.5395" y="-3.9201999999999999"/>
+      <twoDimVertex x="28.25" y="-0.6784"/>
+      <twoDimVertex x="28.25" y="0.6784"/>
+      <twoDimVertex x="26.5395" y="3.9201999999999999"/>
+      <twoDimVertex x="14.910399999999999" y="2.0783"/>
+      <section zOrder="0" zPosition="-0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="FMDO_hybrid_chip" lunit="cm">
+      <twoDimVertex x="14.910399999999999" y="-2.0783"/>
+      <twoDimVertex x="26.5395" y="-3.9201999999999999"/>
+      <twoDimVertex x="28.25" y="-0.6784"/>
+      <twoDimVertex x="28.25" y="0.6784"/>
+      <twoDimVertex x="26.5395" y="3.9201999999999999"/>
+      <twoDimVertex x="14.910399999999999" y="2.0783"/>
+      <section zOrder="0" zPosition="-0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <tube name="FOLL0x1" rmin="0" rmax="0.25" z="1.3500000000000001" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FOSL0x1" rmin="0" rmax="0.25" z="0.84999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <intersection name="FODP0x1">
+      <first ref="FODP_inner"/>
+      <second ref="FODP_clip"/>
+      <position name="FODP0x1FODP_clippos" x="0" y="14.299999999999999" z="0" unit="cm"/>
+    </intersection>
+    <tube name="FODP_inner" rmin="18.719999999999999" rmax="26.599999999999998" z="0.16" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FODP_clip" x="43.439999999999998" y="26.599999999999998" z="0.32000000000000001" lunit="cm"/>
+    <intersection name="FODC0x1">
+      <first ref="FODC_inner"/>
+      <second ref="FODC_clip"/>
+      <position name="FODC0x1FODC_clippos" x="0" y="14.299999999999999" z="0" unit="cm"/>
+    </intersection>
+    <tube name="FODC_inner" rmin="18.719999999999999" rmax="26.599999999999998" z="0.02" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FODC_clip" x="43.439999999999998" y="26.599999999999998" z="0.040000000000000001" lunit="cm"/>
+    <intersection name="FODI0x1">
+      <first ref="FODI_inner"/>
+      <second ref="FODI_clip"/>
+      <position name="FODI0x1FODI_clippos" x="0" y="14.299999999999999" z="0" unit="cm"/>
+    </intersection>
+    <tube name="FODI_inner" rmin="18.719999999999999" rmax="26.599999999999998" z="0.02" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FODI_clip" x="43.439999999999998" y="26.599999999999998" z="0.040000000000000001" lunit="cm"/>
+    </solids>

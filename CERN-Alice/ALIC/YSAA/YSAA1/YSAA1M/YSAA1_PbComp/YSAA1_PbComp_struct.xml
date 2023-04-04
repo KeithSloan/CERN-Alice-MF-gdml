@@ -1,8 +1,4 @@
-<structure><volume name="YSAA1_PbCompI">
-      <materialref ref="SHIL_LEAD3"/>
-      <solidref ref="TGeoPcon0x19"/>
-    </volume>
-    <volume name="YSAA1_PbComp">
+<structure><volume name="YSAA1_PbComp">
       <materialref ref="SHIL_LEAD1"/>
       <solidref ref="TGeoPcon0x18"/>
       <physvol name="YSAA1_PbCompI_1" copynumber="1">

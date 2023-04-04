@@ -1,0 +1,9 @@
+<structure><volume name="SPDendcapshield">
+      <materialref ref="ITS_SPD_shield"/>
+      <solidref ref="TGeoXtru0x90"/>
+      <physvol name="SPDendcapairshield_1" copynumber="1">
+        <volumeref ref="SPDendcapairshield"/>
+        <positionref ref="SPDendcapairshield_1inSPDendcapshieldpos"/>
+      </physvol>
+    </volume>
+    </structure>

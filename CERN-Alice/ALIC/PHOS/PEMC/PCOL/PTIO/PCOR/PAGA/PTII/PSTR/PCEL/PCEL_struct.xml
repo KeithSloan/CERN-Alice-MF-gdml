@@ -1,0 +1,17 @@
+<structure><volume name="PCEL">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PCEL0x1"/>
+      <physvol name="PWRA_1" copynumber="1">
+        <volumeref ref="PWRA"/>
+        <positionref ref="PWRA_1inPCELpos"/>
+      </physvol>
+      <physvol name="PPIN_1" copynumber="1">
+        <volumeref ref="PPIN"/>
+        <positionref ref="PPIN_1inPCELpos"/>
+      </physvol>
+      <physvol name="PREA_1" copynumber="1">
+        <volumeref ref="PREA"/>
+        <positionref ref="PREA_1inPCELpos"/>
+      </physvol>
+    </volume>
+    </structure>

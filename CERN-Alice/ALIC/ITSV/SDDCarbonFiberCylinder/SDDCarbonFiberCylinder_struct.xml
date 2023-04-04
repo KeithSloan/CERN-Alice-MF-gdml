@@ -1,0 +1,22 @@
+<structure><volume name="SDDFlangeBolt">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x130"/>
+    </volume>
+    <volume name="SDDCarbonFiberCylinder">
+      <materialref ref="ITS_SDD_C_M55J"/>
+      <solidref ref="TGeoTube0x127"/>
+      <physvol name="SDDFoamCylinder_1" copynumber="1">
+        <volumeref ref="SDDFoamCylinder"/>
+        <positionref ref="SDDFoamCylinder_1inSDDCarbonFiberCylinderpos"/>
+      </physvol>
+      <physvol name="SDDFlangeCylinder_1" copynumber="1">
+        <volumeref ref="SDDFlangeCylinder"/>
+        <positionref ref="SDDFlangeCylinder_1inSDDCarbonFiberCylinderpos"/>
+      </physvol>
+      <physvol name="SDDFlangeCylinder_2" copynumber="2">
+        <volumeref ref="SDDFlangeCylinder"/>
+        <positionref ref="SDDFlangeCylinder_2inSDDCarbonFiberCylinderpos"/>
+        <rotationref ref="SDDFlangeCylinder_2inSDDCarbonFiberCylinderrot"/>
+      </physvol>
+    </volume>
+    </structure>

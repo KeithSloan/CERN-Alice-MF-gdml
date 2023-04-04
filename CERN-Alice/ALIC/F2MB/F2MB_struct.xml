@@ -1,0 +1,26 @@
+<structure><assembly name="F2MB">
+      <physvol name="FIBV_73" copynumber="73">
+        <volumeref ref="FIBV"/>
+        <positionref ref="FIBV_730x1inF2MBpos"/>
+      </physvol>
+      <physvol name="F2HI_1" copynumber="1">
+        <volumeref ref="F2HI"/>
+        <positionref ref="F2HI_1inF2MBpos"/>
+        <rotationref ref="F2HI_1inF2MBrot"/>
+      </physvol>
+      <physvol name="FOBV_79" copynumber="79">
+        <volumeref ref="FOBV"/>
+        <positionref ref="FOBV_79inF2MBpos"/>
+      </physvol>
+      <physvol name="F2HO_1" copynumber="1">
+        <volumeref ref="F2HO"/>
+        <positionref ref="F2HO_1inF2MBpos"/>
+        <rotationref ref="F2HO_1inF2MBrot"/>
+      </physvol>
+      <physvol name="FMD2_support_1" copynumber="1">
+        <volumeref ref="FMD2_support"/>
+        <positionref ref="FMD2_support_1inF2MBpos"/>
+        <rotationref ref="FMD2_support_1inF2MBrot"/>
+      </physvol>
+    </assembly>
+    </structure>

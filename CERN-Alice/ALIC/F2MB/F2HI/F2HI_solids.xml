@@ -1,0 +1,37 @@
+<solids><subtraction name="F2HI0x1">
+      <first ref="TGeoCompositeShape0x245"/>
+      <second ref="FMD2I_E_X"/>
+      <position name="F2HI0x1FMD2I_E_Xpos" x="0" y="0.14999999999999999" z="0" unit="cm"/>
+    </subtraction>
+    <union name="TGeoCompositeShape0x245">
+      <first ref="TGeoCompositeShape0x246"/>
+      <second ref="FMD2I_C_O"/>
+      <position name="TGeoCompositeShape0x245FMD2I_C_Opos" x="17.141529782388002" y="0.34999999999999998" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x246">
+      <first ref="TGeoCompositeShape0x247"/>
+      <second ref="FMD2I_C_O"/>
+      <position name="TGeoCompositeShape0x246FMD2I_C_Opos" x="-17.141529782388002" y="0.34999999999999998" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x247">
+      <first ref="TGeoCompositeShape0x248"/>
+      <second ref="FMD2I_R_O"/>
+    </union>
+    <union name="TGeoCompositeShape0x248">
+      <first ref="TGeoCompositeShape0x249"/>
+      <second ref="FMD2I_R_I"/>
+    </union>
+    <union name="TGeoCompositeShape0x249">
+      <first ref="FMD2I_F_1"/>
+      <second ref="FMD2I_B_1"/>
+      <firstposition name="TGeoCompositeShape0x249FMD2I_F_1pos" x="0" y="0" z="0.27500000000000002" unit="cm"/>
+      <position name="TGeoCompositeShape0x249FMD2I_B_1pos" x="0" y="0" z="-0.27500000000000002" unit="cm"/>
+    </union>
+    <tube name="FMD2I_F_1" rmin="5.2999999999999998" rmax="29" z="0.10000000000000001" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <tube name="FMD2I_B_1" rmin="5.2999999999999998" rmax="29" z="0.10000000000000001" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <tube name="FMD2I_R_I" rmin="5.2999999999999998" rmax="5.3999999999999995" z="0.65000000000000002" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <tube name="FMD2I_R_O" rmin="28.899999999999999" rmax="29" z="0.65000000000000002" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FMD2I_C_O" x="23.699999999999999" y="0.10000000000000001" z="0.65000000000000002" lunit="cm"/>
+    <box name="FMD2I_C_O" x="23.699999999999999" y="0.10000000000000001" z="0.65000000000000002" lunit="cm"/>
+    <box name="FMD2I_E_X" x="58.009999999999998" y="0.31" z="0.66000000000000003" lunit="cm"/>
+    </solids>

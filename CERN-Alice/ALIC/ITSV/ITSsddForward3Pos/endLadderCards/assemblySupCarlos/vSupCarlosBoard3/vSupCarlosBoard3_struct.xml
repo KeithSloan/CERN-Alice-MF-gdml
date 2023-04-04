@@ -2,10 +2,6 @@
       <materialref ref="ITS_INOX"/>
       <solidref ref="littleScrew"/>
     </volume>
-    <volume name="vLittleScrew">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="littleScrew"/>
-    </volume>
     <volume name="vSupCarlosBoard3">
       <materialref ref="ITS_INOX"/>
       <solidref ref="TGeoBBox0x1099"/>

@@ -1,0 +1,105 @@
+<structure><volume name="ZETR">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="TGeoPara0x4"/>
+      <physvol name="ZEL0_1" copynumber="1">
+        <volumeref ref="ZEL0"/>
+        <positionref ref="ZEL0_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEL1_1" copynumber="1">
+        <volumeref ref="ZEL1"/>
+        <positionref ref="ZEL1_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEV0_1" copynumber="1">
+        <volumeref ref="ZEV0"/>
+        <positionref ref="ZEV0_1inZETRpos"/>
+      </physvol>
+      <physvol name="ZEV1_1" copynumber="1">
+        <volumeref ref="ZEV1"/>
+        <positionref ref="ZEV1_1inZETRpos"/>
+      </physvol>
+    </volume>
+    <volume name="ZEM">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="ZEM0x1"/>
+      <physvol name="ZETR_1" copynumber="1">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_1inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_2" copynumber="2">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_2inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_3" copynumber="3">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_3inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_4" copynumber="4">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_4inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_5" copynumber="5">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_5inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_6" copynumber="6">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_6inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_7" copynumber="7">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_7inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_8" copynumber="8">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_8inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_9" copynumber="9">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_9inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_10" copynumber="10">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_10inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_11" copynumber="11">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_11inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_12" copynumber="12">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_12inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_13" copynumber="13">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_13inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_14" copynumber="14">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_14inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_15" copynumber="15">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_15inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_16" copynumber="16">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_16inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_17" copynumber="17">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_17inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_18" copynumber="18">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_18inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_19" copynumber="19">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_19inZEMpos"/>
+      </physvol>
+      <physvol name="ZETR_20" copynumber="20">
+        <volumeref ref="ZETR"/>
+        <positionref ref="ZETR_20inZEMpos"/>
+      </physvol>
+    </volume>
+    </structure>

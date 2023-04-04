@@ -1,0 +1,5 @@
+<structure><volume name="EndCapCoolingTubeTorus4">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x15"/>
+    </volume>
+    </structure>

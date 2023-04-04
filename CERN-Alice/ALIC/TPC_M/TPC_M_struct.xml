@@ -1,0 +1,82 @@
+<structure><volume name="TPC_SWC1">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoPgon0x185"/>
+      <physvol name="TPC_SWC2_1" copynumber="1">
+        <volumeref ref="TPC_SWC2"/>
+        <positionref ref="TPC_SWC2_1inTPC_SWC1pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_CDCE">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoPcon0x155"/>
+    </volume>
+    <volume name="TPC_CDCI">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTube0x171"/>
+    </volume>
+    <volume name="TPC_CDRS">
+      <materialref ref="TPC_Mylar"/>
+      <solidref ref="TGeoTube0x170"/>
+    </volume>
+    <volume name="TPC_M">
+      <materialref ref="TPC_Air"/>
+      <solidref ref="TGeoPcon0x147"/>
+      <physvol name="TPC_Drift_1" copynumber="1">
+        <volumeref ref="TPC_Drift"/>
+        <positionref ref="TPC_Drift_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_OI_1" copynumber="1">
+        <volumeref ref="TPC_OI"/>
+        <positionref ref="TPC_OI_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_INI_1" copynumber="1">
+        <volumeref ref="TPC_INI"/>
+        <positionref ref="TPC_INI_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_ICVM_1" copynumber="1">
+        <volumeref ref="TPC_ICVM"/>
+        <positionref ref="TPC_ICVM_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_ICVS_1" copynumber="1">
+        <volumeref ref="TPC_ICVS"/>
+        <positionref ref="TPC_ICVS_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_CDRS_1" copynumber="1">
+        <volumeref ref="TPC_CDRS"/>
+        <positionref ref="TPC_CDRS_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_CDRS_2" copynumber="2">
+        <volumeref ref="TPC_CDRS"/>
+        <positionref ref="TPC_CDRS_2inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_CDCI_1" copynumber="1">
+        <volumeref ref="TPC_CDCI"/>
+        <positionref ref="TPC_CDCI_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_CDCI_2" copynumber="2">
+        <volumeref ref="TPC_CDCI"/>
+        <positionref ref="TPC_CDCI_2inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_CDCE_1" copynumber="1">
+        <volumeref ref="TPC_CDCE"/>
+        <positionref ref="TPC_CDCE_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_CDCE_2" copynumber="2">
+        <volumeref ref="TPC_CDCE"/>
+        <positionref ref="TPC_CDCE_2inTPC_Mpos"/>
+        <scale name="TPC_CDCE_2inTPC_Mscl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="TPC_CDR_1" copynumber="1">
+        <volumeref ref="TPC_CDR"/>
+        <positionref ref="TPC_CDR_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_SSWHEEL_1" copynumber="1">
+        <volumeref ref="TPC_SSWHEEL"/>
+        <positionref ref="TPC_SSWHEEL_1inTPC_Mpos"/>
+      </physvol>
+      <physvol name="TPC_SSWHEEL_2" copynumber="2">
+        <volumeref ref="TPC_SSWHEEL"/>
+        <positionref ref="TPC_SSWHEEL_2inTPC_Mpos"/>
+      </physvol>
+    </volume>
+    </structure>

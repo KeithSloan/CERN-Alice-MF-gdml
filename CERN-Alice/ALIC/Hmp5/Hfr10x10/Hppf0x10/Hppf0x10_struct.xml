@@ -1,0 +1,77 @@
+<structure><volume name="Hsmo0x10">
+      <materialref ref="HMPID_Ar"/>
+      <solidref ref="Hsmo0x11"/>
+    </volume>
+    <volume name="Hlar0x10">
+      <materialref ref="HMPID_Ar"/>
+      <solidref ref="Hlar0x11"/>
+    </volume>
+    <volume name="Hppf0x10">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="Hppf0x11"/>
+      <physvol name="Hlar_0" copynumber="0">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_00x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hlar_1" copynumber="1">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_10x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hlar_2" copynumber="2">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_20x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hlar_3" copynumber="3">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_30x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hlar_4" copynumber="4">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_40x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hlar_5" copynumber="5">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_50x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hlar_6" copynumber="6">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_60x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hlar_7" copynumber="7">
+        <volumeref ref="Hlar0x10"/>
+        <positionref ref="Hlar_70x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_0" copynumber="0">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_00x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_1" copynumber="1">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_10x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_2" copynumber="2">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_20x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_3" copynumber="3">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_30x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_4" copynumber="4">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_40x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_5" copynumber="5">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_50x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_6" copynumber="6">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_60x5inHppf0x10pos"/>
+      </physvol>
+      <physvol name="Hsmo_7" copynumber="7">
+        <volumeref ref="Hsmo0x10"/>
+        <positionref ref="Hsmo_70x5inHppf0x10pos"/>
+      </physvol>
+    </volume>
+    </structure>

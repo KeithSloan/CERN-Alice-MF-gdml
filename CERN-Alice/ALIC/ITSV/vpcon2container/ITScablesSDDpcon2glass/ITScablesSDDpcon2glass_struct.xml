@@ -1,0 +1,5 @@
+<structure><volume name="ITScablesSDDpcon2glass">
+      <materialref ref="ITS_SDD_OPTICFIB"/>
+      <solidref ref="TGeoPcon0x123"/>
+    </volume>
+    </structure>

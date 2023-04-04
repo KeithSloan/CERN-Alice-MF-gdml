@@ -1,0 +1,16 @@
+<materials><material name="ZDC_WALL">
+      <D unit="g/cm3" value="17.600000381469727"/>
+      <fraction n="0.029999999329447746" ref="IRON_elm"/>
+      <fraction n="0.039999999105930328" ref="NICKEL_elm"/>
+      <fraction n="0.93000000715255737" ref="TUNGSTEN_elm"/>
+    </material>
+    <element name="IRON_elm" formula="FE" Z="26">
+      <atom unit="g/mole" value="55.844999999999999"/>
+    </element>
+    <element name="NICKEL_elm" formula="NI" Z="28">
+      <atom unit="g/mole" value="58.693399999999997"/>
+    </element>
+    <element name="TUNGSTEN_elm" formula="W" Z="74">
+      <atom unit="g/mole" value="183.84"/>
+    </element>
+    </materials>

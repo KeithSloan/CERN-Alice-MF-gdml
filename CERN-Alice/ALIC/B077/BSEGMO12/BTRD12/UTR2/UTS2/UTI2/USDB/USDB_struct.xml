@@ -1,28 +1,4 @@
-<structure><volume name="USD6">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USD60x1"/>
-    </volume>
-    <volume name="USD5">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USD50x1"/>
-    </volume>
-    <volume name="USD4">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USD40x1"/>
-    </volume>
-    <volume name="USD3">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USD30x1"/>
-    </volume>
-    <volume name="USD2">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USD20x1"/>
-    </volume>
-    <volume name="USD1">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="USD10x1"/>
-    </volume>
-    <volume name="USDB">
+<structure><volume name="USDB">
       <materialref ref="TRD_Al"/>
       <solidref ref="USDB0x1"/>
       <physvol name="USD1_1" copynumber="1">

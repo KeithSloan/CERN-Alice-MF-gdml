@@ -1,0 +1,9 @@
+<structure><volume name="Hsec">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hsec0x1"/>
+      <physvol name="Hgap_1" copynumber="1">
+        <volumeref ref="Hgap"/>
+        <positionref ref="Hgap_1inHsecpos"/>
+      </physvol>
+    </volume>
+    </structure>

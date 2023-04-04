@@ -1,0 +1,5 @@
+<solids><polycone name="TGeoPcon0x130" startphi="57.623966126825231" deltaphi="19.752067746349535" aunit="deg" lunit="cm">
+      <zplane z="66.575696192530955" rmin="43.548749999999998" rmax="44.248750000000001"/>
+      <zplane z="67.7049858313691" rmin="43.548749999999998" rmax="44.248750000000001"/>
+    </polycone>
+    </solids>

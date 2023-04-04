@@ -1,8 +1,4 @@
-<structure><volume name="DC2">
-      <materialref ref="DIPO_Al2"/>
-      <solidref ref="TGeoTubeSeg0x1"/>
-    </volume>
-    <volume name="DC1">
+<structure><volume name="DC1">
       <materialref ref="DIPO_Al0"/>
       <solidref ref="TGeoTubeSeg"/>
       <physvol name="DC2_1" copynumber="1">

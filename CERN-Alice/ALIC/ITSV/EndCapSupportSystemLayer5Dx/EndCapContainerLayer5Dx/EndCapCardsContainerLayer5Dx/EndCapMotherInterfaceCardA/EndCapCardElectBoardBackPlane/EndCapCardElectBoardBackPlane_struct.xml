@@ -1,0 +1,5 @@
+<structure><volume name="EndCapCardElectBoardBackPlane">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x78"/>
+    </volume>
+    </structure>

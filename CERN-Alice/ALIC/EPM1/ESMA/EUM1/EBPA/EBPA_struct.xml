@@ -1,0 +1,5 @@
+<structure><volume name="EBPA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBPA0x1"/>
+    </volume>
+    </structure>

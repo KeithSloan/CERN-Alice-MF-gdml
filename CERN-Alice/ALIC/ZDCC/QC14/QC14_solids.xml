@@ -1,0 +1,2 @@
+<solids><tube name="QC140x1" rmin="2.7000000000000002" rmax="2.8999999999999999" z="40" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

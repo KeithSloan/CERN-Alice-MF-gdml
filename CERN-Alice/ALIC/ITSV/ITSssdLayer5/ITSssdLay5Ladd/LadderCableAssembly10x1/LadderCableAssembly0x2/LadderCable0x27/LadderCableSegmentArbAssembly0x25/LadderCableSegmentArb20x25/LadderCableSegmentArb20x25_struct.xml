@@ -1,0 +1,5 @@
+<structure><volume name="LadderCableSegmentArb20x25">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="LadderCableSegmentArbShape20x25"/>
+    </volume>
+    </structure>

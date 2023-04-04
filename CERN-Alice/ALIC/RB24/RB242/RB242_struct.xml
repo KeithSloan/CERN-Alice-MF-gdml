@@ -2,14 +2,6 @@
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="TGeoTube0x23"/>
     </volume>
-    <volume name="voRB24CuTubeF">
-      <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoTube0x23"/>
-    </volume>
-    <volume name="voRB242CuTube">
-      <materialref ref="PIPE_COPPER"/>
-      <solidref ref="TGeoTube0x42"/>
-    </volume>
     <assembly name="RB242">
       <physvol name="voRB242CuTube_1" copynumber="1">
         <volumeref ref="voRB242CuTube"/>

@@ -1,0 +1,9 @@
+<structure><volume name="SPDshieldring">
+      <materialref ref="ITS_SPD_shield"/>
+      <solidref ref="TGeoTube0x125"/>
+      <physvol name="SPDshieldringinsert_1" copynumber="1">
+        <volumeref ref="SPDshieldringinsert"/>
+        <positionref ref="SPDshieldringinsert_1inSPDshieldringpos"/>
+      </physvol>
+    </volume>
+    </structure>

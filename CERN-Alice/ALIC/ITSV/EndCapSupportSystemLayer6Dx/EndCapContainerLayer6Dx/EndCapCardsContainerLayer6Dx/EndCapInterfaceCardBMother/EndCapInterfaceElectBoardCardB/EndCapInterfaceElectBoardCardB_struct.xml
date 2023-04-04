@@ -1,0 +1,5 @@
+<structure><volume name="EndCapInterfaceElectBoardCardB">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x82"/>
+    </volume>
+    </structure>

@@ -1,0 +1,21 @@
+<structure><volume name="Hcov0x12">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="Hcov0x13"/>
+    </volume>
+    <volume name="Hsbo0x12">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hsbo0x13"/>
+      <physvol name="Hhon_1" copynumber="1">
+        <volumeref ref="Hhon0x12"/>
+        <positionref ref="Hhon_10x6inHsbo0x12pos"/>
+      </physvol>
+      <physvol name="Hcov_1" copynumber="1">
+        <volumeref ref="Hcov0x12"/>
+        <positionref ref="Hcov_10x6inHsbo0x12pos"/>
+      </physvol>
+      <physvol name="Hcov_2" copynumber="2">
+        <volumeref ref="Hcov0x12"/>
+        <positionref ref="Hcov_20x6inHsbo0x12pos"/>
+      </physvol>
+    </volume>
+    </structure>

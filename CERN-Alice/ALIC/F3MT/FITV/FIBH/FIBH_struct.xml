@@ -1,0 +1,35 @@
+<structure><volume name="FISL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FISL0x1"/>
+    </volume>
+    <assembly name="FIBH">
+      <physvol name="FISE_0" copynumber="0">
+        <volumeref ref="FISE"/>
+        <positionref ref="FISE_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FIPB_0" copynumber="0">
+        <volumeref ref="FIPB"/>
+        <positionref ref="FIPB_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FICU_0" copynumber="0">
+        <volumeref ref="FICU"/>
+        <positionref ref="FICU_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FICH_0" copynumber="0">
+        <volumeref ref="FICH"/>
+        <positionref ref="FICH_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_0" copynumber="0">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_1" copynumber="1">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_1inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_2" copynumber="2">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_2inFIBHpos"/>
+      </physvol>
+    </assembly>
+    </structure>

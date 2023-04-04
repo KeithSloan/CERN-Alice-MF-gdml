@@ -1,0 +1,54 @@
+<structure><volume name="SSDMountingBracket">
+      <materialref ref="ITS_ALUMINUM"/>
+      <solidref ref="TGeoTubeSeg0x65"/>
+    </volume>
+    <volume name="SSDWing">
+      <materialref ref="ITS_SSD_C_M55J"/>
+      <solidref ref="TGeoTubeSeg0x63"/>
+      <physvol name="SSDWingInsert_1" copynumber="1">
+        <volumeref ref="SSDWingInsert"/>
+        <positionref ref="SSDWingInsert_1inSSDWingpos"/>
+      </physvol>
+    </volume>
+    <assembly name="ITSssdCone">
+      <physvol name="SSDCarbonFiberCone_1" copynumber="1">
+        <volumeref ref="SSDCarbonFiberCone"/>
+        <positionref ref="SSDCarbonFiberCone_1inITSssdConepos"/>
+      </physvol>
+      <physvol name="SSDWing_1" copynumber="1">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_1inITSssdConepos"/>
+        <rotationref ref="SSDWing_1inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDWing_2" copynumber="2">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_2inITSssdConepos"/>
+        <rotationref ref="SSDWing_2inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDWing_3" copynumber="3">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_3inITSssdConepos"/>
+        <rotationref ref="SSDWing_3inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDWing_4" copynumber="4">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_4inITSssdConepos"/>
+        <rotationref ref="SSDWing_4inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDMountingBracket_1" copynumber="1">
+        <volumeref ref="SSDMountingBracket"/>
+        <positionref ref="SSDMountingBracket_1inITSssdConepos"/>
+        <rotationref ref="SSDMountingBracket_1inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDMountingBracket_2" copynumber="2">
+        <volumeref ref="SSDMountingBracket"/>
+        <positionref ref="SSDMountingBracket_2inITSssdConepos"/>
+        <rotationref ref="SSDMountingBracket_2inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDMountingBracket_3" copynumber="3">
+        <volumeref ref="SSDMountingBracket"/>
+        <positionref ref="SSDMountingBracket_3inITSssdConepos"/>
+        <rotationref ref="SSDMountingBracket_3inITSssdConerot"/>
+      </physvol>
+    </assembly>
+    </structure>

@@ -1,0 +1,68 @@
+<structure><assembly name="endConeSDDCable">
+      <physvol name="cableSDDport20_1" copynumber="1">
+        <volumeref ref="cableSDDport20"/>
+        <positionref ref="cableSDDport20_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport20_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport50_1" copynumber="1">
+        <volumeref ref="cableSDDport50"/>
+        <positionref ref="cableSDDport50_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport50_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport85_1" copynumber="1">
+        <volumeref ref="cableSDDport85"/>
+        <positionref ref="cableSDDport85_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport85_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport95_1" copynumber="1">
+        <volumeref ref="cableSDDport95"/>
+        <positionref ref="cableSDDport95_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport95_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport105_1" copynumber="1">
+        <volumeref ref="cableSDDport105"/>
+        <positionref ref="cableSDDport105_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport105_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport129_1" copynumber="1">
+        <volumeref ref="cableSDDport129"/>
+        <positionref ref="cableSDDport129_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport129_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport176_1" copynumber="1">
+        <volumeref ref="cableSDDport176"/>
+        <positionref ref="cableSDDport176_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport176_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport190_1" copynumber="1">
+        <volumeref ref="cableSDDport190"/>
+        <positionref ref="cableSDDport190_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport190_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport210_1" copynumber="1">
+        <volumeref ref="cableSDDport210"/>
+        <positionref ref="cableSDDport210_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport210_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport230_1" copynumber="1">
+        <volumeref ref="cableSDDport230"/>
+        <positionref ref="cableSDDport230_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport230_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport277_1" copynumber="1">
+        <volumeref ref="cableSDDport277"/>
+        <positionref ref="cableSDDport277_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport277_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport306_1" copynumber="1">
+        <volumeref ref="cableSDDport306"/>
+        <positionref ref="cableSDDport306_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport306_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport353_1" copynumber="1">
+        <volumeref ref="cableSDDport353"/>
+        <positionref ref="cableSDDport353_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport353_1inendConeSDDCablerot"/>
+      </physvol>
+    </assembly>
+    </structure>

@@ -1,0 +1,8 @@
+<solids><subtraction name="TGeoCompositeShape0x231">
+      <first ref="icap"/>
+      <second ref="ihole"/>
+      <position name="TGeoCompositeShape0x231iholepos" x="0" y="0" z="1.7250000000000001" unit="cm"/>
+    </subtraction>
+    <trd name="icap" x1="29.194800000000001" x2="46.7042" y1="2.3799999999999999" y2="2.3799999999999999" z="49.649999999999999" lunit="cm"/>
+    <trd name="ihole" x1="27.7484" x2="42.665599999999998" y1="2.3999999999999999" y2="2.3999999999999999" z="42.299999999999997" lunit="cm"/>
+    </solids>

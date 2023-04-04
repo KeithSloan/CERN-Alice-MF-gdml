@@ -2,54 +2,6 @@
       <materialref ref="DIPO_IRON2"/>
       <solidref ref="DCLA0x1"/>
     </volume>
-    <volume name="DCLA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCLA0x1"/>
-    </volume>
-    <volume name="DCLA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCLA0x1"/>
-    </volume>
-    <volume name="DCLA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCLA0x1"/>
-    </volume>
-    <volume name="DCLA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCLA0x1"/>
-    </volume>
-    <volume name="DCLA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCLA0x1"/>
-    </volume>
-    <volume name="DCLA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCLA0x1"/>
-    </volume>
-    <volume name="DCLA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCLA0x1"/>
-    </volume>
-    <volume name="DCC1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCC10x1"/>
-    </volume>
-    <volume name="DCC1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCC10x1"/>
-    </volume>
-    <volume name="DCC1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCC10x1"/>
-    </volume>
-    <volume name="DCC1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCC10x1"/>
-    </volume>
-    <volume name="DCC1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCC10x1"/>
-    </volume>
     <volume name="DCC1">
       <materialref ref="DIPO_COPPER2"/>
       <solidref ref="DCC10x1"/>
@@ -57,14 +9,6 @@
     <volume name="DCCV">
       <materialref ref="DIPO_COPPER2"/>
       <solidref ref="DCCV0x1"/>
-    </volume>
-    <volume name="DCCV">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCCV0x1"/>
-    </volume>
-    <volume name="DCH2">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCH20x1"/>
     </volume>
     <volume name="DCMU">
       <materialref ref="DIPO_IRON2"/>
@@ -73,30 +17,6 @@
         <volumeref ref="DCH2"/>
         <positionref ref="DCH2_1inDCMUpos"/>
       </physvol>
-    </volume>
-    <volume name="DCH2">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCH20x1"/>
-    </volume>
-    <volume name="DCMU">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCMU0x1"/>
-      <physvol name="DCH2_1" copynumber="1">
-        <volumeref ref="DCH2"/>
-        <positionref ref="DCH2_1inDCMUpos"/>
-      </physvol>
-    </volume>
-    <volume name="DCC1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCC10x1"/>
-    </volume>
-    <volume name="DCCV">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCCV0x1"/>
-    </volume>
-    <volume name="DCH1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCH10x1"/>
     </volume>
     <volume name="DCML">
       <materialref ref="DIPO_IRON2"/>
@@ -114,39 +34,6 @@
         <positionref ref="DCC1_7inDCMLpos"/>
         <rotationref ref="DCC1_7inDCMLrot"/>
       </physvol>
-    </volume>
-    <volume name="DCC1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCC10x1"/>
-    </volume>
-    <volume name="DCCV">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCCV0x1"/>
-    </volume>
-    <volume name="DCH1">
-      <materialref ref="DIPO_COPPER2"/>
-      <solidref ref="DCH10x1"/>
-    </volume>
-    <volume name="DCML">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCML0x1"/>
-      <physvol name="DCH1_1" copynumber="1">
-        <volumeref ref="DCH1"/>
-        <positionref ref="DCH1_1inDCMLpos"/>
-      </physvol>
-      <physvol name="DCCV_3" copynumber="3">
-        <volumeref ref="DCCV"/>
-        <positionref ref="DCCV_3inDCMLpos"/>
-      </physvol>
-      <physvol name="DCC1_7" copynumber="7">
-        <volumeref ref="DCC1"/>
-        <positionref ref="DCC1_7inDCMLpos"/>
-        <rotationref ref="DCC1_7inDCMLrot"/>
-      </physvol>
-    </volume>
-    <volume name="DCBA">
-      <materialref ref="DIPO_IRON2"/>
-      <solidref ref="DCBA0x1"/>
     </volume>
     <assembly name="DCM0">
       <physvol name="DCBA_1" copynumber="1">

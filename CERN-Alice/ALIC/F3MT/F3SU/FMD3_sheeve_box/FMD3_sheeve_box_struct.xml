@@ -1,0 +1,36 @@
+<structure><volume name="FMD3_sheeve_wing">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_wing0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_side">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_side0x1"/>
+    </volume>
+    <assembly name="FMD3_sheeve_box">
+      <physvol name="FMD3_sheeve_side_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_side"/>
+        <positionref ref="FMD3_sheeve_side_1inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_side_2" copynumber="2">
+        <volumeref ref="FMD3_sheeve_side"/>
+        <positionref ref="FMD3_sheeve_side_2inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_back_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_back"/>
+        <positionref ref="FMD3_sheeve_back_1inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_wing_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_wing"/>
+        <positionref ref="FMD3_sheeve_wing_1inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_wing_2" copynumber="2">
+        <volumeref ref="FMD3_sheeve_wing"/>
+        <positionref ref="FMD3_sheeve_wing_2inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_wheel_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_wheel"/>
+        <positionref ref="FMD3_sheeve_wheel_1inFMD3_sheeve_boxpos"/>
+        <rotationref ref="FMD3_sheeve_wheel_1inFMD3_sheeve_boxrot"/>
+      </physvol>
+    </assembly>
+    </structure>

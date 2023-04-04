@@ -1,20 +1,4 @@
-<structure><volume name="Extender30x2">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="Extender30x3"/>
-    </volume>
-    <volume name="Extender20x2">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="Extender20x3"/>
-    </volume>
-    <volume name="Extender10x2">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="Extender10x3"/>
-    </volume>
-    <volume name="ITSSPDresistor0x2">
-      <materialref ref="ITS_ALUMINUM"/>
-      <solidref ref="ITSSPDresistor0x3"/>
-    </volume>
-    <volume name="ITSSPDresistor0x2">
+<structure><volume name="ITSSPDresistor0x2">
       <materialref ref="ITS_ALUMINUM"/>
       <solidref ref="ITSSPDresistor0x3"/>
     </volume>
@@ -22,53 +6,9 @@
       <materialref ref="ITS_SDD_X7R_capacitors"/>
       <solidref ref="ITSSPDcapacitor0x3"/>
     </volume>
-    <volume name="ITSSPDcapacitor0x2">
-      <materialref ref="ITS_SDD_X7R_capacitors"/>
-      <solidref ref="ITSSPDcapacitor0x3"/>
-    </volume>
     <volume name="ITSSPDpt10000x2">
       <materialref ref="ITS_CERAMICS"/>
       <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDpt10000x2">
-      <materialref ref="ITS_CERAMICS"/>
-      <solidref ref="ITSSPDpt10000x3"/>
-    </volume>
-    <volume name="ITSSPDbus0x2">
-      <materialref ref="ITS_SPDBUSALKPTEPOX"/>
-      <solidref ref="ITSSPDbus0x3"/>
     </volume>
     <assembly name="ITSSPDpixelBus0x1">
       <physvol name="ITSSPDbus_1" copynumber="1">

@@ -1,0 +1,11 @@
+<structure><assembly name="LadderCableSegmentBBoxAssembly0x88">
+      <physvol name="LadderCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox10x88"/>
+        <positionref ref="LadderCableSegmentBBox1_10x88inLadderCableSegmentBBoxAssembly0x88pos"/>
+      </physvol>
+      <physvol name="LadderCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox20x88"/>
+        <positionref ref="LadderCableSegmentBBox2_10x88inLadderCableSegmentBBoxAssembly0x88pos"/>
+      </physvol>
+    </assembly>
+    </structure>

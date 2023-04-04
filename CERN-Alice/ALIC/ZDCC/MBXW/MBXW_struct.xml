@@ -1,0 +1,5 @@
+<structure><volume name="MBXW">
+      <materialref ref="ZDC_VOIM"/>
+      <solidref ref="MBXW0x1"/>
+    </volume>
+    </structure>

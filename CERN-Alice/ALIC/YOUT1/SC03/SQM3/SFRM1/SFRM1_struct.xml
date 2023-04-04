@@ -2,14 +2,6 @@
       <materialref ref="MUON_Rohacell"/>
       <solidref ref="SFRR10x1"/>
     </volume>
-    <volume name="SFRR1">
-      <materialref ref="MUON_Rohacell"/>
-      <solidref ref="SFRR10x1"/>
-    </volume>
-    <volume name="SFRA1">
-      <materialref ref="MUON_AIR"/>
-      <solidref ref="SFRA10x1"/>
-    </volume>
     <volume name="SFRA1">
       <materialref ref="MUON_AIR"/>
       <solidref ref="SFRA10x1"/>

@@ -1,0 +1,7 @@
+<solids><subtraction name="sV0APMB6">
+      <first ref="sV0APMB16"/>
+      <second ref="sV0APMB26"/>
+    </subtraction>
+    <box name="sV0APMB16" x="24.600000000000001" y="22" z="7.0999999999999996" lunit="cm"/>
+    <box name="sV0APMB26" x="24" y="20" z="6.5" lunit="cm"/>
+    </solids>

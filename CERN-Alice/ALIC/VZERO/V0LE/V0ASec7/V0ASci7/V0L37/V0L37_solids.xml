@@ -1,0 +1,24 @@
+<solids><subtraction name="sV0AR37">
+      <first ref="sV0AR3b7"/>
+      <second ref="sV0ACha7"/>
+    </subtraction>
+    <tube name="sV0AR3b7" rmin="13.9" rmax="22.599999999999998" z="2.5" startphi="270" deltaphi="45" aunit="deg" lunit="cm"/>
+    <union name="sV0ACha7">
+      <first ref="sV0ACha127"/>
+      <second ref="sV0ANailsHoles7"/>
+    </union>
+    <union name="sV0ACha127">
+      <first ref="sV0ACha17"/>
+      <second ref="sV0ACha27"/>
+    </union>
+    <arb8 name="sV0ACha17" v1x="0" v1y="-4.2999999999999998" v2x="0.10000000000000001" v2y="-4.2999999999999998" v3x="0.10000000000000001" v3y="-41.199999999999996" v4x="0" v4y="-41.199999999999996" v5x="0" v5y="-4.2999999999999998" v6x="0.10000000000000001" v6y="-4.2999999999999998" v7x="0.10000000000000001" v7y="-41.199999999999996" v8x="0" v8y="-41.199999999999996" dz="1.6666666666666667" lunit="cm"/>
+    <arb8 name="sV0ACha27" v1x="2.7698484809834998" v1y="-2.6284271247461901" v2x="29.544931419241721" v2y="-29.403510063004408" v3x="29.474220741123066" v3y="-29.674220741123062" v4x="2.6991378028648452" v4y="-2.8991378028648449" v5x="2.7698484809834998" v5y="-2.6284271247461901" v6x="29.544931419241721" v6y="-29.403510063004408" v7x="29.474220741123066" v7y="-29.674220741123062" v8x="2.6991378028648452" v8y="-2.8991378028648449" dz="1.6499999999999999" lunit="cm"/>
+    <union name="sV0ANailsHoles7">
+      <first ref="sV0ANail17Hole"/>
+      <second ref="sV0ANail27Hole"/>
+      <firstposition name="sV0ANailsHoles7sV0ANail17Holepos" x="0.51000000000000001" y="-42.899999999999999" z="0" unit="cm"/>
+      <position name="sV0ANailsHoles7sV0ANail27Holepos" x="30.050000000000001" y="-30.789999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail17Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail27Hole" rmin="0" rmax="0.40000000000000002" z="3.2999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

@@ -1,0 +1,10 @@
+<solids><subtraction name="sV0APMB5">
+      <first ref="sV0APMB15"/>
+      <second ref="sV0APMB25"/>
+    </subtraction>
+    <box name="sV0APMB15" x="24.600000000000001" y="22" z="7.0999999999999996" lunit="cm"/>
+    <box name="sV0APMB25" x="24" y="20" z="6.5" lunit="cm"/>
+    <tube name="sV0APMT15" rmin="2.4399999999999999" rmax="2.54" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0APMT25" rmin="2.54" rmax="2.7000000000000002" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0APMTT5" rmin="0" rmax="2.7000000000000002" z="1" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

@@ -1,0 +1,9 @@
+<define><position name="FIAC_0inFISEpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FISE_0inFIBHpos" x="0" y="0" z="0.016" unit="cm"/>
+    <position name="FIPB_0inFIBHpos" x="0" y="0" z="0.122" unit="cm"/>
+    <position name="FICU_0inFIBHpos" x="0" y="0" z="0.16700000000000001" unit="cm"/>
+    <position name="FICH_0inFIBHpos" x="0" y="0" z="0.17700000000000002" unit="cm"/>
+    <position name="FISL_0inFIBHpos" x="8.0533999999999999" y="0.055168700000000001" z="0.61699999999999999" unit="cm"/>
+    <position name="FISL_1inFIBHpos" x="12.9457" y="2.9992999999999999" z="0.61699999999999999" unit="cm"/>
+    <position name="FISL_2inFIBHpos" x="12.950799999999999" y="-2.9062000000000001" z="0.61699999999999999" unit="cm"/>
+    </define>

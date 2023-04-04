@@ -1,0 +1,5 @@
+<structure><volume name="F3HI">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="F3HI0x1"/>
+    </volume>
+    </structure>

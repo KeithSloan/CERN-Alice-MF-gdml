@@ -1,0 +1,15 @@
+<define><position name="SSDChipComp_1inSSDChippos" x="0" y="0" z="-0.0015" unit="cm"/>
+    <position name="SSDChipGlueComp_1inSSDChippos" x="0" y="0" z="0.0074999999999999997" unit="cm"/>
+    <position name="SSDChip_1inSSDChipContainerpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SSDChip_2inSSDChipContainerpos" x="1.2100000000000002" y="0" z="0" unit="cm"/>
+    <position name="SSDChip_3inSSDChipContainerpos" x="2.4200000000000004" y="0" z="0" unit="cm"/>
+    <position name="SSDChip_4inSSDChipContainerpos" x="3.6300000000000008" y="0" z="0" unit="cm"/>
+    <position name="SSDChip_5inSSDChipContainerpos" x="4.8400000000000007" y="0" z="0" unit="cm"/>
+    <position name="SSDChip_6inSSDChipContainerpos" x="6.0500000000000007" y="0" z="0" unit="cm"/>
+    <position name="SSDChip_7inSSDChipContainerpos" x="0" y="3.0049999999999999" z="0" unit="cm"/>
+    <position name="SSDChip_8inSSDChipContainerpos" x="1.2100000000000002" y="3.0049999999999999" z="0" unit="cm"/>
+    <position name="SSDChip_9inSSDChipContainerpos" x="2.4200000000000004" y="3.0049999999999999" z="0" unit="cm"/>
+    <position name="SSDChip_10inSSDChipContainerpos" x="3.6300000000000008" y="3.0049999999999999" z="0" unit="cm"/>
+    <position name="SSDChip_11inSSDChipContainerpos" x="4.8400000000000007" y="3.0049999999999999" z="0" unit="cm"/>
+    <position name="SSDChip_12inSSDChipContainerpos" x="6.0500000000000007" y="3.0049999999999999" z="0" unit="cm"/>
+    </define>

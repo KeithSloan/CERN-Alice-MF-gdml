@@ -1,0 +1,4 @@
+<define><position name="V0APlaInNailsHoles6_1inV0APla6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0APlaOuNailsHoles6_1inV0APla6pos" x="0" y="0" z="0.22" unit="cm"/>
+    <position name="V0APlaOuNailsHoles6_2inV0APla6pos" x="0" y="0" z="-0.22" unit="cm"/>
+    </define>

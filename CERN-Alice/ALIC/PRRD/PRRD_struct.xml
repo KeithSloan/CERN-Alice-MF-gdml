@@ -1,0 +1,17 @@
+<structure><volume name="PRP1">
+      <materialref ref="PHOS_Steel"/>
+      <solidref ref="PRP10x1"/>
+    </volume>
+    <volume name="PRRD">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PRRD0x1"/>
+      <physvol name="PRAI_0" copynumber="0">
+        <volumeref ref="PRAI"/>
+        <positionref ref="PRAI_0inPRRDpos"/>
+      </physvol>
+      <physvol name="PRAI_1" copynumber="1">
+        <volumeref ref="PRAI"/>
+        <positionref ref="PRAI_1inPRRDpos"/>
+      </physvol>
+    </volume>
+    </structure>

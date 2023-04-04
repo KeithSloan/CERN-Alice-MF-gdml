@@ -1,28 +1,4 @@
-<structure><volume name="UV17">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x492"/>
-    </volume>
-    <volume name="UO17">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x491"/>
-    </volume>
-    <volume name="UN17">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x490"/>
-    </volume>
-    <volume name="UM17">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x489"/>
-    </volume>
-    <volume name="UY17">
-      <materialref ref="TRD_Araldite"/>
-      <solidref ref="TGeoBBox0x488"/>
-    </volume>
-    <volume name="UL17">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x487"/>
-    </volume>
-    <volume name="UG17">
+<structure><volume name="UG17">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x486"/>
       <physvol name="UL17_1" copynumber="1">

@@ -1,0 +1,5 @@
+<structure><volume name="OREG">
+      <materialref ref="T0_PMT_Optical_glass_cathode_"/>
+      <solidref ref="OREG0x1"/>
+    </volume>
+    </structure>

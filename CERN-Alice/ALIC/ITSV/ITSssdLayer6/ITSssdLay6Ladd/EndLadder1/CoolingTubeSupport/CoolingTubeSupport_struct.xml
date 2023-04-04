@@ -1,0 +1,36 @@
+<structure><volume name="CoolingTubeSupport">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x22"/>
+      <physvol name="CoolingTubeSupportArc_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportArc"/>
+        <positionref ref="CoolingTubeSupportArc_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubeSupportArc_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubeSupportBox_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportBox"/>
+        <positionref ref="CoolingTubeSupportBox_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeSupportSeg_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportSeg"/>
+        <positionref ref="CoolingTubeSupportSeg_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeWaterArcPart_1" copynumber="1">
+        <volumeref ref="CoolingTubeWaterArcPart"/>
+        <positionref ref="CoolingTubeWaterArcPart_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubeWaterArcPart_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubePhynoxArcPart_1" copynumber="1">
+        <volumeref ref="CoolingTubePhynoxArcPart"/>
+        <positionref ref="CoolingTubePhynoxArcPart_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubePhynoxArcPart_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubePhynoxPart_1" copynumber="1">
+        <volumeref ref="CoolingTubePhynoxPart"/>
+        <positionref ref="CoolingTubePhynoxPart_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeWaterPart_1" copynumber="1">
+        <volumeref ref="CoolingTubeWaterPart"/>
+        <positionref ref="CoolingTubeWaterPart_1inCoolingTubeSupportpos"/>
+      </physvol>
+    </volume>
+    </structure>

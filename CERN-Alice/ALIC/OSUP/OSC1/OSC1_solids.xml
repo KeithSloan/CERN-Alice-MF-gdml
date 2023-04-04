@@ -1,0 +1,2 @@
+<solids><tube name="OSC10x1" rmin="4.4000000953674316" rmax="5.0999999046325684" z="0.10000000149011612" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

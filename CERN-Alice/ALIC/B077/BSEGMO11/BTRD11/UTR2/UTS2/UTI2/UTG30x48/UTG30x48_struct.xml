@@ -1,8 +1,4 @@
-<structure><volume name="UTG40x48">
-      <materialref ref="TRD_XeCO2"/>
-      <solidref ref="UTG40x49"/>
-    </volume>
-    <volume name="UTG30x48">
+<structure><volume name="UTG30x48">
       <materialref ref="TRD_Fe"/>
       <solidref ref="UTG30x49"/>
       <physvol name="UTG4_1" copynumber="1">

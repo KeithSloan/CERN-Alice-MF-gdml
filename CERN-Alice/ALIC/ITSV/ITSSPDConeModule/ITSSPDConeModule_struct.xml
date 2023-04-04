@@ -1,16 +1,4 @@
-<structure><volume name="ITSSPDPlate">
-      <materialref ref="ITS_SPD_C_M55J"/>
-      <solidref ref="ITSSPDPlate_shape"/>
-    </volume>
-    <volume name="ITSSPDextenderMCM">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="ITSSPDextenderMCM0x1"/>
-    </volume>
-    <volume name="ITSSPDExtender">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="TGeoXtru0x18"/>
-    </volume>
-    <assembly name="ITSSPDConeModule">
+<structure><assembly name="ITSSPDConeModule">
       <physvol name="ITSSPDExtender_0" copynumber="0">
         <volumeref ref="ITSSPDExtender"/>
         <positionref ref="ITSSPDExtender_0inITSSPDConeModulepos"/>

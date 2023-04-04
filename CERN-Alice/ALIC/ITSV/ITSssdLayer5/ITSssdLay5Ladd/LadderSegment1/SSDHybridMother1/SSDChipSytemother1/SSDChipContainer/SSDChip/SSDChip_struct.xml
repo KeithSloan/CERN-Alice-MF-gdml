@@ -1,0 +1,13 @@
+<structure><volume name="SSDChip">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="SSDChipShape"/>
+      <physvol name="SSDChipComp_1" copynumber="1">
+        <volumeref ref="SSDChipComp"/>
+        <positionref ref="SSDChipComp_1inSSDChippos"/>
+      </physvol>
+      <physvol name="SSDChipGlueComp_1" copynumber="1">
+        <volumeref ref="SSDChipGlueComp"/>
+        <positionref ref="SSDChipGlueComp_1inSSDChippos"/>
+      </physvol>
+    </volume>
+    </structure>

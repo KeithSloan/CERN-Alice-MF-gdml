@@ -1,0 +1,5 @@
+<structure><volume name="vSddCableInterCylGlass">
+      <materialref ref="ITS_SDD_OPTICFIB"/>
+      <solidref ref="sddCableInterCylGlass"/>
+    </volume>
+    </structure>

@@ -1,0 +1,2 @@
+<solids><tube name="QTD50x1" rmin="6" rmax="6.2000000000000002" z="540" startphi="270" deltaphi="180" aunit="deg" lunit="cm"/>
+    </solids>

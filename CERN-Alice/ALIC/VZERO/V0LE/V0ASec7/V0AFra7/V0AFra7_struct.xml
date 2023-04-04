@@ -1,0 +1,31 @@
+<structure><assembly name="V0AFra7">
+      <physvol name="V0AFraB17_1" copynumber="1">
+        <volumeref ref="V0AFraB17"/>
+        <positionref ref="V0AFraB17_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraB27_1" copynumber="1">
+        <volumeref ref="V0AFraB27"/>
+        <positionref ref="V0AFraB27_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR17_1" copynumber="1">
+        <volumeref ref="V0AFraR17"/>
+        <positionref ref="V0AFraR17_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR27_1" copynumber="1">
+        <volumeref ref="V0AFraR27"/>
+        <positionref ref="V0AFraR27_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR37_1" copynumber="1">
+        <volumeref ref="V0AFraR37"/>
+        <positionref ref="V0AFraR37_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR47_1" copynumber="1">
+        <volumeref ref="V0AFraR47"/>
+        <positionref ref="V0AFraR47_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR57_1" copynumber="1">
+        <volumeref ref="V0AFraR57"/>
+        <positionref ref="V0AFraR57_1inV0AFra7pos"/>
+      </physvol>
+    </assembly>
+    </structure>

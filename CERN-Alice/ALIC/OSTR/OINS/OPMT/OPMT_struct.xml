@@ -1,0 +1,33 @@
+<structure><volume name="OPMT">
+      <materialref ref="T0_Air"/>
+      <solidref ref="OPMT0x1"/>
+      <physvol name="0TOP_1" copynumber="1">
+        <volumeref ref="OTOP"/>
+        <positionref ref="OTOP_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0TOO_1" copynumber="1">
+        <volumeref ref="OTOO"/>
+        <positionref ref="OTOO_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0REG_1" copynumber="1">
+        <volumeref ref="OREG"/>
+        <positionref ref="OREG_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0BOT_1" copynumber="1">
+        <volumeref ref="OBOT"/>
+        <positionref ref="OBOT_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0OUT_1" copynumber="1">
+        <volumeref ref="OOUT"/>
+        <positionref ref="OOUT_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0CER_1" copynumber="1">
+        <volumeref ref="OCER"/>
+        <positionref ref="OCER_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0STE_1" copynumber="1">
+        <volumeref ref="OSTE"/>
+        <positionref ref="OSTE_1inOPMTpos"/>
+      </physvol>
+    </volume>
+    </structure>

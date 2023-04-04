@@ -1,0 +1,7 @@
+<define><position name="ACORDE1_a_1inACORDE_MODULEpos" x="0" y="0" z="13" unit="cm"/>
+    <position name="ACORDE1_a_2inACORDE_MODULEpos" x="0" y="0" z="-13" unit="cm"/>
+    <position name="ACORDE10_3inACORDE_MODULEpos" x="151" y="0" z="0" unit="cm"/>
+    <position name="ACORDE10_4inACORDE_MODULEpos" x="-151" y="0" z="0" unit="cm"/>
+    <position name="ACORDE2_5inACORDE_MODULEpos" x="-4.1500000953674316" y="0" z="0" unit="cm"/>
+    <position name="ACORDE2_6inACORDE_MODULEpos" x="-3.1000001430511475" y="-1" z="0" unit="cm"/>
+    </define>

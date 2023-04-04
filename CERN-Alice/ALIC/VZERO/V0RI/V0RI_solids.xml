@@ -1,0 +1,10 @@
+<solids><tube name="V0CA0x1" rmin="4.5999999046325684" rmax="38" z="0.30000001192092896" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="V0IR0x1" rmin="4.3000001907348633" rmax="4.5999999046325684" z="4.6999998092651367" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="V0ER0x1" rmin="38" rmax="38.299999237060547" z="4.6999998092651367" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="V0R10x1" rmin="4.5999999046325684" rmax="7.0999999046325684" z="2" startphi="67.5" deltaphi="45" aunit="deg" lunit="cm"/>
+    <tube name="V0R20x1" rmin="7.0999999046325684" rmax="11.5" z="2" startphi="67.5" deltaphi="45" aunit="deg" lunit="cm"/>
+    <tube name="V0R30x1" rmin="11.699999809265137" rmax="19.100000381469727" z="2" startphi="67.5" deltaphi="22.5" aunit="deg" lunit="cm"/>
+    <tube name="V0R40x1" rmin="11.699999809265137" rmax="19.100000381469727" z="2" startphi="90" deltaphi="22.5" aunit="deg" lunit="cm"/>
+    <tube name="V0R50x1" rmin="19.5" rmax="32" z="2" startphi="68.278732299804688" deltaphi="20.942535400390625" aunit="deg" lunit="cm"/>
+    <tube name="V0R60x1" rmin="19.5" rmax="32" z="2" startphi="90.778732299804688" deltaphi="20.942535400390625" aunit="deg" lunit="cm"/>
+    </solids>

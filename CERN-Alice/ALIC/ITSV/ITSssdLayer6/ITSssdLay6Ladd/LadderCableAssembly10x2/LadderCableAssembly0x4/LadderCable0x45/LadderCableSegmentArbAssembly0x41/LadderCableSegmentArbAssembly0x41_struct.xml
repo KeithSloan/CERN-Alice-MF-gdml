@@ -1,0 +1,13 @@
+<structure><assembly name="LadderCableSegmentArbAssembly0x41">
+      <physvol name="LadderCableSegmentArb1_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentArb10x41"/>
+        <positionref ref="LadderCableSegmentArb1_10x41inLadderCableSegmentArbAssembly0x41pos"/>
+        <rotationref ref="LadderCableSegmentArb1_10x41inLadderCableSegmentArbAssembly0x41rot"/>
+      </physvol>
+      <physvol name="LadderCableSegmentArb2_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentArb20x41"/>
+        <positionref ref="LadderCableSegmentArb2_10x41inLadderCableSegmentArbAssembly0x41pos"/>
+        <rotationref ref="LadderCableSegmentArb2_10x41inLadderCableSegmentArbAssembly0x41rot"/>
+      </physvol>
+    </assembly>
+    </structure>

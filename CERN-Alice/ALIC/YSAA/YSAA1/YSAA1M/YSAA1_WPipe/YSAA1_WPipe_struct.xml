@@ -1,8 +1,4 @@
-<structure><volume name="YSAA1_WPipeI">
-      <materialref ref="SHIL_Ni-W-Cu3"/>
-      <solidref ref="TGeoTube0x1"/>
-    </volume>
-    <volume name="YSAA1_WPipe">
+<structure><volume name="YSAA1_WPipe">
       <materialref ref="SHIL_Ni-W-Cu1"/>
       <solidref ref="TGeoPcon0x17"/>
       <physvol name="YSAA1_WPipeI_1" copynumber="1">
