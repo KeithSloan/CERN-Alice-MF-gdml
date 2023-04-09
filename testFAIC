@@ -1,0 +1,1 @@
+python3 newUtils/buildDirStruct.py 1 FAIC Alice_original.gdml $HOME/Downloads/CERN-FAIC
