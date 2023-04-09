@@ -484,7 +484,8 @@ class VolAsm():
         print(f"Process Volume {vname}")
 
         self.processPhysVols(lxml, vol, path)
-        self.newStruct.append(lxml.getVolAsmStruct(vname))
+        #self.newStruct.append(lxml.getVolAsmStruct(vname))
+        # added by processPhysVols
         solidRef = vol.find('solidref')
         sname = None
         if solidRef is not None:
@@ -507,7 +508,8 @@ class VolAsm():
         aname = assem.attrib.get('name')
         print('Process Assembly ; '+aname)
         self.processPhysVols(lxml, assem, path)
-        self.newStruct.append(lxml.getVolAsmStruct(aname))
+        #self.newStruct.append(lxml.getVolAsmStruct(aname))
+        # added by processPhysVols
 
 
     def processVolAsm(self, lxml, path, vaname):
