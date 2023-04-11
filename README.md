@@ -1,5 +1,16 @@
 ### Latest Status
 
+04/04/24
+
+Fixes for volume and assembly structure
+
+testAlice - ran to completion in 12 hours approx
+
+CERN-Alice - 272.4 Mb
+
+
+27/03/23
+
 testAlice - ran. took several days but not to completion, not sure if resource or bug, need to try again.
             but seems to have created a good structure for what was processed.
             
