@@ -1,4 +1,40 @@
-<structure><volume name="UTR1">
+<structure><volume name="UTS1">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTS10x1"/>
+      <physvol name="USCR_1" copynumber="1">
+        <volumeref ref="USCR0x20"/>
+        <positionref ref="USCR_1inUTS1pos"/>
+      </physvol>
+      <physvol name="USCR_4" copynumber="4">
+        <volumeref ref="USCR0x22"/>
+        <positionref ref="USCR_4inUTS1pos"/>
+      </physvol>
+      <physvol name="USCR_7" copynumber="7">
+        <volumeref ref="USCR0x24"/>
+        <positionref ref="USCR_7inUTS1pos"/>
+      </physvol>
+      <physvol name="USCR_10" copynumber="10">
+        <volumeref ref="USCR0x26"/>
+        <positionref ref="USCR_10inUTS1pos"/>
+      </physvol>
+      <physvol name="USCR_13" copynumber="13">
+        <volumeref ref="USCR0x28"/>
+        <positionref ref="USCR_13inUTS1pos"/>
+      </physvol>
+      <physvol name="USCR_16" copynumber="16">
+        <volumeref ref="USCR0x30"/>
+        <positionref ref="USCR_16inUTS1pos"/>
+      </physvol>
+      <physvol name="USCR_19" copynumber="19">
+        <volumeref ref="USCR0x32"/>
+        <positionref ref="USCR_19inUTS1pos"/>
+      </physvol>
+      <physvol name="UTI1_1" copynumber="1">
+        <volumeref ref="UTI1"/>
+        <positionref ref="UTI1_1inUTS1pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTR1">
       <materialref ref="TRD_Air"/>
       <solidref ref="UTR10x1"/>
       <physvol name="UTS1_1" copynumber="1">

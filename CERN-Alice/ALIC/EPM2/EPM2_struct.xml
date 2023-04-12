@@ -1,6 +1,118 @@
-<structure><volume name="EFEE">
-      <materialref ref="PMD_G10"/>
-      <solidref ref="EFEE0x1"/>
+<structure><volume name="ESMA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="ESMA0x1"/>
+      <physvol name="EUM1_1" copynumber="1">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_1inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_2" copynumber="2">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_2inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_3" copynumber="3">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_3inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_4" copynumber="4">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_4inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_5" copynumber="5">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_5inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_6" copynumber="6">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_6inESMApos"/>
+      </physvol>
+    </volume>
+    <volume name="ESPA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="ESPA0x1"/>
+      <physvol name="EPB1_1" copynumber="1">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_1inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_2" copynumber="2">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_2inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_3" copynumber="3">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_3inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_4" copynumber="4">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_4inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_5" copynumber="5">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_5inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_6" copynumber="6">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_6inESPApos"/>
+      </physvol>
+    </volume>
+    <volume name="EFEA">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="EFEA0x1"/>
+    </volume>
+    <volume name="EMVA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EMVA0x1"/>
+      <physvol name="EUV1_1" copynumber="1">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_1inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_2" copynumber="2">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_2inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_3" copynumber="3">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_3inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_4" copynumber="4">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_4inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_5" copynumber="5">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_5inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_6" copynumber="6">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_6inEMVApos"/>
+      </physvol>
+    </volume>
+    <volume name="EFSA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EFSA0x1"/>
+      <physvol name="EFBA_1" copynumber="1">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_1inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_2" copynumber="2">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_2inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_3" copynumber="3">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_3inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_4" copynumber="4">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_4inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_5" copynumber="5">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_5inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_6" copynumber="6">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_6inEFSApos"/>
+      </physvol>
     </volume>
     <volume name="EPM2">
       <materialref ref="PMD_Air__"/>

@@ -14,6 +14,14 @@
         <positionref ref="S10C_1inS10Xpos"/>
       </physvol>
     </volume>
+    <volume name="SD0I">
+      <materialref ref="MUON_G10"/>
+      <solidref ref="composite510I"/>
+      <physvol name="SD0P_1" copynumber="1">
+        <volumeref ref="SD0P"/>
+        <positionref ref="SD0P_1inSD0Ipos"/>
+      </physvol>
+    </volume>
     <volume name="SD0X">
       <materialref ref="MUON_Nomex_bulk"/>
       <solidref ref="composite510X"/>
@@ -21,6 +29,14 @@
         <volumeref ref="SD0C"/>
         <positionref ref="SD0C_1inSD0Xpos"/>
       </physvol>
+    </volume>
+    <volume name="SD0D">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="composite5D0D"/>
+    </volume>
+    <volume name="S10V">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="S10V0x1"/>
     </volume>
     <assembly name="SLF5">
       <physvol name="S10V_11" copynumber="11">

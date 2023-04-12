@@ -1,6 +1,594 @@
-<structure><volume name="EndCapCoverPlateDownClip">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoBBox0x1138"/>
+<structure><volume name="EndCapSupportMotherLayer6">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPgon0x179"/>
+      <physvol name="UpEndCapSupportPieceLayer6_1" copynumber="1">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_1inEndCapSupportMotherLayer6pos"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_1" copynumber="1">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_1inEndCapSupportMotherLayer6pos"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_2" copynumber="2">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_2inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_2inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_2" copynumber="2">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_2inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_2inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_3" copynumber="3">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_3inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_3inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_3" copynumber="3">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_3inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_3inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_4" copynumber="4">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_4inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_4inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_4" copynumber="4">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_4inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_4inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_5" copynumber="5">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_5inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_5inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_5" copynumber="5">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_5inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_5inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_6" copynumber="6">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_6inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_6inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_6" copynumber="6">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_6inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_6inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_7" copynumber="7">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_7inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_7inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_7" copynumber="7">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_7inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_7inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_8" copynumber="8">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_8inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_8inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_8" copynumber="8">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_8inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_8inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_9" copynumber="9">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_9inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_9inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_9" copynumber="9">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_9inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_9inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_10" copynumber="10">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_10inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_10inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_10" copynumber="10">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_10inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_10inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_11" copynumber="11">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_11inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_11inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_11" copynumber="11">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_11inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_11inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_12" copynumber="12">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_12inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_12inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_12" copynumber="12">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_12inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_12inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_13" copynumber="13">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_13inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_13inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_13" copynumber="13">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_13inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_13inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_14" copynumber="14">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_14inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_14inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_14" copynumber="14">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_14inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_14inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_15" copynumber="15">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_15inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_15inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_15" copynumber="15">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_15inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_15inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_16" copynumber="16">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_16inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_16inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_16" copynumber="16">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_16inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_16inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_17" copynumber="17">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_17inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_17inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_17" copynumber="17">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_17inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_17inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_18" copynumber="18">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_18inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_18inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_18" copynumber="18">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_18inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_18inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_19" copynumber="19">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_19inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_19inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_19" copynumber="19">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_19inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_19inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_20" copynumber="20">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_20inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_20inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_20" copynumber="20">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_20inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_20inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_21" copynumber="21">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_21inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_21inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_21" copynumber="21">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_21inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_21inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_22" copynumber="22">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_22inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_22inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_22" copynumber="22">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_22inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_22inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_23" copynumber="23">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_23inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_23inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_23" copynumber="23">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_23inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_23inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_24" copynumber="24">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_24inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_24inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_24" copynumber="24">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_24inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_24inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_25" copynumber="25">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_25inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_25inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_25" copynumber="25">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_25inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_25inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_26" copynumber="26">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_26inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_26inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_26" copynumber="26">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_26inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_26inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_27" copynumber="27">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_27inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_27inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_27" copynumber="27">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_27inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_27inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_28" copynumber="28">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_28inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_28inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_28" copynumber="28">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_28inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_28inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_29" copynumber="29">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_29inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_29inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_29" copynumber="29">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_29inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_29inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_30" copynumber="30">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_30inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_30inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_30" copynumber="30">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_30inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_30inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_31" copynumber="31">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_31inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_31inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_31" copynumber="31">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_31inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_31inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_32" copynumber="32">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_32inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_32inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_32" copynumber="32">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_32inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_32inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_33" copynumber="33">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_33inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_33inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_33" copynumber="33">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_33inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_33inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_34" copynumber="34">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_34inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_34inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_34" copynumber="34">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_34inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_34inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_35" copynumber="35">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_35inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_35inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_35" copynumber="35">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_35inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_35inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_36" copynumber="36">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_36inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_36inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_36" copynumber="36">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_36inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_36inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_37" copynumber="37">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_37inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_37inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_37" copynumber="37">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_37inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_37inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="UpEndCapSupportPieceLayer6_38" copynumber="38">
+        <volumeref ref="UpEndCapSupportPieceLayer6"/>
+        <positionref ref="UpEndCapSupportPieceLayer6_38inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="UpEndCapSupportPieceLayer6_38inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+      <physvol name="DownEndCapSupportPieceLayer6_38" copynumber="38">
+        <volumeref ref="DownEndCapSupportPieceLayer6"/>
+        <positionref ref="DownEndCapSupportPieceLayer6_38inEndCapSupportMotherLayer6pos"/>
+        <rotationref ref="DownEndCapSupportPieceLayer6_38inEndCapSupportMotherLayer6rot"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapContainerLayer6Dx">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoBBox0x1125"/>
+      <physvol name="EndCapCoverPlateMother_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateMother"/>
+        <positionref ref="EndCapCoverPlateMother_10x1inEndCapContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapCoverPlateMother_10x1inEndCapContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapSideCoverMother_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverMother"/>
+        <positionref ref="EndCapSideCoverMother_10x1inEndCapContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapSideCoverMother_10x1inEndCapContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapSideCoverMother_2" copynumber="2">
+        <volumeref ref="EndCapSideCoverMother"/>
+        <positionref ref="EndCapSideCoverMother_20x1inEndCapContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapSideCoverMother_20x1inEndCapContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="MotherEndCapCoolingTube_1" copynumber="1">
+        <volumeref ref="MotherEndCapCoolingTube"/>
+        <positionref ref="MotherEndCapCoolingTube_10x1inEndCapContainerLayer6Dxpos"/>
+        <rotationref ref="MotherEndCapCoolingTube_10x1inEndCapContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_1" copynumber="1">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_10x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_2" copynumber="2">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_20x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_3" copynumber="3">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_30x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_4" copynumber="4">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_40x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_5" copynumber="5">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_50x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_6" copynumber="6">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_60x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_7" copynumber="7">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_70x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_8" copynumber="8">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_80x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_9" copynumber="9">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_90x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_10" copynumber="10">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_100x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_11" copynumber="11">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_110x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_12" copynumber="12">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_120x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_13" copynumber="13">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_130x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_14" copynumber="14">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_140x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_15" copynumber="15">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_150x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_16" copynumber="16">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_160x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_17" copynumber="17">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_170x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_18" copynumber="18">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_180x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_20" copynumber="20">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_200x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_21" copynumber="21">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_210x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_22" copynumber="22">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_220x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_23" copynumber="23">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_230x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_24" copynumber="24">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_240x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_25" copynumber="25">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_250x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_26" copynumber="26">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_260x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_27" copynumber="27">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_270x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_28" copynumber="28">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_280x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_29" copynumber="29">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_290x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_30" copynumber="30">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_300x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_31" copynumber="31">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_310x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_32" copynumber="32">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_320x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_33" copynumber="33">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_330x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_34" copynumber="34">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_340x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_35" copynumber="35">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_350x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapScrewCoverPlate_36" copynumber="36">
+        <volumeref ref="EndCapScrewCoverPlate"/>
+        <positionref ref="EndCapScrewCoverPlate_360x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateUpClip_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateUpClip"/>
+        <positionref ref="EndCapCoverPlateUpClip_10x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateUpClip_2" copynumber="2">
+        <volumeref ref="EndCapCoverPlateUpClip"/>
+        <positionref ref="EndCapCoverPlateUpClip_20x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateUpClip_3" copynumber="3">
+        <volumeref ref="EndCapCoverPlateUpClip"/>
+        <positionref ref="EndCapCoverPlateUpClip_30x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateUpClip_4" copynumber="4">
+        <volumeref ref="EndCapCoverPlateUpClip"/>
+        <positionref ref="EndCapCoverPlateUpClip_40x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateDownClip_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateDownClip"/>
+        <positionref ref="EndCapCoverPlateDownClip_10x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateDownClip_2" copynumber="2">
+        <volumeref ref="EndCapCoverPlateDownClip"/>
+        <positionref ref="EndCapCoverPlateDownClip_20x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateDownClip_3" copynumber="3">
+        <volumeref ref="EndCapCoverPlateDownClip"/>
+        <positionref ref="EndCapCoverPlateDownClip_30x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateDownClip_4" copynumber="4">
+        <volumeref ref="EndCapCoverPlateDownClip"/>
+        <positionref ref="EndCapCoverPlateDownClip_40x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapKaptonFoil_1" copynumber="1">
+        <volumeref ref="EndCapKaptonFoil"/>
+        <positionref ref="EndCapKaptonFoil_10x1inEndCapContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapEffectiveCables2_1" copynumber="1">
+        <volumeref ref="EndCapEffectiveCables2"/>
+        <positionref ref="EndCapEffectiveCables2_10x1inEndCapContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapEffectiveCables2_10x1inEndCapContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardsContainerLayer6Dx_1" copynumber="1">
+        <volumeref ref="EndCapCardsContainerLayer6Dx"/>
+        <positionref ref="EndCapCardsContainerLayer6Dx_1inEndCapContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapCardsContainerLayer6Dx_1inEndCapContainerLayer6Dxrot"/>
+      </physvol>
     </volume>
     <volume name="EndCapSupportSystemLayer6Dx">
       <materialref ref="ITS_SDD_AIR"/>

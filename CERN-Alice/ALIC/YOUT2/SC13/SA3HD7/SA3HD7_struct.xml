@@ -1,4 +1,12 @@
-<structure><assembly name="SA3HD7">
+<structure><volume name="SALH30x48">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SALH30x49"/>
+      <physvol name="SAIH3_1" copynumber="1">
+        <volumeref ref="SAIH30x24"/>
+        <positionref ref="SAIH3_10x24inSALH30x48pos"/>
+      </physvol>
+    </volume>
+    <assembly name="SA3HD7">
       <physvol name="SALH3_120" copynumber="120">
         <volumeref ref="SALH30x48"/>
         <positionref ref="SALH3_120inSA3HD7pos"/>

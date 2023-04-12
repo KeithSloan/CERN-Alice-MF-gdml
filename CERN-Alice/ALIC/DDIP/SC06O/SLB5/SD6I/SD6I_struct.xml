@@ -1,4 +1,20 @@
-<structure><volume name="SD6I">
+<structure><volume name="SD6P">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="composite6P0x1"/>
+      <physvol name="SD6H_1" copynumber="1">
+        <volumeref ref="SD6H"/>
+        <positionref ref="SD6H_1inSD6Ppos"/>
+      </physvol>
+      <physvol name="S06B_1" copynumber="1">
+        <volumeref ref="S06B"/>
+        <positionref ref="S06B_10x1inSD6Ppos"/>
+      </physvol>
+      <physvol name="SD6B_1" copynumber="1">
+        <volumeref ref="SD6B"/>
+        <positionref ref="SD6B_1inSD6Ppos"/>
+      </physvol>
+    </volume>
+    <volume name="SD6I">
       <materialref ref="MUON_G10"/>
       <solidref ref="composite6I0x1"/>
       <physvol name="SD6P_1" copynumber="1">

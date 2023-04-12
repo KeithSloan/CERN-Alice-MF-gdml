@@ -1,4 +1,20 @@
-<structure><assembly name="SSDChipCablesMother0x1">
+<structure><volume name="SSDChipcableKaptonlay2Right0x1">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x42"/>
+    </volume>
+    <volume name="SSDChipcableAllay1Right0x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x41"/>
+    </volume>
+    <volume name="SSDChipcableKaptonlay2Left0x1">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x40"/>
+    </volume>
+    <volume name="SSDChipcableAllay1Left0x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x39"/>
+    </volume>
+    <assembly name="SSDChipCablesMother0x1">
       <physvol name="SSDChipcableAllay1Left_1" copynumber="1">
         <volumeref ref="SSDChipcableAllay1Left0x1"/>
         <positionref ref="SSDChipcableAllay1Left_10x1inSSDChipCablesMother0x1pos"/>

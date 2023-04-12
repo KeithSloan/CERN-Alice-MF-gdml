@@ -1,6 +1,14 @@
-<structure><volume name="FMD3_sheeve_wing">
+<structure><volume name="FMD3_sheeve_wheel">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_wheel0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_wing">
       <materialref ref="FMD_Plastic"/>
       <solidref ref="FMD3_sheeve_wing0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_back">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_back0x1"/>
     </volume>
     <volume name="FMD3_sheeve_side">
       <materialref ref="FMD_Plastic"/>

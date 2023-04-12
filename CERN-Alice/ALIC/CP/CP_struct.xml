@@ -1,4 +1,42 @@
-<structure><assembly name="CP">
+<structure><assembly name="Cp3">
+      <physvol name="CP3MO_1" copynumber="1">
+        <volumeref ref="CP3MO"/>
+        <positionref ref="CP3MO_1inCp3pos"/>
+      </physvol>
+      <physvol name="CpSupC_3" copynumber="3">
+        <volumeref ref="CpSupC"/>
+        <positionref ref="CpSupC_3inCp3pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="Cp1">
+      <physvol name="CP1MO_1" copynumber="1">
+        <volumeref ref="CP1MO"/>
+        <positionref ref="CP1MO_1inCp1pos"/>
+      </physvol>
+      <physvol name="CpSupC_1" copynumber="1">
+        <volumeref ref="CpSupC"/>
+        <positionref ref="CpSupC_1inCp1pos"/>
+      </physvol>
+      <physvol name="CpSupC_2" copynumber="2">
+        <volumeref ref="CpSupC"/>
+        <positionref ref="CpSupC_2inCp1pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="CP2">
+      <physvol name="CP2MO_1" copynumber="1">
+        <volumeref ref="CP2MO"/>
+        <positionref ref="CP2MO_1inCP2pos"/>
+      </physvol>
+      <physvol name="FwdaBPPT_1" copynumber="1">
+        <volumeref ref="FwdaBPPT"/>
+        <positionref ref="FwdaBPPT_1inCP2pos"/>
+      </physvol>
+      <physvol name="FwdaBPS_1" copynumber="1">
+        <volumeref ref="FwdaBPS"/>
+        <positionref ref="FwdaBPS_1inCP2pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="CP">
       <physvol name="CP2_1" copynumber="1">
         <volumeref ref="CP2"/>
         <positionref ref="CP2_1inCPpos"/>

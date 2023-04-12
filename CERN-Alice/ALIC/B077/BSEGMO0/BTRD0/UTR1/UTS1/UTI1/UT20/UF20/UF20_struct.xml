@@ -1,4 +1,32 @@
-<structure><volume name="UF20">
+<structure><volume name="UG20">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x253"/>
+      <physvol name="UL20_1" copynumber="1">
+        <volumeref ref="UL20"/>
+        <positionref ref="UL20_1inUG20pos"/>
+      </physvol>
+      <physvol name="UY20_1" copynumber="1">
+        <volumeref ref="UY20"/>
+        <positionref ref="UY20_1inUG20pos"/>
+      </physvol>
+      <physvol name="UM20_1" copynumber="1">
+        <volumeref ref="UM20"/>
+        <positionref ref="UM20_1inUG20pos"/>
+      </physvol>
+      <physvol name="UN20_1" copynumber="1">
+        <volumeref ref="UN20"/>
+        <positionref ref="UN20_1inUG20pos"/>
+      </physvol>
+      <physvol name="UO20_1" copynumber="1">
+        <volumeref ref="UO20"/>
+        <positionref ref="UO20_1inUG20pos"/>
+      </physvol>
+      <physvol name="UV20_1" copynumber="1">
+        <volumeref ref="UV20"/>
+        <positionref ref="UV20_1inUG20pos"/>
+      </physvol>
+    </volume>
+    <volume name="UF20">
       <materialref ref="TRD_Al"/>
       <solidref ref="UF200x1"/>
       <physvol name="UG20_1" copynumber="1">

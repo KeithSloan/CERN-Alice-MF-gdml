@@ -1,4 +1,8 @@
-<structure><volume name="ECCU">
+<structure><volume name="ECAR">
+      <materialref ref="PMD_ArCO2"/>
+      <solidref ref="ECAR0x1"/>
+    </volume>
+    <volume name="ECCU">
       <materialref ref="PMD_Cu___"/>
       <solidref ref="ECCU0x1"/>
       <physvol name="ECAR_1" copynumber="1">

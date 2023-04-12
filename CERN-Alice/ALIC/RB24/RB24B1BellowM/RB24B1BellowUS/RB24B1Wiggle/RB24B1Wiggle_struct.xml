@@ -1,4 +1,12 @@
-<structure><volume name="RB24B1PlieConn1">
+<structure><volume name="RB24B1LowerPlie">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="RB24B1LowerPlie0x1"/>
+    </volume>
+    <volume name="RB24B1UpperPlie">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="RB24B1UpperPlie0x1"/>
+    </volume>
+    <volume name="RB24B1PlieConn1">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="TGeoTube0x29"/>
     </volume>

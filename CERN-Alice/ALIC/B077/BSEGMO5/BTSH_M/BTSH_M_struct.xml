@@ -1,18 +1,22 @@
-<structure><volume name="BTSHT3_M">
+<structure><volume name="BTSHT4_M">
+      <materialref ref="FRAME_ALU"/>
+      <solidref ref="BTSHT4_M0x1"/>
+    </volume>
+    <volume name="BTSHT3_M">
       <materialref ref="FRAME_ALU"/>
       <solidref ref="BTSHT3_M0x1"/>
+    </volume>
+    <volume name="BTSHT2_M">
+      <materialref ref="FRAME_ALU"/>
+      <solidref ref="BTSHT2_M0x1"/>
     </volume>
     <volume name="BTSHT1_M">
       <materialref ref="FRAME_ALU"/>
       <solidref ref="BTSHT1_M0x1"/>
     </volume>
-    <volume name="BTSHT4_M">
+    <volume name="BTSHA_M">
       <materialref ref="FRAME_ALU"/>
-      <solidref ref="BTSHT4_M0x1"/>
-    </volume>
-    <volume name="BTSHT2_M">
-      <materialref ref="FRAME_ALU"/>
-      <solidref ref="BTSHT2_M0x1"/>
+      <solidref ref="BTSHA_M0x1"/>
     </volume>
     <volume name="BTSH_M">
       <materialref ref="FRAME_AIR"/>

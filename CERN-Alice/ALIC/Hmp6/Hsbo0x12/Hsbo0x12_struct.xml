@@ -2,6 +2,10 @@
       <materialref ref="HMPID_Al"/>
       <solidref ref="Hcov0x13"/>
     </volume>
+    <volume name="Hhon0x12">
+      <materialref ref="HMPID_Roha"/>
+      <solidref ref="Hhon0x13"/>
+    </volume>
     <volume name="Hsbo0x12">
       <materialref ref="HMPID_CH4"/>
       <solidref ref="Hsbo0x13"/>

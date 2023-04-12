@@ -1,6 +1,55 @@
-<structure><volume name="voRB24CuTubeF">
+<structure><volume name="RB24B1BellowM">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon0x50"/>
+      <physvol name="RB24B1CT_1" copynumber="1">
+        <volumeref ref="RB24B1CT"/>
+        <positionref ref="RB24B1CT_1inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1BellowUS_1" copynumber="1">
+        <volumeref ref="RB24B1BellowUS"/>
+        <positionref ref="RB24B1BellowUS_1inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1CT_2" copynumber="2">
+        <volumeref ref="RB24B1CT"/>
+        <positionref ref="RB24B1CT_2inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1PT_1" copynumber="1">
+        <volumeref ref="RB24B1PT"/>
+        <positionref ref="RB24B1PT_1inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1PT_2" copynumber="2">
+        <volumeref ref="RB24B1PT"/>
+        <positionref ref="RB24B1PT_2inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1RFlange_1" copynumber="1">
+        <volumeref ref="RB24B1RFlange"/>
+        <positionref ref="RB24B1RFlange_1inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1RFlange_2" copynumber="2">
+        <volumeref ref="RB24B1RFlange"/>
+        <positionref ref="RB24B1RFlange_2inRB24B1BellowMpos"/>
+        <rotationref ref="RB24B1RFlange_2inRB24B1BellowMrot"/>
+      </physvol>
+      <physvol name="RB24B1RCTFlange_1" copynumber="1">
+        <volumeref ref="RB24B1RCTFlange"/>
+        <positionref ref="RB24B1RCTFlange_1inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1RCT_1" copynumber="1">
+        <volumeref ref="RB24B1RCT"/>
+        <positionref ref="RB24B1RCT_1inRB24B1BellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1TTF_1" copynumber="1">
+        <volumeref ref="RB24B1TTF"/>
+        <positionref ref="RB24B1TTF_1inRB24B1BellowMpos"/>
+      </physvol>
+    </volume>
+    <volume name="voRB24CuTubeF">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="TGeoTube0x23"/>
+    </volume>
+    <volume name="voRB243CuTube">
+      <materialref ref="PIPE_COPPER"/>
+      <solidref ref="TGeoTube0x43"/>
     </volume>
     <assembly name="RB243A">
       <physvol name="voRB243CuTube_1" copynumber="1">

@@ -1,4 +1,16 @@
-<structure><volume name="ITSSPDresistor">
+<structure><volume name="Extender3">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="Extender30x1"/>
+    </volume>
+    <volume name="Extender2">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="Extender20x1"/>
+    </volume>
+    <volume name="Extender1">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="Extender10x1"/>
+    </volume>
+    <volume name="ITSSPDresistor">
       <materialref ref="ITS_ALUMINUM"/>
       <solidref ref="ITSSPDresistor0x1"/>
     </volume>
@@ -9,6 +21,10 @@
     <volume name="ITSSPDpt1000">
       <materialref ref="ITS_CERAMICS"/>
       <solidref ref="ITSSPDpt10000x1"/>
+    </volume>
+    <volume name="ITSSPDbus">
+      <materialref ref="ITS_SPDBUSALKPTEPOX"/>
+      <solidref ref="ITSSPDbus0x1"/>
     </volume>
     <assembly name="ITSSPDpixelBus">
       <physvol name="ITSSPDbus_1" copynumber="1">

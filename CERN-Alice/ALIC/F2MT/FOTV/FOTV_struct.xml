@@ -1,11 +1,75 @@
-<structure><volume name="FOSL">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FOSL0x1"/>
+<structure><volume name="FODI">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FODI0x1"/>
     </volume>
-    <volume name="FOLL">
+    <volume name="FODC">
       <materialref ref="FMD_Copper"/>
-      <solidref ref="FOLL0x1"/>
+      <solidref ref="FODC0x1"/>
     </volume>
+    <volume name="FODP">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FODP0x1"/>
+    </volume>
+    <assembly name="FOBH">
+      <physvol name="FOSE_0" copynumber="0">
+        <volumeref ref="FOSE"/>
+        <positionref ref="FOSE_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOPB_0" copynumber="0">
+        <volumeref ref="FOPB"/>
+        <positionref ref="FOPB_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOCU_0" copynumber="0">
+        <volumeref ref="FOCU"/>
+        <positionref ref="FOCU_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOCH_0" copynumber="0">
+        <volumeref ref="FOCH"/>
+        <positionref ref="FOCH_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOSL_0" copynumber="0">
+        <volumeref ref="FOSL"/>
+        <positionref ref="FOSL_0inFOBHpos"/>
+      </physvol>
+      <physvol name="FOSL_1" copynumber="1">
+        <volumeref ref="FOSL"/>
+        <positionref ref="FOSL_1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOSL_2" copynumber="2">
+        <volumeref ref="FOSL"/>
+        <positionref ref="FOSL_2inFOBHpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="FOFH">
+      <physvol name="FOSE_0" copynumber="0">
+        <volumeref ref="FOSE"/>
+        <positionref ref="FOSE_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOPB_0" copynumber="0">
+        <volumeref ref="FOPB"/>
+        <positionref ref="FOPB_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOCU_0" copynumber="0">
+        <volumeref ref="FOCU"/>
+        <positionref ref="FOCU_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOCH_0" copynumber="0">
+        <volumeref ref="FOCH"/>
+        <positionref ref="FOCH_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_0" copynumber="0">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_1" copynumber="1">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_1inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_2" copynumber="2">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_2inFOFHpos"/>
+      </physvol>
+    </assembly>
     <assembly name="FOTV">
       <physvol name="FOFH_0" copynumber="0">
         <volumeref ref="FOFH"/>

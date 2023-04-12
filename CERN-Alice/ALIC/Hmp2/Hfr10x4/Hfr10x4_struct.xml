@@ -1,6 +1,70 @@
-<structure><volume name="Hsmo0x4">
-      <materialref ref="HMPID_Ar"/>
-      <solidref ref="Hsmo0x5"/>
+<structure><volume name="Hppf0x4">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="Hppf0x5"/>
+      <physvol name="Hlar_0" copynumber="0">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_00x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hlar_1" copynumber="1">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_10x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hlar_2" copynumber="2">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_20x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hlar_3" copynumber="3">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_30x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hlar_4" copynumber="4">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_40x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hlar_5" copynumber="5">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_50x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hlar_6" copynumber="6">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_60x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hlar_7" copynumber="7">
+        <volumeref ref="Hlar0x4"/>
+        <positionref ref="Hlar_70x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_0" copynumber="0">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_00x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_1" copynumber="1">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_10x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_2" copynumber="2">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_20x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_3" copynumber="3">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_30x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_4" copynumber="4">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_40x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_5" copynumber="5">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_50x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_6" copynumber="6">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_60x2inHppf0x4pos"/>
+      </physvol>
+      <physvol name="Hsmo_7" copynumber="7">
+        <volumeref ref="Hsmo0x4"/>
+        <positionref ref="Hsmo_70x2inHppf0x4pos"/>
+      </physvol>
     </volume>
     <volume name="Hfr1perDowSma0x4">
       <materialref ref="HMPID_CH4"/>
@@ -17,6 +81,58 @@
     <volume name="Hfr1perUpBig0x4">
       <materialref ref="HMPID_CH4"/>
       <solidref ref="Hfr1perUpBig0x5"/>
+    </volume>
+    <volume name="Hfr1up0x4">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr1up0x5"/>
+      <physvol name="Hcufoil_4" copynumber="4">
+        <volumeref ref="Hcufoil0x4"/>
+        <positionref ref="Hcufoil_40x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hcufoil_5" copynumber="5">
+        <volumeref ref="Hcufoil0x4"/>
+        <positionref ref="Hcufoil_50x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hcufoil_2" copynumber="2">
+        <volumeref ref="Hcufoil0x4"/>
+        <positionref ref="Hcufoil_20x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hcufoil_3" copynumber="3">
+        <volumeref ref="Hcufoil0x4"/>
+        <positionref ref="Hcufoil_30x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hcufoil_0" copynumber="0">
+        <volumeref ref="Hcufoil0x4"/>
+        <positionref ref="Hcufoil_00x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hcufoil_1" copynumber="1">
+        <volumeref ref="Hcufoil0x4"/>
+        <positionref ref="Hcufoil_10x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_4" copynumber="4">
+        <volumeref ref="Hfr1upcard0x4"/>
+        <positionref ref="Hfr1upcard_40x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_5" copynumber="5">
+        <volumeref ref="Hfr1upcard0x4"/>
+        <positionref ref="Hfr1upcard_50x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_2" copynumber="2">
+        <volumeref ref="Hfr1upcard0x4"/>
+        <positionref ref="Hfr1upcard_20x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_3" copynumber="3">
+        <volumeref ref="Hfr1upcard0x4"/>
+        <positionref ref="Hfr1upcard_30x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_0" copynumber="0">
+        <volumeref ref="Hfr1upcard0x4"/>
+        <positionref ref="Hfr1upcard_00x2inHfr1up0x4pos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_1" copynumber="1">
+        <volumeref ref="Hfr1upcard0x4"/>
+        <positionref ref="Hfr1upcard_10x2inHfr1up0x4pos"/>
+      </physvol>
     </volume>
     <volume name="Hfr10x4">
       <materialref ref="HMPID_Al"/>

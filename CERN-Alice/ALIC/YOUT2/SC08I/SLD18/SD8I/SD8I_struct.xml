@@ -1,4 +1,20 @@
-<structure><volume name="SD8I">
+<structure><volume name="SD8P">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="composite48P"/>
+      <physvol name="SD8H_1" copynumber="1">
+        <volumeref ref="SD8H"/>
+        <positionref ref="SD8H_1inSD8Ppos"/>
+      </physvol>
+      <physvol name="S08B_1" copynumber="1">
+        <volumeref ref="S08B"/>
+        <positionref ref="S08B_10x1inSD8Ppos"/>
+      </physvol>
+      <physvol name="SD8B_1" copynumber="1">
+        <volumeref ref="SD8B"/>
+        <positionref ref="SD8B_1inSD8Ppos"/>
+      </physvol>
+    </volume>
+    <volume name="SD8I">
       <materialref ref="MUON_G10"/>
       <solidref ref="composite48I"/>
       <physvol name="SD8P_1" copynumber="1">

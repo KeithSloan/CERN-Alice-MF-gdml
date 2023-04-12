@@ -1,4 +1,25 @@
-<structure><assembly name="V0APM6">
+<structure><assembly name="V0APMT6">
+      <physvol name="V0APMT16_1" copynumber="1">
+        <volumeref ref="V0APMT16"/>
+        <positionref ref="V0APMT16_1inV0APMT6pos"/>
+        <rotationref ref="V0APMT16_1inV0APMT6rot"/>
+      </physvol>
+      <physvol name="V0APMT26_1" copynumber="1">
+        <volumeref ref="V0APMT26"/>
+        <positionref ref="V0APMT26_1inV0APMT6pos"/>
+        <rotationref ref="V0APMT26_1inV0APMT6rot"/>
+      </physvol>
+      <physvol name="V0APMTT6_1" copynumber="1">
+        <volumeref ref="V0APMTT6"/>
+        <positionref ref="V0APMTT6_1inV0APMT6pos"/>
+        <rotationref ref="V0APMTT6_1inV0APMT6rot"/>
+      </physvol>
+    </assembly>
+    <volume name="V0APMB6">
+      <materialref ref="VZERO_V0APMA"/>
+      <solidref ref="sV0APMB6"/>
+    </volume>
+    <assembly name="V0APM6">
       <physvol name="V0APMB6_1" copynumber="1">
         <volumeref ref="V0APMB6"/>
         <positionref ref="V0APMB6_1inV0APM6pos"/>

@@ -1,4 +1,16 @@
-<structure><volume name="EMOD">
+<structure><volume name="SCM0">
+      <materialref ref="EMCAL_Air"/>
+      <solidref ref="SCM00x1"/>
+      <physvol name="SCMY_1" copynumber="1">
+        <volumeref ref="SCMY"/>
+        <positionref ref="SCMY_1inSCM0pos"/>
+      </physvol>
+      <physvol name="SCMY_2" copynumber="2">
+        <volumeref ref="SCMY"/>
+        <positionref ref="SCMY_2inSCM0pos"/>
+      </physvol>
+    </volume>
+    <volume name="EMOD">
       <materialref ref="EMCAL_STAINLESS_STEEL"/>
       <solidref ref="EMOD0x1"/>
       <physvol name="SCM0_1" copynumber="1">

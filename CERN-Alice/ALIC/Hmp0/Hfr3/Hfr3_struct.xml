@@ -1,4 +1,12 @@
-<structure><volume name="Hfr3">
+<structure><volume name="Hfr3down">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr3down0x1"/>
+    </volume>
+    <volume name="Hfr3up">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr3up0x1"/>
+    </volume>
+    <volume name="Hfr3">
       <materialref ref="HMPID_Al"/>
       <solidref ref="Hfr30x1"/>
       <physvol name="Hfr3up_1" copynumber="1">

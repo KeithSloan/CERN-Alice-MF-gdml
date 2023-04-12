@@ -1,4 +1,12 @@
-<structure><volume name="TPC_OCV1">
+<structure><volume name="TPC_OCV2">
+      <materialref ref="TPC_Tedlar"/>
+      <solidref ref="TGeoTube0x163"/>
+      <physvol name="TPC_OCV3_1" copynumber="1">
+        <volumeref ref="TPC_OCV3"/>
+        <positionref ref="TPC_OCV3_1inTPC_OCV2pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_OCV1">
       <materialref ref="TPC_Epoxy"/>
       <solidref ref="TGeoTube0x162"/>
       <physvol name="TPC_OCV2_1" copynumber="1">

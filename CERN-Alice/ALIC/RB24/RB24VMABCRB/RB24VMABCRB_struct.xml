@@ -1,6 +1,76 @@
-<structure><volume name="RB24B1RFlange">
+<structure><assembly name="RB24VMABRFCT">
+      <physvol name="RB24VMABCCT_1" copynumber="1">
+        <volumeref ref="RB24VMABCCT"/>
+        <positionref ref="RB24VMABCCT_1inRB24VMABRFCTpos"/>
+      </physvol>
+      <physvol name="RB24VMABCCTFlange_1" copynumber="1">
+        <volumeref ref="RB24VMABCCTFlange"/>
+        <positionref ref="RB24VMABCCTFlange_1inRB24VMABRFCTpos"/>
+      </physvol>
+    </assembly>
+    <volume name="RB24VMABCTT">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoPcon0x47"/>
+    </volume>
+    <volume name="RB24B1RFlange">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="TGeoPcon0x46"/>
+    </volume>
+    <volume name="RB24VMABBEBellowM">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon0x45"/>
+      <physvol name="RB24VMABBECT1_1" copynumber="1">
+        <volumeref ref="RB24VMABBECT1"/>
+        <positionref ref="RB24VMABBECT1_1inRB24VMABBEBellowMpos"/>
+      </physvol>
+      <physvol name="RB24B1BellowUS_2" copynumber="2">
+        <volumeref ref="RB24B1BellowUS"/>
+        <positionref ref="RB24B1BellowUS_2inRB24VMABBEBellowMpos"/>
+      </physvol>
+      <physvol name="RB24VMABBECT2_1" copynumber="1">
+        <volumeref ref="RB24VMABBECT2"/>
+        <positionref ref="RB24VMABBECT2_1inRB24VMABBEBellowMpos"/>
+      </physvol>
+    </volume>
+    <volume name="RB24VMABCRBT12">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTubeSeg0x11"/>
+    </volume>
+    <volume name="shRB24VMABCRBT4">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="shRB24VMABCRBT4c"/>
+    </volume>
+    <volume name="RB24VMABCPirani">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoPcon0x44"/>
+    </volume>
+    <volume name="RB24VMABCRBF3">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x26"/>
+    </volume>
+    <volume name="shRB24VMABCRBT3">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="shRB24VMABCRBT3c"/>
+    </volume>
+    <volume name="RB24VMABCRBF2B">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x25"/>
+    </volume>
+    <volume name="RB24VMABCRBF2">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x24"/>
+    </volume>
+    <volume name="shRB24VMABCRBT2">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="shRB24VMABCRBT2c"/>
+    </volume>
+    <volume name="RB24VMABCRBP">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoBBox0x957"/>
+    </volume>
+    <volume name="RB24VMABCRBI">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="shRB24VMABCRB"/>
     </volume>
     <assembly name="RB24VMABCRB">
       <physvol name="RB24VMABCRBI_1" copynumber="1">

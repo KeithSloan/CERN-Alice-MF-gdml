@@ -1,4 +1,58 @@
-<structure><assembly name="TPC_SECT0x1">
+<structure><assembly name="TPC_OROC">
+      <physvol name="TPC_OROCB_1" copynumber="1">
+        <volumeref ref="TPC_OROCB"/>
+        <positionref ref="TPC_OROCB_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORCAP_1" copynumber="1">
+        <volumeref ref="TPC_ORCAP"/>
+        <positionref ref="TPC_ORCAP_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORPP_1" copynumber="1">
+        <volumeref ref="TPC_ORPP"/>
+        <positionref ref="TPC_ORPP_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORF1_1" copynumber="1">
+        <volumeref ref="TPC_ORF1"/>
+        <positionref ref="TPC_ORF1_1inTPC_OROCpos"/>
+      </physvol>
+      <physvol name="TPC_ORF2_1" copynumber="1">
+        <volumeref ref="TPC_ORF2"/>
+        <positionref ref="TPC_ORF2_1inTPC_OROCpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="TPC_IROC">
+      <physvol name="TPC_IROCB_1" copynumber="1">
+        <volumeref ref="TPC_IROCB"/>
+        <positionref ref="TPC_IROCB_1inTPC_IROCpos"/>
+      </physvol>
+      <physvol name="TPC_IRCAP_1" copynumber="1">
+        <volumeref ref="TPC_IRCAP"/>
+        <positionref ref="TPC_IRCAP_1inTPC_IROCpos"/>
+      </physvol>
+      <physvol name="TPC_IRPP_1" copynumber="1">
+        <volumeref ref="TPC_IRPP"/>
+        <positionref ref="TPC_IRPP_1inTPC_IROCpos"/>
+      </physvol>
+      <physvol name="TPC_IRF1_1" copynumber="1">
+        <volumeref ref="TPC_IRF1"/>
+        <positionref ref="TPC_IRF1_1inTPC_IROCpos"/>
+      </physvol>
+      <physvol name="TPC_IRF2_1" copynumber="1">
+        <volumeref ref="TPC_IRF2"/>
+        <positionref ref="TPC_IRF2_1inTPC_IROCpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="TPC_WCH">
+      <physvol name="TPC_WSEG_1" copynumber="1">
+        <volumeref ref="TPC_WSEG"/>
+        <positionref ref="TPC_WSEG_1inTPC_WCHpos"/>
+      </physvol>
+      <physvol name="TPC_WBAR_1" copynumber="1">
+        <volumeref ref="TPC_WBAR"/>
+        <positionref ref="TPC_WBAR_1inTPC_WCHpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="TPC_SECT0x1">
       <physvol name="TPC_WCH_1" copynumber="1">
         <volumeref ref="TPC_WCH"/>
         <positionref ref="TPC_WCH_10x1inTPC_SECT0x1pos"/>

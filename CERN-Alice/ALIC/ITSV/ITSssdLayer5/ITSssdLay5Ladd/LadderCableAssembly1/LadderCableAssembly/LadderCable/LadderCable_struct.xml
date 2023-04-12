@@ -1,4 +1,36 @@
-<structure><assembly name="LadderCable">
+<structure><assembly name="LadderEndCableSegmentBBoxAssembly">
+      <physvol name="LadderEndCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox1"/>
+        <positionref ref="LadderEndCableSegmentBBox1_1inLadderEndCableSegmentBBoxAssemblypos"/>
+      </physvol>
+      <physvol name="LadderEndCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox2"/>
+        <positionref ref="LadderEndCableSegmentBBox2_1inLadderEndCableSegmentBBoxAssemblypos"/>
+      </physvol>
+    </assembly>
+    <assembly name="LadderCableSegmentArbAssembly">
+      <physvol name="LadderCableSegmentArb1_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentArb1"/>
+        <positionref ref="LadderCableSegmentArb1_1inLadderCableSegmentArbAssemblypos"/>
+        <rotationref ref="LadderCableSegmentArb1_1inLadderCableSegmentArbAssemblyrot"/>
+      </physvol>
+      <physvol name="LadderCableSegmentArb2_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentArb2"/>
+        <positionref ref="LadderCableSegmentArb2_1inLadderCableSegmentArbAssemblypos"/>
+        <rotationref ref="LadderCableSegmentArb2_1inLadderCableSegmentArbAssemblyrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="LadderCableSegmentBBoxAssembly">
+      <physvol name="LadderCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox1"/>
+        <positionref ref="LadderCableSegmentBBox1_1inLadderCableSegmentBBoxAssemblypos"/>
+      </physvol>
+      <physvol name="LadderCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox2"/>
+        <positionref ref="LadderCableSegmentBBox2_1inLadderCableSegmentBBoxAssemblypos"/>
+      </physvol>
+    </assembly>
+    <assembly name="LadderCable">
       <physvol name="LadderCableSegmentBBoxAssembly_1" copynumber="1">
         <volumeref ref="LadderCableSegmentBBoxAssembly"/>
         <positionref ref="LadderCableSegmentBBoxAssembly_1inLadderCablepos"/>

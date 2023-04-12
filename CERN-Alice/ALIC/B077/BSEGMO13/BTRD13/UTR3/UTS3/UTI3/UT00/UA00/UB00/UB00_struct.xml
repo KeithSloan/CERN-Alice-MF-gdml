@@ -1,4 +1,16 @@
-<structure><volume name="UB00">
+<structure><volume name="UX00">
+      <materialref ref="TRD_Araldite"/>
+      <solidref ref="UX000x1"/>
+      <physvol name="UC00_1" copynumber="1">
+        <volumeref ref="UC00"/>
+        <positionref ref="UC00_1inUX00pos"/>
+      </physvol>
+    </volume>
+    <volume name="UJ00">
+      <materialref ref="TRD_XeCO2"/>
+      <solidref ref="UJ000x1"/>
+    </volume>
+    <volume name="UB00">
       <materialref ref="TRD_C"/>
       <solidref ref="TGeoBBox0x65"/>
       <physvol name="UJ00_1" copynumber="1">

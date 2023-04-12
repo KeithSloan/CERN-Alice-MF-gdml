@@ -1,6 +1,294 @@
-<structure><volume name="EFEE">
-      <materialref ref="PMD_G10"/>
-      <solidref ref="EFEE0x1"/>
+<structure><volume name="EFBA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EFBA0x1"/>
+      <physvol name="EFEE_1" copynumber="1">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_1inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_2" copynumber="2">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_2inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_3" copynumber="3">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_3inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_4" copynumber="4">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_4inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_5" copynumber="5">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_5inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_6" copynumber="6">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_6inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_7" copynumber="7">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_7inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_8" copynumber="8">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_8inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_9" copynumber="9">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_9inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_10" copynumber="10">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_10inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_11" copynumber="11">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_11inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_12" copynumber="12">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_12inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_13" copynumber="13">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_13inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_14" copynumber="14">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_14inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_15" copynumber="15">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_15inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_16" copynumber="16">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_16inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_17" copynumber="17">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_17inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_18" copynumber="18">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_18inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_19" copynumber="19">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_19inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_20" copynumber="20">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_20inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_21" copynumber="21">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_21inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_22" copynumber="22">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_22inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_23" copynumber="23">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_23inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_24" copynumber="24">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_24inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_25" copynumber="25">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_25inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_26" copynumber="26">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_26inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_27" copynumber="27">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_27inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_28" copynumber="28">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_28inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_29" copynumber="29">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_29inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_30" copynumber="30">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_30inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_31" copynumber="31">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_31inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_32" copynumber="32">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_32inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_33" copynumber="33">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_33inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_34" copynumber="34">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_34inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_35" copynumber="35">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_35inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_36" copynumber="36">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_36inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_37" copynumber="37">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_37inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_38" copynumber="38">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_38inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_39" copynumber="39">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_39inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_40" copynumber="40">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_40inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_41" copynumber="41">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_41inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_42" copynumber="42">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_42inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_43" copynumber="43">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_43inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_44" copynumber="44">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_44inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_45" copynumber="45">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_45inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_46" copynumber="46">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_46inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_47" copynumber="47">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_47inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_48" copynumber="48">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_48inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_49" copynumber="49">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_49inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_50" copynumber="50">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_50inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_51" copynumber="51">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_51inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_52" copynumber="52">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_52inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_53" copynumber="53">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_53inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_54" copynumber="54">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_54inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_55" copynumber="55">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_55inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_56" copynumber="56">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_56inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_57" copynumber="57">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_57inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_58" copynumber="58">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_58inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_59" copynumber="59">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_59inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_60" copynumber="60">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_60inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_61" copynumber="61">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_61inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_62" copynumber="62">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_62inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_63" copynumber="63">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_63inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_64" copynumber="64">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_64inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_65" copynumber="65">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_65inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_66" copynumber="66">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_66inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_67" copynumber="67">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_67inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_68" copynumber="68">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_68inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_69" copynumber="69">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_69inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_70" copynumber="70">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_70inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_71" copynumber="71">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_71inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_72" copynumber="72">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_72inEFBApos"/>
+      </physvol>
     </volume>
     <volume name="EFSA">
       <materialref ref="PMD_Air__"/>

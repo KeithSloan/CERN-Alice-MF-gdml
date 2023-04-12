@@ -1,4 +1,145 @@
-<structure><assembly name="F2MB">
+<structure><assembly name="FMD2_support">
+      <physvol name="F2SU_1" copynumber="1">
+        <volumeref ref="F2SU"/>
+        <positionref ref="F2SU_1inFMD2_supportpos"/>
+      </physvol>
+      <physvol name="F2SB_1" copynumber="1">
+        <volumeref ref="F2SB"/>
+        <positionref ref="F2SB_1inFMD2_supportpos"/>
+      </physvol>
+      <physvol name="FMD2_back_cover_2" copynumber="2">
+        <volumeref ref="FMD2_back_cover"/>
+        <positionref ref="FMD2_back_cover_2inFMD2_supportpos"/>
+      </physvol>
+      <physvol name="FMD2_wing_1" copynumber="1">
+        <volumeref ref="FMD2_wing"/>
+        <positionref ref="FMD2_wing_1inFMD2_supportpos"/>
+        <rotationref ref="FMD2_wing_1inFMD2_supportrot"/>
+      </physvol>
+      <physvol name="FMD2_wing_2" copynumber="2">
+        <volumeref ref="FMD2_wing"/>
+        <positionref ref="FMD2_wing_2inFMD2_supportpos"/>
+        <rotationref ref="FMD2_wing_2inFMD2_supportrot"/>
+      </physvol>
+    </assembly>
+    <volume name="F2HO">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="F2HO0x1"/>
+    </volume>
+    <assembly name="FOBV">
+      <physvol name="FOFH_10" copynumber="10">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_10inFOBVpos"/>
+        <rotationref ref="FOFH_10inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_11" copynumber="11">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_11inFOBVpos"/>
+        <rotationref ref="FOBH_11inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_12" copynumber="12">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_12inFOBVpos"/>
+        <rotationref ref="FOFH_12inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_13" copynumber="13">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_13inFOBVpos"/>
+        <rotationref ref="FOBH_13inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_14" copynumber="14">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_14inFOBVpos"/>
+        <rotationref ref="FOFH_14inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_15" copynumber="15">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_15inFOBVpos"/>
+        <rotationref ref="FOBH_15inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_16" copynumber="16">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_16inFOBVpos"/>
+        <rotationref ref="FOFH_16inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_17" copynumber="17">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_17inFOBVpos"/>
+        <rotationref ref="FOBH_17inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_18" copynumber="18">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_18inFOBVpos"/>
+        <rotationref ref="FOFH_18inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_19" copynumber="19">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_19inFOBVpos"/>
+        <rotationref ref="FOBH_19inFOBVrot"/>
+      </physvol>
+      <physvol name="FODP_1" copynumber="1">
+        <volumeref ref="FODP"/>
+        <positionref ref="FODP_1inFOBVpos"/>
+        <rotationref ref="FODP_1inFOBVrot"/>
+      </physvol>
+      <physvol name="FODC_1" copynumber="1">
+        <volumeref ref="FODC"/>
+        <positionref ref="FODC_1inFOBVpos"/>
+        <rotationref ref="FODC_1inFOBVrot"/>
+      </physvol>
+      <physvol name="FODI_1" copynumber="1">
+        <volumeref ref="FODI"/>
+        <positionref ref="FODI_1inFOBVpos"/>
+        <rotationref ref="FODI_1inFOBVrot"/>
+      </physvol>
+    </assembly>
+    <volume name="F2HI">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="F2HI0x1"/>
+    </volume>
+    <assembly name="FIBV">
+      <physvol name="FIFH_5" copynumber="5">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_5inFIBVpos"/>
+        <rotationref ref="FIFH_5inFIBVrot"/>
+      </physvol>
+      <physvol name="FIBH_6" copynumber="6">
+        <volumeref ref="FIBH"/>
+        <positionref ref="FIBH_6inFIBVpos"/>
+        <rotationref ref="FIBH_6inFIBVrot"/>
+      </physvol>
+      <physvol name="FIFH_7" copynumber="7">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_7inFIBVpos"/>
+        <rotationref ref="FIFH_7inFIBVrot"/>
+      </physvol>
+      <physvol name="FIBH_8" copynumber="8">
+        <volumeref ref="FIBH"/>
+        <positionref ref="FIBH_8inFIBVpos"/>
+        <rotationref ref="FIBH_8inFIBVrot"/>
+      </physvol>
+      <physvol name="FIFH_9" copynumber="9">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_9inFIBVpos"/>
+        <rotationref ref="FIFH_9inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDP_1" copynumber="1">
+        <volumeref ref="FIDP"/>
+        <positionref ref="FIDP_1inFIBVpos"/>
+        <rotationref ref="FIDP_1inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDC_1" copynumber="1">
+        <volumeref ref="FIDC"/>
+        <positionref ref="FIDC_1inFIBVpos"/>
+        <rotationref ref="FIDC_1inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDI_1" copynumber="1">
+        <volumeref ref="FIDI"/>
+        <positionref ref="FIDI_1inFIBVpos"/>
+        <rotationref ref="FIDI_1inFIBVrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="F2MB">
       <physvol name="FIBV_73" copynumber="73">
         <volumeref ref="FIBV"/>
         <positionref ref="FIBV_730x1inF2MBpos"/>

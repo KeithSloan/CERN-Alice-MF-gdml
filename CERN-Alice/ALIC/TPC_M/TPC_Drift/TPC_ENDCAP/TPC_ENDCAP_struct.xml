@@ -1,4 +1,20 @@
-<structure><assembly name="TPC_ENDCAP">
+<structure><assembly name="TPC_SECT">
+      <physvol name="TPC_WCH_1" copynumber="1">
+        <volumeref ref="TPC_WCH"/>
+        <positionref ref="TPC_WCH_1inTPC_SECTpos"/>
+      </physvol>
+      <physvol name="TPC_IROC_1" copynumber="1">
+        <volumeref ref="TPC_IROC"/>
+        <positionref ref="TPC_IROC_1inTPC_SECTpos"/>
+        <rotationref ref="TPC_IROC_1inTPC_SECTrot"/>
+      </physvol>
+      <physvol name="TPC_OROC_1" copynumber="1">
+        <volumeref ref="TPC_OROC"/>
+        <positionref ref="TPC_OROC_1inTPC_SECTpos"/>
+        <rotationref ref="TPC_OROC_1inTPC_SECTrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="TPC_ENDCAP">
       <physvol name="TPC_SECT_1" copynumber="1">
         <volumeref ref="TPC_SECT"/>
         <positionref ref="TPC_SECT_1inTPC_ENDCAPpos"/>

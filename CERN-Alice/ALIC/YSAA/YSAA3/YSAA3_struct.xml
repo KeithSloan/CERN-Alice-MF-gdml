@@ -14,6 +14,10 @@
         <positionref ref="YSAA3SteelPlate11_1inYSAA3SteelPlate1pos"/>
       </physvol>
     </volume>
+    <volume name="YSAA3CCBlock">
+      <materialref ref="SHIL_CONCRETE3"/>
+      <solidref ref="Saa3CCBlock"/>
+    </volume>
     <assembly name="YSAA3">
       <physvol name="YSAA3CCBlock_1" copynumber="1">
         <volumeref ref="YSAA3CCBlock"/>

@@ -1,4 +1,32 @@
-<structure><volume name="RB24ValveFl">
+<structure><volume name="RB24ValveMA3">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x41"/>
+    </volume>
+    <volume name="RB24ValveMA2">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTorus"/>
+    </volume>
+    <volume name="RB24ValveMA1">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoCone0x10"/>
+    </volume>
+    <volume name="RB24ValveAT">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x40"/>
+    </volume>
+    <volume name="RB24ValveAFl">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoBBox0x961"/>
+    </volume>
+    <volume name="RB24ValveBoM">
+      <materialref ref="PIPE_AIR"/>
+      <solidref ref="TGeoBBox0x958"/>
+      <physvol name="RB24ValveBo_1" copynumber="1">
+        <volumeref ref="RB24ValveBo"/>
+        <positionref ref="RB24ValveBo_1inRB24ValveBoMpos"/>
+      </physvol>
+    </volume>
+    <volume name="RB24ValveFl">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="TGeoTube0x38"/>
     </volume>

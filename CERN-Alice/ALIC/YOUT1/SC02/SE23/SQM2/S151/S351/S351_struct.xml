@@ -10,6 +10,14 @@
         <positionref ref="SKPT_1inSCHLpos"/>
       </physvol>
     </volume>
+    <volume name="Spacer7A">
+      <materialref ref="MUON_Kapton"/>
+      <solidref ref="Spacer7A0x1"/>
+    </volume>
+    <volume name="Spacer6">
+      <materialref ref="MUON_FrameEpoxy"/>
+      <solidref ref="Spacer60x1"/>
+    </volume>
     <volume name="Spacer5A">
       <materialref ref="MUON_FrameEpoxy"/>
       <solidref ref="Spacer5A0x1"/>

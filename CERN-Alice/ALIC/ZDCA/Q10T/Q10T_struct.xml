@@ -1,4 +1,8 @@
-<structure><volume name="Q10T">
+<structure><volume name="Q11T">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="Q11T0x1"/>
+    </volume>
+    <volume name="Q10T">
       <materialref ref="ZDC_IRON0"/>
       <solidref ref="Q10T0x1"/>
       <physvol name="Q11T_1" copynumber="1">

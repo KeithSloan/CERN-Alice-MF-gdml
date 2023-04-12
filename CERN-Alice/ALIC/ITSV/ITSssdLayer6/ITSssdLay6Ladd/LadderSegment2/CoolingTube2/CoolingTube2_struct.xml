@@ -1,4 +1,12 @@
-<structure><volume name="CoolingTube2">
+<structure><volume name="InnerCoolingTube2">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x95"/>
+    </volume>
+    <volume name="OuterCoolingTube2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x94"/>
+    </volume>
+    <volume name="CoolingTube2">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="TGeoTube0x93"/>
       <physvol name="OuterCoolingTube2_1" copynumber="1">

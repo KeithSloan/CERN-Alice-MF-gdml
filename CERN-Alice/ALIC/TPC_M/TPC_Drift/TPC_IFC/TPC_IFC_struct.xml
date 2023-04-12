@@ -18,6 +18,14 @@
         <positionref ref="TPC_IFC8_1inTPC_IFC7pos"/>
       </physvol>
     </volume>
+    <volume name="TPC_IFC11">
+      <materialref ref="TPC_Tedlar"/>
+      <solidref ref="TGeoTube0x137"/>
+      <physvol name="TPC_IFC12_1" copynumber="1">
+        <volumeref ref="TPC_IFC12"/>
+        <positionref ref="TPC_IFC12_1inTPC_IFC11pos"/>
+      </physvol>
+    </volume>
     <assembly name="TPC_IFC">
       <physvol name="TPC_IFC11_1" copynumber="1">
         <volumeref ref="TPC_IFC11"/>

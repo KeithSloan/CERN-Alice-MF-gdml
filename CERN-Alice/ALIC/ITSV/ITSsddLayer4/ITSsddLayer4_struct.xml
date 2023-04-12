@@ -1,11 +1,164 @@
-<structure><volume name="ITSsddGlass">
-      <materialref ref="ITS_SDD_SI_insensitive"/>
-      <solidref ref="ITSsddGlassBox"/>
-    </volume>
-    <volume name="ITSsddCoolingEndLiquid0x1">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x89"/>
-    </volume>
+<structure><assembly name="ITSsddLadd0x1">
+      <physvol name="ITSsddSensor4_0" copynumber="0">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_0inITSsddLadd0x1pos"/>
+        <rotationref ref="ITSsddSensor4_0inITSsddLadd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddSensor4_1" copynumber="1">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_1inITSsddLadd0x1pos"/>
+        <rotationref ref="ITSsddSensor4_1inITSsddLadd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddSensor4_2" copynumber="2">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_2inITSsddLadd0x1pos"/>
+        <rotationref ref="ITSsddSensor4_2inITSsddLadd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddSensor4_3" copynumber="3">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_3inITSsddLadd0x1pos"/>
+        <rotationref ref="ITSsddSensor4_3inITSsddLadd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddSensor4_4" copynumber="4">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_4inITSsddLadd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSensor4_5" copynumber="5">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_5inITSsddLadd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSensor4_6" copynumber="6">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_6inITSsddLadd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSensor4_7" copynumber="7">
+        <volumeref ref="ITSsddSensor4"/>
+        <positionref ref="ITSsddSensor4_7inITSsddLadd0x1pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSsddLadder0x1">
+      <physvol name="ITSsddSegment_3" copynumber="3">
+        <volumeref ref="ITSsddSegment0x6"/>
+        <positionref ref="ITSsddSegment_30x1inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSegment_2" copynumber="2">
+        <volumeref ref="ITSsddSegment0x7"/>
+        <positionref ref="ITSsddSegment_20x1inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSegment_1" copynumber="1">
+        <volumeref ref="ITSsddSegment0x8"/>
+        <positionref ref="ITSsddSegment_10x1inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSegment_0" copynumber="0">
+        <volumeref ref="ITSsddSegment0x9"/>
+        <positionref ref="ITSsddSegment_00x1inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSegment_4" copynumber="4">
+        <volumeref ref="ITSsddSegment0x10"/>
+        <positionref ref="ITSsddSegment_40x1inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSegment_5" copynumber="5">
+        <volumeref ref="ITSsddSegment0x11"/>
+        <positionref ref="ITSsddSegment_50x1inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSegment_6" copynumber="6">
+        <volumeref ref="ITSsddSegment0x12"/>
+        <positionref ref="ITSsddSegment_6inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddSegment_7" copynumber="7">
+        <volumeref ref="ITSsddSegment0x13"/>
+        <positionref ref="ITSsddSegment_7inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddEnd_1" copynumber="1">
+        <volumeref ref="ITSsddEnd0x1"/>
+        <positionref ref="ITSsddEnd_10x1inITSsddLadder0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddEnd_2" copynumber="2">
+        <volumeref ref="ITSsddEnd0x1"/>
+        <positionref ref="ITSsddEnd_20x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddEnd_20x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable3_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable30x2"/>
+        <positionref ref="ITSsddHVcable3_10x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable3_10x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable3_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable30x3"/>
+        <positionref ref="ITSsddHVcable3_20x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable3_20x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable2_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable20x2"/>
+        <positionref ref="ITSsddHVcable2_10x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable2_10x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable2_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable20x3"/>
+        <positionref ref="ITSsddHVcable2_20x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable2_20x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable1_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable10x2"/>
+        <positionref ref="ITSsddHVcable1_10x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable1_10x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable1_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable10x3"/>
+        <positionref ref="ITSsddHVcable1_20x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable1_20x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable0_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable00x2"/>
+        <positionref ref="ITSsddHVcable0_10x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable0_10x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable0_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable00x3"/>
+        <positionref ref="ITSsddHVcable0_20x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable0_20x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable4_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable40x2"/>
+        <positionref ref="ITSsddHVcable4_10x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable4_10x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable4_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable40x3"/>
+        <positionref ref="ITSsddHVcable4_20x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable4_20x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable5_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable50x2"/>
+        <positionref ref="ITSsddHVcable5_10x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable5_10x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable5_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable50x3"/>
+        <positionref ref="ITSsddHVcable5_20x1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable5_20x1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable6_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable6"/>
+        <positionref ref="ITSsddHVcable6_1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable6_1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable6_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable60x1"/>
+        <positionref ref="ITSsddHVcable6_2inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable6_2inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable7_1" copynumber="1">
+        <volumeref ref="ITSsddHVcable7"/>
+        <positionref ref="ITSsddHVcable7_1inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable7_1inITSsddLadder0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddHVcable7_2" copynumber="2">
+        <volumeref ref="ITSsddHVcable70x1"/>
+        <positionref ref="ITSsddHVcable7_2inITSsddLadder0x1pos"/>
+        <rotationref ref="ITSsddHVcable7_2inITSsddLadder0x1rot"/>
+      </physvol>
+    </assembly>
     <volume name="ITSsddLayer4">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="ITSsddLayer4Shape"/>

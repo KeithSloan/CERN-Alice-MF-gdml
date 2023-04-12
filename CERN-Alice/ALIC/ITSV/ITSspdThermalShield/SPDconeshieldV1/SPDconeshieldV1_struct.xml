@@ -1,4 +1,8 @@
-<structure><volume name="SPDconeshieldV1">
+<structure><volume name="SPDconeshieldH1">
+      <materialref ref="ITS_SPD_AIR"/>
+      <solidref ref="TGeoArb80x150"/>
+    </volume>
+    <volume name="SPDconeshieldV1">
       <materialref ref="ITS_SPD_shield"/>
       <solidref ref="TGeoArb80x149"/>
       <physvol name="SPDconeshieldH1_1" copynumber="1">

@@ -1,4 +1,20 @@
-<structure><volume name="EUM1">
+<structure><volume name="EBPA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBPA0x1"/>
+    </volume>
+    <volume name="ESSA">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="ESSA0x1"/>
+      <physvol name="EDGA_1" copynumber="1">
+        <volumeref ref="EDGA"/>
+        <positionref ref="EDGA_1inESSApos"/>
+      </physvol>
+    </volume>
+    <volume name="EBKA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBKA0x1"/>
+    </volume>
+    <volume name="EUM1">
       <materialref ref="PMD_Air__"/>
       <solidref ref="EUM10x1"/>
       <physvol name="EBKA_1" copynumber="1">

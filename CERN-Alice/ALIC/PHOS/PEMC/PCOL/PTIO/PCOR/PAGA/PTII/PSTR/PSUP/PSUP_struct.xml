@@ -1,4 +1,8 @@
-<structure><volume name="PSUP">
+<structure><volume name="PSHO">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PSHO0x1"/>
+    </volume>
+    <volume name="PSUP">
       <materialref ref="PHOS_Al"/>
       <solidref ref="PSUP0x1"/>
       <physvol name="PSHO_1" copynumber="1">

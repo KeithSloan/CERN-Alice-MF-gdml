@@ -14,6 +14,14 @@
         <positionref ref="S08C_1inS08Xpos"/>
       </physvol>
     </volume>
+    <volume name="SD8I">
+      <materialref ref="MUON_G10"/>
+      <solidref ref="composite48I"/>
+      <physvol name="SD8P_1" copynumber="1">
+        <volumeref ref="SD8P"/>
+        <positionref ref="SD8P_1inSD8Ipos"/>
+      </physvol>
+    </volume>
     <volume name="SD8X">
       <materialref ref="MUON_Nomex_bulk"/>
       <solidref ref="composite48X"/>
@@ -21,6 +29,14 @@
         <volumeref ref="SD8C"/>
         <positionref ref="SD8C_1inSD8Xpos"/>
       </physvol>
+    </volume>
+    <volume name="SD8D">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="composite4D8D"/>
+    </volume>
+    <volume name="S08V">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="S08V0x1"/>
     </volume>
     <assembly name="SLD18">
       <physvol name="S08V_14" copynumber="14">

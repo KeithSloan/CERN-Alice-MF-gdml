@@ -1,4 +1,20 @@
-<structure><volume name="S09I">
+<structure><volume name="S09P">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S09P0x1"/>
+      <physvol name="S09H_1" copynumber="1">
+        <volumeref ref="S09H"/>
+        <positionref ref="S09H_1inS09Ppos"/>
+      </physvol>
+      <physvol name="S09B_1" copynumber="1">
+        <volumeref ref="S09B"/>
+        <positionref ref="S09B_1inS09Ppos"/>
+      </physvol>
+      <physvol name="S09B_2" copynumber="2">
+        <volumeref ref="S09B"/>
+        <positionref ref="S09B_2inS09Ppos"/>
+      </physvol>
+    </volume>
+    <volume name="S09I">
       <materialref ref="MUON_G10"/>
       <solidref ref="S09I0x1"/>
       <physvol name="S09P_1" copynumber="1">

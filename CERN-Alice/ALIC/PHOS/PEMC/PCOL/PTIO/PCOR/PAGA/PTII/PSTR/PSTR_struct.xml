@@ -1,4 +1,12 @@
-<structure><volume name="PCEL">
+<structure><volume name="PSUP">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PSUP0x1"/>
+      <physvol name="PSHO_1" copynumber="1">
+        <volumeref ref="PSHO"/>
+        <positionref ref="PSHO_1inPSUPpos"/>
+      </physvol>
+    </volume>
+    <volume name="PCEL">
       <materialref ref="PHOS_Air"/>
       <solidref ref="PCEL0x1"/>
       <physvol name="PWRA_1" copynumber="1">

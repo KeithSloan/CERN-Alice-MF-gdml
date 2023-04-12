@@ -1,4 +1,8 @@
-<structure><volume name="AFaWPlateA">
+<structure><volume name="AFaWPlateAI">
+      <materialref ref="ABSO_Ni-W-Cu2"/>
+      <solidref ref="TGeoPcon0x4"/>
+    </volume>
+    <volume name="AFaWPlateA">
       <materialref ref="ABSO_Ni-W-Cu0"/>
       <solidref ref="TGeoPcon0x3"/>
       <physvol name="AFaWPlateAI_1" copynumber="1">

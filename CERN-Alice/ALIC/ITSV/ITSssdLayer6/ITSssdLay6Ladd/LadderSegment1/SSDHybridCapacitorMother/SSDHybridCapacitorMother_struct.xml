@@ -1,4 +1,12 @@
-<structure><volume name="SSDConnectorNi">
+<structure><volume name="HybridWire">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="HybridWireShape"/>
+    </volume>
+    <volume name="Capacitor1812">
+      <materialref ref="ITS_SDD_ruby_sph._Al2O3"/>
+      <solidref ref="Capacitor1812Shape"/>
+    </volume>
+    <volume name="SSDConnectorNi">
       <materialref ref="ITS_COPPER"/>
       <solidref ref="TGeoBBox0x1120"/>
     </volume>

@@ -1,4 +1,8 @@
-<structure><volume name="AFaGraphiteCone">
+<structure><volume name="AFaGraphiteConeO">
+      <materialref ref="ABSO_CARBON0"/>
+      <solidref ref="TGeoCone0x3"/>
+    </volume>
+    <volume name="AFaGraphiteCone">
       <materialref ref="ABSO_CARBON2"/>
       <solidref ref="TGeoPcon0x11"/>
       <physvol name="AFaGraphiteConeO_1" copynumber="1">

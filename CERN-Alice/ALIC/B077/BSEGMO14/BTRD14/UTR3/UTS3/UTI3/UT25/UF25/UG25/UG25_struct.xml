@@ -1,4 +1,28 @@
-<structure><volume name="UG25">
+<structure><volume name="UV25">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x324"/>
+    </volume>
+    <volume name="UO25">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x323"/>
+    </volume>
+    <volume name="UN25">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x322"/>
+    </volume>
+    <volume name="UM25">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x321"/>
+    </volume>
+    <volume name="UY25">
+      <materialref ref="TRD_Araldite"/>
+      <solidref ref="TGeoBBox0x320"/>
+    </volume>
+    <volume name="UL25">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x319"/>
+    </volume>
+    <volume name="UG25">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x318"/>
       <physvol name="UL25_1" copynumber="1">

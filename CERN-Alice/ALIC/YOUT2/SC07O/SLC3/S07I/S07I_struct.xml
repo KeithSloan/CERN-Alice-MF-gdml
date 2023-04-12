@@ -1,4 +1,20 @@
-<structure><volume name="S07I">
+<structure><volume name="S07P">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S07P0x1"/>
+      <physvol name="S07H_1" copynumber="1">
+        <volumeref ref="S07H"/>
+        <positionref ref="S07H_1inS07Ppos"/>
+      </physvol>
+      <physvol name="S07B_1" copynumber="1">
+        <volumeref ref="S07B"/>
+        <positionref ref="S07B_1inS07Ppos"/>
+      </physvol>
+      <physvol name="S07B_2" copynumber="2">
+        <volumeref ref="S07B"/>
+        <positionref ref="S07B_2inS07Ppos"/>
+      </physvol>
+    </volume>
+    <volume name="S07I">
       <materialref ref="MUON_G10"/>
       <solidref ref="S07I0x1"/>
       <physvol name="S07P_1" copynumber="1">

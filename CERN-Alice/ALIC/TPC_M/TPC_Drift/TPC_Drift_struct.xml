@@ -1,19 +1,549 @@
-<structure><volume name="TPC_CR_O">
-      <materialref ref="TPC_Alumina"/>
-      <solidref ref="TGeoTube0x157"/>
-      <physvol name="TPC_W_O_1" copynumber="1">
-        <volumeref ref="TPC_W_O"/>
-        <positionref ref="TPC_W_O_1inTPC_CR_Opos"/>
+<structure><volume name="TPC_Rod0x132">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x133"/>
+    </volume>
+    <volume name="TPC_Rod0x130">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x131"/>
+    </volume>
+    <volume name="TPC_Rod0x128">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x129"/>
+    </volume>
+    <volume name="TPC_Rod0x126">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x127"/>
+    </volume>
+    <volume name="TPC_Rod0x124">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x125"/>
+    </volume>
+    <volume name="TPC_Rod0x122">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x123"/>
+    </volume>
+    <volume name="TPC_Rod0x120">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x121"/>
+    </volume>
+    <volume name="TPC_Rod0x118">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x119"/>
+    </volume>
+    <volume name="TPC_Rod0x116">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x117"/>
+    </volume>
+    <volume name="TPC_HV_Rod">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TGeoTube0x160"/>
+      <physvol name="TPC_HV_Cable_1" copynumber="1">
+        <volumeref ref="TPC_HV_Cable"/>
+        <positionref ref="TPC_HV_Cable_1inTPC_HV_Rodpos"/>
       </physvol>
     </volume>
-    <volume name="TPC_CR_I">
-      <materialref ref="TPC_Alumina"/>
-      <solidref ref="TGeoTube0x153"/>
-      <physvol name="TPC_W_I_1" copynumber="1">
-        <volumeref ref="TPC_W_I"/>
-        <positionref ref="TPC_W_I_1inTPC_CR_Ipos"/>
-      </physvol>
+    <volume name="TPC_Rod0x114">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x115"/>
     </volume>
+    <volume name="TPC_Rod0x112">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x113"/>
+    </volume>
+    <volume name="TPC_Rod0x110">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x111"/>
+    </volume>
+    <volume name="TPC_Rod0x108">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x109"/>
+    </volume>
+    <volume name="TPC_Rod0x106">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x107"/>
+    </volume>
+    <volume name="TPC_Rod0x104">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x105"/>
+    </volume>
+    <volume name="TPC_Rod0x102">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x103"/>
+    </volume>
+    <volume name="TPC_Rod0x100">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x101"/>
+    </volume>
+    <volume name="TPC_Rod0x98">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x99"/>
+    </volume>
+    <volume name="TPC_Rod0x96">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x97"/>
+    </volume>
+    <volume name="TPC_Rod0x94">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x95"/>
+    </volume>
+    <volume name="TPC_Rod0x92">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x93"/>
+    </volume>
+    <volume name="TPC_Rod0x90">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x91"/>
+    </volume>
+    <volume name="TPC_Rod0x88">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x89"/>
+    </volume>
+    <assembly name="TPC_RROD_O">
+      <physvol name="TPC_RR_O_1" copynumber="1">
+        <volumeref ref="TPC_RR_O"/>
+        <positionref ref="TPC_RR_O_1inTPC_RROD_Opos"/>
+      </physvol>
+      <physvol name="TPC_CR_O_1" copynumber="1">
+        <volumeref ref="TPC_CR_O"/>
+        <positionref ref="TPC_CR_O_1inTPC_RROD_Opos"/>
+      </physvol>
+      <physvol name="TPC_CR_O_2" copynumber="2">
+        <volumeref ref="TPC_CR_O"/>
+        <positionref ref="TPC_CR_O_2inTPC_RROD_Opos"/>
+      </physvol>
+      <physvol name="TPC_PR_O_1" copynumber="1">
+        <volumeref ref="TPC_PR_O"/>
+        <positionref ref="TPC_PR_O_1inTPC_RROD_Opos"/>
+      </physvol>
+    </assembly>
+    <volume name="TPC_Rod0x86">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x87"/>
+    </volume>
+    <volume name="TPC_Rod0x84">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x85"/>
+    </volume>
+    <volume name="TPC_Rod0x82">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x83"/>
+    </volume>
+    <volume name="TPC_Rod0x80">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x81"/>
+    </volume>
+    <volume name="TPC_Rod0x78">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x79"/>
+    </volume>
+    <volume name="TPC_Rod0x76">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x77"/>
+    </volume>
+    <volume name="TPC_Rod0x74">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x75"/>
+    </volume>
+    <volume name="TPC_Rod0x72">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x73"/>
+    </volume>
+    <volume name="TPC_Rod0x70">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x71"/>
+    </volume>
+    <volume name="TPC_Rod0x68">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x69"/>
+    </volume>
+    <volume name="TPC_Rod0x66">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x67"/>
+    </volume>
+    <volume name="TPC_Rod0x64">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x65"/>
+    </volume>
+    <volume name="TPC_Rod0x62">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x63"/>
+    </volume>
+    <volume name="TPC_Rod0x60">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x61"/>
+    </volume>
+    <volume name="TPC_Rod0x58">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x59"/>
+    </volume>
+    <volume name="TPC_Rod0x56">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x57"/>
+    </volume>
+    <volume name="TPC_Rod0x54">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x55"/>
+    </volume>
+    <volume name="TPC_Rod0x52">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x53"/>
+    </volume>
+    <volume name="TPC_Rod0x50">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x51"/>
+    </volume>
+    <volume name="TPC_Rod0x48">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x49"/>
+    </volume>
+    <volume name="TPC_Rod0x46">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x47"/>
+    </volume>
+    <volume name="TPC_Rod0x44">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x45"/>
+    </volume>
+    <volume name="TPC_Rod0x42">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x43"/>
+    </volume>
+    <volume name="TPC_Rod0x40">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x41"/>
+    </volume>
+    <volume name="TPC_Rod0x38">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x39"/>
+    </volume>
+    <volume name="TPC_Rod0x36">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x37"/>
+    </volume>
+    <volume name="TPC_Rod0x34">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x35"/>
+    </volume>
+    <volume name="TPC_Rod0x32">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x33"/>
+    </volume>
+    <volume name="TPC_Rod0x30">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x31"/>
+    </volume>
+    <volume name="TPC_Rod0x28">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x29"/>
+    </volume>
+    <volume name="TPC_Rod0x26">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x27"/>
+    </volume>
+    <volume name="TPC_Rod0x24">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x25"/>
+    </volume>
+    <assembly name="TPC_RROD_I">
+      <physvol name="TPC_RR_I_1" copynumber="1">
+        <volumeref ref="TPC_RR_I"/>
+        <positionref ref="TPC_RR_I_1inTPC_RROD_Ipos"/>
+      </physvol>
+      <physvol name="TPC_CR_I_1" copynumber="1">
+        <volumeref ref="TPC_CR_I"/>
+        <positionref ref="TPC_CR_I_1inTPC_RROD_Ipos"/>
+      </physvol>
+      <physvol name="TPC_CR_I_2" copynumber="2">
+        <volumeref ref="TPC_CR_I"/>
+        <positionref ref="TPC_CR_I_2inTPC_RROD_Ipos"/>
+      </physvol>
+      <physvol name="TPC_PR_I_1" copynumber="1">
+        <volumeref ref="TPC_PR_I"/>
+        <positionref ref="TPC_PR_I_1inTPC_RROD_Ipos"/>
+      </physvol>
+    </assembly>
+    <volume name="TPC_Rod0x22">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x23"/>
+    </volume>
+    <volume name="TPC_Rod0x20">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x21"/>
+    </volume>
+    <volume name="TPC_Rod0x18">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x19"/>
+    </volume>
+    <volume name="TPC_Rod0x16">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x17"/>
+    </volume>
+    <volume name="TPC_Rod0x14">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x15"/>
+    </volume>
+    <volume name="TPC_Rod0x12">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x13"/>
+    </volume>
+    <volume name="TPC_Rod0x10">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x11"/>
+    </volume>
+    <volume name="TPC_Rod0x8">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x9"/>
+    </volume>
+    <volume name="TPC_Rod0x6">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x7"/>
+    </volume>
+    <volume name="TPC_Rod0x4">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x5"/>
+    </volume>
+    <volume name="TPC_Rod0x2">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x3"/>
+    </volume>
+    <volume name="TPC_Rod">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TPC_Rod0x1"/>
+    </volume>
+    <volume name="TPC_Strip0x2">
+      <materialref ref="TPC_Ne-CO2-N-2"/>
+      <solidref ref="TPC_Strip0x3"/>
+    </volume>
+    <volume name="TPC_Strip">
+      <materialref ref="TPC_Ne-CO2-N-2"/>
+      <solidref ref="TPC_Strip0x1"/>
+    </volume>
+    <assembly name="TPC_ENDCAP0x1">
+      <physvol name="TPC_SECT_1" copynumber="1">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_10x1inTPC_ENDCAP0x1pos"/>
+      </physvol>
+      <physvol name="TPC_SECT_2" copynumber="2">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_20x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_20x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_3" copynumber="3">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_30x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_30x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_4" copynumber="4">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_40x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_40x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_5" copynumber="5">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_50x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_50x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_6" copynumber="6">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_60x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_60x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_7" copynumber="7">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_70x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_70x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_8" copynumber="8">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_80x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_80x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_9" copynumber="9">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_90x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_90x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_10" copynumber="10">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_100x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_100x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_11" copynumber="11">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_110x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_110x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_12" copynumber="12">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_120x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_120x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_13" copynumber="13">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_130x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_130x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_14" copynumber="14">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_140x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_140x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_15" copynumber="15">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_150x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_150x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_16" copynumber="16">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_160x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_160x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_17" copynumber="17">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_170x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_170x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+      <physvol name="TPC_SECT_18" copynumber="18">
+        <volumeref ref="TPC_SECT0x1"/>
+        <positionref ref="TPC_SECT_180x1inTPC_ENDCAP0x1pos"/>
+        <rotationref ref="TPC_SECT_180x1inTPC_ENDCAP0x1rot"/>
+      </physvol>
+    </assembly>
+    <assembly name="TPC_ENDCAP">
+      <physvol name="TPC_SECT_1" copynumber="1">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_1inTPC_ENDCAPpos"/>
+      </physvol>
+      <physvol name="TPC_SECT_2" copynumber="2">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_2inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_2inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_3" copynumber="3">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_3inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_3inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_4" copynumber="4">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_4inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_4inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_5" copynumber="5">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_5inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_5inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_6" copynumber="6">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_6inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_6inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_7" copynumber="7">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_7inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_7inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_8" copynumber="8">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_8inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_8inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_9" copynumber="9">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_9inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_9inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_10" copynumber="10">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_10inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_10inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_11" copynumber="11">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_11inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_11inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_12" copynumber="12">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_12inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_12inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_13" copynumber="13">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_13inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_13inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_14" copynumber="14">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_14inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_14inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_15" copynumber="15">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_15inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_15inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_16" copynumber="16">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_16inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_16inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_17" copynumber="17">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_17inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_17inTPC_ENDCAProt"/>
+      </physvol>
+      <physvol name="TPC_SECT_18" copynumber="18">
+        <volumeref ref="TPC_SECT"/>
+        <positionref ref="TPC_SECT_18inTPC_ENDCAPpos"/>
+        <rotationref ref="TPC_SECT_18inTPC_ENDCAProt"/>
+      </physvol>
+    </assembly>
+    <assembly name="TPC_HVMEM">
+      <physvol name="TPC_IHVH_1" copynumber="1">
+        <volumeref ref="TPC_IHVH"/>
+        <positionref ref="TPC_IHVH_1inTPC_HVMEMpos"/>
+      </physvol>
+      <physvol name="TPC_OHVH_1" copynumber="1">
+        <volumeref ref="TPC_OHVH"/>
+        <positionref ref="TPC_OHVH_1inTPC_HVMEMpos"/>
+      </physvol>
+      <physvol name="TPC_HV_1" copynumber="1">
+        <volumeref ref="TPC_HV"/>
+        <positionref ref="TPC_HV_1inTPC_HVMEMpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="TPC_IFC">
+      <physvol name="TPC_IFC11_1" copynumber="1">
+        <volumeref ref="TPC_IFC11"/>
+        <positionref ref="TPC_IFC11_1inTPC_IFCpos"/>
+      </physvol>
+      <physvol name="TPC_IFC7_1" copynumber="1">
+        <volumeref ref="TPC_IFC7"/>
+        <positionref ref="TPC_IFC7_1inTPC_IFCpos"/>
+      </physvol>
+      <physvol name="TPC_IFC7_2" copynumber="2">
+        <volumeref ref="TPC_IFC7"/>
+        <positionref ref="TPC_IFC7_2inTPC_IFCpos"/>
+      </physvol>
+      <physvol name="TPC_IFC3_1" copynumber="1">
+        <volumeref ref="TPC_IFC3"/>
+        <positionref ref="TPC_IFC3_1inTPC_IFCpos"/>
+      </physvol>
+      <physvol name="TPC_IFC3_2" copynumber="2">
+        <volumeref ref="TPC_IFC3"/>
+        <positionref ref="TPC_IFC3_2inTPC_IFCpos"/>
+      </physvol>
+      <physvol name="TPC_IFC2_1" copynumber="1">
+        <volumeref ref="TPC_IFC2"/>
+        <positionref ref="TPC_IFC2_1inTPC_IFCpos"/>
+      </physvol>
+      <physvol name="TPC_IFC2_2" copynumber="2">
+        <volumeref ref="TPC_IFC2"/>
+        <positionref ref="TPC_IFC2_2inTPC_IFCpos"/>
+      </physvol>
+    </assembly>
     <volume name="TPC_Drift">
       <materialref ref="TPC_Ne-CO2-N-2"/>
       <solidref ref="TGeoPcon0x148"/>

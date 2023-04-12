@@ -1,4 +1,60 @@
-<structure><assembly name="RB26s45">
+<structure><volume name="RB26s5RFlangeM">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon0x89"/>
+      <physvol name="RB26s5RFlange_1" copynumber="1">
+        <volumeref ref="RB26s5RFlange"/>
+        <positionref ref="RB26s5RFlange_1inRB26s5RFlangeMpos"/>
+      </physvol>
+    </volume>
+    <volume name="RB26s5Compensator">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon0x86"/>
+      <physvol name="RB26s5Bellow_1" copynumber="1">
+        <volumeref ref="RB26s5Bellow"/>
+        <positionref ref="RB26s5Bellow_1inRB26s5Compensatorpos"/>
+      </physvol>
+      <physvol name="RB26s5CompLeftTube_1" copynumber="1">
+        <volumeref ref="RB26s5CompLeftTube"/>
+        <positionref ref="RB26s5CompLeftTube_1inRB26s5Compensatorpos"/>
+      </physvol>
+      <physvol name="RB26s5CompRightTube_1" copynumber="1">
+        <volumeref ref="RB26s5CompRightTube"/>
+        <positionref ref="RB26s5CompRightTube_1inRB26s5Compensatorpos"/>
+      </physvol>
+      <physvol name="RB26s5CompRing_1" copynumber="1">
+        <volumeref ref="RB26s5CompRing"/>
+        <positionref ref="RB26s5CompRing_1inRB26s5Compensatorpos"/>
+      </physvol>
+      <physvol name="RB26s5CompProtTube_1" copynumber="1">
+        <volumeref ref="RB26s5CompProtTube"/>
+        <positionref ref="RB26s5CompProtTube_1inRB26s5Compensatorpos"/>
+      </physvol>
+    </volume>
+    <volume name="RB26s45TubeM">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon0x84"/>
+      <physvol name="RB26s45Tube_1" copynumber="1">
+        <volumeref ref="RB26s45Tube"/>
+        <positionref ref="RB26s45Tube_1inRB26s45TubeMpos"/>
+      </physvol>
+    </volume>
+    <volume name="RB26s4FixedPointM">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon0x82"/>
+      <physvol name="RB26s4FixedPoint_1" copynumber="1">
+        <volumeref ref="RB26s4FixedPoint"/>
+        <positionref ref="RB26s4FixedPoint_1inRB26s4FixedPointMpos"/>
+      </physvol>
+    </volume>
+    <volume name="RB26s4SFlangeM">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoPcon0x80"/>
+      <physvol name="RB26s4SFlange_1" copynumber="1">
+        <volumeref ref="RB26s4SFlange"/>
+        <positionref ref="RB26s4SFlange_1inRB26s4SFlangeMpos"/>
+      </physvol>
+    </volume>
+    <assembly name="RB26s45">
       <physvol name="RB26s4SFlangeM_1" copynumber="1">
         <volumeref ref="RB26s4SFlangeM"/>
         <positionref ref="RB26s4SFlangeM_1inRB26s45pos"/>

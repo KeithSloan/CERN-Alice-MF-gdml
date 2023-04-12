@@ -1,6 +1,46 @@
-<structure><volume name="FMD2_flange_spacer">
-      <materialref ref="FMD_Aluminum"/>
-      <solidref ref="TGeoCompositeShape0x265"/>
+<structure><assembly name="FMD2_wing">
+      <physvol name="FMD2_flange_1" copynumber="1">
+        <volumeref ref="FMD2_flange"/>
+        <positionref ref="FMD2_flange_1inFMD2_wingpos"/>
+      </physvol>
+      <physvol name="FMD2_flange_2" copynumber="2">
+        <volumeref ref="FMD2_flange"/>
+        <positionref ref="FMD2_flange_2inFMD2_wingpos"/>
+      </physvol>
+      <physvol name="FMD2_flange_extra_1" copynumber="1">
+        <volumeref ref="FMD2_flange_extra0x1"/>
+        <positionref ref="FMD2_flange_extra_1inFMD2_wingpos"/>
+      </physvol>
+      <physvol name="FMD2_flange_spacer_1" copynumber="1">
+        <volumeref ref="FMD2_flange_spacer"/>
+        <positionref ref="FMD2_flange_spacer_1inFMD2_wingpos"/>
+      </physvol>
+      <physvol name="FMD2_flange_spacer_2" copynumber="2">
+        <volumeref ref="FMD2_flange_spacer"/>
+        <positionref ref="FMD2_flange_spacer_2inFMD2_wingpos"/>
+      </physvol>
+      <physvol name="FMD_tension_box_1" copynumber="1">
+        <volumeref ref="FMD_tension_box"/>
+        <positionref ref="FMD_tension_box_1inFMD2_wingpos"/>
+        <rotationref ref="FMD_tension_box_1inFMD2_wingrot"/>
+      </physvol>
+      <physvol name="FMD2_tension_wire_1" copynumber="1">
+        <volumeref ref="FMD2_tension_wire"/>
+        <positionref ref="FMD2_tension_wire_1inFMD2_wingpos"/>
+        <rotationref ref="FMD2_tension_wire_1inFMD2_wingrot"/>
+      </physvol>
+    </assembly>
+    <volume name="FMD2_back_cover">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="FMD2_back_cover0x1"/>
+    </volume>
+    <volume name="F2SB">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="F2SB0x1"/>
+    </volume>
+    <volume name="F2SU">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="F2SU0x1"/>
     </volume>
     <assembly name="FMD2_support">
       <physvol name="F2SU_1" copynumber="1">

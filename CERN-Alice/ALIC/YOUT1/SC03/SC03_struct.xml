@@ -1,6 +1,170 @@
-<structure><volume name="SEB2L">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="SEB2L0x1"/>
+<structure><volume name="SQM3">
+      <materialref ref="MUON_AIR"/>
+      <solidref ref="SQM30x1"/>
+      <physvol name="SCB0L_1" copynumber="1">
+        <volumeref ref="SCB0L"/>
+        <positionref ref="SCB0L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SCB1L_1" copynumber="1">
+        <volumeref ref="SCB1L"/>
+        <positionref ref="SCB1L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SCB2L_1" copynumber="1">
+        <volumeref ref="SCB2L"/>
+        <positionref ref="SCB2L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SCB0L_2" copynumber="2">
+        <volumeref ref="SCB0L"/>
+        <positionref ref="SCB0L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SCB1L_2" copynumber="2">
+        <volumeref ref="SCB1L"/>
+        <positionref ref="SCB1L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SCB2L_2" copynumber="2">
+        <volumeref ref="SCB2L"/>
+        <positionref ref="SCB2L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SCU0L_1" copynumber="1">
+        <volumeref ref="SCU0L"/>
+        <positionref ref="SCU0L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SCU1L_1" copynumber="1">
+        <volumeref ref="SCU1L"/>
+        <positionref ref="SCU1L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SCU2L_1" copynumber="1">
+        <volumeref ref="SCU2L"/>
+        <positionref ref="SCU2L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SCU0L_2" copynumber="2">
+        <volumeref ref="SCU0L"/>
+        <positionref ref="SCU0L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SCU1L_2" copynumber="2">
+        <volumeref ref="SCU1L"/>
+        <positionref ref="SCU1L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SCU2L_2" copynumber="2">
+        <volumeref ref="SCU2L"/>
+        <positionref ref="SCU2L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SRH0L_1" copynumber="1">
+        <volumeref ref="SRH0L"/>
+        <positionref ref="SRH0L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SRH1L_1" copynumber="1">
+        <volumeref ref="SRH1L"/>
+        <positionref ref="SRH1L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SRH2L_1" copynumber="1">
+        <volumeref ref="SRH2L"/>
+        <positionref ref="SRH2L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SRH0L_2" copynumber="2">
+        <volumeref ref="SRH0L"/>
+        <positionref ref="SRH0L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SRH1L_2" copynumber="2">
+        <volumeref ref="SRH1L"/>
+        <positionref ref="SRH1L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SRH2L_2" copynumber="2">
+        <volumeref ref="SRH2L"/>
+        <positionref ref="SRH2L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SMB0L_1" copynumber="1">
+        <volumeref ref="SMB0L"/>
+        <positionref ref="SMB0L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SMB1L_1" copynumber="1">
+        <volumeref ref="SMB1L"/>
+        <positionref ref="SMB1L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SMB2L_1" copynumber="1">
+        <volumeref ref="SMB2L"/>
+        <positionref ref="SMB2L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SMB0L_2" copynumber="2">
+        <volumeref ref="SMB0L"/>
+        <positionref ref="SMB0L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SMB1L_2" copynumber="2">
+        <volumeref ref="SMB1L"/>
+        <positionref ref="SMB1L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SMB2L_2" copynumber="2">
+        <volumeref ref="SMB2L"/>
+        <positionref ref="SMB2L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SEB0L_1" copynumber="1">
+        <volumeref ref="SEB0L"/>
+        <positionref ref="SEB0L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SEB1L_1" copynumber="1">
+        <volumeref ref="SEB1L"/>
+        <positionref ref="SEB1L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SEB2L_1" copynumber="1">
+        <volumeref ref="SEB2L"/>
+        <positionref ref="SEB2L_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SEB0L_2" copynumber="2">
+        <volumeref ref="SEB0L"/>
+        <positionref ref="SEB0L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SEB1L_2" copynumber="2">
+        <volumeref ref="SEB1L"/>
+        <positionref ref="SEB1L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SEB2L_2" copynumber="2">
+        <volumeref ref="SEB2L"/>
+        <positionref ref="SEB2L_2inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM1_1" copynumber="1">
+        <volumeref ref="SFRM1"/>
+        <positionref ref="SFRM1_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM3_1" copynumber="1">
+        <volumeref ref="SFRM3"/>
+        <positionref ref="SFRM3_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM5_1" copynumber="1">
+        <volumeref ref="SFRM5"/>
+        <positionref ref="SFRM5_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM6_1" copynumber="1">
+        <volumeref ref="SFRM6"/>
+        <positionref ref="SFRM6_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM7_1" copynumber="1">
+        <volumeref ref="SFRM7"/>
+        <positionref ref="SFRM7_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM8_1" copynumber="1">
+        <volumeref ref="SFRM8"/>
+        <positionref ref="SFRM8_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SC3G0_1" copynumber="1">
+        <volumeref ref="SC3G0"/>
+        <positionref ref="SC3G0_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SC3G1_1" copynumber="1">
+        <volumeref ref="SC3G1"/>
+        <positionref ref="SC3G1_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SC3G2_1" copynumber="1">
+        <volumeref ref="SC3G2"/>
+        <positionref ref="SC3G2_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM2_1" copynumber="1">
+        <volumeref ref="SFRM2"/>
+        <positionref ref="SFRM2_1inSQM3pos"/>
+      </physvol>
+      <physvol name="SFRM4_1" copynumber="1">
+        <volumeref ref="SFRM4"/>
+        <positionref ref="SFRM4_1inSQM3pos"/>
+      </physvol>
     </volume>
     <assembly name="SC03">
       <physvol name="SQM3_1" copynumber="1">

@@ -1,4 +1,16 @@
-<structure><volume name="DCML">
+<structure><volume name="DCC1">
+      <materialref ref="DIPO_COPPER2"/>
+      <solidref ref="DCC10x1"/>
+    </volume>
+    <volume name="DCCV">
+      <materialref ref="DIPO_COPPER2"/>
+      <solidref ref="DCCV0x1"/>
+    </volume>
+    <volume name="DCH1">
+      <materialref ref="DIPO_COPPER2"/>
+      <solidref ref="DCH10x1"/>
+    </volume>
+    <volume name="DCML">
       <materialref ref="DIPO_IRON2"/>
       <solidref ref="DCML0x1"/>
       <physvol name="DCH1_1" copynumber="1">

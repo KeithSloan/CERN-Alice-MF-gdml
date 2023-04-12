@@ -1,4 +1,12 @@
-<structure><assembly name="SEA2V6">
+<structure><volume name="SAL20x12">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SAL20x13"/>
+      <physvol name="SAI2_1" copynumber="1">
+        <volumeref ref="SAI20x6"/>
+        <positionref ref="SAI2_10x6inSAL20x12pos"/>
+      </physvol>
+    </volume>
+    <assembly name="SEA2V6">
       <physvol name="SAL2_7" copynumber="7">
         <volumeref ref="SAL20x12"/>
         <positionref ref="SAL2_7inSEA2V6pos"/>

@@ -1,6 +1,14 @@
-<structure><volume name="DHS2">
+<structure><volume name="DHS3">
+      <materialref ref="DIPO_STAINLESS_STEEL2"/>
+      <solidref ref="TGeoBBox0x16"/>
+    </volume>
+    <volume name="DHS2">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x15"/>
+    </volume>
+    <volume name="DHS1">
+      <materialref ref="DIPO_STAINLESS_STEEL2"/>
+      <solidref ref="TGeoBBox0x14"/>
     </volume>
     <assembly name="asHS">
       <physvol name="DHS1_1" copynumber="1">

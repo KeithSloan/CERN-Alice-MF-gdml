@@ -1,4 +1,8 @@
-<structure><volume name="UTC10x28">
+<structure><volume name="UTC20x14">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x405"/>
+    </volume>
+    <volume name="UTC10x28">
       <materialref ref="TRD_Fe"/>
       <solidref ref="UTC10x29"/>
       <physvol name="UTC2_1" copynumber="1">

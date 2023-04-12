@@ -1,4 +1,8 @@
-<structure><volume name="TPC_CR_O">
+<structure><volume name="TPC_W_O">
+      <materialref ref="TPC_Peek"/>
+      <solidref ref="TGeoTube0x158"/>
+    </volume>
+    <volume name="TPC_CR_O">
       <materialref ref="TPC_Alumina"/>
       <solidref ref="TGeoTube0x157"/>
       <physvol name="TPC_W_O_1" copynumber="1">

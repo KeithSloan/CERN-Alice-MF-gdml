@@ -1,4 +1,12 @@
-<structure><volume name="cableSDDport353">
+<structure><volume name="vCableSegLay0x203">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoArb80x191"/>
+    </volume>
+    <volume name="vCableSegLay0x202">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoArb80x190"/>
+    </volume>
+    <volume name="cableSDDport353">
       <materialref ref="ITS_SDD_OPTICFIB"/>
       <solidref ref="TGeoArb80x189"/>
       <physvol name="vCableSegLay_1" copynumber="1">

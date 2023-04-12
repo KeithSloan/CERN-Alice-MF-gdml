@@ -1,4 +1,8 @@
-<structure><volume name="UTCO">
+<structure><volume name="UTCL">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="UTCL0x1"/>
+    </volume>
+    <volume name="UTCO">
       <materialref ref="TRD_Fe"/>
       <solidref ref="UTCO0x1"/>
       <physvol name="UTCL_1" copynumber="1">

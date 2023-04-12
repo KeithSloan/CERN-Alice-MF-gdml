@@ -2,6 +2,26 @@
       <materialref ref="FMD_Copper"/>
       <solidref ref="FOSL0x1"/>
     </volume>
+    <volume name="FOCH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDO_hybrid_chip"/>
+    </volume>
+    <volume name="FOCU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDO_hybrid_copper"/>
+    </volume>
+    <volume name="FOPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDO_hybrid_pcb"/>
+    </volume>
+    <volume name="FOSE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDO_physical_sensor"/>
+      <physvol name="FOAC_0" copynumber="0">
+        <volumeref ref="FOAC"/>
+        <positionref ref="FOAC_0inFOSEpos"/>
+      </physvol>
+    </volume>
     <assembly name="FOBH">
       <physvol name="FOSE_0" copynumber="0">
         <volumeref ref="FOSE"/>

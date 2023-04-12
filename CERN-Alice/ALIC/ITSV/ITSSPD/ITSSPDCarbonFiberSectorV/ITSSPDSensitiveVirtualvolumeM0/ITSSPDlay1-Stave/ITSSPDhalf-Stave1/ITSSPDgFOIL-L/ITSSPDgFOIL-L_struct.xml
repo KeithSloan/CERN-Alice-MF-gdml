@@ -2,6 +2,22 @@
       <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
       <solidref ref="ITSSPDGrease0x1"/>
     </volume>
+    <volume name="ITSSPDgFoilGlueL0x1">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="ITSSPDSHgFoilGlue2"/>
+    </volume>
+    <volume name="ITSSPDgFoilGlueL">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="ITSSPDSHgFoilGlue1"/>
+    </volume>
+    <volume name="ITSSPDgFoilAluL">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ITSSPDSHgFoilAlu"/>
+    </volume>
+    <volume name="ITSSPDgFoilKapL">
+      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
+      <solidref ref="ITSSPDSHgFoilKap"/>
+    </volume>
     <volume name="ITSSPDgFOIL-L">
       <materialref ref="ITS_AIR"/>
       <solidref ref="ITSSPDgFOIL-L0x1"/>

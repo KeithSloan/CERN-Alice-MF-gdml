@@ -14,6 +14,14 @@
         <positionref ref="S07C_1inS07Xpos"/>
       </physvol>
     </volume>
+    <volume name="SD7I">
+      <materialref ref="MUON_G10"/>
+      <solidref ref="composite47I"/>
+      <physvol name="SD7P_1" copynumber="1">
+        <volumeref ref="SD7P"/>
+        <positionref ref="SD7P_1inSD7Ipos"/>
+      </physvol>
+    </volume>
     <volume name="SD7X">
       <materialref ref="MUON_Nomex_bulk"/>
       <solidref ref="composite47X"/>
@@ -21,6 +29,14 @@
         <volumeref ref="SD7C"/>
         <positionref ref="SD7C_1inSD7Xpos"/>
       </physvol>
+    </volume>
+    <volume name="SD7D">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="composite4D7D"/>
+    </volume>
+    <volume name="S07V">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="S07V0x1"/>
     </volume>
     <assembly name="SLC7">
       <physvol name="S07V_12" copynumber="12">

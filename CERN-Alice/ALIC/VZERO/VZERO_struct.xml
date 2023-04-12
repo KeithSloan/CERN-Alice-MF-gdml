@@ -1,4 +1,107 @@
-<structure><assembly name="VZERO">
+<structure><assembly name="V0LE">
+      <physvol name="V0ASec_1" copynumber="1">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec_2" copynumber="2">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_2inV0LEpos"/>
+        <rotationref ref="V0ASec_2inV0LErot"/>
+      </physvol>
+      <physvol name="V0ASec_3" copynumber="3">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_3inV0LEpos"/>
+        <rotationref ref="V0ASec_3inV0LErot"/>
+      </physvol>
+      <physvol name="V0ASec_4" copynumber="4">
+        <volumeref ref="V0ASec"/>
+        <positionref ref="V0ASec_4inV0LEpos"/>
+        <rotationref ref="V0ASec_4inV0LErot"/>
+      </physvol>
+      <physvol name="V0ASuppur_1" copynumber="1">
+        <volumeref ref="V0ASuppur"/>
+        <positionref ref="V0ASuppur_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASuppul_1" copynumber="1">
+        <volumeref ref="V0ASuppul"/>
+        <positionref ref="V0ASuppul_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec5_1" copynumber="1">
+        <volumeref ref="V0ASec5"/>
+        <positionref ref="V0ASec5_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec6_1" copynumber="1">
+        <volumeref ref="V0ASec6"/>
+        <positionref ref="V0ASec6_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec7_1" copynumber="1">
+        <volumeref ref="V0ASec7"/>
+        <positionref ref="V0ASec7_1inV0LEpos"/>
+      </physvol>
+      <physvol name="V0ASec8_1" copynumber="1">
+        <volumeref ref="V0ASec8"/>
+        <positionref ref="V0ASec8_1inV0LEpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="V0RI">
+      <physvol name="V0CA_1" copynumber="1">
+        <volumeref ref="V0CA"/>
+        <positionref ref="V0CA_1inV0RIpos"/>
+      </physvol>
+      <physvol name="V0CA_2" copynumber="2">
+        <volumeref ref="V0CA"/>
+        <positionref ref="V0CA_2inV0RIpos"/>
+      </physvol>
+      <physvol name="V0IR_1" copynumber="1">
+        <volumeref ref="V0IR"/>
+        <positionref ref="V0IR_1inV0RIpos"/>
+      </physvol>
+      <physvol name="V0ER_1" copynumber="1">
+        <volumeref ref="V0ER"/>
+        <positionref ref="V0ER_1inV0RIpos"/>
+      </physvol>
+      <physvol name="V0R0_1" copynumber="1">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_1inV0RIpos"/>
+        <rotationref ref="V0R0_1inV0RIrot"/>
+      </physvol>
+      <physvol name="V0R0_2" copynumber="2">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_2inV0RIpos"/>
+        <rotationref ref="V0R0_2inV0RIrot"/>
+      </physvol>
+      <physvol name="V0R0_3" copynumber="3">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_3inV0RIpos"/>
+        <rotationref ref="V0R0_3inV0RIrot"/>
+      </physvol>
+      <physvol name="V0R0_4" copynumber="4">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_4inV0RIpos"/>
+        <rotationref ref="V0R0_4inV0RIrot"/>
+      </physvol>
+      <physvol name="V0R0_5" copynumber="5">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_5inV0RIpos"/>
+        <rotationref ref="V0R0_5inV0RIrot"/>
+      </physvol>
+      <physvol name="V0R0_6" copynumber="6">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_6inV0RIpos"/>
+        <rotationref ref="V0R0_6inV0RIrot"/>
+      </physvol>
+      <physvol name="V0R0_7" copynumber="7">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_7inV0RIpos"/>
+        <rotationref ref="V0R0_7inV0RIrot"/>
+      </physvol>
+      <physvol name="V0R0_8" copynumber="8">
+        <volumeref ref="V0R0"/>
+        <positionref ref="V0R0_8inV0RIpos"/>
+        <rotationref ref="V0R0_8inV0RIrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="VZERO">
       <physvol name="V0RI_1" copynumber="1">
         <volumeref ref="V0RI"/>
         <positionref ref="V0RI_1inVZEROpos"/>

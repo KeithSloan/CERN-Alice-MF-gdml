@@ -1,6 +1,367 @@
-<structure><volume name="ITSsddSMDend">
-      <materialref ref="ITS_SDD_X7R_capacitors"/>
-      <solidref ref="ITSsddSMDendShape"/>
+<structure><volume name="digitCableLay4B_7">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x137"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x133"/>
+        <positionref ref="vCableSegLay_10x109indigitCableLay4B_7pos"/>
+      </physvol>
+    </volume>
+    <volume name="digitCableLay4A_7">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x135"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x132"/>
+        <positionref ref="vCableSegLay_10x108indigitCableLay4A_7pos"/>
+      </physvol>
+    </volume>
+    <volume name="digitCableLay4B_60x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x133"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x131"/>
+        <positionref ref="vCableSegLay_10x107indigitCableLay4B_60x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="digitCableLay4A_60x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x131"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x130"/>
+        <positionref ref="vCableSegLay_10x106indigitCableLay4A_60x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="digitCableLay4B_50x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x129"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x129"/>
+        <positionref ref="vCableSegLay_10x105indigitCableLay4B_50x2pos"/>
+      </physvol>
+    </volume>
+    <volume name="digitCableLay4A_50x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x127"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x128"/>
+        <positionref ref="vCableSegLay_10x104indigitCableLay4A_50x2pos"/>
+      </physvol>
+    </volume>
+    <volume name="digitCableLay4B_40x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x125"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x127"/>
+        <positionref ref="vCableSegLay_10x103indigitCableLay4B_40x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="digitCableLay4A_40x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoArb80x123"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x126"/>
+        <positionref ref="vCableSegLay_10x102indigitCableLay4A_40x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHybridVol">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoBBox0x967"/>
+      <physvol name="ITSsddHybridThBridge_1" copynumber="1">
+        <volumeref ref="ITSsddHybridThBridge"/>
+        <positionref ref="ITSsddHybridThBridge_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="vScreenUpGlue_1" copynumber="1">
+        <volumeref ref="vScreenUpGlue"/>
+        <positionref ref="vScreenUpGlue_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="vScreenAl_1" copynumber="1">
+        <volumeref ref="vScreenAl"/>
+        <positionref ref="vScreenAl_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="vLowUpGlueBar1_1" copynumber="1">
+        <volumeref ref="vLowUpGlueBar1"/>
+        <positionref ref="vLowUpGlueBar1_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="vLowAlBar1_1" copynumber="1">
+        <volumeref ref="vLowAlBar1"/>
+        <positionref ref="vLowAlBar1_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="vLowUpGlueBar2_1" copynumber="1">
+        <volumeref ref="vLowUpGlueBar2"/>
+        <positionref ref="vLowUpGlueBar2_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="vLowAlBar2_1" copynumber="1">
+        <volumeref ref="vLowAlBar2"/>
+        <positionref ref="vLowAlBar2_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="lowFLpiece1_1" copynumber="1">
+        <volumeref ref="lowFLpiece1"/>
+        <positionref ref="lowFLpiece1_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpiece1_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpiece2_1" copynumber="1">
+        <volumeref ref="lowFLpiece2"/>
+        <positionref ref="lowFLpiece2_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpiece2_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpiece3_1" copynumber="1">
+        <volumeref ref="lowFLpiece3"/>
+        <positionref ref="lowFLpiece3_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpiece3_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpieceA4_1" copynumber="1">
+        <volumeref ref="lowFLpieceA4"/>
+        <positionref ref="lowFLpieceA4_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpieceA4_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpieceB4_1" copynumber="1">
+        <volumeref ref="lowFLpieceB4"/>
+        <positionref ref="lowFLpieceB4_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpieceB4_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpieceA5_1" copynumber="1">
+        <volumeref ref="lowFLpieceA5"/>
+        <positionref ref="lowFLpieceA5_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpieceA5_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpieceB5_1" copynumber="1">
+        <volumeref ref="lowFLpieceB5"/>
+        <positionref ref="lowFLpieceB5_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpieceB5_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpieceA6_1" copynumber="1">
+        <volumeref ref="lowFLpieceA6"/>
+        <positionref ref="lowFLpieceA6_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpieceA6_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="lowFLpieceB6_1" copynumber="1">
+        <volumeref ref="lowFLpieceB6"/>
+        <positionref ref="lowFLpieceB6_1inITSsddHybridVolpos"/>
+        <rotationref ref="lowFLpieceB6_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="pascalCC0_1" copynumber="1">
+        <volumeref ref="pascalCC0"/>
+        <positionref ref="pascalCC0_1inITSsddHybridVolpos"/>
+        <rotationref ref="pascalCC0_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ambraCC0_1" copynumber="1">
+        <volumeref ref="ambraCC0"/>
+        <positionref ref="ambraCC0_1inITSsddHybridVolpos"/>
+        <rotationref ref="ambraCC0_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="pascalCC1_1" copynumber="1">
+        <volumeref ref="pascalCC1"/>
+        <positionref ref="pascalCC1_1inITSsddHybridVolpos"/>
+        <rotationref ref="pascalCC1_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ambraCC1_1" copynumber="1">
+        <volumeref ref="ambraCC1"/>
+        <positionref ref="ambraCC1_1inITSsddHybridVolpos"/>
+        <rotationref ref="ambraCC1_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="pascalCC2_1" copynumber="1">
+        <volumeref ref="pascalCC2"/>
+        <positionref ref="pascalCC2_1inITSsddHybridVolpos"/>
+        <rotationref ref="pascalCC2_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ambraCC2_1" copynumber="1">
+        <volumeref ref="ambraCC2"/>
+        <positionref ref="ambraCC2_1inITSsddHybridVolpos"/>
+        <rotationref ref="ambraCC2_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="pascalCC3_1" copynumber="1">
+        <volumeref ref="pascalCC3"/>
+        <positionref ref="pascalCC3_1inITSsddHybridVolpos"/>
+        <rotationref ref="pascalCC3_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ambraCC3_1" copynumber="1">
+        <volumeref ref="ambraCC3"/>
+        <positionref ref="ambraCC3_1inITSsddHybridVolpos"/>
+        <rotationref ref="ambraCC3_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerA0_1" copynumber="1">
+        <volumeref ref="ccLayerA0"/>
+        <positionref ref="ccLayerA0_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerA0_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerB0_1" copynumber="1">
+        <volumeref ref="ccLayerB0"/>
+        <positionref ref="ccLayerB0_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerB0_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerC0_1" copynumber="1">
+        <volumeref ref="ccLayerC0"/>
+        <positionref ref="ccLayerC0_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerC0_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerA1_1" copynumber="1">
+        <volumeref ref="ccLayerA1"/>
+        <positionref ref="ccLayerA1_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerA1_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerB1_1" copynumber="1">
+        <volumeref ref="ccLayerB1"/>
+        <positionref ref="ccLayerB1_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerB1_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerC1_1" copynumber="1">
+        <volumeref ref="ccLayerC1"/>
+        <positionref ref="ccLayerC1_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerC1_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerA2_1" copynumber="1">
+        <volumeref ref="ccLayerA2"/>
+        <positionref ref="ccLayerA2_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerA2_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerB2_1" copynumber="1">
+        <volumeref ref="ccLayerB2"/>
+        <positionref ref="ccLayerB2_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerB2_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerC2_1" copynumber="1">
+        <volumeref ref="ccLayerC2"/>
+        <positionref ref="ccLayerC2_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerC2_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerA3_1" copynumber="1">
+        <volumeref ref="ccLayerA3"/>
+        <positionref ref="ccLayerA3_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerA3_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerB3_1" copynumber="1">
+        <volumeref ref="ccLayerB3"/>
+        <positionref ref="ccLayerB3_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerB3_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ccLayerC3_1" copynumber="1">
+        <volumeref ref="ccLayerC3"/>
+        <positionref ref="ccLayerC3_1inITSsddHybridVolpos"/>
+        <rotationref ref="ccLayerC3_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="vFLupPolyhamide_1" copynumber="1">
+        <volumeref ref="vFLupPolyhamide"/>
+        <positionref ref="vFLupPolyhamide_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="vAluStrip_1" copynumber="1">
+        <volumeref ref="vAluStrip"/>
+        <positionref ref="vAluStrip_1inITSsddHybridVolpos"/>
+        <rotationref ref="vAluStrip_1inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="vAluStrip_2" copynumber="2">
+        <volumeref ref="vAluStrip"/>
+        <positionref ref="vAluStrip_2inITSsddHybridVolpos"/>
+        <rotationref ref="vAluStrip_2inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="vAluStrip_3" copynumber="3">
+        <volumeref ref="vAluStrip"/>
+        <positionref ref="vAluStrip_3inITSsddHybridVolpos"/>
+        <rotationref ref="vAluStrip_3inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="vAluStrip_4" copynumber="4">
+        <volumeref ref="vAluStrip"/>
+        <positionref ref="vAluStrip_4inITSsddHybridVolpos"/>
+        <rotationref ref="vAluStrip_4inITSsddHybridVolrot"/>
+      </physvol>
+      <physvol name="ITSsddSMD_1" copynumber="1">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_1inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_2" copynumber="2">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_2inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_3" copynumber="3">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_3inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_4" copynumber="4">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_4inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_5" copynumber="5">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_5inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_6" copynumber="6">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_6inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_7" copynumber="7">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_7inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_8" copynumber="8">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_8inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_9" copynumber="9">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_9inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_10" copynumber="10">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_10inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_11" copynumber="11">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_11inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_12" copynumber="12">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_12inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_13" copynumber="13">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_13inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_14" copynumber="14">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_14inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_15" copynumber="15">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_15inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_16" copynumber="16">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_16inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_17" copynumber="17">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_17inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_18" copynumber="18">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_18inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_19" copynumber="19">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_19inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_20" copynumber="20">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_20inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_21" copynumber="21">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_21inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_22" copynumber="22">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_22inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_23" copynumber="23">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_23inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_24" copynumber="24">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_24inITSsddHybridVolpos"/>
+      </physvol>
+      <physvol name="ITSsddSMD_25" copynumber="25">
+        <volumeref ref="ITSsddSMD"/>
+        <positionref ref="ITSsddSMD_25inITSsddHybridVolpos"/>
+      </physvol>
     </volume>
     <volume name="ITSsddBaseThermalBridge">
       <materialref ref="ITS_SDD_C_AL_M55J"/>
@@ -38,6 +399,10 @@
       <materialref ref="ITS_SDD_C_AL_M55J"/>
       <solidref ref="TGeoTubeSeg0x14"/>
     </volume>
+    <volume name="ITSsddBottomBeam1Vol">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoTubeSeg0x13"/>
+    </volume>
     <volume name="ITSsddCFSideBeamVol">
       <materialref ref="ITS_SDD_C_AL_M55J"/>
       <solidref ref="TGeoTubeSeg0x12"/>
@@ -49,6 +414,14 @@
     <volume name="ITSsddCFladdSideCornerVol1">
       <materialref ref="ITS_SDD_C_AL_M55J"/>
       <solidref ref="TGeoArb80x2"/>
+    </volume>
+    <volume name="ITSsddCFladdTopCornerVol2">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoArb80x1"/>
+    </volume>
+    <volume name="ITSsddCFladdTopCornerVol1">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoArb8"/>
     </volume>
     <volume name="ITSsddSegment0x13">
       <materialref ref="ITS_SDD_AIR"/>

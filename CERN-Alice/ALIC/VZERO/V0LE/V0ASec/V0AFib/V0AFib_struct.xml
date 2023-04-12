@@ -1,4 +1,12 @@
-<structure><assembly name="V0AFib">
+<structure><volume name="V0AFib2Hole">
+      <materialref ref="VZERO_V0AFib"/>
+      <solidref ref="sV0AFib2Hole"/>
+    </volume>
+    <volume name="V0AFib1Hole">
+      <materialref ref="VZERO_V0AFib"/>
+      <solidref ref="sV0AFib1Hole"/>
+    </volume>
+    <assembly name="V0AFib">
       <physvol name="V0AFib1Hole_1" copynumber="1">
         <volumeref ref="V0AFib1Hole"/>
         <positionref ref="V0AFib1Hole_1inV0AFibpos"/>

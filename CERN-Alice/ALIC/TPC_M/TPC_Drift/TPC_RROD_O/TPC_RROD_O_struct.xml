@@ -1,10 +1,18 @@
-<structure><volume name="TPC_CR_O">
+<structure><volume name="TPC_PR_O">
+      <materialref ref="TPC_Water"/>
+      <solidref ref="TGeoTube0x159"/>
+    </volume>
+    <volume name="TPC_CR_O">
       <materialref ref="TPC_Alumina"/>
       <solidref ref="TGeoTube0x157"/>
       <physvol name="TPC_W_O_1" copynumber="1">
         <volumeref ref="TPC_W_O"/>
         <positionref ref="TPC_W_O_1inTPC_CR_Opos"/>
       </physvol>
+    </volume>
+    <volume name="TPC_RR_O">
+      <materialref ref="TPC_Makrolon"/>
+      <solidref ref="TGeoTube0x156"/>
     </volume>
     <assembly name="TPC_RROD_O">
       <physvol name="TPC_RR_O_1" copynumber="1">

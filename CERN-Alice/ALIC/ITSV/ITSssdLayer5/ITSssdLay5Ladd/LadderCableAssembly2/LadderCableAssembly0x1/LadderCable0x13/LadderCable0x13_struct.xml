@@ -1,4 +1,36 @@
-<structure><assembly name="LadderCable0x13">
+<structure><assembly name="LadderEndCableSegmentBBoxAssembly0x13">
+      <physvol name="LadderEndCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox10x13"/>
+        <positionref ref="LadderEndCableSegmentBBox1_10x13inLadderEndCableSegmentBBoxAssembly0x13pos"/>
+      </physvol>
+      <physvol name="LadderEndCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox20x13"/>
+        <positionref ref="LadderEndCableSegmentBBox2_10x13inLadderEndCableSegmentBBoxAssembly0x13pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="LadderCableSegmentArbAssembly0x12">
+      <physvol name="LadderCableSegmentArb1_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentArb10x12"/>
+        <positionref ref="LadderCableSegmentArb1_10x12inLadderCableSegmentArbAssembly0x12pos"/>
+        <rotationref ref="LadderCableSegmentArb1_10x12inLadderCableSegmentArbAssembly0x12rot"/>
+      </physvol>
+      <physvol name="LadderCableSegmentArb2_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentArb20x12"/>
+        <positionref ref="LadderCableSegmentArb2_10x12inLadderCableSegmentArbAssembly0x12pos"/>
+        <rotationref ref="LadderCableSegmentArb2_10x12inLadderCableSegmentArbAssembly0x12rot"/>
+      </physvol>
+    </assembly>
+    <assembly name="LadderCableSegmentBBoxAssembly0x13">
+      <physvol name="LadderCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox10x13"/>
+        <positionref ref="LadderCableSegmentBBox1_10x13inLadderCableSegmentBBoxAssembly0x13pos"/>
+      </physvol>
+      <physvol name="LadderCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox20x13"/>
+        <positionref ref="LadderCableSegmentBBox2_10x13inLadderCableSegmentBBoxAssembly0x13pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="LadderCable0x13">
       <physvol name="LadderCableSegmentBBoxAssembly_1" copynumber="1">
         <volumeref ref="LadderCableSegmentBBoxAssembly0x13"/>
         <positionref ref="LadderCableSegmentBBoxAssembly_10x13inLadderCable0x13pos"/>

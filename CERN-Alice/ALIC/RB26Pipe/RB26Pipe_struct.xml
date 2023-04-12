@@ -1,4 +1,66 @@
-<structure><assembly name="RB26Pipe">
+<structure><assembly name="RB26s45">
+      <physvol name="RB26s4SFlangeM_1" copynumber="1">
+        <volumeref ref="RB26s4SFlangeM"/>
+        <positionref ref="RB26s4SFlangeM_1inRB26s45pos"/>
+      </physvol>
+      <physvol name="RB26s4FixedPointM_1" copynumber="1">
+        <volumeref ref="RB26s4FixedPointM"/>
+        <positionref ref="RB26s4FixedPointM_1inRB26s45pos"/>
+      </physvol>
+      <physvol name="RB26s45TubeM_1" copynumber="1">
+        <volumeref ref="RB26s45TubeM"/>
+        <positionref ref="RB26s45TubeM_1inRB26s45pos"/>
+      </physvol>
+      <physvol name="RB26s5Compensator_1" copynumber="1">
+        <volumeref ref="RB26s5Compensator"/>
+        <positionref ref="RB26s5Compensator_1inRB26s45pos"/>
+      </physvol>
+      <physvol name="RB26s5RFlangeM_1" copynumber="1">
+        <volumeref ref="RB26s5RFlangeM"/>
+        <positionref ref="RB26s5RFlangeM_1inRB26s45pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="RB26s3">
+      <physvol name="RB26s3SFlangeM_1" copynumber="1">
+        <volumeref ref="RB26s3SFlangeM"/>
+        <positionref ref="RB26s3SFlangeM_1inRB26s3pos"/>
+      </physvol>
+      <physvol name="RB26s3FixedPointM_1" copynumber="1">
+        <volumeref ref="RB26s3FixedPointM"/>
+        <positionref ref="RB26s3FixedPointM_1inRB26s3pos"/>
+      </physvol>
+      <physvol name="RB26s3TubeM_1" copynumber="1">
+        <volumeref ref="RB26s3TubeM"/>
+        <positionref ref="RB26s3TubeM_1inRB26s3pos"/>
+      </physvol>
+      <physvol name="RB26s3Compensator_1" copynumber="1">
+        <volumeref ref="RB26s3Compensator"/>
+        <positionref ref="RB26s3Compensator_1inRB26s3pos"/>
+      </physvol>
+      <physvol name="RB26s3FFlangeM_1" copynumber="1">
+        <volumeref ref="RB26s3FFlangeM"/>
+        <positionref ref="RB26s3FFlangeM_1inRB26s3pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="RB26s12">
+      <physvol name="RB26s1RFlange_1" copynumber="1">
+        <volumeref ref="RB26s1RFlange"/>
+        <positionref ref="RB26s1RFlange_1inRB26s12pos"/>
+      </physvol>
+      <physvol name="RB26s12TubeM_1" copynumber="1">
+        <volumeref ref="RB26s12TubeM"/>
+        <positionref ref="RB26s12TubeM_1inRB26s12pos"/>
+      </physvol>
+      <physvol name="RB26s2Compensator_1" copynumber="1">
+        <volumeref ref="RB26s2Compensator"/>
+        <positionref ref="RB26s2Compensator_1inRB26s12pos"/>
+      </physvol>
+      <physvol name="RB26s2FFlangeM_1" copynumber="1">
+        <volumeref ref="RB26s2FFlangeM"/>
+        <positionref ref="RB26s2FFlangeM_1inRB26s12pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="RB26Pipe">
       <physvol name="RB26s12_1" copynumber="1">
         <volumeref ref="RB26s12"/>
         <positionref ref="RB26s12_1inRB26Pipepos"/>

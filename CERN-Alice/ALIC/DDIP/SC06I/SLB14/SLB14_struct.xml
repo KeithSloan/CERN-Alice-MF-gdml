@@ -14,6 +14,14 @@
         <positionref ref="S06C_1inS06Xpos"/>
       </physvol>
     </volume>
+    <volume name="SD6I">
+      <materialref ref="MUON_G10"/>
+      <solidref ref="composite6I0x1"/>
+      <physvol name="SD6P_1" copynumber="1">
+        <volumeref ref="SD6P"/>
+        <positionref ref="SD6P_1inSD6Ipos"/>
+      </physvol>
+    </volume>
     <volume name="SD6X">
       <materialref ref="MUON_Nomex_bulk"/>
       <solidref ref="composite6X0x1"/>
@@ -21,6 +29,14 @@
         <volumeref ref="SD6C"/>
         <positionref ref="SD6C_1inSD6Xpos"/>
       </physvol>
+    </volume>
+    <volume name="SD6D">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="compositeD6D"/>
+    </volume>
+    <volume name="S06V">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="S06V0x1"/>
     </volume>
     <assembly name="SLB14">
       <physvol name="S06V_13" copynumber="13">

@@ -1,4 +1,48 @@
-<structure><volume name="OINS">
+<structure><volume name="OSU7">
+      <materialref ref="T0_Aliminium"/>
+      <solidref ref="OSU70x1"/>
+    </volume>
+    <volume name="OSU6">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU60x1"/>
+      <physvol name="0SU8_1" copynumber="1">
+        <volumeref ref="OSU8"/>
+        <positionref ref="OSU8_1inOSU6pos"/>
+      </physvol>
+    </volume>
+    <volume name="OPMT">
+      <materialref ref="T0_Air"/>
+      <solidref ref="OPMT0x1"/>
+      <physvol name="0TOP_1" copynumber="1">
+        <volumeref ref="OTOP"/>
+        <positionref ref="OTOP_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0TOO_1" copynumber="1">
+        <volumeref ref="OTOO"/>
+        <positionref ref="OTOO_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0REG_1" copynumber="1">
+        <volumeref ref="OREG"/>
+        <positionref ref="OREG_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0BOT_1" copynumber="1">
+        <volumeref ref="OBOT"/>
+        <positionref ref="OBOT_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0OUT_1" copynumber="1">
+        <volumeref ref="OOUT"/>
+        <positionref ref="OOUT_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0CER_1" copynumber="1">
+        <volumeref ref="OCER"/>
+        <positionref ref="OCER_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0STE_1" copynumber="1">
+        <volumeref ref="OSTE"/>
+        <positionref ref="OSTE_1inOPMTpos"/>
+      </physvol>
+    </volume>
+    <volume name="OINS">
       <materialref ref="T0_Air"/>
       <solidref ref="OINS0x1"/>
       <physvol name="0PMT_1" copynumber="1">

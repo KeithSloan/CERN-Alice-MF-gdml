@@ -1,4 +1,32 @@
-<structure><volume name="UF24">
+<structure><volume name="UG24">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x305"/>
+      <physvol name="UL24_1" copynumber="1">
+        <volumeref ref="UL24"/>
+        <positionref ref="UL24_1inUG24pos"/>
+      </physvol>
+      <physvol name="UY24_1" copynumber="1">
+        <volumeref ref="UY24"/>
+        <positionref ref="UY24_1inUG24pos"/>
+      </physvol>
+      <physvol name="UM24_1" copynumber="1">
+        <volumeref ref="UM24"/>
+        <positionref ref="UM24_1inUG24pos"/>
+      </physvol>
+      <physvol name="UN24_1" copynumber="1">
+        <volumeref ref="UN24"/>
+        <positionref ref="UN24_1inUG24pos"/>
+      </physvol>
+      <physvol name="UO24_1" copynumber="1">
+        <volumeref ref="UO24"/>
+        <positionref ref="UO24_1inUG24pos"/>
+      </physvol>
+      <physvol name="UV24_1" copynumber="1">
+        <volumeref ref="UV24"/>
+        <positionref ref="UV24_1inUG24pos"/>
+      </physvol>
+    </volume>
+    <volume name="UF24">
       <materialref ref="TRD_Al"/>
       <solidref ref="UF240x1"/>
       <physvol name="UG24_1" copynumber="1">

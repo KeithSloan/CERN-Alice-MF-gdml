@@ -1,4 +1,16 @@
-<structure><volume name="vpcon2container">
+<structure><volume name="ITScablesSDDpcon2glass">
+      <materialref ref="ITS_SDD_OPTICFIB"/>
+      <solidref ref="TGeoPcon0x123"/>
+    </volume>
+    <volume name="ITScablesSDDpcon2Cu">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x122"/>
+    </volume>
+    <volume name="ITScablesSDDpcon2Plast">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoPcon0x121"/>
+    </volume>
+    <volume name="vpcon2container">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="TGeoPcon0x120"/>
       <physvol name="ITScablesSDDpcon2Plast_0" copynumber="0">

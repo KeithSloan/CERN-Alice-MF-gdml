@@ -1,10 +1,38 @@
-<structure><volume name="EndCapCoverPlateContour1">
+<structure><volume name="EndCapCoverPlateContour">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="contourShape"/>
+    </volume>
+    <volume name="EndCapCoverPlateContour2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="contourShape2"/>
+    </volume>
+    <volume name="EndCapCoverPlateContour1">
       <materialref ref="ITS_AL"/>
       <solidref ref="contourShape1"/>
     </volume>
     <volume name="EndCapCoverPlateBigHole">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoCompositeShape0x228"/>
+    </volume>
+    <volume name="EndCapFillingBox">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1131"/>
+    </volume>
+    <volume name="EndCapCoverPlateBox4">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1130"/>
+    </volume>
+    <volume name="EndCapCoverPlateBox3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1129"/>
+    </volume>
+    <volume name="EndCapCoverPlateBox2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1128"/>
+    </volume>
+    <volume name="EndCapCoverPlateBox1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1127"/>
     </volume>
     <volume name="EndCapCoverPlateSmallScrewPiece">
       <materialref ref="ITS_INOX"/>
@@ -13,10 +41,6 @@
     <volume name="EndCapCoverPlateSmallHole">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoCompositeShape0x227"/>
-    </volume>
-    <volume name="EndCapCoverPlateBox1">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoBBox0x1127"/>
     </volume>
     <volume name="EndCapCoverPlateMother">
       <materialref ref="ITS_SDD_AIR"/>

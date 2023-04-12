@@ -1,4 +1,24 @@
-<structure><volume name="PEMC">
+<structure><volume name="PWAR">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PWAR0x1"/>
+      <physvol name="PWTI_1" copynumber="1">
+        <volumeref ref="PWTI"/>
+        <positionref ref="PWTI_1inPWARpos"/>
+      </physvol>
+    </volume>
+    <volume name="PCOL">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCOL0x1"/>
+      <physvol name="PTIO_1" copynumber="1">
+        <volumeref ref="PTIO"/>
+        <positionref ref="PTIO_1inPCOLpos"/>
+      </physvol>
+      <physvol name="PFGC_1" copynumber="1">
+        <volumeref ref="PFGC"/>
+        <positionref ref="PFGC_1inPCOLpos"/>
+      </physvol>
+    </volume>
+    <volume name="PEMC">
       <materialref ref="PHOS_Air"/>
       <solidref ref="PEMC0x1"/>
       <physvol name="PCOL_1" copynumber="1">

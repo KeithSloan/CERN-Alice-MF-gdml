@@ -1,6 +1,26 @@
-<structure><volume name="DL4">
-      <materialref ref="DIPO_ALUMINIUM2"/>
-      <solidref ref="TGeoBBox0x13"/>
+<structure><volume name="DL0">
+      <materialref ref="DIPO_Al0"/>
+      <solidref ref="TGeoBBox0x9"/>
+      <physvol name="DL1_1" copynumber="1">
+        <volumeref ref="DL1"/>
+        <positionref ref="DL1_1inDL0pos"/>
+      </physvol>
+      <physvol name="DL3_1" copynumber="1">
+        <volumeref ref="DL3"/>
+        <positionref ref="DL3_1inDL0pos"/>
+      </physvol>
+      <physvol name="DL3_2" copynumber="2">
+        <volumeref ref="DL3"/>
+        <positionref ref="DL3_2inDL0pos"/>
+      </physvol>
+      <physvol name="DL4_1" copynumber="1">
+        <volumeref ref="DL4"/>
+        <positionref ref="DL4_1inDL0pos"/>
+      </physvol>
+      <physvol name="DL4_2" copynumber="2">
+        <volumeref ref="DL4"/>
+        <positionref ref="DL4_2inDL0pos"/>
+      </physvol>
     </volume>
     <volume name="DC12">
       <materialref ref="DIPO_Al0"/>

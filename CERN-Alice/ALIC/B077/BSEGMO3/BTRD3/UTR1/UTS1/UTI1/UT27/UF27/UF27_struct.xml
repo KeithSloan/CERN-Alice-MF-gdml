@@ -1,4 +1,32 @@
-<structure><volume name="UF27">
+<structure><volume name="UG27">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x344"/>
+      <physvol name="UL27_1" copynumber="1">
+        <volumeref ref="UL27"/>
+        <positionref ref="UL27_1inUG27pos"/>
+      </physvol>
+      <physvol name="UY27_1" copynumber="1">
+        <volumeref ref="UY27"/>
+        <positionref ref="UY27_1inUG27pos"/>
+      </physvol>
+      <physvol name="UM27_1" copynumber="1">
+        <volumeref ref="UM27"/>
+        <positionref ref="UM27_1inUG27pos"/>
+      </physvol>
+      <physvol name="UN27_1" copynumber="1">
+        <volumeref ref="UN27"/>
+        <positionref ref="UN27_1inUG27pos"/>
+      </physvol>
+      <physvol name="UO27_1" copynumber="1">
+        <volumeref ref="UO27"/>
+        <positionref ref="UO27_1inUG27pos"/>
+      </physvol>
+      <physvol name="UV27_1" copynumber="1">
+        <volumeref ref="UV27"/>
+        <positionref ref="UV27_1inUG27pos"/>
+      </physvol>
+    </volume>
+    <volume name="UF27">
       <materialref ref="TRD_Al"/>
       <solidref ref="UF270x1"/>
       <physvol name="UG27_1" copynumber="1">

@@ -26,6 +26,14 @@
       <materialref ref="TOF_Al_"/>
       <solidref ref="FBAS0x1"/>
     </volume>
+    <volume name="FTUB">
+      <materialref ref="TOF_Cu_"/>
+      <solidref ref="FTUB0x1"/>
+      <physvol name="FITU_1" copynumber="1">
+        <volumeref ref="FITU"/>
+        <positionref ref="FITU_1inFTUBpos"/>
+      </physvol>
+    </volume>
     <volume name="FRO2">
       <materialref ref="TOF_Al_"/>
       <solidref ref="FRO20x1"/>

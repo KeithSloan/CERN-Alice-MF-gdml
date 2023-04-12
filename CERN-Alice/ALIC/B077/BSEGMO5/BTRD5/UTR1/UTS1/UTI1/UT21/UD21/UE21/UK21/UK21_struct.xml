@@ -1,4 +1,8 @@
-<structure><volume name="UK21">
+<structure><volume name="UW21">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x265"/>
+    </volume>
+    <volume name="UK21">
       <materialref ref="TRD_XeCO2"/>
       <solidref ref="TGeoBBox0x264"/>
       <physvol name="UW21_1" copynumber="1">

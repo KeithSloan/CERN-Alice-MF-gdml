@@ -1,4 +1,8 @@
-<structure><volume name="BA59">
+<structure><volume name="BA62">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="BA620x1"/>
+    </volume>
+    <volume name="BA59">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
       <solidref ref="BA590x1"/>
       <physvol name="BA62_1" copynumber="1">

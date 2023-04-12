@@ -2,6 +2,10 @@
       <materialref ref="ITS_SDD_X7R_capacitors"/>
       <solidref ref="ITSsddSMDendShape"/>
     </volume>
+    <volume name="ITSsddSMDmiddle">
+      <materialref ref="ITS_SDD_X7R_capacitors"/>
+      <solidref ref="ITSsddSMDmiddleShape"/>
+    </volume>
     <volume name="ITSsddSMD">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="ITSsddSMDshape"/>

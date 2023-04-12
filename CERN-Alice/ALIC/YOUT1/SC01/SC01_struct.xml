@@ -1,4 +1,76 @@
-<structure><assembly name="SC01">
+<structure><assembly name="SE13">
+      <physvol name="SQM1_4" copynumber="4">
+        <volumeref ref="SQM1"/>
+        <positionref ref="SQM1_4inSE13pos"/>
+      </physvol>
+      <physvol name="SQMF1_8" copynumber="8">
+        <volumeref ref="SQMF1"/>
+        <positionref ref="SQMF1_8inSE13pos"/>
+      </physvol>
+      <physvol name="SQN1_4" copynumber="4">
+        <volumeref ref="SQN1"/>
+        <positionref ref="SQN1_4inSE13pos"/>
+      </physvol>
+      <physvol name="SQF1_4" copynumber="4">
+        <volumeref ref="SQF1"/>
+        <positionref ref="SQF1_4inSE13pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="SE12">
+      <physvol name="SQM1_3" copynumber="3">
+        <volumeref ref="SQM1"/>
+        <positionref ref="SQM1_3inSE12pos"/>
+      </physvol>
+      <physvol name="SQMF1_7" copynumber="7">
+        <volumeref ref="SQMF1"/>
+        <positionref ref="SQMF1_7inSE12pos"/>
+      </physvol>
+      <physvol name="SQN1_3" copynumber="3">
+        <volumeref ref="SQN1"/>
+        <positionref ref="SQN1_3inSE12pos"/>
+      </physvol>
+      <physvol name="SQF1_3" copynumber="3">
+        <volumeref ref="SQF1"/>
+        <positionref ref="SQF1_3inSE12pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="SE11">
+      <physvol name="SQM1_2" copynumber="2">
+        <volumeref ref="SQM1"/>
+        <positionref ref="SQM1_2inSE11pos"/>
+      </physvol>
+      <physvol name="SQMF1_6" copynumber="6">
+        <volumeref ref="SQMF1"/>
+        <positionref ref="SQMF1_6inSE11pos"/>
+      </physvol>
+      <physvol name="SQN1_2" copynumber="2">
+        <volumeref ref="SQN1"/>
+        <positionref ref="SQN1_2inSE11pos"/>
+      </physvol>
+      <physvol name="SQF1_2" copynumber="2">
+        <volumeref ref="SQF1"/>
+        <positionref ref="SQF1_2inSE11pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="SE10">
+      <physvol name="SQM1_1" copynumber="1">
+        <volumeref ref="SQM1"/>
+        <positionref ref="SQM1_1inSE10pos"/>
+      </physvol>
+      <physvol name="SQMF1_5" copynumber="5">
+        <volumeref ref="SQMF1"/>
+        <positionref ref="SQMF1_5inSE10pos"/>
+      </physvol>
+      <physvol name="SQN1_1" copynumber="1">
+        <volumeref ref="SQN1"/>
+        <positionref ref="SQN1_1inSE10pos"/>
+      </physvol>
+      <physvol name="SQF1_1" copynumber="1">
+        <volumeref ref="SQF1"/>
+        <positionref ref="SQF1_1inSE10pos"/>
+      </physvol>
+    </assembly>
+    <assembly name="SC01">
       <physvol name="SE10_1" copynumber="1">
         <volumeref ref="SE10"/>
         <positionref ref="SE10_1inSC01pos"/>

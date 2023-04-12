@@ -1,4 +1,20 @@
-<structure><volume name="EDVA">
+<structure><volume name="ECVA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="ECVA0x1"/>
+      <physvol name="EPCA_1" copynumber="1">
+        <volumeref ref="EPCA"/>
+        <positionref ref="EPCA_1inECVApos"/>
+      </physvol>
+      <physvol name="EHC1_1" copynumber="1">
+        <volumeref ref="EHC1"/>
+        <positionref ref="EHC1_1inECVApos"/>
+      </physvol>
+      <physvol name="EPCA_2" copynumber="2">
+        <volumeref ref="EPCA"/>
+        <positionref ref="EPCA_2inECVApos"/>
+      </physvol>
+    </volume>
+    <volume name="EDVA">
       <materialref ref="PMD_G10"/>
       <solidref ref="EDVA0x1"/>
       <physvol name="ECVA_1" copynumber="1">

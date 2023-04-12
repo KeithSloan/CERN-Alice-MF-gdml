@@ -1,4 +1,12 @@
-<structure><volume name="SSDChip">
+<structure><volume name="SSDChipGlueComp">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="SSDChipGlueCompShape"/>
+    </volume>
+    <volume name="SSDChipComp">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="SSDChipCompShape"/>
+    </volume>
+    <volume name="SSDChip">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="SSDChipShape"/>
       <physvol name="SSDChipComp_1" copynumber="1">

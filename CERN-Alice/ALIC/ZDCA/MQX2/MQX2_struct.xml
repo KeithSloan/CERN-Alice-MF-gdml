@@ -2,6 +2,10 @@
       <materialref ref="ZDC_COPP0"/>
       <solidref ref="QBS60x1"/>
     </volume>
+    <volume name="QBS5">
+      <materialref ref="ZDC_COPP0"/>
+      <solidref ref="QBS50x1"/>
+    </volume>
     <volume name="MQX2">
       <materialref ref="ZDC_VOIM"/>
       <solidref ref="MQX20x1"/>

@@ -1,4 +1,32 @@
-<structure><assembly name="YSAA1">
+<structure><volume name="YSAA1M">
+      <materialref ref="SHIL_AIR1"/>
+      <solidref ref="TGeoPcon0x15"/>
+      <physvol name="YSAA1_SteelEnvelope_1" copynumber="1">
+        <volumeref ref="YSAA1_SteelEnvelope"/>
+        <positionref ref="YSAA1_SteelEnvelope_1inYSAA1Mpos"/>
+      </physvol>
+      <physvol name="YSAA1_WPipe_1" copynumber="1">
+        <volumeref ref="YSAA1_WPipe"/>
+        <positionref ref="YSAA1_WPipe_1inYSAA1Mpos"/>
+      </physvol>
+      <physvol name="YSAA1_PbComp_1" copynumber="1">
+        <volumeref ref="YSAA1_PbComp"/>
+        <positionref ref="YSAA1_PbComp_1inYSAA1Mpos"/>
+      </physvol>
+      <physvol name="YSAA1_WCone_1" copynumber="1">
+        <volumeref ref="YSAA1_WCone"/>
+        <positionref ref="YSAA1_WCone_1inYSAA1Mpos"/>
+      </physvol>
+      <physvol name="YSAA1_StRing_1" copynumber="1">
+        <volumeref ref="YSAA1_StRing"/>
+        <positionref ref="YSAA1_StRing_1inYSAA1Mpos"/>
+      </physvol>
+      <physvol name="YSAA1_InnerTube_1" copynumber="1">
+        <volumeref ref="YSAA1_InnerTube"/>
+        <positionref ref="YSAA1_InnerTube_1inYSAA1Mpos"/>
+      </physvol>
+    </volume>
+    <assembly name="YSAA1">
       <physvol name="YSAA1M_1" copynumber="1">
         <volumeref ref="YSAA1M"/>
         <positionref ref="YSAA1M_1inYSAA1pos"/>

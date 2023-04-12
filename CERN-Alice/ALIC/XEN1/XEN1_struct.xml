@@ -1,17 +1,2169 @@
-<structure><volume name="EMOD">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="EMOD0x1"/>
-      <physvol name="SCM0_1" copynumber="1">
-        <volumeref ref="SCM0"/>
-        <positionref ref="SCM0_1inEMODpos"/>
+<structure><volume name="SM10">
+      <materialref ref="EMCAL_Air"/>
+      <solidref ref="SM100x1"/>
+      <physvol name="EMOD_1" copynumber="1">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_10x1inSM10pos"/>
+        <rotationref ref="EMOD_10x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_2" copynumber="2">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_20x1inSM10pos"/>
+        <rotationref ref="EMOD_20x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_3" copynumber="3">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_30x1inSM10pos"/>
+        <rotationref ref="EMOD_30x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_4" copynumber="4">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_40x1inSM10pos"/>
+        <rotationref ref="EMOD_40x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_5" copynumber="5">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_50x1inSM10pos"/>
+        <rotationref ref="EMOD_50x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_6" copynumber="6">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_60x1inSM10pos"/>
+        <rotationref ref="EMOD_60x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_7" copynumber="7">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_70x1inSM10pos"/>
+        <rotationref ref="EMOD_70x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_8" copynumber="8">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_80x1inSM10pos"/>
+        <rotationref ref="EMOD_80x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_9" copynumber="9">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_90x1inSM10pos"/>
+        <rotationref ref="EMOD_90x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_10" copynumber="10">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_100x1inSM10pos"/>
+        <rotationref ref="EMOD_100x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_11" copynumber="11">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_110x1inSM10pos"/>
+        <rotationref ref="EMOD_110x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_12" copynumber="12">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_120x1inSM10pos"/>
+        <rotationref ref="EMOD_120x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_13" copynumber="13">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_130x1inSM10pos"/>
+        <rotationref ref="EMOD_130x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_14" copynumber="14">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_140x1inSM10pos"/>
+        <rotationref ref="EMOD_140x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_15" copynumber="15">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_150x1inSM10pos"/>
+        <rotationref ref="EMOD_150x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_16" copynumber="16">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_160x1inSM10pos"/>
+        <rotationref ref="EMOD_160x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_17" copynumber="17">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_170x1inSM10pos"/>
+        <rotationref ref="EMOD_170x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_18" copynumber="18">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_180x1inSM10pos"/>
+        <rotationref ref="EMOD_180x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_19" copynumber="19">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_190x1inSM10pos"/>
+        <rotationref ref="EMOD_190x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_20" copynumber="20">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_200x1inSM10pos"/>
+        <rotationref ref="EMOD_200x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_21" copynumber="21">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_210x1inSM10pos"/>
+        <rotationref ref="EMOD_210x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_22" copynumber="22">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_220x1inSM10pos"/>
+        <rotationref ref="EMOD_220x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_23" copynumber="23">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_230x1inSM10pos"/>
+        <rotationref ref="EMOD_230x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_24" copynumber="24">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_240x1inSM10pos"/>
+        <rotationref ref="EMOD_240x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_25" copynumber="25">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_250x1inSM10pos"/>
+        <rotationref ref="EMOD_250x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_26" copynumber="26">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_260x1inSM10pos"/>
+        <rotationref ref="EMOD_260x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_27" copynumber="27">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_270x1inSM10pos"/>
+        <rotationref ref="EMOD_270x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_28" copynumber="28">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_280x1inSM10pos"/>
+        <rotationref ref="EMOD_280x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_29" copynumber="29">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_290x1inSM10pos"/>
+        <rotationref ref="EMOD_290x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_30" copynumber="30">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_300x1inSM10pos"/>
+        <rotationref ref="EMOD_300x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_31" copynumber="31">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_310x1inSM10pos"/>
+        <rotationref ref="EMOD_310x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_32" copynumber="32">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_320x1inSM10pos"/>
+        <rotationref ref="EMOD_320x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_33" copynumber="33">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_330x1inSM10pos"/>
+        <rotationref ref="EMOD_330x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_34" copynumber="34">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_340x1inSM10pos"/>
+        <rotationref ref="EMOD_340x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_35" copynumber="35">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_350x1inSM10pos"/>
+        <rotationref ref="EMOD_350x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_36" copynumber="36">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_360x1inSM10pos"/>
+        <rotationref ref="EMOD_360x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_37" copynumber="37">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_370x1inSM10pos"/>
+        <rotationref ref="EMOD_370x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_38" copynumber="38">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_380x1inSM10pos"/>
+        <rotationref ref="EMOD_380x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_39" copynumber="39">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_390x1inSM10pos"/>
+        <rotationref ref="EMOD_390x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_40" copynumber="40">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_400x1inSM10pos"/>
+        <rotationref ref="EMOD_400x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_41" copynumber="41">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_410x1inSM10pos"/>
+        <rotationref ref="EMOD_410x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_42" copynumber="42">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_420x1inSM10pos"/>
+        <rotationref ref="EMOD_420x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_43" copynumber="43">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_430x1inSM10pos"/>
+        <rotationref ref="EMOD_430x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_44" copynumber="44">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_440x1inSM10pos"/>
+        <rotationref ref="EMOD_440x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_45" copynumber="45">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_450x1inSM10pos"/>
+        <rotationref ref="EMOD_450x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_46" copynumber="46">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_460x1inSM10pos"/>
+        <rotationref ref="EMOD_460x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_47" copynumber="47">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_470x1inSM10pos"/>
+        <rotationref ref="EMOD_470x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_48" copynumber="48">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_480x1inSM10pos"/>
+        <rotationref ref="EMOD_480x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_49" copynumber="49">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_490x1inSM10pos"/>
+        <rotationref ref="EMOD_490x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_50" copynumber="50">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_500x1inSM10pos"/>
+        <rotationref ref="EMOD_500x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_51" copynumber="51">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_510x1inSM10pos"/>
+        <rotationref ref="EMOD_510x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_52" copynumber="52">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_520x1inSM10pos"/>
+        <rotationref ref="EMOD_520x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_53" copynumber="53">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_530x1inSM10pos"/>
+        <rotationref ref="EMOD_530x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_54" copynumber="54">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_540x1inSM10pos"/>
+        <rotationref ref="EMOD_540x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_55" copynumber="55">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_550x1inSM10pos"/>
+        <rotationref ref="EMOD_550x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_56" copynumber="56">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_560x1inSM10pos"/>
+        <rotationref ref="EMOD_560x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_57" copynumber="57">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_570x1inSM10pos"/>
+        <rotationref ref="EMOD_570x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_58" copynumber="58">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_580x1inSM10pos"/>
+        <rotationref ref="EMOD_580x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_59" copynumber="59">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_590x1inSM10pos"/>
+        <rotationref ref="EMOD_590x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_60" copynumber="60">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_600x1inSM10pos"/>
+        <rotationref ref="EMOD_600x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_61" copynumber="61">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_610x1inSM10pos"/>
+        <rotationref ref="EMOD_610x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_62" copynumber="62">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_620x1inSM10pos"/>
+        <rotationref ref="EMOD_620x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_63" copynumber="63">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_630x1inSM10pos"/>
+        <rotationref ref="EMOD_630x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_64" copynumber="64">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_640x1inSM10pos"/>
+        <rotationref ref="EMOD_640x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_65" copynumber="65">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_650x1inSM10pos"/>
+        <rotationref ref="EMOD_650x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_66" copynumber="66">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_660x1inSM10pos"/>
+        <rotationref ref="EMOD_660x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_67" copynumber="67">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_670x1inSM10pos"/>
+        <rotationref ref="EMOD_670x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_68" copynumber="68">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_680x1inSM10pos"/>
+        <rotationref ref="EMOD_680x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_69" copynumber="69">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_690x1inSM10pos"/>
+        <rotationref ref="EMOD_690x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_70" copynumber="70">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_700x1inSM10pos"/>
+        <rotationref ref="EMOD_700x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_71" copynumber="71">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_710x1inSM10pos"/>
+        <rotationref ref="EMOD_710x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_72" copynumber="72">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_720x1inSM10pos"/>
+        <rotationref ref="EMOD_720x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_73" copynumber="73">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_730x1inSM10pos"/>
+        <rotationref ref="EMOD_730x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_74" copynumber="74">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_740x1inSM10pos"/>
+        <rotationref ref="EMOD_740x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_75" copynumber="75">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_750x1inSM10pos"/>
+        <rotationref ref="EMOD_750x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_76" copynumber="76">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_760x1inSM10pos"/>
+        <rotationref ref="EMOD_760x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_77" copynumber="77">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_770x1inSM10pos"/>
+        <rotationref ref="EMOD_770x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_78" copynumber="78">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_780x1inSM10pos"/>
+        <rotationref ref="EMOD_780x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_79" copynumber="79">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_790x1inSM10pos"/>
+        <rotationref ref="EMOD_790x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_80" copynumber="80">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_800x1inSM10pos"/>
+        <rotationref ref="EMOD_800x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_81" copynumber="81">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_810x1inSM10pos"/>
+        <rotationref ref="EMOD_810x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_82" copynumber="82">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_820x1inSM10pos"/>
+        <rotationref ref="EMOD_820x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_83" copynumber="83">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_830x1inSM10pos"/>
+        <rotationref ref="EMOD_830x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_84" copynumber="84">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_840x1inSM10pos"/>
+        <rotationref ref="EMOD_840x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_85" copynumber="85">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_850x1inSM10pos"/>
+        <rotationref ref="EMOD_850x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_86" copynumber="86">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_860x1inSM10pos"/>
+        <rotationref ref="EMOD_860x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_87" copynumber="87">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_870x1inSM10pos"/>
+        <rotationref ref="EMOD_870x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_88" copynumber="88">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_880x1inSM10pos"/>
+        <rotationref ref="EMOD_880x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_89" copynumber="89">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_890x1inSM10pos"/>
+        <rotationref ref="EMOD_890x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_90" copynumber="90">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_900x1inSM10pos"/>
+        <rotationref ref="EMOD_900x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_91" copynumber="91">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_910x1inSM10pos"/>
+        <rotationref ref="EMOD_910x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_92" copynumber="92">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_920x1inSM10pos"/>
+        <rotationref ref="EMOD_920x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_93" copynumber="93">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_930x1inSM10pos"/>
+        <rotationref ref="EMOD_930x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_94" copynumber="94">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_940x1inSM10pos"/>
+        <rotationref ref="EMOD_940x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_95" copynumber="95">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_950x1inSM10pos"/>
+        <rotationref ref="EMOD_950x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_96" copynumber="96">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_960x1inSM10pos"/>
+        <rotationref ref="EMOD_960x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_97" copynumber="97">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_970x1inSM10pos"/>
+        <rotationref ref="EMOD_970x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_98" copynumber="98">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_980x1inSM10pos"/>
+        <rotationref ref="EMOD_980x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_99" copynumber="99">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_990x1inSM10pos"/>
+        <rotationref ref="EMOD_990x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_100" copynumber="100">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1000x1inSM10pos"/>
+        <rotationref ref="EMOD_1000x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_101" copynumber="101">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1010x1inSM10pos"/>
+        <rotationref ref="EMOD_1010x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_102" copynumber="102">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1020x1inSM10pos"/>
+        <rotationref ref="EMOD_1020x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_103" copynumber="103">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1030x1inSM10pos"/>
+        <rotationref ref="EMOD_1030x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_104" copynumber="104">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1040x1inSM10pos"/>
+        <rotationref ref="EMOD_1040x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_105" copynumber="105">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1050x1inSM10pos"/>
+        <rotationref ref="EMOD_1050x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_106" copynumber="106">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1060x1inSM10pos"/>
+        <rotationref ref="EMOD_1060x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_107" copynumber="107">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1070x1inSM10pos"/>
+        <rotationref ref="EMOD_1070x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_108" copynumber="108">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1080x1inSM10pos"/>
+        <rotationref ref="EMOD_1080x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_109" copynumber="109">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1090x1inSM10pos"/>
+        <rotationref ref="EMOD_1090x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_110" copynumber="110">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1100x1inSM10pos"/>
+        <rotationref ref="EMOD_1100x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_111" copynumber="111">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1110x1inSM10pos"/>
+        <rotationref ref="EMOD_1110x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_112" copynumber="112">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1120x1inSM10pos"/>
+        <rotationref ref="EMOD_1120x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_113" copynumber="113">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1130x1inSM10pos"/>
+        <rotationref ref="EMOD_1130x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_114" copynumber="114">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1140x1inSM10pos"/>
+        <rotationref ref="EMOD_1140x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_115" copynumber="115">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1150x1inSM10pos"/>
+        <rotationref ref="EMOD_1150x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_116" copynumber="116">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1160x1inSM10pos"/>
+        <rotationref ref="EMOD_1160x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_117" copynumber="117">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1170x1inSM10pos"/>
+        <rotationref ref="EMOD_1170x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_118" copynumber="118">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1180x1inSM10pos"/>
+        <rotationref ref="EMOD_1180x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_119" copynumber="119">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1190x1inSM10pos"/>
+        <rotationref ref="EMOD_1190x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_120" copynumber="120">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1200x1inSM10pos"/>
+        <rotationref ref="EMOD_1200x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_121" copynumber="121">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1210x1inSM10pos"/>
+        <rotationref ref="EMOD_1210x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_122" copynumber="122">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1220x1inSM10pos"/>
+        <rotationref ref="EMOD_1220x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_123" copynumber="123">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1230x1inSM10pos"/>
+        <rotationref ref="EMOD_1230x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_124" copynumber="124">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1240x1inSM10pos"/>
+        <rotationref ref="EMOD_1240x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_125" copynumber="125">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1250x1inSM10pos"/>
+        <rotationref ref="EMOD_1250x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_126" copynumber="126">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1260x1inSM10pos"/>
+        <rotationref ref="EMOD_1260x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_127" copynumber="127">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1270x1inSM10pos"/>
+        <rotationref ref="EMOD_1270x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_128" copynumber="128">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1280x1inSM10pos"/>
+        <rotationref ref="EMOD_1280x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_129" copynumber="129">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1290x1inSM10pos"/>
+        <rotationref ref="EMOD_1290x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_130" copynumber="130">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1300x1inSM10pos"/>
+        <rotationref ref="EMOD_1300x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_131" copynumber="131">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1310x1inSM10pos"/>
+        <rotationref ref="EMOD_1310x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_132" copynumber="132">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1320x1inSM10pos"/>
+        <rotationref ref="EMOD_1320x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_133" copynumber="133">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1330x1inSM10pos"/>
+        <rotationref ref="EMOD_1330x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_134" copynumber="134">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1340x1inSM10pos"/>
+        <rotationref ref="EMOD_1340x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_135" copynumber="135">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1350x1inSM10pos"/>
+        <rotationref ref="EMOD_1350x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_136" copynumber="136">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1360x1inSM10pos"/>
+        <rotationref ref="EMOD_1360x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_137" copynumber="137">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1370x1inSM10pos"/>
+        <rotationref ref="EMOD_1370x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_138" copynumber="138">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1380x1inSM10pos"/>
+        <rotationref ref="EMOD_1380x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_139" copynumber="139">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1390x1inSM10pos"/>
+        <rotationref ref="EMOD_1390x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_140" copynumber="140">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1400x1inSM10pos"/>
+        <rotationref ref="EMOD_1400x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_141" copynumber="141">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1410x1inSM10pos"/>
+        <rotationref ref="EMOD_1410x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_142" copynumber="142">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1420x1inSM10pos"/>
+        <rotationref ref="EMOD_1420x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_143" copynumber="143">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1430x1inSM10pos"/>
+        <rotationref ref="EMOD_1430x1inSM10rot"/>
+      </physvol>
+      <physvol name="EMOD_144" copynumber="144">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1440x1inSM10pos"/>
+        <rotationref ref="EMOD_1440x1inSM10rot"/>
       </physvol>
     </volume>
-    <volume name="EMOD">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="EMOD0x1"/>
-      <physvol name="SCM0_1" copynumber="1">
-        <volumeref ref="SCM0"/>
-        <positionref ref="SCM0_1inEMODpos"/>
+    <volume name="SMOD">
+      <materialref ref="EMCAL_Air"/>
+      <solidref ref="SMOD0x1"/>
+      <physvol name="EMOD_1" copynumber="1">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_1inSMODpos"/>
+        <rotationref ref="EMOD_1inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_2" copynumber="2">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_2inSMODpos"/>
+        <rotationref ref="EMOD_2inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_3" copynumber="3">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_3inSMODpos"/>
+        <rotationref ref="EMOD_3inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_4" copynumber="4">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_4inSMODpos"/>
+        <rotationref ref="EMOD_4inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_5" copynumber="5">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_5inSMODpos"/>
+        <rotationref ref="EMOD_5inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_6" copynumber="6">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_6inSMODpos"/>
+        <rotationref ref="EMOD_6inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_7" copynumber="7">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_7inSMODpos"/>
+        <rotationref ref="EMOD_7inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_8" copynumber="8">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_8inSMODpos"/>
+        <rotationref ref="EMOD_8inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_9" copynumber="9">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_9inSMODpos"/>
+        <rotationref ref="EMOD_9inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_10" copynumber="10">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_10inSMODpos"/>
+        <rotationref ref="EMOD_10inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_11" copynumber="11">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_11inSMODpos"/>
+        <rotationref ref="EMOD_11inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_12" copynumber="12">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_12inSMODpos"/>
+        <rotationref ref="EMOD_12inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_13" copynumber="13">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_13inSMODpos"/>
+        <rotationref ref="EMOD_13inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_14" copynumber="14">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_14inSMODpos"/>
+        <rotationref ref="EMOD_14inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_15" copynumber="15">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_15inSMODpos"/>
+        <rotationref ref="EMOD_15inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_16" copynumber="16">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_16inSMODpos"/>
+        <rotationref ref="EMOD_16inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_17" copynumber="17">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_17inSMODpos"/>
+        <rotationref ref="EMOD_17inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_18" copynumber="18">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_18inSMODpos"/>
+        <rotationref ref="EMOD_18inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_19" copynumber="19">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_19inSMODpos"/>
+        <rotationref ref="EMOD_19inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_20" copynumber="20">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_20inSMODpos"/>
+        <rotationref ref="EMOD_20inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_21" copynumber="21">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_21inSMODpos"/>
+        <rotationref ref="EMOD_21inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_22" copynumber="22">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_22inSMODpos"/>
+        <rotationref ref="EMOD_22inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_23" copynumber="23">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_23inSMODpos"/>
+        <rotationref ref="EMOD_23inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_24" copynumber="24">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_24inSMODpos"/>
+        <rotationref ref="EMOD_24inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_25" copynumber="25">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_25inSMODpos"/>
+        <rotationref ref="EMOD_25inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_26" copynumber="26">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_26inSMODpos"/>
+        <rotationref ref="EMOD_26inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_27" copynumber="27">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_27inSMODpos"/>
+        <rotationref ref="EMOD_27inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_28" copynumber="28">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_28inSMODpos"/>
+        <rotationref ref="EMOD_28inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_29" copynumber="29">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_29inSMODpos"/>
+        <rotationref ref="EMOD_29inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_30" copynumber="30">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_30inSMODpos"/>
+        <rotationref ref="EMOD_30inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_31" copynumber="31">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_31inSMODpos"/>
+        <rotationref ref="EMOD_31inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_32" copynumber="32">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_32inSMODpos"/>
+        <rotationref ref="EMOD_32inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_33" copynumber="33">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_33inSMODpos"/>
+        <rotationref ref="EMOD_33inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_34" copynumber="34">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_34inSMODpos"/>
+        <rotationref ref="EMOD_34inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_35" copynumber="35">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_35inSMODpos"/>
+        <rotationref ref="EMOD_35inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_36" copynumber="36">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_36inSMODpos"/>
+        <rotationref ref="EMOD_36inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_37" copynumber="37">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_37inSMODpos"/>
+        <rotationref ref="EMOD_37inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_38" copynumber="38">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_38inSMODpos"/>
+        <rotationref ref="EMOD_38inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_39" copynumber="39">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_39inSMODpos"/>
+        <rotationref ref="EMOD_39inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_40" copynumber="40">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_40inSMODpos"/>
+        <rotationref ref="EMOD_40inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_41" copynumber="41">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_41inSMODpos"/>
+        <rotationref ref="EMOD_41inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_42" copynumber="42">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_42inSMODpos"/>
+        <rotationref ref="EMOD_42inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_43" copynumber="43">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_43inSMODpos"/>
+        <rotationref ref="EMOD_43inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_44" copynumber="44">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_44inSMODpos"/>
+        <rotationref ref="EMOD_44inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_45" copynumber="45">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_45inSMODpos"/>
+        <rotationref ref="EMOD_45inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_46" copynumber="46">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_46inSMODpos"/>
+        <rotationref ref="EMOD_46inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_47" copynumber="47">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_47inSMODpos"/>
+        <rotationref ref="EMOD_47inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_48" copynumber="48">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_48inSMODpos"/>
+        <rotationref ref="EMOD_48inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_49" copynumber="49">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_49inSMODpos"/>
+        <rotationref ref="EMOD_49inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_50" copynumber="50">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_50inSMODpos"/>
+        <rotationref ref="EMOD_50inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_51" copynumber="51">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_51inSMODpos"/>
+        <rotationref ref="EMOD_51inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_52" copynumber="52">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_52inSMODpos"/>
+        <rotationref ref="EMOD_52inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_53" copynumber="53">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_53inSMODpos"/>
+        <rotationref ref="EMOD_53inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_54" copynumber="54">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_54inSMODpos"/>
+        <rotationref ref="EMOD_54inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_55" copynumber="55">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_55inSMODpos"/>
+        <rotationref ref="EMOD_55inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_56" copynumber="56">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_56inSMODpos"/>
+        <rotationref ref="EMOD_56inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_57" copynumber="57">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_57inSMODpos"/>
+        <rotationref ref="EMOD_57inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_58" copynumber="58">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_58inSMODpos"/>
+        <rotationref ref="EMOD_58inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_59" copynumber="59">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_59inSMODpos"/>
+        <rotationref ref="EMOD_59inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_60" copynumber="60">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_60inSMODpos"/>
+        <rotationref ref="EMOD_60inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_61" copynumber="61">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_61inSMODpos"/>
+        <rotationref ref="EMOD_61inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_62" copynumber="62">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_62inSMODpos"/>
+        <rotationref ref="EMOD_62inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_63" copynumber="63">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_63inSMODpos"/>
+        <rotationref ref="EMOD_63inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_64" copynumber="64">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_64inSMODpos"/>
+        <rotationref ref="EMOD_64inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_65" copynumber="65">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_65inSMODpos"/>
+        <rotationref ref="EMOD_65inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_66" copynumber="66">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_66inSMODpos"/>
+        <rotationref ref="EMOD_66inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_67" copynumber="67">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_67inSMODpos"/>
+        <rotationref ref="EMOD_67inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_68" copynumber="68">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_68inSMODpos"/>
+        <rotationref ref="EMOD_68inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_69" copynumber="69">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_69inSMODpos"/>
+        <rotationref ref="EMOD_69inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_70" copynumber="70">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_70inSMODpos"/>
+        <rotationref ref="EMOD_70inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_71" copynumber="71">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_71inSMODpos"/>
+        <rotationref ref="EMOD_71inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_72" copynumber="72">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_72inSMODpos"/>
+        <rotationref ref="EMOD_72inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_73" copynumber="73">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_73inSMODpos"/>
+        <rotationref ref="EMOD_73inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_74" copynumber="74">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_74inSMODpos"/>
+        <rotationref ref="EMOD_74inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_75" copynumber="75">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_75inSMODpos"/>
+        <rotationref ref="EMOD_75inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_76" copynumber="76">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_76inSMODpos"/>
+        <rotationref ref="EMOD_76inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_77" copynumber="77">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_77inSMODpos"/>
+        <rotationref ref="EMOD_77inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_78" copynumber="78">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_78inSMODpos"/>
+        <rotationref ref="EMOD_78inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_79" copynumber="79">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_79inSMODpos"/>
+        <rotationref ref="EMOD_79inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_80" copynumber="80">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_80inSMODpos"/>
+        <rotationref ref="EMOD_80inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_81" copynumber="81">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_81inSMODpos"/>
+        <rotationref ref="EMOD_81inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_82" copynumber="82">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_82inSMODpos"/>
+        <rotationref ref="EMOD_82inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_83" copynumber="83">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_83inSMODpos"/>
+        <rotationref ref="EMOD_83inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_84" copynumber="84">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_84inSMODpos"/>
+        <rotationref ref="EMOD_84inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_85" copynumber="85">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_85inSMODpos"/>
+        <rotationref ref="EMOD_85inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_86" copynumber="86">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_86inSMODpos"/>
+        <rotationref ref="EMOD_86inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_87" copynumber="87">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_87inSMODpos"/>
+        <rotationref ref="EMOD_87inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_88" copynumber="88">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_88inSMODpos"/>
+        <rotationref ref="EMOD_88inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_89" copynumber="89">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_89inSMODpos"/>
+        <rotationref ref="EMOD_89inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_90" copynumber="90">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_90inSMODpos"/>
+        <rotationref ref="EMOD_90inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_91" copynumber="91">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_91inSMODpos"/>
+        <rotationref ref="EMOD_91inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_92" copynumber="92">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_92inSMODpos"/>
+        <rotationref ref="EMOD_92inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_93" copynumber="93">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_93inSMODpos"/>
+        <rotationref ref="EMOD_93inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_94" copynumber="94">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_94inSMODpos"/>
+        <rotationref ref="EMOD_94inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_95" copynumber="95">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_95inSMODpos"/>
+        <rotationref ref="EMOD_95inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_96" copynumber="96">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_96inSMODpos"/>
+        <rotationref ref="EMOD_96inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_97" copynumber="97">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_97inSMODpos"/>
+        <rotationref ref="EMOD_97inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_98" copynumber="98">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_98inSMODpos"/>
+        <rotationref ref="EMOD_98inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_99" copynumber="99">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_99inSMODpos"/>
+        <rotationref ref="EMOD_99inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_100" copynumber="100">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_100inSMODpos"/>
+        <rotationref ref="EMOD_100inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_101" copynumber="101">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_101inSMODpos"/>
+        <rotationref ref="EMOD_101inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_102" copynumber="102">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_102inSMODpos"/>
+        <rotationref ref="EMOD_102inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_103" copynumber="103">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_103inSMODpos"/>
+        <rotationref ref="EMOD_103inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_104" copynumber="104">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_104inSMODpos"/>
+        <rotationref ref="EMOD_104inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_105" copynumber="105">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_105inSMODpos"/>
+        <rotationref ref="EMOD_105inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_106" copynumber="106">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_106inSMODpos"/>
+        <rotationref ref="EMOD_106inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_107" copynumber="107">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_107inSMODpos"/>
+        <rotationref ref="EMOD_107inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_108" copynumber="108">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_108inSMODpos"/>
+        <rotationref ref="EMOD_108inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_109" copynumber="109">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_109inSMODpos"/>
+        <rotationref ref="EMOD_109inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_110" copynumber="110">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_110inSMODpos"/>
+        <rotationref ref="EMOD_110inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_111" copynumber="111">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_111inSMODpos"/>
+        <rotationref ref="EMOD_111inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_112" copynumber="112">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_112inSMODpos"/>
+        <rotationref ref="EMOD_112inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_113" copynumber="113">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_113inSMODpos"/>
+        <rotationref ref="EMOD_113inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_114" copynumber="114">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_114inSMODpos"/>
+        <rotationref ref="EMOD_114inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_115" copynumber="115">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_115inSMODpos"/>
+        <rotationref ref="EMOD_115inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_116" copynumber="116">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_116inSMODpos"/>
+        <rotationref ref="EMOD_116inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_117" copynumber="117">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_117inSMODpos"/>
+        <rotationref ref="EMOD_117inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_118" copynumber="118">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_118inSMODpos"/>
+        <rotationref ref="EMOD_118inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_119" copynumber="119">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_119inSMODpos"/>
+        <rotationref ref="EMOD_119inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_120" copynumber="120">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_120inSMODpos"/>
+        <rotationref ref="EMOD_120inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_121" copynumber="121">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_121inSMODpos"/>
+        <rotationref ref="EMOD_121inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_122" copynumber="122">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_122inSMODpos"/>
+        <rotationref ref="EMOD_122inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_123" copynumber="123">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_123inSMODpos"/>
+        <rotationref ref="EMOD_123inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_124" copynumber="124">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_124inSMODpos"/>
+        <rotationref ref="EMOD_124inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_125" copynumber="125">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_125inSMODpos"/>
+        <rotationref ref="EMOD_125inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_126" copynumber="126">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_126inSMODpos"/>
+        <rotationref ref="EMOD_126inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_127" copynumber="127">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_127inSMODpos"/>
+        <rotationref ref="EMOD_127inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_128" copynumber="128">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_128inSMODpos"/>
+        <rotationref ref="EMOD_128inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_129" copynumber="129">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_129inSMODpos"/>
+        <rotationref ref="EMOD_129inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_130" copynumber="130">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_130inSMODpos"/>
+        <rotationref ref="EMOD_130inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_131" copynumber="131">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_131inSMODpos"/>
+        <rotationref ref="EMOD_131inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_132" copynumber="132">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_132inSMODpos"/>
+        <rotationref ref="EMOD_132inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_133" copynumber="133">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_133inSMODpos"/>
+        <rotationref ref="EMOD_133inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_134" copynumber="134">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_134inSMODpos"/>
+        <rotationref ref="EMOD_134inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_135" copynumber="135">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_135inSMODpos"/>
+        <rotationref ref="EMOD_135inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_136" copynumber="136">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_136inSMODpos"/>
+        <rotationref ref="EMOD_136inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_137" copynumber="137">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_137inSMODpos"/>
+        <rotationref ref="EMOD_137inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_138" copynumber="138">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_138inSMODpos"/>
+        <rotationref ref="EMOD_138inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_139" copynumber="139">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_139inSMODpos"/>
+        <rotationref ref="EMOD_139inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_140" copynumber="140">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_140inSMODpos"/>
+        <rotationref ref="EMOD_140inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_141" copynumber="141">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_141inSMODpos"/>
+        <rotationref ref="EMOD_141inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_142" copynumber="142">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_142inSMODpos"/>
+        <rotationref ref="EMOD_142inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_143" copynumber="143">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_143inSMODpos"/>
+        <rotationref ref="EMOD_143inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_144" copynumber="144">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_144inSMODpos"/>
+        <rotationref ref="EMOD_144inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_145" copynumber="145">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_145inSMODpos"/>
+        <rotationref ref="EMOD_145inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_146" copynumber="146">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_146inSMODpos"/>
+        <rotationref ref="EMOD_146inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_147" copynumber="147">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_147inSMODpos"/>
+        <rotationref ref="EMOD_147inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_148" copynumber="148">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_148inSMODpos"/>
+        <rotationref ref="EMOD_148inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_149" copynumber="149">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_149inSMODpos"/>
+        <rotationref ref="EMOD_149inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_150" copynumber="150">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_150inSMODpos"/>
+        <rotationref ref="EMOD_150inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_151" copynumber="151">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_151inSMODpos"/>
+        <rotationref ref="EMOD_151inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_152" copynumber="152">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_152inSMODpos"/>
+        <rotationref ref="EMOD_152inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_153" copynumber="153">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_153inSMODpos"/>
+        <rotationref ref="EMOD_153inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_154" copynumber="154">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_154inSMODpos"/>
+        <rotationref ref="EMOD_154inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_155" copynumber="155">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_155inSMODpos"/>
+        <rotationref ref="EMOD_155inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_156" copynumber="156">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_156inSMODpos"/>
+        <rotationref ref="EMOD_156inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_157" copynumber="157">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_157inSMODpos"/>
+        <rotationref ref="EMOD_157inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_158" copynumber="158">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_158inSMODpos"/>
+        <rotationref ref="EMOD_158inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_159" copynumber="159">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_159inSMODpos"/>
+        <rotationref ref="EMOD_159inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_160" copynumber="160">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_160inSMODpos"/>
+        <rotationref ref="EMOD_160inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_161" copynumber="161">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_161inSMODpos"/>
+        <rotationref ref="EMOD_161inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_162" copynumber="162">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_162inSMODpos"/>
+        <rotationref ref="EMOD_162inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_163" copynumber="163">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_163inSMODpos"/>
+        <rotationref ref="EMOD_163inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_164" copynumber="164">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_164inSMODpos"/>
+        <rotationref ref="EMOD_164inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_165" copynumber="165">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_165inSMODpos"/>
+        <rotationref ref="EMOD_165inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_166" copynumber="166">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_166inSMODpos"/>
+        <rotationref ref="EMOD_166inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_167" copynumber="167">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_167inSMODpos"/>
+        <rotationref ref="EMOD_167inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_168" copynumber="168">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_168inSMODpos"/>
+        <rotationref ref="EMOD_168inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_169" copynumber="169">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_169inSMODpos"/>
+        <rotationref ref="EMOD_169inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_170" copynumber="170">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_170inSMODpos"/>
+        <rotationref ref="EMOD_170inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_171" copynumber="171">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_171inSMODpos"/>
+        <rotationref ref="EMOD_171inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_172" copynumber="172">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_172inSMODpos"/>
+        <rotationref ref="EMOD_172inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_173" copynumber="173">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_173inSMODpos"/>
+        <rotationref ref="EMOD_173inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_174" copynumber="174">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_174inSMODpos"/>
+        <rotationref ref="EMOD_174inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_175" copynumber="175">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_175inSMODpos"/>
+        <rotationref ref="EMOD_175inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_176" copynumber="176">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_176inSMODpos"/>
+        <rotationref ref="EMOD_176inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_177" copynumber="177">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_177inSMODpos"/>
+        <rotationref ref="EMOD_177inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_178" copynumber="178">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_178inSMODpos"/>
+        <rotationref ref="EMOD_178inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_179" copynumber="179">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_179inSMODpos"/>
+        <rotationref ref="EMOD_179inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_180" copynumber="180">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_180inSMODpos"/>
+        <rotationref ref="EMOD_180inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_181" copynumber="181">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_181inSMODpos"/>
+        <rotationref ref="EMOD_181inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_182" copynumber="182">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_182inSMODpos"/>
+        <rotationref ref="EMOD_182inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_183" copynumber="183">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_183inSMODpos"/>
+        <rotationref ref="EMOD_183inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_184" copynumber="184">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_184inSMODpos"/>
+        <rotationref ref="EMOD_184inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_185" copynumber="185">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_185inSMODpos"/>
+        <rotationref ref="EMOD_185inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_186" copynumber="186">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_186inSMODpos"/>
+        <rotationref ref="EMOD_186inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_187" copynumber="187">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_187inSMODpos"/>
+        <rotationref ref="EMOD_187inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_188" copynumber="188">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_188inSMODpos"/>
+        <rotationref ref="EMOD_188inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_189" copynumber="189">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_189inSMODpos"/>
+        <rotationref ref="EMOD_189inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_190" copynumber="190">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_190inSMODpos"/>
+        <rotationref ref="EMOD_190inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_191" copynumber="191">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_191inSMODpos"/>
+        <rotationref ref="EMOD_191inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_192" copynumber="192">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_192inSMODpos"/>
+        <rotationref ref="EMOD_192inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_193" copynumber="193">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_193inSMODpos"/>
+        <rotationref ref="EMOD_193inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_194" copynumber="194">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_194inSMODpos"/>
+        <rotationref ref="EMOD_194inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_195" copynumber="195">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_195inSMODpos"/>
+        <rotationref ref="EMOD_195inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_196" copynumber="196">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_196inSMODpos"/>
+        <rotationref ref="EMOD_196inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_197" copynumber="197">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_197inSMODpos"/>
+        <rotationref ref="EMOD_197inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_198" copynumber="198">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_198inSMODpos"/>
+        <rotationref ref="EMOD_198inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_199" copynumber="199">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_199inSMODpos"/>
+        <rotationref ref="EMOD_199inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_200" copynumber="200">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_200inSMODpos"/>
+        <rotationref ref="EMOD_200inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_201" copynumber="201">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_201inSMODpos"/>
+        <rotationref ref="EMOD_201inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_202" copynumber="202">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_202inSMODpos"/>
+        <rotationref ref="EMOD_202inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_203" copynumber="203">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_203inSMODpos"/>
+        <rotationref ref="EMOD_203inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_204" copynumber="204">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_204inSMODpos"/>
+        <rotationref ref="EMOD_204inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_205" copynumber="205">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_205inSMODpos"/>
+        <rotationref ref="EMOD_205inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_206" copynumber="206">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_206inSMODpos"/>
+        <rotationref ref="EMOD_206inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_207" copynumber="207">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_207inSMODpos"/>
+        <rotationref ref="EMOD_207inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_208" copynumber="208">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_208inSMODpos"/>
+        <rotationref ref="EMOD_208inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_209" copynumber="209">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_209inSMODpos"/>
+        <rotationref ref="EMOD_209inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_210" copynumber="210">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_210inSMODpos"/>
+        <rotationref ref="EMOD_210inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_211" copynumber="211">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_211inSMODpos"/>
+        <rotationref ref="EMOD_211inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_212" copynumber="212">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_212inSMODpos"/>
+        <rotationref ref="EMOD_212inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_213" copynumber="213">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_213inSMODpos"/>
+        <rotationref ref="EMOD_213inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_214" copynumber="214">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_214inSMODpos"/>
+        <rotationref ref="EMOD_214inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_215" copynumber="215">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_215inSMODpos"/>
+        <rotationref ref="EMOD_215inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_216" copynumber="216">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_216inSMODpos"/>
+        <rotationref ref="EMOD_216inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_217" copynumber="217">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_217inSMODpos"/>
+        <rotationref ref="EMOD_217inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_218" copynumber="218">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_218inSMODpos"/>
+        <rotationref ref="EMOD_218inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_219" copynumber="219">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_219inSMODpos"/>
+        <rotationref ref="EMOD_219inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_220" copynumber="220">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_220inSMODpos"/>
+        <rotationref ref="EMOD_220inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_221" copynumber="221">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_221inSMODpos"/>
+        <rotationref ref="EMOD_221inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_222" copynumber="222">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_222inSMODpos"/>
+        <rotationref ref="EMOD_222inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_223" copynumber="223">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_223inSMODpos"/>
+        <rotationref ref="EMOD_223inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_224" copynumber="224">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_224inSMODpos"/>
+        <rotationref ref="EMOD_224inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_225" copynumber="225">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_225inSMODpos"/>
+        <rotationref ref="EMOD_225inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_226" copynumber="226">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_226inSMODpos"/>
+        <rotationref ref="EMOD_226inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_227" copynumber="227">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_227inSMODpos"/>
+        <rotationref ref="EMOD_227inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_228" copynumber="228">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_228inSMODpos"/>
+        <rotationref ref="EMOD_228inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_229" copynumber="229">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_229inSMODpos"/>
+        <rotationref ref="EMOD_229inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_230" copynumber="230">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_230inSMODpos"/>
+        <rotationref ref="EMOD_230inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_231" copynumber="231">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_231inSMODpos"/>
+        <rotationref ref="EMOD_231inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_232" copynumber="232">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_232inSMODpos"/>
+        <rotationref ref="EMOD_232inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_233" copynumber="233">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_233inSMODpos"/>
+        <rotationref ref="EMOD_233inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_234" copynumber="234">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_234inSMODpos"/>
+        <rotationref ref="EMOD_234inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_235" copynumber="235">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_235inSMODpos"/>
+        <rotationref ref="EMOD_235inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_236" copynumber="236">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_236inSMODpos"/>
+        <rotationref ref="EMOD_236inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_237" copynumber="237">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_237inSMODpos"/>
+        <rotationref ref="EMOD_237inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_238" copynumber="238">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_238inSMODpos"/>
+        <rotationref ref="EMOD_238inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_239" copynumber="239">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_239inSMODpos"/>
+        <rotationref ref="EMOD_239inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_240" copynumber="240">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_240inSMODpos"/>
+        <rotationref ref="EMOD_240inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_241" copynumber="241">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_241inSMODpos"/>
+        <rotationref ref="EMOD_241inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_242" copynumber="242">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_242inSMODpos"/>
+        <rotationref ref="EMOD_242inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_243" copynumber="243">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_243inSMODpos"/>
+        <rotationref ref="EMOD_243inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_244" copynumber="244">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_244inSMODpos"/>
+        <rotationref ref="EMOD_244inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_245" copynumber="245">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_245inSMODpos"/>
+        <rotationref ref="EMOD_245inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_246" copynumber="246">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_246inSMODpos"/>
+        <rotationref ref="EMOD_246inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_247" copynumber="247">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_247inSMODpos"/>
+        <rotationref ref="EMOD_247inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_248" copynumber="248">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_248inSMODpos"/>
+        <rotationref ref="EMOD_248inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_249" copynumber="249">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_249inSMODpos"/>
+        <rotationref ref="EMOD_249inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_250" copynumber="250">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_250inSMODpos"/>
+        <rotationref ref="EMOD_250inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_251" copynumber="251">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_251inSMODpos"/>
+        <rotationref ref="EMOD_251inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_252" copynumber="252">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_252inSMODpos"/>
+        <rotationref ref="EMOD_252inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_253" copynumber="253">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_253inSMODpos"/>
+        <rotationref ref="EMOD_253inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_254" copynumber="254">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_254inSMODpos"/>
+        <rotationref ref="EMOD_254inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_255" copynumber="255">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_255inSMODpos"/>
+        <rotationref ref="EMOD_255inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_256" copynumber="256">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_256inSMODpos"/>
+        <rotationref ref="EMOD_256inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_257" copynumber="257">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_257inSMODpos"/>
+        <rotationref ref="EMOD_257inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_258" copynumber="258">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_258inSMODpos"/>
+        <rotationref ref="EMOD_258inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_259" copynumber="259">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_259inSMODpos"/>
+        <rotationref ref="EMOD_259inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_260" copynumber="260">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_260inSMODpos"/>
+        <rotationref ref="EMOD_260inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_261" copynumber="261">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_261inSMODpos"/>
+        <rotationref ref="EMOD_261inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_262" copynumber="262">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_262inSMODpos"/>
+        <rotationref ref="EMOD_262inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_263" copynumber="263">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_263inSMODpos"/>
+        <rotationref ref="EMOD_263inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_264" copynumber="264">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_264inSMODpos"/>
+        <rotationref ref="EMOD_264inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_265" copynumber="265">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_265inSMODpos"/>
+        <rotationref ref="EMOD_265inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_266" copynumber="266">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_266inSMODpos"/>
+        <rotationref ref="EMOD_266inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_267" copynumber="267">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_267inSMODpos"/>
+        <rotationref ref="EMOD_267inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_268" copynumber="268">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_268inSMODpos"/>
+        <rotationref ref="EMOD_268inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_269" copynumber="269">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_269inSMODpos"/>
+        <rotationref ref="EMOD_269inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_270" copynumber="270">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_270inSMODpos"/>
+        <rotationref ref="EMOD_270inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_271" copynumber="271">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_271inSMODpos"/>
+        <rotationref ref="EMOD_271inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_272" copynumber="272">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_272inSMODpos"/>
+        <rotationref ref="EMOD_272inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_273" copynumber="273">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_273inSMODpos"/>
+        <rotationref ref="EMOD_273inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_274" copynumber="274">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_274inSMODpos"/>
+        <rotationref ref="EMOD_274inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_275" copynumber="275">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_275inSMODpos"/>
+        <rotationref ref="EMOD_275inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_276" copynumber="276">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_276inSMODpos"/>
+        <rotationref ref="EMOD_276inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_277" copynumber="277">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_277inSMODpos"/>
+        <rotationref ref="EMOD_277inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_278" copynumber="278">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_278inSMODpos"/>
+        <rotationref ref="EMOD_278inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_279" copynumber="279">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_279inSMODpos"/>
+        <rotationref ref="EMOD_279inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_280" copynumber="280">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_280inSMODpos"/>
+        <rotationref ref="EMOD_280inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_281" copynumber="281">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_281inSMODpos"/>
+        <rotationref ref="EMOD_281inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_282" copynumber="282">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_282inSMODpos"/>
+        <rotationref ref="EMOD_282inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_283" copynumber="283">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_283inSMODpos"/>
+        <rotationref ref="EMOD_283inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_284" copynumber="284">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_284inSMODpos"/>
+        <rotationref ref="EMOD_284inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_285" copynumber="285">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_285inSMODpos"/>
+        <rotationref ref="EMOD_285inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_286" copynumber="286">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_286inSMODpos"/>
+        <rotationref ref="EMOD_286inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_287" copynumber="287">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_287inSMODpos"/>
+        <rotationref ref="EMOD_287inSMODrot"/>
+      </physvol>
+      <physvol name="EMOD_288" copynumber="288">
+        <volumeref ref="EMOD"/>
+        <positionref ref="EMOD_288inSMODpos"/>
+        <rotationref ref="EMOD_288inSMODrot"/>
       </physvol>
     </volume>
     <volume name="XEN1">

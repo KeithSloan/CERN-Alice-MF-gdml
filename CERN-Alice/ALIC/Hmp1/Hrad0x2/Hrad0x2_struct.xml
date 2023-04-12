@@ -10,6 +10,14 @@
       <materialref ref="HMPID_SiO2"/>
       <solidref ref="Hsi10x3"/>
     </volume>
+    <volume name="Hwin0x2">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hwin0x3"/>
+    </volume>
+    <volume name="Hneo0x2">
+      <materialref ref="HMPID_Neo"/>
+      <solidref ref="Hneo0x3"/>
+    </volume>
     <volume name="Hrad0x2">
       <materialref ref="HMPID_C6F14"/>
       <solidref ref="Hrad0x3"/>

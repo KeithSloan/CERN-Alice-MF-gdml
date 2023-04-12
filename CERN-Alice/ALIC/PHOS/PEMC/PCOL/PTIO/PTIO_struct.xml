@@ -1,4 +1,12 @@
-<structure><volume name="PTIO">
+<structure><volume name="PCOR">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCOR0x1"/>
+      <physvol name="PAGA_1" copynumber="1">
+        <volumeref ref="PAGA"/>
+        <positionref ref="PAGA_1inPCORpos"/>
+      </physvol>
+    </volume>
+    <volume name="PTIO">
       <materialref ref="PHOS_Thermo_Insul."/>
       <solidref ref="PTIO0x1"/>
       <physvol name="PCOR_1" copynumber="1">

@@ -1,4 +1,10 @@
-<structure><assembly name="ITSSPD">
+<structure><assembly name="ITSSPDCarbonFiberSectorV">
+      <physvol name="ITSSPDSensitiveVirtualvolumeM0_1" copynumber="1">
+        <volumeref ref="ITSSPDSensitiveVirtualvolumeM0"/>
+        <positionref ref="ITSSPDSensitiveVirtualvolumeM0_1inITSSPDCarbonFiberSectorVpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSSPD">
       <physvol name="ITSSPDCarbonFiberSectorV_1" copynumber="1">
         <volumeref ref="ITSSPDCarbonFiberSectorV"/>
         <positionref ref="ITSSPDCarbonFiberSectorV_1inITSSPDpos"/>

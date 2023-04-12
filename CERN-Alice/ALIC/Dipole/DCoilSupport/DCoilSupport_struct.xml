@@ -1,6 +1,26 @@
-<structure><volume name="DCS021">
+<structure><volume name="DCS05">
+      <materialref ref="DIPO_ALUMINIUM2"/>
+      <solidref ref="TGeoTubeSeg0x9"/>
+    </volume>
+    <volume name="DCS03">
+      <materialref ref="DIPO_ALUMINIUM2"/>
+      <solidref ref="TGeoTubeSeg0x8"/>
+    </volume>
+    <volume name="DCS01">
+      <materialref ref="DIPO_ALUMINIUM2"/>
+      <solidref ref="TGeoTubeSeg0x7"/>
+    </volume>
+    <volume name="DCS021">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoConeSeg"/>
+    </volume>
+    <volume name="DCS04">
+      <materialref ref="DIPO_ALUMINIUM2"/>
+      <solidref ref="TGeoTubeSeg0x6"/>
+    </volume>
+    <volume name="DCS02">
+      <materialref ref="DIPO_ALUMINIUM2"/>
+      <solidref ref="TGeoTubeSeg0x5"/>
     </volume>
     <assembly name="DCoilSupport">
       <physvol name="DCS02_1" copynumber="1">

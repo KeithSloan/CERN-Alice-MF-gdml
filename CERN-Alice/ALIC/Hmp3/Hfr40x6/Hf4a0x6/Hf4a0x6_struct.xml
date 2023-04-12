@@ -1,4 +1,8 @@
-<structure><volume name="Hf4a0x6">
+<structure><volume name="Hf4i0x6">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hf4i0x7"/>
+    </volume>
+    <volume name="Hf4a0x6">
       <materialref ref="HMPID_Al"/>
       <solidref ref="Hf4a0x7"/>
       <physvol name="Hf4i_1" copynumber="1">

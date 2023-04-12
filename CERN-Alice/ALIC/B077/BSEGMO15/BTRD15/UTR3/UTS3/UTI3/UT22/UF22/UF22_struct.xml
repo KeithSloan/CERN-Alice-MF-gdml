@@ -1,4 +1,32 @@
-<structure><volume name="UF22">
+<structure><volume name="UG22">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x279"/>
+      <physvol name="UL22_1" copynumber="1">
+        <volumeref ref="UL22"/>
+        <positionref ref="UL22_1inUG22pos"/>
+      </physvol>
+      <physvol name="UY22_1" copynumber="1">
+        <volumeref ref="UY22"/>
+        <positionref ref="UY22_1inUG22pos"/>
+      </physvol>
+      <physvol name="UM22_1" copynumber="1">
+        <volumeref ref="UM22"/>
+        <positionref ref="UM22_1inUG22pos"/>
+      </physvol>
+      <physvol name="UN22_1" copynumber="1">
+        <volumeref ref="UN22"/>
+        <positionref ref="UN22_1inUG22pos"/>
+      </physvol>
+      <physvol name="UO22_1" copynumber="1">
+        <volumeref ref="UO22"/>
+        <positionref ref="UO22_1inUG22pos"/>
+      </physvol>
+      <physvol name="UV22_1" copynumber="1">
+        <volumeref ref="UV22"/>
+        <positionref ref="UV22_1inUG22pos"/>
+      </physvol>
+    </volume>
+    <volume name="UF22">
       <materialref ref="TRD_Al"/>
       <solidref ref="UF220x1"/>
       <physvol name="UG22_1" copynumber="1">

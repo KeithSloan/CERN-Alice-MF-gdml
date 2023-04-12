@@ -14,6 +14,14 @@
         <positionref ref="ITSSPDCarbonFiberSupportSectorEndAirB2_1inITSSPDCarbonFiberSupportSectorEndB0pos"/>
       </physvol>
     </volume>
+    <volume name="ITSSPDCarbonFiberSupportSectorA0">
+      <materialref ref="ITS_SPD_C_M55J"/>
+      <solidref ref="ITS_SPD_Carbon_fiber_support_Sector_A0"/>
+      <physvol name="ITSSPDCarbonFiberSupportSectorAirA1_1" copynumber="1">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorAirA1"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorAirA1_1inITSSPDCarbonFiberSupportSectorA0pos"/>
+      </physvol>
+    </volume>
     <volume name="ITSSPDCoolingTubeTA0">
       <materialref ref="ITS_INOX"/>
       <solidref ref="ITS_SPD_Cooling_Tube_TA0"/>
@@ -26,6 +34,26 @@
       <materialref ref="ITS_SPD_C_M55J"/>
       <solidref ref="ITSSPDSHClipHoles"/>
     </volume>
+    <assembly name="ITSSPDlay2-Stave">
+      <physvol name="ITSSPDhalf-Stave0_1" copynumber="1">
+        <volumeref ref="ITSSPDhalf-Stave00x1"/>
+        <positionref ref="ITSSPDhalf-Stave0_10x1inITSSPDlay2-Stavepos"/>
+      </physvol>
+      <physvol name="ITSSPDhalf-Stave1_1" copynumber="1">
+        <volumeref ref="ITSSPDhalf-Stave10x1"/>
+        <positionref ref="ITSSPDhalf-Stave1_10x1inITSSPDlay2-Stavepos"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSSPDlay1-Stave">
+      <physvol name="ITSSPDhalf-Stave1_1" copynumber="1">
+        <volumeref ref="ITSSPDhalf-Stave1"/>
+        <positionref ref="ITSSPDhalf-Stave1_1inITSSPDlay1-Stavepos"/>
+      </physvol>
+      <physvol name="ITSSPDhalf-Stave0_1" copynumber="1">
+        <volumeref ref="ITSSPDhalf-Stave0"/>
+        <positionref ref="ITSSPDhalf-Stave0_1inITSSPDlay1-Stavepos"/>
+      </physvol>
+    </assembly>
     <assembly name="ITSSPDSensitiveVirtualvolumeM0">
       <physvol name="ITSSPDlay1-Stave_1" copynumber="1">
         <volumeref ref="ITSSPDlay1-Stave"/>

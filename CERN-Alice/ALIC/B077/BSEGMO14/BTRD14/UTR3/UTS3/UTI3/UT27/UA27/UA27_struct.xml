@@ -1,4 +1,16 @@
-<structure><volume name="UA27">
+<structure><volume name="UB27">
+      <materialref ref="TRD_C"/>
+      <solidref ref="TGeoBBox0x338"/>
+      <physvol name="UJ27_1" copynumber="1">
+        <volumeref ref="UJ27"/>
+        <positionref ref="UJ27_1inUB27pos"/>
+      </physvol>
+      <physvol name="UX27_1" copynumber="1">
+        <volumeref ref="UX27"/>
+        <positionref ref="UX27_1inUB27pos"/>
+      </physvol>
+    </volume>
+    <volume name="UA27">
       <materialref ref="TRD_Al"/>
       <solidref ref="UA270x1"/>
       <physvol name="UB27_1" copynumber="1">

@@ -6,6 +6,14 @@
       <materialref ref="ITS_COPPER"/>
       <solidref ref="ITSSPDbb0x1"/>
     </volume>
+    <volume name="ITSSPDgaurdRing">
+      <materialref ref="ITS_SI"/>
+      <solidref ref="ITSSPDgaurdRingBorder"/>
+    </volume>
+    <volume name="ITSSPDlay1-sensor">
+      <materialref ref="ITS_SI"/>
+      <solidref ref="ITSSPDlay1-sensor0x1"/>
+    </volume>
     <volume name="ITSSPDlay1-Ladder">
       <materialref ref="ITS_AIR"/>
       <solidref ref="TGeoBBox0x962"/>

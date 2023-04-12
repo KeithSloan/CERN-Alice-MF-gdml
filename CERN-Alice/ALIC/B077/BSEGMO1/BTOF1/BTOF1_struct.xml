@@ -1,4 +1,610 @@
-<structure><volume name="BTOF1">
+<structure><volume name="FAIC">
+      <materialref ref="TOF_Air"/>
+      <solidref ref="FAIC0x1"/>
+      <physvol name="FCA2_1" copynumber="1">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_1inFAICpos"/>
+        <rotationref ref="FCA2_1inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_2" copynumber="2">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_2inFAICpos"/>
+        <rotationref ref="FCA2_2inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_3" copynumber="3">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_3inFAICpos"/>
+        <rotationref ref="FCA2_3inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_4" copynumber="4">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_4inFAICpos"/>
+        <rotationref ref="FCA2_4inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_5" copynumber="5">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_5inFAICpos"/>
+        <rotationref ref="FCA2_5inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_6" copynumber="6">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_6inFAICpos"/>
+        <rotationref ref="FCA2_6inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_7" copynumber="7">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_7inFAICpos"/>
+        <rotationref ref="FCA2_7inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_8" copynumber="8">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_8inFAICpos"/>
+        <rotationref ref="FCA2_8inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_9" copynumber="9">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_9inFAICpos"/>
+        <rotationref ref="FCA2_9inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_10" copynumber="10">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_10inFAICpos"/>
+        <rotationref ref="FCA2_10inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_11" copynumber="11">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_11inFAICpos"/>
+        <rotationref ref="FCA2_11inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_12" copynumber="12">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_12inFAICpos"/>
+        <rotationref ref="FCA2_12inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_13" copynumber="13">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_13inFAICpos"/>
+        <rotationref ref="FCA2_13inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_14" copynumber="14">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_14inFAICpos"/>
+        <rotationref ref="FCA2_14inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_15" copynumber="15">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_15inFAICpos"/>
+        <rotationref ref="FCA2_15inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_16" copynumber="16">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_16inFAICpos"/>
+        <rotationref ref="FCA2_16inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_17" copynumber="17">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_17inFAICpos"/>
+        <rotationref ref="FCA2_17inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_18" copynumber="18">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_18inFAICpos"/>
+        <rotationref ref="FCA2_18inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_19" copynumber="19">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_19inFAICpos"/>
+        <rotationref ref="FCA2_19inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_20" copynumber="20">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_20inFAICpos"/>
+        <rotationref ref="FCA2_20inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_21" copynumber="21">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_21inFAICpos"/>
+        <rotationref ref="FCA2_21inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_22" copynumber="22">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_22inFAICpos"/>
+        <rotationref ref="FCA2_22inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_23" copynumber="23">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_23inFAICpos"/>
+        <rotationref ref="FCA2_23inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_24" copynumber="24">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_24inFAICpos"/>
+        <rotationref ref="FCA2_24inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_25" copynumber="25">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_25inFAICpos"/>
+        <rotationref ref="FCA2_25inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_26" copynumber="26">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_26inFAICpos"/>
+        <rotationref ref="FCA2_26inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_27" copynumber="27">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_27inFAICpos"/>
+        <rotationref ref="FCA2_27inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_28" copynumber="28">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_28inFAICpos"/>
+        <rotationref ref="FCA2_28inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_29" copynumber="29">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_29inFAICpos"/>
+        <rotationref ref="FCA2_29inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_30" copynumber="30">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_30inFAICpos"/>
+        <rotationref ref="FCA2_30inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_31" copynumber="31">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_31inFAICpos"/>
+        <rotationref ref="FCA2_31inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_32" copynumber="32">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_32inFAICpos"/>
+        <rotationref ref="FCA2_32inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_33" copynumber="33">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_33inFAICpos"/>
+        <rotationref ref="FCA2_33inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_34" copynumber="34">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_34inFAICpos"/>
+        <rotationref ref="FCA2_34inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_35" copynumber="35">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_35inFAICpos"/>
+        <rotationref ref="FCA2_35inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_36" copynumber="36">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_36inFAICpos"/>
+        <rotationref ref="FCA2_36inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_37" copynumber="37">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_37inFAICpos"/>
+        <rotationref ref="FCA2_37inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_38" copynumber="38">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_38inFAICpos"/>
+        <rotationref ref="FCA2_38inFAICrot"/>
+      </physvol>
+      <physvol name="FCA2_39" copynumber="39">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_39inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_40" copynumber="40">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_40inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_41" copynumber="41">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_41inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_42" copynumber="42">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_42inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_43" copynumber="43">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_43inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_44" copynumber="44">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_44inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_45" copynumber="45">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_45inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_46" copynumber="46">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_46inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_47" copynumber="47">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_47inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_48" copynumber="48">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_48inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_49" copynumber="49">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_49inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_50" copynumber="50">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_50inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_51" copynumber="51">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_51inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_52" copynumber="52">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_52inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_53" copynumber="53">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_53inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_54" copynumber="54">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_54inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_55" copynumber="55">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_55inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_56" copynumber="56">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_56inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_57" copynumber="57">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_57inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_58" copynumber="58">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_58inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_59" copynumber="59">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_59inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_60" copynumber="60">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_60inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_61" copynumber="61">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_61inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_62" copynumber="62">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_62inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_63" copynumber="63">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_63inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_64" copynumber="64">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_64inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_65" copynumber="65">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_65inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_66" copynumber="66">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_66inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_67" copynumber="67">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_67inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_68" copynumber="68">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_68inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_69" copynumber="69">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_69inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_70" copynumber="70">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_70inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_71" copynumber="71">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_71inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_72" copynumber="72">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_72inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_73" copynumber="73">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_73inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_74" copynumber="74">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_74inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_75" copynumber="75">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_75inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_76" copynumber="76">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_76inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_77" copynumber="77">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_77inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_78" copynumber="78">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_78inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_79" copynumber="79">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_79inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_80" copynumber="80">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_80inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_81" copynumber="81">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_81inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_82" copynumber="82">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_82inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_83" copynumber="83">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_83inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_84" copynumber="84">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_84inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_85" copynumber="85">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_85inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_86" copynumber="86">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_86inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_87" copynumber="87">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_87inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_88" copynumber="88">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_88inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_89" copynumber="89">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_89inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_90" copynumber="90">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_90inFAICpos"/>
+      </physvol>
+      <physvol name="FCBL_1" copynumber="1">
+        <volumeref ref="FCBL"/>
+        <positionref ref="FCBL_10x1inFAICpos"/>
+        <rotationref ref="FCBL_10x1inFAICrot"/>
+      </physvol>
+      <physvol name="FCBL_2" copynumber="2">
+        <volumeref ref="FCBL"/>
+        <positionref ref="FCBL_20x1inFAICpos"/>
+        <rotationref ref="FCBL_20x1inFAICrot"/>
+      </physvol>
+      <physvol name="FCBL_3" copynumber="3">
+        <volumeref ref="FCBL"/>
+        <positionref ref="FCBL_30x1inFAICpos"/>
+        <rotationref ref="FCBL_30x1inFAICrot"/>
+      </physvol>
+      <physvol name="FCBL_4" copynumber="4">
+        <volumeref ref="FCBL"/>
+        <positionref ref="FCBL_40x1inFAICpos"/>
+        <rotationref ref="FCBL_40x1inFAICrot"/>
+      </physvol>
+      <physvol name="FSAW_1" copynumber="1">
+        <volumeref ref="FSAW"/>
+        <positionref ref="FSAW_10x2inFAICpos"/>
+      </physvol>
+      <physvol name="FSAW_2" copynumber="2">
+        <volumeref ref="FSAW"/>
+        <positionref ref="FSAW_20x2inFAICpos"/>
+      </physvol>
+      <physvol name="FCOV_0" copynumber="0">
+        <volumeref ref="FCOV"/>
+        <positionref ref="FCOV_00x1inFAICpos"/>
+      </physvol>
+      <physvol name="FCA2_91" copynumber="91">
+        <volumeref ref="FCA2"/>
+        <positionref ref="FCA2_91inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_1" copynumber="1">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_10x2inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_2" copynumber="2">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_20x2inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_3" copynumber="3">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_30x2inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_4" copynumber="4">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_40x2inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_9" copynumber="9">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_90x2inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_8" copynumber="8">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_80x2inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_7" copynumber="7">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_70x2inFAICpos"/>
+      </physvol>
+      <physvol name="FTLN_6" copynumber="6">
+        <volumeref ref="FTLN"/>
+        <positionref ref="FTLN_60x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO1_4" copynumber="4">
+        <volumeref ref="FLO1"/>
+        <positionref ref="FLO1_40x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO1_2" copynumber="2">
+        <volumeref ref="FLO1"/>
+        <positionref ref="FLO1_20x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_4" copynumber="4">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_40x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_2" copynumber="2">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_20x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_8" copynumber="8">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_80x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_6" copynumber="6">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_60x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_4" copynumber="4">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_40x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_2" copynumber="2">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_20x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_8" copynumber="8">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_80x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_6" copynumber="6">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_60x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO1_3" copynumber="3">
+        <volumeref ref="FLO1"/>
+        <positionref ref="FLO1_30x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO1_1" copynumber="1">
+        <volumeref ref="FLO1"/>
+        <positionref ref="FLO1_10x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_3" copynumber="3">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_30x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_1" copynumber="1">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_10x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_7" copynumber="7">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_70x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO2_5" copynumber="5">
+        <volumeref ref="FLO2"/>
+        <positionref ref="FLO2_50x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_3" copynumber="3">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_30x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_1" copynumber="1">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_10x2inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_7" copynumber="7">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_70x1inFAICpos"/>
+      </physvol>
+      <physvol name="FLO3_5" copynumber="5">
+        <volumeref ref="FLO3"/>
+        <positionref ref="FLO3_50x1inFAICpos"/>
+      </physvol>
+    </volume>
+    <volume name="FPEA">
+      <materialref ref="TOF_Air"/>
+      <solidref ref="FPEA0x1"/>
+      <physvol name="FALT_0" copynumber="0">
+        <volumeref ref="FALT"/>
+        <positionref ref="FALT_0inFPEApos"/>
+      </physvol>
+      <physvol name="FIF1_0" copynumber="0">
+        <volumeref ref="FIF1"/>
+        <positionref ref="FIF1_0inFPEApos"/>
+      </physvol>
+      <physvol name="FIF2_1" copynumber="1">
+        <volumeref ref="FIF2"/>
+        <positionref ref="FIF2_10x1inFPEApos"/>
+      </physvol>
+      <physvol name="FIF2_2" copynumber="2">
+        <volumeref ref="FIF2"/>
+        <positionref ref="FIF2_20x1inFPEApos"/>
+      </physvol>
+      <physvol name="FIF3_1" copynumber="1">
+        <volumeref ref="FIF3"/>
+        <positionref ref="FIF3_10x1inFPEApos"/>
+      </physvol>
+      <physvol name="FIF3_2" copynumber="2">
+        <volumeref ref="FIF3"/>
+        <positionref ref="FIF3_20x1inFPEApos"/>
+      </physvol>
+      <physvol name="FFC1_0" copynumber="0">
+        <volumeref ref="FFC1"/>
+        <positionref ref="FFC1_0inFPEApos"/>
+      </physvol>
+      <physvol name="FFC2_1" copynumber="1">
+        <volumeref ref="FFC2"/>
+        <positionref ref="FFC2_10x1inFPEApos"/>
+      </physvol>
+      <physvol name="FFC2_2" copynumber="2">
+        <volumeref ref="FFC2"/>
+        <positionref ref="FFC2_20x1inFPEApos"/>
+      </physvol>
+      <physvol name="FFC3_1" copynumber="1">
+        <volumeref ref="FFC3"/>
+        <positionref ref="FFC3_10x1inFPEApos"/>
+      </physvol>
+      <physvol name="FFC3_2" copynumber="2">
+        <volumeref ref="FFC3"/>
+        <positionref ref="FFC3_20x1inFPEApos"/>
+      </physvol>
+    </volume>
+    <volume name="FTOA">
+      <materialref ref="TOF_fibre_glass"/>
+      <solidref ref="FTOA0x1"/>
+      <physvol name="FLTA_0" copynumber="0">
+        <volumeref ref="FLTA"/>
+        <positionref ref="FLTA_0inFTOApos"/>
+      </physvol>
+    </volume>
+    <volume name="BTOF1">
       <materialref ref="FRAME_AIR"/>
       <solidref ref="BTOF10x1"/>
       <physvol name="FTOA_0" copynumber="0">

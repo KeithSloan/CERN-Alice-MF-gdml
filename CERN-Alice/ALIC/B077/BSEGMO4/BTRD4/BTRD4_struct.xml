@@ -1,4 +1,392 @@
-<structure><volume name="BTRD4">
+<structure><volume name="UTF2">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="UTF20x1"/>
+      <physvol name="UTA1_2" copynumber="2">
+        <volumeref ref="UTA1"/>
+        <positionref ref="UTA1_2inUTF2pos"/>
+      </physvol>
+      <physvol name="UTA2_1" copynumber="1">
+        <volumeref ref="UTA2"/>
+        <positionref ref="UTA2_1inUTF2pos"/>
+      </physvol>
+      <physvol name="UTA2_2" copynumber="2">
+        <volumeref ref="UTA20x2"/>
+        <positionref ref="UTA2_2inUTF2pos"/>
+        <rotationref ref="UTA2_2inUTF2rot"/>
+      </physvol>
+      <physvol name="UTA2_3" copynumber="3">
+        <volumeref ref="UTA20x4"/>
+        <positionref ref="UTA2_3inUTF2pos"/>
+        <rotationref ref="UTA2_3inUTF2rot"/>
+      </physvol>
+      <physvol name="UTA3_2" copynumber="2">
+        <volumeref ref="UTA3"/>
+        <positionref ref="UTA3_2inUTF2pos"/>
+      </physvol>
+      <physvol name="UTC3_25" copynumber="25">
+        <volumeref ref="UTC30x24"/>
+        <positionref ref="UTC3_25inUTF2pos"/>
+        <rotationref ref="UTC3_25inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_31" copynumber="31">
+        <volumeref ref="UTC30x26"/>
+        <positionref ref="UTC3_31inUTF2pos"/>
+        <rotationref ref="UTC3_31inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_26" copynumber="26">
+        <volumeref ref="UTC30x28"/>
+        <positionref ref="UTC3_26inUTF2pos"/>
+        <rotationref ref="UTC3_26inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_32" copynumber="32">
+        <volumeref ref="UTC30x30"/>
+        <positionref ref="UTC3_32inUTF2pos"/>
+        <rotationref ref="UTC3_32inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_27" copynumber="27">
+        <volumeref ref="UTC30x32"/>
+        <positionref ref="UTC3_27inUTF2pos"/>
+        <rotationref ref="UTC3_27inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_33" copynumber="33">
+        <volumeref ref="UTC30x34"/>
+        <positionref ref="UTC3_33inUTF2pos"/>
+        <rotationref ref="UTC3_33inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_28" copynumber="28">
+        <volumeref ref="UTC30x36"/>
+        <positionref ref="UTC3_28inUTF2pos"/>
+        <rotationref ref="UTC3_28inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_34" copynumber="34">
+        <volumeref ref="UTC30x38"/>
+        <positionref ref="UTC3_34inUTF2pos"/>
+        <rotationref ref="UTC3_34inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_29" copynumber="29">
+        <volumeref ref="UTC30x40"/>
+        <positionref ref="UTC3_29inUTF2pos"/>
+        <rotationref ref="UTC3_29inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_35" copynumber="35">
+        <volumeref ref="UTC30x42"/>
+        <positionref ref="UTC3_35inUTF2pos"/>
+        <rotationref ref="UTC3_35inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_30" copynumber="30">
+        <volumeref ref="UTC30x44"/>
+        <positionref ref="UTC3_30inUTF2pos"/>
+        <rotationref ref="UTC3_30inUTF2rot"/>
+      </physvol>
+      <physvol name="UTC3_36" copynumber="36">
+        <volumeref ref="UTC30x46"/>
+        <positionref ref="UTC3_36inUTF2pos"/>
+        <rotationref ref="UTC3_36inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_25" copynumber="25">
+        <volumeref ref="UTP30x24"/>
+        <positionref ref="UTP3_25inUTF2pos"/>
+        <rotationref ref="UTP3_25inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_31" copynumber="31">
+        <volumeref ref="UTP30x26"/>
+        <positionref ref="UTP3_31inUTF2pos"/>
+        <rotationref ref="UTP3_31inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_26" copynumber="26">
+        <volumeref ref="UTP30x28"/>
+        <positionref ref="UTP3_26inUTF2pos"/>
+        <rotationref ref="UTP3_26inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_32" copynumber="32">
+        <volumeref ref="UTP30x30"/>
+        <positionref ref="UTP3_32inUTF2pos"/>
+        <rotationref ref="UTP3_32inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_27" copynumber="27">
+        <volumeref ref="UTP30x32"/>
+        <positionref ref="UTP3_27inUTF2pos"/>
+        <rotationref ref="UTP3_27inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_33" copynumber="33">
+        <volumeref ref="UTP30x34"/>
+        <positionref ref="UTP3_33inUTF2pos"/>
+        <rotationref ref="UTP3_33inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_28" copynumber="28">
+        <volumeref ref="UTP30x36"/>
+        <positionref ref="UTP3_28inUTF2pos"/>
+        <rotationref ref="UTP3_28inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_34" copynumber="34">
+        <volumeref ref="UTP30x38"/>
+        <positionref ref="UTP3_34inUTF2pos"/>
+        <rotationref ref="UTP3_34inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_29" copynumber="29">
+        <volumeref ref="UTP30x40"/>
+        <positionref ref="UTP3_29inUTF2pos"/>
+        <rotationref ref="UTP3_29inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_35" copynumber="35">
+        <volumeref ref="UTP30x42"/>
+        <positionref ref="UTP3_35inUTF2pos"/>
+        <rotationref ref="UTP3_35inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_30" copynumber="30">
+        <volumeref ref="UTP30x44"/>
+        <positionref ref="UTP3_30inUTF2pos"/>
+        <rotationref ref="UTP3_30inUTF2rot"/>
+      </physvol>
+      <physvol name="UTP3_36" copynumber="36">
+        <volumeref ref="UTP30x46"/>
+        <positionref ref="UTP3_36inUTF2pos"/>
+        <rotationref ref="UTP3_36inUTF2rot"/>
+      </physvol>
+      <physvol name="UTCM_3" copynumber="3">
+        <volumeref ref="UTCM"/>
+        <positionref ref="UTCM_3inUTF2pos"/>
+        <rotationref ref="UTCM_3inUTF2rot"/>
+      </physvol>
+      <physvol name="UTCM_4" copynumber="4">
+        <volumeref ref="UTCM"/>
+        <positionref ref="UTCM_4inUTF2pos"/>
+        <rotationref ref="UTCM_4inUTF2rot"/>
+      </physvol>
+    </volume>
+    <volume name="UTF1">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="UTF10x1"/>
+      <physvol name="UTA1_1" copynumber="1">
+        <volumeref ref="UTA1"/>
+        <positionref ref="UTA1_1inUTF1pos"/>
+      </physvol>
+      <physvol name="UTA3_1" copynumber="1">
+        <volumeref ref="UTA3"/>
+        <positionref ref="UTA3_1inUTF1pos"/>
+      </physvol>
+      <physvol name="UTC3_13" copynumber="13">
+        <volumeref ref="UTC3"/>
+        <positionref ref="UTC3_13inUTF1pos"/>
+        <rotationref ref="UTC3_13inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_19" copynumber="19">
+        <volumeref ref="UTC30x2"/>
+        <positionref ref="UTC3_19inUTF1pos"/>
+        <rotationref ref="UTC3_19inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_14" copynumber="14">
+        <volumeref ref="UTC30x4"/>
+        <positionref ref="UTC3_14inUTF1pos"/>
+        <rotationref ref="UTC3_14inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_20" copynumber="20">
+        <volumeref ref="UTC30x6"/>
+        <positionref ref="UTC3_20inUTF1pos"/>
+        <rotationref ref="UTC3_20inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_15" copynumber="15">
+        <volumeref ref="UTC30x8"/>
+        <positionref ref="UTC3_15inUTF1pos"/>
+        <rotationref ref="UTC3_15inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_21" copynumber="21">
+        <volumeref ref="UTC30x10"/>
+        <positionref ref="UTC3_21inUTF1pos"/>
+        <rotationref ref="UTC3_21inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_16" copynumber="16">
+        <volumeref ref="UTC30x12"/>
+        <positionref ref="UTC3_16inUTF1pos"/>
+        <rotationref ref="UTC3_16inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_22" copynumber="22">
+        <volumeref ref="UTC30x14"/>
+        <positionref ref="UTC3_22inUTF1pos"/>
+        <rotationref ref="UTC3_22inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_17" copynumber="17">
+        <volumeref ref="UTC30x16"/>
+        <positionref ref="UTC3_17inUTF1pos"/>
+        <rotationref ref="UTC3_17inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_23" copynumber="23">
+        <volumeref ref="UTC30x18"/>
+        <positionref ref="UTC3_23inUTF1pos"/>
+        <rotationref ref="UTC3_23inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_18" copynumber="18">
+        <volumeref ref="UTC30x20"/>
+        <positionref ref="UTC3_18inUTF1pos"/>
+        <rotationref ref="UTC3_18inUTF1rot"/>
+      </physvol>
+      <physvol name="UTC3_24" copynumber="24">
+        <volumeref ref="UTC30x22"/>
+        <positionref ref="UTC3_24inUTF1pos"/>
+        <rotationref ref="UTC3_24inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_13" copynumber="13">
+        <volumeref ref="UTP3"/>
+        <positionref ref="UTP3_13inUTF1pos"/>
+        <rotationref ref="UTP3_13inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_19" copynumber="19">
+        <volumeref ref="UTP30x2"/>
+        <positionref ref="UTP3_19inUTF1pos"/>
+        <rotationref ref="UTP3_19inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_14" copynumber="14">
+        <volumeref ref="UTP30x4"/>
+        <positionref ref="UTP3_14inUTF1pos"/>
+        <rotationref ref="UTP3_14inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_20" copynumber="20">
+        <volumeref ref="UTP30x6"/>
+        <positionref ref="UTP3_20inUTF1pos"/>
+        <rotationref ref="UTP3_20inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_15" copynumber="15">
+        <volumeref ref="UTP30x8"/>
+        <positionref ref="UTP3_15inUTF1pos"/>
+        <rotationref ref="UTP3_15inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_21" copynumber="21">
+        <volumeref ref="UTP30x10"/>
+        <positionref ref="UTP3_21inUTF1pos"/>
+        <rotationref ref="UTP3_21inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_16" copynumber="16">
+        <volumeref ref="UTP30x12"/>
+        <positionref ref="UTP3_16inUTF1pos"/>
+        <rotationref ref="UTP3_16inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_22" copynumber="22">
+        <volumeref ref="UTP30x14"/>
+        <positionref ref="UTP3_22inUTF1pos"/>
+        <rotationref ref="UTP3_22inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_17" copynumber="17">
+        <volumeref ref="UTP30x16"/>
+        <positionref ref="UTP3_17inUTF1pos"/>
+        <rotationref ref="UTP3_17inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_23" copynumber="23">
+        <volumeref ref="UTP30x18"/>
+        <positionref ref="UTP3_23inUTF1pos"/>
+        <rotationref ref="UTP3_23inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_18" copynumber="18">
+        <volumeref ref="UTP30x20"/>
+        <positionref ref="UTP3_18inUTF1pos"/>
+        <rotationref ref="UTP3_18inUTF1rot"/>
+      </physvol>
+      <physvol name="UTP3_24" copynumber="24">
+        <volumeref ref="UTP30x22"/>
+        <positionref ref="UTP3_24inUTF1pos"/>
+        <rotationref ref="UTP3_24inUTF1rot"/>
+      </physvol>
+      <physvol name="UTGD_1" copynumber="1">
+        <volumeref ref="UTGD"/>
+        <positionref ref="UTGD_1inUTF1pos"/>
+      </physvol>
+      <physvol name="UTGT_1" copynumber="1">
+        <volumeref ref="UTGT"/>
+        <positionref ref="UTGT_1inUTF1pos"/>
+      </physvol>
+      <physvol name="UTGT_3" copynumber="3">
+        <volumeref ref="UTGT"/>
+        <positionref ref="UTGT_3inUTF1pos"/>
+        <rotationref ref="UTGT_3inUTF1rot"/>
+      </physvol>
+      <physvol name="UTGT_5" copynumber="5">
+        <volumeref ref="UTGT"/>
+        <positionref ref="UTGT_5inUTF1pos"/>
+        <rotationref ref="UTGT_5inUTF1rot"/>
+      </physvol>
+      <physvol name="UTCM_1" copynumber="1">
+        <volumeref ref="UTCM"/>
+        <positionref ref="UTCM_1inUTF1pos"/>
+        <rotationref ref="UTCM_1inUTF1rot"/>
+      </physvol>
+      <physvol name="UTCM_2" copynumber="2">
+        <volumeref ref="UTCM"/>
+        <positionref ref="UTCM_2inUTF1pos"/>
+        <rotationref ref="UTCM_2inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_0" copynumber="0">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_0inUTF1pos"/>
+        <rotationref ref="UTPC_0inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_6" copynumber="6">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_6inUTF1pos"/>
+        <rotationref ref="UTPC_6inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_1" copynumber="1">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_1inUTF1pos"/>
+        <rotationref ref="UTPC_1inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_7" copynumber="7">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_7inUTF1pos"/>
+        <rotationref ref="UTPC_7inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_2" copynumber="2">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_2inUTF1pos"/>
+        <rotationref ref="UTPC_2inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_8" copynumber="8">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_8inUTF1pos"/>
+        <rotationref ref="UTPC_8inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_3" copynumber="3">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_3inUTF1pos"/>
+        <rotationref ref="UTPC_3inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_9" copynumber="9">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_9inUTF1pos"/>
+        <rotationref ref="UTPC_9inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_4" copynumber="4">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_4inUTF1pos"/>
+        <rotationref ref="UTPC_4inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_10" copynumber="10">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_10inUTF1pos"/>
+        <rotationref ref="UTPC_10inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_5" copynumber="5">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_5inUTF1pos"/>
+        <rotationref ref="UTPC_5inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPC_11" copynumber="11">
+        <volumeref ref="UTPC"/>
+        <positionref ref="UTPC_11inUTF1pos"/>
+        <rotationref ref="UTPC_11inUTF1rot"/>
+      </physvol>
+      <physvol name="UTPP_1" copynumber="1">
+        <volumeref ref="UTPP"/>
+        <positionref ref="UTPP_1inUTF1pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTR1">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="UTR10x1"/>
+      <physvol name="UTS1_1" copynumber="1">
+        <volumeref ref="UTS1"/>
+        <positionref ref="UTS1_1inUTR1pos"/>
+      </physvol>
+    </volume>
+    <volume name="BTRD4">
       <materialref ref="FRAME_AIR"/>
       <solidref ref="BTRD40x1"/>
       <physvol name="UTR1_1" copynumber="1">

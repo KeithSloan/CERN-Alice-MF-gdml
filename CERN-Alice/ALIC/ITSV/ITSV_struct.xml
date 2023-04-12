@@ -1,4 +1,478 @@
-<structure><volume name="vpcon3container">
+<structure><assembly name="SSDCables">
+      <physvol name="SSDCableLay5RightSideTube_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSideTube"/>
+        <positionref ref="SSDCableLay5RightSideTube_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon1_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSidePCon1"/>
+        <positionref ref="SSDCableLay5RightSidePCon1_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon2_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon3_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_3" copynumber="3">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_3inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon2_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_3" copynumber="3">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_3inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon3_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_4" copynumber="4">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_4inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon2_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_4" copynumber="4">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_4inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon3_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSideTube_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSideTube"/>
+        <positionref ref="SSDCableLay5RightSideTube_2inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon1_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSidePCon1"/>
+        <positionref ref="SSDCableLay5RightSidePCon1_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon1_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_5" copynumber="5">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_5inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon2_5inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_5" copynumber="5">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_5inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon3_5inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_6" copynumber="6">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_6inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon2_6inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_6" copynumber="6">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_6inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon3_6inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_7" copynumber="7">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_7inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon2_7inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_7" copynumber="7">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_7inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon3_7inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon2_8" copynumber="8">
+        <volumeref ref="SSDCableLay5RightSidePCon2"/>
+        <positionref ref="SSDCableLay5RightSidePCon2_8inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon2_8inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePCon3_8" copynumber="8">
+        <volumeref ref="SSDCableLay5RightSidePCon3"/>
+        <positionref ref="SSDCableLay5RightSidePCon3_8inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePCon3_8inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSideWaterTube_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSideWaterTube"/>
+        <positionref ref="SSDCableLay5RightSideWaterTube_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSideWaterTube_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSideWaterTube"/>
+        <positionref ref="SSDCableLay5RightSideWaterTube_2inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater1_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSidePConWater1"/>
+        <positionref ref="SSDCableLay5RightSidePConWater1_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater1_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSidePConWater1"/>
+        <positionref ref="SSDCableLay5RightSidePConWater1_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater1_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_1inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_1inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_5" copynumber="5">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_5inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_5inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_1" copynumber="1">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_1inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_1inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_5" copynumber="5">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_5inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_5inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_6" copynumber="6">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_6inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_6inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_2" copynumber="2">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_6" copynumber="6">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_6inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_6inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_3" copynumber="3">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_3inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_7" copynumber="7">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_7inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_7inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_3" copynumber="3">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_3inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_7" copynumber="7">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_7inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_7inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_4" copynumber="4">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_4inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater2_8" copynumber="8">
+        <volumeref ref="SSDCableLay5RightSidePConWater2"/>
+        <positionref ref="SSDCableLay5RightSidePConWater2_8inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater2_8inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_4" copynumber="4">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_4inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay5RightSidePConWater3_8" copynumber="8">
+        <volumeref ref="SSDCableLay5RightSidePConWater3"/>
+        <positionref ref="SSDCableLay5RightSidePConWater3_8inSSDCablespos"/>
+        <rotationref ref="SSDCableLay5RightSidePConWater3_8inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideTube_1" copynumber="1">
+        <volumeref ref="SSDCableLay6RightSideTube"/>
+        <positionref ref="SSDCableLay6RightSideTube_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideTube_2" copynumber="2">
+        <volumeref ref="SSDCableLay6RightSideTube"/>
+        <positionref ref="SSDCableLay6RightSideTube_2inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_1" copynumber="1">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_5" copynumber="5">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_5inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSidePCon_5inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_2" copynumber="2">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSidePCon_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_6" copynumber="6">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_6inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSidePCon_6inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_3" copynumber="3">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_3inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSidePCon_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_7" copynumber="7">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_7inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSidePCon_7inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_4" copynumber="4">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_4inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSidePCon_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSidePCon_8" copynumber="8">
+        <volumeref ref="SSDCableLay6RightSidePCon"/>
+        <positionref ref="SSDCableLay6RightSidePCon_8inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSidePCon_8inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterTube_1" copynumber="1">
+        <volumeref ref="SSDCableLay6RightSideWaterTube"/>
+        <positionref ref="SSDCableLay6RightSideWaterTube_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterTube_2" copynumber="2">
+        <volumeref ref="SSDCableLay6RightSideWaterTube"/>
+        <positionref ref="SSDCableLay6RightSideWaterTube_2inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_1" copynumber="1">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_1inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_1inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_5" copynumber="5">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_5inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_5inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_2" copynumber="2">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_6" copynumber="6">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_6inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_6inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_3" copynumber="3">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_3inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_7" copynumber="7">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_7inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_7inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_4" copynumber="4">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_4inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6RightSideWaterPCon_8" copynumber="8">
+        <volumeref ref="SSDCableLay6RightSideWaterPCon"/>
+        <positionref ref="SSDCableLay6RightSideWaterPCon_8inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6RightSideWaterPCon_8inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB26_1" copynumber="1">
+        <volumeref ref="SSDCablePatchPanel3RB26"/>
+        <positionref ref="SSDCablePatchPanel3RB26_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB26_2" copynumber="2">
+        <volumeref ref="SSDCablePatchPanel3RB26"/>
+        <positionref ref="SSDCablePatchPanel3RB26_2inSSDCablespos"/>
+        <rotationref ref="SSDCablePatchPanel3RB26_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB26_3" copynumber="3">
+        <volumeref ref="SSDCablePatchPanel3RB26"/>
+        <positionref ref="SSDCablePatchPanel3RB26_3inSSDCablespos"/>
+        <rotationref ref="SSDCablePatchPanel3RB26_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB26_4" copynumber="4">
+        <volumeref ref="SSDCablePatchPanel3RB26"/>
+        <positionref ref="SSDCablePatchPanel3RB26_4inSSDCablespos"/>
+        <rotationref ref="SSDCablePatchPanel3RB26_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB26Part1_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB26Part1"/>
+        <positionref ref="SSDCableITSRing3RB26Part1_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB26Part2_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB26Part2"/>
+        <positionref ref="SSDCableITSRing3RB26Part2_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB26Part3_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB26Part3"/>
+        <positionref ref="SSDCableITSRing3RB26Part3_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB26Part4_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB26Part4"/>
+        <positionref ref="SSDCableITSRing3RB26Part4_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB24_1" copynumber="1">
+        <volumeref ref="SSDCablePatchPanel3RB24"/>
+        <positionref ref="SSDCablePatchPanel3RB24_1inSSDCablespos"/>
+        <rotationref ref="SSDCablePatchPanel3RB24_1inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB24_2" copynumber="2">
+        <volumeref ref="SSDCablePatchPanel3RB24"/>
+        <positionref ref="SSDCablePatchPanel3RB24_2inSSDCablespos"/>
+        <rotationref ref="SSDCablePatchPanel3RB24_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB24_3" copynumber="3">
+        <volumeref ref="SSDCablePatchPanel3RB24"/>
+        <positionref ref="SSDCablePatchPanel3RB24_3inSSDCablespos"/>
+        <rotationref ref="SSDCablePatchPanel3RB24_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCablePatchPanel3RB24_4" copynumber="4">
+        <volumeref ref="SSDCablePatchPanel3RB24"/>
+        <positionref ref="SSDCablePatchPanel3RB24_4inSSDCablespos"/>
+        <rotationref ref="SSDCablePatchPanel3RB24_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB24Part1_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB24Part1"/>
+        <positionref ref="SSDCableITSRing3RB24Part1_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB24Part2_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB24Part2"/>
+        <positionref ref="SSDCableITSRing3RB24Part2_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB24Part3_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB24Part3"/>
+        <positionref ref="SSDCableITSRing3RB24Part3_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableITSRing3RB24Part4_1" copynumber="1">
+        <volumeref ref="SSDCableITSRing3RB24Part4"/>
+        <positionref ref="SSDCableITSRing3RB24Part4_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetTube_1" copynumber="1">
+        <volumeref ref="SSDCableLay6MaterialBudgetTube"/>
+        <positionref ref="SSDCableLay6MaterialBudgetTube_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetTube_2" copynumber="2">
+        <volumeref ref="SSDCableLay6MaterialBudgetTube"/>
+        <positionref ref="SSDCableLay6MaterialBudgetTube_2inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_1" copynumber="1">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_1inSSDCablespos"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_5" copynumber="5">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_5inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6MaterialBudgetPCon_5inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_2" copynumber="2">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_2inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6MaterialBudgetPCon_2inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_6" copynumber="6">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_6inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6MaterialBudgetPCon_6inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_3" copynumber="3">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_3inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6MaterialBudgetPCon_3inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_7" copynumber="7">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_7inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6MaterialBudgetPCon_7inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_4" copynumber="4">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_4inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6MaterialBudgetPCon_4inSSDCablesrot"/>
+      </physvol>
+      <physvol name="SSDCableLay6MaterialBudgetPCon_8" copynumber="8">
+        <volumeref ref="SSDCableLay6MaterialBudgetPCon"/>
+        <positionref ref="SSDCableLay6MaterialBudgetPCon_8inSSDCablespos"/>
+        <rotationref ref="SSDCableLay6MaterialBudgetPCon_8inSSDCablesrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="endConeSDDCable">
+      <physvol name="cableSDDport20_1" copynumber="1">
+        <volumeref ref="cableSDDport20"/>
+        <positionref ref="cableSDDport20_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport20_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport50_1" copynumber="1">
+        <volumeref ref="cableSDDport50"/>
+        <positionref ref="cableSDDport50_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport50_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport85_1" copynumber="1">
+        <volumeref ref="cableSDDport85"/>
+        <positionref ref="cableSDDport85_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport85_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport95_1" copynumber="1">
+        <volumeref ref="cableSDDport95"/>
+        <positionref ref="cableSDDport95_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport95_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport105_1" copynumber="1">
+        <volumeref ref="cableSDDport105"/>
+        <positionref ref="cableSDDport105_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport105_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport129_1" copynumber="1">
+        <volumeref ref="cableSDDport129"/>
+        <positionref ref="cableSDDport129_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport129_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport176_1" copynumber="1">
+        <volumeref ref="cableSDDport176"/>
+        <positionref ref="cableSDDport176_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport176_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport190_1" copynumber="1">
+        <volumeref ref="cableSDDport190"/>
+        <positionref ref="cableSDDport190_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport190_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport210_1" copynumber="1">
+        <volumeref ref="cableSDDport210"/>
+        <positionref ref="cableSDDport210_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport210_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport230_1" copynumber="1">
+        <volumeref ref="cableSDDport230"/>
+        <positionref ref="cableSDDport230_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport230_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport277_1" copynumber="1">
+        <volumeref ref="cableSDDport277"/>
+        <positionref ref="cableSDDport277_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport277_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport306_1" copynumber="1">
+        <volumeref ref="cableSDDport306"/>
+        <positionref ref="cableSDDport306_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport306_1inendConeSDDCablerot"/>
+      </physvol>
+      <physvol name="cableSDDport353_1" copynumber="1">
+        <volumeref ref="cableSDDport353"/>
+        <positionref ref="cableSDDport353_1inendConeSDDCablepos"/>
+        <rotationref ref="cableSDDport353_1inendConeSDDCablerot"/>
+      </physvol>
+    </assembly>
+    <volume name="vpcon3container">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="TGeoPcon0x124"/>
       <physvol name="ITScablesSDDpcon3Plast_0" copynumber="0">
@@ -62,29 +536,3013 @@
         <positionref ref="ITScablesSDDpcon1glass_0invpcon1containerpos"/>
       </physvol>
     </volume>
-    <volume name="SSDMountingBracket">
-      <materialref ref="ITS_ALUMINUM"/>
-      <solidref ref="TGeoTubeSeg0x65"/>
+    <assembly name="ITSssdCone">
+      <physvol name="SSDCarbonFiberCone_1" copynumber="1">
+        <volumeref ref="SSDCarbonFiberCone"/>
+        <positionref ref="SSDCarbonFiberCone_1inITSssdConepos"/>
+      </physvol>
+      <physvol name="SSDWing_1" copynumber="1">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_1inITSssdConepos"/>
+        <rotationref ref="SSDWing_1inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDWing_2" copynumber="2">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_2inITSssdConepos"/>
+        <rotationref ref="SSDWing_2inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDWing_3" copynumber="3">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_3inITSssdConepos"/>
+        <rotationref ref="SSDWing_3inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDWing_4" copynumber="4">
+        <volumeref ref="SSDWing"/>
+        <positionref ref="SSDWing_4inITSssdConepos"/>
+        <rotationref ref="SSDWing_4inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDMountingBracket_1" copynumber="1">
+        <volumeref ref="SSDMountingBracket"/>
+        <positionref ref="SSDMountingBracket_1inITSssdConepos"/>
+        <rotationref ref="SSDMountingBracket_1inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDMountingBracket_2" copynumber="2">
+        <volumeref ref="SSDMountingBracket"/>
+        <positionref ref="SSDMountingBracket_2inITSssdConepos"/>
+        <rotationref ref="SSDMountingBracket_2inITSssdConerot"/>
+      </physvol>
+      <physvol name="SSDMountingBracket_3" copynumber="3">
+        <volumeref ref="SSDMountingBracket"/>
+        <positionref ref="SSDMountingBracket_3inITSssdConepos"/>
+        <rotationref ref="SSDMountingBracket_3inITSssdConerot"/>
+      </physvol>
+    </assembly>
+    <volume name="SSDexternalcylinder">
+      <materialref ref="ITS_SSD_C_M55J"/>
+      <solidref ref="TGeoPcon0x105"/>
+      <physvol name="SSDfoamcylinder_1" copynumber="1">
+        <volumeref ref="SSDfoamcylinder"/>
+        <positionref ref="SSDfoamcylinder_1inSSDexternalcylinderpos"/>
+      </physvol>
+      <physvol name="SSDflangecylinder_1" copynumber="1">
+        <volumeref ref="SSDflangecylinder"/>
+        <positionref ref="SSDflangecylinder_1inSSDexternalcylinderpos"/>
+      </physvol>
+      <physvol name="SSDflangecylinder_2" copynumber="2">
+        <volumeref ref="SSDflangecylinder"/>
+        <positionref ref="SSDflangecylinder_2inSSDexternalcylinderpos"/>
+        <rotationref ref="SSDflangecylinder_2inSSDexternalcylinderrot"/>
+      </physvol>
     </volume>
-    <volume name="SDDCableHole32">
+    <volume name="SDDCarbonFiberCone">
+      <materialref ref="ITS_SDD_C_M55J"/>
+      <solidref ref="TGeoPcon0x93"/>
+      <physvol name="SDDCableHole11_1" copynumber="1">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_1inSDDCarbonFiberConepos"/>
+      </physvol>
+      <physvol name="SDDCableHole12_1" copynumber="1">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_1inSDDCarbonFiberConepos"/>
+      </physvol>
+      <physvol name="SDDCableHole11_2" copynumber="2">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_2inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_2inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_2" copynumber="2">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_2inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_2inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_3" copynumber="3">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_3inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_3inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_3" copynumber="3">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_3inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_3inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_4" copynumber="4">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_4inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_4inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_4" copynumber="4">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_4inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_4inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_5" copynumber="5">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_5inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_5inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_5" copynumber="5">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_5inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_5inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_6" copynumber="6">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_6inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_6inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_6" copynumber="6">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_6inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_6inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_7" copynumber="7">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_7inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_7inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_7" copynumber="7">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_7inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_7inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_8" copynumber="8">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_8inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_8inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_8" copynumber="8">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_8inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_8inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_9" copynumber="9">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_9inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_9inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_9" copynumber="9">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_9inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_9inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_10" copynumber="10">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_10inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_10inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_10" copynumber="10">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_10inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_10inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_11" copynumber="11">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_11inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_11inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_11" copynumber="11">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_11inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_11inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole11_12" copynumber="12">
+        <volumeref ref="SDDCableHole11"/>
+        <positionref ref="SDDCableHole11_12inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole11_12inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole12_12" copynumber="12">
+        <volumeref ref="SDDCableHole12"/>
+        <positionref ref="SDDCableHole12_12inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole12_12inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole21_1" copynumber="1">
+        <volumeref ref="SDDCableHole21"/>
+        <positionref ref="SDDCableHole21_1inSDDCarbonFiberConepos"/>
+      </physvol>
+      <physvol name="SDDCableHole22_1" copynumber="1">
+        <volumeref ref="SDDCableHole22"/>
+        <positionref ref="SDDCableHole22_1inSDDCarbonFiberConepos"/>
+      </physvol>
+      <physvol name="SDDCableHole21_2" copynumber="2">
+        <volumeref ref="SDDCableHole21"/>
+        <positionref ref="SDDCableHole21_2inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole21_2inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole22_2" copynumber="2">
+        <volumeref ref="SDDCableHole22"/>
+        <positionref ref="SDDCableHole22_2inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole22_2inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole21_3" copynumber="3">
+        <volumeref ref="SDDCableHole21"/>
+        <positionref ref="SDDCableHole21_3inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole21_3inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole22_3" copynumber="3">
+        <volumeref ref="SDDCableHole22"/>
+        <positionref ref="SDDCableHole22_3inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole22_3inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole21_4" copynumber="4">
+        <volumeref ref="SDDCableHole21"/>
+        <positionref ref="SDDCableHole21_4inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole21_4inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole22_4" copynumber="4">
+        <volumeref ref="SDDCableHole22"/>
+        <positionref ref="SDDCableHole22_4inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole22_4inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole21_5" copynumber="5">
+        <volumeref ref="SDDCableHole21"/>
+        <positionref ref="SDDCableHole21_5inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole21_5inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole22_5" copynumber="5">
+        <volumeref ref="SDDCableHole22"/>
+        <positionref ref="SDDCableHole22_5inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole22_5inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole21_6" copynumber="6">
+        <volumeref ref="SDDCableHole21"/>
+        <positionref ref="SDDCableHole21_6inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole21_6inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole22_6" copynumber="6">
+        <volumeref ref="SDDCableHole22"/>
+        <positionref ref="SDDCableHole22_6inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole22_6inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole31_1" copynumber="1">
+        <volumeref ref="SDDCableHole31"/>
+        <positionref ref="SDDCableHole31_1inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole31_1inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole32_1" copynumber="1">
+        <volumeref ref="SDDCableHole32"/>
+        <positionref ref="SDDCableHole32_1inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole32_1inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole31_2" copynumber="2">
+        <volumeref ref="SDDCableHole31"/>
+        <positionref ref="SDDCableHole31_2inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole31_2inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole32_2" copynumber="2">
+        <volumeref ref="SDDCableHole32"/>
+        <positionref ref="SDDCableHole32_2inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole32_2inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole31_3" copynumber="3">
+        <volumeref ref="SDDCableHole31"/>
+        <positionref ref="SDDCableHole31_3inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole31_3inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole32_3" copynumber="3">
+        <volumeref ref="SDDCableHole32"/>
+        <positionref ref="SDDCableHole32_3inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole32_3inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole31_4" copynumber="4">
+        <volumeref ref="SDDCableHole31"/>
+        <positionref ref="SDDCableHole31_4inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole31_4inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole32_4" copynumber="4">
+        <volumeref ref="SDDCableHole32"/>
+        <positionref ref="SDDCableHole32_4inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole32_4inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole31_5" copynumber="5">
+        <volumeref ref="SDDCableHole31"/>
+        <positionref ref="SDDCableHole31_5inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole31_5inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole32_5" copynumber="5">
+        <volumeref ref="SDDCableHole32"/>
+        <positionref ref="SDDCableHole32_5inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole32_5inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole31_6" copynumber="6">
+        <volumeref ref="SDDCableHole31"/>
+        <positionref ref="SDDCableHole31_6inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole31_6inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCableHole32_6" copynumber="6">
+        <volumeref ref="SDDCableHole32"/>
+        <positionref ref="SDDCableHole32_6inSDDCarbonFiberConepos"/>
+        <rotationref ref="SDDCableHole32_6inSDDCarbonFiberConerot"/>
+      </physvol>
+      <physvol name="SDDCarbonFiberConeInsert_1" copynumber="1">
+        <volumeref ref="SDDCarbonFiberConeInsert"/>
+        <positionref ref="SDDCarbonFiberConeInsert_1inSDDCarbonFiberConepos"/>
+      </physvol>
+    </volume>
+    <volume name="SDDCarbonFiberCylinder">
+      <materialref ref="ITS_SDD_C_M55J"/>
+      <solidref ref="TGeoTube0x127"/>
+      <physvol name="SDDFoamCylinder_1" copynumber="1">
+        <volumeref ref="SDDFoamCylinder"/>
+        <positionref ref="SDDFoamCylinder_1inSDDCarbonFiberCylinderpos"/>
+      </physvol>
+      <physvol name="SDDFlangeCylinder_1" copynumber="1">
+        <volumeref ref="SDDFlangeCylinder"/>
+        <positionref ref="SDDFlangeCylinder_1inSDDCarbonFiberCylinderpos"/>
+      </physvol>
+      <physvol name="SDDFlangeCylinder_2" copynumber="2">
+        <volumeref ref="SDDFlangeCylinder"/>
+        <positionref ref="SDDFlangeCylinder_2inSDDCarbonFiberCylinderpos"/>
+        <rotationref ref="SDDFlangeCylinder_2inSDDCarbonFiberCylinderrot"/>
+      </physvol>
+    </volume>
+    <assembly name="ITSspdThermalShield">
+      <physvol name="SPDcentralshield_1" copynumber="1">
+        <volumeref ref="SPDcentralshield"/>
+        <positionref ref="SPDcentralshield_1inITSspdThermalShieldpos"/>
+      </physvol>
+      <physvol name="SPDcentralshield_2" copynumber="2">
+        <volumeref ref="SPDcentralshield"/>
+        <positionref ref="SPDcentralshield_2inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDcentralshield_2inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDendcapshield_1" copynumber="1">
+        <volumeref ref="SPDendcapshield"/>
+        <positionref ref="SPDendcapshield_1inITSspdThermalShieldpos"/>
+      </physvol>
+      <physvol name="SPDendcapshield_2" copynumber="2">
+        <volumeref ref="SPDendcapshield"/>
+        <positionref ref="SPDendcapshield_2inITSspdThermalShieldpos"/>
+      </physvol>
+      <physvol name="SPDendcapshield_3" copynumber="3">
+        <volumeref ref="SPDendcapshield"/>
+        <positionref ref="SPDendcapshield_3inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDendcapshield_3inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDendcapshield_4" copynumber="4">
+        <volumeref ref="SPDendcapshield"/>
+        <positionref ref="SPDendcapshield_4inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDendcapshield_4inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_1" copynumber="1">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_1inITSspdThermalShieldpos"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_2" copynumber="2">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_2inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_2inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_1" copynumber="1">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_1inITSspdThermalShieldpos"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_2" copynumber="2">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_2inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_2inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_3" copynumber="3">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_3inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_3inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_4" copynumber="4">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_4inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_4inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_3" copynumber="3">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_3inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_3inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_4" copynumber="4">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_4inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_4inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_5" copynumber="5">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_5inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_5inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_6" copynumber="6">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_6inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_6inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_5" copynumber="5">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_5inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_5inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_6" copynumber="6">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_6inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_6inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_7" copynumber="7">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_7inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_7inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_8" copynumber="8">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_8inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_8inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_7" copynumber="7">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_7inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_7inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_8" copynumber="8">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_8inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_8inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_9" copynumber="9">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_9inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_9inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_10" copynumber="10">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_10inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_10inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_9" copynumber="9">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_9inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_9inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_10" copynumber="10">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_10inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_10inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_11" copynumber="11">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_11inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_11inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_12" copynumber="12">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_12inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_12inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_11" copynumber="11">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_11inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_11inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_12" copynumber="12">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_12inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_12inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_13" copynumber="13">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_13inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_13inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_14" copynumber="14">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_14inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_14inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_13" copynumber="13">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_13inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_13inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_14" copynumber="14">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_14inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_14inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_15" copynumber="15">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_15inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_15inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_16" copynumber="16">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_16inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_16inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_15" copynumber="15">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_15inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_15inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_16" copynumber="16">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_16inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_16inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_17" copynumber="17">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_17inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_17inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_18" copynumber="18">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_18inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_18inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_17" copynumber="17">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_17inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_17inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_18" copynumber="18">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_18inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_18inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_19" copynumber="19">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_19inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_19inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV1_20" copynumber="20">
+        <volumeref ref="SPDconeshieldV1"/>
+        <positionref ref="SPDconeshieldV1_20inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV1_20inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_19" copynumber="19">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_19inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_19inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDconeshieldV2_20" copynumber="20">
+        <volumeref ref="SPDconeshieldV2"/>
+        <positionref ref="SPDconeshieldV2_20inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDconeshieldV2_20inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldring_1" copynumber="1">
+        <volumeref ref="SPDshieldring"/>
+        <positionref ref="SPDshieldring_1inITSspdThermalShieldpos"/>
+      </physvol>
+      <physvol name="SPDshieldring_2" copynumber="2">
+        <volumeref ref="SPDshieldring"/>
+        <positionref ref="SPDshieldring_2inITSspdThermalShieldpos"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_1" copynumber="1">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_1inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_1inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_2" copynumber="2">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_2inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_2inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_3" copynumber="3">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_3inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_3inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_4" copynumber="4">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_4inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_4inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_5" copynumber="5">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_5inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_5inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_6" copynumber="6">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_6inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_6inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_7" copynumber="7">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_7inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_7inITSspdThermalShieldrot"/>
+      </physvol>
+      <physvol name="SPDshieldringwing_8" copynumber="8">
+        <volumeref ref="SPDshieldringwing"/>
+        <positionref ref="SPDshieldringwing_8inITSspdThermalShieldpos"/>
+        <rotationref ref="SPDshieldringwing_8inITSspdThermalShieldrot"/>
+      </physvol>
+    </assembly>
+    <volume name="EndCapSupportSystemLayer5Dx">
       <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x99"/>
+      <solidref ref="TGeoPgon0x180"/>
+      <physvol name="EndCapContainerLayer5Dx_1" copynumber="1">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_1inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_1inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_2" copynumber="2">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_2inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_2inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_3" copynumber="3">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_3inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_3inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_4" copynumber="4">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_4inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_4inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_5" copynumber="5">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_5inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_5inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_6" copynumber="6">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_6inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_6inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_7" copynumber="7">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_7inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_7inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_8" copynumber="8">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_8inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_8inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_9" copynumber="9">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_9inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_9inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_10" copynumber="10">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_10inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_10inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_11" copynumber="11">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_11inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_11inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_12" copynumber="12">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_12inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_12inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_13" copynumber="13">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_13inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_13inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_14" copynumber="14">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_14inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_14inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_15" copynumber="15">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_15inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_15inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_16" copynumber="16">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_16inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_16inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_17" copynumber="17">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_17inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_17inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_18" copynumber="18">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_18inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_18inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_19" copynumber="19">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_19inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_19inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_20" copynumber="20">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_20inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_20inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_21" copynumber="21">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_21inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_21inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_22" copynumber="22">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_22inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_22inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_23" copynumber="23">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_23inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_23inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_24" copynumber="24">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_24inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_24inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_25" copynumber="25">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_25inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_25inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_26" copynumber="26">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_26inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_26inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_27" copynumber="27">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_27inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_27inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_28" copynumber="28">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_28inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_28inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_29" copynumber="29">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_29inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_29inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_30" copynumber="30">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_30inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_30inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_31" copynumber="31">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_31inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_31inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_32" copynumber="32">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_32inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_32inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_33" copynumber="33">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_33inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_33inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Dx_34" copynumber="34">
+        <volumeref ref="EndCapContainerLayer5Dx"/>
+        <positionref ref="EndCapContainerLayer5Dx_34inEndCapSupportSystemLayer5Dxpos"/>
+        <rotationref ref="EndCapContainerLayer5Dx_34inEndCapSupportSystemLayer5Dxrot"/>
+      </physvol>
+      <physvol name="EndCapSupportMotherLayer5_1" copynumber="1">
+        <volumeref ref="EndCapSupportMotherLayer5"/>
+        <positionref ref="EndCapSupportMotherLayer5_10x1inEndCapSupportSystemLayer5Dxpos"/>
+      </physvol>
     </volume>
-    <volume name="LowerLadderPConSupportNameLay6">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoPcon0x92"/>
+    <volume name="EndCapSupportSystemLayer5Sx">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPgon0x180"/>
+      <physvol name="EndCapContainerLayer5Sx_1" copynumber="1">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_1inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_1inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_2" copynumber="2">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_2inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_2inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_3" copynumber="3">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_3inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_3inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_4" copynumber="4">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_4inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_4inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_5" copynumber="5">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_5inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_5inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_6" copynumber="6">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_6inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_6inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_7" copynumber="7">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_7inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_7inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_8" copynumber="8">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_8inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_8inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_9" copynumber="9">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_9inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_9inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_10" copynumber="10">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_10inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_10inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_11" copynumber="11">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_11inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_11inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_12" copynumber="12">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_12inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_12inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_13" copynumber="13">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_13inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_13inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_14" copynumber="14">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_14inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_14inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_15" copynumber="15">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_15inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_15inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_16" copynumber="16">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_16inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_16inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_17" copynumber="17">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_17inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_17inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_18" copynumber="18">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_18inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_18inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_19" copynumber="19">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_19inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_19inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_20" copynumber="20">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_20inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_20inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_21" copynumber="21">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_21inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_21inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_22" copynumber="22">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_22inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_22inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_23" copynumber="23">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_23inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_23inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_24" copynumber="24">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_24inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_24inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_25" copynumber="25">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_25inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_25inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_26" copynumber="26">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_26inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_26inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_27" copynumber="27">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_27inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_27inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_28" copynumber="28">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_28inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_28inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_29" copynumber="29">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_29inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_29inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_30" copynumber="30">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_30inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_30inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_31" copynumber="31">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_31inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_31inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_32" copynumber="32">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_32inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_32inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_33" copynumber="33">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_33inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_33inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer5Sx_34" copynumber="34">
+        <volumeref ref="EndCapContainerLayer5Sx"/>
+        <positionref ref="EndCapContainerLayer5Sx_34inEndCapSupportSystemLayer5Sxpos"/>
+        <rotationref ref="EndCapContainerLayer5Sx_34inEndCapSupportSystemLayer5Sxrot"/>
+      </physvol>
+      <physvol name="EndCapSupportMotherLayer5_1" copynumber="1">
+        <volumeref ref="EndCapSupportMotherLayer5"/>
+        <positionref ref="EndCapSupportMotherLayer5_1inEndCapSupportSystemLayer5Sxpos"/>
+      </physvol>
     </volume>
-    <volume name="LowerLadderPConSupportNameLay5">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoPcon0x91"/>
+    <volume name="EndCapSupportSystemLayer6Dx">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPgon0x178"/>
+      <physvol name="EndCapContainerLayer6Dx_1" copynumber="1">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_1inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_1inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_2" copynumber="2">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_2inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_2inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_3" copynumber="3">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_3inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_3inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_4" copynumber="4">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_4inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_4inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_5" copynumber="5">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_5inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_5inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_6" copynumber="6">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_6inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_6inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_7" copynumber="7">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_7inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_7inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_8" copynumber="8">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_8inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_8inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_9" copynumber="9">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_9inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_9inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_10" copynumber="10">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_10inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_10inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_11" copynumber="11">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_11inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_11inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_12" copynumber="12">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_12inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_12inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_13" copynumber="13">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_13inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_13inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_14" copynumber="14">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_14inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_14inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_15" copynumber="15">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_15inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_15inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_16" copynumber="16">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_16inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_16inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_17" copynumber="17">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_17inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_17inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_18" copynumber="18">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_18inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_18inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_19" copynumber="19">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_19inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_19inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_20" copynumber="20">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_20inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_20inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_21" copynumber="21">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_21inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_21inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_22" copynumber="22">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_22inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_22inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_23" copynumber="23">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_23inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_23inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_24" copynumber="24">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_24inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_24inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_25" copynumber="25">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_25inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_25inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_26" copynumber="26">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_26inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_26inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_27" copynumber="27">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_27inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_27inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_28" copynumber="28">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_28inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_28inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_29" copynumber="29">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_29inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_29inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_30" copynumber="30">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_30inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_30inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_31" copynumber="31">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_31inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_31inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_32" copynumber="32">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_32inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_32inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_33" copynumber="33">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_33inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_33inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_34" copynumber="34">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_34inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_34inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_35" copynumber="35">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_35inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_35inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_36" copynumber="36">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_36inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_36inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_37" copynumber="37">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_37inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_37inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Dx_38" copynumber="38">
+        <volumeref ref="EndCapContainerLayer6Dx"/>
+        <positionref ref="EndCapContainerLayer6Dx_38inEndCapSupportSystemLayer6Dxpos"/>
+        <rotationref ref="EndCapContainerLayer6Dx_38inEndCapSupportSystemLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapSupportMotherLayer6_1" copynumber="1">
+        <volumeref ref="EndCapSupportMotherLayer6"/>
+        <positionref ref="EndCapSupportMotherLayer6_10x1inEndCapSupportSystemLayer6Dxpos"/>
+      </physvol>
     </volume>
+    <volume name="EndCapSupportSystemLayer6Sx">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPgon0x178"/>
+      <physvol name="EndCapContainerLayer6Sx_1" copynumber="1">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_1inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_1inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_2" copynumber="2">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_2inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_2inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_3" copynumber="3">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_3inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_3inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_4" copynumber="4">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_4inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_4inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_5" copynumber="5">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_5inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_5inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_6" copynumber="6">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_6inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_6inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_7" copynumber="7">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_7inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_7inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_8" copynumber="8">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_8inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_8inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_9" copynumber="9">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_9inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_9inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_10" copynumber="10">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_10inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_10inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_11" copynumber="11">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_11inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_11inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_12" copynumber="12">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_12inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_12inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_13" copynumber="13">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_13inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_13inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_14" copynumber="14">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_14inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_14inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_15" copynumber="15">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_15inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_15inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_16" copynumber="16">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_16inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_16inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_17" copynumber="17">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_17inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_17inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_18" copynumber="18">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_18inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_18inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_19" copynumber="19">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_19inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_19inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_20" copynumber="20">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_20inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_20inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_21" copynumber="21">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_21inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_21inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_22" copynumber="22">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_22inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_22inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_23" copynumber="23">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_23inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_23inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_24" copynumber="24">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_24inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_24inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_25" copynumber="25">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_25inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_25inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_26" copynumber="26">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_26inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_26inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_27" copynumber="27">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_27inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_27inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_28" copynumber="28">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_28inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_28inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_29" copynumber="29">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_29inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_29inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_30" copynumber="30">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_30inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_30inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_31" copynumber="31">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_31inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_31inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_32" copynumber="32">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_32inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_32inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_33" copynumber="33">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_33inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_33inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_34" copynumber="34">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_34inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_34inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_35" copynumber="35">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_35inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_35inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_36" copynumber="36">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_36inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_36inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_37" copynumber="37">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_37inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_37inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapContainerLayer6Sx_38" copynumber="38">
+        <volumeref ref="EndCapContainerLayer6Sx"/>
+        <positionref ref="EndCapContainerLayer6Sx_38inEndCapSupportSystemLayer6Sxpos"/>
+        <rotationref ref="EndCapContainerLayer6Sx_38inEndCapSupportSystemLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapSupportMotherLayer6_1" copynumber="1">
+        <volumeref ref="EndCapSupportMotherLayer6"/>
+        <positionref ref="EndCapSupportMotherLayer6_1inEndCapSupportSystemLayer6Sxpos"/>
+      </physvol>
+    </volume>
+    <assembly name="Lay6LadderSupportRing">
+      <physvol name="LadderSupportDownLay6_1" copynumber="1">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_1inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_1inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_2" copynumber="2">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_2inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_2inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_3" copynumber="3">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_3inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_3inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_4" copynumber="4">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_4inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_4inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_5" copynumber="5">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_5inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_5inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_6" copynumber="6">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_6inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_6inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_7" copynumber="7">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_7inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_7inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_8" copynumber="8">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_8inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_8inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_9" copynumber="9">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_9inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_9inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_10" copynumber="10">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_10inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_10inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_11" copynumber="11">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_11inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_11inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_12" copynumber="12">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_12inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_12inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_13" copynumber="13">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_13inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_13inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_14" copynumber="14">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_14inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_14inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_15" copynumber="15">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_15inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_15inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_16" copynumber="16">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_16inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_16inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_17" copynumber="17">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_17inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_17inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_18" copynumber="18">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_18inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_18inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_19" copynumber="19">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_19inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_19inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_20" copynumber="20">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_20inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_20inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_21" copynumber="21">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_21inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_21inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_22" copynumber="22">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_22inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_22inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_23" copynumber="23">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_23inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_23inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_24" copynumber="24">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_24inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_24inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_25" copynumber="25">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_25inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_25inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_26" copynumber="26">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_26inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_26inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_27" copynumber="27">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_27inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_27inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_28" copynumber="28">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_28inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_28inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_29" copynumber="29">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_29inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_29inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_30" copynumber="30">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_30inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_30inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_31" copynumber="31">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_31inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_31inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_32" copynumber="32">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_32inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_32inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_33" copynumber="33">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_33inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_33inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_34" copynumber="34">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_34inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_34inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_35" copynumber="35">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_35inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_35inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_36" copynumber="36">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_36inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_36inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay6_37" copynumber="37">
+        <volumeref ref="LadderSupportDownLay6"/>
+        <positionref ref="LadderSupportDownLay6_37inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay6_37inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay6_38" copynumber="38">
+        <volumeref ref="LadderSupportUpLay6"/>
+        <positionref ref="LadderSupportUpLay6_38inLay6LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay6_38inLay6LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LowerLadderPConSupportNameLay6_1" copynumber="1">
+        <volumeref ref="LowerLadderPConSupportNameLay6"/>
+        <positionref ref="LowerLadderPConSupportNameLay6_1inLay6LadderSupportRingpos"/>
+      </physvol>
+      <physvol name="LowerLadderPConSupportNameLay6_2" copynumber="2">
+        <volumeref ref="LowerLadderPConSupportNameLay6"/>
+        <positionref ref="LowerLadderPConSupportNameLay6_2inLay6LadderSupportRingpos"/>
+        <rotationref ref="LowerLadderPConSupportNameLay6_2inLay6LadderSupportRingrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="Lay5LadderSupportRing">
+      <physvol name="LadderSupportDownLay5_1" copynumber="1">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_1inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_1inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_2" copynumber="2">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_2inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_2inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_3" copynumber="3">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_3inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_3inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_4" copynumber="4">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_4inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_4inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_5" copynumber="5">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_5inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_5inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_6" copynumber="6">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_6inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_6inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_7" copynumber="7">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_7inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_7inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_8" copynumber="8">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_8inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_8inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_9" copynumber="9">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_9inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_9inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_10" copynumber="10">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_10inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_10inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_11" copynumber="11">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_11inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_11inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_12" copynumber="12">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_12inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_12inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_13" copynumber="13">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_13inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_13inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_14" copynumber="14">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_14inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_14inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_15" copynumber="15">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_15inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_15inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_16" copynumber="16">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_16inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_16inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_17" copynumber="17">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_17inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_17inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_18" copynumber="18">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_18inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_18inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_19" copynumber="19">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_19inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_19inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_20" copynumber="20">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_20inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_20inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_21" copynumber="21">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_21inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_21inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_22" copynumber="22">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_22inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_22inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_23" copynumber="23">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_23inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_23inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_24" copynumber="24">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_24inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_24inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_25" copynumber="25">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_25inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_25inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_26" copynumber="26">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_26inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_26inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_27" copynumber="27">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_27inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_27inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_28" copynumber="28">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_28inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_28inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_29" copynumber="29">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_29inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_29inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_30" copynumber="30">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_30inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_30inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_31" copynumber="31">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_31inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_31inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_32" copynumber="32">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_32inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_32inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportDownLay5_33" copynumber="33">
+        <volumeref ref="LadderSupportDownLay5"/>
+        <positionref ref="LadderSupportDownLay5_33inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportDownLay5_33inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LadderSupportUpLay5_34" copynumber="34">
+        <volumeref ref="LadderSupportUpLay5"/>
+        <positionref ref="LadderSupportUpLay5_34inLay5LadderSupportRingpos"/>
+        <rotationref ref="LadderSupportUpLay5_34inLay5LadderSupportRingrot"/>
+      </physvol>
+      <physvol name="LowerLadderPConSupportNameLay5_1" copynumber="1">
+        <volumeref ref="LowerLadderPConSupportNameLay5"/>
+        <positionref ref="LowerLadderPConSupportNameLay5_1inLay5LadderSupportRingpos"/>
+      </physvol>
+      <physvol name="LowerLadderPConSupportNameLay5_2" copynumber="2">
+        <volumeref ref="LowerLadderPConSupportNameLay5"/>
+        <positionref ref="LowerLadderPConSupportNameLay5_2inLay5LadderSupportRingpos"/>
+        <rotationref ref="LowerLadderPConSupportNameLay5_2inLay5LadderSupportRingrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSssdLayer6">
+      <physvol name="ITSssdLay6Ladd_9" copynumber="9">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_9inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_9inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_10" copynumber="10">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_10inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_10inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_11" copynumber="11">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_11inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_11inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_12" copynumber="12">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_12inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_12inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_13" copynumber="13">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_13inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_13inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_14" copynumber="14">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_14inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_14inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_15" copynumber="15">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_15inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_15inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_16" copynumber="16">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_16inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_16inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_17" copynumber="17">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_17inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_17inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_18" copynumber="18">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_18inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_18inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_19" copynumber="19">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_19inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_19inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_20" copynumber="20">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_20inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_20inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_21" copynumber="21">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_21inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_21inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_22" copynumber="22">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_22inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_22inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_23" copynumber="23">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_23inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_23inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_24" copynumber="24">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_24inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_24inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_25" copynumber="25">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_25inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_25inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_26" copynumber="26">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_26inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_26inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_27" copynumber="27">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_27inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_27inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_28" copynumber="28">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_28inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_28inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_29" copynumber="29">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_29inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_29inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_30" copynumber="30">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_30inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_30inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_31" copynumber="31">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_31inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_31inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_32" copynumber="32">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_32inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_32inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_33" copynumber="33">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_33inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_33inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_34" copynumber="34">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_34inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_34inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_35" copynumber="35">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_35inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_35inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_36" copynumber="36">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_36inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_36inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_37" copynumber="37">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_37inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_37inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_0" copynumber="0">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_0inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_0inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_1" copynumber="1">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_1inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_1inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_2" copynumber="2">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_2inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_2inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_3" copynumber="3">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_3inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_3inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_4" copynumber="4">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_4inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_4inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_5" copynumber="5">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_5inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_5inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_6" copynumber="6">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_6inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_6inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_7" copynumber="7">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_7inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_7inITSssdLayer6rot"/>
+      </physvol>
+      <physvol name="ITSssdLay6Ladd_8" copynumber="8">
+        <volumeref ref="ITSssdLay6Ladd"/>
+        <positionref ref="ITSssdLay6Ladd_8inITSssdLayer6pos"/>
+        <rotationref ref="ITSssdLay6Ladd_8inITSssdLayer6rot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSssdLayer5">
+      <physvol name="ITSssdLay5Ladd_8" copynumber="8">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_8inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_8inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_9" copynumber="9">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_9inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_9inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_10" copynumber="10">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_10inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_10inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_11" copynumber="11">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_11inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_11inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_12" copynumber="12">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_12inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_12inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_13" copynumber="13">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_13inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_13inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_14" copynumber="14">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_14inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_14inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_15" copynumber="15">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_15inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_15inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_16" copynumber="16">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_16inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_16inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_17" copynumber="17">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_17inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_17inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_18" copynumber="18">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_18inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_18inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_19" copynumber="19">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_19inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_19inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_20" copynumber="20">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_20inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_20inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_21" copynumber="21">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_21inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_21inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_22" copynumber="22">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_22inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_22inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_23" copynumber="23">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_23inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_23inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_24" copynumber="24">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_24inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_24inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_25" copynumber="25">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_25inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_25inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_26" copynumber="26">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_26inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_26inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_27" copynumber="27">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_27inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_27inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_28" copynumber="28">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_28inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_28inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_29" copynumber="29">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_29inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_29inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_30" copynumber="30">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_30inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_30inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_31" copynumber="31">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_31inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_31inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_32" copynumber="32">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_32inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_32inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_33" copynumber="33">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_33inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_33inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_0" copynumber="0">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_0inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_0inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_1" copynumber="1">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_1inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_1inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_2" copynumber="2">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_2inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_2inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_3" copynumber="3">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_3inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_3inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_4" copynumber="4">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_4inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_4inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_5" copynumber="5">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_5inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_5inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_6" copynumber="6">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_6inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_6inITSssdLayer5rot"/>
+      </physvol>
+      <physvol name="ITSssdLay5Ladd_7" copynumber="7">
+        <volumeref ref="ITSssdLay5Ladd"/>
+        <positionref ref="ITSssdLay5Ladd_7inITSssdLayer5pos"/>
+        <rotationref ref="ITSssdLay5Ladd_7inITSssdLayer5rot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSsddForward4Neg">
+      <physvol name="endLadderCards_0" copynumber="0">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_00x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_00x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_2" copynumber="2">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_20x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_20x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_4" copynumber="4">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_40x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_40x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_6" copynumber="6">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_60x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_60x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_8" copynumber="8">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_80x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_80x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_10" copynumber="10">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_100x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_100x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_12" copynumber="12">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_120x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_120x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_14" copynumber="14">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_140x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_140x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_16" copynumber="16">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_160x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_160x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_18" copynumber="18">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_180x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_180x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_20" copynumber="20">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_200x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_200x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_22" copynumber="22">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_220x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_220x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_24" copynumber="24">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_240x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_240x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_26" copynumber="26">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_260x3inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_260x3inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_28" copynumber="28">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_280x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_280x1inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_30" copynumber="30">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_300x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_300x1inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_32" copynumber="32">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_320x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_320x1inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_34" copynumber="34">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_340x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_340x1inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_36" copynumber="36">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_360x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_360x1inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_38" copynumber="38">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_380x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_380x1inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_40" copynumber="40">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_400x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_400x1inITSsddForward4Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_42" copynumber="42">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_420x1inITSsddForward4Negpos"/>
+        <rotationref ref="endLadderCards_420x1inITSsddForward4Negrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSsddForward4Pos">
+      <physvol name="endLadderCards_0" copynumber="0">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_00x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_00x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_2" copynumber="2">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_20x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_20x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_4" copynumber="4">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_40x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_40x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_6" copynumber="6">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_60x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_60x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_8" copynumber="8">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_80x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_80x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_10" copynumber="10">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_100x2inITSsddForward4Pospos"/>
+      </physvol>
+      <physvol name="endLadderCards_12" copynumber="12">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_120x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_120x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_14" copynumber="14">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_140x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_140x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_16" copynumber="16">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_160x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_160x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_18" copynumber="18">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_180x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_180x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_20" copynumber="20">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_200x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_200x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_22" copynumber="22">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_220x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_220x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_24" copynumber="24">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_240x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_240x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_26" copynumber="26">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_260x2inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_260x2inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_28" copynumber="28">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_28inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_28inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_30" copynumber="30">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_30inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_30inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_32" copynumber="32">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_32inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_32inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_34" copynumber="34">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_34inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_34inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_36" copynumber="36">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_36inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_36inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_38" copynumber="38">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_38inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_38inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_40" copynumber="40">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_40inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_40inITSsddForward4Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_42" copynumber="42">
+        <volumeref ref="endLadderCards0x1"/>
+        <positionref ref="endLadderCards_42inITSsddForward4Pospos"/>
+        <rotationref ref="endLadderCards_42inITSsddForward4Posrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSsddForward3Neg">
+      <physvol name="endLadderCards_0" copynumber="0">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_00x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_00x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_2" copynumber="2">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_20x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_20x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_4" copynumber="4">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_40x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_40x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_6" copynumber="6">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_60x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_60x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_8" copynumber="8">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_80x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_80x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_10" copynumber="10">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_100x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_100x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_12" copynumber="12">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_120x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_120x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_14" copynumber="14">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_140x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_140x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_16" copynumber="16">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_160x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_160x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_18" copynumber="18">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_180x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_180x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_20" copynumber="20">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_200x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_200x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_22" copynumber="22">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_220x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_220x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_24" copynumber="24">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_240x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_240x1inITSsddForward3Negrot"/>
+      </physvol>
+      <physvol name="endLadderCards_26" copynumber="26">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_260x1inITSsddForward3Negpos"/>
+        <rotationref ref="endLadderCards_260x1inITSsddForward3Negrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSsddForward3Pos">
+      <physvol name="endLadderCards_0" copynumber="0">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_0inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_0inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_2" copynumber="2">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_2inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_2inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_4" copynumber="4">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_4inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_4inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_6" copynumber="6">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_6inITSsddForward3Pospos"/>
+      </physvol>
+      <physvol name="endLadderCards_8" copynumber="8">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_8inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_8inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_10" copynumber="10">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_10inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_10inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_12" copynumber="12">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_12inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_12inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_14" copynumber="14">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_14inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_14inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_16" copynumber="16">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_16inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_16inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_18" copynumber="18">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_18inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_18inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_20" copynumber="20">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_20inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_20inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_22" copynumber="22">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_22inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_22inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_24" copynumber="24">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_24inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_24inITSsddForward3Posrot"/>
+      </physvol>
+      <physvol name="endLadderCards_26" copynumber="26">
+        <volumeref ref="endLadderCards"/>
+        <positionref ref="endLadderCards_26inITSsddForward3Pospos"/>
+        <rotationref ref="endLadderCards_26inITSsddForward3Posrot"/>
+      </physvol>
+    </assembly>
+    <volume name="ITSsddLayer4">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddLayer4Shape"/>
+      <physvol name="ITSsddLadder_0" copynumber="0">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_00x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_00x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_0" copynumber="0">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_00x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_00x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_1" copynumber="1">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_10x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_10x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_1" copynumber="1">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_10x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_10x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_2" copynumber="2">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_20x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_20x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_2" copynumber="2">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_20x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_20x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_3" copynumber="3">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_30x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_30x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_3" copynumber="3">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_30x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_30x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_4" copynumber="4">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_40x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_40x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_4" copynumber="4">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_40x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_40x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_5" copynumber="5">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_50x1inITSsddLayer4pos"/>
+      </physvol>
+      <physvol name="ITSsddLadd_5" copynumber="5">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_50x1inITSsddLayer4pos"/>
+      </physvol>
+      <physvol name="ITSsddLadder_6" copynumber="6">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_60x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_60x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_6" copynumber="6">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_60x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_60x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_7" copynumber="7">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_70x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_70x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_7" copynumber="7">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_70x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_70x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_8" copynumber="8">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_80x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_80x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_8" copynumber="8">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_80x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_80x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_9" copynumber="9">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_90x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_90x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_9" copynumber="9">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_90x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_90x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_10" copynumber="10">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_100x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_100x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_10" copynumber="10">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_100x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_100x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_11" copynumber="11">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_110x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_110x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_11" copynumber="11">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_110x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_110x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_12" copynumber="12">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_120x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_120x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_12" copynumber="12">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_120x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_120x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_13" copynumber="13">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_130x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_130x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_13" copynumber="13">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_130x1inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_130x1inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_14" copynumber="14">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_14inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_14inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_14" copynumber="14">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_14inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_14inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_15" copynumber="15">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_15inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_15inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_15" copynumber="15">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_15inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_15inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_16" copynumber="16">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_16inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_16inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_16" copynumber="16">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_16inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_16inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_17" copynumber="17">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_17inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_17inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_17" copynumber="17">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_17inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_17inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_18" copynumber="18">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_18inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_18inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_18" copynumber="18">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_18inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_18inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_19" copynumber="19">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_19inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_19inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_19" copynumber="19">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_19inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_19inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_20" copynumber="20">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_20inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_20inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_20" copynumber="20">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_20inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_20inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_21" copynumber="21">
+        <volumeref ref="ITSsddLadder0x1"/>
+        <positionref ref="ITSsddLadder_21inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadder_21inITSsddLayer4rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_21" copynumber="21">
+        <volumeref ref="ITSsddLadd0x1"/>
+        <positionref ref="ITSsddLadd_21inITSsddLayer4pos"/>
+        <rotationref ref="ITSsddLadd_21inITSsddLayer4rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddLayer3">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddLayer3Shape"/>
+      <physvol name="ITSsddLadder_0" copynumber="0">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_0inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_0inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_0" copynumber="0">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_0inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_0inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_1" copynumber="1">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_1inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_1inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_1" copynumber="1">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_1inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_1inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_2" copynumber="2">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_2inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_2inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_2" copynumber="2">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_2inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_2inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_3" copynumber="3">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_3inITSsddLayer3pos"/>
+      </physvol>
+      <physvol name="ITSsddLadd_3" copynumber="3">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_3inITSsddLayer3pos"/>
+      </physvol>
+      <physvol name="ITSsddLadder_4" copynumber="4">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_4inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_4inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_4" copynumber="4">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_4inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_4inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_5" copynumber="5">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_5inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_5inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_5" copynumber="5">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_5inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_5inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_6" copynumber="6">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_6inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_6inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_6" copynumber="6">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_6inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_6inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_7" copynumber="7">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_7inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_7inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_7" copynumber="7">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_7inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_7inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_8" copynumber="8">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_8inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_8inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_8" copynumber="8">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_8inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_8inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_9" copynumber="9">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_9inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_9inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_9" copynumber="9">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_9inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_9inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_10" copynumber="10">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_10inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_10inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_10" copynumber="10">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_10inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_10inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_11" copynumber="11">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_11inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_11inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_11" copynumber="11">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_11inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_11inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_12" copynumber="12">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_12inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_12inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_12" copynumber="12">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_12inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_12inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadder_13" copynumber="13">
+        <volumeref ref="ITSsddLadder"/>
+        <positionref ref="ITSsddLadder_13inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadder_13inITSsddLayer3rot"/>
+      </physvol>
+      <physvol name="ITSsddLadd_13" copynumber="13">
+        <volumeref ref="ITSsddLadd"/>
+        <positionref ref="ITSsddLadd_13inITSsddLayer3pos"/>
+        <rotationref ref="ITSsddLadd_13inITSsddLayer3rot"/>
+      </physvol>
+    </volume>
+    <assembly name="ITSSPDCoolingModule">
+      <physvol name="ITSSPDCoolingTubeCone_0" copynumber="0">
+        <volumeref ref="ITSSPDCoolingTubeCone"/>
+        <positionref ref="ITSSPDCoolingTubeCone_0inITSSPDCoolingModulepos"/>
+        <rotationref ref="ITSSPDCoolingTubeCone_0inITSSPDCoolingModulerot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSSPDConeModule">
+      <physvol name="ITSSPDExtender_0" copynumber="0">
+        <volumeref ref="ITSSPDExtender"/>
+        <positionref ref="ITSSPDExtender_0inITSSPDConeModulepos"/>
+        <rotationref ref="ITSSPDExtender_0inITSSPDConeModulerot"/>
+      </physvol>
+      <physvol name="ITSSPDextenderMCM_0" copynumber="0">
+        <volumeref ref="ITSSPDextenderMCM"/>
+        <positionref ref="ITSSPDextenderMCM_0inITSSPDConeModulepos"/>
+      </physvol>
+      <physvol name="ITSSPDPlate_0" copynumber="0">
+        <volumeref ref="ITSSPDPlate"/>
+        <positionref ref="ITSSPDPlate_0inITSSPDConeModulepos"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSSPD">
+      <physvol name="ITSSPDCarbonFiberSectorV_1" copynumber="1">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_1inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_1inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_2" copynumber="2">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_2inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_2inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_3" copynumber="3">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_3inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_3inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_4" copynumber="4">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_4inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_4inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_5" copynumber="5">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_5inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_5inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_6" copynumber="6">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_6inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_6inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_7" copynumber="7">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_7inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_7inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_8" copynumber="8">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_8inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_8inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_9" copynumber="9">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_9inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_9inITSSPDrot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSectorV_10" copynumber="10">
+        <volumeref ref="ITSSPDCarbonFiberSectorV"/>
+        <positionref ref="ITSSPDCarbonFiberSectorV_10inITSSPDpos"/>
+        <rotationref ref="ITSSPDCarbonFiberSectorV_10inITSSPDrot"/>
+      </physvol>
+    </assembly>
     <volume name="ISR6">
       <materialref ref="ITS_AL"/>
       <solidref ref="ISR60x1"/>
     </volume>
+    <volume name="ISR3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ISR30x1"/>
+      <physvol name="ISR5_1" copynumber="1">
+        <volumeref ref="ISR5"/>
+        <positionref ref="ISR5_1inISR3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ISR2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ISR20x1"/>
+      <physvol name="ISR4_1" copynumber="1">
+        <volumeref ref="ISR4"/>
+        <positionref ref="ISR4_1inISR2pos"/>
+      </physvol>
+    </volume>
     <volume name="ISR1">
       <materialref ref="ITS_inoxalum"/>
       <solidref ref="ISR10x1"/>
+    </volume>
+    <volume name="IHK2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="IHK20x1"/>
+    </volume>
+    <volume name="IHK1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="IHK10x1"/>
+    </volume>
+    <volume name="ICC8">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC80x1"/>
+    </volume>
+    <volume name="ICC7">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC70x1"/>
+    </volume>
+    <volume name="ICU8">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU80x1"/>
+    </volume>
+    <volume name="ICU7">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU70x1"/>
+    </volume>
+    <volume name="ICC0">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC00x1"/>
+    </volume>
+    <volume name="ICC6">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC60x1"/>
+    </volume>
+    <volume name="ICC9">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC90x1"/>
+    </volume>
+    <volume name="ICC5">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC50x1"/>
+    </volume>
+    <volume name="ICU0">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU00x1"/>
+    </volume>
+    <volume name="ICU6">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU60x1"/>
+    </volume>
+    <volume name="ICU9">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU90x1"/>
+    </volume>
+    <volume name="ICU5">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU50x1"/>
+    </volume>
+    <volume name="ICC4">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC40x1"/>
+    </volume>
+    <volume name="ICC3">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC30x1"/>
+    </volume>
+    <volume name="ICU4">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU40x1"/>
+    </volume>
+    <volume name="ICU3">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU30x1"/>
+    </volume>
+    <volume name="ICC2">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC20x1"/>
+    </volume>
+    <volume name="ICC1">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="ICC10x1"/>
+    </volume>
+    <volume name="ICU2">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU20x1"/>
+    </volume>
+    <volume name="ICU1">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ICU10x1"/>
     </volume>
     <assembly name="ITSV">
       <physvol name="ICU1_1" copynumber="1">

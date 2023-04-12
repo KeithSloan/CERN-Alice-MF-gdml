@@ -1,4 +1,32 @@
-<structure><volume name="UF10">
+<structure><volume name="UG10">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x201"/>
+      <physvol name="UL10_1" copynumber="1">
+        <volumeref ref="UL10"/>
+        <positionref ref="UL10_1inUG10pos"/>
+      </physvol>
+      <physvol name="UY10_1" copynumber="1">
+        <volumeref ref="UY10"/>
+        <positionref ref="UY10_1inUG10pos"/>
+      </physvol>
+      <physvol name="UM10_1" copynumber="1">
+        <volumeref ref="UM10"/>
+        <positionref ref="UM10_1inUG10pos"/>
+      </physvol>
+      <physvol name="UN10_1" copynumber="1">
+        <volumeref ref="UN10"/>
+        <positionref ref="UN10_1inUG10pos"/>
+      </physvol>
+      <physvol name="UO10_1" copynumber="1">
+        <volumeref ref="UO10"/>
+        <positionref ref="UO10_1inUG10pos"/>
+      </physvol>
+      <physvol name="UV10_1" copynumber="1">
+        <volumeref ref="UV10"/>
+        <positionref ref="UV10_1inUG10pos"/>
+      </physvol>
+    </volume>
+    <volume name="UF10">
       <materialref ref="TRD_Al"/>
       <solidref ref="UF100x1"/>
       <physvol name="UG10_1" copynumber="1">

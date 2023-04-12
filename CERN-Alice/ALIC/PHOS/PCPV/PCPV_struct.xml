@@ -6,6 +6,14 @@
       <materialref ref="PHOS_Al"/>
       <solidref ref="PCF10x1"/>
     </volume>
+    <volume name="PCPG">
+      <materialref ref="PHOS_ArCO2"/>
+      <solidref ref="PCPG0x1"/>
+      <physvol name="PCPQ_1" copynumber="1">
+        <volumeref ref="PCPQ"/>
+        <positionref ref="PCPQ_1inPCPGpos"/>
+      </physvol>
+    </volume>
     <volume name="PCPF">
       <materialref ref="PHOS_Textolit"/>
       <solidref ref="PCPF0x1"/>

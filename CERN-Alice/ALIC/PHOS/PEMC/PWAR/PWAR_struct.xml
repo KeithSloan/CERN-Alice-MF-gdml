@@ -1,4 +1,68 @@
-<structure><volume name="PWAR">
+<structure><volume name="PWTI">
+      <materialref ref="PHOS_Thermo_Insul."/>
+      <solidref ref="PWTI0x1"/>
+      <physvol name="PCA1_1" copynumber="1">
+        <volumeref ref="PCA1"/>
+        <positionref ref="PCA1_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PCA2_1" copynumber="1">
+        <volumeref ref="PCA2"/>
+        <positionref ref="PCA2_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PFRX_1" copynumber="1">
+        <volumeref ref="PFRX"/>
+        <positionref ref="PFRX_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PFRX_2" copynumber="2">
+        <volumeref ref="PFRX"/>
+        <positionref ref="PFRX_2inPWTIpos"/>
+      </physvol>
+      <physvol name="PFRZ_1" copynumber="1">
+        <volumeref ref="PFRZ"/>
+        <positionref ref="PFRZ_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PFRZ_2" copynumber="2">
+        <volumeref ref="PFRZ"/>
+        <positionref ref="PFRZ_2inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG1_1" copynumber="1">
+        <volumeref ref="PFG1"/>
+        <positionref ref="PFG1_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG1_2" copynumber="2">
+        <volumeref ref="PFG1"/>
+        <positionref ref="PFG1_2inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG2_1" copynumber="1">
+        <volumeref ref="PFG2"/>
+        <positionref ref="PFG2_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG2_2" copynumber="2">
+        <volumeref ref="PFG2"/>
+        <positionref ref="PFG2_2inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG3_1" copynumber="1">
+        <volumeref ref="PFG3"/>
+        <positionref ref="PFG3_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG3_2" copynumber="2">
+        <volumeref ref="PFG3"/>
+        <positionref ref="PFG3_2inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG4_1" copynumber="1">
+        <volumeref ref="PFG4"/>
+        <positionref ref="PFG4_1inPWTIpos"/>
+      </physvol>
+      <physvol name="PFG4_2" copynumber="2">
+        <volumeref ref="PFG4"/>
+        <positionref ref="PFG4_2inPWTIpos"/>
+      </physvol>
+      <physvol name="PAFE_1" copynumber="1">
+        <volumeref ref="PAFE"/>
+        <positionref ref="PAFE_1inPWTIpos"/>
+      </physvol>
+    </volume>
+    <volume name="PWAR">
       <materialref ref="PHOS_Al"/>
       <solidref ref="PWAR0x1"/>
       <physvol name="PWTI_1" copynumber="1">

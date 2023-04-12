@@ -1,4 +1,17 @@
-<structure><volume name="PCOL">
+<structure><volume name="PFGC">
+      <materialref ref="PHOS_Fibergla"/>
+      <solidref ref="PFGC0x1"/>
+    </volume>
+    <volume name="PTIO">
+      <materialref ref="PHOS_Thermo_Insul."/>
+      <solidref ref="PTIO0x1"/>
+      <physvol name="PCOR_1" copynumber="1">
+        <volumeref ref="PCOR"/>
+        <positionref ref="PCOR_1inPTIOpos"/>
+        <rotationref ref="PCOR_1inPTIOrot"/>
+      </physvol>
+    </volume>
+    <volume name="PCOL">
       <materialref ref="PHOS_Al"/>
       <solidref ref="PCOL0x1"/>
       <physvol name="PTIO_1" copynumber="1">

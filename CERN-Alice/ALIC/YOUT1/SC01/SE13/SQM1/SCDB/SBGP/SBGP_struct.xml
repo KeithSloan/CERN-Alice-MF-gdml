@@ -1,4 +1,8 @@
-<structure><volume name="SBGP">
+<structure><volume name="SBGC">
+      <materialref ref="MUON_Copper"/>
+      <solidref ref="SBGC0x1"/>
+    </volume>
+    <volume name="SBGP">
       <materialref ref="MUON_Plastic"/>
       <solidref ref="SBGP0x1"/>
       <physvol name="SBGC_1" copynumber="1">

@@ -1,4 +1,16 @@
-<structure><volume name="UA08">
+<structure><volume name="UB08">
+      <materialref ref="TRD_C"/>
+      <solidref ref="TGeoBBox0x169"/>
+      <physvol name="UJ08_1" copynumber="1">
+        <volumeref ref="UJ08"/>
+        <positionref ref="UJ08_1inUB08pos"/>
+      </physvol>
+      <physvol name="UX08_1" copynumber="1">
+        <volumeref ref="UX08"/>
+        <positionref ref="UX08_1inUB08pos"/>
+      </physvol>
+    </volume>
+    <volume name="UA08">
       <materialref ref="TRD_Al"/>
       <solidref ref="UA080x1"/>
       <physvol name="UB08_1" copynumber="1">

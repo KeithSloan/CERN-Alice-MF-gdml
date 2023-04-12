@@ -1,4 +1,8 @@
-<structure><volume name="vAlLVcooling3">
+<structure><volume name="vLittleScrewLV">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="littleScrewLV"/>
+    </volume>
+    <volume name="vAlLVcooling3">
       <materialref ref="ITS_INOX"/>
       <solidref ref="lLVcooling3"/>
       <physvol name="vLittleScrewLV_1" copynumber="1">

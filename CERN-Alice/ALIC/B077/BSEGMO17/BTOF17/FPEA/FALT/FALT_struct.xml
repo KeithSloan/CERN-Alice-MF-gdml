@@ -6,6 +6,10 @@
       <materialref ref="TOF_Al_honeycomb"/>
       <solidref ref="FPE20x1"/>
     </volume>
+    <volume name="FPE1">
+      <materialref ref="TOF_Al_honeycomb"/>
+      <solidref ref="FPE10x1"/>
+    </volume>
     <volume name="FALT">
       <materialref ref="TOF_Al_"/>
       <solidref ref="FALT0x1"/>

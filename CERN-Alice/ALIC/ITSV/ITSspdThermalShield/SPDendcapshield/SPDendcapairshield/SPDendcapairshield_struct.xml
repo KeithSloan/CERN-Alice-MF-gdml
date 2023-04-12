@@ -1,4 +1,8 @@
-<structure><volume name="SPDendcapairshield">
+<structure><volume name="SPDendcapomega">
+      <materialref ref="ITS_SPD_shield"/>
+      <solidref ref="TGeoXtru0x92"/>
+    </volume>
+    <volume name="SPDendcapairshield">
       <materialref ref="ITS_SPD_AIR"/>
       <solidref ref="TGeoXtru0x91"/>
       <physvol name="SPDendcapomega_1" copynumber="1">

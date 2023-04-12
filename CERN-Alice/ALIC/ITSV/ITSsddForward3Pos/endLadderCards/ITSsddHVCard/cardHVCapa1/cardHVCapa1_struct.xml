@@ -2,6 +2,10 @@
       <materialref ref="ITS_SDD_X7R_capacitors"/>
       <solidref ref="cardHVCapa1End"/>
     </volume>
+    <volume name="vCardHVCapa1Middle">
+      <materialref ref="ITS_SDD_X7R_capacitors"/>
+      <solidref ref="cardHVCapa1Middle"/>
+    </volume>
     <assembly name="cardHVCapa1">
       <physvol name="vCardHVCapa1Middle_1" copynumber="1">
         <volumeref ref="vCardHVCapa1Middle"/>

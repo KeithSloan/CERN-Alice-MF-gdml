@@ -1,4 +1,8 @@
-<structure><volume name="TPC_SWS1">
+<structure><volume name="TPC_ELEC">
+      <materialref ref="TPC_Si"/>
+      <solidref ref="TGeoPgon0x184"/>
+    </volume>
+    <volume name="TPC_SWS1">
       <materialref ref="TPC_Air"/>
       <solidref ref="TGeoPgon0x183"/>
       <physvol name="TPC_ELEC_1" copynumber="1">

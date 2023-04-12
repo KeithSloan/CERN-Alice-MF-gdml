@@ -1,4 +1,8 @@
-<structure><volume name="QCLext">
+<structure><volume name="QCLint">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="intTrousersC"/>
+    </volume>
+    <volume name="QCLext">
       <materialref ref="ZDC_IRON0"/>
       <solidref ref="outTrousersC"/>
       <physvol name="QCLint_1" copynumber="1">

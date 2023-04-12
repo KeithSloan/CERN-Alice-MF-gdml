@@ -6,6 +6,14 @@
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoBBox0x12"/>
     </volume>
+    <volume name="DL1">
+      <materialref ref="DIPO_Al0"/>
+      <solidref ref="TGeoBBox0x10"/>
+      <physvol name="DL2_1" copynumber="1">
+        <volumeref ref="DL2"/>
+        <positionref ref="DL2_1inDL1pos"/>
+      </physvol>
+    </volume>
     <volume name="DL0">
       <materialref ref="DIPO_Al0"/>
       <solidref ref="TGeoBBox0x9"/>

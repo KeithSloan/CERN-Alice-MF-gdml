@@ -1,4 +1,20 @@
-<structure><volume name="ambraCC1">
+<structure><volume name="vCableSegLay0x24">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1006"/>
+    </volume>
+    <volume name="vCableSegLay0x23">
+      <materialref ref="ITS_SDD_SI_CHIP"/>
+      <solidref ref="TGeoBBox0x1005"/>
+    </volume>
+    <volume name="vCableSegLay0x22">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1004"/>
+    </volume>
+    <volume name="vCableSegLay0x21">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoBBox0x1003"/>
+    </volume>
+    <volume name="ambraCC1">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoBBox0x1002"/>
       <physvol name="vCableSegLay_1" copynumber="1">

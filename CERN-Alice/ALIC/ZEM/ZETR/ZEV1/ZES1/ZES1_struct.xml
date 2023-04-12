@@ -1,4 +1,8 @@
-<structure><volume name="ZES1">
+<structure><volume name="ZEMF">
+      <materialref ref="ZDC_SIO2"/>
+      <solidref ref="ZEMF0x1"/>
+    </volume>
+    <volume name="ZES1">
       <materialref ref="ZDC_VOID"/>
       <solidref ref="TGeoPara0x6"/>
       <physvol name="ZEMF_1" copynumber="1">

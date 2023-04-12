@@ -1,10 +1,22 @@
-<structure><volume name="ShPx24Sw">
+<structure><volume name="Px24Pl">
+      <materialref ref="HALL_STAINLESS_STEEL3"/>
+      <solidref ref="Px24Pl0x1"/>
+    </volume>
+    <volume name="ShPx24Ro">
+      <materialref ref="HALL_CONCRETE2"/>
+      <solidref ref="TGeoBBox0x23"/>
+    </volume>
+    <volume name="ShPx24Sw">
       <materialref ref="HALL_CONCRETE2"/>
       <solidref ref="TGeoBBox0x22"/>
     </volume>
     <volume name="ShPx24Pi">
       <materialref ref="HALL_CONCRETE2"/>
       <solidref ref="TGeoBBox0x21"/>
+    </volume>
+    <volume name="ShPx24Pl">
+      <materialref ref="HALL_CONCRETE2"/>
+      <solidref ref="TGeoBBox0x20"/>
     </volume>
     <assembly name="ShPx24">
       <physvol name="ShPx24Pl_1" copynumber="1">

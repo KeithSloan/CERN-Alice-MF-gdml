@@ -1,10 +1,10 @@
-<structure><volume name="crossBottom">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="crossBottom0x1"/>
-    </volume>
-    <volume name="crossTop">
+<structure><volume name="crossTop">
       <materialref ref="EMCAL_STAINLESS_STEEL"/>
       <solidref ref="crossTop0x1"/>
+    </volume>
+    <volume name="crossBottom">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="crossBottom0x1"/>
     </volume>
     <volume name="subSetCross">
       <materialref ref="EMCAL_Air"/>

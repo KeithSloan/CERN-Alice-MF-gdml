@@ -1,4 +1,36 @@
-<structure><assembly name="ITSSPDmcmL0x1">
+<structure><volume name="ITSSPDcapTop0x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x17"/>
+    </volume>
+    <volume name="ITSSPDcapBoarder0x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ITSSPDshBORDERL0x1"/>
+    </volume>
+    <volume name="ITSSPDoptical0x6">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDoptical0x7"/>
+    </volume>
+    <volume name="ITSSPDrx400x6">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDrx400x7"/>
+    </volume>
+    <volume name="ITSSPDgol0x6">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDgol0x7"/>
+    </volume>
+    <volume name="ITSSPDpilot0x6">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDpilot0x7"/>
+    </volume>
+    <volume name="ITSSPDanalog0x6">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDanalog0x7"/>
+    </volume>
+    <volume name="ITSSPDbase0x3">
+      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
+      <solidref ref="TGeoXtru0x16"/>
+    </volume>
+    <assembly name="ITSSPDmcmL0x1">
       <physvol name="ITSSPDbase_1" copynumber="1">
         <volumeref ref="ITSSPDbase0x3"/>
         <positionref ref="ITSSPDbase_10x3inITSSPDmcmL0x1pos"/>

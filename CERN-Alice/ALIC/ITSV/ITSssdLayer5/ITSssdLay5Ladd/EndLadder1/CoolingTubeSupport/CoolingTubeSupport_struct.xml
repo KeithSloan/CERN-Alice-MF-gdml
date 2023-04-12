@@ -1,4 +1,32 @@
-<structure><volume name="CoolingTubeSupport">
+<structure><volume name="CoolingTubeWaterPart">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTubeSeg0x60"/>
+    </volume>
+    <volume name="CoolingTubePhynoxPart">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTubeSeg0x59"/>
+    </volume>
+    <volume name="CoolingTubePhynoxArcPart">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoXtru0x25"/>
+    </volume>
+    <volume name="CoolingTubeWaterArcPart">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoXtru0x24"/>
+    </volume>
+    <volume name="CoolingTubeSupportSeg">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoTubeSeg0x58"/>
+    </volume>
+    <volume name="CoolingTubeSupportBox">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoBBox0x1118"/>
+    </volume>
+    <volume name="CoolingTubeSupportArc">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x23"/>
+    </volume>
+    <volume name="CoolingTubeSupport">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="TGeoXtru0x22"/>
       <physvol name="CoolingTubeSupportArc_1" copynumber="1">

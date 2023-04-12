@@ -1,4 +1,12 @@
-<structure><volume name="UE25">
+<structure><volume name="UK25">
+      <materialref ref="TRD_XeCO2"/>
+      <solidref ref="TGeoBBox0x316"/>
+      <physvol name="UW25_1" copynumber="1">
+        <volumeref ref="UW25"/>
+        <positionref ref="UW25_1inUK25pos"/>
+      </physvol>
+    </volume>
+    <volume name="UE25">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x315"/>
       <physvol name="UK25_1" copynumber="1">

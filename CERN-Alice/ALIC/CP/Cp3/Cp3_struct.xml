@@ -1,4 +1,32 @@
-<structure><assembly name="Cp3">
+<structure><volume name="CpSupC">
+      <materialref ref="PIPE_ANTICORODAL"/>
+      <solidref ref="TGeoTube0x13"/>
+    </volume>
+    <volume name="CP3MO">
+      <materialref ref="PIPE_AIR"/>
+      <solidref ref="TGeoPcon0x38"/>
+      <physvol name="CP3ATV_1" copynumber="1">
+        <volumeref ref="CP3ATV"/>
+        <positionref ref="CP3ATV_1inCP3MOpos"/>
+      </physvol>
+      <physvol name="CP3BeMO_1" copynumber="1">
+        <volumeref ref="CP3BeMO"/>
+        <positionref ref="CP3BeMO_1inCP3MOpos"/>
+      </physvol>
+      <physvol name="CP3BeMO_2" copynumber="2">
+        <volumeref ref="CP3BeMO"/>
+        <positionref ref="CP3BeMO_2inCP3MOpos"/>
+      </physvol>
+      <physvol name="CP3BCO_1" copynumber="1">
+        <volumeref ref="CP3BCO"/>
+        <positionref ref="CP3BCO_1inCP3MOpos"/>
+      </physvol>
+      <physvol name="CP3MFO_1" copynumber="1">
+        <volumeref ref="CP3MFO"/>
+        <positionref ref="CP3MFO_1inCP3MOpos"/>
+      </physvol>
+    </volume>
+    <assembly name="Cp3">
       <physvol name="CP3MO_1" copynumber="1">
         <volumeref ref="CP3MO"/>
         <positionref ref="CP3MO_1inCp3pos"/>

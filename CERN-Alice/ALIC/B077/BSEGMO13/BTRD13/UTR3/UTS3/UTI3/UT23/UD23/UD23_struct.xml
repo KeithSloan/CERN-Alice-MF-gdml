@@ -1,4 +1,12 @@
-<structure><volume name="UD23">
+<structure><volume name="UE23">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x289"/>
+      <physvol name="UK23_1" copynumber="1">
+        <volumeref ref="UK23"/>
+        <positionref ref="UK23_1inUE23pos"/>
+      </physvol>
+    </volume>
+    <volume name="UD23">
       <materialref ref="TRD_C"/>
       <solidref ref="UD230x1"/>
       <physvol name="UE23_1" copynumber="1">

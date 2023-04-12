@@ -1,4 +1,20 @@
-<structure><volume name="OINS">
+<structure><volume name="OSU4">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU40x1"/>
+    </volume>
+    <volume name="OSU3">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU30x1"/>
+    </volume>
+    <volume name="OSU2">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU20x1"/>
+    </volume>
+    <volume name="OSU1">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU10x1"/>
+    </volume>
+    <volume name="OINS">
       <materialref ref="T0_Air"/>
       <solidref ref="OINS0x1"/>
       <physvol name="0PMT_1" copynumber="1">

@@ -1,4 +1,54 @@
-<structure><assembly name="F1MB">
+<structure><volume name="FMD1_lid">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="FMD1_lid0x1"/>
+    </volume>
+    <volume name="F1HI">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="F1HI0x1"/>
+    </volume>
+    <assembly name="FIBV">
+      <physvol name="FIFH_5" copynumber="5">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_5inFIBVpos"/>
+        <rotationref ref="FIFH_5inFIBVrot"/>
+      </physvol>
+      <physvol name="FIBH_6" copynumber="6">
+        <volumeref ref="FIBH"/>
+        <positionref ref="FIBH_6inFIBVpos"/>
+        <rotationref ref="FIBH_6inFIBVrot"/>
+      </physvol>
+      <physvol name="FIFH_7" copynumber="7">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_7inFIBVpos"/>
+        <rotationref ref="FIFH_7inFIBVrot"/>
+      </physvol>
+      <physvol name="FIBH_8" copynumber="8">
+        <volumeref ref="FIBH"/>
+        <positionref ref="FIBH_8inFIBVpos"/>
+        <rotationref ref="FIBH_8inFIBVrot"/>
+      </physvol>
+      <physvol name="FIFH_9" copynumber="9">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_9inFIBVpos"/>
+        <rotationref ref="FIFH_9inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDP_1" copynumber="1">
+        <volumeref ref="FIDP"/>
+        <positionref ref="FIDP_1inFIBVpos"/>
+        <rotationref ref="FIDP_1inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDC_1" copynumber="1">
+        <volumeref ref="FIDC"/>
+        <positionref ref="FIDC_1inFIBVpos"/>
+        <rotationref ref="FIDC_1inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDI_1" copynumber="1">
+        <volumeref ref="FIDI"/>
+        <positionref ref="FIDI_1inFIBVpos"/>
+        <rotationref ref="FIDI_1inFIBVrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="F1MB">
       <physvol name="FIBV_73" copynumber="73">
         <volumeref ref="FIBV"/>
         <positionref ref="FIBV_73inF1MBpos"/>

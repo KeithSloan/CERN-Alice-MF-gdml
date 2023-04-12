@@ -2,6 +2,23 @@
       <materialref ref="PIPE_ANTICORODAL"/>
       <solidref ref="TGeoTube0x13"/>
     </volume>
+    <volume name="CP1MO">
+      <materialref ref="PIPE_AIR"/>
+      <solidref ref="TGeoTube0x7"/>
+      <physvol name="CP1KA_1" copynumber="1">
+        <volumeref ref="CP1KA"/>
+        <positionref ref="CP1KA_1inCP1MOpos"/>
+      </physvol>
+      <physvol name="CP1AT_1" copynumber="1">
+        <volumeref ref="CP1AT"/>
+        <positionref ref="CP1AT_1inCP1MOpos"/>
+      </physvol>
+      <physvol name="CP1AT_2" copynumber="2">
+        <volumeref ref="CP1AT"/>
+        <positionref ref="CP1AT_2inCP1MOpos"/>
+        <rotationref ref="CP1AT_2inCP1MOrot"/>
+      </physvol>
+    </volume>
     <assembly name="Cp1">
       <physvol name="CP1MO_1" copynumber="1">
         <volumeref ref="CP1MO"/>

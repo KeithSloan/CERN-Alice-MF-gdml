@@ -1,4 +1,8 @@
-<structure><volume name="carlosCardU17">
+<structure><volume name="vCableSegLay0x165">
+      <materialref ref="ITS_SDD_SI_CHIP"/>
+      <solidref ref="TGeoBBox0x1111"/>
+    </volume>
+    <volume name="carlosCardU17">
       <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
       <solidref ref="TGeoBBox0x1110"/>
       <physvol name="vCableSegLay_1" copynumber="1">

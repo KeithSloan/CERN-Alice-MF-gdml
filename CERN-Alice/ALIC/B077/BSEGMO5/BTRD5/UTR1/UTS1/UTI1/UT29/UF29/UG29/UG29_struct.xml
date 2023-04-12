@@ -1,4 +1,28 @@
-<structure><volume name="UG29">
+<structure><volume name="UV29">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x376"/>
+    </volume>
+    <volume name="UO29">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x375"/>
+    </volume>
+    <volume name="UN29">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x374"/>
+    </volume>
+    <volume name="UM29">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x373"/>
+    </volume>
+    <volume name="UY29">
+      <materialref ref="TRD_Araldite"/>
+      <solidref ref="TGeoBBox0x372"/>
+    </volume>
+    <volume name="UL29">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x371"/>
+    </volume>
+    <volume name="UG29">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x370"/>
       <physvol name="UL29_1" copynumber="1">

@@ -1,4 +1,8 @@
-<structure><assembly name="ITSSPDCoolingModule">
+<structure><volume name="ITSSPDCoolingTubeCone">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="ITSSPDCoolingTubeCone0x1"/>
+    </volume>
+    <assembly name="ITSSPDCoolingModule">
       <physvol name="ITSSPDCoolingTubeCone_0" copynumber="0">
         <volumeref ref="ITSSPDCoolingTubeCone"/>
         <positionref ref="ITSSPDCoolingTubeCone_0inITSSPDCoolingModulepos"/>

@@ -18,6 +18,198 @@
         <positionref ref="UMC4_1inUMCMpos"/>
       </physvol>
     </volume>
+    <volume name="UTPL0x222">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x223"/>
+    </volume>
+    <volume name="UTPL0x220">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x221"/>
+    </volume>
+    <volume name="UTPL0x218">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x219"/>
+    </volume>
+    <volume name="UTPL0x216">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x217"/>
+    </volume>
+    <volume name="UTPL0x214">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x215"/>
+    </volume>
+    <volume name="UTPL0x212">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x213"/>
+    </volume>
+    <volume name="UTPL0x210">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x211"/>
+    </volume>
+    <volume name="UTPL0x208">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x209"/>
+    </volume>
+    <volume name="UTPL0x206">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x207"/>
+    </volume>
+    <volume name="UTPL0x204">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x205"/>
+    </volume>
+    <volume name="UTPL0x202">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x203"/>
+    </volume>
+    <volume name="UTPL0x200">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x201"/>
+    </volume>
+    <volume name="UTPL0x198">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x199"/>
+    </volume>
+    <volume name="UTPL0x196">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x197"/>
+    </volume>
+    <volume name="UTPL0x194">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x195"/>
+    </volume>
+    <volume name="UTPL0x192">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTPL0x193"/>
+    </volume>
+    <volume name="UTCP0x222">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x223"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x222"/>
+        <positionref ref="UTCH_10x111inUTCP0x222pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x220">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x221"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x220"/>
+        <positionref ref="UTCH_10x110inUTCP0x220pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x218">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x219"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x218"/>
+        <positionref ref="UTCH_10x109inUTCP0x218pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x216">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x217"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x216"/>
+        <positionref ref="UTCH_10x108inUTCP0x216pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x214">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x215"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x214"/>
+        <positionref ref="UTCH_10x107inUTCP0x214pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x212">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x213"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x212"/>
+        <positionref ref="UTCH_10x106inUTCP0x212pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x210">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x211"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x210"/>
+        <positionref ref="UTCH_10x105inUTCP0x210pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x208">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x209"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x208"/>
+        <positionref ref="UTCH_10x104inUTCP0x208pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x206">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x207"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x206"/>
+        <positionref ref="UTCH_10x103inUTCP0x206pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x204">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x205"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x204"/>
+        <positionref ref="UTCH_10x102inUTCP0x204pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x202">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x203"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x202"/>
+        <positionref ref="UTCH_10x101inUTCP0x202pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x200">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x201"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x200"/>
+        <positionref ref="UTCH_10x100inUTCP0x200pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x198">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x199"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x198"/>
+        <positionref ref="UTCH_10x99inUTCP0x198pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x196">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x197"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x196"/>
+        <positionref ref="UTCH_10x98inUTCP0x196pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x194">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x195"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x194"/>
+        <positionref ref="UTCH_10x97inUTCP0x194pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTCP0x192">
+      <materialref ref="TRD_Al"/>
+      <solidref ref="UTCP0x193"/>
+      <physvol name="UTCH_1" copynumber="1">
+        <volumeref ref="UTCH0x192"/>
+        <positionref ref="UTCH_10x96inUTCP0x192pos"/>
+      </physvol>
+    </volume>
     <volume name="UU06">
       <materialref ref="TRD_Air"/>
       <solidref ref="UU060x1"/>

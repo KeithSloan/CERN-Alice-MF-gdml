@@ -1,4 +1,8 @@
-<structure><volume name="CP1AT">
+<structure><volume name="CP1ATV">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoTube0x12"/>
+    </volume>
+    <volume name="CP1AT">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="TGeoPcon0x37"/>
       <physvol name="CP1ATV_1" copynumber="1">

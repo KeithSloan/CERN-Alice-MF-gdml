@@ -1,6 +1,2131 @@
-<structure><volume name="ITSsddCoolingEndLiquid0x1">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x89"/>
+<structure><volume name="ITSsddHVcable70x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1085"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x149"/>
+        <positionref ref="vCableSegLay_10x125inITSsddHVcable70x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable7">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x44"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x148"/>
+        <positionref ref="vCableSegLay_10x124inITSsddHVcable7pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable60x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1083"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x147"/>
+        <positionref ref="vCableSegLay_10x123inITSsddHVcable60x1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable6">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x42"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x146"/>
+        <positionref ref="vCableSegLay_10x122inITSsddHVcable6pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable50x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1081"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x145"/>
+        <positionref ref="vCableSegLay_10x121inITSsddHVcable50x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable50x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x40"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x144"/>
+        <positionref ref="vCableSegLay_10x120inITSsddHVcable50x2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable40x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1079"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x143"/>
+        <positionref ref="vCableSegLay_10x119inITSsddHVcable40x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable40x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x38"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x142"/>
+        <positionref ref="vCableSegLay_10x118inITSsddHVcable40x2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable00x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1077"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x141"/>
+        <positionref ref="vCableSegLay_10x117inITSsddHVcable00x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable00x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x36"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x140"/>
+        <positionref ref="vCableSegLay_10x116inITSsddHVcable00x2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable10x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1075"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x139"/>
+        <positionref ref="vCableSegLay_10x115inITSsddHVcable10x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable10x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x34"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x138"/>
+        <positionref ref="vCableSegLay_10x114inITSsddHVcable10x2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable20x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1073"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x137"/>
+        <positionref ref="vCableSegLay_10x113inITSsddHVcable20x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable20x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x32"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x136"/>
+        <positionref ref="vCableSegLay_10x112inITSsddHVcable20x2pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable30x3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1071"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x135"/>
+        <positionref ref="vCableSegLay_10x111inITSsddHVcable30x3pos"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddHVcable30x2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoTubeSeg0x30"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x134"/>
+        <positionref ref="vCableSegLay_10x110inITSsddHVcable30x2pos"/>
+      </physvol>
+    </volume>
+    <assembly name="ITSsddEnd0x1">
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol10x2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x15inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerV2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerV20x1"/>
+        <positionref ref="ITSsddCFladdTopCornerV2_10x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerV1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerV10x1"/>
+        <positionref ref="ITSsddCFladdSideCornerV1_10x1inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerV1_10x1inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerV2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerV20x1"/>
+        <positionref ref="ITSsddCFladdSideCornerV2_10x1inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerV2_10x1inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerV1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerV10x1"/>
+        <positionref ref="ITSsddCFladdSideCornerV1_20x1inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerV1_20x1inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerV2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerV20x1"/>
+        <positionref ref="ITSsddCFladdSideCornerV2_20x1inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerV2_20x1inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x15inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x15inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x15inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x15inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x15inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x15inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x15inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x15inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol0x2"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x15inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x15inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x15inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x15inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x15inITSsddEnd0x1pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x15inITSsddEnd0x1rot"/>
+      </physvol>
+      <physvol name="ITSsddFoot_1" copynumber="1">
+        <volumeref ref="ITSsddFoot"/>
+        <positionref ref="ITSsddFoot_10x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipeEnd_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipeEnd0x1"/>
+        <positionref ref="ITSsddCoolingPipeEnd_10x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipeEnd_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipeEnd0x1"/>
+        <positionref ref="ITSsddCoolingPipeEnd_20x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingEndLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingEndLiquid0x1"/>
+        <positionref ref="ITSsddCoolingEndLiquid_10x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingEndLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingEndLiquid0x1"/>
+        <positionref ref="ITSsddCoolingEndLiquid_20x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="guideHV_1" copynumber="1">
+        <volumeref ref="guideHV0x1"/>
+        <positionref ref="guideHV_10x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="RaccordoL_1" copynumber="1">
+        <volumeref ref="RaccordoL"/>
+        <positionref ref="RaccordoL_10x1inITSsddEnd0x1pos"/>
+      </physvol>
+      <physvol name="RaccordoL_2" copynumber="2">
+        <volumeref ref="RaccordoL"/>
+        <positionref ref="RaccordoL_20x1inITSsddEnd0x1pos"/>
+      </physvol>
+    </assembly>
+    <volume name="ITSsddSegment0x13">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x13"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x14inITSsddSegment0x13pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x13inITSsddSegment0x13pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x14inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x14inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x14inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x14inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x14inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x14inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x14inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x14inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x14inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x14inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_30x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_40x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_50x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_60x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_70x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinSupport_80x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x13"/>
+        <positionref ref="ITSsddPinVol_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinVol_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x13"/>
+        <positionref ref="ITSsddPinVol_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinVol_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x13"/>
+        <positionref ref="ITSsddPinVol_30x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinVol_30x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x13"/>
+        <positionref ref="ITSsddPinVol_40x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddPinVol_40x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x14inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x14inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x14inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x14inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x13"/>
+        <positionref ref="ITSsddCoolingPipe_10x13inITSsddSegment0x13pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x13"/>
+        <positionref ref="ITSsddCoolingPipe_20x13inITSsddSegment0x13pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x13"/>
+        <positionref ref="ITSsddCoolingLiquid_10x13inITSsddSegment0x13pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x13"/>
+        <positionref ref="ITSsddCoolingLiquid_20x13inITSsddSegment0x13pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddHybridVol_10x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x13inITSsddSegment0x13pos"/>
+        <rotationref ref="ITSsddHybridVol_20x13inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_4_4" copynumber="4">
+        <volumeref ref="digitCableLay4A_40x3"/>
+        <positionref ref="digitCableLay4A_4_4inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4A_4_4inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_4_4" copynumber="4">
+        <volumeref ref="digitCableLay4B_40x3"/>
+        <positionref ref="digitCableLay4B_4_4inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4B_4_4inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_5_3" copynumber="3">
+        <volumeref ref="digitCableLay4A_50x2"/>
+        <positionref ref="digitCableLay4A_5_3inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4A_5_3inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_5_3" copynumber="3">
+        <volumeref ref="digitCableLay4B_50x2"/>
+        <positionref ref="digitCableLay4B_5_3inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4B_5_3inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_6_2" copynumber="2">
+        <volumeref ref="digitCableLay4A_60x1"/>
+        <positionref ref="digitCableLay4A_6_2inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4A_6_2inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_6_2" copynumber="2">
+        <volumeref ref="digitCableLay4B_60x1"/>
+        <positionref ref="digitCableLay4B_6_2inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4B_6_2inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_7_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_7"/>
+        <positionref ref="digitCableLay4A_7_1inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4A_7_1inITSsddSegment0x13rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_7_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_7"/>
+        <positionref ref="digitCableLay4B_7_1inITSsddSegment0x13pos"/>
+        <rotationref ref="digitCableLay4B_7_1inITSsddSegment0x13rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddSegment0x12">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x12"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x13inITSsddSegment0x12pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x12inITSsddSegment0x12pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x13inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x13inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x13inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x13inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x13inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x13inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x13inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x13inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x13inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x13inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_30x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_40x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_50x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_60x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_70x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinSupport_80x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x12"/>
+        <positionref ref="ITSsddPinVol_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinVol_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x12"/>
+        <positionref ref="ITSsddPinVol_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinVol_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x12"/>
+        <positionref ref="ITSsddPinVol_30x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinVol_30x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x12"/>
+        <positionref ref="ITSsddPinVol_40x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddPinVol_40x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x13inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x13inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x13inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x13inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x12"/>
+        <positionref ref="ITSsddCoolingPipe_10x12inITSsddSegment0x12pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x12"/>
+        <positionref ref="ITSsddCoolingPipe_20x12inITSsddSegment0x12pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x12"/>
+        <positionref ref="ITSsddCoolingLiquid_10x12inITSsddSegment0x12pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x12"/>
+        <positionref ref="ITSsddCoolingLiquid_20x12inITSsddSegment0x12pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddHybridVol_10x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x12inITSsddSegment0x12pos"/>
+        <rotationref ref="ITSsddHybridVol_20x12inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_4_3" copynumber="3">
+        <volumeref ref="digitCableLay4A_40x2"/>
+        <positionref ref="digitCableLay4A_4_3inITSsddSegment0x12pos"/>
+        <rotationref ref="digitCableLay4A_4_3inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_4_3" copynumber="3">
+        <volumeref ref="digitCableLay4B_40x2"/>
+        <positionref ref="digitCableLay4B_4_3inITSsddSegment0x12pos"/>
+        <rotationref ref="digitCableLay4B_4_3inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_5_2" copynumber="2">
+        <volumeref ref="digitCableLay4A_50x1"/>
+        <positionref ref="digitCableLay4A_5_2inITSsddSegment0x12pos"/>
+        <rotationref ref="digitCableLay4A_5_2inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_5_2" copynumber="2">
+        <volumeref ref="digitCableLay4B_50x1"/>
+        <positionref ref="digitCableLay4B_5_2inITSsddSegment0x12pos"/>
+        <rotationref ref="digitCableLay4B_5_2inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_6_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_6"/>
+        <positionref ref="digitCableLay4A_6_1inITSsddSegment0x12pos"/>
+        <rotationref ref="digitCableLay4A_6_1inITSsddSegment0x12rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_6_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_6"/>
+        <positionref ref="digitCableLay4B_6_1inITSsddSegment0x12pos"/>
+        <rotationref ref="digitCableLay4B_6_1inITSsddSegment0x12rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddSegment0x11">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x11"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x12inITSsddSegment0x11pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x11inITSsddSegment0x11pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x12inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x12inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x12inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x12inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x12inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x12inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x12inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x12inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x12inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x12inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_30x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_40x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_50x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_60x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_70x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinSupport_80x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x11"/>
+        <positionref ref="ITSsddPinVol_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinVol_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x11"/>
+        <positionref ref="ITSsddPinVol_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinVol_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x11"/>
+        <positionref ref="ITSsddPinVol_30x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinVol_30x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x11"/>
+        <positionref ref="ITSsddPinVol_40x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddPinVol_40x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x12inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x12inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x12inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x12inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x11"/>
+        <positionref ref="ITSsddCoolingPipe_10x11inITSsddSegment0x11pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x11"/>
+        <positionref ref="ITSsddCoolingPipe_20x11inITSsddSegment0x11pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x11"/>
+        <positionref ref="ITSsddCoolingLiquid_10x11inITSsddSegment0x11pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x11"/>
+        <positionref ref="ITSsddCoolingLiquid_20x11inITSsddSegment0x11pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddHybridVol_10x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x11inITSsddSegment0x11pos"/>
+        <rotationref ref="ITSsddHybridVol_20x11inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_4_2" copynumber="2">
+        <volumeref ref="digitCableLay4A_40x1"/>
+        <positionref ref="digitCableLay4A_4_2inITSsddSegment0x11pos"/>
+        <rotationref ref="digitCableLay4A_4_2inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_4_2" copynumber="2">
+        <volumeref ref="digitCableLay4B_40x1"/>
+        <positionref ref="digitCableLay4B_4_2inITSsddSegment0x11pos"/>
+        <rotationref ref="digitCableLay4B_4_2inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_5_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_5"/>
+        <positionref ref="digitCableLay4A_5_1inITSsddSegment0x11pos"/>
+        <rotationref ref="digitCableLay4A_5_1inITSsddSegment0x11rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_5_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_5"/>
+        <positionref ref="digitCableLay4B_5_1inITSsddSegment0x11pos"/>
+        <rotationref ref="digitCableLay4B_5_1inITSsddSegment0x11rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddSegment0x10">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x10"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x11inITSsddSegment0x10pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x10inITSsddSegment0x10pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x11inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x11inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x11inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x11inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x11inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x11inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x11inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x11inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x11inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x11inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_30x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_40x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_50x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_60x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_70x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinSupport_80x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x10"/>
+        <positionref ref="ITSsddPinVol_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinVol_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x10"/>
+        <positionref ref="ITSsddPinVol_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinVol_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x10"/>
+        <positionref ref="ITSsddPinVol_30x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinVol_30x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x10"/>
+        <positionref ref="ITSsddPinVol_40x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddPinVol_40x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x11inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x11inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x11inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x11inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x10"/>
+        <positionref ref="ITSsddCoolingPipe_10x10inITSsddSegment0x10pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x10"/>
+        <positionref ref="ITSsddCoolingPipe_20x10inITSsddSegment0x10pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x10"/>
+        <positionref ref="ITSsddCoolingLiquid_10x10inITSsddSegment0x10pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x10"/>
+        <positionref ref="ITSsddCoolingLiquid_20x10inITSsddSegment0x10pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddHybridVol_10x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x10inITSsddSegment0x10pos"/>
+        <rotationref ref="ITSsddHybridVol_20x10inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_4_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_4"/>
+        <positionref ref="digitCableLay4A_4_1inITSsddSegment0x10pos"/>
+        <rotationref ref="digitCableLay4A_4_1inITSsddSegment0x10rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_4_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_4"/>
+        <positionref ref="digitCableLay4B_4_1inITSsddSegment0x10pos"/>
+        <rotationref ref="digitCableLay4B_4_1inITSsddSegment0x10rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddSegment0x9">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x9"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x10inITSsddSegment0x9pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x9inITSsddSegment0x9pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x10inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x10inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x10inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x10inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x10inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x10inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x10inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x10inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x10inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x10inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_30x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_40x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_50x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_60x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_70x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinSupport_80x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x9"/>
+        <positionref ref="ITSsddPinVol_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinVol_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x9"/>
+        <positionref ref="ITSsddPinVol_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinVol_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x9"/>
+        <positionref ref="ITSsddPinVol_30x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinVol_30x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x9"/>
+        <positionref ref="ITSsddPinVol_40x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddPinVol_40x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x10inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x10inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x10inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x10inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x9"/>
+        <positionref ref="ITSsddCoolingPipe_10x9inITSsddSegment0x9pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x9"/>
+        <positionref ref="ITSsddCoolingPipe_20x9inITSsddSegment0x9pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x9"/>
+        <positionref ref="ITSsddCoolingLiquid_10x9inITSsddSegment0x9pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x9"/>
+        <positionref ref="ITSsddCoolingLiquid_20x9inITSsddSegment0x9pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddHybridVol_10x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x9inITSsddSegment0x9pos"/>
+        <rotationref ref="ITSsddHybridVol_20x9inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_0_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_0"/>
+        <positionref ref="digitCableLay4A_0_1inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4A_0_1inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_0_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_0"/>
+        <positionref ref="digitCableLay4B_0_1inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4B_0_1inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_1_2" copynumber="2">
+        <volumeref ref="digitCableLay4A_10x1"/>
+        <positionref ref="digitCableLay4A_1_2inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4A_1_2inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_1_2" copynumber="2">
+        <volumeref ref="digitCableLay4B_10x1"/>
+        <positionref ref="digitCableLay4B_1_2inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4B_1_2inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_2_3" copynumber="3">
+        <volumeref ref="digitCableLay4A_20x2"/>
+        <positionref ref="digitCableLay4A_2_3inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4A_2_3inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_2_3" copynumber="3">
+        <volumeref ref="digitCableLay4B_20x2"/>
+        <positionref ref="digitCableLay4B_2_3inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4B_2_3inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_3_4" copynumber="4">
+        <volumeref ref="digitCableLay4A_30x3"/>
+        <positionref ref="digitCableLay4A_3_4inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4A_3_4inITSsddSegment0x9rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_3_4" copynumber="4">
+        <volumeref ref="digitCableLay4B_30x3"/>
+        <positionref ref="digitCableLay4B_3_4inITSsddSegment0x9pos"/>
+        <rotationref ref="digitCableLay4B_3_4inITSsddSegment0x9rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddSegment0x8">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x8"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x9inITSsddSegment0x8pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x8inITSsddSegment0x8pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x9inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x9inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x9inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x9inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x9inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x9inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x9inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x9inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x9inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x9inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_30x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_40x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_50x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_60x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_70x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinSupport_80x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x8"/>
+        <positionref ref="ITSsddPinVol_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinVol_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x8"/>
+        <positionref ref="ITSsddPinVol_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinVol_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x8"/>
+        <positionref ref="ITSsddPinVol_30x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinVol_30x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x8"/>
+        <positionref ref="ITSsddPinVol_40x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddPinVol_40x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x9inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x9inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x9inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x9inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x8"/>
+        <positionref ref="ITSsddCoolingPipe_10x8inITSsddSegment0x8pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x8"/>
+        <positionref ref="ITSsddCoolingPipe_20x8inITSsddSegment0x8pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x8"/>
+        <positionref ref="ITSsddCoolingLiquid_10x8inITSsddSegment0x8pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x8"/>
+        <positionref ref="ITSsddCoolingLiquid_20x8inITSsddSegment0x8pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddHybridVol_10x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x8inITSsddSegment0x8pos"/>
+        <rotationref ref="ITSsddHybridVol_20x8inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_1_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_1"/>
+        <positionref ref="digitCableLay4A_1_1inITSsddSegment0x8pos"/>
+        <rotationref ref="digitCableLay4A_1_1inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_1_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_1"/>
+        <positionref ref="digitCableLay4B_1_1inITSsddSegment0x8pos"/>
+        <rotationref ref="digitCableLay4B_1_1inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_2_2" copynumber="2">
+        <volumeref ref="digitCableLay4A_20x1"/>
+        <positionref ref="digitCableLay4A_2_2inITSsddSegment0x8pos"/>
+        <rotationref ref="digitCableLay4A_2_2inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_2_2" copynumber="2">
+        <volumeref ref="digitCableLay4B_20x1"/>
+        <positionref ref="digitCableLay4B_2_2inITSsddSegment0x8pos"/>
+        <rotationref ref="digitCableLay4B_2_2inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_3_3" copynumber="3">
+        <volumeref ref="digitCableLay4A_30x2"/>
+        <positionref ref="digitCableLay4A_3_3inITSsddSegment0x8pos"/>
+        <rotationref ref="digitCableLay4A_3_3inITSsddSegment0x8rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_3_3" copynumber="3">
+        <volumeref ref="digitCableLay4B_30x2"/>
+        <positionref ref="digitCableLay4B_3_3inITSsddSegment0x8pos"/>
+        <rotationref ref="digitCableLay4B_3_3inITSsddSegment0x8rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddSegment0x7">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x7"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x8inITSsddSegment0x7pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x7inITSsddSegment0x7pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x8inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x8inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x8inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x8inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x8inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x8inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x8inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x8inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x8inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x8inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_30x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_40x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_50x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_60x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_70x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinSupport_80x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x7"/>
+        <positionref ref="ITSsddPinVol_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinVol_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x7"/>
+        <positionref ref="ITSsddPinVol_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinVol_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x7"/>
+        <positionref ref="ITSsddPinVol_30x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinVol_30x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x7"/>
+        <positionref ref="ITSsddPinVol_40x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddPinVol_40x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x8inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x8inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x8inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x8inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x7"/>
+        <positionref ref="ITSsddCoolingPipe_10x7inITSsddSegment0x7pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x7"/>
+        <positionref ref="ITSsddCoolingPipe_20x7inITSsddSegment0x7pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x7"/>
+        <positionref ref="ITSsddCoolingLiquid_10x7inITSsddSegment0x7pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x7"/>
+        <positionref ref="ITSsddCoolingLiquid_20x7inITSsddSegment0x7pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddHybridVol_10x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x7inITSsddSegment0x7pos"/>
+        <rotationref ref="ITSsddHybridVol_20x7inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_2_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_2"/>
+        <positionref ref="digitCableLay4A_2_1inITSsddSegment0x7pos"/>
+        <rotationref ref="digitCableLay4A_2_1inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_2_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_2"/>
+        <positionref ref="digitCableLay4B_2_1inITSsddSegment0x7pos"/>
+        <rotationref ref="digitCableLay4B_2_1inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_3_2" copynumber="2">
+        <volumeref ref="digitCableLay4A_30x1"/>
+        <positionref ref="digitCableLay4A_3_2inITSsddSegment0x7pos"/>
+        <rotationref ref="digitCableLay4A_3_2inITSsddSegment0x7rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_3_2" copynumber="2">
+        <volumeref ref="digitCableLay4B_30x1"/>
+        <positionref ref="digitCableLay4B_3_2inITSsddSegment0x7pos"/>
+        <rotationref ref="digitCableLay4B_3_2inITSsddSegment0x7rot"/>
+      </physvol>
+    </volume>
+    <volume name="ITSsddSegment0x6">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSegBox0x6"/>
+      <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol1"/>
+        <positionref ref="ITSsddCFladdTopCornerVol1_10x7inITSsddSegment0x6pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdTopCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdTopCornerVol2"/>
+        <positionref ref="ITSsddCFladdTopCornerVol2_10x6inITSsddSegment0x6pos"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol1_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol1"/>
+        <positionref ref="ITSsddCFladdSideCornerVol1_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol1_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_1" copynumber="1">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFladdSideCornerVol2_2" copynumber="2">
+        <volumeref ref="ITSsddCFladdSideCornerVol2"/>
+        <positionref ref="ITSsddCFladdSideCornerVol2_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFladdSideCornerVol2_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_1" copynumber="1">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_10x7inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_10x7inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_2" copynumber="2">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_20x7inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_20x7inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_3" copynumber="3">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_30x7inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_30x7inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_4" copynumber="4">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_40x7inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_40x7inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_5" copynumber="5">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_50x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_50x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_6" copynumber="6">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_60x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_60x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_7" copynumber="7">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_70x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_70x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCFSideBeamVol_8" copynumber="8">
+        <volumeref ref="ITSsddCFSideBeamVol"/>
+        <positionref ref="ITSsddCFSideBeamVol_80x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCFSideBeamVol_80x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam1Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam1Vol"/>
+        <positionref ref="ITSsddBottomBeam1Vol_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddBottomBeam1Vol_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_10x7inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_10x7inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam2Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam2Vol"/>
+        <positionref ref="ITSsddBottomBeam2Vol_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddBottomBeam2Vol_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_1" copynumber="1">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddBottomBeam3Vol_2" copynumber="2">
+        <volumeref ref="ITSsddBottomBeam3Vol"/>
+        <positionref ref="ITSsddBottomBeam3Vol_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddBottomBeam3Vol_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_1" copynumber="1">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_2" copynumber="2">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_3" copynumber="3">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_30x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_30x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_4" copynumber="4">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_40x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_40x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_5" copynumber="5">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_50x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_50x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_6" copynumber="6">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_60x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_60x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_7" copynumber="7">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_70x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_70x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinSupport_8" copynumber="8">
+        <volumeref ref="ITSsddPinSupport"/>
+        <positionref ref="ITSsddPinSupport_80x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinSupport_80x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_1" copynumber="1">
+        <volumeref ref="ITSsddPinVol0x6"/>
+        <positionref ref="ITSsddPinVol_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinVol_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_2" copynumber="2">
+        <volumeref ref="ITSsddPinVol0x6"/>
+        <positionref ref="ITSsddPinVol_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinVol_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_3" copynumber="3">
+        <volumeref ref="ITSsddPinVol0x6"/>
+        <positionref ref="ITSsddPinVol_30x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinVol_30x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddPinVol_4" copynumber="4">
+        <volumeref ref="ITSsddPinVol0x6"/>
+        <positionref ref="ITSsddPinVol_40x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddPinVol_40x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_10x7inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_10x7inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportL_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportL"/>
+        <positionref ref="ITSsddCoolPipeSupportL_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportL_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_1" copynumber="1">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_10x7inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_10x7inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolPipeSupportR_2" copynumber="2">
+        <volumeref ref="ITSsddCoolPipeSupportR"/>
+        <positionref ref="ITSsddCoolPipeSupportR_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddCoolPipeSupportR_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingPipe0x6"/>
+        <positionref ref="ITSsddCoolingPipe_10x6inITSsddSegment0x6pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingPipe_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingPipe0x6"/>
+        <positionref ref="ITSsddCoolingPipe_20x6inITSsddSegment0x6pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_1" copynumber="1">
+        <volumeref ref="ITSsddCoolingLiquid0x6"/>
+        <positionref ref="ITSsddCoolingLiquid_10x6inITSsddSegment0x6pos"/>
+      </physvol>
+      <physvol name="ITSsddCoolingLiquid_2" copynumber="2">
+        <volumeref ref="ITSsddCoolingLiquid0x6"/>
+        <positionref ref="ITSsddCoolingLiquid_20x6inITSsddSegment0x6pos"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_1" copynumber="1">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddBaseThermalBridge_2" copynumber="2">
+        <volumeref ref="ITSsddBaseThermalBridge"/>
+        <positionref ref="ITSsddBaseThermalBridge_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddBaseThermalBridge_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_1" copynumber="1">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_10x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddHybridVol_10x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="ITSsddHybridVol_2" copynumber="2">
+        <volumeref ref="ITSsddHybridVol"/>
+        <positionref ref="ITSsddHybridVol_20x6inITSsddSegment0x6pos"/>
+        <rotationref ref="ITSsddHybridVol_20x6inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="digitCableLay4A_3_1" copynumber="1">
+        <volumeref ref="digitCableLay4A_3"/>
+        <positionref ref="digitCableLay4A_3_1inITSsddSegment0x6pos"/>
+        <rotationref ref="digitCableLay4A_3_1inITSsddSegment0x6rot"/>
+      </physvol>
+      <physvol name="digitCableLay4B_3_1" copynumber="1">
+        <volumeref ref="digitCableLay4B_3"/>
+        <positionref ref="digitCableLay4B_3_1inITSsddSegment0x6pos"/>
+        <rotationref ref="digitCableLay4B_3_1inITSsddSegment0x6rot"/>
+      </physvol>
     </volume>
     <assembly name="ITSsddLadder0x1">
       <physvol name="ITSsddSegment_3" copynumber="3">

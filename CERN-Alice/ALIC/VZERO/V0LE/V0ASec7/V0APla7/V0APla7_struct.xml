@@ -2,6 +2,10 @@
       <materialref ref="VZERO_V0APlaOu"/>
       <solidref ref="sV0APlaOuNailsHoles7"/>
     </volume>
+    <volume name="V0APlaInNailsHoles7">
+      <materialref ref="VZERO_V0APlaIn"/>
+      <solidref ref="sV0APlaInNailsHoles7"/>
+    </volume>
     <assembly name="V0APla7">
       <physvol name="V0APlaInNailsHoles7_1" copynumber="1">
         <volumeref ref="V0APlaInNailsHoles7"/>

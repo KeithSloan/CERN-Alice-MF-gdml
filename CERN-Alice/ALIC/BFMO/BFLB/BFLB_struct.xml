@@ -1,4 +1,8 @@
-<structure><volume name="BFLB">
+<structure><volume name="BFLL">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="BFLL0x1"/>
+    </volume>
+    <volume name="BFLB">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
       <solidref ref="BFLB0x1"/>
       <physvol name="BFLL_1" copynumber="1">

@@ -1,4 +1,8 @@
-<structure><volume name="TPC_HV_Rod">
+<structure><volume name="TPC_HV_Cable">
+      <materialref ref="TPC_Cu"/>
+      <solidref ref="TGeoTube0x161"/>
+    </volume>
+    <volume name="TPC_HV_Rod">
       <materialref ref="TPC_Makrolon"/>
       <solidref ref="TGeoTube0x160"/>
       <physvol name="TPC_HV_Cable_1" copynumber="1">

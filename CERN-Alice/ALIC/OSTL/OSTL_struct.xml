@@ -1,4 +1,8 @@
-<structure><volume name="OINS">
+<structure><volume name="OSUA">
+      <materialref ref="T0_Aliminium"/>
+      <solidref ref="Osupsh"/>
+    </volume>
+    <volume name="OINS">
       <materialref ref="T0_Air"/>
       <solidref ref="OINS0x1"/>
       <physvol name="0PMT_1" copynumber="1">

@@ -1,4 +1,12 @@
-<structure><volume name="UD19">
+<structure><volume name="UE19">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x237"/>
+      <physvol name="UK19_1" copynumber="1">
+        <volumeref ref="UK19"/>
+        <positionref ref="UK19_1inUE19pos"/>
+      </physvol>
+    </volume>
+    <volume name="UD19">
       <materialref ref="TRD_C"/>
       <solidref ref="UD190x1"/>
       <physvol name="UE19_1" copynumber="1">

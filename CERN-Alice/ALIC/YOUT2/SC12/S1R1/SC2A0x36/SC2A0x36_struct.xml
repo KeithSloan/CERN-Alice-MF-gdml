@@ -1,4 +1,12 @@
-<structure><volume name="SC2A0x36">
+<structure><volume name="SB2A0x18">
+      <materialref ref="MUON_Bakelite"/>
+      <solidref ref="TGeoBBox0x725"/>
+      <physvol name="S12G_1" copynumber="1">
+        <volumeref ref="S12G0x18"/>
+        <positionref ref="S12G_10x18inSB2A0x18pos"/>
+      </physvol>
+    </volume>
+    <volume name="SC2A0x36">
       <materialref ref="MUON_ALUMINIUM0"/>
       <solidref ref="SC2A0x37"/>
       <physvol name="SB2A_1" copynumber="1">

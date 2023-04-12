@@ -1,4 +1,20 @@
-<structure><volume name="pascalCC2">
+<structure><volume name="vCableSegLay0x28">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1011"/>
+    </volume>
+    <volume name="vCableSegLay0x27">
+      <materialref ref="ITS_SDD_SI_CHIP"/>
+      <solidref ref="TGeoBBox0x1010"/>
+    </volume>
+    <volume name="vCableSegLay0x26">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1009"/>
+    </volume>
+    <volume name="vCableSegLay0x25">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoBBox0x1008"/>
+    </volume>
+    <volume name="pascalCC2">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoBBox0x1007"/>
       <physvol name="vCableSegLay_1" copynumber="1">

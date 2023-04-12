@@ -1,4 +1,105 @@
-<structure><volume name="EndCapCoverPlateDownClip">
+<structure><volume name="EndCapCardsContainerLayer6Sx">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x75"/>
+      <physvol name="EndCapStripConnection_1" copynumber="1">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_1inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_1inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_2" copynumber="2">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_2inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_2inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_3" copynumber="3">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_3inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_3inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_1" copynumber="1">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_1inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_4" copynumber="4">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_4inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_4inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_2" copynumber="2">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_2inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_5" copynumber="5">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_5inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_5inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_3" copynumber="3">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_3inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_6" copynumber="6">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_6inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_6inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_4" copynumber="4">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_4inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_7" copynumber="7">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_7inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_7inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_5" copynumber="5">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_5inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_8" copynumber="8">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_8inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_8inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_6" copynumber="6">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_6inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_9" copynumber="9">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_9inEndCapCardsContainerLayer6Sxpos"/>
+        <rotationref ref="EndCapStripConnection_9inEndCapCardsContainerLayer6Sxrot"/>
+      </physvol>
+      <physvol name="EndCapMotherInterfaceCardA_3" copynumber="3">
+        <volumeref ref="EndCapMotherInterfaceCardA"/>
+        <positionref ref="EndCapMotherInterfaceCardA_3inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapInterfaceCardBMother_1" copynumber="1">
+        <volumeref ref="EndCapInterfaceCardBMother"/>
+        <positionref ref="EndCapInterfaceCardBMother_1inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+      <physvol name="EndCapStiffener_1" copynumber="1">
+        <volumeref ref="EndCapStiffener"/>
+        <positionref ref="EndCapStiffener_1inEndCapCardsContainerLayer6Sxpos"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapEffectiveCables2">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x122"/>
+      <physvol name="EffectiveEndCapInnerTube_1" copynumber="1">
+        <volumeref ref="EffectiveEndCapInnerTube"/>
+        <positionref ref="EffectiveEndCapInnerTube_1inEndCapEffectiveCables2pos"/>
+      </physvol>
+      <physvol name="EffectiveEndCapOuterTube_1" copynumber="1">
+        <volumeref ref="EffectiveEndCapOuterTube"/>
+        <positionref ref="EffectiveEndCapOuterTube_1inEndCapEffectiveCables2pos"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapKaptonFoil">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoBBox0x1139"/>
+    </volume>
+    <volume name="EndCapCoverPlateDownClip">
       <materialref ref="ITS_INOX"/>
       <solidref ref="TGeoBBox0x1138"/>
     </volume>
@@ -10,9 +111,661 @@
       <materialref ref="ITS_INOX"/>
       <solidref ref="TGeoCompositeShape0x229"/>
     </volume>
-    <volume name="EndCapSideCoverBox4">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoBBox0x1136"/>
+    <assembly name="MotherEndCapCoolingTube">
+      <physvol name="EndCapCoolingTubeTorus1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus1"/>
+        <positionref ref="EndCapCoolingTubeTorus1_1inMotherEndCapCoolingTubepos"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus1"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus1_1inMotherEndCapCoolingTubepos"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube1"/>
+        <positionref ref="EndCapCoolingTube1_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube1_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube1"/>
+        <positionref ref="EndCapCoolingWaterTube1_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube1_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube2"/>
+        <positionref ref="EndCapCoolingTube2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube2"/>
+        <positionref ref="EndCapCoolingWaterTube2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus2"/>
+        <positionref ref="EndCapCoolingTubeTorus2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus2"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube3"/>
+        <positionref ref="EndCapCoolingTube3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube3"/>
+        <positionref ref="EndCapCoolingWaterTube3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus3"/>
+        <positionref ref="EndCapCoolingTubeTorus3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus3"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus4"/>
+        <positionref ref="EndCapCoolingTubeTorus4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus4"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube4"/>
+        <positionref ref="EndCapCoolingTube4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube4"/>
+        <positionref ref="EndCapCoolingWaterTube4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus5_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus5"/>
+        <positionref ref="EndCapCoolingTubeTorus5_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus5_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus5_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus5"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus5_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus5_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube4_2" copynumber="2">
+        <volumeref ref="EndCapCoolingTube4"/>
+        <positionref ref="EndCapCoolingTube4_2inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube4_2inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube4_2" copynumber="2">
+        <volumeref ref="EndCapCoolingWaterTube4"/>
+        <positionref ref="EndCapCoolingWaterTube4_2inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube4_2inMotherEndCapCoolingTuberot"/>
+      </physvol>
+    </assembly>
+    <volume name="EndCapSideCoverMother">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x72"/>
+      <physvol name="EndCapSideCover_1" copynumber="1">
+        <volumeref ref="EndCapSideCover"/>
+        <positionref ref="EndCapSideCover_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox1_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox1"/>
+        <positionref ref="EndCapSideCoverBox1_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox2_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox2"/>
+        <positionref ref="EndCapSideCoverBox2_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox3_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox3"/>
+        <positionref ref="EndCapSideCoverBox3_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_2" copynumber="2">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_2inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_3" copynumber="3">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_3inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_4" copynumber="4">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_4inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_5" copynumber="5">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_5inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_6" copynumber="6">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_6inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_7" copynumber="7">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_7inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_8" copynumber="8">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_8inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_9" copynumber="9">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_9inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_10" copynumber="10">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_10inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_11" copynumber="11">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_11inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_12" copynumber="12">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_12inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_15" copynumber="15">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_15inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_16" copynumber="16">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_16inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_17" copynumber="17">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_17inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_18" copynumber="18">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_18inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_19" copynumber="19">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_19inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_20" copynumber="20">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_20inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_21" copynumber="21">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_21inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_22" copynumber="22">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_22inEndCapSideCoverMotherpos"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapCoverPlateMother">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x69"/>
+      <physvol name="EndCapCoverPlateSmallHole_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_2" copynumber="2">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_2inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_2" copynumber="2">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_2inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_2" copynumber="2">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_2inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_3" copynumber="3">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_3inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_3" copynumber="3">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_3inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_3" copynumber="3">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_3inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_4" copynumber="4">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_4inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_4" copynumber="4">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_4inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_4" copynumber="4">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_4inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_5" copynumber="5">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_5inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_5" copynumber="5">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_5inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_5" copynumber="5">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_5inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_6" copynumber="6">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_6inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_6" copynumber="6">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_6inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_6" copynumber="6">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_6inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_7" copynumber="7">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_7inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_7" copynumber="7">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_7inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_7" copynumber="7">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_7inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_8" copynumber="8">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_8inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_8" copynumber="8">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_8inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_8" copynumber="8">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_8inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_9" copynumber="9">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_9inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_9" copynumber="9">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_9inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_10" copynumber="10">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_10inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_11" copynumber="11">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_11inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_11" copynumber="11">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_11inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_11" copynumber="11">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_11inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_12" copynumber="12">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_12inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_12" copynumber="12">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_12inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_12" copynumber="12">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_12inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_13" copynumber="13">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_13inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_13" copynumber="13">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_13inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_13" copynumber="13">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_13inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_14" copynumber="14">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_14inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_14" copynumber="14">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_14inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_14" copynumber="14">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_14inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_15" copynumber="15">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_15inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_15" copynumber="15">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_15inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_15" copynumber="15">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_15inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_16" copynumber="16">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_16inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_16" copynumber="16">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_16inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_16" copynumber="16">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_16inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_17" copynumber="17">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_17inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_17" copynumber="17">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_17inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_17" copynumber="17">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_17inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_18" copynumber="18">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_18inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_18" copynumber="18">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_18inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_19" copynumber="19">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_19inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_19" copynumber="19">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_19inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_19" copynumber="19">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_19inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_20" copynumber="20">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_20inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_20" copynumber="20">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_20inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_20" copynumber="20">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_20inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_21" copynumber="21">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_21inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_21" copynumber="21">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_21inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_21" copynumber="21">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_21inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_22" copynumber="22">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_22inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_22" copynumber="22">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_22inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_22" copynumber="22">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_22inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_23" copynumber="23">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_23inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_23" copynumber="23">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_23inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_23" copynumber="23">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_23inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_24" copynumber="24">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_24inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_24" copynumber="24">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_24inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_24" copynumber="24">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_24inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_25" copynumber="25">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_25inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_25" copynumber="25">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_25inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_25" copynumber="25">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_25inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_26" copynumber="26">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_26inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_26" copynumber="26">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_26inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_26" copynumber="26">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_26inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_27" copynumber="27">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_27inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_27" copynumber="27">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_27inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_28" copynumber="28">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_28inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_28" copynumber="28">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_28inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_28" copynumber="28">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_28inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_29" copynumber="29">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_29inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_29" copynumber="29">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_29inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_29" copynumber="29">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_29inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_30" copynumber="30">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_30inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_30" copynumber="30">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_30inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_30" copynumber="30">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_30inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_31" copynumber="31">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_31inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_31" copynumber="31">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_31inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_31" copynumber="31">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_31inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_32" copynumber="32">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_32inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_32" copynumber="32">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_32inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_32" copynumber="32">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_32inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_33" copynumber="33">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_33inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_33" copynumber="33">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_33inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_33" copynumber="33">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_33inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_34" copynumber="34">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_34inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_34" copynumber="34">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_34inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_34" copynumber="34">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_34inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_35" copynumber="35">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_35inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_35" copynumber="35">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_35inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox1_35" copynumber="35">
+        <volumeref ref="EndCapCoverPlateBox1"/>
+        <positionref ref="EndCapCoverPlateBox1_35inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallHole_36" copynumber="36">
+        <volumeref ref="EndCapCoverPlateSmallHole"/>
+        <positionref ref="EndCapCoverPlateSmallHole_36inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateSmallScrewPiece_36" copynumber="36">
+        <volumeref ref="EndCapCoverPlateSmallScrewPiece"/>
+        <positionref ref="EndCapCoverPlateSmallScrewPiece_36inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox2_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateBox2"/>
+        <positionref ref="EndCapCoverPlateBox2_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox3_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateBox3"/>
+        <positionref ref="EndCapCoverPlateBox3_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBox4_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateBox4"/>
+        <positionref ref="EndCapCoverPlateBox4_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapFillingBox_1" copynumber="1">
+        <volumeref ref="EndCapFillingBox"/>
+        <positionref ref="EndCapFillingBox_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBigHole_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateBigHole"/>
+        <positionref ref="EndCapCoverPlateBigHole_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBigHole_2" copynumber="2">
+        <volumeref ref="EndCapCoverPlateBigHole"/>
+        <positionref ref="EndCapCoverPlateBigHole_2inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateBigHole_3" copynumber="3">
+        <volumeref ref="EndCapCoverPlateBigHole"/>
+        <positionref ref="EndCapCoverPlateBigHole_3inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateContour1_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateContour1"/>
+        <positionref ref="EndCapCoverPlateContour1_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateContour1_2" copynumber="2">
+        <volumeref ref="EndCapCoverPlateContour1"/>
+        <positionref ref="EndCapCoverPlateContour1_2inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateContour2_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateContour2"/>
+        <positionref ref="EndCapCoverPlateContour2_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+      <physvol name="EndCapCoverPlateContour_1" copynumber="1">
+        <volumeref ref="EndCapCoverPlateContour"/>
+        <positionref ref="EndCapCoverPlateContour_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
     </volume>
     <volume name="EndCapContainerLayer6Sx">
       <materialref ref="ITS_SDD_AIR"/>

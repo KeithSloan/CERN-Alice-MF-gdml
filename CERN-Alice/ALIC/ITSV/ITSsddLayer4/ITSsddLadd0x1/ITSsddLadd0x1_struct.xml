@@ -1,6 +1,71 @@
-<structure><volume name="ITSsddGlass">
-      <materialref ref="ITS_SDD_SI_insensitive"/>
-      <solidref ref="ITSsddGlassBox"/>
+<structure><volume name="ITSsddSensor4">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="ITSsddSensorBox"/>
+      <physvol name="ITSsddWafer4_1" copynumber="1">
+        <volumeref ref="ITSsddWafer4"/>
+        <positionref ref="ITSsddWafer4_1inITSsddSensor4pos"/>
+      </physvol>
+      <physvol name="ITSsddGlass_1" copynumber="1">
+        <volumeref ref="ITSsddGlass"/>
+        <positionref ref="ITSsddGlass_10x1inITSsddSensor4pos"/>
+      </physvol>
+      <physvol name="ITSsddGlass_2" copynumber="2">
+        <volumeref ref="ITSsddGlass"/>
+        <positionref ref="ITSsddGlass_20x1inITSsddSensor4pos"/>
+      </physvol>
+      <physvol name="ITSsddGlass_3" copynumber="3">
+        <volumeref ref="ITSsddGlass"/>
+        <positionref ref="ITSsddGlass_30x1inITSsddSensor4pos"/>
+      </physvol>
+      <physvol name="ITSsddGlass_4" copynumber="4">
+        <volumeref ref="ITSsddGlass"/>
+        <positionref ref="ITSsddGlass_40x1inITSsddSensor4pos"/>
+      </physvol>
+      <physvol name="ITSsddWaHVCableU_1" copynumber="1">
+        <volumeref ref="ITSsddWaHVCableU"/>
+        <positionref ref="ITSsddWaHVCableU_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddWaHVCableU_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddWaHVCableD_1" copynumber="1">
+        <volumeref ref="ITSsddWaHVCableD"/>
+        <positionref ref="ITSsddWaHVCableD_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddWaHVCableD_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddWaHVCableFold_1_1" copynumber="1">
+        <volumeref ref="ITSsddWaHVCableFold_1"/>
+        <positionref ref="ITSsddWaHVCableFold_1_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddWaHVCableFold_1_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddHVtransitHeadPoly_1" copynumber="1">
+        <volumeref ref="ITSsddHVtransitHeadPoly"/>
+        <positionref ref="ITSsddHVtransitHeadPoly_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddHVtransitHeadPoly_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddHVtransitHeadAl_1" copynumber="1">
+        <volumeref ref="ITSsddHVtransitHeadAl"/>
+        <positionref ref="ITSsddHVtransitHeadAl_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddHVtransitHeadAl_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddHVtransitCenter_1" copynumber="1">
+        <volumeref ref="ITSsddHVtransitCenter"/>
+        <positionref ref="ITSsddHVtransitCenter_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddHVtransitCenter_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddHVtransitTail_1" copynumber="1">
+        <volumeref ref="ITSsddHVtransitTail"/>
+        <positionref ref="ITSsddHVtransitTail_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddHVtransitTail_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddHVtransitSideLeft_1" copynumber="1">
+        <volumeref ref="ITSsddHVtransitSideLeft"/>
+        <positionref ref="ITSsddHVtransitSideLeft_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddHVtransitSideLeft_10x1inITSsddSensor4rot"/>
+      </physvol>
+      <physvol name="ITSsddHVtransitSideLeftAl_1" copynumber="1">
+        <volumeref ref="ITSsddHVtransitSideLeftAl"/>
+        <positionref ref="ITSsddHVtransitSideLeftAl_10x1inITSsddSensor4pos"/>
+        <rotationref ref="ITSsddHVtransitSideLeftAl_10x1inITSsddSensor4rot"/>
+      </physvol>
     </volume>
     <assembly name="ITSsddLadd0x1">
       <physvol name="ITSsddSensor4_0" copynumber="0">

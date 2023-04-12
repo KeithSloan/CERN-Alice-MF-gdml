@@ -14,9 +14,17 @@
         <positionref ref="CP3CPI_1inCP3CPOpos"/>
       </physvol>
     </volume>
-    <volume name="Q3WCO2">
+    <volume name="CP3WLO">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="lowerPlieO"/>
+      <physvol name="CP3WLI_1" copynumber="1">
+        <volumeref ref="CP3WLI"/>
+        <positionref ref="CP3WLI_1inCP3WLOpos"/>
+      </physvol>
+    </volume>
+    <volume name="Q3WCO1">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoTube0x14"/>
+      <solidref ref="TGeoTube0x15"/>
     </volume>
     <volume name="CP3WUO">
       <materialref ref="PIPE_VACUUM"/>
@@ -26,17 +34,9 @@
         <positionref ref="CP3WUI_1inCP3WUOpos"/>
       </physvol>
     </volume>
-    <volume name="Q3WCO1">
+    <volume name="Q3WCO2">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoTube0x15"/>
-    </volume>
-    <volume name="CP3WLO">
-      <materialref ref="PIPE_VACUUM"/>
-      <solidref ref="lowerPlieO"/>
-      <physvol name="CP3WLI_1" copynumber="1">
-        <volumeref ref="CP3WLI"/>
-        <positionref ref="CP3WLI_1inCP3WLOpos"/>
-      </physvol>
+      <solidref ref="TGeoTube0x14"/>
     </volume>
     <volume name="CP3BeMO">
       <materialref ref="PIPE_VACUUM"/>

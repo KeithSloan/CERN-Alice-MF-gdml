@@ -2,6 +2,22 @@
       <materialref ref="ITS_INOX"/>
       <solidref ref="TGeoBBox0x1136"/>
     </volume>
+    <volume name="EndCapSideCoverBox3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1135"/>
+    </volume>
+    <volume name="EndCapSideCoverBox2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1134"/>
+    </volume>
+    <volume name="EndCapSideCoverBox1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1133"/>
+    </volume>
+    <volume name="EndCapSideCover">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="endcapsidecovershape"/>
+    </volume>
     <volume name="EndCapSideCoverMother">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="TGeoXtru0x72"/>

@@ -1,4 +1,159 @@
-<structure><assembly name="ITSSPDCarbonFiberSectorV">
+<structure><assembly name="ITSSPDSensitiveVirtualvolumeM0">
+      <physvol name="ITSSPDlay1-Stave_1" copynumber="1">
+        <volumeref ref="ITSSPDlay1-Stave"/>
+        <positionref ref="ITSSPDlay1-Stave_1inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDlay1-Stave_1inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDlay1-Stave_2" copynumber="2">
+        <volumeref ref="ITSSPDlay1-Stave"/>
+        <positionref ref="ITSSPDlay1-Stave_2inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDlay1-Stave_2inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDlay2-Stave_1" copynumber="1">
+        <volumeref ref="ITSSPDlay2-Stave"/>
+        <positionref ref="ITSSPDlay2-Stave_1inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDlay2-Stave_1inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDlay2-Stave_2" copynumber="2">
+        <volumeref ref="ITSSPDlay2-Stave"/>
+        <positionref ref="ITSSPDlay2-Stave_2inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDlay2-Stave_2inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_1" copynumber="1">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_1inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_1inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_2" copynumber="2">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_2inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_2inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_3" copynumber="3">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_3inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_3inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_4" copynumber="4">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_4inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_4inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDlay2-Stave_3" copynumber="3">
+        <volumeref ref="ITSSPDlay2-Stave"/>
+        <positionref ref="ITSSPDlay2-Stave_3inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDlay2-Stave_3inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_5" copynumber="5">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_5inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_5inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_6" copynumber="6">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_6inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_6inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_7" copynumber="7">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_7inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_7inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_8" copynumber="8">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_8inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_8inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDlay2-Stave_4" copynumber="4">
+        <volumeref ref="ITSSPDlay2-Stave"/>
+        <positionref ref="ITSSPDlay2-Stave_4inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDlay2-Stave_4inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_9" copynumber="9">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_9inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_9inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_10" copynumber="10">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_10inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_10inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_11" copynumber="11">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_11inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_11inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDclip_12" copynumber="12">
+        <volumeref ref="ITSSPDclip"/>
+        <positionref ref="ITSSPDclip_12inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDclip_12inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingTubeTA0_1" copynumber="1">
+        <volumeref ref="ITSSPDCoolingTubeTA0"/>
+        <positionref ref="ITSSPDCoolingTubeTA0_1inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCoolingTubeTA0_1inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingTubeTA0_2" copynumber="2">
+        <volumeref ref="ITSSPDCoolingTubeTA0"/>
+        <positionref ref="ITSSPDCoolingTubeTA0_2inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCoolingTubeTA0_2inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingTubeTA0_3" copynumber="3">
+        <volumeref ref="ITSSPDCoolingTubeTA0"/>
+        <positionref ref="ITSSPDCoolingTubeTA0_3inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCoolingTubeTA0_3inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingTubeTA0_4" copynumber="4">
+        <volumeref ref="ITSSPDCoolingTubeTA0"/>
+        <positionref ref="ITSSPDCoolingTubeTA0_4inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCoolingTubeTA0_4inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingTubeTA0_5" copynumber="5">
+        <volumeref ref="ITSSPDCoolingTubeTA0"/>
+        <positionref ref="ITSSPDCoolingTubeTA0_5inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCoolingTubeTA0_5inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCoolingTubeTA0_6" copynumber="6">
+        <volumeref ref="ITSSPDCoolingTubeTA0"/>
+        <positionref ref="ITSSPDCoolingTubeTA0_6inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCoolingTubeTA0_6inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSupportSectorA0_1" copynumber="1">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorA0"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorA0_1inITSSPDSensitiveVirtualvolumeM0pos"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSupportSectorEndB0_1" copynumber="1">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorEndB0"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorEndB0_1inITSSPDSensitiveVirtualvolumeM0pos"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSupportSectorEndB0_2" copynumber="2">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorEndB0"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorEndB0_2inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <scale name="ITSSPDCarbonFiberSupportSectorEndB0_2inITSSPDSensitiveVirtualvolumeM0scl" x="1" y="1" z="-1"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSupportSectorMountBlockB3_1" copynumber="1">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_1inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_1inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSupportSectorMountBlockB3_2" copynumber="2">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_2inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_2inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSupportSectorMountBlockB3_3" copynumber="3">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_3inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_3inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+      <physvol name="ITSSPDCarbonFiberSupportSectorMountBlockB3_4" copynumber="4">
+        <volumeref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3"/>
+        <positionref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_4inITSSPDSensitiveVirtualvolumeM0pos"/>
+        <rotationref ref="ITSSPDCarbonFiberSupportSectorMountBlockB3_4inITSSPDSensitiveVirtualvolumeM0rot"/>
+      </physvol>
+    </assembly>
+    <assembly name="ITSSPDCarbonFiberSectorV">
       <physvol name="ITSSPDSensitiveVirtualvolumeM0_1" copynumber="1">
         <volumeref ref="ITSSPDSensitiveVirtualvolumeM0"/>
         <positionref ref="ITSSPDSensitiveVirtualvolumeM0_1inITSSPDCarbonFiberSectorVpos"/>

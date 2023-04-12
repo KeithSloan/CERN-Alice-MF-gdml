@@ -1,4 +1,8 @@
-<structure><volume name="PWRA">
+<structure><volume name="PXTL">
+      <materialref ref="PHOS_PbWO4"/>
+      <solidref ref="PXTL0x1"/>
+    </volume>
+    <volume name="PWRA">
       <materialref ref="PHOS_Tyvek"/>
       <solidref ref="PWRA0x1"/>
       <physvol name="PXTL_1" copynumber="1">

@@ -1,4 +1,16 @@
-<structure><volume name="S004">
+<structure><volume name="S404">
+      <materialref ref="MUON_FR4"/>
+      <solidref ref="S4040x1"/>
+    </volume>
+    <volume name="S204">
+      <materialref ref="MUON_FOAM"/>
+      <solidref ref="S2040x1"/>
+      <physvol name="SCHL_1" copynumber="1">
+        <volumeref ref="SCHL"/>
+        <positionref ref="SCHL_10x3inS204pos"/>
+      </physvol>
+    </volume>
+    <volume name="S004">
       <materialref ref="MUON_AIR"/>
       <solidref ref="S0040x1"/>
       <physvol name="S204_1" copynumber="1">

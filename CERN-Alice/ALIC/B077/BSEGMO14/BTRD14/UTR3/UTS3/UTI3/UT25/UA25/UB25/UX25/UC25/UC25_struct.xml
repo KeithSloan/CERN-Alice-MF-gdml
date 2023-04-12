@@ -1,4 +1,8 @@
-<structure><volume name="UC25">
+<structure><volume name="UH25">
+      <materialref ref="TRD_Plexiglas"/>
+      <solidref ref="TGeoBBox0x314"/>
+    </volume>
+    <volume name="UC25">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x313"/>
       <physvol name="UH25_1" copynumber="1">

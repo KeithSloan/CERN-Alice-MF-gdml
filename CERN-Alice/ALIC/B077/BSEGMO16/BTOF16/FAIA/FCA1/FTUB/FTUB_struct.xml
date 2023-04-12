@@ -1,4 +1,8 @@
-<structure><volume name="FTUB">
+<structure><volume name="FITU">
+      <materialref ref="TOF_Water"/>
+      <solidref ref="FITU0x1"/>
+    </volume>
+    <volume name="FTUB">
       <materialref ref="TOF_Cu_"/>
       <solidref ref="FTUB0x1"/>
       <physvol name="FITU_1" copynumber="1">

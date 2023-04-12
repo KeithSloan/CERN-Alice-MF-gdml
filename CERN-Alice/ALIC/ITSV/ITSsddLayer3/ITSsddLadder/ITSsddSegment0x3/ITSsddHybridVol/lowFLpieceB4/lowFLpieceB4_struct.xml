@@ -1,4 +1,8 @@
-<structure><volume name="lowFLpieceB4">
+<structure><volume name="vCableSegLay0x4">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x978"/>
+    </volume>
+    <volume name="lowFLpieceB4">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoBBox0x977"/>
       <physvol name="vCableSegLay_1" copynumber="1">

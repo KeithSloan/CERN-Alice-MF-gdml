@@ -6,9 +6,41 @@
       <materialref ref="ITS_COPPER"/>
       <solidref ref="TGeoTube0x136"/>
     </volume>
+    <volume name="SSDCableITSRing3RB24Part4">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x145"/>
+    </volume>
+    <volume name="SSDCableITSRing3RB24Part3">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x144"/>
+    </volume>
+    <volume name="SSDCableITSRing3RB24Part2">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x143"/>
+    </volume>
+    <volume name="SSDCableITSRing3RB24Part1">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x142"/>
+    </volume>
     <volume name="SSDCablePatchPanel3RB24">
       <materialref ref="ITS_COPPER"/>
       <solidref ref="TGeoPcon0x141"/>
+    </volume>
+    <volume name="SSDCableITSRing3RB26Part4">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x140"/>
+    </volume>
+    <volume name="SSDCableITSRing3RB26Part3">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x139"/>
+    </volume>
+    <volume name="SSDCableITSRing3RB26Part2">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x138"/>
+    </volume>
+    <volume name="SSDCableITSRing3RB26Part1">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x137"/>
     </volume>
     <volume name="SSDCablePatchPanel3RB26">
       <materialref ref="ITS_COPPER"/>

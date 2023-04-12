@@ -1,4 +1,8 @@
-<structure><volume name="vCardHVcool3">
+<structure><volume name="vLittleScrewHV">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="littleScrewHV"/>
+    </volume>
+    <volume name="vCardHVcool3">
       <materialref ref="ITS_INOX"/>
       <solidref ref="cardHVcool3"/>
       <physvol name="vLittleScrewHV_1" copynumber="1">

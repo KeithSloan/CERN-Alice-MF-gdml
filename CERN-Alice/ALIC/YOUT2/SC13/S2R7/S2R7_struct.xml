@@ -1,4 +1,12 @@
-<structure><assembly name="S2R7">
+<structure><volume name="SC3A0x22">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SC3A0x23"/>
+      <physvol name="SB3A_1" copynumber="1">
+        <volumeref ref="SB3A0x11"/>
+        <positionref ref="SB3A_10x11inSC3A0x22pos"/>
+      </physvol>
+    </volume>
+    <assembly name="S2R7">
       <physvol name="SC3A_110" copynumber="110">
         <volumeref ref="SC3A0x22"/>
         <positionref ref="SC3A_110inS2R7pos"/>
