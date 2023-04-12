@@ -1,0 +1,32 @@
+import time
+import FreeCAD
+from PySide import QtGui
+
+def getDirectory():
+	print(f"Get Directory")
+	dirPath = QtGui.QFileDialog().getExistingDirectory()
+	if len(dirPath) > 0:
+		print(f"Selected Path : {dirPath}")
+		return  dirPath
+ 
+def join(path, name):
+	import os
+	return(os.path.join(path, name))
+
+
+doc = App.ActiveDocument
+sel = Gui.Selection.getSelection()
+print(f"Selection {sel}")
+validSel = False
+if len(sel) > 0:
+	obj = sel[0]
+	if hasattr(obj, "Shape"):
+		if hasattr(obj.Shape,"OuterShell"):
+			validSel = True
+			dirPath = getDirectory()
+			exportPath = join(dirPath,obj.Label+"_OuterShell.brep")
+			print(f"Exporting to {exportPath}")
+			obj.Shape.OuterShell.exportBrep(exportPath)
+
+if validSel == False:
+     print('Select Object with Shape and OuterShell')
