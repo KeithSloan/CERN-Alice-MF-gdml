@@ -105,6 +105,27 @@ class gdml_lxml() :
     #    self.volAsmDict[name] = elem
 
 
+    def addVolAsmStructDict(self, name, elem):
+        self.VolAsmStructDict[name] = elem
+
+
+    def getRawVolAsmStruct(self, vaname):
+        newStruct = copy.deepcopy(self.structure)
+        struct = newStruct.find(f"*[@name='{vaname}']")
+        return struct
+
+
+    def getVolAsmStruct(self, vaname):
+        # Needs to be structure and sub volumes 
+        # So cannot just use structure in source#
+        print(f"VolAsmStructDict {self.VolAsmStructDict.keys()}")
+        ret = self.VolAsmStructDict[vaname]
+        if ret is not None:
+            return ret
+        else:
+            print(f"{vaname} not found in Dict")    
+
+
     def getPosition(self, posName):
         return self.define.find(f"position[@name='{posName}']")
 
@@ -265,17 +286,6 @@ class gdml_lxml() :
                 self.processRotDefine(volAsm, rot)
 
 
-    def getVolAsmStruct(self, vaname):
-        newStruct = copy.deepcopy(self.structure)
-        struct = newStruct.find(f"*[@name='{vaname}']")
-        return struct
-        #print(f"VolAsmStructDict {self.VolAsmStructDict.keys()}")
-        #ret = self.VolAsmStructDict[vname]
-        #if ret is not None:
-        #    return ret
-        #else:
-        #    print(f"{vname} not found in Dict")    
-
     # def addEntity(self, elemName, xmlFile) :
     #    self.docString += "<!ENTITY " + elemName + ' SYSTEM "' + xmlFile+'">\n'
     #    self.gdml.append(etree.Entity(elemName))
@@ -381,6 +391,14 @@ class VolAsm():
         return self.newStruct.getchildren()
 
 
+    def combineStruct(self, source):
+        if source.tag == 'structure':
+            for child in source.getchildren():
+                self.newStruct.append(child)
+        else:        
+            self.newStruct.append(source)
+
+
     def processPhysVols(self, lxml, volasm, path):
         vaname = volasm.attrib.get('name')
         volList = []
@@ -392,14 +410,15 @@ class VolAsm():
             # Is this a new VolAsm
             if self.checkVolAsmDict(pname) is False:
                 print(f"need to process {pname}")
-                volasm = lxml.getVolAsmStruct(pname)
-                self.addVolAsmDict(pname, volasm)
                 npath = os.path.join(path, pname)
                 print('New path : '+npath)
                 checkDirectory(npath)
                 new_pa = VolAsm(pname, self)
                 new_pa.processVolAsm(lxml, npath, pname)
                 volList.append(pname)
+                # Need to get structure after processing subVolumes
+                volasm = lxml.getVolAsmStruct(pname)
+                self.addVolAsmDict(pname, volasm)
             # Process positions rotations
             posref = pv.find('positionref')
             if posref is not None:
@@ -433,21 +452,18 @@ class VolAsm():
             # Make sure all sub volumes are added to this volumes struct
         print(f"=== Process sub volume structures {vaname} list {volList}")
         #print(lxml.VolAsmStructDict.keys())
-        for vname in reversed(volList):
-        #for vname in volList:
-            struct = lxml.getVolAsmStruct(vname)
-            if struct is not None:
-        #        print(f"Insert {vname} struct {struct}")
-        #        print(f"struct {struct.text}")
-        #        print(f"struct {struct.values()}")
-        #        print(f"struct {struct.items()}")
-        #       
-        #   
-        #        #print(dir(struct))
-                 self.newStruct.append(struct)
-        #    else:
-        #        print(f"{vname} struct not found in Dict")    
-        self.newStruct.append(lxml.getVolAsmStruct(vaname))
+        #for vname in reversed(volList):
+        for vname in volList:
+            print(f"add sub volume struct {vname}")
+            target = lxml.getVolAsmStruct(vname)
+            if target is not None:
+                self.combineStruct(target)
+            else:
+                print(f"{vname} struct not found in Dict")    
+        print(f"add volume struct {vaname}")
+        self.combineStruct(lxml.getRawVolAsmStruct(vaname))
+        print(f"add {vaname} volume struct to lxml Dict")
+        lxml.addVolAsmStructDict(vaname, self.newStruct)
 
 
     def updateParentLists(self, material, sname):
@@ -514,7 +530,7 @@ class VolAsm():
 
     def processVolAsm(self, lxml, path, vaname):
         if self.checkVolAsmDict(vaname) == False:
-            volasm = lxml.getVolAsmStruct(vaname)
+            volasm = lxml.getRawVolAsmStruct(vaname)
             self.addVolAsmDict(vaname, volasm)
             print(f"Processing VolAsm : {vaname} {volasm}")
             if volasm is not None:
