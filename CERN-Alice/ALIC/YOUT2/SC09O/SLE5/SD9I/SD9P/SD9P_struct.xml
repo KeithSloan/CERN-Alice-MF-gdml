@@ -1,6 +1,18 @@
-<structure><volume name="SD9B">
-      <materialref ref="MUON_Rohacell"/>
-      <solidref ref="composite59B"/>
+<structure><volume name="SD9G">
+      <materialref ref="MUON_ArCO2_80"/>
+      <solidref ref="composite59G"/>
+    </volume>
+    <volume name="SD9H">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="composite59H"/>
+      <physvol name="SD9G_1" copynumber="1">
+        <volumeref ref="SD9G"/>
+        <positionref ref="SD9G_1inSD9Hpos"/>
+      </physvol>
+    </volume>
+    <volume name="S09E">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S09E0x1"/>
     </volume>
     <volume name="S09B">
       <materialref ref="MUON_Rohacell"/>
@@ -70,13 +82,9 @@
         <positionref ref="S09E_16inS09Bpos"/>
       </physvol>
     </volume>
-    <volume name="SD9H">
-      <materialref ref="MUON_Noryl"/>
-      <solidref ref="composite59H"/>
-      <physvol name="SD9G_1" copynumber="1">
-        <volumeref ref="SD9G"/>
-        <positionref ref="SD9G_1inSD9Hpos"/>
-      </physvol>
+    <volume name="SD9B">
+      <materialref ref="MUON_Rohacell"/>
+      <solidref ref="composite59B"/>
     </volume>
     <volume name="SD9P">
       <materialref ref="MUON_COPPER"/>

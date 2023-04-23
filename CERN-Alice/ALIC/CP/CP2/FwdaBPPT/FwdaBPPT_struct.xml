@@ -1,10 +1,10 @@
-<structure><volume name="FwdaBPPTT">
-      <materialref ref="PIPE_ANTICORODAL"/>
-      <solidref ref="TGeoTube0x6"/>
-    </volume>
-    <volume name="FwdaBPPTPC">
+<structure><volume name="FwdaBPPTPC">
       <materialref ref="PIPE_ANTICORODAL"/>
       <solidref ref="shFwdaBPPTPC"/>
+    </volume>
+    <volume name="FwdaBPPTT">
+      <materialref ref="PIPE_ANTICORODAL"/>
+      <solidref ref="TGeoTube0x6"/>
     </volume>
     <assembly name="FwdaBPPT">
       <physvol name="FwdaBPPTPC_1" copynumber="1">

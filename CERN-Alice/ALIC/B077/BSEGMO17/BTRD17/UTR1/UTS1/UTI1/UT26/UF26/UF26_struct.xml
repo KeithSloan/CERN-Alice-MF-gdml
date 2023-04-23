@@ -1,4 +1,28 @@
-<structure><volume name="UG26">
+<structure><volume name="UL26">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x332"/>
+    </volume>
+    <volume name="UY26">
+      <materialref ref="TRD_Araldite"/>
+      <solidref ref="TGeoBBox0x333"/>
+    </volume>
+    <volume name="UM26">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x334"/>
+    </volume>
+    <volume name="UN26">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x335"/>
+    </volume>
+    <volume name="UO26">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x336"/>
+    </volume>
+    <volume name="UV26">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x337"/>
+    </volume>
+    <volume name="UG26">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x331"/>
       <physvol name="UL26_1" copynumber="1">

@@ -1,10 +1,10 @@
-<structure><volume name="ACORDE9">
-      <materialref ref="ACORDE_ALUMINIUM0"/>
-      <solidref ref="acorde9"/>
-    </volume>
-    <volume name="ACORDE8">
+<structure><volume name="ACORDE8">
       <materialref ref="ACORDE_ALUMINIUM0"/>
       <solidref ref="acorde8"/>
+    </volume>
+    <volume name="ACORDE9">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde9"/>
     </volume>
     <assembly name="ACORDE_SUPPORT">
       <physvol name="ACORDE8_1" copynumber="1">

@@ -1,4 +1,55 @@
-<structure><volume name="FSTR">
+<structure><volume name="FWZ1">
+      <materialref ref="TOF_fibre_glass"/>
+      <solidref ref="FWZ10x1"/>
+    </volume>
+    <volume name="FWZ2">
+      <materialref ref="TOF_fibre_glass"/>
+      <solidref ref="FWZ20x1"/>
+    </volume>
+    <volume name="FWZ3">
+      <materialref ref="TOF_fibre_glass"/>
+      <solidref ref="FWZ30x1"/>
+    </volume>
+    <volume name="FWZ4">
+      <materialref ref="TOF_fibre_glass"/>
+      <solidref ref="FWZ40x1"/>
+    </volume>
+    <volume name="FHON">
+      <materialref ref="TOF_Nomex"/>
+      <solidref ref="FHON0x1"/>
+    </volume>
+    <volume name="FPC1">
+      <materialref ref="TOF_G10"/>
+      <solidref ref="FPC10x1"/>
+    </volume>
+    <volume name="FPC2">
+      <materialref ref="TOF_G10"/>
+      <solidref ref="FPC20x1"/>
+    </volume>
+    <volume name="FSEN">
+      <materialref ref="TOF_Cu_"/>
+      <solidref ref="FSEN0x1"/>
+      <divisionvol axis="kZAxis" number="2" width="3.5" offset="0" unit="cm">
+        <volumeref ref="FSEZ"/>
+      </divisionvol>
+    </volume>
+    <volume name="FPCB">
+      <materialref ref="TOF_G10"/>
+      <solidref ref="FPCB0x1"/>
+      <physvol name="FSEN_1" copynumber="1">
+        <volumeref ref="FSEN"/>
+        <positionref ref="FSEN_1inFPCBpos"/>
+      </physvol>
+    </volume>
+    <volume name="FRGL">
+      <materialref ref="TOF_Glass"/>
+      <solidref ref="FRGL0x1"/>
+    </volume>
+    <volume name="FGLF">
+      <materialref ref="TOF_Glass"/>
+      <solidref ref="FGLF0x1"/>
+    </volume>
+    <volume name="FSTR">
       <materialref ref="TOF_Freon"/>
       <solidref ref="FSTR0x1"/>
       <physvol name="FHON_1" copynumber="1">
@@ -45,22 +96,6 @@
         <volumeref ref="FGLF"/>
         <positionref ref="FGLF_2inFSTRpos"/>
       </physvol>
-    </volume>
-    <volume name="FWZ4">
-      <materialref ref="TOF_fibre_glass"/>
-      <solidref ref="FWZ40x1"/>
-    </volume>
-    <volume name="FWZ3">
-      <materialref ref="TOF_fibre_glass"/>
-      <solidref ref="FWZ30x1"/>
-    </volume>
-    <volume name="FWZ2">
-      <materialref ref="TOF_fibre_glass"/>
-      <solidref ref="FWZ20x1"/>
-    </volume>
-    <volume name="FWZ1">
-      <materialref ref="TOF_fibre_glass"/>
-      <solidref ref="FWZ10x1"/>
     </volume>
     <volume name="FLTA">
       <materialref ref="TOF_Freon"/>

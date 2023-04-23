@@ -1,4 +1,20 @@
-<structure><assembly name="ACORDE_SUPPORT">
+<structure><volume name="ACORDE7">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde7"/>
+    </volume>
+    <volume name="ACORDE7_1">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde7q1"/>
+    </volume>
+    <volume name="ACORDE8">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde8"/>
+    </volume>
+    <volume name="ACORDE9">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde9"/>
+    </volume>
+    <assembly name="ACORDE_SUPPORT">
       <physvol name="ACORDE8_1" copynumber="1">
         <volumeref ref="ACORDE8"/>
         <positionref ref="ACORDE8_1inACORDE_SUPPORTpos"/>
@@ -12,14 +28,6 @@
         <positionref ref="ACORDE9_3inACORDE_SUPPORTpos"/>
       </physvol>
     </assembly>
-    <volume name="ACORDE7_1">
-      <materialref ref="ACORDE_ALUMINIUM0"/>
-      <solidref ref="acorde7q1"/>
-    </volume>
-    <volume name="ACORDE7">
-      <materialref ref="ACORDE_ALUMINIUM0"/>
-      <solidref ref="acorde7"/>
-    </volume>
     <assembly name="ACORDE_3">
       <physvol name="ACORDE7_19" copynumber="19">
         <volumeref ref="ACORDE7"/>

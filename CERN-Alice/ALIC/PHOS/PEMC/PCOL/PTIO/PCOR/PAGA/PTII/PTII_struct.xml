@@ -1,4 +1,52 @@
-<structure><volume name="PSTR">
+<structure><volume name="PXTL">
+      <materialref ref="PHOS_PbWO4"/>
+      <solidref ref="PXTL0x1"/>
+    </volume>
+    <volume name="PWRA">
+      <materialref ref="PHOS_Tyvek"/>
+      <solidref ref="PWRA0x1"/>
+      <physvol name="PXTL_1" copynumber="1">
+        <volumeref ref="PXTL"/>
+        <positionref ref="PXTL_1inPWRApos"/>
+      </physvol>
+    </volume>
+    <volume name="PPIN">
+      <materialref ref="PHOS_Si"/>
+      <solidref ref="PPIN0x1"/>
+    </volume>
+    <volume name="PREA">
+      <materialref ref="PHOS_G10"/>
+      <solidref ref="PREA0x1"/>
+    </volume>
+    <volume name="PCEL">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PCEL0x1"/>
+      <physvol name="PWRA_1" copynumber="1">
+        <volumeref ref="PWRA"/>
+        <positionref ref="PWRA_1inPCELpos"/>
+      </physvol>
+      <physvol name="PPIN_1" copynumber="1">
+        <volumeref ref="PPIN"/>
+        <positionref ref="PPIN_1inPCELpos"/>
+      </physvol>
+      <physvol name="PREA_1" copynumber="1">
+        <volumeref ref="PREA"/>
+        <positionref ref="PREA_1inPCELpos"/>
+      </physvol>
+    </volume>
+    <volume name="PSHO">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PSHO0x1"/>
+    </volume>
+    <volume name="PSUP">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PSUP0x1"/>
+      <physvol name="PSHO_1" copynumber="1">
+        <volumeref ref="PSHO"/>
+        <positionref ref="PSHO_1inPSUPpos"/>
+      </physvol>
+    </volume>
+    <volume name="PSTR">
       <materialref ref="PHOS_Steel"/>
       <solidref ref="PSTR0x1"/>
       <physvol name="PCEL_1" copynumber="1">

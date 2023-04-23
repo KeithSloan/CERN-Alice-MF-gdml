@@ -1,14 +1,14 @@
-<structure><volume name="FwdaBPSCS">
+<structure><volume name="FwdaBPSP">
       <materialref ref="PIPE_ANTICORODAL"/>
-      <solidref ref="shFwdaBPSCS"/>
+      <solidref ref="shFwdaBPSP"/>
     </volume>
     <volume name="FwdaBPSFL">
       <materialref ref="PIPE_ANTICORODAL"/>
       <solidref ref="TGeoPcon0x36"/>
     </volume>
-    <volume name="FwdaBPSP">
+    <volume name="FwdaBPSCS">
       <materialref ref="PIPE_ANTICORODAL"/>
-      <solidref ref="shFwdaBPSP"/>
+      <solidref ref="shFwdaBPSCS"/>
     </volume>
     <assembly name="FwdaBPS">
       <physvol name="FwdaBPSP_1" copynumber="1">

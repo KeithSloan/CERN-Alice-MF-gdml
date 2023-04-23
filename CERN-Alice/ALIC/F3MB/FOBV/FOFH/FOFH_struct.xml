@@ -1,18 +1,9 @@
-<structure><volume name="FOLL">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FOLL0x1"/>
-    </volume>
-    <volume name="FOCH">
-      <materialref ref="FMD_Si_Chip"/>
-      <solidref ref="FMDO_hybrid_chip"/>
-    </volume>
-    <volume name="FOCU">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FMDO_hybrid_copper"/>
-    </volume>
-    <volume name="FOPB">
-      <materialref ref="FMD_PCB"/>
-      <solidref ref="FMDO_hybrid_pcb"/>
+<structure><volume name="FOAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FOAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="9" offset="-360" unit="deg">
+        <volumeref ref="FOSC"/>
+      </divisionvol>
     </volume>
     <volume name="FOSE">
       <materialref ref="FMD_Si"/>
@@ -21,6 +12,22 @@
         <volumeref ref="FOAC"/>
         <positionref ref="FOAC_0inFOSEpos"/>
       </physvol>
+    </volume>
+    <volume name="FOPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDO_hybrid_pcb"/>
+    </volume>
+    <volume name="FOCU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDO_hybrid_copper"/>
+    </volume>
+    <volume name="FOCH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDO_hybrid_chip"/>
+    </volume>
+    <volume name="FOLL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FOLL0x1"/>
     </volume>
     <assembly name="FOFH">
       <physvol name="FOSE_0" copynumber="0">

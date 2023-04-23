@@ -1,4 +1,8 @@
-<structure><volume name="TPC_IFC9">
+<structure><volume name="TPC_IFC10">
+      <materialref ref="TPC_NOMEX"/>
+      <solidref ref="TGeoTube0x143"/>
+    </volume>
+    <volume name="TPC_IFC9">
       <materialref ref="TPC_Prepreg3"/>
       <solidref ref="TGeoTube0x142"/>
       <physvol name="TPC_IFC10_1" copynumber="1">

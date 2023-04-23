@@ -1,10 +1,10 @@
-<structure><volume name="V0APlaOuNailsHoles8">
-      <materialref ref="VZERO_V0APlaOu"/>
-      <solidref ref="sV0APlaOuNailsHoles8"/>
-    </volume>
-    <volume name="V0APlaInNailsHoles8">
+<structure><volume name="V0APlaInNailsHoles8">
       <materialref ref="VZERO_V0APlaIn"/>
       <solidref ref="sV0APlaInNailsHoles8"/>
+    </volume>
+    <volume name="V0APlaOuNailsHoles8">
+      <materialref ref="VZERO_V0APlaOu"/>
+      <solidref ref="sV0APlaOuNailsHoles8"/>
     </volume>
     <assembly name="V0APla8">
       <physvol name="V0APlaInNailsHoles8_1" copynumber="1">

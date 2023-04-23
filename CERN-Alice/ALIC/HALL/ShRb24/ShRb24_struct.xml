@@ -1,14 +1,14 @@
-<structure><volume name="Rb24Pl">
+<structure><volume name="ShRb24Sw">
       <materialref ref="HALL_CONCRETE2"/>
-      <solidref ref="Rb24Pl0x1"/>
+      <solidref ref="TGeoBBox0x18"/>
     </volume>
     <volume name="ShRb24Ro">
       <materialref ref="HALL_CONCRETE2"/>
       <solidref ref="TGeoBBox0x19"/>
     </volume>
-    <volume name="ShRb24Sw">
+    <volume name="Rb24Pl">
       <materialref ref="HALL_CONCRETE2"/>
-      <solidref ref="TGeoBBox0x18"/>
+      <solidref ref="Rb24Pl0x1"/>
     </volume>
     <assembly name="ShRb24">
       <physvol name="ShRb24Sw_1" copynumber="1">

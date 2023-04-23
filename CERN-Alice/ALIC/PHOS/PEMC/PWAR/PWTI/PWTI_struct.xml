@@ -1,30 +1,50 @@
-<structure><volume name="PAFE">
-      <materialref ref="PHOS_Air"/>
-      <solidref ref="PAFE0x1"/>
+<structure><volume name="PBE1">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PBE10x1"/>
     </volume>
-    <volume name="PFG4">
-      <materialref ref="PHOS_Fibergla"/>
-      <solidref ref="PFG40x1"/>
+    <volume name="PCA1">
+      <materialref ref="PHOS_Cables__"/>
+      <solidref ref="PCA10x1"/>
+      <physvol name="PBE1_0" copynumber="0">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_0inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_1" copynumber="1">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_1inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_2" copynumber="2">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_2inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_3" copynumber="3">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_3inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_4" copynumber="4">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_4inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_5" copynumber="5">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_5inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_6" copynumber="6">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_6inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_7" copynumber="7">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_7inPCA1pos"/>
+      </physvol>
+      <physvol name="PBE1_8" copynumber="8">
+        <volumeref ref="PBE1"/>
+        <positionref ref="PBE1_8inPCA1pos"/>
+      </physvol>
     </volume>
-    <volume name="PFG3">
-      <materialref ref="PHOS_Fibergla"/>
-      <solidref ref="PFG30x1"/>
-    </volume>
-    <volume name="PFG2">
-      <materialref ref="PHOS_Fibergla"/>
-      <solidref ref="PFG20x1"/>
-    </volume>
-    <volume name="PFG1">
-      <materialref ref="PHOS_Fibergla"/>
-      <solidref ref="PFG10x1"/>
-    </volume>
-    <volume name="PFRZ">
-      <materialref ref="PHOS_Steel"/>
-      <solidref ref="PFRZ0x1"/>
-    </volume>
-    <volume name="PFRX">
-      <materialref ref="PHOS_Steel"/>
-      <solidref ref="PFRX0x1"/>
+    <volume name="PBE2">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PBE20x1"/>
     </volume>
     <volume name="PCA2">
       <materialref ref="PHOS_Cables__"/>
@@ -66,45 +86,33 @@
         <positionref ref="PBE2_8inPCA2pos"/>
       </physvol>
     </volume>
-    <volume name="PCA1">
-      <materialref ref="PHOS_Cables__"/>
-      <solidref ref="PCA10x1"/>
-      <physvol name="PBE1_0" copynumber="0">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_0inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_1" copynumber="1">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_1inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_2" copynumber="2">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_2inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_3" copynumber="3">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_3inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_4" copynumber="4">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_4inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_5" copynumber="5">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_5inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_6" copynumber="6">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_6inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_7" copynumber="7">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_7inPCA1pos"/>
-      </physvol>
-      <physvol name="PBE1_8" copynumber="8">
-        <volumeref ref="PBE1"/>
-        <positionref ref="PBE1_8inPCA1pos"/>
-      </physvol>
+    <volume name="PFRX">
+      <materialref ref="PHOS_Steel"/>
+      <solidref ref="PFRX0x1"/>
+    </volume>
+    <volume name="PFRZ">
+      <materialref ref="PHOS_Steel"/>
+      <solidref ref="PFRZ0x1"/>
+    </volume>
+    <volume name="PFG1">
+      <materialref ref="PHOS_Fibergla"/>
+      <solidref ref="PFG10x1"/>
+    </volume>
+    <volume name="PFG2">
+      <materialref ref="PHOS_Fibergla"/>
+      <solidref ref="PFG20x1"/>
+    </volume>
+    <volume name="PFG3">
+      <materialref ref="PHOS_Fibergla"/>
+      <solidref ref="PFG30x1"/>
+    </volume>
+    <volume name="PFG4">
+      <materialref ref="PHOS_Fibergla"/>
+      <solidref ref="PFG40x1"/>
+    </volume>
+    <volume name="PAFE">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PAFE0x1"/>
     </volume>
     <volume name="PWTI">
       <materialref ref="PHOS_Thermo_Insul."/>

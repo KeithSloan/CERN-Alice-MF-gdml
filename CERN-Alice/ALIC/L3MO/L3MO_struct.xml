@@ -1,18 +1,21 @@
-<structure><volume name="L3PlugSPL">
-      <materialref ref="MAG_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoXtru0x3"/>
+<structure><volume name="L3TS">
+      <materialref ref="MAG_Al0"/>
+      <solidref ref="TGeoPgon"/>
     </volume>
-    <volume name="L3PlugSPR">
-      <materialref ref="MAG_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoXtru0x2"/>
+    <volume name="L3CM">
+      <materialref ref="MAG_AIR1"/>
+      <solidref ref="TGeoPgon0x1"/>
+      <divisionvol axis="kZAxis" number="168" width="7" offset="0" unit="cm">
+        <volumeref ref="L3CD"/>
+      </divisionvol>
     </volume>
-    <volume name="L3DoorL">
+    <volume name="L3YO">
       <materialref ref="MAG_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoXtru0x1"/>
+      <solidref ref="TGeoPgon0x175"/>
     </volume>
-    <volume name="L3DoorR">
+    <volume name="L3CR">
       <materialref ref="MAG_STAINLESS_STEEL2"/>
-      <solidref ref="TGeoXtru"/>
+      <solidref ref="TGeoPgon0x176"/>
     </volume>
     <assembly name="L3BM">
       <physvol name="L3TS_1" copynumber="1">
@@ -37,6 +40,22 @@
         <scale name="L3CR_2inL3BMscl" x="1" y="1" z="-1"/>
       </physvol>
     </assembly>
+    <volume name="L3DoorR">
+      <materialref ref="MAG_STAINLESS_STEEL2"/>
+      <solidref ref="TGeoXtru"/>
+    </volume>
+    <volume name="L3DoorL">
+      <materialref ref="MAG_STAINLESS_STEEL2"/>
+      <solidref ref="TGeoXtru0x1"/>
+    </volume>
+    <volume name="L3PlugSPR">
+      <materialref ref="MAG_STAINLESS_STEEL2"/>
+      <solidref ref="TGeoXtru0x2"/>
+    </volume>
+    <volume name="L3PlugSPL">
+      <materialref ref="MAG_STAINLESS_STEEL2"/>
+      <solidref ref="TGeoXtru0x3"/>
+    </volume>
     <assembly name="L3MO">
       <physvol name="L3BM_1" copynumber="1">
         <volumeref ref="L3BM"/>

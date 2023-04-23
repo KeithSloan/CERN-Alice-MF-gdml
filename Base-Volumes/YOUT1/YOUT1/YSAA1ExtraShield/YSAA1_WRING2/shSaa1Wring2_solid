@@ -1,6 +1,0 @@
-<intersection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="shSaa1Wring2">
-      <first ref="shSaa1Wring2a"/>
-      <second ref="shSaa1Wring2b"/>
-      <position name="shSaa1Wring2shSaa1Wring2bpos" x="16.599999904632568" y="16.599999904632568" z="0" unit="cm"/>
-    </intersection>
-    

@@ -1,4 +1,20 @@
-<structure><volume name="S07B">
+<structure><volume name="S07G">
+      <materialref ref="MUON_ArCO2_80"/>
+      <solidref ref="S07G0x1"/>
+    </volume>
+    <volume name="S07H">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="S07H0x1"/>
+      <physvol name="S07G_1" copynumber="1">
+        <volumeref ref="S07G"/>
+        <positionref ref="S07G_1inS07Hpos"/>
+      </physvol>
+    </volume>
+    <volume name="S07E">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S07E0x1"/>
+    </volume>
+    <volume name="S07B">
       <materialref ref="MUON_Rohacell"/>
       <solidref ref="S07B0x1"/>
       <physvol name="S07E_1" copynumber="1">
@@ -64,14 +80,6 @@
       <physvol name="S07E_16" copynumber="16">
         <volumeref ref="S07E"/>
         <positionref ref="S07E_16inS07Bpos"/>
-      </physvol>
-    </volume>
-    <volume name="S07H">
-      <materialref ref="MUON_Noryl"/>
-      <solidref ref="S07H0x1"/>
-      <physvol name="S07G_1" copynumber="1">
-        <volumeref ref="S07G"/>
-        <positionref ref="S07G_1inS07Hpos"/>
       </physvol>
     </volume>
     <volume name="S07P">

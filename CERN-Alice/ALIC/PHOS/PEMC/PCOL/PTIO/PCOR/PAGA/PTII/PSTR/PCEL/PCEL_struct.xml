@@ -1,10 +1,6 @@
-<structure><volume name="PREA">
-      <materialref ref="PHOS_G10"/>
-      <solidref ref="PREA0x1"/>
-    </volume>
-    <volume name="PPIN">
-      <materialref ref="PHOS_Si"/>
-      <solidref ref="PPIN0x1"/>
+<structure><volume name="PXTL">
+      <materialref ref="PHOS_PbWO4"/>
+      <solidref ref="PXTL0x1"/>
     </volume>
     <volume name="PWRA">
       <materialref ref="PHOS_Tyvek"/>
@@ -13,6 +9,14 @@
         <volumeref ref="PXTL"/>
         <positionref ref="PXTL_1inPWRApos"/>
       </physvol>
+    </volume>
+    <volume name="PPIN">
+      <materialref ref="PHOS_Si"/>
+      <solidref ref="PPIN0x1"/>
+    </volume>
+    <volume name="PREA">
+      <materialref ref="PHOS_G10"/>
+      <solidref ref="PREA0x1"/>
     </volume>
     <volume name="PCEL">
       <materialref ref="PHOS_Air"/>

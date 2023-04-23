@@ -1,4 +1,16 @@
-<structure><assembly name="RB26s2Wiggle">
+<structure><volume name="RB26s2PlieConn1">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x45"/>
+    </volume>
+    <volume name="RB26s2UpperPlie">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="RB26s2UpperPlie0x1"/>
+    </volume>
+    <volume name="RB26s2LowerPlie">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="RB26s2LowerPlie0x1"/>
+    </volume>
+    <assembly name="RB26s2Wiggle">
       <physvol name="RB26s2PlieConn1_1" copynumber="1">
         <volumeref ref="RB26s2PlieConn1"/>
         <positionref ref="RB26s2PlieConn1_1inRB26s2Wigglepos"/>
@@ -16,10 +28,6 @@
         <positionref ref="RB26s2LowerPlie_10x1inRB26s2Wigglepos"/>
       </physvol>
     </assembly>
-    <volume name="RB26s2LowerPlie">
-      <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="RB26s2LowerPlie0x1"/>
-    </volume>
     <volume name="RB26s2Bellow">
       <materialref ref="PIPE_VACUUM"/>
       <solidref ref="TGeoTube0x44"/>

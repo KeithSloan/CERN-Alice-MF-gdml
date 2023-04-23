@@ -1,18 +1,18 @@
-<structure><volume name="vCableSegLay0x20">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="TGeoBBox0x1001"/>
-    </volume>
-    <volume name="vCableSegLay0x19">
-      <materialref ref="ITS_SDD_SI_CHIP"/>
-      <solidref ref="TGeoBBox0x1000"/>
+<structure><volume name="vCableSegLay0x17">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoBBox0x998"/>
     </volume>
     <volume name="vCableSegLay0x18">
       <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
       <solidref ref="TGeoBBox0x999"/>
     </volume>
-    <volume name="vCableSegLay0x17">
-      <materialref ref="ITS_COPPER"/>
-      <solidref ref="TGeoBBox0x998"/>
+    <volume name="vCableSegLay0x19">
+      <materialref ref="ITS_SDD_SI_CHIP"/>
+      <solidref ref="TGeoBBox0x1000"/>
+    </volume>
+    <volume name="vCableSegLay0x20">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1001"/>
     </volume>
     <volume name="pascalCC1">
       <materialref ref="ITS_AL"/>

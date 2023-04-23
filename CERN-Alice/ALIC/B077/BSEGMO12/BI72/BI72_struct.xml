@@ -1,14 +1,14 @@
-<structure><volume name="BIH272">
+<structure><volume name="BIV72">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="BIH2720x1"/>
+      <solidref ref="BIV720x1"/>
     </volume>
     <volume name="BIH172">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
       <solidref ref="BIH1720x1"/>
     </volume>
-    <volume name="BIV72">
+    <volume name="BIH272">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="BIV720x1"/>
+      <solidref ref="BIH2720x1"/>
     </volume>
     <assembly name="BI72">
       <physvol name="BIV72_1" copynumber="1">

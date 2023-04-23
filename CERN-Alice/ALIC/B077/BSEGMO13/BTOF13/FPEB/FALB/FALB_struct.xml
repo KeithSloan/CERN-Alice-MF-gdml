@@ -1,14 +1,14 @@
-<structure><volume name="FPE3">
-      <materialref ref="TOF_Al_honeycomb"/>
-      <solidref ref="FPE30x1"/>
+<structure><volume name="FPE4">
+      <materialref ref="TOF_Al_honey_for_holes"/>
+      <solidref ref="FPE40x1"/>
     </volume>
     <volume name="FPE2">
       <materialref ref="TOF_Al_honeycomb"/>
       <solidref ref="FPE20x1"/>
     </volume>
-    <volume name="FPE4">
-      <materialref ref="TOF_Al_honey_for_holes"/>
-      <solidref ref="FPE40x1"/>
+    <volume name="FPE3">
+      <materialref ref="TOF_Al_honeycomb"/>
+      <solidref ref="FPE30x1"/>
     </volume>
     <volume name="FALB">
       <materialref ref="TOF_Al_"/>

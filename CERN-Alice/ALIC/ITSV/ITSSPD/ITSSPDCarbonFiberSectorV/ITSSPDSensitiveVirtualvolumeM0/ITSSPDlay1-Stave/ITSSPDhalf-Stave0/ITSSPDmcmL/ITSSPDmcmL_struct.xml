@@ -1,34 +1,34 @@
-<structure><volume name="ITSSPDcapTop0x1">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x13"/>
-    </volume>
-    <volume name="ITSSPDcapBoarder0x1">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="ITSSPDshBORDERL"/>
-    </volume>
-    <volume name="ITSSPDoptical0x2">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDoptical0x3"/>
-    </volume>
-    <volume name="ITSSPDrx400x2">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDrx400x3"/>
-    </volume>
-    <volume name="ITSSPDgol0x2">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDgol0x3"/>
-    </volume>
-    <volume name="ITSSPDpilot0x2">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDpilot0x3"/>
+<structure><volume name="ITSSPDbase0x1">
+      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
+      <solidref ref="TGeoXtru0x12"/>
     </volume>
     <volume name="ITSSPDanalog0x2">
       <materialref ref="ITS_SPD_SI_CHIP"/>
       <solidref ref="ITSSPDanalog0x3"/>
     </volume>
-    <volume name="ITSSPDbase0x1">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="TGeoXtru0x12"/>
+    <volume name="ITSSPDpilot0x2">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDpilot0x3"/>
+    </volume>
+    <volume name="ITSSPDgol0x2">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDgol0x3"/>
+    </volume>
+    <volume name="ITSSPDrx400x2">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDrx400x3"/>
+    </volume>
+    <volume name="ITSSPDoptical0x2">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDoptical0x3"/>
+    </volume>
+    <volume name="ITSSPDcapBoarder0x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ITSSPDshBORDERL"/>
+    </volume>
+    <volume name="ITSSPDcapTop0x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x13"/>
     </volume>
     <assembly name="ITSSPDmcmL">
       <physvol name="ITSSPDbase_1" copynumber="1">

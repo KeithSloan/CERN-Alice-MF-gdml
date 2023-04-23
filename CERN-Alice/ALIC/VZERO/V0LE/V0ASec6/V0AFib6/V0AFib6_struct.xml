@@ -1,10 +1,10 @@
-<structure><volume name="V0AFib26Hole">
-      <materialref ref="VZERO_V0AFib"/>
-      <solidref ref="sV0AFib26Hole"/>
-    </volume>
-    <volume name="V0AFib16Hole">
+<structure><volume name="V0AFib16Hole">
       <materialref ref="VZERO_V0AFib"/>
       <solidref ref="sV0AFib16Hole"/>
+    </volume>
+    <volume name="V0AFib26Hole">
+      <materialref ref="VZERO_V0AFib"/>
+      <solidref ref="sV0AFib26Hole"/>
     </volume>
     <assembly name="V0AFib6">
       <physvol name="V0AFib16Hole_1" copynumber="1">

@@ -1,10 +1,10 @@
-<structure><volume name="RB24VMABCCTFlange">
-      <materialref ref="PIPE_COPPER"/>
-      <solidref ref="TGeoPcon0x49"/>
-    </volume>
-    <volume name="RB24VMABCCT">
+<structure><volume name="RB24VMABCCT">
       <materialref ref="PIPE_COPPER"/>
       <solidref ref="TGeoPcon0x48"/>
+    </volume>
+    <volume name="RB24VMABCCTFlange">
+      <materialref ref="PIPE_COPPER"/>
+      <solidref ref="TGeoPcon0x49"/>
     </volume>
     <assembly name="RB24VMABRFCT">
       <physvol name="RB24VMABCCT_1" copynumber="1">

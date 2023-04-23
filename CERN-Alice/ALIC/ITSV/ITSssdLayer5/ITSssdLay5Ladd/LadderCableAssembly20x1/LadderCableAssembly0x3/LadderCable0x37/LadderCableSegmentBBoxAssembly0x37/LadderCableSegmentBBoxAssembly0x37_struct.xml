@@ -1,10 +1,10 @@
-<structure><volume name="LadderCableSegmentBBox20x37">
-      <materialref ref="ITS_KAPTONHPOLYCH2"/>
-      <solidref ref="LadderCableSegmentBBoxShape20x37"/>
-    </volume>
-    <volume name="LadderCableSegmentBBox10x37">
+<structure><volume name="LadderCableSegmentBBox10x37">
       <materialref ref="ITS_AL"/>
       <solidref ref="LadderCableSegmentBBoxShape10x37"/>
+    </volume>
+    <volume name="LadderCableSegmentBBox20x37">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="LadderCableSegmentBBoxShape20x37"/>
     </volume>
     <assembly name="LadderCableSegmentBBoxAssembly0x37">
       <physvol name="LadderCableSegmentBBox1_1" copynumber="1">

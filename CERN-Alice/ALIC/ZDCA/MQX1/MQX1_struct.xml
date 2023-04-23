@@ -1,10 +1,10 @@
-<structure><volume name="QBS2">
-      <materialref ref="ZDC_COPP0"/>
-      <solidref ref="QBS20x1"/>
-    </volume>
-    <volume name="QBS1">
+<structure><volume name="QBS1">
       <materialref ref="ZDC_COPP0"/>
       <solidref ref="QBS10x1"/>
+    </volume>
+    <volume name="QBS2">
+      <materialref ref="ZDC_COPP0"/>
+      <solidref ref="QBS20x1"/>
     </volume>
     <volume name="MQX1">
       <materialref ref="ZDC_VOIM"/>

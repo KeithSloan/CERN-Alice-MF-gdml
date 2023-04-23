@@ -1,22 +1,22 @@
-<structure><volume name="YSAA1_WRING4">
+<structure><volume name="YSAA1_WRING1">
       <materialref ref="SHIL_Ni-W-Cu1"/>
-      <solidref ref="TGeoPcon0x32"/>
-    </volume>
-    <volume name="YSAA1_WRING3">
-      <materialref ref="SHIL_Ni-W-Cu1"/>
-      <solidref ref="shSaa1Wring3"/>
-    </volume>
-    <volume name="YSAA1_WRING5">
-      <materialref ref="SHIL_Ni-W-Cu1"/>
-      <solidref ref="TGeoTube0x3"/>
+      <solidref ref="TGeoPcon0x31"/>
     </volume>
     <volume name="YSAA1_WRING2">
       <materialref ref="SHIL_Ni-W-Cu1"/>
       <solidref ref="shSaa1Wring2"/>
     </volume>
-    <volume name="YSAA1_WRING1">
+    <volume name="YSAA1_WRING5">
       <materialref ref="SHIL_Ni-W-Cu1"/>
-      <solidref ref="TGeoPcon0x31"/>
+      <solidref ref="TGeoTube0x3"/>
+    </volume>
+    <volume name="YSAA1_WRING3">
+      <materialref ref="SHIL_Ni-W-Cu1"/>
+      <solidref ref="shSaa1Wring3"/>
+    </volume>
+    <volume name="YSAA1_WRING4">
+      <materialref ref="SHIL_Ni-W-Cu1"/>
+      <solidref ref="TGeoPcon0x32"/>
     </volume>
     <assembly name="YSAA1ExtraShield">
       <physvol name="YSAA1_WRING1_1" copynumber="1">

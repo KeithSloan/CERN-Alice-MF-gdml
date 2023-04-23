@@ -1,10 +1,10 @@
-<structure><volume name="DownEndCapSupportPieceLayer6">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x84"/>
-    </volume>
-    <volume name="UpEndCapSupportPieceLayer6">
+<structure><volume name="UpEndCapSupportPieceLayer6">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoXtru0x83"/>
+    </volume>
+    <volume name="DownEndCapSupportPieceLayer6">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x84"/>
     </volume>
     <volume name="EndCapSupportMotherLayer6">
       <materialref ref="ITS_SDD_AIR"/>

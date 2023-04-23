@@ -1,18 +1,9 @@
-<structure><volume name="FILL">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FILL0x1"/>
-    </volume>
-    <volume name="FICH">
-      <materialref ref="FMD_Si_Chip"/>
-      <solidref ref="FMDI_hybrid_chip"/>
-    </volume>
-    <volume name="FICU">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FMDI_hybrid_copper"/>
-    </volume>
-    <volume name="FIPB">
-      <materialref ref="FMD_PCB"/>
-      <solidref ref="FMDI_hybrid_pcb"/>
+<structure><volume name="FIAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FIAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="18" offset="-360" unit="deg">
+        <volumeref ref="FISC"/>
+      </divisionvol>
     </volume>
     <volume name="FISE">
       <materialref ref="FMD_Si"/>
@@ -21,6 +12,22 @@
         <volumeref ref="FIAC"/>
         <positionref ref="FIAC_0inFISEpos"/>
       </physvol>
+    </volume>
+    <volume name="FIPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDI_hybrid_pcb"/>
+    </volume>
+    <volume name="FICU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDI_hybrid_copper"/>
+    </volume>
+    <volume name="FICH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDI_hybrid_chip"/>
+    </volume>
+    <volume name="FILL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FILL0x1"/>
     </volume>
     <assembly name="FIFH">
       <physvol name="FISE_0" copynumber="0">

@@ -1,10 +1,10 @@
-<structure><volume name="InnerCoolingTube3">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x98"/>
-    </volume>
-    <volume name="OuterCoolingTube3">
+<structure><volume name="OuterCoolingTube3">
       <materialref ref="ITS_INOX"/>
       <solidref ref="TGeoTube0x97"/>
+    </volume>
+    <volume name="InnerCoolingTube3">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x98"/>
     </volume>
     <volume name="CoolingTube3">
       <materialref ref="ITS_SDD_AIR"/>

@@ -1,5 +1,0 @@
-<volume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="SNPB">
-      <materialref ref="MUON_Copper"/>
-      <solidref ref="SNPB0x1"/>
-    </volume>
-    

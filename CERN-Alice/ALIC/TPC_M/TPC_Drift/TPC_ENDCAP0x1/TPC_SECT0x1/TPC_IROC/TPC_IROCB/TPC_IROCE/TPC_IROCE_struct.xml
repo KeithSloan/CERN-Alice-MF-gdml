@@ -1,14 +1,14 @@
-<structure><volume name="TPC_IRB3">
+<structure><volume name="TPC_IRB1">
       <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoTrd10x6"/>
+      <solidref ref="TGeoTrd10x4"/>
     </volume>
     <volume name="TPC_TRB2">
       <materialref ref="TPC_Al"/>
       <solidref ref="TGeoTrd10x5"/>
     </volume>
-    <volume name="TPC_IRB1">
+    <volume name="TPC_IRB3">
       <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoTrd10x4"/>
+      <solidref ref="TGeoTrd10x6"/>
     </volume>
     <volume name="TPC_IROCE">
       <materialref ref="TPC_Air"/>

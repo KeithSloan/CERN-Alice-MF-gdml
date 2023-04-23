@@ -1,14 +1,14 @@
-<structure><volume name="YFA_WRING5">
+<structure><volume name="YFA_WRING2">
       <materialref ref="SHIL_Ni-W-Cu1"/>
-      <solidref ref="TGeoTube0x4"/>
+      <solidref ref="shFaWring2"/>
     </volume>
     <volume name="YFA_WRING3">
       <materialref ref="SHIL_Ni-W-Cu1"/>
       <solidref ref="shFaWring3"/>
     </volume>
-    <volume name="YFA_WRING2">
+    <volume name="YFA_WRING5">
       <materialref ref="SHIL_Ni-W-Cu1"/>
-      <solidref ref="shFaWring2"/>
+      <solidref ref="TGeoTube0x4"/>
     </volume>
     <assembly name="YCRE">
       <physvol name="YFA_WRING2_1" copynumber="1">

@@ -1,25 +1,51 @@
-<structure><volume name="B033">
+<structure><volume name="B046">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="B0460x1"/>
+    </volume>
+    <volume name="B045">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="B0330x1"/>
-      <physvol name="B034_1" copynumber="1">
-        <volumeref ref="B034"/>
-        <positionref ref="B034_1inB033pos"/>
+      <solidref ref="B0450x1"/>
+      <physvol name="B046_1" copynumber="1">
+        <volumeref ref="B046"/>
+        <positionref ref="B046_1inB045pos"/>
       </physvol>
     </volume>
-    <assembly name="BI42">
-      <physvol name="BIV42_1" copynumber="1">
-        <volumeref ref="BIV42"/>
-        <positionref ref="BIV42_1inBI42pos"/>
+    <volume name="B048">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="B0480x1"/>
+    </volume>
+    <volume name="B047">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="B0470x1"/>
+      <physvol name="B048_1" copynumber="1">
+        <volumeref ref="B048"/>
+        <positionref ref="B048_1inB047pos"/>
       </physvol>
-      <physvol name="BIH142_1" copynumber="1">
-        <volumeref ref="BIH142"/>
-        <positionref ref="BIH142_1inBI42pos"/>
+    </volume>
+    <volume name="B050">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="B0500x1"/>
+    </volume>
+    <volume name="B049">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="B0490x1"/>
+      <physvol name="B050_1" copynumber="1">
+        <volumeref ref="B050"/>
+        <positionref ref="B050_1inB049pos"/>
       </physvol>
-      <physvol name="BIH242_1" copynumber="1">
-        <volumeref ref="BIH242"/>
-        <positionref ref="BIH242_1inBI42pos"/>
+    </volume>
+    <volume name="B052">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="B0520x1"/>
+    </volume>
+    <volume name="B051">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="B0510x1"/>
+      <physvol name="B052_1" copynumber="1">
+        <volumeref ref="B052"/>
+        <positionref ref="B052_1inB051pos"/>
       </physvol>
-    </assembly>
+    </volume>
     <volume name="BM49">
       <materialref ref="FRAME_AIR"/>
       <solidref ref="BM490x1"/>
@@ -38,20 +64,42 @@
         <rotationref ref="B051_2inBM49rot"/>
       </physvol>
     </volume>
-    <volume name="B047">
+    <volume name="BIV42">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="B0470x1"/>
-      <physvol name="B048_1" copynumber="1">
-        <volumeref ref="B048"/>
-        <positionref ref="B048_1inB047pos"/>
-      </physvol>
+      <solidref ref="BIV420x1"/>
     </volume>
-    <volume name="B045">
+    <volume name="BIH142">
       <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="B0450x1"/>
-      <physvol name="B046_1" copynumber="1">
-        <volumeref ref="B046"/>
-        <positionref ref="B046_1inB045pos"/>
+      <solidref ref="BIH1420x1"/>
+    </volume>
+    <volume name="BIH242">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="BIH2420x1"/>
+    </volume>
+    <assembly name="BI42">
+      <physvol name="BIV42_1" copynumber="1">
+        <volumeref ref="BIV42"/>
+        <positionref ref="BIV42_1inBI42pos"/>
+      </physvol>
+      <physvol name="BIH142_1" copynumber="1">
+        <volumeref ref="BIH142"/>
+        <positionref ref="BIH142_1inBI42pos"/>
+      </physvol>
+      <physvol name="BIH242_1" copynumber="1">
+        <volumeref ref="BIH242"/>
+        <positionref ref="BIH242_1inBI42pos"/>
+      </physvol>
+    </assembly>
+    <volume name="B034">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="B0340x1"/>
+    </volume>
+    <volume name="B033">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="B0330x1"/>
+      <physvol name="B034_1" copynumber="1">
+        <volumeref ref="B034"/>
+        <positionref ref="B034_1inB033pos"/>
       </physvol>
     </volume>
     <volume name="B076">

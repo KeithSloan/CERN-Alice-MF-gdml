@@ -1,10 +1,10 @@
-<structure><volume name="vCableSegLay0x191">
-      <materialref ref="ITS_COPPER"/>
-      <solidref ref="TGeoArb80x173"/>
-    </volume>
-    <volume name="vCableSegLay0x190">
+<structure><volume name="vCableSegLay0x190">
       <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
       <solidref ref="TGeoArb80x172"/>
+    </volume>
+    <volume name="vCableSegLay0x191">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoArb80x173"/>
     </volume>
     <volume name="cableSDDport176">
       <materialref ref="ITS_SDD_OPTICFIB"/>

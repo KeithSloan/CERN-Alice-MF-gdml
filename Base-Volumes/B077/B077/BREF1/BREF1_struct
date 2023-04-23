@@ -1,5 +1,0 @@
-<volume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="BREF1">
-      <materialref ref="FRAME_AIR"/>
-      <solidref ref="shBREF1"/>
-    </volume>
-    

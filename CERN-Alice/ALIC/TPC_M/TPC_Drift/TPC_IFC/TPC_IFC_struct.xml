@@ -1,13 +1,41 @@
-<structure><volume name="TPC_IFC2">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoTube0x148"/>
+<structure><volume name="TPC_IFC13">
+      <materialref ref="TPC_NOMEX"/>
+      <solidref ref="TGeoTube0x139"/>
     </volume>
-    <volume name="TPC_IFC3">
+    <volume name="TPC_IFC12">
+      <materialref ref="TPC_Prepreg3"/>
+      <solidref ref="TGeoTube0x138"/>
+      <physvol name="TPC_IFC13_1" copynumber="1">
+        <volumeref ref="TPC_IFC13"/>
+        <positionref ref="TPC_IFC13_1inTPC_IFC12pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_IFC11">
       <materialref ref="TPC_Tedlar"/>
-      <solidref ref="TGeoTube0x144"/>
-      <physvol name="TPC_IFC4_1" copynumber="1">
-        <volumeref ref="TPC_IFC4"/>
-        <positionref ref="TPC_IFC4_1inTPC_IFC3pos"/>
+      <solidref ref="TGeoTube0x137"/>
+      <physvol name="TPC_IFC12_1" copynumber="1">
+        <volumeref ref="TPC_IFC12"/>
+        <positionref ref="TPC_IFC12_1inTPC_IFC11pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_IFC10">
+      <materialref ref="TPC_NOMEX"/>
+      <solidref ref="TGeoTube0x143"/>
+    </volume>
+    <volume name="TPC_IFC9">
+      <materialref ref="TPC_Prepreg3"/>
+      <solidref ref="TGeoTube0x142"/>
+      <physvol name="TPC_IFC10_1" copynumber="1">
+        <volumeref ref="TPC_IFC10"/>
+        <positionref ref="TPC_IFC10_1inTPC_IFC9pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_IFC8">
+      <materialref ref="TPC_Prepreg2"/>
+      <solidref ref="TGeoTube0x141"/>
+      <physvol name="TPC_IFC9_1" copynumber="1">
+        <volumeref ref="TPC_IFC9"/>
+        <positionref ref="TPC_IFC9_1inTPC_IFC8pos"/>
       </physvol>
     </volume>
     <volume name="TPC_IFC7">
@@ -18,13 +46,37 @@
         <positionref ref="TPC_IFC8_1inTPC_IFC7pos"/>
       </physvol>
     </volume>
-    <volume name="TPC_IFC11">
-      <materialref ref="TPC_Tedlar"/>
-      <solidref ref="TGeoTube0x137"/>
-      <physvol name="TPC_IFC12_1" copynumber="1">
-        <volumeref ref="TPC_IFC12"/>
-        <positionref ref="TPC_IFC12_1inTPC_IFC11pos"/>
+    <volume name="TPC_IFC6">
+      <materialref ref="TPC_NOMEX"/>
+      <solidref ref="TGeoTube0x147"/>
+    </volume>
+    <volume name="TPC_IFC5">
+      <materialref ref="TPC_Prepreg3"/>
+      <solidref ref="TGeoTube0x146"/>
+      <physvol name="TPC_IFC6_1" copynumber="1">
+        <volumeref ref="TPC_IFC6"/>
+        <positionref ref="TPC_IFC6_1inTPC_IFC5pos"/>
       </physvol>
+    </volume>
+    <volume name="TPC_IFC4">
+      <materialref ref="TPC_Prepreg2"/>
+      <solidref ref="TGeoTube0x145"/>
+      <physvol name="TPC_IFC5_1" copynumber="1">
+        <volumeref ref="TPC_IFC5"/>
+        <positionref ref="TPC_IFC5_1inTPC_IFC4pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_IFC3">
+      <materialref ref="TPC_Tedlar"/>
+      <solidref ref="TGeoTube0x144"/>
+      <physvol name="TPC_IFC4_1" copynumber="1">
+        <volumeref ref="TPC_IFC4"/>
+        <positionref ref="TPC_IFC4_1inTPC_IFC3pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_IFC2">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTube0x148"/>
     </volume>
     <assembly name="TPC_IFC">
       <physvol name="TPC_IFC11_1" copynumber="1">

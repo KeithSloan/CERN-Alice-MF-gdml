@@ -1,14 +1,14 @@
-<structure><volume name="vSddCableInterCylGlass">
-      <materialref ref="ITS_SDD_OPTICFIB"/>
-      <solidref ref="sddCableInterCylGlass"/>
+<structure><volume name="vSddCableInterCylPlast">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="sddCableInterCylPlast"/>
     </volume>
     <volume name="vSddCableInterCylCu">
       <materialref ref="ITS_COPPER"/>
       <solidref ref="sddCableInterCylCu"/>
     </volume>
-    <volume name="vSddCableInterCylPlast">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="sddCableInterCylPlast"/>
+    <volume name="vSddCableInterCylGlass">
+      <materialref ref="ITS_SDD_OPTICFIB"/>
+      <solidref ref="sddCableInterCylGlass"/>
     </volume>
     <volume name="vSddCableInterCyl">
       <materialref ref="ITS_SDD_AIR"/>

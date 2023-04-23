@@ -1,4 +1,20 @@
-<structure><volume name="SB5B">
+<structure><volume name="S05G0x2">
+      <materialref ref="MUON_ArCO2_80"/>
+      <solidref ref="S05G0x3"/>
+    </volume>
+    <volume name="SB5H">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="SB5H0x1"/>
+      <physvol name="S05G_1" copynumber="1">
+        <volumeref ref="S05G0x2"/>
+        <positionref ref="S05G_10x1inSB5Hpos"/>
+      </physvol>
+    </volume>
+    <volume name="S05E">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05E0x1"/>
+    </volume>
+    <volume name="SB5B">
       <materialref ref="MUON_Rohacell"/>
       <solidref ref="SB5B0x1"/>
       <physvol name="S05E_3" copynumber="3">
@@ -48,14 +64,6 @@
       <physvol name="S05E_14" copynumber="14">
         <volumeref ref="S05E"/>
         <positionref ref="S05E_140x1inSB5Bpos"/>
-      </physvol>
-    </volume>
-    <volume name="SB5H">
-      <materialref ref="MUON_Noryl"/>
-      <solidref ref="SB5H0x1"/>
-      <physvol name="S05G_1" copynumber="1">
-        <volumeref ref="S05G0x2"/>
-        <positionref ref="S05G_10x1inSB5Hpos"/>
       </physvol>
     </volume>
     <volume name="SB5P">

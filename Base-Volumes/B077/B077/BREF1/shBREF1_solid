@@ -1,5 +1,0 @@
-<subtraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="shBREF1">
-      <first ref="shBREFA"/>
-      <second ref="TGeoCompositeShape0x11"/>
-    </subtraction>
-    

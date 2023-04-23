@@ -1,14 +1,14 @@
-<structure><volume name="SDDCableHole3">
+<structure><volume name="SDDCableHole1">
       <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x104"/>
+      <solidref ref="TGeoPcon0x102"/>
     </volume>
     <volume name="SDDCableHole2">
       <materialref ref="ITS_SDD_AIR"/>
       <solidref ref="TGeoPcon0x103"/>
     </volume>
-    <volume name="SDDCableHole1">
+    <volume name="SDDCableHole3">
       <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x102"/>
+      <solidref ref="TGeoPcon0x104"/>
     </volume>
     <volume name="SDDCarbonFiberConeFoam">
       <materialref ref="ITS_ROHACELL"/>

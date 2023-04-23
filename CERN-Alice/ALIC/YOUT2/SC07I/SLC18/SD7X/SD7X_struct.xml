@@ -1,4 +1,8 @@
-<structure><volume name="SD7C">
+<structure><volume name="SD7N">
+      <materialref ref="MUON_Nomex"/>
+      <solidref ref="composite47N"/>
+    </volume>
+    <volume name="SD7C">
       <materialref ref="MUON_Carbon"/>
       <solidref ref="composite47C"/>
       <physvol name="SD7N_1" copynumber="1">

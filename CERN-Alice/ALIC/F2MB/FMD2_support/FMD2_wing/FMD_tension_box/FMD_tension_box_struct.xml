@@ -1,10 +1,10 @@
-<structure><volume name="FMD_tension_top">
-      <materialref ref="FMD_Aluminum"/>
-      <solidref ref="FMD_tension_top0x1"/>
-    </volume>
-    <volume name="FMD_tension_end">
+<structure><volume name="FMD_tension_end">
       <materialref ref="FMD_Aluminum"/>
       <solidref ref="FMD_tension_end0x1"/>
+    </volume>
+    <volume name="FMD_tension_top">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_top0x1"/>
     </volume>
     <assembly name="FMD_tension_box">
       <physvol name="FMD_tension_end_1" copynumber="1">

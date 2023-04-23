@@ -1,4 +1,28 @@
-<structure><volume name="UG06">
+<structure><volume name="UL06">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x150"/>
+    </volume>
+    <volume name="UY06">
+      <materialref ref="TRD_Araldite"/>
+      <solidref ref="TGeoBBox0x151"/>
+    </volume>
+    <volume name="UM06">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x152"/>
+    </volume>
+    <volume name="UN06">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x153"/>
+    </volume>
+    <volume name="UO06">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x154"/>
+    </volume>
+    <volume name="UV06">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x155"/>
+    </volume>
+    <volume name="UG06">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x149"/>
       <physvol name="UL06_1" copynumber="1">

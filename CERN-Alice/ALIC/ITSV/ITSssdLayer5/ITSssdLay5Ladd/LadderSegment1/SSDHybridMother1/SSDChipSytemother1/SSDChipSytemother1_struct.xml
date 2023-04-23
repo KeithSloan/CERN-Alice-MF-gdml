@@ -1,4 +1,62 @@
-<structure><assembly name="SSDChipContainer">
+<structure><volume name="SSDChipcableAllay1Left">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x26"/>
+    </volume>
+    <volume name="SSDChipcableKaptonlay2Left">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x27"/>
+    </volume>
+    <volume name="SSDChipcableAllay1Right">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x28"/>
+    </volume>
+    <volume name="SSDChipcableKaptonlay2Right">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x29"/>
+    </volume>
+    <assembly name="SSDChipCablesMother">
+      <physvol name="SSDChipcableAllay1Left_1" copynumber="1">
+        <volumeref ref="SSDChipcableAllay1Left"/>
+        <positionref ref="SSDChipcableAllay1Left_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableAllay1Left_1inSSDChipCablesMotherrot"/>
+      </physvol>
+      <physvol name="SSDChipcableKaptonlay2Left_1" copynumber="1">
+        <volumeref ref="SSDChipcableKaptonlay2Left"/>
+        <positionref ref="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherrot"/>
+      </physvol>
+      <physvol name="SSDChipcableAllay1Right_1" copynumber="1">
+        <volumeref ref="SSDChipcableAllay1Right"/>
+        <positionref ref="SSDChipcableAllay1Right_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableAllay1Right_1inSSDChipCablesMotherrot"/>
+      </physvol>
+      <physvol name="SSDChipcableKaptonlay2Right_1" copynumber="1">
+        <volumeref ref="SSDChipcableKaptonlay2Right"/>
+        <positionref ref="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherrot"/>
+      </physvol>
+    </assembly>
+    <volume name="SSDChipComp">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="SSDChipCompShape"/>
+    </volume>
+    <volume name="SSDChipGlueComp">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="SSDChipGlueCompShape"/>
+    </volume>
+    <volume name="SSDChip">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="SSDChipShape"/>
+      <physvol name="SSDChipComp_1" copynumber="1">
+        <volumeref ref="SSDChipComp"/>
+        <positionref ref="SSDChipComp_1inSSDChippos"/>
+      </physvol>
+      <physvol name="SSDChipGlueComp_1" copynumber="1">
+        <volumeref ref="SSDChipGlueComp"/>
+        <positionref ref="SSDChipGlueComp_1inSSDChippos"/>
+      </physvol>
+    </volume>
+    <assembly name="SSDChipContainer">
       <physvol name="SSDChip_1" copynumber="1">
         <volumeref ref="SSDChip"/>
         <positionref ref="SSDChip_1inSSDChipContainerpos"/>
@@ -46,28 +104,6 @@
       <physvol name="SSDChip_12" copynumber="12">
         <volumeref ref="SSDChip"/>
         <positionref ref="SSDChip_12inSSDChipContainerpos"/>
-      </physvol>
-    </assembly>
-    <assembly name="SSDChipCablesMother">
-      <physvol name="SSDChipcableAllay1Left_1" copynumber="1">
-        <volumeref ref="SSDChipcableAllay1Left"/>
-        <positionref ref="SSDChipcableAllay1Left_1inSSDChipCablesMotherpos"/>
-        <rotationref ref="SSDChipcableAllay1Left_1inSSDChipCablesMotherrot"/>
-      </physvol>
-      <physvol name="SSDChipcableKaptonlay2Left_1" copynumber="1">
-        <volumeref ref="SSDChipcableKaptonlay2Left"/>
-        <positionref ref="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherpos"/>
-        <rotationref ref="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherrot"/>
-      </physvol>
-      <physvol name="SSDChipcableAllay1Right_1" copynumber="1">
-        <volumeref ref="SSDChipcableAllay1Right"/>
-        <positionref ref="SSDChipcableAllay1Right_1inSSDChipCablesMotherpos"/>
-        <rotationref ref="SSDChipcableAllay1Right_1inSSDChipCablesMotherrot"/>
-      </physvol>
-      <physvol name="SSDChipcableKaptonlay2Right_1" copynumber="1">
-        <volumeref ref="SSDChipcableKaptonlay2Right"/>
-        <positionref ref="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherpos"/>
-        <rotationref ref="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherrot"/>
       </physvol>
     </assembly>
     <assembly name="SSDChipSytemother1">

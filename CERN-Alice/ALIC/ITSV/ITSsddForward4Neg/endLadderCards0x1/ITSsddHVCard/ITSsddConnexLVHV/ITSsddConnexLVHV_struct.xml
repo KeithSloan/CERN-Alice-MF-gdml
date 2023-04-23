@@ -1,10 +1,10 @@
-<structure><volume name="ITSsddConnexLVHVplast">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="connexLVHVplastic"/>
-    </volume>
-    <volume name="ITSsddConnexLVHVmetal">
+<structure><volume name="ITSsddConnexLVHVmetal">
       <materialref ref="ITS_INOX"/>
       <solidref ref="connexLVHVmetal"/>
+    </volume>
+    <volume name="ITSsddConnexLVHVplast">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="connexLVHVplastic"/>
     </volume>
     <assembly name="ITSsddConnexLVHV">
       <physvol name="ITSsddConnexLVHVmetal_1" copynumber="1">

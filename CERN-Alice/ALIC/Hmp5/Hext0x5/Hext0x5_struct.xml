@@ -1,10 +1,10 @@
-<structure><volume name="Hbusext0x10">
-      <materialref ref="HMPID_CsIPCB"/>
-      <solidref ref="Hbusext0x11"/>
-    </volume>
-    <volume name="Hgassipl40x10">
+<structure><volume name="Hgassipl40x10">
       <materialref ref="HMPID_CsIPCB"/>
       <solidref ref="Hgassipl40x11"/>
+    </volume>
+    <volume name="Hbusext0x10">
+      <materialref ref="HMPID_CsIPCB"/>
+      <solidref ref="Hbusext0x11"/>
     </volume>
     <assembly name="Hext0x5">
       <physvol name="Hgassipl4_0" copynumber="0">

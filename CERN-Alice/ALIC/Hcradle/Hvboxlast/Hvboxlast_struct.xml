@@ -1,14 +1,14 @@
-<structure><volume name="bar14incllast">
+<structure><volume name="bar14top">
       <materialref ref="HMPID_Al"/>
-      <solidref ref="bar14incllast0x1"/>
+      <solidref ref="bar14top0x1"/>
     </volume>
     <volume name="bar14vert">
       <materialref ref="HMPID_Al"/>
       <solidref ref="bar14vert0x1"/>
     </volume>
-    <volume name="bar14top">
+    <volume name="bar14incllast">
       <materialref ref="HMPID_Al"/>
-      <solidref ref="bar14top0x1"/>
+      <solidref ref="bar14incllast0x1"/>
     </volume>
     <assembly name="Hvboxlast">
       <physvol name="bar14top_1" copynumber="1">

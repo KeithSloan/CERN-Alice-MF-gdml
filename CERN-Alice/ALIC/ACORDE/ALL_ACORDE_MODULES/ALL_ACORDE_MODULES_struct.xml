@@ -1,4 +1,16 @@
-<structure><assembly name="ACORDE_MODULE">
+<structure><volume name="ACORDE1_a">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde1"/>
+    </volume>
+    <volume name="ACORDE10">
+      <materialref ref="ACORDE_ALUMINIUM0"/>
+      <solidref ref="acorde10"/>
+    </volume>
+    <volume name="ACORDE2">
+      <materialref ref="ACORDE_Polystyrene"/>
+      <solidref ref="acorde2"/>
+    </volume>
+    <assembly name="ACORDE_MODULE">
       <physvol name="ACORDE1_a_1" copynumber="1">
         <volumeref ref="ACORDE1_a"/>
         <positionref ref="ACORDE1_a_1inACORDE_MODULEpos"/>

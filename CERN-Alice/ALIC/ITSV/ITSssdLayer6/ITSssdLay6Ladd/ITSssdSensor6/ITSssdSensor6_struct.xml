@@ -1,14 +1,14 @@
-<structure><volume name="ITSssdSensitivL6">
+<structure><volume name="SSDSensorInsensitive1">
       <materialref ref="ITS_SI"/>
-      <solidref ref="SSDSensorSensitiveShape"/>
+      <solidref ref="SSDSensorInsensitiveShape1"/>
     </volume>
     <volume name="SSDSensorInsensitive2">
       <materialref ref="ITS_SI"/>
       <solidref ref="SSDSensorInsensitiveShape2"/>
     </volume>
-    <volume name="SSDSensorInsensitive1">
+    <volume name="ITSssdSensitivL6">
       <materialref ref="ITS_SI"/>
-      <solidref ref="SSDSensorInsensitiveShape1"/>
+      <solidref ref="SSDSensorSensitiveShape"/>
     </volume>
     <volume name="ITSssdSensor6">
       <materialref ref="ITS_SDD_AIR"/>

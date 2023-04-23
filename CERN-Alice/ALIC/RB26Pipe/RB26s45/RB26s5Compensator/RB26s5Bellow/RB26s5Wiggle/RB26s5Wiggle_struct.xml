@@ -1,14 +1,14 @@
-<structure><volume name="RB26s5LowerPlie">
+<structure><volume name="RB26s5PlieConn1">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="RB26s5LowerPlie0x1"/>
+      <solidref ref="TGeoTube0x55"/>
     </volume>
     <volume name="RB26s5UpperPlie">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="RB26s5UpperPlie0x1"/>
     </volume>
-    <volume name="RB26s5PlieConn1">
+    <volume name="RB26s5LowerPlie">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoTube0x55"/>
+      <solidref ref="RB26s5LowerPlie0x1"/>
     </volume>
     <assembly name="RB26s5Wiggle">
       <physvol name="RB26s5PlieConn1_1" copynumber="1">

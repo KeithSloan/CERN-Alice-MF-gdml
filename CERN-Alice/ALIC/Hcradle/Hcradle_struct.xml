@@ -1,6 +1,108 @@
-<structure><volume name="bar14bot">
+<structure><volume name="cradleLbase">
       <materialref ref="HMPID_Al"/>
-      <solidref ref="bar14bot0x1"/>
+      <solidref ref="cradleLbase0x1"/>
+    </volume>
+    <volume name="cradleSbase">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="cradleSbase0x1"/>
+    </volume>
+    <volume name="inclinedbar">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="inclinedbar0x1"/>
+    </volume>
+    <volume name="horizontalbar">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="horizontalbar0x1"/>
+    </volume>
+    <volume name="bar4">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar40x1"/>
+    </volume>
+    <volume name="bar5">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar50x1"/>
+    </volume>
+    <volume name="bar6">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar60x1"/>
+    </volume>
+    <volume name="bar7">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar70x1"/>
+    </volume>
+    <volume name="bar8">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar80x1"/>
+    </volume>
+    <volume name="bar9">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar90x1"/>
+    </volume>
+    <volume name="bar10">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar100x1"/>
+    </volume>
+    <volume name="bar11">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar110x1"/>
+    </volume>
+    <volume name="bar12">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar120x1"/>
+    </volume>
+    <volume name="bar13">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar130x1"/>
+    </volume>
+    <volume name="bar14top">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar14top0x1"/>
+    </volume>
+    <volume name="bar14vert">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar14vert0x1"/>
+    </volume>
+    <volume name="bar14incllast">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar14incllast0x1"/>
+    </volume>
+    <assembly name="Hvboxlast">
+      <physvol name="bar14top_1" copynumber="1">
+        <volumeref ref="bar14top"/>
+        <positionref ref="bar14top_1inHvboxlastpos"/>
+      </physvol>
+      <physvol name="bar14vert_1" copynumber="1">
+        <volumeref ref="bar14vert"/>
+        <positionref ref="bar14vert_1inHvboxlastpos"/>
+        <rotationref ref="bar14vert_1inHvboxlastrot"/>
+      </physvol>
+      <physvol name="bar14vert_2" copynumber="2">
+        <volumeref ref="bar14vert"/>
+        <positionref ref="bar14vert_2inHvboxlastpos"/>
+        <rotationref ref="bar14vert_2inHvboxlastrot"/>
+      </physvol>
+      <physvol name="bar14incllast_1" copynumber="1">
+        <volumeref ref="bar14incllast"/>
+        <positionref ref="bar14incllast_1inHvboxlastpos"/>
+        <rotationref ref="bar14incllast_1inHvboxlastrot"/>
+      </physvol>
+      <physvol name="bar14incllast_2" copynumber="2">
+        <volumeref ref="bar14incllast"/>
+        <positionref ref="bar14incllast_2inHvboxlastpos"/>
+        <rotationref ref="bar14incllast_2inHvboxlastrot"/>
+      </physvol>
+    </assembly>
+    <volume name="bar14top">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar14top0x1"/>
+    </volume>
+    <volume name="bar14vert">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar14vert0x1"/>
+    </volume>
+    <volume name="bar14incl">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar14incl0x1"/>
     </volume>
     <assembly name="Hvbox">
       <physvol name="bar14top_1" copynumber="1">
@@ -28,87 +130,9 @@
         <rotationref ref="bar14incl_2inHvboxrot"/>
       </physvol>
     </assembly>
-    <assembly name="Hvboxlast">
-      <physvol name="bar14top_1" copynumber="1">
-        <volumeref ref="bar14top"/>
-        <positionref ref="bar14top_1inHvboxlastpos"/>
-      </physvol>
-      <physvol name="bar14vert_1" copynumber="1">
-        <volumeref ref="bar14vert"/>
-        <positionref ref="bar14vert_1inHvboxlastpos"/>
-        <rotationref ref="bar14vert_1inHvboxlastrot"/>
-      </physvol>
-      <physvol name="bar14vert_2" copynumber="2">
-        <volumeref ref="bar14vert"/>
-        <positionref ref="bar14vert_2inHvboxlastpos"/>
-        <rotationref ref="bar14vert_2inHvboxlastrot"/>
-      </physvol>
-      <physvol name="bar14incllast_1" copynumber="1">
-        <volumeref ref="bar14incllast"/>
-        <positionref ref="bar14incllast_1inHvboxlastpos"/>
-        <rotationref ref="bar14incllast_1inHvboxlastrot"/>
-      </physvol>
-      <physvol name="bar14incllast_2" copynumber="2">
-        <volumeref ref="bar14incllast"/>
-        <positionref ref="bar14incllast_2inHvboxlastpos"/>
-        <rotationref ref="bar14incllast_2inHvboxlastrot"/>
-      </physvol>
-    </assembly>
-    <volume name="bar13">
+    <volume name="bar14bot">
       <materialref ref="HMPID_Al"/>
-      <solidref ref="bar130x1"/>
-    </volume>
-    <volume name="bar12">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar120x1"/>
-    </volume>
-    <volume name="bar11">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar110x1"/>
-    </volume>
-    <volume name="bar10">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar100x1"/>
-    </volume>
-    <volume name="bar9">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar90x1"/>
-    </volume>
-    <volume name="bar8">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar80x1"/>
-    </volume>
-    <volume name="bar7">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar70x1"/>
-    </volume>
-    <volume name="bar6">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar60x1"/>
-    </volume>
-    <volume name="bar5">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar50x1"/>
-    </volume>
-    <volume name="bar4">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="bar40x1"/>
-    </volume>
-    <volume name="horizontalbar">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="horizontalbar0x1"/>
-    </volume>
-    <volume name="inclinedbar">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="inclinedbar0x1"/>
-    </volume>
-    <volume name="cradleSbase">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="cradleSbase0x1"/>
-    </volume>
-    <volume name="cradleLbase">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="cradleLbase0x1"/>
+      <solidref ref="bar14bot0x1"/>
     </volume>
     <assembly name="Hcradle">
       <physvol name="cradleLbase_0" copynumber="0">

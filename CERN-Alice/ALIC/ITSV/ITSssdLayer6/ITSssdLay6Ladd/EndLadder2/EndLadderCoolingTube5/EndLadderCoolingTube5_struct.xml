@@ -1,10 +1,10 @@
-<structure><volume name="InnerEndlLadderCoolingTube5">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x112"/>
-    </volume>
-    <volume name="OuterEndLadderCoolingTube5">
+<structure><volume name="OuterEndLadderCoolingTube5">
       <materialref ref="ITS_INOX"/>
       <solidref ref="TGeoTube0x111"/>
+    </volume>
+    <volume name="InnerEndlLadderCoolingTube5">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x112"/>
     </volume>
     <volume name="EndLadderCoolingTube5">
       <materialref ref="ITS_SDD_AIR"/>

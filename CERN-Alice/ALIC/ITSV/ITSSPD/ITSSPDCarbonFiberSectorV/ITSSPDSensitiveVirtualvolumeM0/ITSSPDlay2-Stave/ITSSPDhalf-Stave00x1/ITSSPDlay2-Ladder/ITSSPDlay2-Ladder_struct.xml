@@ -1,18 +1,18 @@
-<structure><volume name="ITSSPDchip0x4">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDchip0x5"/>
-    </volume>
-    <volume name="ITSSPDbb0x4">
-      <materialref ref="ITS_COPPER"/>
-      <solidref ref="ITSSPDbb0x5"/>
+<structure><volume name="ITSSPDlay2-sensor">
+      <materialref ref="ITS_SI"/>
+      <solidref ref="ITSSPDlay2-sensor0x1"/>
     </volume>
     <volume name="ITSSPDgaurdRing0x2">
       <materialref ref="ITS_SI"/>
       <solidref ref="ITSSPDgaurdRingBorder0x2"/>
     </volume>
-    <volume name="ITSSPDlay2-sensor">
-      <materialref ref="ITS_SI"/>
-      <solidref ref="ITSSPDlay2-sensor0x1"/>
+    <volume name="ITSSPDbb0x4">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="ITSSPDbb0x5"/>
+    </volume>
+    <volume name="ITSSPDchip0x4">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDchip0x5"/>
     </volume>
     <volume name="ITSSPDlay2-Ladder">
       <materialref ref="ITS_AIR"/>

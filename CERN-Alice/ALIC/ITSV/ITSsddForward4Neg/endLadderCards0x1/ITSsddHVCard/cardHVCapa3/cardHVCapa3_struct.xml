@@ -1,10 +1,10 @@
-<structure><volume name="vCardHVCapa3End">
-      <materialref ref="ITS_SDD_X7R_capacitors"/>
-      <solidref ref="cardHVCapa3End"/>
-    </volume>
-    <volume name="vCardHVCapa3Middle">
+<structure><volume name="vCardHVCapa3Middle">
       <materialref ref="ITS_SDD_X7R_capacitors"/>
       <solidref ref="cardHVCapa3Middle"/>
+    </volume>
+    <volume name="vCardHVCapa3End">
+      <materialref ref="ITS_SDD_X7R_capacitors"/>
+      <solidref ref="cardHVCapa3End"/>
     </volume>
     <assembly name="cardHVCapa3">
       <physvol name="vCardHVCapa3Middle_1" copynumber="1">

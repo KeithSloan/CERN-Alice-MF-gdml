@@ -1,18 +1,18 @@
-<structure><volume name="AFaWTube4">
+<structure><volume name="AFaWTube1">
       <materialref ref="ABSO_Ni-W-Cu2"/>
-      <solidref ref="TGeoCone0x1"/>
-    </volume>
-    <volume name="AFaWTube3">
-      <materialref ref="ABSO_Ni-W-Cu2"/>
-      <solidref ref="TGeoCone"/>
+      <solidref ref="TGeoPcon0x1"/>
     </volume>
     <volume name="AFaWTube2">
       <materialref ref="ABSO_Ni-W-Cu2"/>
       <solidref ref="TGeoPcon0x2"/>
     </volume>
-    <volume name="AFaWTube1">
+    <volume name="AFaWTube3">
       <materialref ref="ABSO_Ni-W-Cu2"/>
-      <solidref ref="TGeoPcon0x1"/>
+      <solidref ref="TGeoCone"/>
+    </volume>
+    <volume name="AFaWTube4">
+      <materialref ref="ABSO_Ni-W-Cu2"/>
+      <solidref ref="TGeoCone0x1"/>
     </volume>
     <assembly name="AFaInnerShield">
       <physvol name="AFaWTube1_1" copynumber="1">

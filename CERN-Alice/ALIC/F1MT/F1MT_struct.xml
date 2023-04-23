@@ -1,10 +1,136 @@
-<structure><volume name="FMD1_lid">
-      <materialref ref="FMD_Carbon"/>
-      <solidref ref="FMD1_lid0x1"/>
+<structure><volume name="FIAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FIAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="18" offset="-360" unit="deg">
+        <volumeref ref="FISC"/>
+      </divisionvol>
     </volume>
-    <volume name="F1HI">
-      <materialref ref="FMD_Aluminum"/>
-      <solidref ref="F1HI0x1"/>
+    <volume name="FISE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDI_physical_sensor"/>
+      <physvol name="FIAC_0" copynumber="0">
+        <volumeref ref="FIAC"/>
+        <positionref ref="FIAC_0inFISEpos"/>
+      </physvol>
+    </volume>
+    <volume name="FIPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDI_hybrid_pcb"/>
+    </volume>
+    <volume name="FICU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDI_hybrid_copper"/>
+    </volume>
+    <volume name="FICH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDI_hybrid_chip"/>
+    </volume>
+    <volume name="FISL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FISL0x1"/>
+    </volume>
+    <assembly name="FIBH">
+      <physvol name="FISE_0" copynumber="0">
+        <volumeref ref="FISE"/>
+        <positionref ref="FISE_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FIPB_0" copynumber="0">
+        <volumeref ref="FIPB"/>
+        <positionref ref="FIPB_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FICU_0" copynumber="0">
+        <volumeref ref="FICU"/>
+        <positionref ref="FICU_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FICH_0" copynumber="0">
+        <volumeref ref="FICH"/>
+        <positionref ref="FICH_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_0" copynumber="0">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_1" copynumber="1">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_1inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_2" copynumber="2">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_2inFIBHpos"/>
+      </physvol>
+    </assembly>
+    <volume name="FIAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FIAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="18" offset="-360" unit="deg">
+        <volumeref ref="FISC"/>
+      </divisionvol>
+    </volume>
+    <volume name="FISE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDI_physical_sensor"/>
+      <physvol name="FIAC_0" copynumber="0">
+        <volumeref ref="FIAC"/>
+        <positionref ref="FIAC_0inFISEpos"/>
+      </physvol>
+    </volume>
+    <volume name="FIPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDI_hybrid_pcb"/>
+    </volume>
+    <volume name="FICU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDI_hybrid_copper"/>
+    </volume>
+    <volume name="FICH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDI_hybrid_chip"/>
+    </volume>
+    <volume name="FILL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FILL0x1"/>
+    </volume>
+    <assembly name="FIFH">
+      <physvol name="FISE_0" copynumber="0">
+        <volumeref ref="FISE"/>
+        <positionref ref="FISE_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FIPB_0" copynumber="0">
+        <volumeref ref="FIPB"/>
+        <positionref ref="FIPB_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FICU_0" copynumber="0">
+        <volumeref ref="FICU"/>
+        <positionref ref="FICU_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FICH_0" copynumber="0">
+        <volumeref ref="FICH"/>
+        <positionref ref="FICH_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FILL_0" copynumber="0">
+        <volumeref ref="FILL"/>
+        <positionref ref="FILL_0inFIFHpos"/>
+      </physvol>
+      <physvol name="FILL_1" copynumber="1">
+        <volumeref ref="FILL"/>
+        <positionref ref="FILL_1inFIFHpos"/>
+      </physvol>
+      <physvol name="FILL_2" copynumber="2">
+        <volumeref ref="FILL"/>
+        <positionref ref="FILL_2inFIFHpos"/>
+      </physvol>
+    </assembly>
+    <volume name="FIDP">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FIDP0x1"/>
+    </volume>
+    <volume name="FIDC">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FIDC0x1"/>
+    </volume>
+    <volume name="FIDI">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FIDI0x1"/>
     </volume>
     <assembly name="FITV">
       <physvol name="FIBH_0" copynumber="0">
@@ -45,6 +171,14 @@
         <positionref ref="FIDI_0inFITVpos"/>
       </physvol>
     </assembly>
+    <volume name="F1HI">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="F1HI0x1"/>
+    </volume>
+    <volume name="FMD1_lid">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="FMD1_lid0x1"/>
+    </volume>
     <assembly name="F1MT">
       <physvol name="FITV_73" copynumber="73">
         <volumeref ref="FITV"/>

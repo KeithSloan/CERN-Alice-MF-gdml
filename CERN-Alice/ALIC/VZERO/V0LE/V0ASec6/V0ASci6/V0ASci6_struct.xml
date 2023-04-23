@@ -1,22 +1,22 @@
-<structure><volume name="V0AR56">
+<structure><volume name="V0L16">
       <materialref ref="VZERO_V0ASci"/>
-      <solidref ref="V0AR560x1"/>
-    </volume>
-    <volume name="V0L46">
-      <materialref ref="VZERO_V0ASci"/>
-      <solidref ref="sV0AR46"/>
-    </volume>
-    <volume name="V0L36">
-      <materialref ref="VZERO_V0ASci"/>
-      <solidref ref="sV0AR36"/>
+      <solidref ref="sV0AR16"/>
     </volume>
     <volume name="V0L26">
       <materialref ref="VZERO_V0ASci"/>
       <solidref ref="sV0AR26"/>
     </volume>
-    <volume name="V0L16">
+    <volume name="V0L36">
       <materialref ref="VZERO_V0ASci"/>
-      <solidref ref="sV0AR16"/>
+      <solidref ref="sV0AR36"/>
+    </volume>
+    <volume name="V0L46">
+      <materialref ref="VZERO_V0ASci"/>
+      <solidref ref="sV0AR46"/>
+    </volume>
+    <volume name="V0AR56">
+      <materialref ref="VZERO_V0ASci"/>
+      <solidref ref="V0AR560x1"/>
     </volume>
     <assembly name="V0ASci6">
       <physvol name="V0L16_1" copynumber="1">

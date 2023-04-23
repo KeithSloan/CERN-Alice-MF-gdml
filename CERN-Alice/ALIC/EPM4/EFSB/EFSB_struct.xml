@@ -1,4 +1,8 @@
-<structure><volume name="EFBB">
+<structure><volume name="EFEE">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EFEE0x1"/>
+    </volume>
+    <volume name="EFBB">
       <materialref ref="PMD_Air__"/>
       <solidref ref="EFBB0x1"/>
       <physvol name="EFEE_1" copynumber="1">

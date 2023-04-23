@@ -1,22 +1,22 @@
-<structure><volume name="ITSSPDGrease0x2">
+<structure><volume name="ITSSPDgFoilKapR">
       <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDGrease0x3"/>
-    </volume>
-    <volume name="ITSSPDgFoilGlueR0x1">
-      <materialref ref="ITS_EPOXY"/>
-      <solidref ref="ITSSPDSHgFoilGlue20x1"/>
-    </volume>
-    <volume name="ITSSPDgFoilGlueR">
-      <materialref ref="ITS_EPOXY"/>
-      <solidref ref="ITSSPDSHgFoilGlue10x1"/>
+      <solidref ref="ITSSPDSHgFoilKap0x1"/>
     </volume>
     <volume name="ITSSPDgFoilAluR">
       <materialref ref="ITS_AL"/>
       <solidref ref="ITSSPDSHgFoilAlu0x1"/>
     </volume>
-    <volume name="ITSSPDgFoilKapR">
+    <volume name="ITSSPDgFoilGlueR">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="ITSSPDSHgFoilGlue10x1"/>
+    </volume>
+    <volume name="ITSSPDgFoilGlueR0x1">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="ITSSPDSHgFoilGlue20x1"/>
+    </volume>
+    <volume name="ITSSPDGrease0x2">
       <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="ITSSPDSHgFoilKap0x1"/>
+      <solidref ref="ITSSPDGrease0x3"/>
     </volume>
     <volume name="ITSSPDgFOIL-R">
       <materialref ref="ITS_AIR"/>

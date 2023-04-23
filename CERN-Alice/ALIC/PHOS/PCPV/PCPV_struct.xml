@@ -1,18 +1,18 @@
-<structure><volume name="PCF2">
-      <materialref ref="PHOS_Al"/>
-      <solidref ref="PCF20x1"/>
+<structure><volume name="PCPD">
+      <materialref ref="PHOS_Cu"/>
+      <solidref ref="PCPD0x1"/>
     </volume>
-    <volume name="PCF1">
-      <materialref ref="PHOS_Al"/>
-      <solidref ref="PCF10x1"/>
-    </volume>
-    <volume name="PCPG">
-      <materialref ref="PHOS_ArCO2"/>
-      <solidref ref="PCPG0x1"/>
-      <physvol name="PCPQ_1" copynumber="1">
-        <volumeref ref="PCPQ"/>
-        <positionref ref="PCPQ_1inPCPGpos"/>
+    <volume name="PCPC">
+      <materialref ref="PHOS_Textolit"/>
+      <solidref ref="PCPC0x1"/>
+      <physvol name="PCPD_1" copynumber="1">
+        <volumeref ref="PCPD"/>
+        <positionref ref="PCPD_1inPCPCpos"/>
       </physvol>
+    </volume>
+    <volume name="PCP1">
+      <materialref ref="PHOS_Cu"/>
+      <solidref ref="PCP10x1"/>
     </volume>
     <volume name="PCPF">
       <materialref ref="PHOS_Textolit"/>
@@ -22,13 +22,25 @@
         <positionref ref="PCP1_1inPCPFpos"/>
       </physvol>
     </volume>
-    <volume name="PCPC">
-      <materialref ref="PHOS_Textolit"/>
-      <solidref ref="PCPC0x1"/>
-      <physvol name="PCPD_1" copynumber="1">
-        <volumeref ref="PCPD"/>
-        <positionref ref="PCPD_1inPCPCpos"/>
+    <volume name="PCPQ">
+      <materialref ref="PHOS_ArCO2"/>
+      <solidref ref="PCPQ0x1"/>
+    </volume>
+    <volume name="PCPG">
+      <materialref ref="PHOS_ArCO2"/>
+      <solidref ref="PCPG0x1"/>
+      <physvol name="PCPQ_1" copynumber="1">
+        <volumeref ref="PCPQ"/>
+        <positionref ref="PCPQ_1inPCPGpos"/>
       </physvol>
+    </volume>
+    <volume name="PCF1">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCF10x1"/>
+    </volume>
+    <volume name="PCF2">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCF20x1"/>
     </volume>
     <volume name="PCPV">
       <materialref ref="PHOS_Air"/>

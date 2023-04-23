@@ -1,26 +1,26 @@
-<structure><volume name="UV24">
+<structure><volume name="UL24">
       <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x311"/>
-    </volume>
-    <volume name="UO24">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x310"/>
-    </volume>
-    <volume name="UN24">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x309"/>
-    </volume>
-    <volume name="UM24">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x308"/>
+      <solidref ref="TGeoBBox0x306"/>
     </volume>
     <volume name="UY24">
       <materialref ref="TRD_Araldite"/>
       <solidref ref="TGeoBBox0x307"/>
     </volume>
-    <volume name="UL24">
+    <volume name="UM24">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x308"/>
+    </volume>
+    <volume name="UN24">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x309"/>
+    </volume>
+    <volume name="UO24">
       <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x306"/>
+      <solidref ref="TGeoBBox0x310"/>
+    </volume>
+    <volume name="UV24">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x311"/>
     </volume>
     <volume name="UG24">
       <materialref ref="TRD_Air"/>

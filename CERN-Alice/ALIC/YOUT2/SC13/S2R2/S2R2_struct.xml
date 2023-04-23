@@ -1,4 +1,16 @@
-<structure><volume name="SC3A0x28">
+<structure><volume name="S13G0x14">
+      <materialref ref="MUON_TRIG_GAS"/>
+      <solidref ref="TGeoBBox0x812"/>
+    </volume>
+    <volume name="SB3A0x14">
+      <materialref ref="MUON_Bakelite"/>
+      <solidref ref="TGeoBBox0x811"/>
+      <physvol name="S13G_1" copynumber="1">
+        <volumeref ref="S13G0x14"/>
+        <positionref ref="S13G_10x14inSB3A0x14pos"/>
+      </physvol>
+    </volume>
+    <volume name="SC3A0x28">
       <materialref ref="MUON_ALUMINIUM0"/>
       <solidref ref="SC3A0x29"/>
       <physvol name="SB3A_1" copynumber="1">

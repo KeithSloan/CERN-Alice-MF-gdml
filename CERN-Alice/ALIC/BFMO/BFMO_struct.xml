@@ -1,38 +1,194 @@
-<structure><volume name="FTOS">
-      <materialref ref="TOF_AlCusteel"/>
-      <solidref ref="FTOS0x1"/>
+<structure><volume name="UTC40x24">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x505"/>
     </volume>
-    <volume name="BFRB">
-      <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="BFRB0x1"/>
-      <physvol name="BFRR_1" copynumber="1">
-        <volumeref ref="BFRR"/>
-        <positionref ref="BFRR_1inBFRBpos"/>
+    <volume name="UTC30x48">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x49"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x24"/>
+        <positionref ref="UTC4_10x24inUTC30x48pos"/>
       </physvol>
     </volume>
-    <volume name="BFLB">
-      <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="BFLB0x1"/>
-      <physvol name="BFLL_1" copynumber="1">
-        <volumeref ref="BFLL"/>
-        <positionref ref="BFLL_1inBFLBpos"/>
+    <volume name="UTC40x25">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x506"/>
+    </volume>
+    <volume name="UTC30x50">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x51"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x25"/>
+        <positionref ref="UTC4_10x25inUTC30x50pos"/>
       </physvol>
     </volume>
-    <volume name="BFOR">
-      <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="BFOR0x1"/>
-      <physvol name="BFOO_1" copynumber="1">
-        <volumeref ref="BFOO"/>
-        <positionref ref="BFOO_1inBFORpos"/>
+    <volume name="UTC40x26">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x507"/>
+    </volume>
+    <volume name="UTC30x52">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x53"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x26"/>
+        <positionref ref="UTC4_10x26inUTC30x52pos"/>
       </physvol>
     </volume>
-    <volume name="BFIR">
-      <materialref ref="FRAME_STAINLESS_STEEL"/>
-      <solidref ref="BFIR0x1"/>
-      <physvol name="BFII_1" copynumber="1">
-        <volumeref ref="BFII"/>
-        <positionref ref="BFII_1inBFIRpos"/>
+    <volume name="UTC40x27">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x508"/>
+    </volume>
+    <volume name="UTC30x54">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x55"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x27"/>
+        <positionref ref="UTC4_10x27inUTC30x54pos"/>
       </physvol>
+    </volume>
+    <volume name="UTC40x28">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x509"/>
+    </volume>
+    <volume name="UTC30x56">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x57"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x28"/>
+        <positionref ref="UTC4_10x28inUTC30x56pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTC40x29">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x510"/>
+    </volume>
+    <volume name="UTC30x58">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x59"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x29"/>
+        <positionref ref="UTC4_10x29inUTC30x58pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTC40x30">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x511"/>
+    </volume>
+    <volume name="UTC30x60">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x61"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x30"/>
+        <positionref ref="UTC4_10x30inUTC30x60pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTC40x31">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x512"/>
+    </volume>
+    <volume name="UTC30x62">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x63"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x31"/>
+        <positionref ref="UTC4_10x31inUTC30x62pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTC40x32">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x513"/>
+    </volume>
+    <volume name="UTC30x64">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x65"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x32"/>
+        <positionref ref="UTC4_10x32inUTC30x64pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTC40x33">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x514"/>
+    </volume>
+    <volume name="UTC30x66">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x67"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x33"/>
+        <positionref ref="UTC4_10x33inUTC30x66pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTC40x34">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x515"/>
+    </volume>
+    <volume name="UTC30x68">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x69"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x34"/>
+        <positionref ref="UTC4_10x34inUTC30x68pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTC40x35">
+      <materialref ref="TRD_Water"/>
+      <solidref ref="TGeoBBox0x516"/>
+    </volume>
+    <volume name="UTC30x70">
+      <materialref ref="TRD_Fe"/>
+      <solidref ref="UTC30x71"/>
+      <physvol name="UTC4_1" copynumber="1">
+        <volumeref ref="UTC40x35"/>
+        <positionref ref="UTC4_10x35inUTC30x70pos"/>
+      </physvol>
+    </volume>
+    <volume name="UTP30x48">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x49"/>
+    </volume>
+    <volume name="UTP30x50">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x51"/>
+    </volume>
+    <volume name="UTP30x52">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x53"/>
+    </volume>
+    <volume name="UTP30x54">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x55"/>
+    </volume>
+    <volume name="UTP30x56">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x57"/>
+    </volume>
+    <volume name="UTP30x58">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x59"/>
+    </volume>
+    <volume name="UTP30x60">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x61"/>
+    </volume>
+    <volume name="UTP30x62">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x63"/>
+    </volume>
+    <volume name="UTP30x64">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x65"/>
+    </volume>
+    <volume name="UTP30x66">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x67"/>
+    </volume>
+    <volume name="UTP30x68">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x69"/>
+    </volume>
+    <volume name="UTP30x70">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="UTP30x71"/>
     </volume>
     <volume name="BFTRD">
       <materialref ref="FRAME_AIR"/>
@@ -157,6 +313,58 @@
         <positionref ref="UTP3_60inBFTRDpos"/>
         <rotationref ref="UTP3_60inBFTRDrot"/>
       </physvol>
+    </volume>
+    <volume name="BFII">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="BFII0x1"/>
+    </volume>
+    <volume name="BFIR">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="BFIR0x1"/>
+      <physvol name="BFII_1" copynumber="1">
+        <volumeref ref="BFII"/>
+        <positionref ref="BFII_1inBFIRpos"/>
+      </physvol>
+    </volume>
+    <volume name="BFOO">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="BFOO0x1"/>
+    </volume>
+    <volume name="BFOR">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="BFOR0x1"/>
+      <physvol name="BFOO_1" copynumber="1">
+        <volumeref ref="BFOO"/>
+        <positionref ref="BFOO_1inBFORpos"/>
+      </physvol>
+    </volume>
+    <volume name="BFLL">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="BFLL0x1"/>
+    </volume>
+    <volume name="BFLB">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="BFLB0x1"/>
+      <physvol name="BFLL_1" copynumber="1">
+        <volumeref ref="BFLL"/>
+        <positionref ref="BFLL_1inBFLBpos"/>
+      </physvol>
+    </volume>
+    <volume name="BFRR">
+      <materialref ref="FRAME_AIR"/>
+      <solidref ref="BFRR0x1"/>
+    </volume>
+    <volume name="BFRB">
+      <materialref ref="FRAME_STAINLESS_STEEL"/>
+      <solidref ref="BFRB0x1"/>
+      <physvol name="BFRR_1" copynumber="1">
+        <volumeref ref="BFRR"/>
+        <positionref ref="BFRR_1inBFRBpos"/>
+      </physvol>
+    </volume>
+    <volume name="FTOS">
+      <materialref ref="TOF_AlCusteel"/>
+      <solidref ref="FTOS0x1"/>
     </volume>
     <volume name="BFMO">
       <materialref ref="FRAME_AIR"/>

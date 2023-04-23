@@ -1,13 +1,29 @@
-<structure><assembly name="LadderEndCableSegmentBBoxAssembly0x48">
-      <physvol name="LadderEndCableSegmentBBox1_1" copynumber="1">
-        <volumeref ref="LadderEndCableSegmentBBox10x48"/>
-        <positionref ref="LadderEndCableSegmentBBox1_10x48inLadderEndCableSegmentBBoxAssembly0x48pos"/>
+<structure><volume name="LadderCableSegmentBBox10x48">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="LadderCableSegmentBBoxShape10x48"/>
+    </volume>
+    <volume name="LadderCableSegmentBBox20x48">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="LadderCableSegmentBBoxShape20x48"/>
+    </volume>
+    <assembly name="LadderCableSegmentBBoxAssembly0x48">
+      <physvol name="LadderCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox10x48"/>
+        <positionref ref="LadderCableSegmentBBox1_10x48inLadderCableSegmentBBoxAssembly0x48pos"/>
       </physvol>
-      <physvol name="LadderEndCableSegmentBBox2_1" copynumber="1">
-        <volumeref ref="LadderEndCableSegmentBBox20x48"/>
-        <positionref ref="LadderEndCableSegmentBBox2_10x48inLadderEndCableSegmentBBoxAssembly0x48pos"/>
+      <physvol name="LadderCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderCableSegmentBBox20x48"/>
+        <positionref ref="LadderCableSegmentBBox2_10x48inLadderCableSegmentBBoxAssembly0x48pos"/>
       </physvol>
     </assembly>
+    <volume name="LadderCableSegmentArb10x44">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="LadderCableSegmentArbShape10x44"/>
+    </volume>
+    <volume name="LadderCableSegmentArb20x44">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="LadderCableSegmentArbShape20x44"/>
+    </volume>
     <assembly name="LadderCableSegmentArbAssembly0x44">
       <physvol name="LadderCableSegmentArb1_1" copynumber="1">
         <volumeref ref="LadderCableSegmentArb10x44"/>
@@ -20,14 +36,22 @@
         <rotationref ref="LadderCableSegmentArb2_10x44inLadderCableSegmentArbAssembly0x44rot"/>
       </physvol>
     </assembly>
-    <assembly name="LadderCableSegmentBBoxAssembly0x48">
-      <physvol name="LadderCableSegmentBBox1_1" copynumber="1">
-        <volumeref ref="LadderCableSegmentBBox10x48"/>
-        <positionref ref="LadderCableSegmentBBox1_10x48inLadderCableSegmentBBoxAssembly0x48pos"/>
+    <volume name="LadderEndCableSegmentBBox10x48">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="LadderEndCableSegmentBBoxShape10x48"/>
+    </volume>
+    <volume name="LadderEndCableSegmentBBox20x48">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="LadderEndCableSegmentBBoxShape20x48"/>
+    </volume>
+    <assembly name="LadderEndCableSegmentBBoxAssembly0x48">
+      <physvol name="LadderEndCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox10x48"/>
+        <positionref ref="LadderEndCableSegmentBBox1_10x48inLadderEndCableSegmentBBoxAssembly0x48pos"/>
       </physvol>
-      <physvol name="LadderCableSegmentBBox2_1" copynumber="1">
-        <volumeref ref="LadderCableSegmentBBox20x48"/>
-        <positionref ref="LadderCableSegmentBBox2_10x48inLadderCableSegmentBBoxAssembly0x48pos"/>
+      <physvol name="LadderEndCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox20x48"/>
+        <positionref ref="LadderEndCableSegmentBBox2_10x48inLadderEndCableSegmentBBoxAssembly0x48pos"/>
       </physvol>
     </assembly>
     <assembly name="LadderCable0x48">

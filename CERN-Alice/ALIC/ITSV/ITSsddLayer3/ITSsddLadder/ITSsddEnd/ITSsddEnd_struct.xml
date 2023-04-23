@@ -1,32 +1,50 @@
-<structure><assembly name="RaccordoL">
-      <physvol name="vwaterRac_1" copynumber="1">
-        <volumeref ref="vwaterRac"/>
-        <positionref ref="vwaterRac_1inRaccordoLpos"/>
-      </physvol>
-      <physvol name="vtube1Rac_1" copynumber="1">
-        <volumeref ref="vtube1Rac"/>
-        <positionref ref="vtube1Rac_1inRaccordoLpos"/>
-      </physvol>
-      <physvol name="vtube2Rac_1" copynumber="1">
-        <volumeref ref="vtube2Rac"/>
-        <positionref ref="vtube2Rac_1inRaccordoLpos"/>
-      </physvol>
-      <physvol name="vtube3Rac_1" copynumber="1">
-        <volumeref ref="vtube3Rac"/>
-        <positionref ref="vtube3Rac_1inRaccordoLpos"/>
-      </physvol>
-    </assembly>
-    <volume name="guideHV">
+<structure><volume name="ITSsddCFladdTopCornerVol10x1">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoArb80x53"/>
+    </volume>
+    <volume name="ITSsddCFladdTopCornerV2">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoArb80x54"/>
+    </volume>
+    <volume name="ITSsddCFladdSideCornerV1">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoArb80x55"/>
+    </volume>
+    <volume name="ITSsddCFladdSideCornerV2">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoArb80x56"/>
+    </volume>
+    <volume name="ITSsddCFSideBeamVol">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoTubeSeg0x12"/>
+    </volume>
+    <volume name="ITSsddBottomBeam2Vol0x1">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="TGeoTubeSeg0x16"/>
+    </volume>
+    <volume name="ITSsddCoolPipeSupportL">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="ITSsddCoolPipeSuppShapeL"/>
+    </volume>
+    <volume name="ITSsddCoolPipeSupportR">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="ITSsddCoolPipeSuppShapeR"/>
+    </volume>
+    <volume name="vFootRightPart">
       <materialref ref="ITS_G10FR4"/>
-      <solidref ref="guideHVbox"/>
+      <solidref ref="TGeoCompositeShape0x218"/>
     </volume>
-    <volume name="ITSsddCoolingEndLiquid">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x71"/>
+    <volume name="vFootMiddle">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="footMiddle"/>
     </volume>
-    <volume name="ITSsddCoolingPipeEnd">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x70"/>
+    <volume name="vFootLeftLadFinger">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="footLeftLadFinger"/>
+    </volume>
+    <volume name="vFootLeft">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="footLeft"/>
     </volume>
     <assembly name="ITSsddFoot">
       <physvol name="vFootRightPart_1" copynumber="1">
@@ -46,38 +64,52 @@
         <positionref ref="vFootLeft_1inITSsddFootpos"/>
       </physvol>
     </assembly>
-    <volume name="ITSsddCoolPipeSupportR">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="ITSsddCoolPipeSuppShapeR"/>
+    <volume name="ITSsddCoolingPipeEnd">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x70"/>
     </volume>
-    <volume name="ITSsddCoolPipeSupportL">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="ITSsddCoolPipeSuppShapeL"/>
+    <volume name="ITSsddCoolingEndLiquid">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x71"/>
     </volume>
-    <volume name="ITSsddBottomBeam2Vol0x1">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="TGeoTubeSeg0x16"/>
+    <volume name="guideHV">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="guideHVbox"/>
     </volume>
-    <volume name="ITSsddCFSideBeamVol">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="TGeoTubeSeg0x12"/>
+    <volume name="vwaterRac">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="waterRac"/>
     </volume>
-    <volume name="ITSsddCFladdSideCornerV2">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="TGeoArb80x56"/>
+    <volume name="vtube1Rac">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="tube1Rac"/>
     </volume>
-    <volume name="ITSsddCFladdSideCornerV1">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="TGeoArb80x55"/>
+    <volume name="vtube2Rac">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="tube2Rac"/>
     </volume>
-    <volume name="ITSsddCFladdTopCornerV2">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="TGeoArb80x54"/>
+    <volume name="vtube3Rac">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="tube3Rac"/>
     </volume>
-    <volume name="ITSsddCFladdTopCornerVol10x1">
-      <materialref ref="ITS_SDD_C_AL_M55J"/>
-      <solidref ref="TGeoArb80x53"/>
-    </volume>
+    <assembly name="RaccordoL">
+      <physvol name="vwaterRac_1" copynumber="1">
+        <volumeref ref="vwaterRac"/>
+        <positionref ref="vwaterRac_1inRaccordoLpos"/>
+      </physvol>
+      <physvol name="vtube1Rac_1" copynumber="1">
+        <volumeref ref="vtube1Rac"/>
+        <positionref ref="vtube1Rac_1inRaccordoLpos"/>
+      </physvol>
+      <physvol name="vtube2Rac_1" copynumber="1">
+        <volumeref ref="vtube2Rac"/>
+        <positionref ref="vtube2Rac_1inRaccordoLpos"/>
+      </physvol>
+      <physvol name="vtube3Rac_1" copynumber="1">
+        <volumeref ref="vtube3Rac"/>
+        <positionref ref="vtube3Rac_1inRaccordoLpos"/>
+      </physvol>
+    </assembly>
     <assembly name="ITSsddEnd">
       <physvol name="ITSsddCFladdTopCornerVol1_1" copynumber="1">
         <volumeref ref="ITSsddCFladdTopCornerVol10x1"/>

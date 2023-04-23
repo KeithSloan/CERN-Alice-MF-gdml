@@ -1,6 +1,22 @@
-<structure><volume name="FMD2_tension_wire">
-      <materialref ref="FMD_Steel"/>
-      <solidref ref="TGeoTube0x175"/>
+<structure><volume name="FMD2_flange">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD2_flange0x1"/>
+    </volume>
+    <volume name="FMD2_flange_extra0x1">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD2_flange_extra"/>
+    </volume>
+    <volume name="FMD2_flange_spacer">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="TGeoCompositeShape0x265"/>
+    </volume>
+    <volume name="FMD_tension_end">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_end0x1"/>
+    </volume>
+    <volume name="FMD_tension_top">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_top0x1"/>
     </volume>
     <assembly name="FMD_tension_box">
       <physvol name="FMD_tension_end_1" copynumber="1">
@@ -28,17 +44,9 @@
         <positionref ref="FMD_tension_top_4inFMD_tension_boxpos"/>
       </physvol>
     </assembly>
-    <volume name="FMD2_flange_spacer">
-      <materialref ref="FMD_Aluminum"/>
-      <solidref ref="TGeoCompositeShape0x265"/>
-    </volume>
-    <volume name="FMD2_flange_extra0x1">
-      <materialref ref="FMD_Aluminum"/>
-      <solidref ref="FMD2_flange_extra"/>
-    </volume>
-    <volume name="FMD2_flange">
-      <materialref ref="FMD_Aluminum"/>
-      <solidref ref="FMD2_flange0x1"/>
+    <volume name="FMD2_tension_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="TGeoTube0x175"/>
     </volume>
     <assembly name="FMD2_wing">
       <physvol name="FMD2_flange_1" copynumber="1">

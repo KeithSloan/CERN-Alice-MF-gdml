@@ -1,10 +1,10 @@
-<structure><volume name="SFRR5">
-      <materialref ref="MUON_Rohacell"/>
-      <solidref ref="SFRR50x1"/>
-    </volume>
-    <volume name="SFRA5">
+<structure><volume name="SFRA5">
       <materialref ref="MUON_AIR"/>
       <solidref ref="SFRA50x1"/>
+    </volume>
+    <volume name="SFRR5">
+      <materialref ref="MUON_Rohacell"/>
+      <solidref ref="SFRR50x1"/>
     </volume>
     <volume name="SFRM5">
       <materialref ref="MUON_FrameEpoxy"/>

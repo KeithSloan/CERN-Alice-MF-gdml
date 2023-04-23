@@ -1,4 +1,16 @@
-<structure><volume name="TPC_CDR1">
+<structure><volume name="TPC_CDR3">
+      <materialref ref="TPC_NOMEX"/>
+      <solidref ref="TGeoTube0x174"/>
+    </volume>
+    <volume name="TPC_CDR2">
+      <materialref ref="TPC_Prepreg1"/>
+      <solidref ref="TGeoTube0x173"/>
+      <physvol name="TPC_CDR3_1" copynumber="1">
+        <volumeref ref="TPC_CDR3"/>
+        <positionref ref="TPC_CDR3_1inTPC_CDR2pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_CDR1">
       <materialref ref="TPC_Tedlar"/>
       <solidref ref="TGeoTube0x172"/>
       <physvol name="TPC_CDR2_1" copynumber="1">

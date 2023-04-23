@@ -1,18 +1,34 @@
-<structure><volume name="TPC_IRF2">
-      <materialref ref="TPC_G10"/>
-      <solidref ref="TGeoPara0x1"/>
-    </volume>
-    <volume name="TPC_IRF1">
-      <materialref ref="TPC_G10"/>
-      <solidref ref="TGeoPara"/>
-    </volume>
-    <volume name="TPC_IRPP">
-      <materialref ref="TPC_G10"/>
-      <solidref ref="TGeoTrd10x7"/>
-    </volume>
-    <volume name="TPC_IRCAP">
+<structure><volume name="TPC_IRB1">
       <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoCompositeShape0x231"/>
+      <solidref ref="TGeoTrd10x4"/>
+    </volume>
+    <volume name="TPC_TRB2">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTrd10x5"/>
+    </volume>
+    <volume name="TPC_IRB3">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTrd10x6"/>
+    </volume>
+    <volume name="TPC_IROCE">
+      <materialref ref="TPC_Air"/>
+      <solidref ref="TGeoTrd10x3"/>
+      <physvol name="TPC_IRB1_1" copynumber="1">
+        <volumeref ref="TPC_IRB1"/>
+        <positionref ref="TPC_IRB1_1inTPC_IROCEpos"/>
+      </physvol>
+      <physvol name="TPC_TRB2_1" copynumber="1">
+        <volumeref ref="TPC_TRB2"/>
+        <positionref ref="TPC_TRB2_1inTPC_IROCEpos"/>
+      </physvol>
+      <physvol name="TPC_IRB3_1" copynumber="1">
+        <volumeref ref="TPC_IRB3"/>
+        <positionref ref="TPC_IRB3_1inTPC_IROCEpos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_RCCON">
+      <materialref ref="TPC_Air"/>
+      <solidref ref="TGeoBBox0x1142"/>
     </volume>
     <volume name="TPC_IROCB">
       <materialref ref="TPC_Al"/>
@@ -449,6 +465,22 @@
         <positionref ref="TPC_RCCON_86inTPC_IROCBpos"/>
         <rotationref ref="TPC_RCCON_86inTPC_IROCBrot"/>
       </physvol>
+    </volume>
+    <volume name="TPC_IRCAP">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoCompositeShape0x231"/>
+    </volume>
+    <volume name="TPC_IRPP">
+      <materialref ref="TPC_G10"/>
+      <solidref ref="TGeoTrd10x7"/>
+    </volume>
+    <volume name="TPC_IRF1">
+      <materialref ref="TPC_G10"/>
+      <solidref ref="TGeoPara"/>
+    </volume>
+    <volume name="TPC_IRF2">
+      <materialref ref="TPC_G10"/>
+      <solidref ref="TGeoPara0x1"/>
     </volume>
     <assembly name="TPC_IROC">
       <physvol name="TPC_IROCB_1" copynumber="1">

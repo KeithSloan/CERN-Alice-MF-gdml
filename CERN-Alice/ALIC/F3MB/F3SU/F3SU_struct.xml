@@ -1,44 +1,26 @@
-<structure><volume name="FMD3_end_wire">
-      <materialref ref="FMD_Steel"/>
-      <solidref ref="FMD3_end_wire0x1"/>
+<structure><volume name="FMD3_cooling_plate">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD3_cooling_plate0x1"/>
     </volume>
-    <volume name="FMD3_bend_wire">
+    <volume name="FMD3_bolt">
       <materialref ref="FMD_Steel"/>
-      <solidref ref="TGeoTorus0x19"/>
+      <solidref ref="FMD3_bolt0x1"/>
     </volume>
-    <volume name="FMD3_wire">
-      <materialref ref="FMD_Steel"/>
-      <solidref ref="FMD3_wire0x1"/>
+    <volume name="FMD3_sheeve_side">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_side0x1"/>
     </volume>
-    <assembly name="FMD_tension_box">
-      <physvol name="FMD_tension_end_1" copynumber="1">
-        <volumeref ref="FMD_tension_end"/>
-        <positionref ref="FMD_tension_end_1inFMD_tension_boxpos"/>
-      </physvol>
-      <physvol name="FMD_tension_end_2" copynumber="2">
-        <volumeref ref="FMD_tension_end"/>
-        <positionref ref="FMD_tension_end_2inFMD_tension_boxpos"/>
-      </physvol>
-      <physvol name="FMD_tension_top_1" copynumber="1">
-        <volumeref ref="FMD_tension_top"/>
-        <positionref ref="FMD_tension_top_1inFMD_tension_boxpos"/>
-      </physvol>
-      <physvol name="FMD_tension_top_2" copynumber="2">
-        <volumeref ref="FMD_tension_top"/>
-        <positionref ref="FMD_tension_top_2inFMD_tension_boxpos"/>
-      </physvol>
-      <physvol name="FMD_tension_top_3" copynumber="3">
-        <volumeref ref="FMD_tension_top"/>
-        <positionref ref="FMD_tension_top_3inFMD_tension_boxpos"/>
-      </physvol>
-      <physvol name="FMD_tension_top_4" copynumber="4">
-        <volumeref ref="FMD_tension_top"/>
-        <positionref ref="FMD_tension_top_4inFMD_tension_boxpos"/>
-      </physvol>
-    </assembly>
-    <volume name="FMD3_Cone">
-      <materialref ref="FMD_Carbon"/>
-      <solidref ref="FMD3_cone"/>
+    <volume name="FMD3_sheeve_back">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_back0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_wing">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_wing0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_wheel">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_wheel0x1"/>
     </volume>
     <assembly name="FMD3_sheeve_box">
       <physvol name="FMD3_sheeve_side_1" copynumber="1">
@@ -67,13 +49,55 @@
         <rotationref ref="FMD3_sheeve_wheel_1inFMD3_sheeve_boxrot"/>
       </physvol>
     </assembly>
-    <volume name="FMD3_bolt">
-      <materialref ref="FMD_Steel"/>
-      <solidref ref="FMD3_bolt0x1"/>
+    <volume name="FMD3_Cone">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="FMD3_cone"/>
     </volume>
-    <volume name="FMD3_cooling_plate">
+    <volume name="FMD_tension_end">
       <materialref ref="FMD_Aluminum"/>
-      <solidref ref="FMD3_cooling_plate0x1"/>
+      <solidref ref="FMD_tension_end0x1"/>
+    </volume>
+    <volume name="FMD_tension_top">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_top0x1"/>
+    </volume>
+    <assembly name="FMD_tension_box">
+      <physvol name="FMD_tension_end_1" copynumber="1">
+        <volumeref ref="FMD_tension_end"/>
+        <positionref ref="FMD_tension_end_1inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_end_2" copynumber="2">
+        <volumeref ref="FMD_tension_end"/>
+        <positionref ref="FMD_tension_end_2inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_1" copynumber="1">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_1inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_2" copynumber="2">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_2inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_3" copynumber="3">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_3inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_4" copynumber="4">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_4inFMD_tension_boxpos"/>
+      </physvol>
+    </assembly>
+    <volume name="FMD3_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_wire0x1"/>
+    </volume>
+    <volume name="FMD3_bend_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="TGeoTorus0x19"/>
+    </volume>
+    <volume name="FMD3_end_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_end_wire0x1"/>
     </volume>
     <assembly name="F3SU">
       <physvol name="FMD3_cooling_plate_0" copynumber="0">

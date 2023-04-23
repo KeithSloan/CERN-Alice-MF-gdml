@@ -1,10 +1,10 @@
-<structure><volume name="SSDChipGlueComp">
-      <materialref ref="ITS_EPOXY"/>
-      <solidref ref="SSDChipGlueCompShape"/>
-    </volume>
-    <volume name="SSDChipComp">
+<structure><volume name="SSDChipComp">
       <materialref ref="ITS_SPD_SI_CHIP"/>
       <solidref ref="SSDChipCompShape"/>
+    </volume>
+    <volume name="SSDChipGlueComp">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="SSDChipGlueCompShape"/>
     </volume>
     <volume name="SSDChip">
       <materialref ref="ITS_SDD_AIR"/>

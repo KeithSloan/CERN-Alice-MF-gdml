@@ -1,22 +1,18 @@
-<structure><volume name="SD6B">
-      <materialref ref="MUON_Rohacell"/>
-      <solidref ref="composite6B0x1"/>
-      <physvol name="S06E_13" copynumber="13">
-        <volumeref ref="S06E"/>
-        <positionref ref="S06E_130x1inSD6Bpos"/>
+<structure><volume name="SD6G">
+      <materialref ref="MUON_ArCO2_80"/>
+      <solidref ref="composite6G0x1"/>
+    </volume>
+    <volume name="SD6H">
+      <materialref ref="MUON_Noryl"/>
+      <solidref ref="composite6H0x1"/>
+      <physvol name="SD6G_1" copynumber="1">
+        <volumeref ref="SD6G"/>
+        <positionref ref="SD6G_1inSD6Hpos"/>
       </physvol>
-      <physvol name="S06E_14" copynumber="14">
-        <volumeref ref="S06E"/>
-        <positionref ref="S06E_140x1inSD6Bpos"/>
-      </physvol>
-      <physvol name="S06E_15" copynumber="15">
-        <volumeref ref="S06E"/>
-        <positionref ref="S06E_150x1inSD6Bpos"/>
-      </physvol>
-      <physvol name="S06E_16" copynumber="16">
-        <volumeref ref="S06E"/>
-        <positionref ref="S06E_160x1inSD6Bpos"/>
-      </physvol>
+    </volume>
+    <volume name="S06E">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S06E0x1"/>
     </volume>
     <volume name="S06B">
       <materialref ref="MUON_Rohacell"/>
@@ -86,12 +82,28 @@
         <positionref ref="S06E_16inS06Bpos"/>
       </physvol>
     </volume>
-    <volume name="SD6H">
-      <materialref ref="MUON_Noryl"/>
-      <solidref ref="composite6H0x1"/>
-      <physvol name="SD6G_1" copynumber="1">
-        <volumeref ref="SD6G"/>
-        <positionref ref="SD6G_1inSD6Hpos"/>
+    <volume name="S06E">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S06E0x1"/>
+    </volume>
+    <volume name="SD6B">
+      <materialref ref="MUON_Rohacell"/>
+      <solidref ref="composite6B0x1"/>
+      <physvol name="S06E_13" copynumber="13">
+        <volumeref ref="S06E"/>
+        <positionref ref="S06E_130x1inSD6Bpos"/>
+      </physvol>
+      <physvol name="S06E_14" copynumber="14">
+        <volumeref ref="S06E"/>
+        <positionref ref="S06E_140x1inSD6Bpos"/>
+      </physvol>
+      <physvol name="S06E_15" copynumber="15">
+        <volumeref ref="S06E"/>
+        <positionref ref="S06E_150x1inSD6Bpos"/>
+      </physvol>
+      <physvol name="S06E_16" copynumber="16">
+        <volumeref ref="S06E"/>
+        <positionref ref="S06E_160x1inSD6Bpos"/>
       </physvol>
     </volume>
     <volume name="SD6P">

@@ -1,4 +1,8 @@
-<structure><volume name="Hrect0x12">
+<structure><volume name="Hgassipl20x12">
+      <materialref ref="HMPID_CsIPCB"/>
+      <solidref ref="Hgassipl20x13"/>
+    </volume>
+    <volume name="Hrect0x12">
       <materialref ref="HMPID_CH4"/>
       <solidref ref="Hrect0x13"/>
       <physvol name="Hgassipl2_1" copynumber="1">

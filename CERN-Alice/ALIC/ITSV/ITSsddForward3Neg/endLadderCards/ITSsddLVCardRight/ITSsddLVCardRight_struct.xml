@@ -1,47 +1,18 @@
-<structure><volume name="vAlLVcooling3">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="lLVcooling3"/>
-      <physvol name="vLittleScrewLV_1" copynumber="1">
-        <volumeref ref="vLittleScrewLV"/>
-        <positionref ref="vLittleScrewLV_1invAlLVcooling3pos"/>
-        <rotationref ref="vLittleScrewLV_1invAlLVcooling3rot"/>
-      </physvol>
+<structure><volume name="vCableSegLay0x155">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoBBox0x1088"/>
     </volume>
-    <volume name="vAlLVcooling2">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="lLVcooling2"/>
-    </volume>
-    <volume name="vAlLVcooling1">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="alLVcooling1"/>
-    </volume>
-    <volume name="vLittleScrewLVhead">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="littleScrewLVhead"/>
-    </volume>
-    <volume name="chip3">
+    <volume name="cardLV">
       <materialref ref="ITS_SDD_SI_CHIP"/>
-      <solidref ref="TGeoBBox0x1095"/>
+      <solidref ref="TGeoBBox0x1087"/>
       <physvol name="vCableSegLay_1" copynumber="1">
-        <volumeref ref="vCableSegLay0x159"/>
-        <positionref ref="vCableSegLay_10x135inchip3pos"/>
+        <volumeref ref="vCableSegLay0x155"/>
+        <positionref ref="vCableSegLay_10x131incardLVpos"/>
       </physvol>
     </volume>
-    <volume name="chip2">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="TGeoBBox0x1093"/>
-      <physvol name="vCableSegLay_1" copynumber="1">
-        <volumeref ref="vCableSegLay0x158"/>
-        <positionref ref="vCableSegLay_10x134inchip2pos"/>
-      </physvol>
-    </volume>
-    <volume name="chip1">
-      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
-      <solidref ref="TGeoBBox0x1091"/>
-      <physvol name="vCableSegLay_1" copynumber="1">
-        <volumeref ref="vCableSegLay0x157"/>
-        <positionref ref="vCableSegLay_10x133inchip1pos"/>
-      </physvol>
+    <volume name="vCableSegLay0x156">
+      <materialref ref="ITS_SDD_SI_CHIP"/>
+      <solidref ref="TGeoBBox0x1090"/>
     </volume>
     <volume name="chipO">
       <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
@@ -51,12 +22,65 @@
         <positionref ref="vCableSegLay_10x132inchipOpos"/>
       </physvol>
     </volume>
-    <volume name="cardLV">
+    <volume name="vCableSegLay0x157">
       <materialref ref="ITS_SDD_SI_CHIP"/>
-      <solidref ref="TGeoBBox0x1087"/>
+      <solidref ref="TGeoBBox0x1092"/>
+    </volume>
+    <volume name="chip1">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1091"/>
       <physvol name="vCableSegLay_1" copynumber="1">
-        <volumeref ref="vCableSegLay0x155"/>
-        <positionref ref="vCableSegLay_10x131incardLVpos"/>
+        <volumeref ref="vCableSegLay0x157"/>
+        <positionref ref="vCableSegLay_10x133inchip1pos"/>
+      </physvol>
+    </volume>
+    <volume name="vCableSegLay0x158">
+      <materialref ref="ITS_SDD_SI_CHIP"/>
+      <solidref ref="TGeoBBox0x1094"/>
+    </volume>
+    <volume name="chip2">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1093"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x158"/>
+        <positionref ref="vCableSegLay_10x134inchip2pos"/>
+      </physvol>
+    </volume>
+    <volume name="vCableSegLay0x159">
+      <materialref ref="ITS_SDDKAPTON_POLYCH2"/>
+      <solidref ref="TGeoBBox0x1096"/>
+    </volume>
+    <volume name="chip3">
+      <materialref ref="ITS_SDD_SI_CHIP"/>
+      <solidref ref="TGeoBBox0x1095"/>
+      <physvol name="vCableSegLay_1" copynumber="1">
+        <volumeref ref="vCableSegLay0x159"/>
+        <positionref ref="vCableSegLay_10x135inchip3pos"/>
+      </physvol>
+    </volume>
+    <volume name="vLittleScrewLVhead">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="littleScrewLVhead"/>
+    </volume>
+    <volume name="vAlLVcooling1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="alLVcooling1"/>
+    </volume>
+    <volume name="vAlLVcooling2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="lLVcooling2"/>
+    </volume>
+    <volume name="vLittleScrewLV">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="littleScrewLV"/>
+    </volume>
+    <volume name="vAlLVcooling3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="lLVcooling3"/>
+      <physvol name="vLittleScrewLV_1" copynumber="1">
+        <volumeref ref="vLittleScrewLV"/>
+        <positionref ref="vLittleScrewLV_1invAlLVcooling3pos"/>
+        <rotationref ref="vLittleScrewLV_1invAlLVcooling3rot"/>
       </physvol>
     </volume>
     <assembly name="ITSsddLVCardRight">

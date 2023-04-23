@@ -1,30 +1,78 @@
-<structure><volume name="FLO3">
+<structure><volume name="FFEA">
+      <materialref ref="TOF_G10"/>
+      <solidref ref="FFEA0x1"/>
+    </volume>
+    <volume name="FAL1">
       <materialref ref="TOF_Al_"/>
-      <solidref ref="FLO30x1"/>
+      <solidref ref="FAL10x1"/>
     </volume>
-    <volume name="FLO2">
+    <volume name="FBAR">
       <materialref ref="TOF_Al_"/>
-      <solidref ref="FLO20x1"/>
+      <solidref ref="FBAR0x1"/>
     </volume>
-    <volume name="FTLN">
+    <volume name="FBA1">
       <materialref ref="TOF_Al_"/>
-      <solidref ref="FTLN0x1"/>
+      <solidref ref="FBA10x1"/>
     </volume>
-    <volume name="FCOP">
-      <materialref ref="TOF_plastic"/>
-      <solidref ref="FCOP0x1"/>
-    </volume>
-    <volume name="FCOB">
+    <volume name="FBA2">
       <materialref ref="TOF_Al_"/>
-      <solidref ref="FCOB0x1"/>
+      <solidref ref="FBA20x1"/>
     </volume>
-    <volume name="FSAW">
+    <volume name="FAL2">
       <materialref ref="TOF_Al_"/>
-      <solidref ref="FSAW0x1"/>
+      <solidref ref="FAL20x1"/>
     </volume>
-    <volume name="FCBB">
-      <materialref ref="TOF_cablestubes"/>
-      <solidref ref="FCBB0x1"/>
+    <volume name="FAL3">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FAL30x1"/>
+    </volume>
+    <volume name="FRO2">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FRO20x1"/>
+    </volume>
+    <volume name="FITU">
+      <materialref ref="TOF_Water"/>
+      <solidref ref="FITU0x1"/>
+    </volume>
+    <volume name="FTUB">
+      <materialref ref="TOF_Cu_"/>
+      <solidref ref="FTUB0x1"/>
+      <physvol name="FITU_1" copynumber="1">
+        <volumeref ref="FITU"/>
+        <positionref ref="FITU_1inFTUBpos"/>
+      </physvol>
+    </volume>
+    <volume name="FBAS">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FBAS0x1"/>
+    </volume>
+    <volume name="FBS1">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FBS10x1"/>
+    </volume>
+    <volume name="FBS2">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FBS20x1"/>
+    </volume>
+    <volume name="FCAB">
+      <materialref ref="TOF_cable"/>
+      <solidref ref="FCAB0x1"/>
+    </volume>
+    <volume name="FCAL">
+      <materialref ref="TOF_cable"/>
+      <solidref ref="FCAL0x1"/>
+    </volume>
+    <volume name="FREE">
+      <materialref ref="TOF_Air"/>
+      <solidref ref="FREE0x1"/>
+    </volume>
+    <volume name="FRO1">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FRO10x1"/>
+      <physvol name="FREE_1" copynumber="1">
+        <volumeref ref="FREE"/>
+        <positionref ref="FREE_1inFRO1pos"/>
+      </physvol>
     </volume>
     <volume name="FCA1">
       <materialref ref="TOF_Air"/>
@@ -246,6 +294,34 @@
         <volumeref ref="FRO1"/>
         <positionref ref="FRO1_3inFCA1pos"/>
       </physvol>
+    </volume>
+    <volume name="FCBB">
+      <materialref ref="TOF_cablestubes"/>
+      <solidref ref="FCBB0x1"/>
+    </volume>
+    <volume name="FSAW">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FSAW0x1"/>
+    </volume>
+    <volume name="FCOB">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FCOB0x1"/>
+    </volume>
+    <volume name="FCOP">
+      <materialref ref="TOF_plastic"/>
+      <solidref ref="FCOP0x1"/>
+    </volume>
+    <volume name="FTLN">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FTLN0x1"/>
+    </volume>
+    <volume name="FLO2">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FLO20x1"/>
+    </volume>
+    <volume name="FLO3">
+      <materialref ref="TOF_Al_"/>
+      <solidref ref="FLO30x1"/>
     </volume>
     <volume name="FAIB">
       <materialref ref="TOF_Air"/>

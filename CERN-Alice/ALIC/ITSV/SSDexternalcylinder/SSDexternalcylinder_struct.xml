@@ -1,10 +1,10 @@
-<structure><volume name="SSDflangecylinder">
-      <materialref ref="ITS_G10FR4"/>
-      <solidref ref="TGeoCone0x11"/>
-    </volume>
-    <volume name="SSDfoamcylinder">
+<structure><volume name="SSDfoamcylinder">
       <materialref ref="ITS_ROHACELL"/>
       <solidref ref="TGeoTube0x131"/>
+    </volume>
+    <volume name="SSDflangecylinder">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoCone0x11"/>
     </volume>
     <volume name="SSDexternalcylinder">
       <materialref ref="ITS_SSD_C_M55J"/>

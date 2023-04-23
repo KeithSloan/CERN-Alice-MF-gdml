@@ -1,10 +1,10 @@
-<structure><volume name="Hcov0x4">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="Hcov0x5"/>
-    </volume>
-    <volume name="Hhon0x4">
+<structure><volume name="Hhon0x4">
       <materialref ref="HMPID_Roha"/>
       <solidref ref="Hhon0x5"/>
+    </volume>
+    <volume name="Hcov0x4">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="Hcov0x5"/>
     </volume>
     <volume name="Hsbo0x4">
       <materialref ref="HMPID_CH4"/>

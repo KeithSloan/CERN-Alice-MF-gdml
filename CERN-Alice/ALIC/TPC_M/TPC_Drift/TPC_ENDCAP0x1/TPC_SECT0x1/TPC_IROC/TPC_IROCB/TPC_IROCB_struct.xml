@@ -1,6 +1,14 @@
-<structure><volume name="TPC_RCCON">
-      <materialref ref="TPC_Air"/>
-      <solidref ref="TGeoBBox0x1142"/>
+<structure><volume name="TPC_IRB1">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTrd10x4"/>
+    </volume>
+    <volume name="TPC_TRB2">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTrd10x5"/>
+    </volume>
+    <volume name="TPC_IRB3">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTrd10x6"/>
     </volume>
     <volume name="TPC_IROCE">
       <materialref ref="TPC_Air"/>
@@ -17,6 +25,10 @@
         <volumeref ref="TPC_IRB3"/>
         <positionref ref="TPC_IRB3_1inTPC_IROCEpos"/>
       </physvol>
+    </volume>
+    <volume name="TPC_RCCON">
+      <materialref ref="TPC_Air"/>
+      <solidref ref="TGeoBBox0x1142"/>
     </volume>
     <volume name="TPC_IROCB">
       <materialref ref="TPC_Al"/>

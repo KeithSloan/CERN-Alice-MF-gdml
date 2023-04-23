@@ -1,22 +1,22 @@
-<structure><volume name="Hspa0x4">
-      <materialref ref="HMPID_SiO2"/>
-      <solidref ref="Hspa0x5"/>
-    </volume>
-    <volume name="Hsi20x4">
+<structure><volume name="Hneo0x4">
       <materialref ref="HMPID_Neo"/>
-      <solidref ref="Hsi20x5"/>
-    </volume>
-    <volume name="Hsi10x4">
-      <materialref ref="HMPID_SiO2"/>
-      <solidref ref="Hsi10x5"/>
+      <solidref ref="Hneo0x5"/>
     </volume>
     <volume name="Hwin0x4">
       <materialref ref="HMPID_SiO2"/>
       <solidref ref="Hwin0x5"/>
     </volume>
-    <volume name="Hneo0x4">
+    <volume name="Hsi10x4">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hsi10x5"/>
+    </volume>
+    <volume name="Hsi20x4">
       <materialref ref="HMPID_Neo"/>
-      <solidref ref="Hneo0x5"/>
+      <solidref ref="Hsi20x5"/>
+    </volume>
+    <volume name="Hspa0x4">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hspa0x5"/>
     </volume>
     <volume name="Hrad0x4">
       <materialref ref="HMPID_C6F14"/>

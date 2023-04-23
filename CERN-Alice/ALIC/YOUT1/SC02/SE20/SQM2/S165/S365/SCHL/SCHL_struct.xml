@@ -1,10 +1,10 @@
-<structure><volume name="SKPT">
-      <materialref ref="MUON_Copper"/>
-      <solidref ref="SKPT0x1"/>
-    </volume>
-    <volume name="SNPB">
+<structure><volume name="SNPB">
       <materialref ref="MUON_Copper"/>
       <solidref ref="SNPB0x1"/>
+    </volume>
+    <volume name="SKPT">
+      <materialref ref="MUON_Copper"/>
+      <solidref ref="SKPT0x1"/>
     </volume>
     <volume name="SCHL">
       <materialref ref="MUON_AIR"/>

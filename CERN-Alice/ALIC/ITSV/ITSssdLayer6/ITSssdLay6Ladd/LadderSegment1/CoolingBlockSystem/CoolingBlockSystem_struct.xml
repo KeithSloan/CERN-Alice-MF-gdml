@@ -1,14 +1,14 @@
-<structure><volume name="InnerCoolingTube">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x100"/>
+<structure><volume name="SSDCoolingBlock">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x30"/>
     </volume>
     <volume name="OuterCoolingTube">
       <materialref ref="ITS_INOX"/>
       <solidref ref="TGeoTube0x99"/>
     </volume>
-    <volume name="SSDCoolingBlock">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x30"/>
+    <volume name="InnerCoolingTube">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x100"/>
     </volume>
     <assembly name="CoolingBlockSystem">
       <physvol name="SSDCoolingBlock_1" copynumber="1">

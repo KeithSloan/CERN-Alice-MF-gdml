@@ -1,10 +1,10 @@
-<structure><volume name="EffectiveEndCapOuterTube">
-      <materialref ref="ITS_KAPTONHPOLYCH2"/>
-      <solidref ref="TGeoTube0x124"/>
-    </volume>
-    <volume name="EffectiveEndCapInnerTube">
+<structure><volume name="EffectiveEndCapInnerTube">
       <materialref ref="ITS_COPPER"/>
       <solidref ref="TGeoTube0x123"/>
+    </volume>
+    <volume name="EffectiveEndCapOuterTube">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoTube0x124"/>
     </volume>
     <volume name="EndCapEffectiveCables2">
       <materialref ref="ITS_SDD_AIR"/>

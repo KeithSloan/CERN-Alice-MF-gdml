@@ -1,9 +1,13 @@
-<structure><volume name="TPC_SWC1">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoPgon0x185"/>
-      <physvol name="TPC_SWC2_1" copynumber="1">
-        <volumeref ref="TPC_SWC2"/>
-        <positionref ref="TPC_SWC2_1inTPC_SWC1pos"/>
+<structure><volume name="TPC_ELEC">
+      <materialref ref="TPC_Si"/>
+      <solidref ref="TGeoPgon0x184"/>
+    </volume>
+    <volume name="TPC_SWS1">
+      <materialref ref="TPC_Air"/>
+      <solidref ref="TGeoPgon0x183"/>
+      <physvol name="TPC_ELEC_1" copynumber="1">
+        <volumeref ref="TPC_ELEC"/>
+        <positionref ref="TPC_ELEC_1inTPC_SWS1pos"/>
       </physvol>
     </volume>
     <volume name="TPC_SWSEG">
@@ -12,6 +16,18 @@
       <physvol name="TPC_SWS1_1" copynumber="1">
         <volumeref ref="TPC_SWS1"/>
         <positionref ref="TPC_SWS1_1inTPC_SWSEGpos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_SWC2">
+      <materialref ref="TPC_Air"/>
+      <solidref ref="TGeoPgon0x186"/>
+    </volume>
+    <volume name="TPC_SWC1">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoPgon0x185"/>
+      <physvol name="TPC_SWC2_1" copynumber="1">
+        <volumeref ref="TPC_SWC2"/>
+        <positionref ref="TPC_SWC2_1inTPC_SWC1pos"/>
       </physvol>
     </volume>
     <assembly name="TPC_SSWSEC">

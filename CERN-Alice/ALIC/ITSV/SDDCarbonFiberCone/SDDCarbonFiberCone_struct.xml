@@ -1,34 +1,168 @@
-<structure><volume name="SDDCarbonFiberConeInsert">
+<structure><volume name="SDDCableHole11">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x94"/>
+    </volume>
+    <volume name="SDDCableHole12">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x95"/>
+    </volume>
+    <volume name="SDDCableHole21">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x96"/>
+    </volume>
+    <volume name="SDDCableHole22">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x97"/>
+    </volume>
+    <volume name="SDDCableHole31">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x98"/>
+    </volume>
+    <volume name="SDDCableHole32">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x99"/>
+    </volume>
+    <volume name="SDDCableHole1">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x102"/>
+    </volume>
+    <volume name="SDDCableHole2">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x103"/>
+    </volume>
+    <volume name="SDDCableHole3">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoPcon0x104"/>
+    </volume>
+    <volume name="SDDCarbonFiberConeFoam">
+      <materialref ref="ITS_ROHACELL"/>
+      <solidref ref="TGeoPcon0x101"/>
+      <physvol name="SDDCableHole1_1" copynumber="1">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_1inSDDCarbonFiberConeFoampos"/>
+      </physvol>
+      <physvol name="SDDCableHole1_2" copynumber="2">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_2inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_2inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_3" copynumber="3">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_3inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_3inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_4" copynumber="4">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_4inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_4inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_5" copynumber="5">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_5inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_5inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_6" copynumber="6">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_6inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_6inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_7" copynumber="7">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_7inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_7inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_8" copynumber="8">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_8inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_8inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_9" copynumber="9">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_9inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_9inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_10" copynumber="10">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_10inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_10inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_11" copynumber="11">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_11inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_11inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole1_12" copynumber="12">
+        <volumeref ref="SDDCableHole1"/>
+        <positionref ref="SDDCableHole1_12inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole1_12inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole2_1" copynumber="1">
+        <volumeref ref="SDDCableHole2"/>
+        <positionref ref="SDDCableHole2_1inSDDCarbonFiberConeFoampos"/>
+      </physvol>
+      <physvol name="SDDCableHole2_2" copynumber="2">
+        <volumeref ref="SDDCableHole2"/>
+        <positionref ref="SDDCableHole2_2inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole2_2inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole2_3" copynumber="3">
+        <volumeref ref="SDDCableHole2"/>
+        <positionref ref="SDDCableHole2_3inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole2_3inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole2_4" copynumber="4">
+        <volumeref ref="SDDCableHole2"/>
+        <positionref ref="SDDCableHole2_4inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole2_4inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole2_5" copynumber="5">
+        <volumeref ref="SDDCableHole2"/>
+        <positionref ref="SDDCableHole2_5inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole2_5inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole2_6" copynumber="6">
+        <volumeref ref="SDDCableHole2"/>
+        <positionref ref="SDDCableHole2_6inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole2_6inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole3_1" copynumber="1">
+        <volumeref ref="SDDCableHole3"/>
+        <positionref ref="SDDCableHole3_1inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole3_1inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole3_2" copynumber="2">
+        <volumeref ref="SDDCableHole3"/>
+        <positionref ref="SDDCableHole3_2inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole3_2inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole3_3" copynumber="3">
+        <volumeref ref="SDDCableHole3"/>
+        <positionref ref="SDDCableHole3_3inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole3_3inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole3_4" copynumber="4">
+        <volumeref ref="SDDCableHole3"/>
+        <positionref ref="SDDCableHole3_4inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole3_4inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole3_5" copynumber="5">
+        <volumeref ref="SDDCableHole3"/>
+        <positionref ref="SDDCableHole3_5inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole3_5inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+      <physvol name="SDDCableHole3_6" copynumber="6">
+        <volumeref ref="SDDCableHole3"/>
+        <positionref ref="SDDCableHole3_6inSDDCarbonFiberConeFoampos"/>
+        <rotationref ref="SDDCableHole3_6inSDDCarbonFiberConeFoamrot"/>
+      </physvol>
+    </volume>
+    <volume name="SDDCarbonFiberConeInsert">
       <materialref ref="ITS_G10FR4"/>
       <solidref ref="TGeoPcon0x100"/>
       <physvol name="SDDCarbonFiberConeFoam_1" copynumber="1">
         <volumeref ref="SDDCarbonFiberConeFoam"/>
         <positionref ref="SDDCarbonFiberConeFoam_1inSDDCarbonFiberConeInsertpos"/>
       </physvol>
-    </volume>
-    <volume name="SDDCableHole32">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x99"/>
-    </volume>
-    <volume name="SDDCableHole31">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x98"/>
-    </volume>
-    <volume name="SDDCableHole22">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x97"/>
-    </volume>
-    <volume name="SDDCableHole21">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x96"/>
-    </volume>
-    <volume name="SDDCableHole12">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x95"/>
-    </volume>
-    <volume name="SDDCableHole11">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x94"/>
     </volume>
     <volume name="SDDCarbonFiberCone">
       <materialref ref="ITS_SDD_C_M55J"/>

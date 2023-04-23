@@ -1,74 +1,74 @@
-<structure><volume name="EndCapCoolingWaterTubeTorus5">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTorus0x18"/>
-    </volume>
-    <volume name="EndCapCoolingTubeTorus5">
+<structure><volume name="EndCapCoolingTubeTorus1">
       <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTorus0x17"/>
-    </volume>
-    <volume name="EndCapCoolingWaterTube4">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x121"/>
-    </volume>
-    <volume name="EndCapCoolingTube4">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x120"/>
-    </volume>
-    <volume name="EndCapCoolingWaterTubeTorus4">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTorus0x16"/>
-    </volume>
-    <volume name="EndCapCoolingTubeTorus4">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTorus0x15"/>
-    </volume>
-    <volume name="EndCapCoolingWaterTubeTorus3">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTorus0x14"/>
-    </volume>
-    <volume name="EndCapCoolingTubeTorus3">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTorus0x13"/>
-    </volume>
-    <volume name="EndCapCoolingWaterTube3">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x119"/>
-    </volume>
-    <volume name="EndCapCoolingTube3">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x118"/>
-    </volume>
-    <volume name="EndCapCoolingWaterTubeTorus2">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTorus0x12"/>
-    </volume>
-    <volume name="EndCapCoolingTubeTorus2">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTorus0x11"/>
-    </volume>
-    <volume name="EndCapCoolingWaterTube2">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x117"/>
-    </volume>
-    <volume name="EndCapCoolingTube2">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x116"/>
-    </volume>
-    <volume name="EndCapCoolingWaterTube1">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoTube0x115"/>
-    </volume>
-    <volume name="EndCapCoolingTube1">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x114"/>
+      <solidref ref="TGeoTorus0x9"/>
     </volume>
     <volume name="EndCapCoolingWaterTubeTorus1">
       <materialref ref="ITS_Water"/>
       <solidref ref="TGeoTorus0x10"/>
     </volume>
-    <volume name="EndCapCoolingTubeTorus1">
+    <volume name="EndCapCoolingTube1">
       <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTorus0x9"/>
+      <solidref ref="TGeoTube0x114"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube1">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x115"/>
+    </volume>
+    <volume name="EndCapCoolingTube2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x116"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube2">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x117"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x11"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus2">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x12"/>
+    </volume>
+    <volume name="EndCapCoolingTube3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x118"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube3">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x119"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x13"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus3">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x14"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus4">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x15"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus4">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x16"/>
+    </volume>
+    <volume name="EndCapCoolingTube4">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x120"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube4">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x121"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus5">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x17"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus5">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x18"/>
     </volume>
     <assembly name="MotherEndCapCoolingTube">
       <physvol name="EndCapCoolingTubeTorus1_1" copynumber="1">

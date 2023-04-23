@@ -1,14 +1,18 @@
-<structure><volume name="Hf4a0x12">
+<structure><volume name="Hcol0x12">
+      <materialref ref="HMPID_Cu"/>
+      <solidref ref="Hcol0x13"/>
+    </volume>
+    <volume name="Hf4i0x12">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hf4i0x13"/>
+    </volume>
+    <volume name="Hf4a0x12">
       <materialref ref="HMPID_Al"/>
       <solidref ref="Hf4a0x13"/>
       <physvol name="Hf4i_1" copynumber="1">
         <volumeref ref="Hf4i0x12"/>
         <positionref ref="Hf4i_10x6inHf4a0x12pos"/>
       </physvol>
-    </volume>
-    <volume name="Hcol0x12">
-      <materialref ref="HMPID_Cu"/>
-      <solidref ref="Hcol0x13"/>
     </volume>
     <volume name="Hfr40x12">
       <materialref ref="HMPID_CH4"/>

@@ -1,319 +1,46 @@
-<structure><volume name="EndCapCardsContainerLayer6Dx">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoXtru0x75"/>
-      <physvol name="EndCapStripConnection_1" copynumber="1">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_10x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_10x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_2" copynumber="2">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_20x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_20x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_3" copynumber="3">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_30x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_30x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapCardMotherSupply_1" copynumber="1">
-        <volumeref ref="EndCapCardMotherSupply"/>
-        <positionref ref="EndCapCardMotherSupply_10x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_4" copynumber="4">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_40x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_40x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapCardMotherSupply_2" copynumber="2">
-        <volumeref ref="EndCapCardMotherSupply"/>
-        <positionref ref="EndCapCardMotherSupply_20x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_5" copynumber="5">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_50x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_50x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapCardMotherSupply_3" copynumber="3">
-        <volumeref ref="EndCapCardMotherSupply"/>
-        <positionref ref="EndCapCardMotherSupply_30x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_6" copynumber="6">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_60x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_60x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapCardMotherSupply_4" copynumber="4">
-        <volumeref ref="EndCapCardMotherSupply"/>
-        <positionref ref="EndCapCardMotherSupply_40x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_7" copynumber="7">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_70x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_70x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapCardMotherSupply_5" copynumber="5">
-        <volumeref ref="EndCapCardMotherSupply"/>
-        <positionref ref="EndCapCardMotherSupply_50x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_8" copynumber="8">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_80x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_80x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapCardMotherSupply_6" copynumber="6">
-        <volumeref ref="EndCapCardMotherSupply"/>
-        <positionref ref="EndCapCardMotherSupply_60x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapStripConnection_9" copynumber="9">
-        <volumeref ref="EndCapStripConnection"/>
-        <positionref ref="EndCapStripConnection_90x1inEndCapCardsContainerLayer6Dxpos"/>
-        <rotationref ref="EndCapStripConnection_90x1inEndCapCardsContainerLayer6Dxrot"/>
-      </physvol>
-      <physvol name="EndCapCardMotherSupply_7" copynumber="7">
-        <volumeref ref="EndCapCardMotherSupply"/>
-        <positionref ref="EndCapCardMotherSupply_7inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapMotherInterfaceCardA_4" copynumber="4">
-        <volumeref ref="EndCapMotherInterfaceCardA"/>
-        <positionref ref="EndCapMotherInterfaceCardA_4inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapInterfaceCardBMother_1" copynumber="1">
-        <volumeref ref="EndCapInterfaceCardBMother"/>
-        <positionref ref="EndCapInterfaceCardBMother_10x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
-      <physvol name="EndCapStiffener_1" copynumber="1">
-        <volumeref ref="EndCapStiffener"/>
-        <positionref ref="EndCapStiffener_10x1inEndCapCardsContainerLayer6Dxpos"/>
-      </physvol>
+<structure><volume name="EndCapCoverPlateSmallHole">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoCompositeShape0x227"/>
     </volume>
-    <volume name="EndCapEffectiveCables2">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoTube0x122"/>
-      <physvol name="EffectiveEndCapInnerTube_1" copynumber="1">
-        <volumeref ref="EffectiveEndCapInnerTube"/>
-        <positionref ref="EffectiveEndCapInnerTube_1inEndCapEffectiveCables2pos"/>
-      </physvol>
-      <physvol name="EffectiveEndCapOuterTube_1" copynumber="1">
-        <volumeref ref="EffectiveEndCapOuterTube"/>
-        <positionref ref="EffectiveEndCapOuterTube_1inEndCapEffectiveCables2pos"/>
-      </physvol>
-    </volume>
-    <volume name="EndCapKaptonFoil">
-      <materialref ref="ITS_KAPTONHPOLYCH2"/>
-      <solidref ref="TGeoBBox0x1139"/>
-    </volume>
-    <volume name="EndCapCoverPlateDownClip">
+    <volume name="EndCapCoverPlateSmallScrewPiece">
       <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoBBox0x1138"/>
+      <solidref ref="TGeoTube0x113"/>
     </volume>
-    <volume name="EndCapCoverPlateUpClip">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoBBox0x1137"/>
+    <volume name="EndCapCoverPlateBox1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1127"/>
     </volume>
-    <volume name="EndCapScrewCoverPlate">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoCompositeShape0x229"/>
+    <volume name="EndCapCoverPlateBox2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1128"/>
     </volume>
-    <assembly name="MotherEndCapCoolingTube">
-      <physvol name="EndCapCoolingTubeTorus1_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTubeTorus1"/>
-        <positionref ref="EndCapCoolingTubeTorus1_1inMotherEndCapCoolingTubepos"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTubeTorus1_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTubeTorus1"/>
-        <positionref ref="EndCapCoolingWaterTubeTorus1_1inMotherEndCapCoolingTubepos"/>
-      </physvol>
-      <physvol name="EndCapCoolingTube1_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTube1"/>
-        <positionref ref="EndCapCoolingTube1_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTube1_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTube1_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTube1"/>
-        <positionref ref="EndCapCoolingWaterTube1_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTube1_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTube2_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTube2"/>
-        <positionref ref="EndCapCoolingTube2_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTube2_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTube2_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTube2"/>
-        <positionref ref="EndCapCoolingWaterTube2_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTube2_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTubeTorus2_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTubeTorus2"/>
-        <positionref ref="EndCapCoolingTubeTorus2_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTubeTorus2_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTubeTorus2_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTubeTorus2"/>
-        <positionref ref="EndCapCoolingWaterTubeTorus2_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTubeTorus2_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTube3_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTube3"/>
-        <positionref ref="EndCapCoolingTube3_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTube3_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTube3_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTube3"/>
-        <positionref ref="EndCapCoolingWaterTube3_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTube3_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTubeTorus3_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTubeTorus3"/>
-        <positionref ref="EndCapCoolingTubeTorus3_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTubeTorus3_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTubeTorus3_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTubeTorus3"/>
-        <positionref ref="EndCapCoolingWaterTubeTorus3_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTubeTorus3_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTubeTorus4_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTubeTorus4"/>
-        <positionref ref="EndCapCoolingTubeTorus4_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTubeTorus4_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTubeTorus4_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTubeTorus4"/>
-        <positionref ref="EndCapCoolingWaterTubeTorus4_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTubeTorus4_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTube4_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTube4"/>
-        <positionref ref="EndCapCoolingTube4_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTube4_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTube4_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTube4"/>
-        <positionref ref="EndCapCoolingWaterTube4_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTube4_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTubeTorus5_1" copynumber="1">
-        <volumeref ref="EndCapCoolingTubeTorus5"/>
-        <positionref ref="EndCapCoolingTubeTorus5_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTubeTorus5_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTubeTorus5_1" copynumber="1">
-        <volumeref ref="EndCapCoolingWaterTubeTorus5"/>
-        <positionref ref="EndCapCoolingWaterTubeTorus5_1inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTubeTorus5_1inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingTube4_2" copynumber="2">
-        <volumeref ref="EndCapCoolingTube4"/>
-        <positionref ref="EndCapCoolingTube4_2inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingTube4_2inMotherEndCapCoolingTuberot"/>
-      </physvol>
-      <physvol name="EndCapCoolingWaterTube4_2" copynumber="2">
-        <volumeref ref="EndCapCoolingWaterTube4"/>
-        <positionref ref="EndCapCoolingWaterTube4_2inMotherEndCapCoolingTubepos"/>
-        <rotationref ref="EndCapCoolingWaterTube4_2inMotherEndCapCoolingTuberot"/>
-      </physvol>
-    </assembly>
-    <volume name="EndCapSideCoverMother">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoXtru0x72"/>
-      <physvol name="EndCapSideCover_1" copynumber="1">
-        <volumeref ref="EndCapSideCover"/>
-        <positionref ref="EndCapSideCover_1inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox1_1" copynumber="1">
-        <volumeref ref="EndCapSideCoverBox1"/>
-        <positionref ref="EndCapSideCoverBox1_1inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox2_1" copynumber="1">
-        <volumeref ref="EndCapSideCoverBox2"/>
-        <positionref ref="EndCapSideCoverBox2_1inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox3_1" copynumber="1">
-        <volumeref ref="EndCapSideCoverBox3"/>
-        <positionref ref="EndCapSideCoverBox3_1inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_1" copynumber="1">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_1inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_2" copynumber="2">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_2inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_3" copynumber="3">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_3inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_4" copynumber="4">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_4inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_5" copynumber="5">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_5inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_6" copynumber="6">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_6inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_7" copynumber="7">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_7inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_8" copynumber="8">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_8inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_9" copynumber="9">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_9inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_10" copynumber="10">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_10inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_11" copynumber="11">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_11inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_12" copynumber="12">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_12inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_15" copynumber="15">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_15inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_16" copynumber="16">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_16inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_17" copynumber="17">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_17inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_18" copynumber="18">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_18inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_19" copynumber="19">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_19inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_20" copynumber="20">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_20inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_21" copynumber="21">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_21inEndCapSideCoverMotherpos"/>
-      </physvol>
-      <physvol name="EndCapSideCoverBox4_22" copynumber="22">
-        <volumeref ref="EndCapSideCoverBox4"/>
-        <positionref ref="EndCapSideCoverBox4_22inEndCapSideCoverMotherpos"/>
-      </physvol>
+    <volume name="EndCapCoverPlateBox3">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1129"/>
+    </volume>
+    <volume name="EndCapCoverPlateBox4">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1130"/>
+    </volume>
+    <volume name="EndCapFillingBox">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1131"/>
+    </volume>
+    <volume name="EndCapCoverPlateBigHole">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoCompositeShape0x228"/>
+    </volume>
+    <volume name="EndCapCoverPlateContour1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="contourShape1"/>
+    </volume>
+    <volume name="EndCapCoverPlateContour2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="contourShape2"/>
+    </volume>
+    <volume name="EndCapCoverPlateContour">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="contourShape"/>
     </volume>
     <volume name="EndCapCoverPlateMother">
       <materialref ref="ITS_SDD_AIR"/>
@@ -769,6 +496,558 @@
       <physvol name="EndCapCoverPlateContour_1" copynumber="1">
         <volumeref ref="EndCapCoverPlateContour"/>
         <positionref ref="EndCapCoverPlateContour_1inEndCapCoverPlateMotherpos"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapSideCover">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="endcapsidecovershape"/>
+    </volume>
+    <volume name="EndCapSideCoverBox1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1133"/>
+    </volume>
+    <volume name="EndCapSideCoverBox2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1134"/>
+    </volume>
+    <volume name="EndCapSideCoverBox3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1135"/>
+    </volume>
+    <volume name="EndCapSideCoverBox4">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1136"/>
+    </volume>
+    <volume name="EndCapSideCoverMother">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x72"/>
+      <physvol name="EndCapSideCover_1" copynumber="1">
+        <volumeref ref="EndCapSideCover"/>
+        <positionref ref="EndCapSideCover_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox1_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox1"/>
+        <positionref ref="EndCapSideCoverBox1_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox2_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox2"/>
+        <positionref ref="EndCapSideCoverBox2_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox3_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox3"/>
+        <positionref ref="EndCapSideCoverBox3_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_1" copynumber="1">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_1inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_2" copynumber="2">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_2inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_3" copynumber="3">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_3inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_4" copynumber="4">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_4inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_5" copynumber="5">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_5inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_6" copynumber="6">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_6inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_7" copynumber="7">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_7inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_8" copynumber="8">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_8inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_9" copynumber="9">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_9inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_10" copynumber="10">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_10inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_11" copynumber="11">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_11inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_12" copynumber="12">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_12inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_15" copynumber="15">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_15inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_16" copynumber="16">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_16inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_17" copynumber="17">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_17inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_18" copynumber="18">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_18inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_19" copynumber="19">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_19inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_20" copynumber="20">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_20inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_21" copynumber="21">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_21inEndCapSideCoverMotherpos"/>
+      </physvol>
+      <physvol name="EndCapSideCoverBox4_22" copynumber="22">
+        <volumeref ref="EndCapSideCoverBox4"/>
+        <positionref ref="EndCapSideCoverBox4_22inEndCapSideCoverMotherpos"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x9"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus1">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x10"/>
+    </volume>
+    <volume name="EndCapCoolingTube1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x114"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube1">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x115"/>
+    </volume>
+    <volume name="EndCapCoolingTube2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x116"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube2">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x117"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x11"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus2">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x12"/>
+    </volume>
+    <volume name="EndCapCoolingTube3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x118"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube3">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x119"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x13"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus3">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x14"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus4">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x15"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus4">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x16"/>
+    </volume>
+    <volume name="EndCapCoolingTube4">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x120"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTube4">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x121"/>
+    </volume>
+    <volume name="EndCapCoolingTubeTorus5">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTorus0x17"/>
+    </volume>
+    <volume name="EndCapCoolingWaterTubeTorus5">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTorus0x18"/>
+    </volume>
+    <assembly name="MotherEndCapCoolingTube">
+      <physvol name="EndCapCoolingTubeTorus1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus1"/>
+        <positionref ref="EndCapCoolingTubeTorus1_1inMotherEndCapCoolingTubepos"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus1"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus1_1inMotherEndCapCoolingTubepos"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube1"/>
+        <positionref ref="EndCapCoolingTube1_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube1_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube1_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube1"/>
+        <positionref ref="EndCapCoolingWaterTube1_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube1_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube2"/>
+        <positionref ref="EndCapCoolingTube2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube2"/>
+        <positionref ref="EndCapCoolingWaterTube2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus2"/>
+        <positionref ref="EndCapCoolingTubeTorus2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus2_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus2"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus2_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus2_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube3"/>
+        <positionref ref="EndCapCoolingTube3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube3"/>
+        <positionref ref="EndCapCoolingWaterTube3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus3"/>
+        <positionref ref="EndCapCoolingTubeTorus3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus3_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus3"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus3_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus3_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus4"/>
+        <positionref ref="EndCapCoolingTubeTorus4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus4"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTube4"/>
+        <positionref ref="EndCapCoolingTube4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube4_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTube4"/>
+        <positionref ref="EndCapCoolingWaterTube4_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube4_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTubeTorus5_1" copynumber="1">
+        <volumeref ref="EndCapCoolingTubeTorus5"/>
+        <positionref ref="EndCapCoolingTubeTorus5_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTubeTorus5_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTubeTorus5_1" copynumber="1">
+        <volumeref ref="EndCapCoolingWaterTubeTorus5"/>
+        <positionref ref="EndCapCoolingWaterTubeTorus5_1inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTubeTorus5_1inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingTube4_2" copynumber="2">
+        <volumeref ref="EndCapCoolingTube4"/>
+        <positionref ref="EndCapCoolingTube4_2inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingTube4_2inMotherEndCapCoolingTuberot"/>
+      </physvol>
+      <physvol name="EndCapCoolingWaterTube4_2" copynumber="2">
+        <volumeref ref="EndCapCoolingWaterTube4"/>
+        <positionref ref="EndCapCoolingWaterTube4_2inMotherEndCapCoolingTubepos"/>
+        <rotationref ref="EndCapCoolingWaterTube4_2inMotherEndCapCoolingTuberot"/>
+      </physvol>
+    </assembly>
+    <volume name="EndCapScrewCoverPlate">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoCompositeShape0x229"/>
+    </volume>
+    <volume name="EndCapCoverPlateUpClip">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1137"/>
+    </volume>
+    <volume name="EndCapCoverPlateDownClip">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoBBox0x1138"/>
+    </volume>
+    <volume name="EndCapKaptonFoil">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoBBox0x1139"/>
+    </volume>
+    <volume name="EffectiveEndCapInnerTube">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoTube0x123"/>
+    </volume>
+    <volume name="EffectiveEndCapOuterTube">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoTube0x124"/>
+    </volume>
+    <volume name="EndCapEffectiveCables2">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x122"/>
+      <physvol name="EffectiveEndCapInnerTube_1" copynumber="1">
+        <volumeref ref="EffectiveEndCapInnerTube"/>
+        <positionref ref="EffectiveEndCapInnerTube_1inEndCapEffectiveCables2pos"/>
+      </physvol>
+      <physvol name="EffectiveEndCapOuterTube_1" copynumber="1">
+        <volumeref ref="EffectiveEndCapOuterTube"/>
+        <positionref ref="EffectiveEndCapOuterTube_1inEndCapEffectiveCables2pos"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapStripConnection">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1140"/>
+    </volume>
+    <volume name="EndCapCardJMDConnector">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x76"/>
+    </volume>
+    <volume name="EndCapCardTopCableConnector">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x77"/>
+    </volume>
+    <volume name="EndCapCardElectBoardBackPlane">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x78"/>
+    </volume>
+    <volume name="EndCapCardElectBoardLayer">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x79"/>
+    </volume>
+    <assembly name="EndCapCardMotherSupply">
+      <physvol name="EndCapCardJMDConnector_1" copynumber="1">
+        <volumeref ref="EndCapCardJMDConnector"/>
+        <positionref ref="EndCapCardJMDConnector_1inEndCapCardMotherSupplypos"/>
+      </physvol>
+      <physvol name="EndCapCardJMDConnector_2" copynumber="2">
+        <volumeref ref="EndCapCardJMDConnector"/>
+        <positionref ref="EndCapCardJMDConnector_2inEndCapCardMotherSupplypos"/>
+        <rotationref ref="EndCapCardJMDConnector_2inEndCapCardMotherSupplyrot"/>
+      </physvol>
+      <physvol name="EndCapCardTopCableConnector_1" copynumber="1">
+        <volumeref ref="EndCapCardTopCableConnector"/>
+        <positionref ref="EndCapCardTopCableConnector_1inEndCapCardMotherSupplypos"/>
+        <rotationref ref="EndCapCardTopCableConnector_1inEndCapCardMotherSupplyrot"/>
+      </physvol>
+      <physvol name="EndCapCardTopCableConnector_2" copynumber="2">
+        <volumeref ref="EndCapCardTopCableConnector"/>
+        <positionref ref="EndCapCardTopCableConnector_2inEndCapCardMotherSupplypos"/>
+        <rotationref ref="EndCapCardTopCableConnector_2inEndCapCardMotherSupplyrot"/>
+      </physvol>
+      <physvol name="EndCapCardElectBoardBackPlane_1" copynumber="1">
+        <volumeref ref="EndCapCardElectBoardBackPlane"/>
+        <positionref ref="EndCapCardElectBoardBackPlane_1inEndCapCardMotherSupplypos"/>
+        <rotationref ref="EndCapCardElectBoardBackPlane_1inEndCapCardMotherSupplyrot"/>
+      </physvol>
+      <physvol name="EndCapCardElectBoardLayer_1" copynumber="1">
+        <volumeref ref="EndCapCardElectBoardLayer"/>
+        <positionref ref="EndCapCardElectBoardLayer_1inEndCapCardMotherSupplypos"/>
+        <rotationref ref="EndCapCardElectBoardLayer_1inEndCapCardMotherSupplyrot"/>
+      </physvol>
+      <physvol name="EndCapCardElectBoardLayer_2" copynumber="2">
+        <volumeref ref="EndCapCardElectBoardLayer"/>
+        <positionref ref="EndCapCardElectBoardLayer_2inEndCapCardMotherSupplypos"/>
+        <rotationref ref="EndCapCardElectBoardLayer_2inEndCapCardMotherSupplyrot"/>
+      </physvol>
+    </assembly>
+    <volume name="EndCapCardJMDConnector">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x76"/>
+    </volume>
+    <volume name="EndCapCardElectBoardBackPlane">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x78"/>
+    </volume>
+    <volume name="EndCapCardElectBoardLayer">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x79"/>
+    </volume>
+    <assembly name="EndCapMotherInterfaceCardA">
+      <physvol name="EndCapCardJMDConnector_1" copynumber="1">
+        <volumeref ref="EndCapCardJMDConnector"/>
+        <positionref ref="EndCapCardJMDConnector_10x1inEndCapMotherInterfaceCardApos"/>
+        <rotationref ref="EndCapCardJMDConnector_10x1inEndCapMotherInterfaceCardArot"/>
+      </physvol>
+      <physvol name="EndCapCardElectBoardBackPlane_1" copynumber="1">
+        <volumeref ref="EndCapCardElectBoardBackPlane"/>
+        <positionref ref="EndCapCardElectBoardBackPlane_10x1inEndCapMotherInterfaceCardApos"/>
+        <rotationref ref="EndCapCardElectBoardBackPlane_10x1inEndCapMotherInterfaceCardArot"/>
+      </physvol>
+      <physvol name="EndCapCardElectBoardLayer_1" copynumber="1">
+        <volumeref ref="EndCapCardElectBoardLayer"/>
+        <positionref ref="EndCapCardElectBoardLayer_10x1inEndCapMotherInterfaceCardApos"/>
+        <rotationref ref="EndCapCardElectBoardLayer_10x1inEndCapMotherInterfaceCardArot"/>
+      </physvol>
+      <physvol name="EndCapCardElectBoardLayer_2" copynumber="2">
+        <volumeref ref="EndCapCardElectBoardLayer"/>
+        <positionref ref="EndCapCardElectBoardLayer_20x1inEndCapMotherInterfaceCardApos"/>
+        <rotationref ref="EndCapCardElectBoardLayer_20x1inEndCapMotherInterfaceCardArot"/>
+      </physvol>
+    </assembly>
+    <volume name="EndCapInterfaceCardB">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x81"/>
+    </volume>
+    <volume name="EndCapInterfaceElectBoardCardB">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x82"/>
+    </volume>
+    <volume name="EndCapCardJMDConnector">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x76"/>
+    </volume>
+    <volume name="EndCapInterfaceCardBMother">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x80"/>
+      <physvol name="EndCapInterfaceCardB_1" copynumber="1">
+        <volumeref ref="EndCapInterfaceCardB"/>
+        <positionref ref="EndCapInterfaceCardB_1inEndCapInterfaceCardBMotherpos"/>
+        <rotationref ref="EndCapInterfaceCardB_1inEndCapInterfaceCardBMotherrot"/>
+      </physvol>
+      <physvol name="EndCapInterfaceElectBoardCardB_1" copynumber="1">
+        <volumeref ref="EndCapInterfaceElectBoardCardB"/>
+        <positionref ref="EndCapInterfaceElectBoardCardB_1inEndCapInterfaceCardBMotherpos"/>
+        <rotationref ref="EndCapInterfaceElectBoardCardB_1inEndCapInterfaceCardBMotherrot"/>
+      </physvol>
+      <physvol name="EndCapCardJMDConnector_1" copynumber="1">
+        <volumeref ref="EndCapCardJMDConnector"/>
+        <positionref ref="EndCapCardJMDConnector_10x2inEndCapInterfaceCardBMotherpos"/>
+        <rotationref ref="EndCapCardJMDConnector_10x2inEndCapInterfaceCardBMotherrot"/>
+      </physvol>
+      <physvol name="EndCapCardJMDConnector_2" copynumber="2">
+        <volumeref ref="EndCapCardJMDConnector"/>
+        <positionref ref="EndCapCardJMDConnector_20x1inEndCapInterfaceCardBMotherpos"/>
+        <rotationref ref="EndCapCardJMDConnector_20x1inEndCapInterfaceCardBMotherrot"/>
+      </physvol>
+      <physvol name="EndCapCardJMDConnector_3" copynumber="3">
+        <volumeref ref="EndCapCardJMDConnector"/>
+        <positionref ref="EndCapCardJMDConnector_3inEndCapInterfaceCardBMotherpos"/>
+        <rotationref ref="EndCapCardJMDConnector_3inEndCapInterfaceCardBMotherrot"/>
+      </physvol>
+    </volume>
+    <volume name="EndCapStiffener">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1141"/>
+    </volume>
+    <volume name="EndCapCardsContainerLayer6Dx">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x75"/>
+      <physvol name="EndCapStripConnection_1" copynumber="1">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_10x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_10x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_2" copynumber="2">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_20x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_20x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_3" copynumber="3">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_30x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_30x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_1" copynumber="1">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_10x1inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_4" copynumber="4">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_40x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_40x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_2" copynumber="2">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_20x1inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_5" copynumber="5">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_50x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_50x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_3" copynumber="3">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_30x1inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_6" copynumber="6">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_60x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_60x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_4" copynumber="4">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_40x1inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_7" copynumber="7">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_70x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_70x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_5" copynumber="5">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_50x1inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_8" copynumber="8">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_80x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_80x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_6" copynumber="6">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_60x1inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapStripConnection_9" copynumber="9">
+        <volumeref ref="EndCapStripConnection"/>
+        <positionref ref="EndCapStripConnection_90x1inEndCapCardsContainerLayer6Dxpos"/>
+        <rotationref ref="EndCapStripConnection_90x1inEndCapCardsContainerLayer6Dxrot"/>
+      </physvol>
+      <physvol name="EndCapCardMotherSupply_7" copynumber="7">
+        <volumeref ref="EndCapCardMotherSupply"/>
+        <positionref ref="EndCapCardMotherSupply_7inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapMotherInterfaceCardA_4" copynumber="4">
+        <volumeref ref="EndCapMotherInterfaceCardA"/>
+        <positionref ref="EndCapMotherInterfaceCardA_4inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapInterfaceCardBMother_1" copynumber="1">
+        <volumeref ref="EndCapInterfaceCardBMother"/>
+        <positionref ref="EndCapInterfaceCardBMother_10x1inEndCapCardsContainerLayer6Dxpos"/>
+      </physvol>
+      <physvol name="EndCapStiffener_1" copynumber="1">
+        <volumeref ref="EndCapStiffener"/>
+        <positionref ref="EndCapStiffener_10x1inEndCapCardsContainerLayer6Dxpos"/>
       </physvol>
     </volume>
     <volume name="EndCapContainerLayer6Dx">

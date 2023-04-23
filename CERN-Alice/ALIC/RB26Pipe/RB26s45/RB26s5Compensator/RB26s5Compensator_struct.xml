@@ -1,19 +1,33 @@
-<structure><volume name="RB26s5CompProtTube">
+<structure><volume name="RB26s5PlieConn1">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoTube0x57"/>
+      <solidref ref="TGeoTube0x55"/>
     </volume>
-    <volume name="RB26s5CompRing">
+    <volume name="RB26s5UpperPlie">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoTube0x56"/>
+      <solidref ref="RB26s5UpperPlie0x1"/>
     </volume>
-    <volume name="RB26s5CompRightTube">
+    <volume name="RB26s5LowerPlie">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoPcon0x88"/>
+      <solidref ref="RB26s5LowerPlie0x1"/>
     </volume>
-    <volume name="RB26s5CompLeftTube">
-      <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoPcon0x87"/>
-    </volume>
+    <assembly name="RB26s5Wiggle">
+      <physvol name="RB26s5PlieConn1_1" copynumber="1">
+        <volumeref ref="RB26s5PlieConn1"/>
+        <positionref ref="RB26s5PlieConn1_1inRB26s5Wigglepos"/>
+      </physvol>
+      <physvol name="RB26s5UpperPlie_1" copynumber="1">
+        <volumeref ref="RB26s5UpperPlie"/>
+        <positionref ref="RB26s5UpperPlie_1inRB26s5Wigglepos"/>
+      </physvol>
+      <physvol name="RB26s5PlieConn1_2" copynumber="2">
+        <volumeref ref="RB26s5PlieConn1"/>
+        <positionref ref="RB26s5PlieConn1_2inRB26s5Wigglepos"/>
+      </physvol>
+      <physvol name="RB26s5LowerPlie_1" copynumber="1">
+        <volumeref ref="RB26s5LowerPlie"/>
+        <positionref ref="RB26s5LowerPlie_10x1inRB26s5Wigglepos"/>
+      </physvol>
+    </assembly>
     <volume name="RB26s5Bellow">
       <materialref ref="PIPE_VACUUM"/>
       <solidref ref="TGeoTube0x54"/>
@@ -81,6 +95,22 @@
         <volumeref ref="RB26s5Wiggle"/>
         <positionref ref="RB26s5Wiggle_15inRB26s5Bellowpos"/>
       </physvol>
+    </volume>
+    <volume name="RB26s5CompLeftTube">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoPcon0x87"/>
+    </volume>
+    <volume name="RB26s5CompRightTube">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoPcon0x88"/>
+    </volume>
+    <volume name="RB26s5CompRing">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x56"/>
+    </volume>
+    <volume name="RB26s5CompProtTube">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x57"/>
     </volume>
     <volume name="RB26s5Compensator">
       <materialref ref="PIPE_VACUUM"/>

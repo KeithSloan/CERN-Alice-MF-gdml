@@ -1,6 +1,30 @@
-<structure><volume name="RB24IpSTC">
+<structure><volume name="RB24IpRF">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoPcon0x57"/>
+      <solidref ref="TGeoPcon0x54"/>
+    </volume>
+    <volume name="RB24IpSTS">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x35"/>
+    </volume>
+    <volume name="RB24IpSTT">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x34"/>
+      <physvol name="RB24IpSTS_1" copynumber="1">
+        <volumeref ref="RB24IpSTS"/>
+        <positionref ref="RB24IpSTS_1inRB24IpSTTpos"/>
+      </physvol>
+    </volume>
+    <volume name="RB24IpSTV">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoTube0x36"/>
+    </volume>
+    <volume name="RB24IpShell">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoPcon0x56"/>
+    </volume>
+    <volume name="voRB24IpPE">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoTube0x37"/>
     </volume>
     <volume name="RB24IpShellM">
       <materialref ref="PIPE_VACUUM"/>
@@ -75,21 +99,9 @@
         <positionref ref="voRB24IpPE_15inRB24IpShellMpos"/>
       </physvol>
     </volume>
-    <volume name="RB24IpSTV">
-      <materialref ref="PIPE_VACUUM"/>
-      <solidref ref="TGeoTube0x36"/>
-    </volume>
-    <volume name="RB24IpSTT">
+    <volume name="RB24IpSTC">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoTube0x34"/>
-      <physvol name="RB24IpSTS_1" copynumber="1">
-        <volumeref ref="RB24IpSTS"/>
-        <positionref ref="RB24IpSTS_1inRB24IpSTTpos"/>
-      </physvol>
-    </volume>
-    <volume name="RB24IpRF">
-      <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoPcon0x54"/>
+      <solidref ref="TGeoPcon0x57"/>
     </volume>
     <volume name="voRB24AIpM">
       <materialref ref="PIPE_AIR"/>

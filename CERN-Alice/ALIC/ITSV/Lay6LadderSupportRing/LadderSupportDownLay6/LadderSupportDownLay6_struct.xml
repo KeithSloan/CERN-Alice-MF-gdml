@@ -1,34 +1,34 @@
-<structure><volume name="MountingBlockSuppTrapezoidDownLay6">
+<structure><volume name="MountingBlockSuppDownLay6Box1">
       <materialref ref="ITS_GEN_C_M55J"/>
-      <solidref ref="TGeoXtru0x68"/>
-    </volume>
-    <volume name="MountingBlockPieceDownLay6">
-      <materialref ref="ITS_G10FR4"/>
-      <solidref ref="TGeoXtru0x67"/>
-    </volume>
-    <volume name="CenterLadderSupportPieceLay6">
-      <materialref ref="ITS_GEN_C_M55J"/>
-      <solidref ref="TGeoXtru0x66"/>
-    </volume>
-    <volume name="SideLadderSupportPieceLay6">
-      <materialref ref="ITS_GEN_C_M55J"/>
-      <solidref ref="TGeoXtru0x65"/>
-    </volume>
-    <volume name="MountingBlockSupportSideLay6Arc">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x64"/>
-    </volume>
-    <volume name="MountingBlockSupportCenterLay6Arc">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x63"/>
+      <solidref ref="TGeoBBox0x1123"/>
     </volume>
     <volume name="MountingBlockSuppDownLay6Box2">
       <materialref ref="ITS_GEN_C_M55J"/>
       <solidref ref="TGeoBBox0x1124"/>
     </volume>
-    <volume name="MountingBlockSuppDownLay6Box1">
+    <volume name="MountingBlockSupportCenterLay6Arc">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x63"/>
+    </volume>
+    <volume name="MountingBlockSupportSideLay6Arc">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x64"/>
+    </volume>
+    <volume name="SideLadderSupportPieceLay6">
       <materialref ref="ITS_GEN_C_M55J"/>
-      <solidref ref="TGeoBBox0x1123"/>
+      <solidref ref="TGeoXtru0x65"/>
+    </volume>
+    <volume name="CenterLadderSupportPieceLay6">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x66"/>
+    </volume>
+    <volume name="MountingBlockPieceDownLay6">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x67"/>
+    </volume>
+    <volume name="MountingBlockSuppTrapezoidDownLay6">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x68"/>
     </volume>
     <volume name="LadderSupportDownLay6">
       <materialref ref="ITS_SDD_AIR"/>

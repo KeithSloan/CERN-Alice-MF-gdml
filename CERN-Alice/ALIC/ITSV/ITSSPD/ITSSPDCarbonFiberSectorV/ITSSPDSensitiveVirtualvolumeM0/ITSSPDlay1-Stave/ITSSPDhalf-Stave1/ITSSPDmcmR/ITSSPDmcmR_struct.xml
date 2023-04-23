@@ -1,34 +1,34 @@
-<structure><volume name="ITSSPDcapTop">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x11"/>
-    </volume>
-    <volume name="ITSSPDcapBoarder">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="ITSSPDshBORDERR"/>
-    </volume>
-    <volume name="ITSSPDoptical">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDoptical0x1"/>
-    </volume>
-    <volume name="ITSSPDrx40">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDrx400x1"/>
-    </volume>
-    <volume name="ITSSPDgol">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDgol0x1"/>
-    </volume>
-    <volume name="ITSSPDpilot">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="ITSSPDpilot0x1"/>
+<structure><volume name="ITSSPDbase">
+      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
+      <solidref ref="TGeoXtru0x10"/>
     </volume>
     <volume name="ITSSPDanalog">
       <materialref ref="ITS_SPD_SI_CHIP"/>
       <solidref ref="ITSSPDanalog0x1"/>
     </volume>
-    <volume name="ITSSPDbase">
-      <materialref ref="ITS_SPD_KAPTONPOLYCH2"/>
-      <solidref ref="TGeoXtru0x10"/>
+    <volume name="ITSSPDpilot">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDpilot0x1"/>
+    </volume>
+    <volume name="ITSSPDgol">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDgol0x1"/>
+    </volume>
+    <volume name="ITSSPDrx40">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDrx400x1"/>
+    </volume>
+    <volume name="ITSSPDoptical">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="ITSSPDoptical0x1"/>
+    </volume>
+    <volume name="ITSSPDcapBoarder">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ITSSPDshBORDERR"/>
+    </volume>
+    <volume name="ITSSPDcapTop">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x11"/>
     </volume>
     <assembly name="ITSSPDmcmR">
       <physvol name="ITSSPDbase_1" copynumber="1">

@@ -1,10 +1,21 @@
-<structure><volume name="FGLF">
-      <materialref ref="TOF_Glass"/>
-      <solidref ref="FGLF0x1"/>
+<structure><volume name="FHON">
+      <materialref ref="TOF_Nomex"/>
+      <solidref ref="FHON0x1"/>
     </volume>
-    <volume name="FRGL">
-      <materialref ref="TOF_Glass"/>
-      <solidref ref="FRGL0x1"/>
+    <volume name="FPC1">
+      <materialref ref="TOF_G10"/>
+      <solidref ref="FPC10x1"/>
+    </volume>
+    <volume name="FPC2">
+      <materialref ref="TOF_G10"/>
+      <solidref ref="FPC20x1"/>
+    </volume>
+    <volume name="FSEN">
+      <materialref ref="TOF_Cu_"/>
+      <solidref ref="FSEN0x1"/>
+      <divisionvol axis="kZAxis" number="2" width="3.5" offset="0" unit="cm">
+        <volumeref ref="FSEZ"/>
+      </divisionvol>
     </volume>
     <volume name="FPCB">
       <materialref ref="TOF_G10"/>
@@ -14,17 +25,13 @@
         <positionref ref="FSEN_1inFPCBpos"/>
       </physvol>
     </volume>
-    <volume name="FPC2">
-      <materialref ref="TOF_G10"/>
-      <solidref ref="FPC20x1"/>
+    <volume name="FRGL">
+      <materialref ref="TOF_Glass"/>
+      <solidref ref="FRGL0x1"/>
     </volume>
-    <volume name="FPC1">
-      <materialref ref="TOF_G10"/>
-      <solidref ref="FPC10x1"/>
-    </volume>
-    <volume name="FHON">
-      <materialref ref="TOF_Nomex"/>
-      <solidref ref="FHON0x1"/>
+    <volume name="FGLF">
+      <materialref ref="TOF_Glass"/>
+      <solidref ref="FGLF0x1"/>
     </volume>
     <volume name="FSTR">
       <materialref ref="TOF_Freon"/>

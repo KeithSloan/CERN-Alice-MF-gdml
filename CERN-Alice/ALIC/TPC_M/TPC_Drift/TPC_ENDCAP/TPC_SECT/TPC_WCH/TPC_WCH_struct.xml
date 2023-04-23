@@ -1,10 +1,10 @@
-<structure><volume name="TPC_WBAR">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="bar"/>
-    </volume>
-    <volume name="TPC_WSEG">
+<structure><volume name="TPC_WSEG">
       <materialref ref="TPC_Al"/>
       <solidref ref="TGeoCompositeShape0x230"/>
+    </volume>
+    <volume name="TPC_WBAR">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="bar"/>
     </volume>
     <assembly name="TPC_WCH">
       <physvol name="TPC_WSEG_1" copynumber="1">

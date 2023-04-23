@@ -1,4 +1,312 @@
-<structure><volume name="SCMX">
+<structure><volume name="PBTI">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x1"/>
+    </volume>
+    <volume name="PBTI0x2">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x3"/>
+    </volume>
+    <volume name="PBTI0x4">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x5"/>
+    </volume>
+    <volume name="PBTI0x6">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x7"/>
+    </volume>
+    <volume name="PBTI0x8">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x9"/>
+    </volume>
+    <volume name="PBTI0x10">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x11"/>
+    </volume>
+    <volume name="PBTI0x12">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x13"/>
+    </volume>
+    <volume name="PBTI0x14">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x15"/>
+    </volume>
+    <volume name="PBTI0x16">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x17"/>
+    </volume>
+    <volume name="PBTI0x18">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x19"/>
+    </volume>
+    <volume name="PBTI0x20">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x21"/>
+    </volume>
+    <volume name="PBTI0x22">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x23"/>
+    </volume>
+    <volume name="PBTI0x24">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x25"/>
+    </volume>
+    <volume name="PBTI0x26">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x27"/>
+    </volume>
+    <volume name="PBTI0x28">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x29"/>
+    </volume>
+    <volume name="PBTI0x30">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x31"/>
+    </volume>
+    <volume name="PBTI0x32">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x33"/>
+    </volume>
+    <volume name="PBTI0x34">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x35"/>
+    </volume>
+    <volume name="PBTI0x36">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x37"/>
+    </volume>
+    <volume name="PBTI0x38">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x39"/>
+    </volume>
+    <volume name="PBTI0x40">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x41"/>
+    </volume>
+    <volume name="PBTI0x42">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x43"/>
+    </volume>
+    <volume name="PBTI0x44">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x45"/>
+    </volume>
+    <volume name="PBTI0x46">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x47"/>
+    </volume>
+    <volume name="PBTI0x48">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x49"/>
+    </volume>
+    <volume name="PBTI0x50">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x51"/>
+    </volume>
+    <volume name="PBTI0x52">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x53"/>
+    </volume>
+    <volume name="PBTI0x54">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x55"/>
+    </volume>
+    <volume name="PBTI0x56">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x57"/>
+    </volume>
+    <volume name="PBTI0x58">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x59"/>
+    </volume>
+    <volume name="PBTI0x60">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x61"/>
+    </volume>
+    <volume name="PBTI0x62">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x63"/>
+    </volume>
+    <volume name="PBTI0x64">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x65"/>
+    </volume>
+    <volume name="PBTI0x66">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x67"/>
+    </volume>
+    <volume name="PBTI0x68">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x69"/>
+    </volume>
+    <volume name="PBTI0x70">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x71"/>
+    </volume>
+    <volume name="PBTI0x72">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x73"/>
+    </volume>
+    <volume name="PBTI0x74">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x75"/>
+    </volume>
+    <volume name="PBTI0x76">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x77"/>
+    </volume>
+    <volume name="PBTI0x78">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x79"/>
+    </volume>
+    <volume name="PBTI0x80">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x81"/>
+    </volume>
+    <volume name="PBTI0x82">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x83"/>
+    </volume>
+    <volume name="PBTI0x84">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x85"/>
+    </volume>
+    <volume name="PBTI0x86">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x87"/>
+    </volume>
+    <volume name="PBTI0x88">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x89"/>
+    </volume>
+    <volume name="PBTI0x90">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x91"/>
+    </volume>
+    <volume name="PBTI0x92">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x93"/>
+    </volume>
+    <volume name="PBTI0x94">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x95"/>
+    </volume>
+    <volume name="PBTI0x96">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x97"/>
+    </volume>
+    <volume name="PBTI0x98">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x99"/>
+    </volume>
+    <volume name="PBTI0x100">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x101"/>
+    </volume>
+    <volume name="PBTI0x102">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x103"/>
+    </volume>
+    <volume name="PBTI0x104">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x105"/>
+    </volume>
+    <volume name="PBTI0x106">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x107"/>
+    </volume>
+    <volume name="PBTI0x108">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x109"/>
+    </volume>
+    <volume name="PBTI0x110">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x111"/>
+    </volume>
+    <volume name="PBTI0x112">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x113"/>
+    </volume>
+    <volume name="PBTI0x114">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x115"/>
+    </volume>
+    <volume name="PBTI0x116">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x117"/>
+    </volume>
+    <volume name="PBTI0x118">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x119"/>
+    </volume>
+    <volume name="PBTI0x120">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x121"/>
+    </volume>
+    <volume name="PBTI0x122">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x123"/>
+    </volume>
+    <volume name="PBTI0x124">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x125"/>
+    </volume>
+    <volume name="PBTI0x126">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x127"/>
+    </volume>
+    <volume name="PBTI0x128">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x129"/>
+    </volume>
+    <volume name="PBTI0x130">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x131"/>
+    </volume>
+    <volume name="PBTI0x132">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x133"/>
+    </volume>
+    <volume name="PBTI0x134">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x135"/>
+    </volume>
+    <volume name="PBTI0x136">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x137"/>
+    </volume>
+    <volume name="PBTI0x138">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x139"/>
+    </volume>
+    <volume name="PBTI0x140">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x141"/>
+    </volume>
+    <volume name="PBTI0x142">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x143"/>
+    </volume>
+    <volume name="PBTI0x144">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x145"/>
+    </volume>
+    <volume name="PBTI0x146">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x147"/>
+    </volume>
+    <volume name="PBTI0x148">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x149"/>
+    </volume>
+    <volume name="PBTI0x150">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x151"/>
+    </volume>
+    <volume name="PBTI0x152">
+      <materialref ref="EMCAL_Pb"/>
+      <solidref ref="PBTI0x153"/>
+    </volume>
+    <volume name="SCMX">
       <materialref ref="EMCAL_Polystyrene"/>
       <solidref ref="SCMX0x1"/>
       <physvol name="PBTI_1" copynumber="1">

@@ -1,6 +1,6 @@
-<structure><volume name="SDGH">
+<structure><volume name="SBGC">
       <materialref ref="MUON_Copper"/>
-      <solidref ref="SDGH0x1"/>
+      <solidref ref="SBGC0x1"/>
     </volume>
     <volume name="SBGP">
       <materialref ref="MUON_Plastic"/>
@@ -9,6 +9,10 @@
         <volumeref ref="SBGC"/>
         <positionref ref="SBGC_1inSBGPpos"/>
       </physvol>
+    </volume>
+    <volume name="SDGH">
+      <materialref ref="MUON_Copper"/>
+      <solidref ref="SDGH0x1"/>
     </volume>
     <volume name="SCDB">
       <materialref ref="MUON_AIR"/>

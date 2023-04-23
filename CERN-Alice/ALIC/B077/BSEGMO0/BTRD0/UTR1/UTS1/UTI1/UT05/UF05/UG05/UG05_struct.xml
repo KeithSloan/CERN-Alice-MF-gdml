@@ -1,26 +1,26 @@
-<structure><volume name="UV05">
+<structure><volume name="UL05">
       <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x142"/>
-    </volume>
-    <volume name="UO05">
-      <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x141"/>
-    </volume>
-    <volume name="UN05">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x140"/>
-    </volume>
-    <volume name="UM05">
-      <materialref ref="TRD_G10"/>
-      <solidref ref="TGeoBBox0x139"/>
+      <solidref ref="TGeoBBox0x137"/>
     </volume>
     <volume name="UY05">
       <materialref ref="TRD_Araldite"/>
       <solidref ref="TGeoBBox0x138"/>
     </volume>
-    <volume name="UL05">
+    <volume name="UM05">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x139"/>
+    </volume>
+    <volume name="UN05">
+      <materialref ref="TRD_G10"/>
+      <solidref ref="TGeoBBox0x140"/>
+    </volume>
+    <volume name="UO05">
       <materialref ref="TRD_Cu"/>
-      <solidref ref="TGeoBBox0x137"/>
+      <solidref ref="TGeoBBox0x141"/>
+    </volume>
+    <volume name="UV05">
+      <materialref ref="TRD_Cu"/>
+      <solidref ref="TGeoBBox0x142"/>
     </volume>
     <volume name="UG05">
       <materialref ref="TRD_Air"/>

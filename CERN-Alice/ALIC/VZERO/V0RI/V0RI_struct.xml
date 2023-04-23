@@ -1,4 +1,40 @@
-<structure><assembly name="V0R0">
+<structure><volume name="V0CA">
+      <materialref ref="VZERO_V0CCar"/>
+      <solidref ref="V0CA0x1"/>
+    </volume>
+    <volume name="V0IR">
+      <materialref ref="VZERO_V0CAlu"/>
+      <solidref ref="V0IR0x1"/>
+    </volume>
+    <volume name="V0ER">
+      <materialref ref="VZERO_V0CAlu"/>
+      <solidref ref="V0ER0x1"/>
+    </volume>
+    <volume name="V0R1">
+      <materialref ref="VZERO_V0CSci"/>
+      <solidref ref="V0R10x1"/>
+    </volume>
+    <volume name="V0R2">
+      <materialref ref="VZERO_V0CSci"/>
+      <solidref ref="V0R20x1"/>
+    </volume>
+    <volume name="V0R3">
+      <materialref ref="VZERO_V0CSci"/>
+      <solidref ref="V0R30x1"/>
+    </volume>
+    <volume name="V0R4">
+      <materialref ref="VZERO_V0CSci"/>
+      <solidref ref="V0R40x1"/>
+    </volume>
+    <volume name="V0R5">
+      <materialref ref="VZERO_V0CSci"/>
+      <solidref ref="V0R50x1"/>
+    </volume>
+    <volume name="V0R6">
+      <materialref ref="VZERO_V0CSci"/>
+      <solidref ref="V0R60x1"/>
+    </volume>
+    <assembly name="V0R0">
       <physvol name="V0R1_1" copynumber="1">
         <volumeref ref="V0R1"/>
         <positionref ref="V0R1_1inV0R0pos"/>
@@ -24,18 +60,6 @@
         <positionref ref="V0R6_1inV0R0pos"/>
       </physvol>
     </assembly>
-    <volume name="V0ER">
-      <materialref ref="VZERO_V0CAlu"/>
-      <solidref ref="V0ER0x1"/>
-    </volume>
-    <volume name="V0IR">
-      <materialref ref="VZERO_V0CAlu"/>
-      <solidref ref="V0IR0x1"/>
-    </volume>
-    <volume name="V0CA">
-      <materialref ref="VZERO_V0CCar"/>
-      <solidref ref="V0CA0x1"/>
-    </volume>
     <assembly name="V0RI">
       <physvol name="V0CA_1" copynumber="1">
         <volumeref ref="V0CA"/>

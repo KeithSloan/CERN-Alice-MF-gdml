@@ -1,18 +1,18 @@
-<structure><volume name="EndCapCardElectBoardLayer">
-      <materialref ref="ITS_KAPTONHPOLYCH2"/>
-      <solidref ref="TGeoXtru0x79"/>
-    </volume>
-    <volume name="EndCapCardElectBoardBackPlane">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x78"/>
+<structure><volume name="EndCapCardJMDConnector">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x76"/>
     </volume>
     <volume name="EndCapCardTopCableConnector">
       <materialref ref="ITS_G10FR4"/>
       <solidref ref="TGeoXtru0x77"/>
     </volume>
-    <volume name="EndCapCardJMDConnector">
-      <materialref ref="ITS_G10FR4"/>
-      <solidref ref="TGeoXtru0x76"/>
+    <volume name="EndCapCardElectBoardBackPlane">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x78"/>
+    </volume>
+    <volume name="EndCapCardElectBoardLayer">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x79"/>
     </volume>
     <assembly name="EndCapCardMotherSupply">
       <physvol name="EndCapCardJMDConnector_1" copynumber="1">

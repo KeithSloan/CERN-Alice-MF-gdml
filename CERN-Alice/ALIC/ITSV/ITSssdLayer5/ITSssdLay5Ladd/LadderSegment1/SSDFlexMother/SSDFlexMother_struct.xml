@@ -1,8 +1,4 @@
-<structure><volume name="KaptonFlexLay2">
-      <materialref ref="ITS_KAPTONHPOLYCH2"/>
-      <solidref ref="TGeoXtru0x32"/>
-    </volume>
-    <volume name="AlFlexLay2">
+<structure><volume name="AlFlexLay1">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoXtru0x31"/>
     </volume>
@@ -10,9 +6,13 @@
       <materialref ref="ITS_KAPTONHPOLYCH2"/>
       <solidref ref="TGeoXtru0x32"/>
     </volume>
-    <volume name="AlFlexLay1">
+    <volume name="AlFlexLay2">
       <materialref ref="ITS_AL"/>
       <solidref ref="TGeoXtru0x31"/>
+    </volume>
+    <volume name="KaptonFlexLay2">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x32"/>
     </volume>
     <assembly name="SSDFlexMother">
       <physvol name="AlFlexLay1_1" copynumber="1">

@@ -1,6 +1,22 @@
-<structure><volume name="skin">
+<structure><volume name="End_Beams">
       <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="skin0x1"/>
+      <solidref ref="End_Beams0x1"/>
+    </volume>
+    <volume name="supportBottom">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="supportBottom0x1"/>
+    </volume>
+    <volume name="RibVolume">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="RibVolume0x1"/>
+    </volume>
+    <volume name="crossBottom">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="crossBottom0x1"/>
+    </volume>
+    <volume name="crossTop">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="crossTop0x1"/>
     </volume>
     <volume name="subSetCross">
       <materialref ref="EMCAL_Air"/>
@@ -116,17 +132,9 @@
         <rotationref ref="crossBottom_12insubSetCrossrot"/>
       </physvol>
     </volume>
-    <volume name="RibVolume">
+    <volume name="skin">
       <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="RibVolume0x1"/>
-    </volume>
-    <volume name="supportBottom">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="supportBottom0x1"/>
-    </volume>
-    <volume name="End_Beams">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="End_Beams0x1"/>
+      <solidref ref="skin0x1"/>
     </volume>
     <volume name="HalfFrame">
       <materialref ref="EMCAL_Air"/>

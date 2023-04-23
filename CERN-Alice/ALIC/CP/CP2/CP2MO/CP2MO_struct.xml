@@ -1,14 +1,14 @@
-<structure><volume name="CP2PI">
-      <materialref ref="PIPE_STAINLESS_STEEL"/>
-      <solidref ref="TGeoPcon0x35"/>
+<structure><volume name="CP2VA">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoTube0x5"/>
     </volume>
     <volume name="CP2FL">
       <materialref ref="PIPE_STAINLESS_STEEL"/>
       <solidref ref="TGeoPcon0x34"/>
     </volume>
-    <volume name="CP2VA">
-      <materialref ref="PIPE_VACUUM"/>
-      <solidref ref="TGeoTube0x5"/>
+    <volume name="CP2PI">
+      <materialref ref="PIPE_STAINLESS_STEEL"/>
+      <solidref ref="TGeoPcon0x35"/>
     </volume>
     <volume name="CP2MO">
       <materialref ref="PIPE_AIR"/>

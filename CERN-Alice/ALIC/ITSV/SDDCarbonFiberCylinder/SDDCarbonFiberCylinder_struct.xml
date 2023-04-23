@@ -1,4 +1,12 @@
-<structure><volume name="SDDFlangeCylinder">
+<structure><volume name="SDDFoamCylinder">
+      <materialref ref="ITS_ROHACELL"/>
+      <solidref ref="TGeoTube0x128"/>
+    </volume>
+    <volume name="SDDFlangeBolt">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x130"/>
+    </volume>
+    <volume name="SDDFlangeCylinder">
       <materialref ref="ITS_G10FR4"/>
       <solidref ref="TGeoTube0x129"/>
       <physvol name="SDDFlangeBolt_1" copynumber="1">
@@ -49,10 +57,6 @@
         <volumeref ref="SDDFlangeBolt"/>
         <positionref ref="SDDFlangeBolt_12inSDDFlangeCylinderpos"/>
       </physvol>
-    </volume>
-    <volume name="SDDFoamCylinder">
-      <materialref ref="ITS_ROHACELL"/>
-      <solidref ref="TGeoTube0x128"/>
     </volume>
     <volume name="SDDCarbonFiberCylinder">
       <materialref ref="ITS_SDD_C_M55J"/>

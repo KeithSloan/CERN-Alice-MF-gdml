@@ -1,10 +1,10 @@
-<structure><volume name="RB24ValveBoA">
-      <materialref ref="PIPE_VACUUM"/>
-      <solidref ref="TGeoTube0x39"/>
-    </volume>
-    <volume name="RB24ValveBoI">
+<structure><volume name="RB24ValveBoI">
       <materialref ref="PIPE_VACUUM"/>
       <solidref ref="TGeoBBox0x960"/>
+    </volume>
+    <volume name="RB24ValveBoA">
+      <materialref ref="PIPE_VACUUM"/>
+      <solidref ref="TGeoTube0x39"/>
     </volume>
     <volume name="RB24ValveBo">
       <materialref ref="PIPE_STAINLESS_STEEL"/>

@@ -1,134 +1,134 @@
-<structure><volume name="S05L0x62">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x63"/>
-    </volume>
-    <volume name="S05L0x60">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x61"/>
-    </volume>
-    <volume name="S05L0x58">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x59"/>
-    </volume>
-    <volume name="S05L0x56">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x57"/>
-    </volume>
-    <volume name="S05L0x54">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x55"/>
-    </volume>
-    <volume name="S05L0x52">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x53"/>
-    </volume>
-    <volume name="S05L0x50">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x51"/>
-    </volume>
-    <volume name="S05L0x48">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x49"/>
-    </volume>
-    <volume name="S05L0x46">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x47"/>
-    </volume>
-    <volume name="S05L0x44">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x45"/>
-    </volume>
-    <volume name="S05L0x42">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x43"/>
-    </volume>
-    <volume name="S05L0x40">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x41"/>
-    </volume>
-    <volume name="S05L0x38">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x39"/>
-    </volume>
-    <volume name="S05L0x36">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x37"/>
-    </volume>
-    <volume name="S05L0x34">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x35"/>
-    </volume>
-    <volume name="S05L0x32">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x33"/>
-    </volume>
-    <volume name="S05L0x30">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x31"/>
-    </volume>
-    <volume name="S05L0x28">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x29"/>
-    </volume>
-    <volume name="S05L0x26">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x27"/>
-    </volume>
-    <volume name="S05L0x24">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x25"/>
-    </volume>
-    <volume name="S05L0x22">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x23"/>
-    </volume>
-    <volume name="S05L0x20">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x21"/>
-    </volume>
-    <volume name="S05L0x18">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x19"/>
-    </volume>
-    <volume name="S05L0x16">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x17"/>
-    </volume>
-    <volume name="S05L0x14">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x15"/>
-    </volume>
-    <volume name="S05L0x12">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x13"/>
-    </volume>
-    <volume name="S05L0x10">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x11"/>
-    </volume>
-    <volume name="S05L0x8">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x9"/>
-    </volume>
-    <volume name="S05L0x6">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x7"/>
-    </volume>
-    <volume name="S05L0x4">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x5"/>
-    </volume>
-    <volume name="S05L0x2">
-      <materialref ref="MUON_COPPER"/>
-      <solidref ref="S05L0x3"/>
+<structure><volume name="S05K">
+      <materialref ref="MUON_Carbon"/>
+      <solidref ref="shCarbonSupportSt3"/>
     </volume>
     <volume name="S05L">
       <materialref ref="MUON_COPPER"/>
       <solidref ref="S05L0x1"/>
     </volume>
-    <volume name="S05K">
-      <materialref ref="MUON_Carbon"/>
-      <solidref ref="shCarbonSupportSt3"/>
+    <volume name="S05L0x2">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x3"/>
+    </volume>
+    <volume name="S05L0x4">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x5"/>
+    </volume>
+    <volume name="S05L0x6">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x7"/>
+    </volume>
+    <volume name="S05L0x8">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x9"/>
+    </volume>
+    <volume name="S05L0x10">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x11"/>
+    </volume>
+    <volume name="S05L0x12">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x13"/>
+    </volume>
+    <volume name="S05L0x14">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x15"/>
+    </volume>
+    <volume name="S05L0x16">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x17"/>
+    </volume>
+    <volume name="S05L0x18">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x19"/>
+    </volume>
+    <volume name="S05L0x20">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x21"/>
+    </volume>
+    <volume name="S05L0x22">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x23"/>
+    </volume>
+    <volume name="S05L0x24">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x25"/>
+    </volume>
+    <volume name="S05L0x26">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x27"/>
+    </volume>
+    <volume name="S05L0x28">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x29"/>
+    </volume>
+    <volume name="S05L0x30">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x31"/>
+    </volume>
+    <volume name="S05L0x32">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x33"/>
+    </volume>
+    <volume name="S05L0x34">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x35"/>
+    </volume>
+    <volume name="S05L0x36">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x37"/>
+    </volume>
+    <volume name="S05L0x38">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x39"/>
+    </volume>
+    <volume name="S05L0x40">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x41"/>
+    </volume>
+    <volume name="S05L0x42">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x43"/>
+    </volume>
+    <volume name="S05L0x44">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x45"/>
+    </volume>
+    <volume name="S05L0x46">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x47"/>
+    </volume>
+    <volume name="S05L0x48">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x49"/>
+    </volume>
+    <volume name="S05L0x50">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x51"/>
+    </volume>
+    <volume name="S05L0x52">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x53"/>
+    </volume>
+    <volume name="S05L0x54">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x55"/>
+    </volume>
+    <volume name="S05L0x56">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x57"/>
+    </volume>
+    <volume name="S05L0x58">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x59"/>
+    </volume>
+    <volume name="S05L0x60">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x61"/>
+    </volume>
+    <volume name="S05L0x62">
+      <materialref ref="MUON_COPPER"/>
+      <solidref ref="S05L0x63"/>
     </volume>
     <volume name="S05S">
       <materialref ref="MUON_Nomex"/>

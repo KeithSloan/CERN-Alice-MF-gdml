@@ -1,28 +1,114 @@
-<structure><volume name="ZPRO">
-      <materialref ref="ZDC_BRASS"/>
-      <solidref ref="ZPRO0x1"/>
-      <divisionvol axis="kXAxis" number="4" width="5.5998999999999999" offset="0" unit="cm">
-        <volumeref ref="ZPTX"/>
-      </divisionvol>
-    </volume>
-    <volume name="ZNEU">
-      <materialref ref="ZDC_WALL"/>
-      <solidref ref="ZNEU0x1"/>
-      <divisionvol axis="kXAxis" number="2" width="3.5199000000000003" offset="0" unit="cm">
-        <volumeref ref="ZNTX"/>
-      </divisionvol>
-    </volume>
-    <volume name="YD2">
+<structure><volume name="QT01">
       <materialref ref="ZDC_IRON0"/>
-      <solidref ref="YD20x1"/>
-      <physvol name="MD2_1" copynumber="1">
-        <volumeref ref="MD2"/>
-        <positionref ref="MD2_1inYD2pos"/>
+      <solidref ref="QT010x1"/>
+    </volume>
+    <volume name="QT02">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT020x1"/>
+    </volume>
+    <volume name="QC01">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="TGeoCone0x12"/>
+    </volume>
+    <volume name="QT03">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT030x1"/>
+    </volume>
+    <volume name="QC02">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="TGeoCone0x13"/>
+    </volume>
+    <volume name="QT04">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT040x1"/>
+    </volume>
+    <volume name="QC03">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="TGeoCone0x14"/>
+    </volume>
+    <volume name="QT05">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT050x1"/>
+    </volume>
+    <volume name="QT06">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT060x1"/>
+    </volume>
+    <volume name="QC04">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="TGeoCone0x15"/>
+    </volume>
+    <volume name="QT07">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT070x1"/>
+    </volume>
+    <volume name="QC05">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="TGeoCone0x16"/>
+    </volume>
+    <volume name="QT08">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT080x1"/>
+    </volume>
+    <volume name="QCLint">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="intTrousersC"/>
+    </volume>
+    <volume name="QCLext">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="outTrousersC"/>
+      <physvol name="QCLint_1" copynumber="1">
+        <volumeref ref="QCLint"/>
+        <positionref ref="QCLint_1inQCLextpos"/>
       </physvol>
-      <physvol name="MD2_2" copynumber="2">
-        <volumeref ref="MD2"/>
-        <positionref ref="MD2_2inYD2pos"/>
-      </physvol>
+    </volume>
+    <volume name="QC14">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QC140x1"/>
+    </volume>
+    <volume name="QC15">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="TGeoCone0x17"/>
+    </volume>
+    <volume name="QC16">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QC160x1"/>
+    </volume>
+    <volume name="QLUC">
+      <materialref ref="ZDC_COPP0"/>
+      <solidref ref="QLUC0x1"/>
+    </volume>
+    <volume name="MBXW">
+      <materialref ref="ZDC_VOIM"/>
+      <solidref ref="MBXW0x1"/>
+    </volume>
+    <volume name="YMBX">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YMBX0x1"/>
+    </volume>
+    <volume name="MQXL">
+      <materialref ref="ZDC_VOIM"/>
+      <solidref ref="MQXL0x1"/>
+    </volume>
+    <volume name="YMQL">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YMQL0x1"/>
+    </volume>
+    <volume name="MQX">
+      <materialref ref="ZDC_VOIM"/>
+      <solidref ref="MQX0x1"/>
+    </volume>
+    <volume name="YMQ">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YMQ0x1"/>
+    </volume>
+    <volume name="YD1">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YD10x1"/>
+    </volume>
+    <volume name="MD1V">
+      <materialref ref="ZDC_COPP0"/>
+      <solidref ref="MD1V0x1"/>
     </volume>
     <volume name="MD1">
       <materialref ref="ZDC_VOIM"/>
@@ -36,109 +122,35 @@
         <positionref ref="MD1V_2inMD1pos"/>
       </physvol>
     </volume>
-    <volume name="YD1">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="YD10x1"/>
-    </volume>
-    <volume name="YMQ">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="YMQ0x1"/>
-    </volume>
-    <volume name="MQX">
+    <volume name="MD2">
       <materialref ref="ZDC_VOIM"/>
-      <solidref ref="MQX0x1"/>
+      <solidref ref="MD20x1"/>
     </volume>
-    <volume name="YMQL">
+    <volume name="YD2">
       <materialref ref="ZDC_IRON0"/>
-      <solidref ref="YMQL0x1"/>
-    </volume>
-    <volume name="MQXL">
-      <materialref ref="ZDC_VOIM"/>
-      <solidref ref="MQXL0x1"/>
-    </volume>
-    <volume name="YMBX">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="YMBX0x1"/>
-    </volume>
-    <volume name="MBXW">
-      <materialref ref="ZDC_VOIM"/>
-      <solidref ref="MBXW0x1"/>
-    </volume>
-    <volume name="QLUC">
-      <materialref ref="ZDC_COPP0"/>
-      <solidref ref="QLUC0x1"/>
-    </volume>
-    <volume name="QC16">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QC160x1"/>
-    </volume>
-    <volume name="QC15">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="TGeoCone0x17"/>
-    </volume>
-    <volume name="QC14">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QC140x1"/>
-    </volume>
-    <volume name="QCLext">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="outTrousersC"/>
-      <physvol name="QCLint_1" copynumber="1">
-        <volumeref ref="QCLint"/>
-        <positionref ref="QCLint_1inQCLextpos"/>
+      <solidref ref="YD20x1"/>
+      <physvol name="MD2_1" copynumber="1">
+        <volumeref ref="MD2"/>
+        <positionref ref="MD2_1inYD2pos"/>
+      </physvol>
+      <physvol name="MD2_2" copynumber="2">
+        <volumeref ref="MD2"/>
+        <positionref ref="MD2_2inYD2pos"/>
       </physvol>
     </volume>
-    <volume name="QT08">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT080x1"/>
+    <volume name="ZNEU">
+      <materialref ref="ZDC_WALL"/>
+      <solidref ref="ZNEU0x1"/>
+      <divisionvol axis="kXAxis" number="2" width="3.5199000000000003" offset="0" unit="cm">
+        <volumeref ref="ZNTX"/>
+      </divisionvol>
     </volume>
-    <volume name="QC05">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="TGeoCone0x16"/>
-    </volume>
-    <volume name="QT07">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT070x1"/>
-    </volume>
-    <volume name="QC04">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="TGeoCone0x15"/>
-    </volume>
-    <volume name="QT06">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT060x1"/>
-    </volume>
-    <volume name="QT05">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT050x1"/>
-    </volume>
-    <volume name="QC03">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="TGeoCone0x14"/>
-    </volume>
-    <volume name="QT04">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT040x1"/>
-    </volume>
-    <volume name="QC02">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="TGeoCone0x13"/>
-    </volume>
-    <volume name="QT03">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT030x1"/>
-    </volume>
-    <volume name="QC01">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="TGeoCone0x12"/>
-    </volume>
-    <volume name="QT02">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT020x1"/>
-    </volume>
-    <volume name="QT01">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QT010x1"/>
+    <volume name="ZPRO">
+      <materialref ref="ZDC_BRASS"/>
+      <solidref ref="ZPRO0x1"/>
+      <divisionvol axis="kXAxis" number="4" width="5.5998999999999999" offset="0" unit="cm">
+        <volumeref ref="ZPTX"/>
+      </divisionvol>
     </volume>
     <volume name="ZDCC">
       <materialref ref="ZDC_VOID"/>

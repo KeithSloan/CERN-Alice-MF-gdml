@@ -1,6 +1,10 @@
-<structure><volume name="SSDCoolingHole">
+<structure><volume name="SSDCarbonFiberConeFoam1">
+      <materialref ref="ITS_ROHACELL"/>
+      <solidref ref="TGeoPcon0x108"/>
+    </volume>
+    <volume name="SSDMountingHole">
       <materialref ref="ITS_SSD_AIR"/>
-      <solidref ref="TGeoPcon0x111"/>
+      <solidref ref="TGeoPcon0x110"/>
     </volume>
     <volume name="SSDCarbonFiberConeFoam2">
       <materialref ref="ITS_ROHACELL"/>
@@ -36,9 +40,9 @@
         <rotationref ref="SSDMountingHole_6inSSDCarbonFiberConeFoam2rot"/>
       </physvol>
     </volume>
-    <volume name="SSDCarbonFiberConeFoam1">
-      <materialref ref="ITS_ROHACELL"/>
-      <solidref ref="TGeoPcon0x108"/>
+    <volume name="SSDCoolingHole">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="TGeoPcon0x111"/>
     </volume>
     <volume name="SSDCarbonFiberConeInsert">
       <materialref ref="ITS_G10FR4"/>

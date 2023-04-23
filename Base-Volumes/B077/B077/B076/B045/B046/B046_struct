@@ -1,5 +1,0 @@
-<volume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="B046">
-      <materialref ref="FRAME_AIR"/>
-      <solidref ref="B0460x1"/>
-    </volume>
-    

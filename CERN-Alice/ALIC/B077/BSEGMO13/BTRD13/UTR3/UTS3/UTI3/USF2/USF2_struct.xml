@@ -1,18 +1,18 @@
-<structure><volume name="USI20x3">
+<structure><volume name="USI2">
       <materialref ref="TRD_Air"/>
-      <solidref ref="TGeoBBox0x40"/>
-    </volume>
-    <volume name="USI20x2">
-      <materialref ref="TRD_Air"/>
-      <solidref ref="TGeoBBox0x39"/>
+      <solidref ref="TGeoBBox0x37"/>
     </volume>
     <volume name="USI20x1">
       <materialref ref="TRD_Air"/>
       <solidref ref="TGeoBBox0x38"/>
     </volume>
-    <volume name="USI2">
+    <volume name="USI20x2">
       <materialref ref="TRD_Air"/>
-      <solidref ref="TGeoBBox0x37"/>
+      <solidref ref="TGeoBBox0x39"/>
+    </volume>
+    <volume name="USI20x3">
+      <materialref ref="TRD_Air"/>
+      <solidref ref="TGeoBBox0x40"/>
     </volume>
     <volume name="USF2">
       <materialref ref="TRD_Al"/>
