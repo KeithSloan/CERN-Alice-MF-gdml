@@ -63,6 +63,11 @@ class gdml_lxml() :
         #self.volAsmDict = {}  # Can have number of PhysVols that refer to same
         # Needs to be in VolAsm   
         #self.VolAsmStructDict = {}
+        NS = 'http://www.w3.org/2001/XMLSchema-instance'
+        location_attribute = '{%s}noNameSpaceSchemaLocation' % NS
+        self.gdml = etree.Element('gdml', attrib={location_attribute: \
+        'http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd'})
+        self.docString = "\n<!DOCTYPE gdml [\n"
 
     def findAll(self, elem):
         return self.root.findall(elem)
@@ -146,18 +151,45 @@ class gdml_lxml() :
             volAsm.newSolids.append(newSolidXml)
             self.checkBooleanSolids(volAsm, newSolidXml)
 
+    def writeElement(self, path, fName, elem, ext="xml"):
+        import os
+
+        fpath = os.path.join(path, fName)
+        print('writing file : ' + fpath)
+        etree.ElementTree(elem).write(fpath+'.'+ext)
 
 
-    def addEntity(self, elemName, xmlFile) :
+    def addEntity(self, elemName, elem, xmlFile) :
         self.docString += "<!ENTITY " + elemName + ' SYSTEM "' + xmlFile+'">\n'
         self.gdml.append(etree.Entity(elemName))
 
-    def closeElements(self) :
-        self.docString += ']\n'
 
-    def writeGDML(self, path, vname):
+    def closeEntities(self) :
+        self.docString += ']>\n'
+
+
+    def processElements(self, name):
+
+        for n, elem in enumerate(self.root.findall(name)):
+            fName = name+"_"+str(n)
+            print(f"{name}file {n} {fName} elem : {elem}")
+            self.writeElement(oName, fName, elem)
+            self.addEntity(fName, elem, fName)
+
+
+    def processElement(self, name):
+
+        elem = self.root.find(name)
+        fName = name
+        print(f"{name}file {fName} elem : {elem}")
+        self.writeElement(oName, fName, elem)
+        self.addEntity(fName, elem, fName)
+
+
+    def writeGDML(self, path, fname):
         # indent(iself.gdml)
-        etree.ElementTree(self.gdml).write(os.path.join(path, vname+'.gdml'), \
+        #etree.ElementTree(self.gdml).write(os.path.join(path, fname+'.gdml'), \
+        etree.ElementTree(self.gdml).write(os.path.join(path, fname), \
                doctype = self.docString.encode('UTF-8'))
 
 
@@ -168,22 +200,6 @@ def checkDirectory(path):
         print('Creating Directory : '+path)
         os.mkdir(path)
 
-
-def writeElement(path, sname, type, elem, ext="xml"):
-    import os
-
-    fpath = os.path.join(path, sname+'_'+type)
-    print('writing file : ' + fpath)
-    etree.ElementTree(elem).write(fpath+'.'+ext)
-
-
-def exportEntity(dirPath, elemName, elem):
-    import os
-    global gdml, docString
-
-    etree.ElementTree(elem).write(os.path.join(dirPath, elemName))
-    docString += '<!ENTITY '+elemName+' SYSTEM "'+elemName+'">\n'
-    gdml.append(etree.Entity(elemName))
 
 
 if len(sys.argv) < 3:
@@ -199,10 +215,13 @@ checkDirectory(oName)
 lxml = gdml_lxml(iName)
 # setup = etree.Element('setup', {'name':'Default', 'version':'1.0'})
 # etree.SubElement(setup,'world', { 'ref' : volList[-1]})
-for n, elem in enumerate(lxml.findAll('materials')):
-    fName = "materials_"+str(n)
-    print(f"Materials file {n} {fName} elem : {elem}")
-for n, elem in enumerate(lxml.findAll('define')):
-    fName = "define_"+str(n)
-    print(f"Define file {n} {fName} elem : {elem}")
-
+lxml.processElements('materials')
+lxml.processElements('define')
+lxml.processElements('solids')
+lxml.processElements('structure')
+lxml.processElement('setup')
+lxml.closeEntities()
+#gdmlFile = os.path.join(oName+iName)
+#lxml.writeGDML(oName, gdmlFile)
+#lxml.closeElements()
+lxml.writeGDML(oName, iName)
