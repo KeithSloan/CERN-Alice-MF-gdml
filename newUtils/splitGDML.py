@@ -56,21 +56,12 @@ class gdml_lxml() :
             except:
                 print('No lxml or xml')
 
-        #self.define    = self.root.find('define')
-        #self.materials = self.root.find('materials')
-        #self.solids    = self.root.find('solids')
-        #self.structure = self.root.find('structure')
-        #self.volAsmDict = {}  # Can have number of PhysVols that refer to same
-        # Needs to be in VolAsm   
-        #self.VolAsmStructDict = {}
         NS = 'http://www.w3.org/2001/XMLSchema-instance'
         location_attribute = '{%s}noNameSpaceSchemaLocation' % NS
         self.gdml = etree.Element('gdml', attrib={location_attribute: \
         'http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd'})
         self.docString = "\n<!DOCTYPE gdml [\n"
 
-    def findAll(self, elem):
-        return self.root.findall(elem)
 
     def printElement(self, elem):
         import lxml.html as html
@@ -91,65 +82,6 @@ class gdml_lxml() :
         name = elem.attrib.get('name')
         print(f"{elem} : {name}")
 
-
-    #def checkVolAsmDict(self, name):
-    #    # print(f"Check Vol Asm Dict {self.volAsmDict}")
-    #    if name in self.volAsmDict.keys():
-    #        return False        # No need to process
-    #    return True             # NEED to process
-
-
-    #def addVolAsmDict(self, name, elem):
-    #    self.volAsmDict[name] = elem
-
-
-    #def addVolAsmStructDict(self, name, elem):
-    #    self.VolAsmStructDict[name] = elem
-
-
-    #def getRawVolAsmStruct(self, vaname):
-    #    newStruct = copy.deepcopy(self.structure)
-    #    struct = newStruct.find(f"*[@name='{vaname}']")
-    #    return struct
-
-
-    #def getVolAsmStruct(self, vaname):
-    #    # Needs to be structure and sub volumes 
-    #    # So cannot just use structure in source#
-    #    print(f"VolAsmStructDict {self.VolAsmStructDict.keys()}")
-    #    ret = self.VolAsmStructDict[vaname]
-    #    if ret is not None:
-    #        return ret
-    #    else:
-    #        print(f"{vaname} not found in Dict")    
-
-
-
-    def getSolid(self, sname):
-        self.solids = self.root.find('solids')
-        print(f"getSolid : {self.solids} {len(self.solids)} {sname}")
-        # self.printElement(self.solids)
-        # return self.solids.find(f"*[@name='{sname}']")
-        ret = self.solids.find(f"*[@name='{sname}']")
-        print(f"getSolid : {self.solids} {len(self.solids)} {sname}")
-        if ret is not None:
-            self.printElement(ret)
-        print(ret)
-        return ret
-
-
-    def getMaterials(self):
-        return(self.materials)
-
-
-
-    def processSolid(self, volAsm, sname):
-        solidXml = self.solids.find(f"*[@name='{sname}']")
-        #print(f"solidXml {solidXml}")
-        newSolidXml = copy.deepcopy(solidXml)
-        if newSolidXml is not None:
-            volAsm.newSolids.append(newSolidXml)
-            self.checkBooleanSolids(volAsm, newSolidXml)
 
     def writeElement(self, path, fName, elem, ext="xml"):
         import os
@@ -174,7 +106,7 @@ class gdml_lxml() :
             fName = name+"_"+str(n)
             print(f"{name}file {n} {fName} elem : {elem}")
             self.writeElement(oName, fName, elem)
-            self.addEntity(fName, elem, fName)
+            self.addEntity(fName, elem, fName+'.xml')
 
 
     def processElement(self, name):
@@ -183,7 +115,7 @@ class gdml_lxml() :
         fName = name
         print(f"{name}file {fName} elem : {elem}")
         self.writeElement(oName, fName, elem)
-        self.addEntity(fName, elem, fName)
+        self.addEntity(fName, elem, fName+'.xml')
 
 
     def writeGDML(self, path, fname):
@@ -221,7 +153,4 @@ lxml.processElements('solids')
 lxml.processElements('structure')
 lxml.processElement('setup')
 lxml.closeEntities()
-#gdmlFile = os.path.join(oName+iName)
-#lxml.writeGDML(oName, gdmlFile)
-#lxml.closeElements()
 lxml.writeGDML(oName, iName)
