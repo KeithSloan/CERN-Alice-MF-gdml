@@ -199,7 +199,10 @@ checkDirectory(oName)
 lxml = gdml_lxml(iName)
 # setup = etree.Element('setup', {'name':'Default', 'version':'1.0'})
 # etree.SubElement(setup,'world', { 'ref' : volList[-1]})
-for elem in lxml.findAll('materials'):
-    lxml.printName(elem)
-for elem in lxml.findAll('define'):
-    lxml.printName(elem)
+for n, elem in enumerate(lxml.findAll('materials')):
+    fName = "materials_"+str(n)
+    print(f"Materials file {n} {fName} elem : {elem}")
+for n, elem in enumerate(lxml.findAll('define')):
+    fName = "define_"+str(n)
+    print(f"Define file {n} {fName} elem : {elem}")
+
