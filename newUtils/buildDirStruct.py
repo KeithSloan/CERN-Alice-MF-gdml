@@ -318,9 +318,13 @@ class VolAsm():
         self.docString = "\n<!DOCTYPE gdml [\n"
         # self.newDefine = etree.SubElement(self.gdml,'define')
         self.newDefine = etree.Element('define')
+        etree.SubElement(self.newDefine, "position", {"name" : "center",
+                                    "x" : "0", "y" : "0", "z" : "0"})
         # self.newSolids = etree.SubElement(self.gdml,'solids')
         self.newMaterials = etree.Element('materials')
         self.newSolids = etree.Element('solids')
+        etree.SubElement(self.newSolids, "box", {"name" : "WorldBox",
+                                   "x" : "9000", "y" : "9000", "z" : "9000"})
         self.newStruct = etree.Element('structure')
         self.newSetup = etree.Element('setup')
         self.matList = []       # List of found materials
@@ -563,11 +567,16 @@ class VolAsm():
 
     def addAssemblyVol(self, volAsm, vaname):
         print(f"Add Assembly Volume")
-        rootName = "rootVol"
+        rootName = "root"+vaname
         volXml = etree.Element("volume", {"name" : rootName})
-        etree.SubElement(volXml, "physvol", {"name" : "PV-"+vaname})
-        etree.SubElement(volXml, "volumeref", {"ref" : vaname})
-        self.newStruct.insert(0, volXml)
+        etree.SubElement(volXml, "materialref", {"ref" : "G4_AIR"})
+        etree.SubElement(volXml, "solidref", {"ref" : "WorldBox"})
+
+        physvol = etree.SubElement(volXml, "physvol", {"name" : "PV-"+vaname})
+        etree.SubElement(physvol, "volumeref", {"ref" : vaname})
+        etree.SubElement(physvol, "positionref", {"ref" : "center"})
+        # self.newStruct.insert(0, volXml)
+        self.newStruct.append(volXml)
         return rootName
 
 
