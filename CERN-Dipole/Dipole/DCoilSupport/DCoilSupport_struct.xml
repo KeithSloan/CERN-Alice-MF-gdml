@@ -1,4 +1,4 @@
-<structure><volume name="DCS02">
+<structure><volume name="rootVol"><physvol name="PV-DCoilSupport"/><volumeref ref="DCoilSupport"/></volume><volume name="DCS02">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x5"/>
     </volume>

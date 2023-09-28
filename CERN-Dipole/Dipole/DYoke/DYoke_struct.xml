@@ -1,4 +1,4 @@
-<structure><volume name="DYokeBaseBlock0">
+<structure><volume name="rootVol"><physvol name="PV-DYoke"/><volumeref ref="DYoke"/></volume><volume name="rootVol"><physvol name="PV-DYokeBase"/><volumeref ref="DYokeBase"/></volume><volume name="DYokeBaseBlock0">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x1"/>
     </volume>
@@ -56,7 +56,7 @@
         <positionref ref="DYokeBaseBlock6_1inDYokeBasepos"/>
       </physvol>
     </assembly>
-    <volume name="DSideBlock">
+    <volume name="rootVol"><physvol name="PV-DYokeSide"/><volumeref ref="DYokeSide"/></volume><volume name="DSideBlock">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x8"/>
     </volume>

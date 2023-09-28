@@ -1,4 +1,4 @@
-<structure><volume name="DSideBlock">
+<structure><volume name="rootVol"><physvol name="PV-DYokeSide"/><volumeref ref="DYokeSide"/></volume><volume name="DSideBlock">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x8"/>
     </volume>

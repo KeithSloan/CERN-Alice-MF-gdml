@@ -1,4 +1,4 @@
-<structure><volume name="DYokeBaseBlock0">
+<structure><volume name="rootVol"><physvol name="PV-Dipole"/><volumeref ref="Dipole"/></volume><volume name="rootVol"><physvol name="PV-DYoke"/><volumeref ref="DYoke"/></volume><volume name="rootVol"><physvol name="PV-DYokeBase"/><volumeref ref="DYokeBase"/></volume><volume name="DYokeBaseBlock0">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x1"/>
     </volume>
@@ -56,7 +56,7 @@
         <positionref ref="DYokeBaseBlock6_1inDYokeBasepos"/>
       </physvol>
     </assembly>
-    <volume name="DSideBlock">
+    <volume name="rootVol"><physvol name="PV-DYokeSide"/><volumeref ref="DYokeSide"/></volume><volume name="DSideBlock">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x8"/>
     </volume>
@@ -109,7 +109,7 @@
         <scale name="DYokeSide_2inDYokescl" x="1" y="1" z="-1"/>
       </physvol>
     </assembly>
-    <volume name="DC2">
+    <volume name="rootVol"><physvol name="PV-DCoil"/><volumeref ref="DCoil"/></volume><volume name="DC2">
       <materialref ref="DIPO_Al2"/>
       <solidref ref="TGeoTubeSeg0x1"/>
     </volume>
@@ -253,7 +253,7 @@
         <rotationref ref="DL0_4inDCoilrot"/>
       </physvol>
     </assembly>
-    <volume name="DC10">
+    <volume name="rootVol"><physvol name="PV-DContactor"/><volumeref ref="DContactor"/></volume><volume name="DC10">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x4"/>
     </volume>
@@ -267,7 +267,7 @@
         <positionref ref="DC10_2inDContactorpos"/>
       </physvol>
     </assembly>
-    <volume name="DCS02">
+    <volume name="rootVol"><physvol name="PV-DCoilSupport"/><volumeref ref="DCoilSupport"/></volume><volume name="DCS02">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x5"/>
     </volume>
@@ -357,7 +357,7 @@
         <positionref ref="DCS05_1inDCoilSupportpos"/>
       </physvol>
     </assembly>
-    <volume name="DHS1">
+    <volume name="rootVol"><physvol name="PV-asHS"/><volumeref ref="asHS"/></volume><volume name="DHS1">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x14"/>
     </volume>

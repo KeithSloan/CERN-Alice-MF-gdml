@@ -1,4 +1,4 @@
-<structure><volume name="DHS1">
+<structure><volume name="rootVol"><physvol name="PV-asHS"/><volumeref ref="asHS"/></volume><volume name="DHS1">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x14"/>
     </volume>
