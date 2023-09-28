@@ -1,4 +1,4 @@
-<structure><volume name="rootVol"><physvol name="PV-DYokeSide"/><volumeref ref="DYokeSide"/></volume><volume name="DSideBlock">
+<structure><volume name="DSideBlock">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x8"/>
     </volume>
@@ -32,4 +32,4 @@
         <positionref ref="DSideBlock_6inDYokeSidepos"/>
       </physvol>
     </assembly>
-    </structure>
+    <volume name="rootDYokeSide"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DYokeSide"><volumeref ref="DYokeSide"/><positionref ref="center"/></physvol></volume></structure>

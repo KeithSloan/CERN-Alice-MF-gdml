@@ -1,4 +1,4 @@
-<structure><volume name="rootVol"><physvol name="PV-DCoil"/><volumeref ref="DCoil"/></volume><volume name="DC2">
+<structure><volume name="DC2">
       <materialref ref="DIPO_Al2"/>
       <solidref ref="TGeoTubeSeg0x1"/>
     </volume>
@@ -142,4 +142,4 @@
         <rotationref ref="DL0_4inDCoilrot"/>
       </physvol>
     </assembly>
-    </structure>
+    <volume name="rootDCoil"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DCoil"><volumeref ref="DCoil"/><positionref ref="center"/></physvol></volume></structure>

@@ -1,4 +1,4 @@
-<structure><volume name="rootVol"><physvol name="PV-Dipole"/><volumeref ref="Dipole"/></volume><volume name="rootVol"><physvol name="PV-DYoke"/><volumeref ref="DYoke"/></volume><volume name="rootVol"><physvol name="PV-DYokeBase"/><volumeref ref="DYokeBase"/></volume><volume name="DYokeBaseBlock0">
+<structure><volume name="DYokeBaseBlock0">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x1"/>
     </volume>
@@ -56,7 +56,7 @@
         <positionref ref="DYokeBaseBlock6_1inDYokeBasepos"/>
       </physvol>
     </assembly>
-    <volume name="rootVol"><physvol name="PV-DYokeSide"/><volumeref ref="DYokeSide"/></volume><volume name="DSideBlock">
+    <volume name="rootDYokeBase"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DYokeBase"><volumeref ref="DYokeBase"/><positionref ref="center"/></physvol></volume><volume name="DSideBlock">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x8"/>
     </volume>
@@ -90,7 +90,7 @@
         <positionref ref="DSideBlock_6inDYokeSidepos"/>
       </physvol>
     </assembly>
-    <assembly name="DYoke">
+    <volume name="rootDYokeSide"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DYokeSide"><volumeref ref="DYokeSide"/><positionref ref="center"/></physvol></volume><assembly name="DYoke">
       <physvol name="DYokeBase_1" copynumber="1">
         <volumeref ref="DYokeBase"/>
         <positionref ref="DYokeBase_1inDYokepos"/>
@@ -109,7 +109,7 @@
         <scale name="DYokeSide_2inDYokescl" x="1" y="1" z="-1"/>
       </physvol>
     </assembly>
-    <volume name="rootVol"><physvol name="PV-DCoil"/><volumeref ref="DCoil"/></volume><volume name="DC2">
+    <volume name="rootDYoke"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DYoke"><volumeref ref="DYoke"/><positionref ref="center"/></physvol></volume><volume name="DC2">
       <materialref ref="DIPO_Al2"/>
       <solidref ref="TGeoTubeSeg0x1"/>
     </volume>
@@ -253,7 +253,7 @@
         <rotationref ref="DL0_4inDCoilrot"/>
       </physvol>
     </assembly>
-    <volume name="rootVol"><physvol name="PV-DContactor"/><volumeref ref="DContactor"/></volume><volume name="DC10">
+    <volume name="rootDCoil"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DCoil"><volumeref ref="DCoil"/><positionref ref="center"/></physvol></volume><volume name="DC10">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x4"/>
     </volume>
@@ -267,7 +267,7 @@
         <positionref ref="DC10_2inDContactorpos"/>
       </physvol>
     </assembly>
-    <volume name="rootVol"><physvol name="PV-DCoilSupport"/><volumeref ref="DCoilSupport"/></volume><volume name="DCS02">
+    <volume name="rootDContactor"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DContactor"><volumeref ref="DContactor"/><positionref ref="center"/></physvol></volume><volume name="DCS02">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x5"/>
     </volume>
@@ -357,7 +357,7 @@
         <positionref ref="DCS05_1inDCoilSupportpos"/>
       </physvol>
     </assembly>
-    <volume name="rootVol"><physvol name="PV-asHS"/><volumeref ref="asHS"/></volume><volume name="DHS1">
+    <volume name="rootDCoilSupport"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DCoilSupport"><volumeref ref="DCoilSupport"/><positionref ref="center"/></physvol></volume><volume name="DHS1">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x14"/>
     </volume>
@@ -387,7 +387,7 @@
         <positionref ref="DHS3_1inasHSpos"/>
       </physvol>
     </assembly>
-    <assembly name="Dipole">
+    <volume name="rootasHS"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-asHS"><volumeref ref="asHS"/><positionref ref="center"/></physvol></volume><assembly name="Dipole">
       <physvol name="DYoke_1" copynumber="1">
         <volumeref ref="DYoke"/>
         <positionref ref="DYoke_1inDipolepos"/>
@@ -449,4 +449,4 @@
         <positionref ref="asHS_1inDipolepos"/>
       </physvol>
     </assembly>
-    </structure>
+    <volume name="rootDipole"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-Dipole"><volumeref ref="Dipole"/><positionref ref="center"/></physvol></volume></structure>

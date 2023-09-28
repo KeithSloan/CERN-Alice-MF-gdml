@@ -1,4 +1,4 @@
-<define><position name="DCS02_1inDCoilSupportpos" x="0" y="0" z="-3" unit="cm"/>
+<define><position name="center" x="0" y="0" z="0"/><position name="DCS02_1inDCoilSupportpos" x="0" y="0" z="-3" unit="cm"/>
     <position name="DCS04_1inDCoilSupportpos" x="0" y="0" z="0" unit="cm"/>
     <position name="DCS021_0inDCoilSupportpos" x="0" y="0.0040000000000000001" z="-3" unit="cm"/>
     <position name="DCS021_1inDCoilSupportpos" x="0" y="0.0040000000000000001" z="-3" unit="cm"/>

@@ -1,4 +1,4 @@
-<structure><volume name="rootVol"><physvol name="PV-DCoilSupport"/><volumeref ref="DCoilSupport"/></volume><volume name="DCS02">
+<structure><volume name="DCS02">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x5"/>
     </volume>
@@ -88,4 +88,4 @@
         <positionref ref="DCS05_1inDCoilSupportpos"/>
       </physvol>
     </assembly>
-    </structure>
+    <volume name="rootDCoilSupport"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DCoilSupport"><volumeref ref="DCoilSupport"/><positionref ref="center"/></physvol></volume></structure>

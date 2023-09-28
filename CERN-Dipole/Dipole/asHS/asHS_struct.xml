@@ -1,4 +1,4 @@
-<structure><volume name="rootVol"><physvol name="PV-asHS"/><volumeref ref="asHS"/></volume><volume name="DHS1">
+<structure><volume name="DHS1">
       <materialref ref="DIPO_STAINLESS_STEEL2"/>
       <solidref ref="TGeoBBox0x14"/>
     </volume>
@@ -28,4 +28,4 @@
         <positionref ref="DHS3_1inasHSpos"/>
       </physvol>
     </assembly>
-    </structure>
+    <volume name="rootasHS"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-asHS"><volumeref ref="asHS"/><positionref ref="center"/></physvol></volume></structure>

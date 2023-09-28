@@ -1,2 +1,2 @@
-<solids><box name="TGeoBBox0x15" x="25" y="3" z="344.10003662109375" lunit="cm"/>
+<solids><box name="WorldBox" x="9000" y="9000" z="9000"/><box name="TGeoBBox0x15" x="25" y="3" z="344.10003662109375" lunit="cm"/>
     </solids>

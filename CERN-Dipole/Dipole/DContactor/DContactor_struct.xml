@@ -1,4 +1,4 @@
-<structure><volume name="rootVol"><physvol name="PV-DContactor"/><volumeref ref="DContactor"/></volume><volume name="DC10">
+<structure><volume name="DC10">
       <materialref ref="DIPO_ALUMINIUM2"/>
       <solidref ref="TGeoTubeSeg0x4"/>
     </volume>
@@ -12,4 +12,4 @@
         <positionref ref="DC10_2inDContactorpos"/>
       </physvol>
     </assembly>
-    </structure>
+    <volume name="rootDContactor"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-DContactor"><volumeref ref="DContactor"/><positionref ref="center"/></physvol></volume></structure>
