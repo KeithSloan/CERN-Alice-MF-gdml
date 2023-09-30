@@ -1,6 +1,19 @@
 ### Latest Status
 
-04/04/24
+30/09/23
+
+Success in extracting Volume Dipole and loading into Geant4
+
+![Image 30-09-2023 at 18 29](https://github.com/KeithSloan/CERN-Alice-MultiFile-gdml/assets/2291247/500367f2-5326-465a-bdb9-2046ea8a2daa)
+
+run testDipole script to create extracted directory.
+
+From Geant4 G01
+
+./load_color_gdml $HOME/Downloads/CERN-Dipole/Dipole/Dipole.gdml
+
+
+04/04/22
 
 Fixes for volume and assembly structure
 
