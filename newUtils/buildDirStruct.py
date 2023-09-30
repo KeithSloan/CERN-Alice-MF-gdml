@@ -324,7 +324,7 @@ class VolAsm():
         self.newMaterials = etree.Element('materials')
         self.newSolids = etree.Element('solids')
         etree.SubElement(self.newSolids, "box", {"name" : "WorldBox",
-                                   "x" : "9000", "y" : "9000", "z" : "9000"})
+                                   "x" : "10000", "y" : "10000", "z" : "10000"})
         self.newStruct = etree.Element('structure')
         self.newSetup = etree.Element('setup')
         self.matList = []       # List of found materials
