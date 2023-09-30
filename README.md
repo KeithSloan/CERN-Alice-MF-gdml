@@ -13,7 +13,7 @@ From Geant4 G01
 ./load_color_gdml $HOME/Downloads/CERN-Dipole/Dipole/Dipole.gdml
 
 
-04/04/22
+04/04/23
 
 Fixes for volume and assembly structure
 
