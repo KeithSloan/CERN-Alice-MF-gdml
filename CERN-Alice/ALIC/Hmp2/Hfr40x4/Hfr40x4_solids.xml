@@ -1,5 +1,0 @@
-<solids><tube name="Hcol0x5" rmin="0" rmax="0.01" z="132.30000000000001" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <box name="Hf4i0x5" x="132.30000000000001" y="129.59999999999999" z="1" lunit="cm"/>
-    <box name="Hf4a0x5" x="140.70000000000002" y="136.59999999999999" z="1" lunit="cm"/>
-    <box name="Hfr40x5" x="140.70000000000002" y="136.59999999999999" z="1.5" lunit="cm"/>
-    </solids>

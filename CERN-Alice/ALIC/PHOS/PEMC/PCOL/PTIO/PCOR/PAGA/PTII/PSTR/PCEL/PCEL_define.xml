@@ -1,5 +1,0 @@
-<define><position name="PXTL_1inPWRApos" x="0" y="0" z="0" unit="cm"/>
-    <position name="PWRA_1inPCELpos" x="0" y="0.24000000953674316" z="0" unit="cm"/>
-    <position name="PPIN_1inPCELpos" x="0" y="9.244999885559082" z="0" unit="cm"/>
-    <position name="PREA_1inPCELpos" x="0" y="9.5" z="0" unit="cm"/>
-    </define>

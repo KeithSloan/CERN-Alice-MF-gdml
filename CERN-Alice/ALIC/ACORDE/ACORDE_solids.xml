@@ -1,9 +1,0 @@
-<solids><box name="acorde7" x="54" y="10" z="10" lunit="cm"/>
-    <box name="acorde7q1" x="10" y="80" z="10" lunit="cm"/>
-    <box name="acorde8" x="20" y="1" z="1000" lunit="cm"/>
-    <box name="acorde9" x="2" y="14" z="1000" lunit="cm"/>
-    <box name="acorde00" x="10" y="66" z="10" lunit="cm"/>
-    <box name="acorde1" x="300" y="10" z="6" lunit="cm"/>
-    <box name="acorde10" x="2" y="10" z="32" lunit="cm"/>
-    <box name="acorde2" x="190" y="1" z="20" lunit="cm"/>
-    </solids>

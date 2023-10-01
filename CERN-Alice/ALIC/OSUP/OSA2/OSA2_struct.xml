@@ -1,5 +1,0 @@
-<structure><volume name="OSA2">
-      <materialref ref="T0_Aliminium"/>
-      <solidref ref="OSA20x1"/>
-    </volume>
-    </structure>

@@ -1,3 +1,0 @@
-<solids><tube name="TGeoTubeSeg0x64" rmin="49.850000000000001" rmax="52.674999999999997" z="0.84999999999999998" startphi="0.081463193620496199" deltaphi="7.4403050173386536" aunit="deg" lunit="cm"/>
-    <tube name="TGeoTubeSeg0x63" rmin="49.850000000000001" rmax="52.75" z="1" startphi="0" deltaphi="7.6032314045796454" aunit="deg" lunit="cm"/>
-    </solids>

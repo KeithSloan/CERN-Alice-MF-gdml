@@ -1,5 +1,0 @@
-<structure><volume name="TPC_IFC1">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoTube0x169"/>
-    </volume>
-    </structure>

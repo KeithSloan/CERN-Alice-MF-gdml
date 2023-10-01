@@ -1,6 +1,0 @@
-<solids><box name="PXTL0x1" x="2.2000000476837158" y="18" z="2.2000000476837158" lunit="cm"/>
-    <box name="PWRA0x1" x="2.2350001335144043" y="18" z="2.2350001335144043" lunit="cm"/>
-    <box name="PPIN0x1" x="0.5" y="0.0099999997764825821" z="0.5" lunit="cm"/>
-    <box name="PREA0x1" x="1.5" y="0.5" z="1.5" lunit="cm"/>
-    <box name="PCEL0x1" x="2.255000114440918" y="19.5" z="2.255000114440918" lunit="cm"/>
-    </solids>

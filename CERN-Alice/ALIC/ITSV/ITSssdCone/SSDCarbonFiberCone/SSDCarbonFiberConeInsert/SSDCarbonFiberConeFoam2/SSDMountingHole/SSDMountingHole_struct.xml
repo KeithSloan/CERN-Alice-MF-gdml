@@ -1,5 +1,0 @@
-<structure><volume name="SSDMountingHole">
-      <materialref ref="ITS_SSD_AIR"/>
-      <solidref ref="TGeoPcon0x110"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<define><position name="PRP1_1inPRAIpos" x="0" y="-21" z="0" unit="cm"/>
-    <position name="PRP1_2inPRAIpos" x="0" y="16" z="0" unit="cm"/>
-    <position name="PRP2_1inPRAIpos" x="0" y="-2.5" z="0" unit="cm"/>
-    <position name="PRP3_1inPRAIpos" x="0" y="20" z="0" unit="cm"/>
-    </define>

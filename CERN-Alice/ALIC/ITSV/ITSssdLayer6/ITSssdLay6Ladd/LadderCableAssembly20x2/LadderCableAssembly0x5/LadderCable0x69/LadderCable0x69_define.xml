@@ -1,7 +1,0 @@
-<define><position name="LadderCableSegmentBBox1_10x69inLadderCableSegmentBBoxAssembly0x69pos" x="0.46700000000000003" y="1.175" z="0.0015" unit="cm"/>
-    <position name="LadderCableSegmentBBox2_10x69inLadderCableSegmentBBoxAssembly0x69pos" x="0.46700000000000003" y="1.175" z="0.0040000000000000001" unit="cm"/>
-    <position name="LadderCableSegmentBBoxAssembly_10x69inLadderCable0x69pos" x="0" y="1.4159999999999999" z="0" unit="cm"/>
-    <position name="LadderEndCableSegmentBBox1_10x69inLadderEndCableSegmentBBoxAssembly0x69pos" x="3.0732499140000011" y="1.175" z="0.0015" unit="cm"/>
-    <position name="LadderEndCableSegmentBBox2_10x69inLadderEndCableSegmentBBoxAssembly0x69pos" x="3.0732499140000011" y="1.175" z="0.0040000000000000001" unit="cm"/>
-    <position name="LadderEndCableSegmentBBoxAssembly_10x69inLadderCable0x69pos" x="0.93400000000000005" y="1.4159999999999999" z="0" unit="cm"/>
-    </define>

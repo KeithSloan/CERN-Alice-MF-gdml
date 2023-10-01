@@ -1,5 +1,0 @@
-<define><position name="MountingBlockSupportCenterLay6Arc_10x1inLadderSupportUpLay6pos" x="0" y="0" z="0" unit="cm"/>
-    <position name="MountingBlockSupportCenterLay6Arc_20x1inLadderSupportUpLay6pos" x="0" y="0" z="0" unit="cm"/>
-    <rotation name="MountingBlockSupportCenterLay6Arc_10x1inLadderSupportUpLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
-    <rotation name="MountingBlockSupportCenterLay6Arc_20x1inLadderSupportUpLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
-    </define>

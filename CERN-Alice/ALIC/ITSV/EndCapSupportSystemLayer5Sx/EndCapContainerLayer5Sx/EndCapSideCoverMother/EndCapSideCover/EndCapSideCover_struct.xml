@@ -1,5 +1,0 @@
-<structure><volume name="EndCapSideCover">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="endcapsidecovershape"/>
-    </volume>
-    </structure>

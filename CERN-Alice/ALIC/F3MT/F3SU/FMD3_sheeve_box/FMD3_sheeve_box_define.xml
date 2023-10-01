@@ -1,8 +1,0 @@
-<define><position name="FMD3_sheeve_side_1inFMD3_sheeve_boxpos" x="0" y="-0.5" z="0" unit="cm"/>
-    <position name="FMD3_sheeve_side_2inFMD3_sheeve_boxpos" x="0" y="0.5" z="0" unit="cm"/>
-    <position name="FMD3_sheeve_back_1inFMD3_sheeve_boxpos" x="0" y="0" z="1" unit="cm"/>
-    <position name="FMD3_sheeve_wing_1inFMD3_sheeve_boxpos" x="0.40000000000000002" y="-0.90000000000000002" z="0" unit="cm"/>
-    <position name="FMD3_sheeve_wing_2inFMD3_sheeve_boxpos" x="0.40000000000000002" y="0.90000000000000002" z="0" unit="cm"/>
-    <position name="FMD3_sheeve_wheel_1inFMD3_sheeve_boxpos" x="0" y="0" z="-0.19999999999999996" unit="cm"/>
-    <rotation name="FMD3_sheeve_wheel_1inFMD3_sheeve_boxrot" x="-90" y="-0" z="0" unit="deg"/>
-    </define>

@@ -1,5 +1,0 @@
-<structure><volume name="PBTI0x98">
-      <materialref ref="EMCAL_Pb"/>
-      <solidref ref="PBTI0x99"/>
-    </volume>
-    </structure>

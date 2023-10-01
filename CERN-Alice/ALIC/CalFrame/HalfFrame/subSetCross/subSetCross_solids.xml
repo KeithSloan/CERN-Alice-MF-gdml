@@ -1,4 +1,0 @@
-<solids><box name="crossBottom0x1" x="3" y="30.399999999999999" z="61.000000000000007" lunit="cm"/>
-    <box name="crossTop0x1" x="35" y="3" z="61.000000000000007" lunit="cm"/>
-    <tube name="subSetCross0x1" rmin="489" rmax="528.14999999999998" z="61.000000000000007" startphi="76.799999999999997" deltaphi="116.23" aunit="deg" lunit="cm"/>
-    </solids>

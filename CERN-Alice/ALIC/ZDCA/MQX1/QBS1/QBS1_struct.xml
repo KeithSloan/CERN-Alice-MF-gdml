@@ -1,5 +1,0 @@
-<structure><volume name="QBS1">
-      <materialref ref="ZDC_COPP0"/>
-      <solidref ref="QBS10x1"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<solids><polyhedra name="bar" startphi="0" deltaphi="20" numsides="1" aunit="deg" lunit="cm">
-      <zplane z="-3" rmin="122.86184427528455" rmax="127.86184427528455"/>
-      <zplane z="1.5" rmin="122.86184427528455" rmax="127.86184427528455"/>
-    </polyhedra>
-    </solids>

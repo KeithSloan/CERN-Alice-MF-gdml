@@ -1,5 +1,0 @@
-<structure><volume name="OBOT">
-      <materialref ref="T0_PMT_glass___"/>
-      <solidref ref="OBOT0x1"/>
-    </volume>
-    </structure>

@@ -1,8 +1,0 @@
-<structure><volume name="FOAC">
-      <materialref ref="FMD_Si"/>
-      <solidref ref="FOAC0x1"/>
-      <divisionvol axis="kPhi" number="2" width="9" offset="-360" unit="deg">
-        <volumeref ref="FOSC"/>
-      </divisionvol>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<structure><volume name="EndCapStripConnection">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoBBox0x1140"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<structure><volume name="FIPB">
-      <materialref ref="FMD_PCB"/>
-      <solidref ref="FMDI_hybrid_pcb"/>
-    </volume>
-    </structure>

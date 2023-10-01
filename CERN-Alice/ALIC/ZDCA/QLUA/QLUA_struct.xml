@@ -1,5 +1,0 @@
-<structure><volume name="QLUA">
-      <materialref ref="ZDC_COPP0"/>
-      <solidref ref="QLUA0x1"/>
-    </volume>
-    </structure>

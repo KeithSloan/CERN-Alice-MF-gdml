@@ -1,5 +1,0 @@
-<structure><volume name="vSddCableInterCylCu">
-      <materialref ref="ITS_COPPER"/>
-      <solidref ref="sddCableInterCylCu"/>
-    </volume>
-    </structure>

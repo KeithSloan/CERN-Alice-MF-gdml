@@ -1,5 +1,0 @@
-<structure><volume name="QALint">
-      <materialref ref="ZDC_VOID"/>
-      <solidref ref="intTrousers"/>
-    </volume>
-    </structure>

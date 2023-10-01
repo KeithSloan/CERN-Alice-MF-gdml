@@ -1,5 +1,0 @@
-<structure><volume name="PFG2">
-      <materialref ref="PHOS_Fibergla"/>
-      <solidref ref="PFG20x1"/>
-    </volume>
-    </structure>

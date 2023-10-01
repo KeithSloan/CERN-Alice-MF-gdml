@@ -1,9 +1,0 @@
-<define><position name="EndCapCardJMDConnector_10x1inEndCapMotherInterfaceCardApos" x="1.0899999999999999" y="0.069999999999999993" z="2.1100000000000003" unit="cm"/>
-    <position name="EndCapCardElectBoardBackPlane_10x1inEndCapMotherInterfaceCardApos" x="0.59499999999999997" y="0" z="0" unit="cm"/>
-    <position name="EndCapCardElectBoardLayer_10x1inEndCapMotherInterfaceCardApos" x="0.495" y="0" z="0" unit="cm"/>
-    <position name="EndCapCardElectBoardLayer_20x1inEndCapMotherInterfaceCardApos" x="0.60999999999999999" y="0" z="0" unit="cm"/>
-    <rotation name="EndCapCardJMDConnector_10x1inEndCapMotherInterfaceCardArot" x="-180" y="-7.0164775638926606e-15" z="180" unit="deg"/>
-    <rotation name="EndCapCardElectBoardBackPlane_10x1inEndCapMotherInterfaceCardArot" x="3.5082387819463303e-15" y="90" z="0" unit="deg"/>
-    <rotation name="EndCapCardElectBoardLayer_10x1inEndCapMotherInterfaceCardArot" x="3.5082387819463303e-15" y="90" z="0" unit="deg"/>
-    <rotation name="EndCapCardElectBoardLayer_20x1inEndCapMotherInterfaceCardArot" x="3.5082387819463303e-15" y="90" z="0" unit="deg"/>
-    </define>

@@ -1,5 +1,0 @@
-<structure><volume name="Hcol0x4">
-      <materialref ref="HMPID_Cu"/>
-      <solidref ref="Hcol0x5"/>
-    </volume>
-    </structure>

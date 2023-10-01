@@ -1,8 +1,0 @@
-<solids><subtraction name="sV0APlaOuNailsHoles6">
-      <first ref="sV0APlaOu6"/>
-      <second ref="sV0ANail1PlaOuHole6"/>
-      <position name="sV0APlaOuNailsHoles6sV0ANail1PlaOuHole6pos" x="-0.51000000000000001" y="-42.899999999999999" z="0" unit="cm"/>
-    </subtraction>
-    <arb8 name="sV0APlaOu6" v1x="0" v1y="-4.2000000000000002" v2x="0" v2y="-83.594281642661258" v3x="-38.41869436416895" v3y="-83.594281642661258" v4x="-1.7538969166251044" v4y="-3.8162606836867097" v5x="0" v5y="-4.2000000000000002" v6x="0" v6y="-83.594281642661258" v7x="-38.41869436416895" v7y="-83.594281642661258" v8x="-1.7538969166251044" v8y="-3.8162606836867097" dz="0.029999999999999999" lunit="cm"/>
-    <tube name="sV0ANail1PlaOuHole6" rmin="0" rmax="0.40000000000000002" z="0.059999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

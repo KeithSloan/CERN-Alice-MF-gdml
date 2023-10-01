@@ -1,5 +1,0 @@
-<structure><volume name="skin">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="skin0x1"/>
-    </volume>
-    </structure>

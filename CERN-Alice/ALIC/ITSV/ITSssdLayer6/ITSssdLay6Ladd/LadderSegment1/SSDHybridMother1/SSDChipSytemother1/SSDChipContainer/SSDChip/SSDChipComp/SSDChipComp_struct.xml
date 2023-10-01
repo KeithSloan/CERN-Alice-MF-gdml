@@ -1,5 +1,0 @@
-<structure><volume name="SSDChipComp">
-      <materialref ref="ITS_SPD_SI_CHIP"/>
-      <solidref ref="SSDChipCompShape"/>
-    </volume>
-    </structure>

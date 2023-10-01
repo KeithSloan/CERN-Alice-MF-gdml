@@ -1,5 +1,0 @@
-<structure><volume name="EndCapCoolingTube2">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x116"/>
-    </volume>
-    </structure>

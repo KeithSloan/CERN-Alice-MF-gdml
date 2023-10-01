@@ -1,5 +1,0 @@
-<structure><volume name="TPC_CDR3">
-      <materialref ref="TPC_NOMEX"/>
-      <solidref ref="TGeoTube0x174"/>
-    </volume>
-    </structure>

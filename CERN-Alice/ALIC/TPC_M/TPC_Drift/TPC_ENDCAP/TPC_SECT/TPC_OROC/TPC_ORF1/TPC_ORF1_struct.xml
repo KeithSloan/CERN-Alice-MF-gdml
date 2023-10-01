@@ -1,5 +1,0 @@
-<structure><volume name="TPC_ORF1">
-      <materialref ref="TPC_G10"/>
-      <solidref ref="TGeoPara0x2"/>
-    </volume>
-    </structure>

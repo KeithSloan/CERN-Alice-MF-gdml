@@ -1,3 +1,0 @@
-<solids><tube name="MD2L0x1" rmin="0" rmax="3.75" z="945" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <tube name="YD2L0x1" rmin="0" rmax="55" z="945" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

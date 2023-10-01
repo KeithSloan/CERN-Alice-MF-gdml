@@ -1,5 +1,0 @@
-<structure><volume name="TPC_OHVH">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoTube0x150"/>
-    </volume>
-    </structure>

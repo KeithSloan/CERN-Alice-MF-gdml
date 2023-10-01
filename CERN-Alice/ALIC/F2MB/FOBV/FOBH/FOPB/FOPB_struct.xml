@@ -1,5 +1,0 @@
-<structure><volume name="FOPB">
-      <materialref ref="FMD_PCB"/>
-      <solidref ref="FMDO_hybrid_pcb"/>
-    </volume>
-    </structure>

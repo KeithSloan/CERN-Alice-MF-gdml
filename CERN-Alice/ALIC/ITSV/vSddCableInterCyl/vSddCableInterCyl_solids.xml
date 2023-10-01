@@ -1,5 +1,0 @@
-<solids><tube name="sddCableInterCylPlast" rmin="25.596467929050242" rmax="26" z="3.2999999999999972" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <tube name="sddCableInterCylCu" rmin="25.305060590762626" rmax="25.350724830763031" z="3.2999999999999972" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <tube name="sddCableInterCylGlass" rmin="25.258262883659324" rmax="25.277423574680494" z="3.2999999999999972" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <tube name="sddCableInterCyl" rmin="25.246667615821824" rmax="26" z="3.2999999999999972" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

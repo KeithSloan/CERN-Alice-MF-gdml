@@ -1,5 +1,0 @@
-<structure><volume name="DownEndCapSupportPieceLayer5">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x86"/>
-    </volume>
-    </structure>

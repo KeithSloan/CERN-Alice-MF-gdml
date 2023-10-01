@@ -1,5 +1,0 @@
-<structure><volume name="TPC_Rod0x82">
-      <materialref ref="TPC_Makrolon"/>
-      <solidref ref="TPC_Rod0x83"/>
-    </volume>
-    </structure>

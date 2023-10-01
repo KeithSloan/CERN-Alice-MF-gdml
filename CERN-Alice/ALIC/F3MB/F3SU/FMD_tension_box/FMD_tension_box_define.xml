@@ -1,7 +1,0 @@
-<define><position name="FMD_tension_end_1inFMD_tension_boxpos" x="0.59999999999999998" y="0" z="-3.75" unit="cm"/>
-    <position name="FMD_tension_end_2inFMD_tension_boxpos" x="0.59999999999999998" y="0" z="3.75" unit="cm"/>
-    <position name="FMD_tension_top_1inFMD_tension_boxpos" x="0.10000000000000001" y="2.5" z="0" unit="cm"/>
-    <position name="FMD_tension_top_2inFMD_tension_boxpos" x="0.10000000000000001" y="-2.5" z="0" unit="cm"/>
-    <position name="FMD_tension_top_3inFMD_tension_boxpos" x="1.1000000000000001" y="2.5" z="0" unit="cm"/>
-    <position name="FMD_tension_top_4inFMD_tension_boxpos" x="1.1000000000000001" y="-2.5" z="0" unit="cm"/>
-    </define>

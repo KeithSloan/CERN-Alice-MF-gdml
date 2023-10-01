@@ -1,5 +1,0 @@
-<structure><volume name="OTOO">
-      <materialref ref="T0_T0_Opt_Air"/>
-      <solidref ref="OTOO0x1"/>
-    </volume>
-    </structure>

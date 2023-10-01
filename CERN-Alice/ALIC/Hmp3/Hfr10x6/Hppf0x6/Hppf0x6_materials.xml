@@ -1,9 +1,0 @@
-<materials><material name="HMPID_Ar" Z="18">
-      <D unit="g/cm3" value="0.0013960000360384583"/>
-      <atom unit="g/mole" value="39.939998626708984"/>
-    </material>
-    <material name="HMPID_Al" Z="13">
-      <D unit="g/cm3" value="2.7000000476837158"/>
-      <atom unit="g/mole" value="26.979999542236328"/>
-    </material>
-    </materials>

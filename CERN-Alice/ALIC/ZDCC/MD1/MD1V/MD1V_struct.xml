@@ -1,5 +1,0 @@
-<structure><volume name="MD1V">
-      <materialref ref="ZDC_COPP0"/>
-      <solidref ref="MD1V0x1"/>
-    </volume>
-    </structure>

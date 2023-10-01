@@ -1,5 +1,0 @@
-<solids><polyhedra name="TPC_Strip0x1" startphi="0" deltaphi="360" numsides="18" aunit="deg" lunit="cm">
-      <zplane z="-124.8" rmin="85.224998474121094" rmax="85.234998474121099"/>
-      <zplane z="124.8" rmin="85.224998474121094" rmax="85.234998474121099"/>
-    </polyhedra>
-    </solids>

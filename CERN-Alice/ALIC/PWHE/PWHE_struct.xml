@@ -1,5 +1,0 @@
-<structure><volume name="PWHE">
-      <materialref ref="PHOS_Steel"/>
-      <solidref ref="PWHE0x1"/>
-    </volume>
-    </structure>

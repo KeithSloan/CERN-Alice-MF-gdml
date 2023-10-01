@@ -1,5 +1,0 @@
-<structure><volume name="TPC_IRPP">
-      <materialref ref="TPC_G10"/>
-      <solidref ref="TGeoTrd10x7"/>
-    </volume>
-    </structure>

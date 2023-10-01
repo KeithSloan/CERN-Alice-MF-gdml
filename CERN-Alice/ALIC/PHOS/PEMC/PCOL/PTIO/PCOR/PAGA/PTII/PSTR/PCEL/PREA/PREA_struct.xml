@@ -1,5 +1,0 @@
-<structure><volume name="PREA">
-      <materialref ref="PHOS_G10"/>
-      <solidref ref="PREA0x1"/>
-    </volume>
-    </structure>

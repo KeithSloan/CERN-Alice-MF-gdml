@@ -1,5 +1,0 @@
-<solids><box name="LadderCableSegmentBBoxShape10x11" x="0.93400000000000005" y="2.3500000000000001" z="0.0030000000000000001" lunit="cm"/>
-    <box name="LadderCableSegmentBBoxShape20x11" x="0.93400000000000005" y="2.3500000000000001" z="0.002" lunit="cm"/>
-    <box name="LadderEndCableSegmentBBoxShape10x11" x="7.3324998280000022" y="2.3500000000000001" z="0.0030000000000000001" lunit="cm"/>
-    <box name="LadderEndCableSegmentBBoxShape20x11" x="7.3324998280000022" y="2.3500000000000001" z="0.002" lunit="cm"/>
-    </solids>

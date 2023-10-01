@@ -1,8 +1,0 @@
-<define><position name="OSC0_1inOSUPpos" x="0" y="0" z="7.6999998092651367" unit="cm"/>
-    <position name="OSC1_1inOSUPpos" x="0" y="0" z="8.2499998100101948" unit="cm"/>
-    <position name="OSC2_1inOSUPpos" x="0" y="0" z="11.649999715387821" unit="cm"/>
-    <position name="OSA1_1inOSUPpos" x="0" y="0" z="15.004999619908631" unit="cm"/>
-    <position name="OSA2_1inOSUPpos" x="0" y="0" z="17.35999952442944" unit="cm"/>
-    <position name="OSA3_1inOSUPpos" x="0" y="0" z="19.979999771341681" unit="cm"/>
-    <position name="OSN2_1inOSUPpos" x="0" y="0" z="19.979999771341681" unit="cm"/>
-    </define>

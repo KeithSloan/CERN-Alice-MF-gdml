@@ -1,5 +1,0 @@
-<structure><volume name="TPC_RCCON">
-      <materialref ref="TPC_Air"/>
-      <solidref ref="TGeoBBox0x1142"/>
-    </volume>
-    </structure>

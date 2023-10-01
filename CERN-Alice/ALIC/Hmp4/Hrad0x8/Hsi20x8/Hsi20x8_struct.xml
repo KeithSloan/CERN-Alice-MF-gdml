@@ -1,5 +1,0 @@
-<structure><volume name="Hsi20x8">
-      <materialref ref="HMPID_Neo"/>
-      <solidref ref="Hsi20x9"/>
-    </volume>
-    </structure>

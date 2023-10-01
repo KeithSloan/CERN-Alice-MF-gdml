@@ -1,3 +1,0 @@
-<solids><box name="QBS70x1" x="2.7374440633554507" y="0.20000000000000001" z="945" lunit="cm"/>
-    <tube name="MD1L0x1" rmin="0" rmax="3.375" z="945" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

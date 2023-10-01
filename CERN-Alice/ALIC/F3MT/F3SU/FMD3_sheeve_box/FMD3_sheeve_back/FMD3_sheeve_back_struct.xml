@@ -1,5 +1,0 @@
-<structure><volume name="FMD3_sheeve_back">
-      <materialref ref="FMD_Plastic"/>
-      <solidref ref="FMD3_sheeve_back0x1"/>
-    </volume>
-    </structure>

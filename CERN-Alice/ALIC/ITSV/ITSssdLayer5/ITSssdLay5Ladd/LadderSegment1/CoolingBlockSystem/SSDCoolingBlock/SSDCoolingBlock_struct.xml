@@ -1,5 +1,0 @@
-<structure><volume name="SSDCoolingBlock">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x30"/>
-    </volume>
-    </structure>

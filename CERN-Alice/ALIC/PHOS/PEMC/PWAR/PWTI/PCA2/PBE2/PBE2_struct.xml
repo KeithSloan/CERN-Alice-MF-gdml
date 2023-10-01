@@ -1,5 +1,0 @@
-<structure><volume name="PBE2">
-      <materialref ref="PHOS_Al"/>
-      <solidref ref="PBE20x1"/>
-    </volume>
-    </structure>

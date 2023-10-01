@@ -1,5 +1,0 @@
-<structure><volume name="HybridWire">
-      <materialref ref="ITS_COPPER"/>
-      <solidref ref="HybridWireShape"/>
-    </volume>
-    </structure>

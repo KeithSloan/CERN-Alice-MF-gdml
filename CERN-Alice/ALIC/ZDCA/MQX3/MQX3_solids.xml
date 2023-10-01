@@ -1,4 +1,0 @@
-<solids><tube name="QBS50x1" rmin="2.895" rmax="3.0699999999999998" z="550" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <box name="QBS60x1" x="0.20000000000000001" y="2.5258661880630182" z="550" lunit="cm"/>
-    <tube name="MQX30x1" rmin="0" rmax="3.1400000000000001" z="550" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

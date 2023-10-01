@@ -1,5 +1,0 @@
-<structure><volume name="LadderCableSegmentArb10x14">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="LadderCableSegmentArbShape10x14"/>
-    </volume>
-    </structure>

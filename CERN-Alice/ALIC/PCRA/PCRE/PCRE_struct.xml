@@ -1,5 +1,0 @@
-<structure><volume name="PCRE">
-      <materialref ref="PHOS_Air"/>
-      <solidref ref="PCRE0x1"/>
-    </volume>
-    </structure>

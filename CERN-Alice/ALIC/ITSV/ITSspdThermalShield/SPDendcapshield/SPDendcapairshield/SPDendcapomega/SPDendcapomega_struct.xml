@@ -1,5 +1,0 @@
-<structure><volume name="SPDendcapomega">
-      <materialref ref="ITS_SPD_shield"/>
-      <solidref ref="TGeoXtru0x92"/>
-    </volume>
-    </structure>

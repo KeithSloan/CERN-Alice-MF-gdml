@@ -1,5 +1,0 @@
-<structure><volume name="ITSssdSensitivL5">
-      <materialref ref="ITS_SI"/>
-      <solidref ref="SSDSensorSensitiveShape"/>
-    </volume>
-    </structure>

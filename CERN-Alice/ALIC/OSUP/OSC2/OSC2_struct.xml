@@ -1,5 +1,0 @@
-<structure><volume name="OSC2">
-      <materialref ref="T0_CarbonPlastic"/>
-      <solidref ref="OSC20x1"/>
-    </volume>
-    </structure>

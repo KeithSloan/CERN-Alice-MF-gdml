@@ -1,5 +1,0 @@
-<structure><volume name="TPC_Strip0x2">
-      <materialref ref="TPC_Ne-CO2-N-2"/>
-      <solidref ref="TPC_Strip0x3"/>
-    </volume>
-    </structure>

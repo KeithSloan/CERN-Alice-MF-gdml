@@ -1,5 +1,0 @@
-<structure><volume name="CoolingTubeWaterArcPart">
-      <materialref ref="ITS_Water"/>
-      <solidref ref="TGeoXtru0x24"/>
-    </volume>
-    </structure>

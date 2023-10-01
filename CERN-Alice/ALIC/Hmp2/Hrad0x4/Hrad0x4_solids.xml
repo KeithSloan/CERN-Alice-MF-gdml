@@ -1,7 +1,0 @@
-<solids><box name="Hneo0x5" x="133" y="41.300000000000004" z="0.40000000000000002" lunit="cm"/>
-    <box name="Hwin0x5" x="133" y="41.300000000000004" z="0.5" lunit="cm"/>
-    <box name="Hsi10x5" x="133" y="0.5" z="1.5" lunit="cm"/>
-    <box name="Hsi20x5" x="1" y="40.300000000000004" z="1.5" lunit="cm"/>
-    <tube name="Hspa0x5" rmin="0" rmax="0.5" z="1.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <box name="Hrad0x5" x="133" y="41.300000000000004" z="2.4000000000000004" lunit="cm"/>
-    </solids>

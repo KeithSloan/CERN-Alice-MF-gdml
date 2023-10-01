@@ -1,5 +1,0 @@
-<structure><volume name="Hlar">
-      <materialref ref="HMPID_Ar"/>
-      <solidref ref="Hlar0x1"/>
-    </volume>
-    </structure>

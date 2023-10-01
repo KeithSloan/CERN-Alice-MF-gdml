@@ -1,5 +1,0 @@
-<structure><volume name="End_Beams">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="End_Beams0x1"/>
-    </volume>
-    </structure>

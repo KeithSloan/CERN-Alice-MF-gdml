@@ -1,5 +1,0 @@
-<structure><volume name="FOCU">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FMDO_hybrid_copper"/>
-    </volume>
-    </structure>

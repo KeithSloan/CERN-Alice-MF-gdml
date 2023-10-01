@@ -1,5 +1,0 @@
-<structure><volume name="OuterEndLadderCoolingTube2">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x102"/>
-    </volume>
-    </structure>

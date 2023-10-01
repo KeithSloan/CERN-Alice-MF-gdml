@@ -1,5 +1,0 @@
-<structure><volume name="TPC_WSEG">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoCompositeShape0x230"/>
-    </volume>
-    </structure>

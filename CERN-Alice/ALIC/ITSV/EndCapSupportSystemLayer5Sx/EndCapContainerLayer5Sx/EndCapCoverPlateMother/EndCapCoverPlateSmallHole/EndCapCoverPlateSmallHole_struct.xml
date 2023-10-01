@@ -1,5 +1,0 @@
-<structure><volume name="EndCapCoverPlateSmallHole">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoCompositeShape0x227"/>
-    </volume>
-    </structure>
