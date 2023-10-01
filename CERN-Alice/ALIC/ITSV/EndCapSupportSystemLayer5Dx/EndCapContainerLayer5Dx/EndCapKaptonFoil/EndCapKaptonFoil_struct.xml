@@ -1,0 +1,5 @@
+<structure><volume name="EndCapKaptonFoil">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoBBox0x1139"/>
+    </volume>
+    </structure>

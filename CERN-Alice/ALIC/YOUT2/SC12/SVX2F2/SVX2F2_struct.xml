@@ -1,0 +1,11 @@
+<structure><volume name="SAXV20x32">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SAXV20x33"/>
+    </volume>
+    <assembly name="SVX2F2">
+      <physvol name="SAXV2_299" copynumber="299">
+        <volumeref ref="SAXV20x32"/>
+        <positionref ref="SAXV2_299inSVX2F2pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSVX2F2"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SVX2F2"><volumeref ref="SVX2F2"/><positionref ref="center"/></physvol></volume></structure>

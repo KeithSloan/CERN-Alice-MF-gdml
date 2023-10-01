@@ -1,0 +1,5 @@
+<structure><volume name="PXTL">
+      <materialref ref="PHOS_PbWO4"/>
+      <solidref ref="PXTL0x1"/>
+    </volume>
+    </structure>

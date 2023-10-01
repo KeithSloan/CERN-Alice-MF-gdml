@@ -1,0 +1,5 @@
+<structure><volume name="Hsmo0x12">
+      <materialref ref="HMPID_Ar"/>
+      <solidref ref="Hsmo0x13"/>
+    </volume>
+    </structure>

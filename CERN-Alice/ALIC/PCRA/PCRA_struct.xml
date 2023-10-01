@@ -1,0 +1,13 @@
+<structure><volume name="PCRE">
+      <materialref ref="PHOS_Air"/>
+      <solidref ref="PCRE0x1"/>
+    </volume>
+    <volume name="PCRA">
+      <materialref ref="PHOS_Steel"/>
+      <solidref ref="PCRA0x1"/>
+      <physvol name="PCRE_1" copynumber="1">
+        <volumeref ref="PCRE"/>
+        <positionref ref="PCRE_1inPCRApos"/>
+      </physvol>
+    </volume>
+    </structure>

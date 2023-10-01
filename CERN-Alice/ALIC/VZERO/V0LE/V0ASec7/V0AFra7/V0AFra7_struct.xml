@@ -1,0 +1,59 @@
+<structure><volume name="V0AFraB17">
+      <materialref ref="VZERO_V0ALuc"/>
+      <solidref ref="sV0AFraB17"/>
+    </volume>
+    <volume name="V0AFraB27">
+      <materialref ref="VZERO_V0ALuc"/>
+      <solidref ref="sV0AFraB27"/>
+    </volume>
+    <volume name="V0AFraR17">
+      <materialref ref="VZERO_V0ALuc"/>
+      <solidref ref="sV0AFraR17"/>
+    </volume>
+    <volume name="V0AFraR27">
+      <materialref ref="VZERO_V0ALuc"/>
+      <solidref ref="sV0AFraR27"/>
+    </volume>
+    <volume name="V0AFraR37">
+      <materialref ref="VZERO_V0ALuc"/>
+      <solidref ref="sV0AFraR37"/>
+    </volume>
+    <volume name="V0AFraR47">
+      <materialref ref="VZERO_V0ALuc"/>
+      <solidref ref="sV0AFraR47"/>
+    </volume>
+    <volume name="V0AFraR57">
+      <materialref ref="VZERO_V0ALuc"/>
+      <solidref ref="sV0AFraR57"/>
+    </volume>
+    <assembly name="V0AFra7">
+      <physvol name="V0AFraB17_1" copynumber="1">
+        <volumeref ref="V0AFraB17"/>
+        <positionref ref="V0AFraB17_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraB27_1" copynumber="1">
+        <volumeref ref="V0AFraB27"/>
+        <positionref ref="V0AFraB27_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR17_1" copynumber="1">
+        <volumeref ref="V0AFraR17"/>
+        <positionref ref="V0AFraR17_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR27_1" copynumber="1">
+        <volumeref ref="V0AFraR27"/>
+        <positionref ref="V0AFraR27_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR37_1" copynumber="1">
+        <volumeref ref="V0AFraR37"/>
+        <positionref ref="V0AFraR37_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR47_1" copynumber="1">
+        <volumeref ref="V0AFraR47"/>
+        <positionref ref="V0AFraR47_1inV0AFra7pos"/>
+      </physvol>
+      <physvol name="V0AFraR57_1" copynumber="1">
+        <volumeref ref="V0AFraR57"/>
+        <positionref ref="V0AFraR57_1inV0AFra7pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootV0AFra7"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-V0AFra7"><volumeref ref="V0AFra7"/><positionref ref="center"/></physvol></volume></structure>

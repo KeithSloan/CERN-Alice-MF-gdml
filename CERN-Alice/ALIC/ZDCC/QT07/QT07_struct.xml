@@ -1,0 +1,5 @@
+<structure><volume name="QT07">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="QT070x1"/>
+    </volume>
+    </structure>

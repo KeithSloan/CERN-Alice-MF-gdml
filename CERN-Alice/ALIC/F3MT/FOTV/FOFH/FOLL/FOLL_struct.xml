@@ -1,0 +1,5 @@
+<structure><volume name="FOLL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FOLL0x1"/>
+    </volume>
+    </structure>

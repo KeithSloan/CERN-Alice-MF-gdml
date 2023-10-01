@@ -1,0 +1,5 @@
+<structure><volume name="TPC_CDCI">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTube0x171"/>
+    </volume>
+    </structure>

@@ -1,0 +1,33 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><xtru name="TGeoXtru0x83" lunit="cm">
+      <twoDimVertex x="-3.6087173971409228" y="43.550742344391473"/>
+      <twoDimVertex x="-3.64595" y="44.000073038784834"/>
+      <twoDimVertex x="3.64595" y="44.000073038784834"/>
+      <twoDimVertex x="3.6087173971409228" y="43.550742344391473"/>
+      <twoDimVertex x="2.1668100792198137" y="43.646247651780925"/>
+      <twoDimVertex x="0.72253338628986952" y="43.694026428170893"/>
+      <twoDimVertex x="-0.72253338628987385" y="43.694026428170893"/>
+      <twoDimVertex x="-2.1668100792198182" y="43.646247651780925"/>
+      <section zOrder="0" zPosition="0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x84" lunit="cm">
+      <twoDimVertex x="-3.5922015280464561" y="43.351425445790142"/>
+      <twoDimVertex x="-3.6087173971409228" y="43.550742344391473"/>
+      <twoDimVertex x="-2.1668100792198182" y="43.646247651780925"/>
+      <twoDimVertex x="-0.72253338628987385" y="43.694026428170893"/>
+      <twoDimVertex x="0.72253338628986952" y="43.694026428170893"/>
+      <twoDimVertex x="2.1668100792198137" y="43.646247651780925"/>
+      <twoDimVertex x="3.6087173971409228" y="43.550742344391473"/>
+      <twoDimVertex x="3.5922015280464494" y="43.351425445790142"/>
+      <twoDimVertex x="2.156893328285169" y="43.446493657951258"/>
+      <twoDimVertex x="0.71922659733659777" y="43.494053767172403"/>
+      <twoDimVertex x="-0.7192265973366021" y="43.494053767172403"/>
+      <twoDimVertex x="-2.1568933282851734" y="43.446493657951258"/>
+      <section zOrder="0" zPosition="1.7" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <polyhedra name="TGeoPgon0x179" startphi="0" deltaphi="360" numsides="38" aunit="deg" lunit="cm">
+      <zplane z="0" rmin="43.351425445790142" rmax="44.000073038784834"/>
+      <zplane z="2" rmin="43.351425445790142" rmax="44.000073038784834"/>
+    </polyhedra>
+    </solids>

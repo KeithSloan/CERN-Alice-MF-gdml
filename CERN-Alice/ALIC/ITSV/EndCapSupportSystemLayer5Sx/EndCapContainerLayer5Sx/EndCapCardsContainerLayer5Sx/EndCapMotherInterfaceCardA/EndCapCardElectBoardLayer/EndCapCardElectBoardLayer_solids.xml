@@ -1,0 +1,13 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><xtru name="TGeoXtru0x79" lunit="cm">
+      <twoDimVertex x="0.020000000000000462" y="0"/>
+      <twoDimVertex x="0.020000000000000462" y="4.3500000000000005"/>
+      <twoDimVertex x="6.1799999999999997" y="4.3500000000000005"/>
+      <twoDimVertex x="6.1799999999999997" y="0"/>
+      <twoDimVertex x="4.0129999999999999" y="0"/>
+      <twoDimVertex x="4.0129999999999999" y="0.069999999999999993"/>
+      <twoDimVertex x="2.1870000000000003" y="0.069999999999999993"/>
+      <twoDimVertex x="2.1870000000000003" y="0"/>
+      <section zOrder="0" zPosition="0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.014999999999999999" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

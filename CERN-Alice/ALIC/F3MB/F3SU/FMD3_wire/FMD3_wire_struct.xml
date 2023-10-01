@@ -1,0 +1,5 @@
+<structure><volume name="FMD3_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_wire0x1"/>
+    </volume>
+    </structure>

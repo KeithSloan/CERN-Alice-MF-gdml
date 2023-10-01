@@ -1,0 +1,9 @@
+
+<!DOCTYPE gdml [
+<!ENTITY materials SYSTEM "SSDChipcableAllay1Right_materials.xml">
+<!ENTITY solids SYSTEM "SSDChipcableAllay1Right_solids.xml">
+<!ENTITY setup SYSTEM "SSDChipcableAllay1Right_setup.xml">
+<!ENTITY struct SYSTEM "SSDChipcableAllay1Right_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

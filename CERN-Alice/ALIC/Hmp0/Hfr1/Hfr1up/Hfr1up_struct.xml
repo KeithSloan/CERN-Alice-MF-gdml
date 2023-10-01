@@ -1,0 +1,717 @@
+<structure><volume name="Hgassipl2">
+      <materialref ref="HMPID_CsIPCB"/>
+      <solidref ref="Hgassipl20x1"/>
+    </volume>
+    <volume name="Hrect">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hrect0x1"/>
+      <physvol name="Hgassipl2_1" copynumber="1">
+        <volumeref ref="Hgassipl2"/>
+        <positionref ref="Hgassipl2_1inHrectpos"/>
+      </physvol>
+    </volume>
+    <volume name="Hcufoil">
+      <materialref ref="HMPID_CsIPCB"/>
+      <solidref ref="Hcufoil0x1"/>
+      <physvol name="Hrect_0" copynumber="0">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_0inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_10" copynumber="10">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_10inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_20" copynumber="20">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_20inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_30" copynumber="30">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_30inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_40" copynumber="40">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_40inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_50" copynumber="50">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_50inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_60" copynumber="60">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_60inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_70" copynumber="70">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_70inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_1" copynumber="1">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_1inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_11" copynumber="11">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_11inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_21" copynumber="21">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_21inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_31" copynumber="31">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_31inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_41" copynumber="41">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_41inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_51" copynumber="51">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_51inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_61" copynumber="61">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_61inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_71" copynumber="71">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_71inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_2" copynumber="2">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_2inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_12" copynumber="12">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_12inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_22" copynumber="22">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_22inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_32" copynumber="32">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_32inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_42" copynumber="42">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_42inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_52" copynumber="52">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_52inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_62" copynumber="62">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_62inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_72" copynumber="72">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_72inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_3" copynumber="3">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_3inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_13" copynumber="13">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_13inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_23" copynumber="23">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_23inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_33" copynumber="33">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_33inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_43" copynumber="43">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_43inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_53" copynumber="53">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_53inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_63" copynumber="63">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_63inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_73" copynumber="73">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_73inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_4" copynumber="4">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_4inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_14" copynumber="14">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_14inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_24" copynumber="24">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_24inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_34" copynumber="34">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_34inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_44" copynumber="44">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_44inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_54" copynumber="54">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_54inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_64" copynumber="64">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_64inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_74" copynumber="74">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_74inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_5" copynumber="5">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_5inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_15" copynumber="15">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_15inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_25" copynumber="25">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_25inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_35" copynumber="35">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_35inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_45" copynumber="45">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_45inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_55" copynumber="55">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_55inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_65" copynumber="65">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_65inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_75" copynumber="75">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_75inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_6" copynumber="6">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_6inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_16" copynumber="16">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_16inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_26" copynumber="26">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_26inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_36" copynumber="36">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_36inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_46" copynumber="46">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_46inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_56" copynumber="56">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_56inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_66" copynumber="66">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_66inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_76" copynumber="76">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_76inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_7" copynumber="7">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_7inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_17" copynumber="17">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_17inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_27" copynumber="27">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_27inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_37" copynumber="37">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_37inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_47" copynumber="47">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_47inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_57" copynumber="57">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_57inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_67" copynumber="67">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_67inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_77" copynumber="77">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_77inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_8" copynumber="8">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_8inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_18" copynumber="18">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_18inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_28" copynumber="28">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_28inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_38" copynumber="38">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_38inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_48" copynumber="48">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_48inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_58" copynumber="58">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_58inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_68" copynumber="68">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_68inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_78" copynumber="78">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_78inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_9" copynumber="9">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_9inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_19" copynumber="19">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_19inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_29" copynumber="29">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_29inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_39" copynumber="39">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_39inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_49" copynumber="49">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_49inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_59" copynumber="59">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_59inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_69" copynumber="69">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_69inHcufoilpos"/>
+      </physvol>
+      <physvol name="Hrect_79" copynumber="79">
+        <volumeref ref="Hrect"/>
+        <positionref ref="Hrect_79inHcufoilpos"/>
+      </physvol>
+    </volume>
+    <volume name="Hgassipl3">
+      <materialref ref="HMPID_CsIPCB"/>
+      <solidref ref="Hgassipl30x1"/>
+    </volume>
+    <volume name="Hfr1upcard">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr1upcard0x1"/>
+      <physvol name="Hgassipl3_0" copynumber="0">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_0inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_10" copynumber="10">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_10inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_20" copynumber="20">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_20inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_30" copynumber="30">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_30inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_40" copynumber="40">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_40inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_50" copynumber="50">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_50inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_60" copynumber="60">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_60inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_70" copynumber="70">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_70inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_1" copynumber="1">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_1inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_11" copynumber="11">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_11inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_21" copynumber="21">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_21inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_31" copynumber="31">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_31inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_41" copynumber="41">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_41inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_51" copynumber="51">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_51inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_61" copynumber="61">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_61inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_71" copynumber="71">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_71inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_2" copynumber="2">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_2inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_12" copynumber="12">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_12inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_22" copynumber="22">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_22inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_32" copynumber="32">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_32inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_42" copynumber="42">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_42inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_52" copynumber="52">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_52inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_62" copynumber="62">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_62inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_72" copynumber="72">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_72inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_3" copynumber="3">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_3inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_13" copynumber="13">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_13inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_23" copynumber="23">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_23inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_33" copynumber="33">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_33inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_43" copynumber="43">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_43inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_53" copynumber="53">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_53inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_63" copynumber="63">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_63inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_73" copynumber="73">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_73inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_4" copynumber="4">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_4inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_14" copynumber="14">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_14inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_24" copynumber="24">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_24inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_34" copynumber="34">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_34inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_44" copynumber="44">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_44inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_54" copynumber="54">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_54inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_64" copynumber="64">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_64inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_74" copynumber="74">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_74inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_5" copynumber="5">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_5inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_15" copynumber="15">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_15inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_25" copynumber="25">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_25inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_35" copynumber="35">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_35inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_45" copynumber="45">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_45inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_55" copynumber="55">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_55inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_65" copynumber="65">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_65inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_75" copynumber="75">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_75inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_6" copynumber="6">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_6inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_16" copynumber="16">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_16inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_26" copynumber="26">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_26inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_36" copynumber="36">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_36inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_46" copynumber="46">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_46inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_56" copynumber="56">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_56inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_66" copynumber="66">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_66inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_76" copynumber="76">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_76inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_7" copynumber="7">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_7inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_17" copynumber="17">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_17inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_27" copynumber="27">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_27inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_37" copynumber="37">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_37inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_47" copynumber="47">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_47inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_57" copynumber="57">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_57inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_67" copynumber="67">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_67inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_77" copynumber="77">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_77inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_8" copynumber="8">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_8inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_18" copynumber="18">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_18inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_28" copynumber="28">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_28inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_38" copynumber="38">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_38inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_48" copynumber="48">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_48inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_58" copynumber="58">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_58inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_68" copynumber="68">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_68inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_78" copynumber="78">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_78inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_9" copynumber="9">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_9inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_19" copynumber="19">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_19inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_29" copynumber="29">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_29inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_39" copynumber="39">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_39inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_49" copynumber="49">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_49inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_59" copynumber="59">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_59inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_69" copynumber="69">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_69inHfr1upcardpos"/>
+      </physvol>
+      <physvol name="Hgassipl3_79" copynumber="79">
+        <volumeref ref="Hgassipl3"/>
+        <positionref ref="Hgassipl3_79inHfr1upcardpos"/>
+      </physvol>
+    </volume>
+    <volume name="Hfr1up">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr1up0x1"/>
+      <physvol name="Hcufoil_4" copynumber="4">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_4inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_5" copynumber="5">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_5inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_2" copynumber="2">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_2inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_3" copynumber="3">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_3inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_0" copynumber="0">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_0inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hcufoil_1" copynumber="1">
+        <volumeref ref="Hcufoil"/>
+        <positionref ref="Hcufoil_1inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_4" copynumber="4">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_4inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_5" copynumber="5">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_5inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_2" copynumber="2">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_2inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_3" copynumber="3">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_3inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_0" copynumber="0">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_0inHfr1uppos"/>
+      </physvol>
+      <physvol name="Hfr1upcard_1" copynumber="1">
+        <volumeref ref="Hfr1upcard"/>
+        <positionref ref="Hfr1upcard_1inHfr1uppos"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,13 @@
+<structure><volume name="PCP1">
+      <materialref ref="PHOS_Cu"/>
+      <solidref ref="PCP10x1"/>
+    </volume>
+    <volume name="PCPF">
+      <materialref ref="PHOS_Textolit"/>
+      <solidref ref="PCPF0x1"/>
+      <physvol name="PCP1_1" copynumber="1">
+        <volumeref ref="PCP1"/>
+        <positionref ref="PCP1_1inPCPFpos"/>
+      </physvol>
+    </volume>
+    </structure>

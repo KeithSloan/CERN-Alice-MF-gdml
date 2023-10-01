@@ -1,0 +1,5 @@
+<structure><volume name="F2SB">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="F2SB0x1"/>
+    </volume>
+    </structure>

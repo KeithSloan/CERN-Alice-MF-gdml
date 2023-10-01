@@ -1,0 +1,5 @@
+<structure><volume name="FICU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDI_hybrid_copper"/>
+    </volume>
+    </structure>

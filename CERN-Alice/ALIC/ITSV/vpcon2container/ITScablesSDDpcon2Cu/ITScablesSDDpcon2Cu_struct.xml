@@ -1,0 +1,5 @@
+<structure><volume name="ITScablesSDDpcon2Cu">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x122"/>
+    </volume>
+    </structure>

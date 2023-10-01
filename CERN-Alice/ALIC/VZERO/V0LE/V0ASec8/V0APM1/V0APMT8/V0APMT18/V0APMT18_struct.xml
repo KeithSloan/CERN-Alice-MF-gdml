@@ -1,0 +1,5 @@
+<structure><volume name="V0APMT18">
+      <materialref ref="VZERO_V0APMG"/>
+      <solidref ref="sV0APMT18"/>
+    </volume>
+    </structure>

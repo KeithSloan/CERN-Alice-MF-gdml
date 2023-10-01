@@ -1,0 +1,5 @@
+<structure><volume name="EPCA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EPCA0x1"/>
+    </volume>
+    </structure>

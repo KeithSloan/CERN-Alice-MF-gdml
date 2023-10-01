@@ -1,0 +1,12 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="OTOP_1inOPMTpos" x="0" y="0" z="-2.5" unit="cm"/>
+    <position name="OTOO_1inOPMTpos" x="0" y="0" z="-2.5" unit="cm"/>
+    <position name="OREG_1inOPMTpos" x="0" y="0" z="-1.4950000001117587" unit="cm"/>
+    <position name="OBOT_1inOPMTpos" x="0" y="0" z="3.3999999985098839" unit="cm"/>
+    <position name="OOUT_1inOPMTpos" x="0" y="0" z="1.5" unit="cm"/>
+    <position name="OCER_1inOPMTpos" x="0" y="0" z="0.1500000238418579" unit="cm"/>
+    <position name="OSTE_1inOPMTpos" x="0" y="0" z="1.6500000536441803" unit="cm"/>
+    <position name="OPMT_1inOINSpos" x="0" y="0" z="-2.9199999999999999" unit="cm"/>
+    <position name="OSU8_1inOSU6pos" x="0" y="0" z="6.0999999940395355" unit="cm"/>
+    <position name="OSU6_1inOINSpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="OSU7_1inOINSpos" x="0" y="0" z="-6.4600000008940697" unit="cm"/>
+    </define>

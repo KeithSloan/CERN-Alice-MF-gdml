@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="SSDSensorSensitiveShape" x="7.2999999999999998" y="0.029999999999999999" z="4" lunit="cm"/>
+    </solids>

@@ -1,0 +1,43 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><xtru name="TGeoXtru0x31" lunit="cm">
+      <twoDimVertex x="0" y="0"/>
+      <twoDimVertex x="0" y="0.53800000000000003"/>
+      <twoDimVertex x="0.39999999999999947" y="0.93400000000000005"/>
+      <twoDimVertex x="7.2300000000000004" y="0.93400000000000005"/>
+      <twoDimVertex x="7.2300000000000004" y="0"/>
+      <twoDimVertex x="5.9314999999999998" y="0"/>
+      <twoDimVertex x="5.9314999999999998" y="0.30000000000000004"/>
+      <twoDimVertex x="5.7885" y="0.30000000000000004"/>
+      <twoDimVertex x="5.7885" y="0"/>
+      <twoDimVertex x="3.7299999999999995" y="0"/>
+      <twoDimVertex x="3.7299999999999995" y="0.14299999999999999"/>
+      <twoDimVertex x="3.4299999999999997" y="0.14299999999999999"/>
+      <twoDimVertex x="3.4299999999999997" y="0"/>
+      <twoDimVertex x="1.3714999999999993" y="0"/>
+      <twoDimVertex x="1.3714999999999993" y="0.30000000000000004"/>
+      <twoDimVertex x="1.2284999999999993" y="0.30000000000000004"/>
+      <twoDimVertex x="1.2284999999999993" y="0"/>
+      <section zOrder="0" zPosition="-0.0015" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.0015" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x32" lunit="cm">
+      <twoDimVertex x="0" y="0"/>
+      <twoDimVertex x="0" y="0.53800000000000003"/>
+      <twoDimVertex x="0.39999999999999947" y="0.93400000000000005"/>
+      <twoDimVertex x="7.2300000000000004" y="0.93400000000000005"/>
+      <twoDimVertex x="7.2300000000000004" y="0"/>
+      <twoDimVertex x="5.9314999999999998" y="0"/>
+      <twoDimVertex x="5.9314999999999998" y="0.30000000000000004"/>
+      <twoDimVertex x="5.7885" y="0.30000000000000004"/>
+      <twoDimVertex x="5.7885" y="0"/>
+      <twoDimVertex x="3.7299999999999995" y="0"/>
+      <twoDimVertex x="3.7299999999999995" y="0.14299999999999999"/>
+      <twoDimVertex x="3.4299999999999997" y="0.14299999999999999"/>
+      <twoDimVertex x="3.4299999999999997" y="0"/>
+      <twoDimVertex x="1.3714999999999993" y="0"/>
+      <twoDimVertex x="1.3714999999999993" y="0.30000000000000004"/>
+      <twoDimVertex x="1.2284999999999993" y="0.30000000000000004"/>
+      <twoDimVertex x="1.2284999999999993" y="0"/>
+      <section zOrder="0" zPosition="-0.001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

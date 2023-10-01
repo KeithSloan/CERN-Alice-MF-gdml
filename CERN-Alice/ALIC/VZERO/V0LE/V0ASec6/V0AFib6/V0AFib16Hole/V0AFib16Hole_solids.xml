@@ -1,0 +1,9 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><subtraction name="sV0AFib16Hole">
+      <first ref="sV0AFib16"/>
+      <second ref="sV0AFicR56"/>
+      <firstposition name="sV0AFib16HolesV0AFib16pos" x="-36.700000000000003" y="-48.5" z="0.5" unit="cm"/>
+      <firstrotation name="sV0AFib16HolesV0AFib16rot" x="-178" y="7.0164775638926606e-15" z="-67.5" unit="deg"/>
+    </subtraction>
+    <arb8 name="sV0AFib16" v1x="-10" v1y="13.1" v2x="10" v2y="13.1" v3x="8" v3y="-29" v4x="-12" v4y="-12" v5x="-10" v5y="13.1" v6x="10" v6y="13.1" v7x="8" v7y="-29" v8x="-12" v8y="-12" dz="0.01" lunit="cm"/>
+    <tube name="sV0AFicR56" rmin="41.399999999999999" rmax="45.5" z="3.2999999999999998" startphi="225" deltaphi="45" aunit="deg" lunit="cm"/>
+    </solids>

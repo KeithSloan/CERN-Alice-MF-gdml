@@ -1,0 +1,17 @@
+<structure><volume name="MD2L">
+      <materialref ref="ZDC_VOIM"/>
+      <solidref ref="MD2L0x1"/>
+    </volume>
+    <volume name="YD2L">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YD2L0x1"/>
+      <physvol name="MD2L_1" copynumber="1">
+        <volumeref ref="MD2L"/>
+        <positionref ref="MD2L_1inYD2Lpos"/>
+      </physvol>
+      <physvol name="MD2L_2" copynumber="2">
+        <volumeref ref="MD2L"/>
+        <positionref ref="MD2L_2inYD2Lpos"/>
+      </physvol>
+    </volume>
+    </structure>

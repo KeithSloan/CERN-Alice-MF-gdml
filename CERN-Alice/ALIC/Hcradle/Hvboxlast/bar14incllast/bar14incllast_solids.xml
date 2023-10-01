@@ -1,0 +1,21 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><subtraction name="bar14incllast0x1">
+      <first ref="bar14incllastOUT"/>
+      <second ref="bar14incllastIN"/>
+    </subtraction>
+    <xtru name="bar14incllastOUT" lunit="cm">
+      <twoDimVertex x="-26.20925996628943" y="2.5"/>
+      <twoDimVertex x="40.490740033710573" y="2.5"/>
+      <twoDimVertex x="33.350000000000001" y="-2.5"/>
+      <twoDimVertex x="-33.350000000000001" y="-2.5"/>
+      <section zOrder="0" zPosition="-2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="bar14incllastIN" lunit="cm">
+      <twoDimVertex x="-26.923333969660487" y="2"/>
+      <twoDimVertex x="41.204814037081633" y="2"/>
+      <twoDimVertex x="34.064074003371061" y="-2"/>
+      <twoDimVertex x="-34.064074003371061" y="-2"/>
+      <section zOrder="0" zPosition="-2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="2.25" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

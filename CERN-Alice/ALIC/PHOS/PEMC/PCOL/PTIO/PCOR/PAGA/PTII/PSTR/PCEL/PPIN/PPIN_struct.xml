@@ -1,0 +1,5 @@
+<structure><volume name="PPIN">
+      <materialref ref="PHOS_Si"/>
+      <solidref ref="PPIN0x1"/>
+    </volume>
+    </structure>

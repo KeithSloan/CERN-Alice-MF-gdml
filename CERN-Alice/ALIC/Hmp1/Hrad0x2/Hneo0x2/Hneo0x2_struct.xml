@@ -1,0 +1,5 @@
+<structure><volume name="Hneo0x2">
+      <materialref ref="HMPID_Neo"/>
+      <solidref ref="Hneo0x3"/>
+    </volume>
+    </structure>

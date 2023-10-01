@@ -1,0 +1,5 @@
+<structure><volume name="FMD3_cooling_plate">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD3_cooling_plate0x1"/>
+    </volume>
+    </structure>

@@ -1,0 +1,169 @@
+<structure><volume name="Hneo">
+      <materialref ref="HMPID_Neo"/>
+      <solidref ref="Hneo0x1"/>
+    </volume>
+    <volume name="Hwin">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hwin0x1"/>
+    </volume>
+    <volume name="Hsi1">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hsi10x1"/>
+    </volume>
+    <volume name="Hsi2">
+      <materialref ref="HMPID_Neo"/>
+      <solidref ref="Hsi20x1"/>
+    </volume>
+    <volume name="Hspa">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hspa0x1"/>
+    </volume>
+    <volume name="Hrad">
+      <materialref ref="HMPID_C6F14"/>
+      <solidref ref="Hrad0x1"/>
+      <physvol name="Hneo_1" copynumber="1">
+        <volumeref ref="Hneo"/>
+        <positionref ref="Hneo_1inHradpos"/>
+      </physvol>
+      <physvol name="Hwin_1" copynumber="1">
+        <volumeref ref="Hwin"/>
+        <positionref ref="Hwin_1inHradpos"/>
+      </physvol>
+      <physvol name="Hsi1_1" copynumber="1">
+        <volumeref ref="Hsi1"/>
+        <positionref ref="Hsi1_1inHradpos"/>
+      </physvol>
+      <physvol name="Hsi1_2" copynumber="2">
+        <volumeref ref="Hsi1"/>
+        <positionref ref="Hsi1_2inHradpos"/>
+      </physvol>
+      <physvol name="Hsi2_1" copynumber="1">
+        <volumeref ref="Hsi2"/>
+        <positionref ref="Hsi2_1inHradpos"/>
+      </physvol>
+      <physvol name="Hsi2_2" copynumber="2">
+        <volumeref ref="Hsi2"/>
+        <positionref ref="Hsi2_2inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_0" copynumber="0">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_0inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_1" copynumber="1">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_1inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_2" copynumber="2">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_2inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_3" copynumber="3">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_3inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_4" copynumber="4">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_4inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_5" copynumber="5">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_5inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_6" copynumber="6">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_6inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_7" copynumber="7">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_7inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_8" copynumber="8">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_8inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_9" copynumber="9">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_9inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_10" copynumber="10">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_10inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_11" copynumber="11">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_11inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_12" copynumber="12">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_12inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_13" copynumber="13">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_13inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_14" copynumber="14">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_14inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_15" copynumber="15">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_15inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_16" copynumber="16">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_16inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_17" copynumber="17">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_17inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_18" copynumber="18">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_18inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_19" copynumber="19">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_19inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_20" copynumber="20">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_20inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_21" copynumber="21">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_21inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_22" copynumber="22">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_22inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_23" copynumber="23">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_23inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_24" copynumber="24">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_24inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_25" copynumber="25">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_25inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_26" copynumber="26">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_26inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_27" copynumber="27">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_27inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_28" copynumber="28">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_28inHradpos"/>
+      </physvol>
+      <physvol name="Hspa_29" copynumber="29">
+        <volumeref ref="Hspa"/>
+        <positionref ref="Hspa_29inHradpos"/>
+      </physvol>
+    </volume>
+    </structure>

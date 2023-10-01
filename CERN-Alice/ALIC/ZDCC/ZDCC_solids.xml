@@ -1,0 +1,55 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="QT010x1" rmin="3.1499999999999999" rmax="3.3500000000000001" z="3916.7000000000003" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QT020x1" rmin="3.4700000000000002" rmax="3.6700000000000004" z="958.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="TGeoCone0x12" z="25" rmin1="5" rmin2="3.2200000000000002" rmax1="5.2000000000000002" rmax2="3.4199999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QT030x1" rmin="5" rmax="5.2000000000000002" z="253.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="TGeoCone0x13" z="30" rmin1="10.300000000000001" rmin2="5" rmax1="10.5" rmax2="5.2000000000000002" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QT040x1" rmin="10.300000000000001" rmax="10.5" z="450" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="TGeoCone0x14" z="13.6" rmin1="12.699999999999999" rmin2="10.300000000000001" rmax1="12.9" rmax2="10.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QT050x1" rmin="12.699999999999999" rmax="12.9" z="205.80000000000001" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QT060x1" rmin="25" rmax="25.199999999999999" z="1983.9000000000001" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="TGeoCone0x15" z="14.18" rmin1="27.5" rmin2="25" rmax1="27.699999999999999" rmax2="25.199999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QT070x1" rmin="27.5" rmax="27.699999999999999" z="730" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="TGeoCone0x16" z="36.859999999999999" rmin1="34" rmin2="27.5" rmax1="34.200000000000003" rmax2="27.699999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QT080x1" rmin="34" rmax="34.200000000000003" z="848.60000000000002" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <union name="intTrousersC">
+      <first ref="QCLint0x1"/>
+      <second ref="QCLint0x1"/>
+      <firstposition name="intTrousersCQCLint0x1pos" x="-3.9700000000000002" y="0" z="0" unit="cm"/>
+      <firstrotation name="intTrousersCQCLint0x1rot" x="180" y="-5.0109000000000057" z="180" unit="deg"/>
+      <position name="intTrousersCQCLint0x1pos" x="3.9700000000000002" y="0" z="0" unit="cm"/>
+      <rotation name="intTrousersCQCLint0x1rot" x="180" y="5.0108999999999986" z="180" unit="deg"/>
+    </union>
+    <cone name="QCLint0x1" z="88.881499999999988" rmin1="0" rmin2="0" rmax1="10.6" rmax2="2.7000000000000002" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="QCLint0x1" z="88.881499999999988" rmin1="0" rmin2="0" rmax1="10.6" rmax2="2.7000000000000002" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <union name="outTrousersC">
+      <first ref="QCLext0x1"/>
+      <second ref="QCLext0x1"/>
+      <firstposition name="outTrousersCQCLext0x1pos" x="-3.9700000000000002" y="0" z="0" unit="cm"/>
+      <firstrotation name="outTrousersCQCLext0x1rot" x="180" y="-5.0109000000000057" z="180" unit="deg"/>
+      <position name="outTrousersCQCLext0x1pos" x="3.9700000000000002" y="0" z="0" unit="cm"/>
+      <rotation name="outTrousersCQCLext0x1rot" x="180" y="5.0108999999999986" z="180" unit="deg"/>
+    </union>
+    <cone name="QCLext0x1" z="88.881499999999988" rmin1="0" rmin2="0" rmax1="10.800000000000001" rmax2="2.8999999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="QCLext0x1" z="88.881499999999988" rmin1="0" rmin2="0" rmax1="10.800000000000001" rmax2="2.8999999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QC140x1" rmin="2.7000000000000002" rmax="2.8999999999999999" z="40" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="TGeoCone0x17" z="9.3000000000000007" rmin1="2.7000000000000002" rmin2="3.1499999999999999" rmax1="2.8999999999999999" rmax2="3.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="QC160x1" rmin="3.1499999999999999" rmax="3.5" z="639.79999999999995" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <box name="QLUC0x1" x="8" y="8" z="15" lunit="cm"/>
+    <tube name="MBXW0x1" rmin="0" rmax="3.1400000000000001" z="153" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="YMBX0x1" rmin="4.5" rmax="55" z="153" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="MQXL0x1" rmin="0" rmax="3.1400000000000001" z="637" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="YMQL0x1" rmin="3.5" rmax="22" z="637" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="MQX0x1" rmin="0" rmax="3.1400000000000001" z="550" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="YMQ0x1" rmin="3.5" rmax="22" z="550" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="YD10x1" rmin="3.6800000000000002" rmax="55" z="945" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <box name="MD1V0x1" x="2.6270496878494889" y="0.20000000000000001" z="945" lunit="cm"/>
+    <tube name="MD10x1" rmin="0" rmax="3.46" z="945" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="MD20x1" rmin="0" rmax="3.75" z="945" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="YD20x1" rmin="0" rmax="55" z="945" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <box name="ZNEU0x1" x="7.0399999618530273" y="7.0399999618530273" z="100" lunit="cm"/>
+    <box name="ZPRO0x1" x="22.399999618530273" y="12" z="150" lunit="cm"/>
+    <polycone name="ZDCC0x1" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="-13500" rmin="0" rmax="55"/>
+      <zplane z="-1921.5999999999999" rmin="0" rmax="55"/>
+    </polycone>
+    </solids>

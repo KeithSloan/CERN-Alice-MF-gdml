@@ -1,0 +1,5 @@
+<structure><volume name="SSDCablePatchPanel3RB24">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x141"/>
+    </volume>
+    </structure>

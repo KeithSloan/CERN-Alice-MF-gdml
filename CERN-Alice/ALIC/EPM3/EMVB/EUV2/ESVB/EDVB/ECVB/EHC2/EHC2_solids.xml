@@ -1,0 +1,11 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><polyhedra name="ECAR0x1" startphi="0" deltaphi="360" numsides="6" aunit="deg" lunit="cm">
+      <zplane z="-0.25" rmin="0" rmax="0.23000000417232513"/>
+      <zplane z="0.25" rmin="0" rmax="0.23000000417232513"/>
+    </polyhedra>
+    <polyhedra name="ECCU0x1" startphi="0" deltaphi="360" numsides="6" aunit="deg" lunit="cm">
+      <zplane z="-0.25" rmin="0" rmax="0.25"/>
+      <zplane z="0.25" rmin="0" rmax="0.25"/>
+    </polyhedra>
+    <box name="EST20x1" x="0.57735025882720947" y="24" z="0.5" lunit="cm"/>
+    <box name="EHC20x1" x="41.713554382324219" y="24.25" z="0.5" lunit="cm"/>
+    </solids>

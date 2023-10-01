@@ -1,0 +1,3 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="OuterEndLadderCoolingTube3_1inEndLadderCoolingTube3pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="InnerEndlLadderCoolingTube3_1inEndLadderCoolingTube3pos" x="0" y="0" z="0" unit="cm"/>
+    </define>

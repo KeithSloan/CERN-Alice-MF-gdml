@@ -1,0 +1,11 @@
+<structure><volume name="SA2V30x32">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SA2V30x33"/>
+    </volume>
+    <assembly name="SV23F2">
+      <physvol name="SA2V3_267" copynumber="267">
+        <volumeref ref="SA2V30x32"/>
+        <positionref ref="SA2V3_267inSV23F2pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSV23F2"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SV23F2"><volumeref ref="SV23F2"/><positionref ref="center"/></physvol></volume></structure>

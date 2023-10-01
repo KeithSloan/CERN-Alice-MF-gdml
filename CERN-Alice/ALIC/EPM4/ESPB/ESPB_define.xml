@@ -1,0 +1,7 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="EPB2_1inESPBpos" x="-21.331775665283203" y="25.150001525878906" z="0" unit="cm"/>
+    <position name="EPB2_2inESPBpos" x="21.33177375793457" y="25.150001525878906" z="0" unit="cm"/>
+    <position name="EPB2_3inESPBpos" x="-21.331775665283203" y="3.8146973224684189e-07" z="0" unit="cm"/>
+    <position name="EPB2_4inESPBpos" x="21.33177375793457" y="3.8146973224684189e-07" z="0" unit="cm"/>
+    <position name="EPB2_5inESPBpos" x="-21.331775665283203" y="-25.150001525878906" z="0" unit="cm"/>
+    <position name="EPB2_6inESPBpos" x="21.33177375793457" y="-25.150001525878906" z="0" unit="cm"/>
+    </define>

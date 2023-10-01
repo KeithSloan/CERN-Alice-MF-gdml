@@ -1,0 +1,9 @@
+
+<!DOCTYPE gdml [
+<!ENTITY materials SYSTEM "FODP_materials.xml">
+<!ENTITY solids SYSTEM "FODP_solids.xml">
+<!ENTITY setup SYSTEM "FODP_setup.xml">
+<!ENTITY struct SYSTEM "FODP_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

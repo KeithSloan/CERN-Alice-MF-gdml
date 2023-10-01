@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY define SYSTEM "LadderEndCableSegmentBBoxAssembly0x13_define.xml">
+<!ENTITY materials SYSTEM "LadderEndCableSegmentBBoxAssembly0x13_materials.xml">
+<!ENTITY solids SYSTEM "LadderEndCableSegmentBBoxAssembly0x13_solids.xml">
+<!ENTITY setup SYSTEM "LadderEndCableSegmentBBoxAssembly0x13_setup.xml">
+<!ENTITY struct SYSTEM "LadderEndCableSegmentBBoxAssembly0x13_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&define;&materials;&solids;&setup;&struct;</gdml>

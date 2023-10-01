@@ -1,0 +1,5 @@
+<structure><volume name="TPC_WBAR">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="bar"/>
+    </volume>
+    </structure>

@@ -1,0 +1,5 @@
+<structure><volume name="Hfr1perUpBig0x8">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr1perUpBig0x9"/>
+    </volume>
+    </structure>

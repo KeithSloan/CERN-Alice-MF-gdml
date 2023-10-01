@@ -1,0 +1,700 @@
+<structure><volume name="CarbonFiberSupport1">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="CarbonFiberSupportShape1"/>
+    </volume>
+    <volume name="CarbonFiberSupport2">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="CarbonFiberSupportShape2"/>
+    </volume>
+    <volume name="CarbonFiberJunction">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x19"/>
+    </volume>
+    <volume name="CarbonFiberLowerSupport1">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="CarbonFiberLowerSupportShape1"/>
+    </volume>
+    <volume name="CarbonFiberLowerSupport2">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="CarbonFiberLowerSupportShape2"/>
+    </volume>
+    <volume name="SSDSensorSupport">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x20"/>
+    </volume>
+    <volume name="SSDSensorSupport0x1">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x21"/>
+    </volume>
+    <volume name="CoolingTubeSupportArc">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x23"/>
+    </volume>
+    <volume name="CoolingTubeSupportBox">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoBBox0x1118"/>
+    </volume>
+    <volume name="CoolingTubeSupportSeg">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoTubeSeg0x58"/>
+    </volume>
+    <volume name="CoolingTubeWaterArcPart">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoXtru0x24"/>
+    </volume>
+    <volume name="CoolingTubePhynoxArcPart">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoXtru0x25"/>
+    </volume>
+    <volume name="CoolingTubePhynoxPart">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTubeSeg0x59"/>
+    </volume>
+    <volume name="CoolingTubeWaterPart">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTubeSeg0x60"/>
+    </volume>
+    <volume name="CoolingTubeSupport">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoXtru0x22"/>
+      <physvol name="CoolingTubeSupportArc_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportArc"/>
+        <positionref ref="CoolingTubeSupportArc_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubeSupportArc_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubeSupportBox_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportBox"/>
+        <positionref ref="CoolingTubeSupportBox_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeSupportSeg_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupportSeg"/>
+        <positionref ref="CoolingTubeSupportSeg_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeWaterArcPart_1" copynumber="1">
+        <volumeref ref="CoolingTubeWaterArcPart"/>
+        <positionref ref="CoolingTubeWaterArcPart_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubeWaterArcPart_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubePhynoxArcPart_1" copynumber="1">
+        <volumeref ref="CoolingTubePhynoxArcPart"/>
+        <positionref ref="CoolingTubePhynoxArcPart_1inCoolingTubeSupportpos"/>
+        <rotationref ref="CoolingTubePhynoxArcPart_1inCoolingTubeSupportrot"/>
+      </physvol>
+      <physvol name="CoolingTubePhynoxPart_1" copynumber="1">
+        <volumeref ref="CoolingTubePhynoxPart"/>
+        <positionref ref="CoolingTubePhynoxPart_1inCoolingTubeSupportpos"/>
+      </physvol>
+      <physvol name="CoolingTubeWaterPart_1" copynumber="1">
+        <volumeref ref="CoolingTubeWaterPart"/>
+        <positionref ref="CoolingTubeWaterPart_1inCoolingTubeSupportpos"/>
+      </physvol>
+    </volume>
+    <volume name="OuterCoolingTube1">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x91"/>
+    </volume>
+    <volume name="InnerCoolingTube1">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x92"/>
+    </volume>
+    <volume name="CoolingTube1">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x90"/>
+      <physvol name="OuterCoolingTube1_1" copynumber="1">
+        <volumeref ref="OuterCoolingTube1"/>
+        <positionref ref="OuterCoolingTube1_1inCoolingTube1pos"/>
+      </physvol>
+      <physvol name="InnerCoolingTube1_1" copynumber="1">
+        <volumeref ref="InnerCoolingTube1"/>
+        <positionref ref="InnerCoolingTube1_1inCoolingTube1pos"/>
+      </physvol>
+    </volume>
+    <volume name="OuterCoolingTube2">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x94"/>
+    </volume>
+    <volume name="InnerCoolingTube2">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x95"/>
+    </volume>
+    <volume name="CoolingTube2">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x93"/>
+      <physvol name="OuterCoolingTube2_1" copynumber="1">
+        <volumeref ref="OuterCoolingTube2"/>
+        <positionref ref="OuterCoolingTube2_1inCoolingTube2pos"/>
+      </physvol>
+      <physvol name="InnerCoolingTube2_1" copynumber="1">
+        <volumeref ref="InnerCoolingTube2"/>
+        <positionref ref="InnerCoolingTube2_1inCoolingTube2pos"/>
+      </physvol>
+    </volume>
+    <volume name="OuterCoolingTube3">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x97"/>
+    </volume>
+    <volume name="InnerCoolingTube3">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x98"/>
+    </volume>
+    <volume name="CoolingTube3">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="TGeoTube0x96"/>
+      <physvol name="OuterCoolingTube3_1" copynumber="1">
+        <volumeref ref="OuterCoolingTube3"/>
+        <positionref ref="OuterCoolingTube3_1inCoolingTube3pos"/>
+      </physvol>
+      <physvol name="InnerCoolingTube3_1" copynumber="1">
+        <volumeref ref="InnerCoolingTube3"/>
+        <positionref ref="InnerCoolingTube3_1inCoolingTube3pos"/>
+      </physvol>
+    </volume>
+    <volume name="SSDStiffener">
+      <materialref ref="ITS_SDD_C_AL_M55J"/>
+      <solidref ref="SSDStiffenerShape"/>
+    </volume>
+    <volume name="Capacitor0603">
+      <materialref ref="ITS_SDD_ruby_sph._Al2O3"/>
+      <solidref ref="Capacitor0603Shape"/>
+    </volume>
+    <volume name="SSDChipcableAllay1Left">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x26"/>
+    </volume>
+    <volume name="SSDChipcableKaptonlay2Left">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x27"/>
+    </volume>
+    <volume name="SSDChipcableAllay1Right">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x28"/>
+    </volume>
+    <volume name="SSDChipcableKaptonlay2Right">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x29"/>
+    </volume>
+    <assembly name="SSDChipCablesMother">
+      <physvol name="SSDChipcableAllay1Left_1" copynumber="1">
+        <volumeref ref="SSDChipcableAllay1Left"/>
+        <positionref ref="SSDChipcableAllay1Left_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableAllay1Left_1inSSDChipCablesMotherrot"/>
+      </physvol>
+      <physvol name="SSDChipcableKaptonlay2Left_1" copynumber="1">
+        <volumeref ref="SSDChipcableKaptonlay2Left"/>
+        <positionref ref="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherrot"/>
+      </physvol>
+      <physvol name="SSDChipcableAllay1Right_1" copynumber="1">
+        <volumeref ref="SSDChipcableAllay1Right"/>
+        <positionref ref="SSDChipcableAllay1Right_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableAllay1Right_1inSSDChipCablesMotherrot"/>
+      </physvol>
+      <physvol name="SSDChipcableKaptonlay2Right_1" copynumber="1">
+        <volumeref ref="SSDChipcableKaptonlay2Right"/>
+        <positionref ref="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherpos"/>
+        <rotationref ref="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDChipCablesMother"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDChipCablesMother"><volumeref ref="SSDChipCablesMother"/><positionref ref="center"/></physvol></volume><volume name="SSDChipComp">
+      <materialref ref="ITS_SPD_SI_CHIP"/>
+      <solidref ref="SSDChipCompShape"/>
+    </volume>
+    <volume name="SSDChipGlueComp">
+      <materialref ref="ITS_EPOXY"/>
+      <solidref ref="SSDChipGlueCompShape"/>
+    </volume>
+    <volume name="SSDChip">
+      <materialref ref="ITS_SDD_AIR"/>
+      <solidref ref="SSDChipShape"/>
+      <physvol name="SSDChipComp_1" copynumber="1">
+        <volumeref ref="SSDChipComp"/>
+        <positionref ref="SSDChipComp_1inSSDChippos"/>
+      </physvol>
+      <physvol name="SSDChipGlueComp_1" copynumber="1">
+        <volumeref ref="SSDChipGlueComp"/>
+        <positionref ref="SSDChipGlueComp_1inSSDChippos"/>
+      </physvol>
+    </volume>
+    <assembly name="SSDChipContainer">
+      <physvol name="SSDChip_1" copynumber="1">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_1inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_2" copynumber="2">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_2inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_3" copynumber="3">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_3inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_4" copynumber="4">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_4inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_5" copynumber="5">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_5inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_6" copynumber="6">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_6inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_7" copynumber="7">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_7inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_8" copynumber="8">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_8inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_9" copynumber="9">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_9inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_10" copynumber="10">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_10inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_11" copynumber="11">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_11inSSDChipContainerpos"/>
+      </physvol>
+      <physvol name="SSDChip_12" copynumber="12">
+        <volumeref ref="SSDChip"/>
+        <positionref ref="SSDChip_12inSSDChipContainerpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDChipContainer"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDChipContainer"><volumeref ref="SSDChipContainer"/><positionref ref="center"/></physvol></volume><assembly name="SSDChipSytemother1">
+      <physvol name="SSDChipCablesMother_1" copynumber="1">
+        <volumeref ref="SSDChipCablesMother"/>
+        <positionref ref="SSDChipCablesMother_1inSSDChipSytemother1pos"/>
+        <rotationref ref="SSDChipCablesMother_1inSSDChipSytemother1rot"/>
+      </physvol>
+      <physvol name="SSDChipCablesMother_2" copynumber="2">
+        <volumeref ref="SSDChipCablesMother"/>
+        <positionref ref="SSDChipCablesMother_2inSSDChipSytemother1pos"/>
+        <rotationref ref="SSDChipCablesMother_2inSSDChipSytemother1rot"/>
+      </physvol>
+      <physvol name="SSDChipCablesMother_3" copynumber="3">
+        <volumeref ref="SSDChipCablesMother"/>
+        <positionref ref="SSDChipCablesMother_3inSSDChipSytemother1pos"/>
+        <rotationref ref="SSDChipCablesMother_3inSSDChipSytemother1rot"/>
+      </physvol>
+      <physvol name="SSDChipCablesMother_4" copynumber="4">
+        <volumeref ref="SSDChipCablesMother"/>
+        <positionref ref="SSDChipCablesMother_4inSSDChipSytemother1pos"/>
+        <rotationref ref="SSDChipCablesMother_4inSSDChipSytemother1rot"/>
+      </physvol>
+      <physvol name="SSDChipCablesMother_5" copynumber="5">
+        <volumeref ref="SSDChipCablesMother"/>
+        <positionref ref="SSDChipCablesMother_5inSSDChipSytemother1pos"/>
+        <rotationref ref="SSDChipCablesMother_5inSSDChipSytemother1rot"/>
+      </physvol>
+      <physvol name="SSDChipCablesMother_6" copynumber="6">
+        <volumeref ref="SSDChipCablesMother"/>
+        <positionref ref="SSDChipCablesMother_6inSSDChipSytemother1pos"/>
+        <rotationref ref="SSDChipCablesMother_6inSSDChipSytemother1rot"/>
+      </physvol>
+      <physvol name="SSDChipContainer_1" copynumber="1">
+        <volumeref ref="SSDChipContainer"/>
+        <positionref ref="SSDChipContainer_1inSSDChipSytemother1pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDChipSytemother1"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDChipSytemother1"><volumeref ref="SSDChipSytemother1"/><positionref ref="center"/></physvol></volume><assembly name="SSDHybridMother1">
+      <physvol name="SSDStiffener_1" copynumber="1">
+        <volumeref ref="SSDStiffener"/>
+        <positionref ref="SSDStiffener_1inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_1" copynumber="1">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_1inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_2" copynumber="2">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_2inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_3" copynumber="3">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_3inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_4" copynumber="4">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_4inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_5" copynumber="5">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_5inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="SSDStiffener_2" copynumber="2">
+        <volumeref ref="SSDStiffener"/>
+        <positionref ref="SSDStiffener_2inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_6" copynumber="6">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_6inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_7" copynumber="7">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_7inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_8" copynumber="8">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_8inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_9" copynumber="9">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_9inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="Capacitor0603_10" copynumber="10">
+        <volumeref ref="Capacitor0603"/>
+        <positionref ref="Capacitor0603_10inSSDHybridMother1pos"/>
+      </physvol>
+      <physvol name="SSDChipSytemother1_1" copynumber="1">
+        <volumeref ref="SSDChipSytemother1"/>
+        <positionref ref="SSDChipSytemother1_1inSSDHybridMother1pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDHybridMother1"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDHybridMother1"><volumeref ref="SSDHybridMother1"/><positionref ref="center"/></physvol></volume><volume name="SSDConnectorAl">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1119"/>
+    </volume>
+    <volume name="SSDConnectorNi">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoBBox0x1120"/>
+    </volume>
+    <volume name="Capacitor1812">
+      <materialref ref="ITS_SDD_ruby_sph._Al2O3"/>
+      <solidref ref="Capacitor1812Shape"/>
+    </volume>
+    <volume name="HybridWire">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="HybridWireShape"/>
+    </volume>
+    <assembly name="SSDHybridCapacitorMother">
+      <physvol name="SSDConnectorAl_1" copynumber="1">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_1inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_1" copynumber="1">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_1inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorAl_2" copynumber="2">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_2inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_2" copynumber="2">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_2inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorAl_3" copynumber="3">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_3inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_3" copynumber="3">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_3inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorAl_4" copynumber="4">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_4inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_4" copynumber="4">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_4inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="Capacitor1812_1" copynumber="1">
+        <volumeref ref="Capacitor1812"/>
+        <positionref ref="Capacitor1812_1inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="HybridWire_1" copynumber="1">
+        <volumeref ref="HybridWire"/>
+        <positionref ref="HybridWire_1inSSDHybridCapacitorMotherpos"/>
+        <rotationref ref="HybridWire_1inSSDHybridCapacitorMotherrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDHybridCapacitorMother"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDHybridCapacitorMother"><volumeref ref="SSDHybridCapacitorMother"/><positionref ref="center"/></physvol></volume><volume name="SSDCoolingBlock">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x30"/>
+    </volume>
+    <volume name="OuterCoolingTube">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoTube0x99"/>
+    </volume>
+    <volume name="InnerCoolingTube">
+      <materialref ref="ITS_Water"/>
+      <solidref ref="TGeoTube0x100"/>
+    </volume>
+    <assembly name="CoolingBlockSystem">
+      <physvol name="SSDCoolingBlock_1" copynumber="1">
+        <volumeref ref="SSDCoolingBlock"/>
+        <positionref ref="SSDCoolingBlock_1inCoolingBlockSystempos"/>
+        <rotationref ref="SSDCoolingBlock_1inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="OuterCoolingTube_1" copynumber="1">
+        <volumeref ref="OuterCoolingTube"/>
+        <positionref ref="OuterCoolingTube_1inCoolingBlockSystempos"/>
+        <rotationref ref="OuterCoolingTube_1inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="InnerCoolingTube_1" copynumber="1">
+        <volumeref ref="InnerCoolingTube"/>
+        <positionref ref="InnerCoolingTube_1inCoolingBlockSystempos"/>
+        <rotationref ref="InnerCoolingTube_1inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="SSDCoolingBlock_2" copynumber="2">
+        <volumeref ref="SSDCoolingBlock"/>
+        <positionref ref="SSDCoolingBlock_2inCoolingBlockSystempos"/>
+        <rotationref ref="SSDCoolingBlock_2inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="OuterCoolingTube_2" copynumber="2">
+        <volumeref ref="OuterCoolingTube"/>
+        <positionref ref="OuterCoolingTube_2inCoolingBlockSystempos"/>
+        <rotationref ref="OuterCoolingTube_2inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="InnerCoolingTube_2" copynumber="2">
+        <volumeref ref="InnerCoolingTube"/>
+        <positionref ref="InnerCoolingTube_2inCoolingBlockSystempos"/>
+        <rotationref ref="InnerCoolingTube_2inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="SSDCoolingBlock_3" copynumber="3">
+        <volumeref ref="SSDCoolingBlock"/>
+        <positionref ref="SSDCoolingBlock_3inCoolingBlockSystempos"/>
+        <rotationref ref="SSDCoolingBlock_3inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="OuterCoolingTube_3" copynumber="3">
+        <volumeref ref="OuterCoolingTube"/>
+        <positionref ref="OuterCoolingTube_3inCoolingBlockSystempos"/>
+        <rotationref ref="OuterCoolingTube_3inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="InnerCoolingTube_3" copynumber="3">
+        <volumeref ref="InnerCoolingTube"/>
+        <positionref ref="InnerCoolingTube_3inCoolingBlockSystempos"/>
+        <rotationref ref="InnerCoolingTube_3inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="SSDCoolingBlock_4" copynumber="4">
+        <volumeref ref="SSDCoolingBlock"/>
+        <positionref ref="SSDCoolingBlock_4inCoolingBlockSystempos"/>
+        <rotationref ref="SSDCoolingBlock_4inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="OuterCoolingTube_4" copynumber="4">
+        <volumeref ref="OuterCoolingTube"/>
+        <positionref ref="OuterCoolingTube_4inCoolingBlockSystempos"/>
+        <rotationref ref="OuterCoolingTube_4inCoolingBlockSystemrot"/>
+      </physvol>
+      <physvol name="InnerCoolingTube_4" copynumber="4">
+        <volumeref ref="InnerCoolingTube"/>
+        <positionref ref="InnerCoolingTube_4inCoolingBlockSystempos"/>
+        <rotationref ref="InnerCoolingTube_4inCoolingBlockSystemrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootCoolingBlockSystem"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-CoolingBlockSystem"><volumeref ref="CoolingBlockSystem"/><positionref ref="center"/></physvol></volume><volume name="AlFlexLay1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x31"/>
+    </volume>
+    <volume name="KaptonFlexLay1">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x32"/>
+    </volume>
+    <volume name="AlFlexLay2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x31"/>
+    </volume>
+    <volume name="KaptonFlexLay2">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x32"/>
+    </volume>
+    <assembly name="SSDFlexMother">
+      <physvol name="AlFlexLay1_1" copynumber="1">
+        <volumeref ref="AlFlexLay1"/>
+        <positionref ref="AlFlexLay1_1inSSDFlexMotherpos"/>
+      </physvol>
+      <physvol name="KaptonFlexLay1_1" copynumber="1">
+        <volumeref ref="KaptonFlexLay1"/>
+        <positionref ref="KaptonFlexLay1_1inSSDFlexMotherpos"/>
+      </physvol>
+      <physvol name="AlFlexLay2_1" copynumber="1">
+        <volumeref ref="AlFlexLay2"/>
+        <positionref ref="AlFlexLay2_1inSSDFlexMotherpos"/>
+      </physvol>
+      <physvol name="KaptonFlexLay2_1" copynumber="1">
+        <volumeref ref="KaptonFlexLay2"/>
+        <positionref ref="KaptonFlexLay2_1inSSDFlexMotherpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDFlexMother"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDFlexMother"><volumeref ref="SSDFlexMother"/><positionref ref="center"/></physvol></volume><volume name="AlEndFlexLay1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x33"/>
+    </volume>
+    <volume name="KaptonEndFlexLay1">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x34"/>
+    </volume>
+    <volume name="AlEndFlexLay2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x35"/>
+    </volume>
+    <volume name="KaptonEndFlexLay2">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x36"/>
+    </volume>
+    <assembly name="SSDEndFlexMother">
+      <physvol name="AlEndFlexLay1_1" copynumber="1">
+        <volumeref ref="AlEndFlexLay1"/>
+        <positionref ref="AlEndFlexLay1_1inSSDEndFlexMotherpos"/>
+      </physvol>
+      <physvol name="KaptonEndFlexLay1_1" copynumber="1">
+        <volumeref ref="KaptonEndFlexLay1"/>
+        <positionref ref="KaptonEndFlexLay1_1inSSDEndFlexMotherpos"/>
+      </physvol>
+      <physvol name="AlEndFlexLay2_1" copynumber="1">
+        <volumeref ref="AlEndFlexLay2"/>
+        <positionref ref="AlEndFlexLay2_1inSSDEndFlexMotherpos"/>
+      </physvol>
+      <physvol name="KaptonEndFlexLay2_1" copynumber="1">
+        <volumeref ref="KaptonEndFlexLay2"/>
+        <positionref ref="KaptonEndFlexLay2_1inSSDEndFlexMotherpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDEndFlexMother"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDEndFlexMother"><volumeref ref="SSDEndFlexMother"/><positionref ref="center"/></physvol></volume><assembly name="LadderSegment1">
+      <physvol name="CarbonFiberSupport1_1" copynumber="1">
+        <volumeref ref="CarbonFiberSupport1"/>
+        <positionref ref="CarbonFiberSupport1_1inLadderSegment1pos"/>
+        <rotationref ref="CarbonFiberSupport1_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CarbonFiberSupport2_1" copynumber="1">
+        <volumeref ref="CarbonFiberSupport2"/>
+        <positionref ref="CarbonFiberSupport2_1inLadderSegment1pos"/>
+        <rotationref ref="CarbonFiberSupport2_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CarbonFiberSupport1_2" copynumber="2">
+        <volumeref ref="CarbonFiberSupport1"/>
+        <positionref ref="CarbonFiberSupport1_2inLadderSegment1pos"/>
+        <rotationref ref="CarbonFiberSupport1_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CarbonFiberSupport2_2" copynumber="2">
+        <volumeref ref="CarbonFiberSupport2"/>
+        <positionref ref="CarbonFiberSupport2_2inLadderSegment1pos"/>
+        <rotationref ref="CarbonFiberSupport2_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CarbonFiberJunction_1" copynumber="1">
+        <volumeref ref="CarbonFiberJunction"/>
+        <positionref ref="CarbonFiberJunction_1inLadderSegment1pos"/>
+        <rotationref ref="CarbonFiberJunction_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CarbonFiberJunction_2" copynumber="2">
+        <volumeref ref="CarbonFiberJunction"/>
+        <positionref ref="CarbonFiberJunction_2inLadderSegment1pos"/>
+        <rotationref ref="CarbonFiberJunction_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CarbonFiberJunction_3" copynumber="3">
+        <volumeref ref="CarbonFiberJunction"/>
+        <positionref ref="CarbonFiberJunction_3inLadderSegment1pos"/>
+        <rotationref ref="CarbonFiberJunction_3inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CarbonFiberLowerSupport1_1" copynumber="1">
+        <volumeref ref="CarbonFiberLowerSupport1"/>
+        <positionref ref="CarbonFiberLowerSupport1_1inLadderSegment1pos"/>
+      </physvol>
+      <physvol name="CarbonFiberLowerSupport2_2" copynumber="2">
+        <volumeref ref="CarbonFiberLowerSupport2"/>
+        <positionref ref="CarbonFiberLowerSupport2_2inLadderSegment1pos"/>
+      </physvol>
+      <physvol name="SSDSensorSupport_1" copynumber="1">
+        <volumeref ref="SSDSensorSupport"/>
+        <positionref ref="SSDSensorSupport_1inLadderSegment1pos"/>
+        <rotationref ref="SSDSensorSupport_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="SSDSensorSupport_2" copynumber="2">
+        <volumeref ref="SSDSensorSupport"/>
+        <positionref ref="SSDSensorSupport_2inLadderSegment1pos"/>
+        <rotationref ref="SSDSensorSupport_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="SSDSensorSupport_3" copynumber="3">
+        <volumeref ref="SSDSensorSupport0x1"/>
+        <positionref ref="SSDSensorSupport_3inLadderSegment1pos"/>
+        <rotationref ref="SSDSensorSupport_3inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTubeSupport_1" copynumber="1">
+        <volumeref ref="CoolingTubeSupport"/>
+        <positionref ref="CoolingTubeSupport_1inLadderSegment1pos"/>
+        <rotationref ref="CoolingTubeSupport_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTubeSupport_2" copynumber="2">
+        <volumeref ref="CoolingTubeSupport"/>
+        <positionref ref="CoolingTubeSupport_2inLadderSegment1pos"/>
+        <rotationref ref="CoolingTubeSupport_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube1_1" copynumber="1">
+        <volumeref ref="CoolingTube1"/>
+        <positionref ref="CoolingTube1_1inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube1_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube2_1" copynumber="1">
+        <volumeref ref="CoolingTube2"/>
+        <positionref ref="CoolingTube2_1inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube2_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube1_2" copynumber="2">
+        <volumeref ref="CoolingTube1"/>
+        <positionref ref="CoolingTube1_2inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube1_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube2_2" copynumber="2">
+        <volumeref ref="CoolingTube2"/>
+        <positionref ref="CoolingTube2_2inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube2_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube1_3" copynumber="3">
+        <volumeref ref="CoolingTube1"/>
+        <positionref ref="CoolingTube1_3inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube1_3inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube3_1" copynumber="1">
+        <volumeref ref="CoolingTube3"/>
+        <positionref ref="CoolingTube3_1inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube3_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube1_4" copynumber="4">
+        <volumeref ref="CoolingTube1"/>
+        <positionref ref="CoolingTube1_4inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube1_4inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="CoolingTube3_2" copynumber="2">
+        <volumeref ref="CoolingTube3"/>
+        <positionref ref="CoolingTube3_2inLadderSegment1pos"/>
+        <rotationref ref="CoolingTube3_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="SSDHybridMother1_1" copynumber="1">
+        <volumeref ref="SSDHybridMother1"/>
+        <positionref ref="SSDHybridMother1_1inLadderSegment1pos"/>
+      </physvol>
+      <physvol name="SSDHybridCapacitorMother_1" copynumber="1">
+        <volumeref ref="SSDHybridCapacitorMother"/>
+        <positionref ref="SSDHybridCapacitorMother_1inLadderSegment1pos"/>
+      </physvol>
+      <physvol name="CoolingBlockSystem_1" copynumber="1">
+        <volumeref ref="CoolingBlockSystem"/>
+        <positionref ref="CoolingBlockSystem_1inLadderSegment1pos"/>
+      </physvol>
+      <physvol name="SSDFlexMother_1" copynumber="1">
+        <volumeref ref="SSDFlexMother"/>
+        <positionref ref="SSDFlexMother_1inLadderSegment1pos"/>
+      </physvol>
+      <physvol name="SSDEndFlexMother_1" copynumber="1">
+        <volumeref ref="SSDEndFlexMother"/>
+        <positionref ref="SSDEndFlexMother_1inLadderSegment1pos"/>
+        <rotationref ref="SSDEndFlexMother_1inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="SSDFlexMother_2" copynumber="2">
+        <volumeref ref="SSDFlexMother"/>
+        <positionref ref="SSDFlexMother_2inLadderSegment1pos"/>
+        <rotationref ref="SSDFlexMother_2inLadderSegment1rot"/>
+      </physvol>
+      <physvol name="SSDEndFlexMother_2" copynumber="2">
+        <volumeref ref="SSDEndFlexMother"/>
+        <positionref ref="SSDEndFlexMother_2inLadderSegment1pos"/>
+        <rotationref ref="SSDEndFlexMother_2inLadderSegment1rot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootLadderSegment1"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-LadderSegment1"><volumeref ref="LadderSegment1"/><positionref ref="center"/></physvol></volume></structure>

@@ -1,0 +1,33 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="MountingBlockSuppDownLay6Box1_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSuppDownLay6Box1_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSuppDownLay6Box2_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSuppDownLay6Box2_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSupportCenterLay6Arc_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSupportSideLay6Arc_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SideLadderSupportPieceLay6_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CenterLadderSupportPieceLay6_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockPieceDownLay6_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSuppTrapezoidDownLay6_1inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSupportCenterLay6Arc_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSupportSideLay6Arc_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="SideLadderSupportPieceLay6_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="CenterLadderSupportPieceLay6_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockPieceDownLay6_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="MountingBlockSuppTrapezoidDownLay6_2inLadderSupportDownLay6pos" x="0" y="0" z="0" unit="cm"/>
+    <rotation name="MountingBlockSuppDownLay6Box1_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="MountingBlockSuppDownLay6Box1_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    <rotation name="MountingBlockSuppDownLay6Box2_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="MountingBlockSuppDownLay6Box2_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    <rotation name="MountingBlockSupportCenterLay6Arc_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="MountingBlockSupportSideLay6Arc_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="SideLadderSupportPieceLay6_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="CenterLadderSupportPieceLay6_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="MountingBlockPieceDownLay6_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="MountingBlockSuppTrapezoidDownLay6_1inLadderSupportDownLay6rot" x="-90" y="-0" z="-0" unit="deg"/>
+    <rotation name="MountingBlockSupportCenterLay6Arc_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    <rotation name="MountingBlockSupportSideLay6Arc_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    <rotation name="SideLadderSupportPieceLay6_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    <rotation name="CenterLadderSupportPieceLay6_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    <rotation name="MountingBlockPieceDownLay6_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    <rotation name="MountingBlockSuppTrapezoidDownLay6_2inLadderSupportDownLay6rot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
+    </define>

@@ -1,0 +1,11 @@
+<structure><volume name="SAXH40x8">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SAXH40x9"/>
+    </volume>
+    <assembly name="SHX4B1">
+      <physvol name="SAXH4_105" copynumber="105">
+        <volumeref ref="SAXH40x8"/>
+        <positionref ref="SAXH4_105inSHX4B1pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSHX4B1"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SHX4B1"><volumeref ref="SHX4B1"/><positionref ref="center"/></physvol></volume></structure>

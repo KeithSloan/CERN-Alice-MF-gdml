@@ -1,0 +1,39 @@
+<structure><volume name="SSDMountingHole">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="TGeoPcon0x110"/>
+    </volume>
+    <volume name="SSDCarbonFiberConeFoam2">
+      <materialref ref="ITS_ROHACELL"/>
+      <solidref ref="TGeoPcon0x109"/>
+      <physvol name="SSDMountingHole_1" copynumber="1">
+        <volumeref ref="SSDMountingHole"/>
+        <positionref ref="SSDMountingHole_1inSSDCarbonFiberConeFoam2pos"/>
+        <rotationref ref="SSDMountingHole_1inSSDCarbonFiberConeFoam2rot"/>
+      </physvol>
+      <physvol name="SSDMountingHole_2" copynumber="2">
+        <volumeref ref="SSDMountingHole"/>
+        <positionref ref="SSDMountingHole_2inSSDCarbonFiberConeFoam2pos"/>
+        <rotationref ref="SSDMountingHole_2inSSDCarbonFiberConeFoam2rot"/>
+      </physvol>
+      <physvol name="SSDMountingHole_3" copynumber="3">
+        <volumeref ref="SSDMountingHole"/>
+        <positionref ref="SSDMountingHole_3inSSDCarbonFiberConeFoam2pos"/>
+        <rotationref ref="SSDMountingHole_3inSSDCarbonFiberConeFoam2rot"/>
+      </physvol>
+      <physvol name="SSDMountingHole_4" copynumber="4">
+        <volumeref ref="SSDMountingHole"/>
+        <positionref ref="SSDMountingHole_4inSSDCarbonFiberConeFoam2pos"/>
+        <rotationref ref="SSDMountingHole_4inSSDCarbonFiberConeFoam2rot"/>
+      </physvol>
+      <physvol name="SSDMountingHole_5" copynumber="5">
+        <volumeref ref="SSDMountingHole"/>
+        <positionref ref="SSDMountingHole_5inSSDCarbonFiberConeFoam2pos"/>
+        <rotationref ref="SSDMountingHole_5inSSDCarbonFiberConeFoam2rot"/>
+      </physvol>
+      <physvol name="SSDMountingHole_6" copynumber="6">
+        <volumeref ref="SSDMountingHole"/>
+        <positionref ref="SSDMountingHole_6inSSDCarbonFiberConeFoam2pos"/>
+        <rotationref ref="SSDMountingHole_6inSSDCarbonFiberConeFoam2rot"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,7 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="V0R1_1inV0R0pos" x="0" y="0" z="-1.0499999523162842" unit="cm"/>
+    <position name="V0R2_1inV0R0pos" x="0" y="0.20000000000000001" z="-0.04999995231628418" unit="cm"/>
+    <position name="V0R3_1inV0R0pos" x="0" y="0.20000000000000001" z="0.95000004768371582" unit="cm"/>
+    <position name="V0R4_1inV0R0pos" x="0" y="0.20000000000000001" z="0.95000004768371582" unit="cm"/>
+    <position name="V0R5_1inV0R0pos" x="0" y="0" z="0.95000004768371582" unit="cm"/>
+    <position name="V0R6_1inV0R0pos" x="0" y="0" z="0.95000004768371582" unit="cm"/>
+    </define>

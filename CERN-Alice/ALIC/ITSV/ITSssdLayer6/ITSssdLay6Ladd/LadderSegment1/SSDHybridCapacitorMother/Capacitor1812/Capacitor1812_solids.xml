@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="Capacitor1812Shape" x="0.45999999999999996" y="0.34000000000000002" z="0.069999999999999993" lunit="cm"/>
+    </solids>

@@ -1,0 +1,39 @@
+<structure><volume name="SSDChipcableAllay1Left0x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x39"/>
+    </volume>
+    <volume name="SSDChipcableKaptonlay2Left0x1">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x40"/>
+    </volume>
+    <volume name="SSDChipcableAllay1Right0x1">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x41"/>
+    </volume>
+    <volume name="SSDChipcableKaptonlay2Right0x1">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x42"/>
+    </volume>
+    <assembly name="SSDChipCablesMother0x1">
+      <physvol name="SSDChipcableAllay1Left_1" copynumber="1">
+        <volumeref ref="SSDChipcableAllay1Left0x1"/>
+        <positionref ref="SSDChipcableAllay1Left_10x1inSSDChipCablesMother0x1pos"/>
+        <rotationref ref="SSDChipcableAllay1Left_10x1inSSDChipCablesMother0x1rot"/>
+      </physvol>
+      <physvol name="SSDChipcableKaptonlay2Left_1" copynumber="1">
+        <volumeref ref="SSDChipcableKaptonlay2Left0x1"/>
+        <positionref ref="SSDChipcableKaptonlay2Left_10x1inSSDChipCablesMother0x1pos"/>
+        <rotationref ref="SSDChipcableKaptonlay2Left_10x1inSSDChipCablesMother0x1rot"/>
+      </physvol>
+      <physvol name="SSDChipcableAllay1Right_1" copynumber="1">
+        <volumeref ref="SSDChipcableAllay1Right0x1"/>
+        <positionref ref="SSDChipcableAllay1Right_10x1inSSDChipCablesMother0x1pos"/>
+        <rotationref ref="SSDChipcableAllay1Right_10x1inSSDChipCablesMother0x1rot"/>
+      </physvol>
+      <physvol name="SSDChipcableKaptonlay2Right_1" copynumber="1">
+        <volumeref ref="SSDChipcableKaptonlay2Right0x1"/>
+        <positionref ref="SSDChipcableKaptonlay2Right_10x1inSSDChipCablesMother0x1pos"/>
+        <rotationref ref="SSDChipcableKaptonlay2Right_10x1inSSDChipCablesMother0x1rot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDChipCablesMother0x1"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDChipCablesMother0x1"><volumeref ref="SSDChipCablesMother0x1"/><positionref ref="center"/></physvol></volume></structure>

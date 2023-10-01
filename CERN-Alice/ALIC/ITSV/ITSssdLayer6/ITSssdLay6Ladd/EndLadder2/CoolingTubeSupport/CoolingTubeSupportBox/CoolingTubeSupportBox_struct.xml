@@ -1,0 +1,5 @@
+<structure><volume name="CoolingTubeSupportBox">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoBBox0x1118"/>
+    </volume>
+    </structure>

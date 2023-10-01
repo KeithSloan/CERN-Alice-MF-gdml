@@ -1,0 +1,5 @@
+<structure><volume name="FMD2_tension_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="TGeoTube0x175"/>
+    </volume>
+    </structure>

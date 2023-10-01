@@ -1,0 +1,5 @@
+<structure><volume name="V0CA">
+      <materialref ref="VZERO_V0CCar"/>
+      <solidref ref="V0CA0x1"/>
+    </volume>
+    </structure>

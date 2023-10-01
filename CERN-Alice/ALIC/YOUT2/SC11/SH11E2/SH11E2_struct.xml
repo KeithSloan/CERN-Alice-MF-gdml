@@ -1,0 +1,11 @@
+<structure><volume name="SA1H10x24">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SA1H10x25"/>
+    </volume>
+    <assembly name="SH11E2">
+      <physvol name="SA1H1_195" copynumber="195">
+        <volumeref ref="SA1H10x24"/>
+        <positionref ref="SA1H1_195inSH11E2pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSH11E2"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SH11E2"><volumeref ref="SH11E2"/><positionref ref="center"/></physvol></volume></structure>

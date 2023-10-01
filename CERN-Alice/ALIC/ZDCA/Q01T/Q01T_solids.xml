@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><cone name="TGeoCone0x21" z="1.3" rmin1="4.5" rmin2="4.7999999999999998" rmax1="6.5" rmax2="6.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

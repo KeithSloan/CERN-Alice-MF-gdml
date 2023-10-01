@@ -1,0 +1,5 @@
+<structure><volume name="Hwin0x10">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hwin0x11"/>
+    </volume>
+    </structure>

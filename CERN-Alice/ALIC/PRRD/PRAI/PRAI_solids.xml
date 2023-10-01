@@ -1,0 +1,5 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="PRP10x1" x="28" y="3" z="1200" lunit="cm"/>
+    <box name="PRP20x1" x="1.5" y="34" z="1200" lunit="cm"/>
+    <box name="PRP30x1" x="6" y="5" z="1200" lunit="cm"/>
+    <box name="PRAI0x1" x="28" y="45" z="1200" lunit="cm"/>
+    </solids>

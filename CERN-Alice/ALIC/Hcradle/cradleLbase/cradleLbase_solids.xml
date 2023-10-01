@@ -1,0 +1,21 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><subtraction name="cradleLbase0x1">
+      <first ref="cradleLbaseOUT"/>
+      <second ref="cradleLbaseIN"/>
+    </subtraction>
+    <xtru name="cradleLbaseOUT" lunit="cm">
+      <twoDimVertex x="-291.85000000000002" y="3"/>
+      <twoDimVertex x="291.85000000000002" y="3"/>
+      <twoDimVertex x="291.85000000000002" y="-3"/>
+      <twoDimVertex x="-291.85000000000002" y="-3"/>
+      <section zOrder="0" zPosition="-5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="cradleLbaseIN" lunit="cm">
+      <twoDimVertex x="-291.85000100000104" y="2"/>
+      <twoDimVertex x="291.85000100000104" y="2"/>
+      <twoDimVertex x="291.85000100000104" y="-2"/>
+      <twoDimVertex x="-291.85000100000104" y="-2"/>
+      <section zOrder="0" zPosition="-4.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="4.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

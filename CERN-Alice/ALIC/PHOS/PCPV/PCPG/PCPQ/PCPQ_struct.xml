@@ -1,0 +1,5 @@
+<structure><volume name="PCPQ">
+      <materialref ref="PHOS_ArCO2"/>
+      <solidref ref="PCPQ0x1"/>
+    </volume>
+    </structure>

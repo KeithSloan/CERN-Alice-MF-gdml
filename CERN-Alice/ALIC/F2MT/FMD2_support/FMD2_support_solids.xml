@@ -1,0 +1,98 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="F2SU0x1" rmin="4.2999999999999998" rmax="33.610999999999997" z="0.029999999999999999" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <tube name="F2SB0x1" rmin="32.009999999999998" rmax="33.610999999999997" z="14.800000000000001" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <subtraction name="FMD2_back_cover0x1">
+      <first ref="F2SU0x1"/>
+      <second ref="TGeoCompositeShape0x255"/>
+    </subtraction>
+    <tube name="F2SU0x1" rmin="4.2999999999999998" rmax="33.610999999999997" z="0.029999999999999999" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape0x255">
+      <first ref="FMD2_flange_extra"/>
+      <second ref="FMD2_flange_extra"/>
+      <firstposition name="TGeoCompositeShape0x255FMD2_flange_extrapos" x="23.200527044121216" y="23.200527044121213" z="0" unit="cm"/>
+      <firstrotation name="TGeoCompositeShape0x255FMD2_flange_extrarot" x="0" y="-0" z="44.999999999999993" unit="deg"/>
+      <position name="TGeoCompositeShape0x255FMD2_flange_extrapos" x="-23.200527044121213" y="23.200527044121216" z="0" unit="cm"/>
+      <rotation name="TGeoCompositeShape0x255FMD2_flange_extrarot" x="0" y="-0" z="135" unit="deg"/>
+    </union>
+    <box name="FMD2_flange_extra" x="1.6009999999999991" y="6" z="1" lunit="cm"/>
+    <box name="FMD2_flange_extra" x="1.6009999999999991" y="6" z="1" lunit="cm"/>
+    <subtraction name="FMD2_flange0x1">
+      <first ref="FMD2_flange_base"/>
+      <second ref="TGeoCompositeShape0x256"/>
+    </subtraction>
+    <box name="FMD2_flange_base" x="15.608499999999999" y="6" z="1" lunit="cm"/>
+    <union name="TGeoCompositeShape0x256">
+      <first ref="TGeoCompositeShape0x257"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x256FMD2_fiducial_holepos" x="6.7933104423114861" y="1.9999808199080296" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x257">
+      <first ref="TGeoCompositeShape0x258"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x257FMD2_fiducial_holepos" x="6.7933104423114861" y="-1.9999808199080296" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x258">
+      <first ref="TGeoCompositeShape0x259"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x258FMD2_fiducial_holepos" x="6.824423140683697" y="0.99999040995401323" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x259">
+      <first ref="TGeoCompositeShape0x260"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x259FMD2_fiducial_holepos" x="6.824423140683697" y="-0.99999040995401323" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x260">
+      <first ref="TGeoCompositeShape0x261"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x260FMD2_fiducial_holepos" x="4.5412460549104541" y="2.0000515305861479" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x261">
+      <first ref="TGeoCompositeShape0x262"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x261FMD2_fiducial_holepos" x="4.5412460549104541" y="-2.0000515305861479" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x262">
+      <first ref="TGeoCompositeShape0x263"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x262FMD2_fiducial_holepos" x="2.5392853360150967" y="2.0000515305861457" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x263">
+      <first ref="TGeoCompositeShape0x264"/>
+      <second ref="FMD2_fiducial_hole"/>
+      <position name="TGeoCompositeShape0x263FMD2_fiducial_holepos" x="2.5392853360150967" y="-2.0000515305861457" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x264">
+      <first ref="FMD2_flange_slit"/>
+      <second ref="FMD2_flange_slit"/>
+      <firstposition name="TGeoCompositeShape0x264FMD2_flange_slitpos" x="-3.3042499999999997" y="1.25" z="0" unit="cm"/>
+      <position name="TGeoCompositeShape0x264FMD2_flange_slitpos" x="-3.3042499999999997" y="-1.25" z="0" unit="cm"/>
+    </union>
+    <box name="FMD2_flange_slit" x="7" y="1.5" z="1.2" lunit="cm"/>
+    <box name="FMD2_flange_slit" x="7" y="1.5" z="1.2" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_fiducial_hole" rmin="0" rmax="0.25" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <box name="FMD2_flange_extra" x="1.6009999999999991" y="6" z="1" lunit="cm"/>
+    <subtraction name="TGeoCompositeShape0x265">
+      <first ref="FMD2_flange_spacer_base"/>
+      <second ref="TGeoCompositeShape0x266"/>
+    </subtraction>
+    <box name="FMD2_flange_spacer_base" x="7" y="1" z="12.5" lunit="cm"/>
+    <union name="TGeoCompositeShape0x266">
+      <first ref="FMD2_flange_spacer_hole"/>
+      <second ref="FMD2_flange_spacer_hole"/>
+      <firstposition name="TGeoCompositeShape0x266FMD2_flange_spacer_holepos" x="0" y="0" z="3.25" unit="cm"/>
+      <firstrotation name="TGeoCompositeShape0x266FMD2_flange_spacer_holerot" x="-90" y="90" z="0" unit="deg"/>
+      <position name="TGeoCompositeShape0x266FMD2_flange_spacer_holepos" x="0" y="0" z="-3.25" unit="cm"/>
+      <rotation name="TGeoCompositeShape0x266FMD2_flange_spacer_holerot" x="-90" y="90" z="0" unit="deg"/>
+    </union>
+    <tube name="FMD2_flange_spacer_hole" rmin="0" rmax="2.5" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD2_flange_spacer_hole" rmin="0" rmax="2.5" z="1.2" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <box name="FMD_tension_end0x1" x="1.2" y="6" z="0.5" lunit="cm"/>
+    <box name="FMD_tension_top0x1" x="0.20000000000000001" y="1" z="7" lunit="cm"/>
+    <tube name="TGeoTube0x175" rmin="0" rmax="0.050000000000000003" z="29.310999999999996" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

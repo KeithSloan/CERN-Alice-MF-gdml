@@ -1,0 +1,5 @@
+<structure><volume name="MountingBlockSuppTrapezoidDownLay6">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoXtru0x68"/>
+    </volume>
+    </structure>

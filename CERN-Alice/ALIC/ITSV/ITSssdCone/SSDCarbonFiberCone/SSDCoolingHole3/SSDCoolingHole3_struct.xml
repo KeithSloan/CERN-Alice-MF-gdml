@@ -1,0 +1,5 @@
+<structure><volume name="SSDCoolingHole3">
+      <materialref ref="ITS_SSD_AIR"/>
+      <solidref ref="TGeoPcon0x113"/>
+    </volume>
+    </structure>

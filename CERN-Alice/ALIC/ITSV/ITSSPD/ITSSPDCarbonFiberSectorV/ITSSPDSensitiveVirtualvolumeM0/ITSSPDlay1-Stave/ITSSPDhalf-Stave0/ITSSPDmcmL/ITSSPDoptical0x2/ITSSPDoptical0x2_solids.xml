@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="ITSSPDoptical0x3" x="1.8" y="0.54500000000000004" z="0.12" lunit="cm"/>
+    </solids>

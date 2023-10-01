@@ -1,0 +1,5 @@
+<structure><volume name="FIDI">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FIDI0x1"/>
+    </volume>
+    </structure>

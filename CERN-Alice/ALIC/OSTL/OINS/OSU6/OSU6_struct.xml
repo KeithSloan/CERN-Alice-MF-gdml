@@ -1,0 +1,13 @@
+<structure><volume name="OSU8">
+      <materialref ref="T0_Aliminium"/>
+      <solidref ref="OSU80x1"/>
+    </volume>
+    <volume name="OSU6">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU60x1"/>
+      <physvol name="0SU8_1" copynumber="1">
+        <volumeref ref="OSU8"/>
+        <positionref ref="OSU8_1inOSU6pos"/>
+      </physvol>
+    </volume>
+    </structure>

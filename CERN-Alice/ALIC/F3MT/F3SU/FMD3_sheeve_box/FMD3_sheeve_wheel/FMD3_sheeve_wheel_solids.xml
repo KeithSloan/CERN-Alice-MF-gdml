@@ -1,0 +1,12 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><polycone name="FMD3_sheeve_wheel0x1" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="-0.25" rmin="0" rmax="1"/>
+      <zplane z="-0.125" rmin="0" rmax="1"/>
+      <zplane z="-0.125" rmin="0" rmax="0.94999999999999996"/>
+      <zplane z="-0.0625" rmin="0" rmax="0.89500000000000002"/>
+      <zplane z="0" rmin="0" rmax="0.875"/>
+      <zplane z="0.0625" rmin="0" rmax="0.89500000000000002"/>
+      <zplane z="0.125" rmin="0" rmax="0.94999999999999996"/>
+      <zplane z="0.125" rmin="0" rmax="1"/>
+      <zplane z="0.25" rmin="0" rmax="1"/>
+    </polycone>
+    </solids>

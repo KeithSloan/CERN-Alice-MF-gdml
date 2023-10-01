@@ -1,0 +1,5 @@
+<structure><volume name="MD2">
+      <materialref ref="ZDC_VOIM"/>
+      <solidref ref="MD20x1"/>
+    </volume>
+    </structure>

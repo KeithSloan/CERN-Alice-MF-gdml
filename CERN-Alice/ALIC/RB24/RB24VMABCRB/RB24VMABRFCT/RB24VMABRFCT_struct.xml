@@ -1,0 +1,19 @@
+<structure><volume name="RB24VMABCCT">
+      <materialref ref="PIPE_COPPER"/>
+      <solidref ref="TGeoPcon0x48"/>
+    </volume>
+    <volume name="RB24VMABCCTFlange">
+      <materialref ref="PIPE_COPPER"/>
+      <solidref ref="TGeoPcon0x49"/>
+    </volume>
+    <assembly name="RB24VMABRFCT">
+      <physvol name="RB24VMABCCT_1" copynumber="1">
+        <volumeref ref="RB24VMABCCT"/>
+        <positionref ref="RB24VMABCCT_1inRB24VMABRFCTpos"/>
+      </physvol>
+      <physvol name="RB24VMABCCTFlange_1" copynumber="1">
+        <volumeref ref="RB24VMABCCTFlange"/>
+        <positionref ref="RB24VMABCCTFlange_1inRB24VMABRFCTpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootRB24VMABRFCT"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-RB24VMABRFCT"><volumeref ref="RB24VMABRFCT"/><positionref ref="center"/></physvol></volume></structure>

@@ -1,0 +1,16 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><subtraction name="FMD2_back_cover0x1">
+      <first ref="F2SU0x1"/>
+      <second ref="TGeoCompositeShape0x255"/>
+    </subtraction>
+    <tube name="F2SU0x1" rmin="4.2999999999999998" rmax="33.610999999999997" z="0.029999999999999999" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <union name="TGeoCompositeShape0x255">
+      <first ref="FMD2_flange_extra"/>
+      <second ref="FMD2_flange_extra"/>
+      <firstposition name="TGeoCompositeShape0x255FMD2_flange_extrapos" x="23.200527044121216" y="23.200527044121213" z="0" unit="cm"/>
+      <firstrotation name="TGeoCompositeShape0x255FMD2_flange_extrarot" x="0" y="-0" z="44.999999999999993" unit="deg"/>
+      <position name="TGeoCompositeShape0x255FMD2_flange_extrapos" x="-23.200527044121213" y="23.200527044121216" z="0" unit="cm"/>
+      <rotation name="TGeoCompositeShape0x255FMD2_flange_extrarot" x="0" y="-0" z="135" unit="deg"/>
+    </union>
+    <box name="FMD2_flange_extra" x="1.6009999999999991" y="6" z="1" lunit="cm"/>
+    <box name="FMD2_flange_extra" x="1.6009999999999991" y="6" z="1" lunit="cm"/>
+    </solids>

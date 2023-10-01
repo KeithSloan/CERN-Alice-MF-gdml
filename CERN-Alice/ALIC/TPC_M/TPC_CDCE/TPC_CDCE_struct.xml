@@ -1,0 +1,5 @@
+<structure><volume name="TPC_CDCE">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoPcon0x155"/>
+    </volume>
+    </structure>

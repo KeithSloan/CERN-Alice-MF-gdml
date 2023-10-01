@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><trd name="FMD3_cooling_plate0x1" x1="3" x2="18.5" y1="0.066000000000000003" y2="0.066000000000000003" z="31.199999999999999" lunit="cm"/>
+    </solids>

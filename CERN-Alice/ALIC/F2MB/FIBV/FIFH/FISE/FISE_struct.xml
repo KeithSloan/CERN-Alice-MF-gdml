@@ -1,0 +1,16 @@
+<structure><volume name="FIAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FIAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="18" offset="-360" unit="deg">
+        <volumeref ref="FISC"/>
+      </divisionvol>
+    </volume>
+    <volume name="FISE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDI_physical_sensor"/>
+      <physvol name="FIAC_0" copynumber="0">
+        <volumeref ref="FIAC"/>
+        <positionref ref="FIAC_0inFISEpos"/>
+      </physvol>
+    </volume>
+    </structure>

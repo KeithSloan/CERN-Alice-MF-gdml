@@ -1,0 +1,5 @@
+<structure><volume name="FISL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FISL0x1"/>
+    </volume>
+    </structure>

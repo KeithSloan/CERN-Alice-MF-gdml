@@ -1,0 +1,5 @@
+<structure><volume name="ZEL2">
+      <materialref ref="ZDC_LEAD"/>
+      <solidref ref="ZEL20x1"/>
+    </volume>
+    </structure>

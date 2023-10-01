@@ -1,0 +1,5 @@
+<structure><volume name="FMD3_bend_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="TGeoTorus0x19"/>
+    </volume>
+    </structure>

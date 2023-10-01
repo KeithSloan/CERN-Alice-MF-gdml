@@ -1,0 +1,5 @@
+<structure><volume name="CoolingTubePhynoxArcPart">
+      <materialref ref="ITS_INOX"/>
+      <solidref ref="TGeoXtru0x25"/>
+    </volume>
+    </structure>

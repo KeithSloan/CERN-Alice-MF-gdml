@@ -1,0 +1,19 @@
+<structure><volume name="V0AFib15">
+      <materialref ref="VZERO_V0AFib"/>
+      <solidref ref="sV0AFib15Hole"/>
+    </volume>
+    <volume name="V0AFib25Hole">
+      <materialref ref="VZERO_V0AFib"/>
+      <solidref ref="sV0AFib25Hole"/>
+    </volume>
+    <assembly name="V0AFib5">
+      <physvol name="V0AFib15_1" copynumber="1">
+        <volumeref ref="V0AFib15"/>
+        <positionref ref="V0AFib15_1inV0AFib5pos"/>
+      </physvol>
+      <physvol name="V0AFib25Hole_1" copynumber="1">
+        <volumeref ref="V0AFib25Hole"/>
+        <positionref ref="V0AFib25Hole_1inV0AFib5pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootV0AFib5"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-V0AFib5"><volumeref ref="V0AFib5"/><positionref ref="center"/></physvol></volume></structure>

@@ -1,0 +1,5 @@
+<structure><volume name="SSDChipcableKaptonlay2Right">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoXtru0x29"/>
+    </volume>
+    </structure>

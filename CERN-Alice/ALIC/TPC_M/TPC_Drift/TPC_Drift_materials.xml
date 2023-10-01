@@ -1,0 +1,107 @@
+<materials><element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    <element name="NITROGEN_elm" formula="N" Z="7">
+      <atom unit="g/mole" value="14.006740000000001"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="SILICON_elm" formula="SI" Z="14">
+      <atom unit="g/mole" value="28.0855"/>
+    </element>
+    <element name="FLUORINE_elm" formula="F" Z="9">
+      <atom unit="g/mole" value="18.998403199999998"/>
+    </element>
+    <element name="NEON_elm" formula="NE" Z="10">
+      <atom unit="g/mole" value="20.1797"/>
+    </element>
+    <element name="ALUMINIUM_elm" formula="AL" Z="13">
+      <atom unit="g/mole" value="26.981538"/>
+    </element>
+    <material name="TPC_NOMEX">
+      <D unit="g/cm3" value="0.028999999165534973"/>
+      <fraction n="0.67217504978179932" ref="CARBON_elm"/>
+      <fraction n="0.087942317128181458" ref="HYDROGEN_elm"/>
+      <fraction n="0.11197454482316971" ref="NITROGEN_elm"/>
+      <fraction n="0.12790809571743011" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Prepreg3">
+      <D unit="g/cm3" value="1.1629999876022339"/>
+      <fraction n="0.22499999403953552" ref="CARBON_elm"/>
+      <fraction n="0.029999999329447746" ref="HYDROGEN_elm"/>
+      <fraction n="0.44299998879432678" ref="OXYGEN_elm"/>
+      <fraction n="0.30000001192092896" ref="SILICON_elm"/>
+    </material>
+    <material name="TPC_Tedlar">
+      <D unit="g/cm3" value="1.7100000381469727"/>
+      <fraction n="0.52199047803878784" ref="CARBON_elm"/>
+      <fraction n="0.41282051801681519" ref="FLUORINE_elm"/>
+      <fraction n="0.065189056098461151" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="TPC_Prepreg2">
+      <D unit="g/cm3" value="1.8200000524520874"/>
+      <fraction n="0.1940000057220459" ref="CARBON_elm"/>
+      <fraction n="0.023000000044703484" ref="HYDROGEN_elm"/>
+      <fraction n="0.44299998879432678" ref="OXYGEN_elm"/>
+      <fraction n="0.34000000357627869" ref="SILICON_elm"/>
+    </material>
+    <material name="TPC_Al" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="TPC_Mylar">
+      <D unit="g/cm3" value="1.3899999856948853"/>
+      <fraction n="0.62522250413894653" ref="CARBON_elm"/>
+      <fraction n="0.041643328964710236" ref="HYDROGEN_elm"/>
+      <fraction n="0.33313414454460144" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Air">
+      <D unit="g/cm3" value="0.0012049999786540866"/>
+      <fraction n="0.76700001955032349" ref="NITROGEN_elm"/>
+      <fraction n="0.23299999535083771" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_G10">
+      <D unit="g/cm3" value="1.7000000476837158"/>
+      <fraction n="0.1940000057220459" ref="CARBON_elm"/>
+      <fraction n="0.023000000044703484" ref="HYDROGEN_elm"/>
+      <fraction n="0.44299998879432678" ref="OXYGEN_elm"/>
+      <fraction n="0.34000000357627869" ref="SILICON_elm"/>
+    </material>
+    <material name="TPC_Ne-CO2-N-2">
+      <D unit="g/cm3" value="0.0010252000065520406"/>
+      <fraction n="0.053899999707937241" ref="CARBON_elm"/>
+      <fraction n="0.77069997787475586" ref="NEON_elm"/>
+      <fraction n="0.031599998474121094" ref="NITROGEN_elm"/>
+      <fraction n="0.14380000531673431" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Makrolon">
+      <D unit="g/cm3" value="1.2000000476837158"/>
+      <fraction n="0.7443690299987793" ref="CARBON_elm"/>
+      <fraction n="0.069720692932605743" ref="HYDROGEN_elm"/>
+      <fraction n="0.18591021001338959" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Peek">
+      <D unit="g/cm3" value="1.2999999523162842"/>
+      <fraction n="0.79182261228561401" ref="CARBON_elm"/>
+      <fraction n="0.041636709123849869" ref="HYDROGEN_elm"/>
+      <fraction n="0.16654059290885925" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Alumina">
+      <D unit="g/cm3" value="3.9700000286102295"/>
+      <fraction n="0.52923649549484253" ref="ALUMINIUM_elm"/>
+      <fraction n="0.47076353430747986" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Water">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.11111480742692947" ref="HYDROGEN_elm"/>
+      <fraction n="0.88888514041900635" ref="OXYGEN_elm"/>
+    </material>
+    <material name="TPC_Cu" Z="29">
+      <D unit="g/cm3" value="8.9600000381469727"/>
+      <atom unit="g/mole" value="63.546001434326172"/>
+    </material>
+    </materials>

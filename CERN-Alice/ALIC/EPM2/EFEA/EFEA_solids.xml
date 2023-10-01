@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="EFEA0x1" x="65.486801147460938" y="98.199996948242188" z="0.5" lunit="cm"/>
+    </solids>

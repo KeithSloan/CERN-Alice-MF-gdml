@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY define SYSTEM "ECGA_define.xml">
+<!ENTITY materials SYSTEM "ECGA_materials.xml">
+<!ENTITY solids SYSTEM "ECGA_solids.xml">
+<!ENTITY setup SYSTEM "ECGA_setup.xml">
+<!ENTITY struct SYSTEM "ECGA_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&define;&materials;&solids;&setup;&struct;</gdml>

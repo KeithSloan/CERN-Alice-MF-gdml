@@ -1,0 +1,5 @@
+<structure><volume name="SSDCableLay5RightSideTube">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoTube0x132"/>
+    </volume>
+    </structure>

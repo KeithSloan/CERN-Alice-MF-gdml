@@ -1,0 +1,5 @@
+<structure><volume name="PCF1">
+      <materialref ref="PHOS_Al"/>
+      <solidref ref="PCF10x1"/>
+    </volume>
+    </structure>

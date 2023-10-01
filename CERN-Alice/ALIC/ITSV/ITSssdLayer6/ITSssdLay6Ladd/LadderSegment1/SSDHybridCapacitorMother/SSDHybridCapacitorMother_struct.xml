@@ -1,0 +1,60 @@
+<structure><volume name="SSDConnectorAl">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1119"/>
+    </volume>
+    <volume name="SSDConnectorNi">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoBBox0x1120"/>
+    </volume>
+    <volume name="Capacitor1812">
+      <materialref ref="ITS_SDD_ruby_sph._Al2O3"/>
+      <solidref ref="Capacitor1812Shape"/>
+    </volume>
+    <volume name="HybridWire">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="HybridWireShape"/>
+    </volume>
+    <assembly name="SSDHybridCapacitorMother">
+      <physvol name="SSDConnectorAl_1" copynumber="1">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_1inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_1" copynumber="1">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_1inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorAl_2" copynumber="2">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_2inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_2" copynumber="2">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_2inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorAl_3" copynumber="3">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_3inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_3" copynumber="3">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_3inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorAl_4" copynumber="4">
+        <volumeref ref="SSDConnectorAl"/>
+        <positionref ref="SSDConnectorAl_4inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="SSDConnectorNi_4" copynumber="4">
+        <volumeref ref="SSDConnectorNi"/>
+        <positionref ref="SSDConnectorNi_4inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="Capacitor1812_1" copynumber="1">
+        <volumeref ref="Capacitor1812"/>
+        <positionref ref="Capacitor1812_1inSSDHybridCapacitorMotherpos"/>
+      </physvol>
+      <physvol name="HybridWire_1" copynumber="1">
+        <volumeref ref="HybridWire"/>
+        <positionref ref="HybridWire_1inSSDHybridCapacitorMotherpos"/>
+        <rotationref ref="HybridWire_1inSSDHybridCapacitorMotherrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSSDHybridCapacitorMother"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SSDHybridCapacitorMother"><volumeref ref="SSDHybridCapacitorMother"/><positionref ref="center"/></physvol></volume></structure>

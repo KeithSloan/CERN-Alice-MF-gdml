@@ -1,0 +1,5 @@
+<structure><volume name="FMD2_flange">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD2_flange0x1"/>
+    </volume>
+    </structure>

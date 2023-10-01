@@ -1,0 +1,23 @@
+<structure><volume name="V0APlaInNailsHoles">
+      <materialref ref="VZERO_V0APlaIn"/>
+      <solidref ref="sV0APlaInNailsHoles"/>
+    </volume>
+    <volume name="V0APlaOuNailsHoles">
+      <materialref ref="VZERO_V0APlaOu"/>
+      <solidref ref="sV0APlaOuNailsHoles"/>
+    </volume>
+    <assembly name="V0APla">
+      <physvol name="V0APlaInNailsHoles_1" copynumber="1">
+        <volumeref ref="V0APlaInNailsHoles"/>
+        <positionref ref="V0APlaInNailsHoles_1inV0APlapos"/>
+      </physvol>
+      <physvol name="V0APlaOuNailsHoles_1" copynumber="1">
+        <volumeref ref="V0APlaOuNailsHoles"/>
+        <positionref ref="V0APlaOuNailsHoles_1inV0APlapos"/>
+      </physvol>
+      <physvol name="V0APlaOuNailsHoles_2" copynumber="2">
+        <volumeref ref="V0APlaOuNailsHoles"/>
+        <positionref ref="V0APlaOuNailsHoles_2inV0APlapos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootV0APla"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-V0APla"><volumeref ref="V0APla"/><positionref ref="center"/></physvol></volume></structure>

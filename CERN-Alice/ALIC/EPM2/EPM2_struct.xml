@@ -1,0 +1,1761 @@
+<structure><volume name="EFEE">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EFEE0x1"/>
+    </volume>
+    <volume name="EFBA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EFBA0x1"/>
+      <physvol name="EFEE_1" copynumber="1">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_1inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_2" copynumber="2">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_2inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_3" copynumber="3">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_3inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_4" copynumber="4">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_4inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_5" copynumber="5">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_5inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_6" copynumber="6">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_6inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_7" copynumber="7">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_7inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_8" copynumber="8">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_8inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_9" copynumber="9">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_9inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_10" copynumber="10">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_10inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_11" copynumber="11">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_11inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_12" copynumber="12">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_12inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_13" copynumber="13">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_13inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_14" copynumber="14">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_14inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_15" copynumber="15">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_15inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_16" copynumber="16">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_16inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_17" copynumber="17">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_17inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_18" copynumber="18">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_18inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_19" copynumber="19">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_19inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_20" copynumber="20">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_20inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_21" copynumber="21">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_21inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_22" copynumber="22">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_22inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_23" copynumber="23">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_23inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_24" copynumber="24">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_24inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_25" copynumber="25">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_25inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_26" copynumber="26">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_26inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_27" copynumber="27">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_27inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_28" copynumber="28">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_28inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_29" copynumber="29">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_29inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_30" copynumber="30">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_30inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_31" copynumber="31">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_31inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_32" copynumber="32">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_32inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_33" copynumber="33">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_33inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_34" copynumber="34">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_34inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_35" copynumber="35">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_35inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_36" copynumber="36">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_36inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_37" copynumber="37">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_37inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_38" copynumber="38">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_38inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_39" copynumber="39">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_39inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_40" copynumber="40">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_40inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_41" copynumber="41">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_41inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_42" copynumber="42">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_42inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_43" copynumber="43">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_43inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_44" copynumber="44">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_44inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_45" copynumber="45">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_45inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_46" copynumber="46">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_46inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_47" copynumber="47">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_47inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_48" copynumber="48">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_48inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_49" copynumber="49">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_49inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_50" copynumber="50">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_50inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_51" copynumber="51">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_51inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_52" copynumber="52">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_52inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_53" copynumber="53">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_53inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_54" copynumber="54">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_54inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_55" copynumber="55">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_55inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_56" copynumber="56">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_56inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_57" copynumber="57">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_57inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_58" copynumber="58">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_58inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_59" copynumber="59">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_59inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_60" copynumber="60">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_60inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_61" copynumber="61">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_61inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_62" copynumber="62">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_62inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_63" copynumber="63">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_63inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_64" copynumber="64">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_64inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_65" copynumber="65">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_65inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_66" copynumber="66">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_66inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_67" copynumber="67">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_67inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_68" copynumber="68">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_68inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_69" copynumber="69">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_69inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_70" copynumber="70">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_70inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_71" copynumber="71">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_71inEFBApos"/>
+      </physvol>
+      <physvol name="EFEE_72" copynumber="72">
+        <volumeref ref="EFEE"/>
+        <positionref ref="EFEE_72inEFBApos"/>
+      </physvol>
+    </volume>
+    <volume name="EFSA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EFSA0x1"/>
+      <physvol name="EFBA_1" copynumber="1">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_1inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_2" copynumber="2">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_2inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_3" copynumber="3">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_3inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_4" copynumber="4">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_4inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_5" copynumber="5">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_5inEFSApos"/>
+      </physvol>
+      <physvol name="EFBA_6" copynumber="6">
+        <volumeref ref="EFBA"/>
+        <positionref ref="EFBA_6inEFSApos"/>
+      </physvol>
+    </volume>
+    <volume name="EBPA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBPA0x1"/>
+    </volume>
+    <volume name="EPCA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EPCA0x1"/>
+    </volume>
+    <volume name="ECAR">
+      <materialref ref="PMD_ArCO2"/>
+      <solidref ref="ECAR0x1"/>
+    </volume>
+    <volume name="ECCU">
+      <materialref ref="PMD_Cu___"/>
+      <solidref ref="ECCU0x1"/>
+      <physvol name="ECAR_1" copynumber="1">
+        <volumeref ref="ECAR"/>
+        <positionref ref="ECAR_1inECCUpos"/>
+      </physvol>
+    </volume>
+    <volume name="EST1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EST10x1"/>
+      <physvol name="ECCU_1" copynumber="1">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_1inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_2" copynumber="2">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_2inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_3" copynumber="3">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_3inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_4" copynumber="4">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_4inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_5" copynumber="5">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_5inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_6" copynumber="6">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_6inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_7" copynumber="7">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_7inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_8" copynumber="8">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_8inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_9" copynumber="9">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_9inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_10" copynumber="10">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_10inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_11" copynumber="11">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_11inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_12" copynumber="12">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_12inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_13" copynumber="13">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_13inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_14" copynumber="14">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_14inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_15" copynumber="15">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_15inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_16" copynumber="16">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_16inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_17" copynumber="17">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_17inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_18" copynumber="18">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_18inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_19" copynumber="19">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_19inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_20" copynumber="20">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_20inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_21" copynumber="21">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_21inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_22" copynumber="22">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_22inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_23" copynumber="23">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_23inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_24" copynumber="24">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_24inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_25" copynumber="25">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_25inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_26" copynumber="26">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_26inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_27" copynumber="27">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_27inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_28" copynumber="28">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_28inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_29" copynumber="29">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_29inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_30" copynumber="30">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_30inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_31" copynumber="31">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_31inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_32" copynumber="32">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_32inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_33" copynumber="33">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_33inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_34" copynumber="34">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_34inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_35" copynumber="35">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_35inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_36" copynumber="36">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_36inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_37" copynumber="37">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_37inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_38" copynumber="38">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_38inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_39" copynumber="39">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_39inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_40" copynumber="40">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_40inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_41" copynumber="41">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_41inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_42" copynumber="42">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_42inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_43" copynumber="43">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_43inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_44" copynumber="44">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_44inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_45" copynumber="45">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_45inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_46" copynumber="46">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_46inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_47" copynumber="47">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_47inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_48" copynumber="48">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_48inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_49" copynumber="49">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_49inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_50" copynumber="50">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_50inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_51" copynumber="51">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_51inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_52" copynumber="52">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_52inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_53" copynumber="53">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_53inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_54" copynumber="54">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_54inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_55" copynumber="55">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_55inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_56" copynumber="56">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_56inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_57" copynumber="57">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_57inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_58" copynumber="58">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_58inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_59" copynumber="59">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_59inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_60" copynumber="60">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_60inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_61" copynumber="61">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_61inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_62" copynumber="62">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_62inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_63" copynumber="63">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_63inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_64" copynumber="64">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_64inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_65" copynumber="65">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_65inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_66" copynumber="66">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_66inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_67" copynumber="67">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_67inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_68" copynumber="68">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_68inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_69" copynumber="69">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_69inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_70" copynumber="70">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_70inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_71" copynumber="71">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_71inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_72" copynumber="72">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_72inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_73" copynumber="73">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_73inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_74" copynumber="74">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_74inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_75" copynumber="75">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_75inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_76" copynumber="76">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_76inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_77" copynumber="77">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_77inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_78" copynumber="78">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_78inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_79" copynumber="79">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_79inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_80" copynumber="80">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_80inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_81" copynumber="81">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_81inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_82" copynumber="82">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_82inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_83" copynumber="83">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_83inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_84" copynumber="84">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_84inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_85" copynumber="85">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_85inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_86" copynumber="86">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_86inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_87" copynumber="87">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_87inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_88" copynumber="88">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_88inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_89" copynumber="89">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_89inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_90" copynumber="90">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_90inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_91" copynumber="91">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_91inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_92" copynumber="92">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_92inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_93" copynumber="93">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_93inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_94" copynumber="94">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_94inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_95" copynumber="95">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_95inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_96" copynumber="96">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_96inEST1pos"/>
+      </physvol>
+    </volume>
+    <volume name="EHC1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EHC10x1"/>
+      <physvol name="EST1_1" copynumber="1">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_1inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_2" copynumber="2">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_2inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_3" copynumber="3">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_3inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_4" copynumber="4">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_4inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_5" copynumber="5">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_5inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_6" copynumber="6">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_6inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_7" copynumber="7">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_7inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_8" copynumber="8">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_8inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_9" copynumber="9">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_9inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_10" copynumber="10">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_10inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_11" copynumber="11">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_11inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_12" copynumber="12">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_12inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_13" copynumber="13">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_13inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_14" copynumber="14">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_14inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_15" copynumber="15">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_15inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_16" copynumber="16">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_16inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_17" copynumber="17">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_17inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_18" copynumber="18">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_18inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_19" copynumber="19">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_19inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_20" copynumber="20">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_20inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_21" copynumber="21">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_21inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_22" copynumber="22">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_22inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_23" copynumber="23">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_23inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_24" copynumber="24">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_24inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_25" copynumber="25">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_25inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_26" copynumber="26">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_26inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_27" copynumber="27">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_27inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_28" copynumber="28">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_28inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_29" copynumber="29">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_29inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_30" copynumber="30">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_30inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_31" copynumber="31">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_31inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_32" copynumber="32">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_32inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_33" copynumber="33">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_33inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_34" copynumber="34">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_34inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_35" copynumber="35">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_35inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_36" copynumber="36">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_36inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_37" copynumber="37">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_37inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_38" copynumber="38">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_38inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_39" copynumber="39">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_39inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_40" copynumber="40">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_40inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_41" copynumber="41">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_41inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_42" copynumber="42">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_42inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_43" copynumber="43">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_43inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_44" copynumber="44">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_44inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_45" copynumber="45">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_45inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_46" copynumber="46">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_46inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_47" copynumber="47">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_47inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_48" copynumber="48">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_48inEHC1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ECVA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="ECVA0x1"/>
+      <physvol name="EPCA_1" copynumber="1">
+        <volumeref ref="EPCA"/>
+        <positionref ref="EPCA_1inECVApos"/>
+      </physvol>
+      <physvol name="EHC1_1" copynumber="1">
+        <volumeref ref="EHC1"/>
+        <positionref ref="EHC1_1inECVApos"/>
+      </physvol>
+      <physvol name="EPCA_2" copynumber="2">
+        <volumeref ref="EPCA"/>
+        <positionref ref="EPCA_2inECVApos"/>
+      </physvol>
+    </volume>
+    <volume name="EDVA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EDVA0x1"/>
+      <physvol name="ECVA_1" copynumber="1">
+        <volumeref ref="ECVA"/>
+        <positionref ref="ECVA_1inEDVApos"/>
+      </physvol>
+    </volume>
+    <volume name="ESVA">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="ESVA0x1"/>
+      <physvol name="EDVA_1" copynumber="1">
+        <volumeref ref="EDVA"/>
+        <positionref ref="EDVA_1inESVApos"/>
+      </physvol>
+    </volume>
+    <volume name="EBKA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBKA0x1"/>
+    </volume>
+    <volume name="EUV1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EUV10x1"/>
+      <physvol name="EBPA_1" copynumber="1">
+        <volumeref ref="EBPA"/>
+        <positionref ref="EBPA_1inEUV1pos"/>
+      </physvol>
+      <physvol name="ESVA_1" copynumber="1">
+        <volumeref ref="ESVA"/>
+        <positionref ref="ESVA_1inEUV1pos"/>
+      </physvol>
+      <physvol name="EBKA_1" copynumber="1">
+        <volumeref ref="EBKA"/>
+        <positionref ref="EBKA_1inEUV1pos"/>
+      </physvol>
+    </volume>
+    <volume name="EMVA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EMVA0x1"/>
+      <physvol name="EUV1_1" copynumber="1">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_1inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_2" copynumber="2">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_2inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_3" copynumber="3">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_3inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_4" copynumber="4">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_4inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_5" copynumber="5">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_5inEMVApos"/>
+      </physvol>
+      <physvol name="EUV1_6" copynumber="6">
+        <volumeref ref="EUV1"/>
+        <positionref ref="EUV1_6inEMVApos"/>
+      </physvol>
+    </volume>
+    <volume name="EFEA">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="EFEA0x1"/>
+    </volume>
+    <volume name="EPB1">
+      <materialref ref="PMD_Pb____"/>
+      <solidref ref="EPB10x1"/>
+    </volume>
+    <volume name="ESPA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="ESPA0x1"/>
+      <physvol name="EPB1_1" copynumber="1">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_1inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_2" copynumber="2">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_2inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_3" copynumber="3">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_3inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_4" copynumber="4">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_4inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_5" copynumber="5">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_5inESPApos"/>
+      </physvol>
+      <physvol name="EPB1_6" copynumber="6">
+        <volumeref ref="EPB1"/>
+        <positionref ref="EPB1_6inESPApos"/>
+      </physvol>
+    </volume>
+    <volume name="EBKA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBKA0x1"/>
+    </volume>
+    <volume name="EPCA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EPCA0x1"/>
+    </volume>
+    <volume name="ECAR">
+      <materialref ref="PMD_ArCO2"/>
+      <solidref ref="ECAR0x1"/>
+    </volume>
+    <volume name="ECCU">
+      <materialref ref="PMD_Cu___"/>
+      <solidref ref="ECCU0x1"/>
+      <physvol name="ECAR_1" copynumber="1">
+        <volumeref ref="ECAR"/>
+        <positionref ref="ECAR_1inECCUpos"/>
+      </physvol>
+    </volume>
+    <volume name="EST1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EST10x1"/>
+      <physvol name="ECCU_1" copynumber="1">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_1inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_2" copynumber="2">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_2inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_3" copynumber="3">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_3inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_4" copynumber="4">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_4inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_5" copynumber="5">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_5inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_6" copynumber="6">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_6inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_7" copynumber="7">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_7inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_8" copynumber="8">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_8inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_9" copynumber="9">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_9inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_10" copynumber="10">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_10inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_11" copynumber="11">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_11inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_12" copynumber="12">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_12inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_13" copynumber="13">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_13inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_14" copynumber="14">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_14inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_15" copynumber="15">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_15inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_16" copynumber="16">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_16inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_17" copynumber="17">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_17inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_18" copynumber="18">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_18inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_19" copynumber="19">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_19inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_20" copynumber="20">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_20inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_21" copynumber="21">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_21inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_22" copynumber="22">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_22inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_23" copynumber="23">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_23inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_24" copynumber="24">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_24inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_25" copynumber="25">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_25inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_26" copynumber="26">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_26inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_27" copynumber="27">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_27inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_28" copynumber="28">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_28inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_29" copynumber="29">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_29inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_30" copynumber="30">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_30inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_31" copynumber="31">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_31inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_32" copynumber="32">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_32inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_33" copynumber="33">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_33inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_34" copynumber="34">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_34inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_35" copynumber="35">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_35inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_36" copynumber="36">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_36inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_37" copynumber="37">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_37inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_38" copynumber="38">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_38inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_39" copynumber="39">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_39inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_40" copynumber="40">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_40inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_41" copynumber="41">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_41inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_42" copynumber="42">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_42inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_43" copynumber="43">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_43inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_44" copynumber="44">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_44inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_45" copynumber="45">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_45inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_46" copynumber="46">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_46inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_47" copynumber="47">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_47inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_48" copynumber="48">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_48inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_49" copynumber="49">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_49inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_50" copynumber="50">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_50inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_51" copynumber="51">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_51inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_52" copynumber="52">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_52inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_53" copynumber="53">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_53inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_54" copynumber="54">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_54inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_55" copynumber="55">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_55inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_56" copynumber="56">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_56inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_57" copynumber="57">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_57inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_58" copynumber="58">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_58inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_59" copynumber="59">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_59inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_60" copynumber="60">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_60inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_61" copynumber="61">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_61inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_62" copynumber="62">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_62inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_63" copynumber="63">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_63inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_64" copynumber="64">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_64inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_65" copynumber="65">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_65inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_66" copynumber="66">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_66inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_67" copynumber="67">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_67inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_68" copynumber="68">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_68inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_69" copynumber="69">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_69inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_70" copynumber="70">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_70inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_71" copynumber="71">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_71inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_72" copynumber="72">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_72inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_73" copynumber="73">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_73inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_74" copynumber="74">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_74inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_75" copynumber="75">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_75inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_76" copynumber="76">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_76inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_77" copynumber="77">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_77inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_78" copynumber="78">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_78inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_79" copynumber="79">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_79inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_80" copynumber="80">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_80inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_81" copynumber="81">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_81inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_82" copynumber="82">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_82inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_83" copynumber="83">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_83inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_84" copynumber="84">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_84inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_85" copynumber="85">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_85inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_86" copynumber="86">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_86inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_87" copynumber="87">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_87inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_88" copynumber="88">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_88inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_89" copynumber="89">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_89inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_90" copynumber="90">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_90inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_91" copynumber="91">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_91inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_92" copynumber="92">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_92inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_93" copynumber="93">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_93inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_94" copynumber="94">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_94inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_95" copynumber="95">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_95inEST1pos"/>
+      </physvol>
+      <physvol name="ECCU_96" copynumber="96">
+        <volumeref ref="ECCU"/>
+        <positionref ref="ECCU_96inEST1pos"/>
+      </physvol>
+    </volume>
+    <volume name="EHC1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EHC10x1"/>
+      <physvol name="EST1_1" copynumber="1">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_1inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_2" copynumber="2">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_2inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_3" copynumber="3">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_3inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_4" copynumber="4">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_4inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_5" copynumber="5">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_5inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_6" copynumber="6">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_6inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_7" copynumber="7">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_7inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_8" copynumber="8">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_8inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_9" copynumber="9">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_9inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_10" copynumber="10">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_10inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_11" copynumber="11">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_11inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_12" copynumber="12">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_12inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_13" copynumber="13">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_13inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_14" copynumber="14">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_14inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_15" copynumber="15">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_15inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_16" copynumber="16">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_16inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_17" copynumber="17">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_17inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_18" copynumber="18">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_18inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_19" copynumber="19">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_19inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_20" copynumber="20">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_20inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_21" copynumber="21">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_21inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_22" copynumber="22">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_22inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_23" copynumber="23">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_23inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_24" copynumber="24">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_24inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_25" copynumber="25">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_25inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_26" copynumber="26">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_26inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_27" copynumber="27">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_27inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_28" copynumber="28">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_28inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_29" copynumber="29">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_29inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_30" copynumber="30">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_30inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_31" copynumber="31">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_31inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_32" copynumber="32">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_32inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_33" copynumber="33">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_33inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_34" copynumber="34">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_34inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_35" copynumber="35">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_35inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_36" copynumber="36">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_36inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_37" copynumber="37">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_37inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_38" copynumber="38">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_38inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_39" copynumber="39">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_39inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_40" copynumber="40">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_40inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_41" copynumber="41">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_41inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_42" copynumber="42">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_42inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_43" copynumber="43">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_43inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_44" copynumber="44">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_44inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_45" copynumber="45">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_45inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_46" copynumber="46">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_46inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_47" copynumber="47">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_47inEHC1pos"/>
+      </physvol>
+      <physvol name="EST1_48" copynumber="48">
+        <volumeref ref="EST1"/>
+        <positionref ref="EST1_48inEHC1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ECGA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="ECGA0x1"/>
+      <physvol name="EPCA_1" copynumber="1">
+        <volumeref ref="EPCA"/>
+        <positionref ref="EPCA_10x1inECGApos"/>
+      </physvol>
+      <physvol name="EHC1_1" copynumber="1">
+        <volumeref ref="EHC1"/>
+        <positionref ref="EHC1_10x1inECGApos"/>
+      </physvol>
+      <physvol name="EPCA_2" copynumber="2">
+        <volumeref ref="EPCA"/>
+        <positionref ref="EPCA_20x1inECGApos"/>
+      </physvol>
+    </volume>
+    <volume name="EDGA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EDGA0x1"/>
+      <physvol name="ECGA_1" copynumber="1">
+        <volumeref ref="ECGA"/>
+        <positionref ref="ECGA_1inEDGApos"/>
+      </physvol>
+    </volume>
+    <volume name="ESSA">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="ESSA0x1"/>
+      <physvol name="EDGA_1" copynumber="1">
+        <volumeref ref="EDGA"/>
+        <positionref ref="EDGA_1inESSApos"/>
+      </physvol>
+    </volume>
+    <volume name="EBPA">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBPA0x1"/>
+    </volume>
+    <volume name="EUM1">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EUM10x1"/>
+      <physvol name="EBKA_1" copynumber="1">
+        <volumeref ref="EBKA"/>
+        <positionref ref="EBKA_10x1inEUM1pos"/>
+      </physvol>
+      <physvol name="ESSA_1" copynumber="1">
+        <volumeref ref="ESSA"/>
+        <positionref ref="ESSA_1inEUM1pos"/>
+      </physvol>
+      <physvol name="EBPA_1" copynumber="1">
+        <volumeref ref="EBPA"/>
+        <positionref ref="EBPA_10x1inEUM1pos"/>
+      </physvol>
+    </volume>
+    <volume name="ESMA">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="ESMA0x1"/>
+      <physvol name="EUM1_1" copynumber="1">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_1inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_2" copynumber="2">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_2inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_3" copynumber="3">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_3inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_4" copynumber="4">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_4inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_5" copynumber="5">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_5inESMApos"/>
+      </physvol>
+      <physvol name="EUM1_6" copynumber="6">
+        <volumeref ref="EUM1"/>
+        <positionref ref="EUM1_6inESMApos"/>
+      </physvol>
+    </volume>
+    <volume name="EPM2">
+      <materialref ref="PMD_Air__"/>
+      <solidref ref="EPM20x1"/>
+      <physvol name="EFSA_2" copynumber="2">
+        <volumeref ref="EFSA"/>
+        <positionref ref="EFSA_2inEPM2pos"/>
+        <rotationref ref="EFSA_2inEPM2rot"/>
+      </physvol>
+      <physvol name="EMVA_2" copynumber="2">
+        <volumeref ref="EMVA"/>
+        <positionref ref="EMVA_2inEPM2pos"/>
+        <rotationref ref="EMVA_2inEPM2rot"/>
+      </physvol>
+      <physvol name="EFEA_2" copynumber="2">
+        <volumeref ref="EFEA"/>
+        <positionref ref="EFEA_2inEPM2pos"/>
+      </physvol>
+      <physvol name="ESPA_2" copynumber="2">
+        <volumeref ref="ESPA"/>
+        <positionref ref="ESPA_2inEPM2pos"/>
+      </physvol>
+      <physvol name="ESMA_2" copynumber="2">
+        <volumeref ref="ESMA"/>
+        <positionref ref="ESMA_2inEPM2pos"/>
+        <rotationref ref="ESMA_2inEPM2rot"/>
+      </physvol>
+      <physvol name="EFSA_4" copynumber="4">
+        <volumeref ref="EFSA"/>
+        <positionref ref="EFSA_4inEPM2pos"/>
+        <rotationref ref="EFSA_4inEPM2rot"/>
+      </physvol>
+    </volume>
+    </structure>

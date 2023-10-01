@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY define SYSTEM "FIBH_define.xml">
+<!ENTITY materials SYSTEM "FIBH_materials.xml">
+<!ENTITY solids SYSTEM "FIBH_solids.xml">
+<!ENTITY setup SYSTEM "FIBH_setup.xml">
+<!ENTITY struct SYSTEM "FIBH_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&define;&materials;&solids;&setup;&struct;</gdml>

@@ -1,0 +1,5 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><polyhedra name="ECAR0x1" startphi="0" deltaphi="360" numsides="6" aunit="deg" lunit="cm">
+      <zplane z="-0.25" rmin="0" rmax="0.23000000417232513"/>
+      <zplane z="0.25" rmin="0" rmax="0.23000000417232513"/>
+    </polyhedra>
+    </solids>

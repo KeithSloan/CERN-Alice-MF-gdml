@@ -1,0 +1,5 @@
+<structure><volume name="QA07">
+      <materialref ref="ZDC_VOID"/>
+      <solidref ref="QA070x1"/>
+    </volume>
+    </structure>

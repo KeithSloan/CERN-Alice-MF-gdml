@@ -1,0 +1,5 @@
+<structure><volume name="EBPB">
+      <materialref ref="PMD_G10"/>
+      <solidref ref="EBPB0x1"/>
+    </volume>
+    </structure>

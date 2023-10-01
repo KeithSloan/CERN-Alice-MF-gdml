@@ -1,0 +1,5 @@
+<structure><volume name="Capacitor0603">
+      <materialref ref="ITS_SDD_ruby_sph._Al2O3"/>
+      <solidref ref="Capacitor0603Shape"/>
+    </volume>
+    </structure>

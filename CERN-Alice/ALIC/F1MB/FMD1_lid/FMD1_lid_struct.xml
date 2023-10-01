@@ -1,0 +1,5 @@
+<structure><volume name="FMD1_lid">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="FMD1_lid0x1"/>
+    </volume>
+    </structure>

@@ -1,0 +1,5 @@
+<structure><volume name="Hgassipl20x6">
+      <materialref ref="HMPID_CsIPCB"/>
+      <solidref ref="Hgassipl20x7"/>
+    </volume>
+    </structure>

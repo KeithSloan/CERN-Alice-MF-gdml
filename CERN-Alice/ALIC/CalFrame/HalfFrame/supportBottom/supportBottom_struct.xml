@@ -1,0 +1,5 @@
+<structure><volume name="supportBottom">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="supportBottom0x1"/>
+    </volume>
+    </structure>
