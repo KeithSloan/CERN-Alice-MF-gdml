@@ -29,24 +29,25 @@
 #***************************************************************************
 import sys, os
 
-class volAsmDet:
-    def __init__(self, vaName, path, level):
+class volAsm_class:
+    #def __init__(self, vaName, path, level):
+    def __init__(self, vaName, path):
         self.vaName = vaName
         self.path = path
-        self.level = level
+        self.level = 1
 
 
-class processVolAsm:
-    def __init__(self, vaName, path):
-        self.level = levelDet(vaName, path)
-        self.path = path
-
-
-    def processPath(self, path):
+    def processPath(self, path, levels, pathList):
         print(f"Processing path {path}")
+        vaName = os.path.splitext(os.path.basename(path))[0]
+        print(f"Processing VolAsm {vaName}")
+        #volAsm = volAsm_class(vaName, path, self.level+1)
+        volAsm = volAsm_class(vaName, path)
+        levels.addVolAsm(volAsm, path, self.level)
+        pathList.append(volAsm)
         for p in os.scandir(path):
             if p.is_dir():
-                self.processPath(p.path)
+                self.processPath(p.path, levels, pathList)
 
     def exportStep(self):
         print(f"Export STEP {self.vaName} path {self.path}")
@@ -57,41 +58,52 @@ class processVolAsm:
 
 
 class levelDet:
-    def __init__(self, vaName, path):
-        self.level = 1
-        self.volList = [[vaName, path, 1]]
+    def __init__(self):
+        self.volAsmList = []
 
 
-    def getLevel(self):
-        return self.level    
+    def addVolAsm(self, vaName, path):
+        self.volAsmList.append(volAsm_class(vaName, path))    
 
 
-    def addVolAsm(self, volAsm, path):
-        self.level += 1
-        self.volList.append([volAsm, path, self.level])
+class levels_class:
+    def __init__(self):
+        self.levels = []
+
+    def addLevel(self):
+        print(f"levels add level")
+        self.levels.append(levelDet())
+        print(f"len self.levels {len(self.levels)}")
+
+    def checkLevel(self, lvlNum):
+        #print(f"levels checkLevel lvlNum {lvlNum} type {type(lvlNum)}")
+        #print(len(self.levels))
+        lvlNum = int(lvlNum)
+        if lvlNum > len(self.levels):
+            self.addLevel()
+
+        return self.levels[lvlNum-1]
+        # Lists index from 0
+    
+    def addVolAsm(self, volAsm, path, lvlNum):
+        print(f"levels add VolAsm")
+        levelDet = self.checkLevel(lvlNum)
+        levelDet.addVolAsm(volAsm, path)
 
 
 class dirBase_class:
     def __init__(self, basePath):
         self.basePath = basePath
         self.pathList = []
-        self.levelList = []
+        self.levels = levels_class()
         self.currentLevel = 1
+
 
         vaName = os.path.splitext(os.path.basename(basePath))[0]
 
-        baseVolAsm = processVolAsm(vaName, basePath)
+        baseVolAsm = volAsm_class(vaName, basePath)
+        baseVolAsm.processPath(basePath, self.levels, self.pathList)
 
-
-    def addVolAsm(self, vaName, path):
-        print(f"Adding volasm {vname} path {path}")
-        volAsm = volAsmDet(vaName, path, self.currentLevel)
-        self.pathList.append(volAsm)
-        if self.currentLevel == 1:
-            self.levelList.append(volAsm)
-        else:
-            self.currentLevel += 1
-            self.levelList[self.currentLevel].addVolAsm(volAsm)
 
 if len(sys.argv) < 2:
     print ("Usage: sys.argv[0] <gdml_directory>")
@@ -99,7 +111,7 @@ if len(sys.argv) < 2:
 
 basePath = sys.argv[1]
 baseVaName = os.path.splitext(os.path.basename(basePath))[0]
-levDetail = levelDet(baseVaName, basePath)
+levels = levels_class()
 
 print(f"\nProcessing GDML directory : {basePath}")
 
