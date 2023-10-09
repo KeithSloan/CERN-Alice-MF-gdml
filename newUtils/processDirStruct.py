@@ -34,20 +34,42 @@ class volAsm_class:
     def __init__(self, vaName, path):
         self.vaName = vaName
         self.path = path
+        self.subVolAsmList = []
         self.level = 1
 
 
-    def processPath(self, path, levels, pathList):
+    def getName(self):
+        print(self.vaName)
+
+
+    def addSubVolAsms(self, volasmList):
+        self.subVolAsmList = volasmList
+
+
+    def getSubVolAsms(self):
+        return self.subVolAsmList
+
+
+    def printSubVolAsms(self):
+        print(f"Volume {self.vaName}")
+        for i in self.subVolAsmList:
+            print(i.getName())    
+
+
+    def processPath(self, path, levels, volAsmDict):
         print(f"Processing path {path}")
         vaName = os.path.splitext(os.path.basename(path))[0]
         print(f"Processing VolAsm {vaName}")
         #volAsm = volAsm_class(vaName, path, self.level+1)
         volAsm = volAsm_class(vaName, path)
+        # Add volume to dictionary
+        volAsmDict[vaName] = volAsm
         levels.addVolAsm(volAsm, path, self.level)
-        pathList.append(volAsm)
-        for p in os.scandir(path):
+        subVolAsms = os.scandir(path)
+        for p in subVolAsms:
             if p.is_dir():
-                self.processPath(p.path, levels, pathList)
+                self.processPath(p.path, levels, volAsmDict)
+
 
     def exportStep(self):
         print(f"Export STEP {self.vaName} path {self.path}")
@@ -90,20 +112,29 @@ class levels_class:
         levelDet = self.checkLevel(lvlNum)
         levelDet.addVolAsm(volAsm, path)
 
+    def print(self):
+        print(f"Levels {self.levels}")    
+
 
 class dirBase_class:
     def __init__(self, basePath):
         self.basePath = basePath
-        self.pathList = []
+        self.volAsmDict = {}
         self.levels = levels_class()
         self.currentLevel = 1
 
 
         vaName = os.path.splitext(os.path.basename(basePath))[0]
 
-        baseVolAsm = volAsm_class(vaName, basePath)
-        baseVolAsm.processPath(basePath, self.levels, self.pathList)
+        self.baseVolAsm = volAsm_class(vaName, basePath)
+        self.baseVolAsm.processPath(basePath, self.levels, self.volAsmDict)
 
+        print(f"Base Path {self.basePath}\n")
+        #print(f"Path List \n")
+        #for i in self.pathList:
+        #    print(i.getName())
+        self.baseVolAsm.printSubVolAsms()
+        self.levels.print()
 
 if len(sys.argv) < 2:
     print ("Usage: sys.argv[0] <gdml_directory>")
