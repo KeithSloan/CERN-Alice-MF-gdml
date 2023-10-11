@@ -30,16 +30,18 @@
 import sys, os
 
 class volAsm_class:
-    #def __init__(self, vaName, path, level):
-    def __init__(self, vaName, path):
+    # ??? volasm in several places aslo different levels?
+    def __init__(self, vaName, path, level):
+        print(f"New volasm {vaName} path {path} level {level}")
         self.vaName = vaName
         self.path = path
         self.subVolAsmList = []
-        self.level = 1
+        self.level = level
 
 
     def getName(self):
         print(self.vaName)
+        return self.vaName
 
 
     def addSubVolAsms(self, volasmList):
@@ -56,19 +58,20 @@ class volAsm_class:
             print(i.getName())    
 
 
-    def processPath(self, path, levels, volAsmDict):
-        print(f"Processing path {path}")
+    def processPath(self, path, level, levels, volAsmDict):
+        print(f"Processing path {path} level {level}")
         vaName = os.path.splitext(os.path.basename(path))[0]
         print(f"Processing VolAsm {vaName}")
-        #volAsm = volAsm_class(vaName, path, self.level+1)
-        volAsm = volAsm_class(vaName, path)
+        volAsm = volAsm_class(vaName, path, level)
+        #volAsm = volAsm_class(vaName, path)
         # Add volume to dictionary
-        volAsmDict[vaName] = volAsm
-        levels.addVolAsm(volAsm, path, self.level)
+        volAsmDict[self.vaName] = vaName
+        #print(f"new Volume {volAsm.getName()}")
+        levels.addVolAsm(volAsm, self.path, level)
         subVolAsms = os.scandir(path)
         for p in subVolAsms:
             if p.is_dir():
-                self.processPath(p.path, levels, volAsmDict)
+                self.processPath(p.path, level+1, levels, volAsmDict)
 
 
     def exportStep(self):
@@ -84,33 +87,41 @@ class levelDet:
         self.volAsmList = []
 
 
-    def addVolAsm(self, vaName, path):
-        self.volAsmList.append(volAsm_class(vaName, path))    
+    def levelAddVolAsm(self, volAsm, path, level):
+        print(f"Add Volume {volAsm.getName()} to level {level}")
+        #self.volAsmList.append(volAsm_class(vaName, path, level))    
+        self.volAsmList.append(volAsm)   
 
 
 class levels_class:
     def __init__(self):
         self.levels = []
 
+
     def addLevel(self):
-        print(f"levels add level")
+        #print(f"levels add level")
         self.levels.append(levelDet())
-        print(f"len self.levels {len(self.levels)}")
+        #print(f"len self.levels {len(self.levels)}")
+
 
     def checkLevel(self, lvlNum):
-        #print(f"levels checkLevel lvlNum {lvlNum} type {type(lvlNum)}")
-        #print(len(self.levels))
-        lvlNum = int(lvlNum)
+        #print(f"levels checkLevel lvlNum {lvlNum} levels {len(self.levels)}")
+        #print(f"test {lvlNum > len(self.levels)}")
+        # Lists index from 0
+        lvl = int(lvlNum) - 1
         if lvlNum > len(self.levels):
             self.addLevel()
+        #else:
+        #    print("No need to add")    
 
-        return self.levels[lvlNum-1]
-        # Lists index from 0
-    
+        return self.levels[lvl]
+
+
     def addVolAsm(self, volAsm, path, lvlNum):
-        print(f"levels add VolAsm")
+        #print(f"levels add VolAsm {volAsm.getName()}")
         levelDet = self.checkLevel(lvlNum)
-        levelDet.addVolAsm(volAsm, path)
+        levelDet.levelAddVolAsm(volAsm, path, lvlNum)
+
 
     def print(self):
         print(f"Levels {self.levels}")    
@@ -121,13 +132,12 @@ class dirBase_class:
         self.basePath = basePath
         self.volAsmDict = {}
         self.levels = levels_class()
-        self.currentLevel = 1
 
 
         vaName = os.path.splitext(os.path.basename(basePath))[0]
 
-        self.baseVolAsm = volAsm_class(vaName, basePath)
-        self.baseVolAsm.processPath(basePath, self.levels, self.volAsmDict)
+        self.baseVolAsm = volAsm_class(vaName, basePath, 1)
+        self.baseVolAsm.processPath(basePath, 1, self.levels, self.volAsmDict)
 
         print(f"Base Path {self.basePath}\n")
         #print(f"Path List \n")
