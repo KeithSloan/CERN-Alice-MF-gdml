@@ -87,6 +87,10 @@ class levelDet:
         self.volAsmList = []
 
 
+    def getNumVolAsm(self):
+        return len(self.volAsmList)
+
+
     def levelAddVolAsm(self, volAsm, path, level):
         print(f"Add Volume {volAsm.getName()} to level {level}")
         #self.volAsmList.append(volAsm_class(vaName, path, level))    
@@ -124,7 +128,9 @@ class levels_class:
 
 
     def print(self):
-        print(f"Levels {self.levels}")    
+        # print(f"Levels {self.levels}")
+        for i, l in enumerate(self.levels):
+            print(f" Level {i} Number of VolAsm {l.getNumVolAsm()}")
 
 
 class dirBase_class:
