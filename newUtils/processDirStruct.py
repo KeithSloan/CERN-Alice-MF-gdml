@@ -40,7 +40,6 @@ class volAsm_class:
 
 
     def getName(self):
-        print(self.vaName)
         return self.vaName
 
 
@@ -76,10 +75,12 @@ class volAsm_class:
 
     def exportStep(self):
         print(f"Export STEP {self.vaName} path {self.path}")
+        print(f"Needs coding")
 
 
     def exportBrep(self):
         print(f"Export Brep {self.vaName} path {self.path}")
+        print(f"Needs coding")
 
 
 class levelDet:
@@ -89,6 +90,10 @@ class levelDet:
 
     def getNumVolAsm(self):
         return len(self.volAsmList)
+
+
+    def getVolAsms(self):
+        return self.volAsmList
 
 
     def levelAddVolAsm(self, volAsm, path, level):
@@ -132,6 +137,19 @@ class levels_class:
         for i, l in enumerate(self.levels):
             print(f" Level {i} Number of VolAsm {l.getNumVolAsm()}")
 
+    def process(self):
+        self.numVolAsm = 3
+        # print(f"Levels {self.levels}")
+        print(f"/nProcess levels in Reverse order/n")
+        for i, l in reversed(list(enumerate(self.levels))):
+            numVolAsm = l.getNumVolAsm()
+            print(f" Level {i} Number of VolAsm {numVolAsm}")
+            if numVolAsm > self.numVolAsm:
+                volAsmList = l.getVolAsms()
+                for volAsm in volAsmList:
+                    print(f"volAsm {volAsm.getName()}")
+
+
 
 class dirBase_class:
     def __init__(self, basePath):
@@ -151,6 +169,7 @@ class dirBase_class:
         #    print(i.getName())
         self.baseVolAsm.printSubVolAsms()
         self.levels.print()
+        self.levels.process()
 
 if len(sys.argv) < 2:
     print ("Usage: sys.argv[0] <gdml_directory>")
