@@ -2,7 +2,7 @@
 
 22/10/23
 
-Work on FreeCAD Macro ProcessDirStruct.FCMacro to process directory and create relevanet STEP file is progressing see branch buildSteps.
+Work on FreeCAD Macro ProcessDirStruct.FCMacro to process directory and create relevant STEP file is progressing see branch buildSteps.
 
 Next stage ( GDML workbench branch BrepStep ) is to update importGDML to
 
