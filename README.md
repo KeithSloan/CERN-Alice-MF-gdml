@@ -7,7 +7,7 @@ Work on FreeCAD Macro ProcessDirStruct.FCMacro to process directory and create r
 Next stage ( GDML workbench branch BrepStep ) is to update importGDML to
 
  * Be able to pass type of import as an option rather than prompt.
- * If import option is Step for Volumes where a step file exist create GDMLPartStep where Shape is created by importing the Step
+ * If import option is Step, for Volumes where a step file exist create GDMLPartStep where Shape is created by importing the Step
 
 30/09/23
 
