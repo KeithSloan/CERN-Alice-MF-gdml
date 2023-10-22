@@ -1,7 +1,7 @@
 # **************************************************************************
 # *                                                                        *
 # *   Copyright (c) 2023 Keith Sloan <keith@sloan-home.co.uk>              *
-# *                      Munther Hind                                      *
+# *                      Munther Hindi                                      *
 # *                                                                        *
 # *   This program is free software; you can redistribute it and/or modify *
 # *   it under the terms of the GNU Lesser General Public License (LGPL)   *
@@ -75,7 +75,29 @@ class volAsm_class:
 
     def exportStep(self):
         print(f"Export STEP {self.vaName} path {self.path}")
-        print(f"Needs coding")
+        import FreeCAD, FreeCADGui
+        # import FreeCADGui
+        #print(f"FreeCAD loaded")
+        #import freecad.gdml.importGDML
+        #print(f"importGDML loaded")
+        #freecad.gdml.importGDML.open(u"/Users/keithsloan/Downloads/CERN-Dipole/Dipole/asHS/asHS.gdml")
+        print(dir(FreeCADGui))
+        FreeCADGui.activateWorkbench("GDML_Workbench")
+        doc = freecad.gdml.importGDML.open(self.path)
+        #doc = FreeCAD.open(u"/Users/keithsloan/Downloads/CERN-Dipole/Dipole/asHS/asHS.gdml")
+        #doc = FreeCAD.open(u"/Users/keithsloan/Downloads/CERN-Dipole/Dipole/DCoil/DCoil.gdml")
+        print(f"GDML file opened")
+        obj = FreeCAD.ActiveDocumet.getObject(self.vaName)
+        import Import
+        if hasattr(Import, "exportOptions"):
+            # need to use join
+            exportPath = self.path+"/"+self.vaName+".step"
+            options = Import.exportOptions(exportPath)
+            Import.export(obj, exportPath, options)
+            print(f"exported wih Options")
+        else:
+            Import.export(obj, exportPath)
+            print(f"exported")
 
 
     def exportBrep(self):
@@ -148,6 +170,7 @@ class levels_class:
                 volAsmList = l.getVolAsms()
                 for volAsm in volAsmList:
                     print(f"volAsm {volAsm.getName()}")
+                    volAsm.exportStep()
 
 
 
@@ -157,7 +180,7 @@ class dirBase_class:
         self.volAsmDict = {}
         self.levels = levels_class()
 
-
+        self.setPathEnv()
         vaName = os.path.splitext(os.path.basename(basePath))[0]
 
         self.baseVolAsm = volAsm_class(vaName, basePath, 1)
@@ -170,6 +193,30 @@ class dirBase_class:
         self.baseVolAsm.printSubVolAsms()
         self.levels.print()
         self.levels.process()
+
+
+    def setPathEnv(self):
+        import sys, platform
+        system = platform.system()
+        print(f"System {system}")
+        if system == "linux" or system == "linux2":
+            # linux
+            sys.path.append('/usr/lib/freecad/lib')
+        elif system == "Darwin":
+            # OS X
+            print(f"Mac OS X")
+            sys.path.append('/Applications/FreeCAD.app/Contents/Resources/lib')
+            sys.path.append('/Applications/FreeCAD.app/Contents/Resources/lib/python3.10/site-packages')
+
+            #sys.path.append('/usr/lib/freecad/lib')
+        elif system == "win32":
+            # Windows...
+            print(f"Trying FreeCAD path 'C://Program Files/FreeCAD/bin'")
+            sys.path.append('C://Program Files/FreeCAD/bin')
+
+print(f"Development switched to ProcessDirStruct.FCMAcro")
+print(f"Retaining just in case")
+sys.exit(3)
 
 if len(sys.argv) < 2:
     print ("Usage: sys.argv[0] <gdml_directory>")
