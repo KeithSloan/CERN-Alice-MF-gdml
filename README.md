@@ -1,5 +1,14 @@
 ### Latest Status
 
+22/10/23
+
+Work on FreeCAD Macro ProcessDirStruct.FCMacro to process directory and create relevanet STEP file is progressing see branch buildSteps.
+
+Next stage ( GDML workbench branch BrepStep ) is to update importGDML to
+
+ * Be able to pass type of import as an option rather than prompt.
+ * If import option is Step for Volumes where a step file exist create GDMLPartStep where Shape is created by importing the Step
+
 30/09/23
 
 Success in extracting Volume Dipole and loading into Geant4
