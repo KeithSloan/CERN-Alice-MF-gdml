@@ -5,6 +5,8 @@
 Add ProcessDirStruct.FCMacro to process directory structure and create STEP files.
 Needs to be copied to FreeCAD Macro directory.
 
+Needs latest version of importGDML from GDML workbench.
+
 Note: ProcessDirStruct.py part developed to be retained just in case.
 
 30/09/23
