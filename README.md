@@ -1,5 +1,12 @@
 ### Latest Status
 
+26/10/23
+
+Add ProcessDirStruct.FCMacro to process directory structure and create STEP files.
+Needs to be copied to FreeCAD Macro directory.
+
+Note: ProcessDirStruct.py part developed to be retained just in case.
+
 30/09/23
 
 Success in extracting Volume Dipole and loading into Geant4
