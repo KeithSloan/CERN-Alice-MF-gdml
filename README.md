@@ -1,5 +1,14 @@
 ### Latest Status
 
+29/10/23
+
+Latest version of GDML workbench https://github.com/KeithSloan/GDML supports 
+
+   * Expansion
+   * Expansion Max
+
+of GDMLPartStep Objects as created by the ProcessDirStruct.FCMacro
+
 26/10/23
 
 Add ProcessDirStruct.FCMacro to process directory structure and create STEP files.
