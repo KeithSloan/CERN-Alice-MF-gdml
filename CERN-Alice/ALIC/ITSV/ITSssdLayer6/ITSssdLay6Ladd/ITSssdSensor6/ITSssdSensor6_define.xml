@@ -1,6 +1,0 @@
-<define><position name="center" x="0" y="0" z="0"/><position name="SSDSensorInsensitive1_10x1inITSssdSensor6pos" x="-3.6999999999999997" y="0" z="-0" unit="cm"/>
-    <position name="SSDSensorInsensitive2_10x1inITSssdSensor6pos" x="0" y="0" z="2.0499999999999998" unit="cm"/>
-    <position name="SSDSensorInsensitive1_20x1inITSssdSensor6pos" x="3.6999999999999997" y="0" z="-0" unit="cm"/>
-    <position name="SSDSensorInsensitive2_20x1inITSssdSensor6pos" x="0" y="0" z="-2.0499999999999998" unit="cm"/>
-    <position name="ITSssdSensitivL6_1inITSssdSensor6pos" x="0" y="0" z="0" unit="cm"/>
-    </define>

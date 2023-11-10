@@ -1,5 +1,0 @@
-<structure><volume name="TPC_W_I">
-      <materialref ref="TPC_Peek"/>
-      <solidref ref="TGeoTube0x154"/>
-    </volume>
-    </structure>

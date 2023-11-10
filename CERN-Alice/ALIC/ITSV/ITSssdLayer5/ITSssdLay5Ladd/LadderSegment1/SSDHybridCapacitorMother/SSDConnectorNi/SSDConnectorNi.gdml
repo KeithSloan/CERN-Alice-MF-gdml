@@ -1,9 +1,0 @@
-
-<!DOCTYPE gdml [
-<!ENTITY materials SYSTEM "SSDConnectorNi_materials.xml">
-<!ENTITY solids SYSTEM "SSDConnectorNi_solids.xml">
-<!ENTITY setup SYSTEM "SSDConnectorNi_setup.xml">
-<!ENTITY struct SYSTEM "SSDConnectorNi_struct.xml">
-]>
-
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

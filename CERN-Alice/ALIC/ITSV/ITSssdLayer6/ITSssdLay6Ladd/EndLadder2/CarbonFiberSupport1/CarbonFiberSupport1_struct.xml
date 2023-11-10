@@ -1,5 +1,0 @@
-<structure><volume name="CarbonFiberSupport1">
-      <materialref ref="ITS_GEN_C_M55J"/>
-      <solidref ref="CarbonFiberSupportShape1"/>
-    </volume>
-    </structure>

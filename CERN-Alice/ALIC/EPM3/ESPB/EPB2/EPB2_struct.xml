@@ -1,5 +1,0 @@
-<structure><volume name="EPB2">
-      <materialref ref="PMD_Pb____"/>
-      <solidref ref="EPB20x1"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<structure><volume name="SSDfoamcylinder">
-      <materialref ref="ITS_ROHACELL"/>
-      <solidref ref="TGeoTube0x131"/>
-    </volume>
-    </structure>

@@ -1,2 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="TGeoTubeSeg0x58" rmin="0.10000000000000001" rmax="0.14499999999999999" z="0.20000000000000001" startphi="17.0438466150983" deltaphi="325.91230676980342" aunit="deg" lunit="cm"/>
-    </solids>

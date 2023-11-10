@@ -1,5 +1,0 @@
-<structure><volume name="OSN2">
-      <materialref ref="T0_Steel"/>
-      <solidref ref="OSN20x1"/>
-    </volume>
-    </structure>

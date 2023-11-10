@@ -1,5 +1,0 @@
-<structure><volume name="Hbusext0x6">
-      <materialref ref="HMPID_CsIPCB"/>
-      <solidref ref="Hbusext0x7"/>
-    </volume>
-    </structure>

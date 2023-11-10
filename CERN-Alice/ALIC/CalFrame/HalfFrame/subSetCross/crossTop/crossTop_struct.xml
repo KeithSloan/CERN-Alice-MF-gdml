@@ -1,5 +1,0 @@
-<structure><volume name="crossTop">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="crossTop0x1"/>
-    </volume>
-    </structure>

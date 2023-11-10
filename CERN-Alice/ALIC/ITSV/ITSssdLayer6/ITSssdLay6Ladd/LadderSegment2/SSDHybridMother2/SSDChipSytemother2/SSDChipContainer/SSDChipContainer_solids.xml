@@ -1,4 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="SSDChipCompShape" x="1.1100000000000001" y="0.38500000000000001" z="0.014999999999999999" lunit="cm"/>
-    <box name="SSDChipGlueCompShape" x="1.1100000000000001" y="0.38500000000000001" z="0.0030000000000000001" lunit="cm"/>
-    <box name="SSDChipShape" x="1.1100000000000001" y="0.38500000000000001" z="0.017999999999999999" lunit="cm"/>
-    </solids>

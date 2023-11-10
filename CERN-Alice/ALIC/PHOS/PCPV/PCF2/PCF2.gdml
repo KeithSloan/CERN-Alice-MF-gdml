@@ -1,9 +1,0 @@
-
-<!DOCTYPE gdml [
-<!ENTITY materials SYSTEM "PCF2_materials.xml">
-<!ENTITY solids SYSTEM "PCF2_solids.xml">
-<!ENTITY setup SYSTEM "PCF2_setup.xml">
-<!ENTITY struct SYSTEM "PCF2_struct.xml">
-]>
-
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

@@ -1,5 +1,0 @@
-<structure><volume name="EndCapFillingBox">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoBBox0x1131"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<structure><volume name="RibVolume">
-      <materialref ref="EMCAL_STAINLESS_STEEL"/>
-      <solidref ref="RibVolume0x1"/>
-    </volume>
-    </structure>

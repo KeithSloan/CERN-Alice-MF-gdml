@@ -1,5 +1,0 @@
-<define><position name="center" x="0" y="0" z="0"/><position name="TPC_OCV4_1inTPC_OCV3pos" x="0" y="0" z="0" unit="cm"/>
-    <position name="TPC_OCV3_1inTPC_OCV2pos" x="0" y="0" z="0" unit="cm"/>
-    <position name="TPC_OCV2_1inTPC_OCV1pos" x="0" y="0" z="0" unit="cm"/>
-    <position name="TPC_OCV1_1inTPC_OCVpos" x="0" y="0" z="-1.5" unit="cm"/>
-    </define>

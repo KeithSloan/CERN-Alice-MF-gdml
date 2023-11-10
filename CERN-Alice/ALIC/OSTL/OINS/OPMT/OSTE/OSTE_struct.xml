@@ -1,5 +1,0 @@
-<structure><volume name="OSTE">
-      <materialref ref="T0_Steel"/>
-      <solidref ref="OSTE0x1"/>
-    </volume>
-    </structure>

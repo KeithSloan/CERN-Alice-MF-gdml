@@ -1,8 +1,0 @@
-<structure><volume name="ZPRO">
-      <materialref ref="ZDC_BRASS"/>
-      <solidref ref="ZPRO0x1"/>
-      <divisionvol axis="kXAxis" number="4" width="5.5998999999999999" offset="0" unit="cm">
-        <volumeref ref="ZPTX"/>
-      </divisionvol>
-    </volume>
-    </structure>

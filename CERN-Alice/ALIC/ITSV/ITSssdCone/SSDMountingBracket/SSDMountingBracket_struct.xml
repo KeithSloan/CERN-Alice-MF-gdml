@@ -1,5 +1,0 @@
-<structure><volume name="SSDMountingBracket">
-      <materialref ref="ITS_ALUMINUM"/>
-      <solidref ref="TGeoTubeSeg0x65"/>
-    </volume>
-    </structure>

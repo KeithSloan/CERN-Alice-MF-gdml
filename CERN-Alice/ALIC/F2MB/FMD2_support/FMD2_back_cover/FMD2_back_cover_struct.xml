@@ -1,5 +1,0 @@
-<structure><volume name="FMD2_back_cover">
-      <materialref ref="FMD_Carbon"/>
-      <solidref ref="FMD2_back_cover0x1"/>
-    </volume>
-    </structure>

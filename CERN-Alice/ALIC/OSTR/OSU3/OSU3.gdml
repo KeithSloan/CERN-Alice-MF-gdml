@@ -1,9 +1,0 @@
-
-<!DOCTYPE gdml [
-<!ENTITY materials SYSTEM "OSU3_materials.xml">
-<!ENTITY solids SYSTEM "OSU3_solids.xml">
-<!ENTITY setup SYSTEM "OSU3_setup.xml">
-<!ENTITY struct SYSTEM "OSU3_struct.xml">
-]>
-
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

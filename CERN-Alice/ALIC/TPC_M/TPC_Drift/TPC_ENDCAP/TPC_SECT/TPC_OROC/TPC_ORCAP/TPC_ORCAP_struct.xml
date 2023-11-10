@@ -1,5 +1,0 @@
-<structure><volume name="TPC_ORCAP">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoCompositeShape0x232"/>
-    </volume>
-    </structure>

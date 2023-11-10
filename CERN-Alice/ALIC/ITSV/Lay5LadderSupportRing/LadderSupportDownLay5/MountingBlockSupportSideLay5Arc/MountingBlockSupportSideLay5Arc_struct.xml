@@ -1,5 +1,0 @@
-<structure><volume name="MountingBlockSupportSideLay5Arc">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x57"/>
-    </volume>
-    </structure>

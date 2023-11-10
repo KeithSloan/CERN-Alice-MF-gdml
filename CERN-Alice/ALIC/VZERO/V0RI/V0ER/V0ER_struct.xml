@@ -1,5 +1,0 @@
-<structure><volume name="V0ER">
-      <materialref ref="VZERO_V0CAlu"/>
-      <solidref ref="V0ER0x1"/>
-    </volume>
-    </structure>

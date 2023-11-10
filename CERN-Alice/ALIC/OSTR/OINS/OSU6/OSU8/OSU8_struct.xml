@@ -1,5 +1,0 @@
-<structure><volume name="OSU8">
-      <materialref ref="T0_Aliminium"/>
-      <solidref ref="OSU80x1"/>
-    </volume>
-    </structure>

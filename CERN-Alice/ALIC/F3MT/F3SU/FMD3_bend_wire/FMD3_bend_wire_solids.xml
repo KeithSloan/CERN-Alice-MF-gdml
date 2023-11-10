@@ -1,2 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><torus name="TGeoTorus0x19" rtor="1" rmin="0" rmax="0.050000000000000003" startphi="0" deltaphi="47.700000000000003" aunit="deg" lunit="cm"/>
-    </solids>

@@ -1,9 +1,0 @@
-
-<!DOCTYPE gdml [
-<!ENTITY materials SYSTEM "QC04_materials.xml">
-<!ENTITY solids SYSTEM "QC04_solids.xml">
-<!ENTITY setup SYSTEM "QC04_setup.xml">
-<!ENTITY struct SYSTEM "QC04_struct.xml">
-]>
-
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

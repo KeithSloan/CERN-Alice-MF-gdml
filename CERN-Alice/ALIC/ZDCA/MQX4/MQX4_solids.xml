@@ -1,4 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="QBS30x1" rmin="2.895" rmax="3.0699999999999998" z="637" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    <box name="QBS40x1" x="0.20000000000000001" y="2.5258661880630182" z="637" lunit="cm"/>
-    <tube name="MQX40x1" rmin="0" rmax="3.1400000000000001" z="637" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

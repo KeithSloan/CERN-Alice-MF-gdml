@@ -1,5 +1,0 @@
-<define><position name="center" x="0" y="0" z="0"/><position name="LadderCableSegmentArb1_10x39inLadderCableSegmentArbAssembly0x39pos" x="2.4220000000000002" y="0" z="0" unit="cm"/>
-    <position name="LadderCableSegmentArb2_10x39inLadderCableSegmentArbAssembly0x39pos" x="2.4220000000000002" y="0" z="0" unit="cm"/>
-    <rotation name="LadderCableSegmentArb1_10x39inLadderCableSegmentArbAssembly0x39rot" x="-90" y="-90" z="0" unit="deg"/>
-    <rotation name="LadderCableSegmentArb2_10x39inLadderCableSegmentArbAssembly0x39rot" x="-90" y="-90" z="0" unit="deg"/>
-    </define>

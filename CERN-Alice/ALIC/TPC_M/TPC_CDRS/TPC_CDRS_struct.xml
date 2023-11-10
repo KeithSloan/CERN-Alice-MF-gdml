@@ -1,5 +1,0 @@
-<structure><volume name="TPC_CDRS">
-      <materialref ref="TPC_Mylar"/>
-      <solidref ref="TGeoTube0x170"/>
-    </volume>
-    </structure>

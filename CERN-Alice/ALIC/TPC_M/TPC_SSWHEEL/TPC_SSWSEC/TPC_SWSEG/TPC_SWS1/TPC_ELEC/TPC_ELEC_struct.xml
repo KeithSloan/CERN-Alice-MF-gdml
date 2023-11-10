@@ -1,5 +1,0 @@
-<structure><volume name="TPC_ELEC">
-      <materialref ref="TPC_Si"/>
-      <solidref ref="TGeoPgon0x184"/>
-    </volume>
-    </structure>

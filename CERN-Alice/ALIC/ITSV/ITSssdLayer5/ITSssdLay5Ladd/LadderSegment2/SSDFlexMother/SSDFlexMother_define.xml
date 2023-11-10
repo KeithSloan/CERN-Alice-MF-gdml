@@ -1,5 +1,0 @@
-<define><position name="center" x="0" y="0" z="0"/><position name="AlFlexLay1_1inSSDFlexMotherpos" x="0" y="0" z="-0" unit="cm"/>
-    <position name="KaptonFlexLay1_1inSSDFlexMotherpos" x="0" y="0" z="-0.0025000000000000001" unit="cm"/>
-    <position name="AlFlexLay2_1inSSDFlexMotherpos" x="0" y="0" z="-0.0050000000000000001" unit="cm"/>
-    <position name="KaptonFlexLay2_1inSSDFlexMotherpos" x="0" y="0" z="-0.0074999999999999997" unit="cm"/>
-    </define>

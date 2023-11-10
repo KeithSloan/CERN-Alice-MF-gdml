@@ -1,5 +1,0 @@
-<structure><volume name="EndCapCoverPlateSmallScrewPiece">
-      <materialref ref="ITS_INOX"/>
-      <solidref ref="TGeoTube0x113"/>
-    </volume>
-    </structure>

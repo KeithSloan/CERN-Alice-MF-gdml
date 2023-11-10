@@ -1,4 +1,0 @@
-<define><position name="center" x="0" y="0" z="0"/><position name="TPC_IHVH_1inTPC_HVMEMpos" x="0" y="0" z="0" unit="cm"/>
-    <position name="TPC_OHVH_1inTPC_HVMEMpos" x="0" y="0" z="0" unit="cm"/>
-    <position name="TPC_HV_1inTPC_HVMEMpos" x="0" y="0" z="0" unit="cm"/>
-    </define>

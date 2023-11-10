@@ -1,5 +1,0 @@
-<structure><volume name="OCER">
-      <materialref ref="T0_Ceramic__"/>
-      <solidref ref="OCER0x1"/>
-    </volume>
-    </structure>

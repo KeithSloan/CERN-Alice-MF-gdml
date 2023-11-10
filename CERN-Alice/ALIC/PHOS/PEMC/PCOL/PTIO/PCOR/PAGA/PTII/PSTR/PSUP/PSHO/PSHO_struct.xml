@@ -1,5 +1,0 @@
-<structure><volume name="PSHO">
-      <materialref ref="PHOS_Air"/>
-      <solidref ref="PSHO0x1"/>
-    </volume>
-    </structure>

@@ -1,9 +1,0 @@
-<define><position name="center" x="0" y="0" z="0"/><position name="SSDChipcableAllay1Left_1inSSDChipCablesMotherpos" x="0" y="0" z="0" unit="cm"/>
-    <position name="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherpos" x="0" y="0" z="0" unit="cm"/>
-    <position name="SSDChipcableAllay1Right_1inSSDChipCablesMotherpos" x="-2.6200000000000001" y="0" z="0" unit="cm"/>
-    <position name="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherpos" x="-2.6200000000000001" y="0" z="0" unit="cm"/>
-    <rotation name="SSDChipcableAllay1Left_1inSSDChipCablesMotherrot" x="-90" y="1.4032955127785321e-14" z="-7.0164775638926606e-15" unit="deg"/>
-    <rotation name="SSDChipcableKaptonlay2Left_1inSSDChipCablesMotherrot" x="-90" y="1.4032955127785321e-14" z="-7.0164775638926606e-15" unit="deg"/>
-    <rotation name="SSDChipcableAllay1Right_1inSSDChipCablesMotherrot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
-    <rotation name="SSDChipcableKaptonlay2Right_1inSSDChipCablesMotherrot" x="90" y="-7.0164775638926606e-15" z="180" unit="deg"/>
-    </define>

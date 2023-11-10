@@ -1,2 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="SSDStiffenerShape" x="7.3000000000000007" y="0.64999000000000007" z="0.0315" lunit="cm"/>
-    </solids>

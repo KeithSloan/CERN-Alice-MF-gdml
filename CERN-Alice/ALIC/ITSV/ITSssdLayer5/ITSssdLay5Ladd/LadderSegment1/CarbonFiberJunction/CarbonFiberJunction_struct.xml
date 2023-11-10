@@ -1,5 +1,0 @@
-<structure><volume name="CarbonFiberJunction">
-      <materialref ref="ITS_GEN_C_M55J"/>
-      <solidref ref="TGeoXtru0x19"/>
-    </volume>
-    </structure>

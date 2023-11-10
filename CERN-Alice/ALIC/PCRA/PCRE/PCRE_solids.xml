@@ -1,2 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="PCRE0x1" rmin="473.748291015625" rmax="534.748291015625" z="14" startphi="220" deltaphi="100" aunit="deg" lunit="cm"/>
-    </solids>

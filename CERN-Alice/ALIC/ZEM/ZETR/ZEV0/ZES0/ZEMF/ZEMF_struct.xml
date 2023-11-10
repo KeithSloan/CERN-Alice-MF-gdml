@@ -1,5 +1,0 @@
-<structure><volume name="ZEMF">
-      <materialref ref="ZDC_SIO2"/>
-      <solidref ref="ZEMF0x1"/>
-    </volume>
-    </structure>

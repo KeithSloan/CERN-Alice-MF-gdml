@@ -1,5 +1,0 @@
-<structure><volume name="SDDCableHole31">
-      <materialref ref="ITS_SDD_AIR"/>
-      <solidref ref="TGeoPcon0x98"/>
-    </volume>
-    </structure>

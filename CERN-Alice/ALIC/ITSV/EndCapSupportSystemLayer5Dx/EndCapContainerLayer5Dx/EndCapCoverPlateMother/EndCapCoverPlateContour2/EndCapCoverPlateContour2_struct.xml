@@ -1,5 +1,0 @@
-<structure><volume name="EndCapCoverPlateContour2">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="contourShape2"/>
-    </volume>
-    </structure>

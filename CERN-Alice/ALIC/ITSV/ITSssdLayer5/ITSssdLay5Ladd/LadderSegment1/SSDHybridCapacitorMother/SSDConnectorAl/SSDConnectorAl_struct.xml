@@ -1,5 +1,0 @@
-<structure><volume name="SSDConnectorAl">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoBBox0x1119"/>
-    </volume>
-    </structure>

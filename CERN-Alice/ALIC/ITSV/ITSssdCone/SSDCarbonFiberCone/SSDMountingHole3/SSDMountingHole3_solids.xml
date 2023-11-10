@@ -1,7 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><polycone name="TGeoPcon0x115" startphi="358.19540851927297" deltaphi="3.6091829614540045" aunit="deg" lunit="cm">
-      <zplane z="14.052199611919153" rmin="33.75" rmax="33.75"/>
-      <zplane z="14.148843316879404" rmin="33.631079947706453" rmax="33.75"/>
-      <zplane z="15.677555522824635" rmin="31.75" rmax="31.868920052293543"/>
-      <zplane z="15.774199227784885" rmin="31.75" rmax="31.75"/>
-    </polycone>
-    </solids>

@@ -1,5 +1,0 @@
-<structure><volume name="AlEndFlexLay2">
-      <materialref ref="ITS_AL"/>
-      <solidref ref="TGeoXtru0x35"/>
-    </volume>
-    </structure>

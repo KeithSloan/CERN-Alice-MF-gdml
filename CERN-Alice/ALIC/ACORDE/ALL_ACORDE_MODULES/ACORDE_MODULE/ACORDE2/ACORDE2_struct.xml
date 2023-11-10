@@ -1,5 +1,0 @@
-<structure><volume name="ACORDE2">
-      <materialref ref="ACORDE_Polystyrene"/>
-      <solidref ref="acorde2"/>
-    </volume>
-    </structure>

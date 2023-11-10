@@ -1,2 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="PCF10x1" x="2.5" y="5.0999999046325684" z="131.55999755859375" lunit="cm"/>
-    </solids>

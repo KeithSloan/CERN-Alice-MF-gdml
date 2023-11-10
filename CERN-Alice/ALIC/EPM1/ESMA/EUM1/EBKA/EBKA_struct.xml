@@ -1,5 +1,0 @@
-<structure><volume name="EBKA">
-      <materialref ref="PMD_G10"/>
-      <solidref ref="EBKA0x1"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<define><position name="center" x="0" y="0" z="0"/><position name="SSDfoamcylinder_1inSSDexternalcylinderpos" x="0" y="0" z="0" unit="cm"/>
-    <position name="SSDflangecylinder_1inSSDexternalcylinderpos" x="0" y="0" z="54.100000000000001" unit="cm"/>
-    <position name="SSDflangecylinder_2inSSDexternalcylinderpos" x="0" y="0" z="-54.100000000000001" unit="cm"/>
-    <rotation name="SSDflangecylinder_2inSSDexternalcylinderrot" x="-180" y="-0" z="0" unit="deg"/>
-    </define>

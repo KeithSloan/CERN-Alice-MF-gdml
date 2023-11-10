@@ -1,5 +1,0 @@
-<structure><volume name="OSU2">
-      <materialref ref="T0_CarbonPlastic"/>
-      <solidref ref="OSU20x1"/>
-    </volume>
-    </structure>

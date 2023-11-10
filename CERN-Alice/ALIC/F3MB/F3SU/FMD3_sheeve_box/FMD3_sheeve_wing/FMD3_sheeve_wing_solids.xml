@@ -1,2 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="FMD3_sheeve_wing0x1" x="0.29999999999999999" y="0.29999999999999999" z="2.2999999999999998" lunit="cm"/>
-    </solids>

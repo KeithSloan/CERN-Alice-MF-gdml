@@ -1,5 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="TGeoBBox0x1119" x="0.21600000000000003" y="0.36000000000000004" z="0.0030000000000000001" lunit="cm"/>
-    <box name="TGeoBBox0x1120" x="0.21600000000000003" y="0.36000000000000004" z="0.00020000000000000001" lunit="cm"/>
-    <box name="Capacitor1812Shape" x="0.45999999999999996" y="0.34000000000000002" z="0.069999999999999993" lunit="cm"/>
-    <tube name="HybridWireShape" rmin="0" rmax="0.018499999999999999" z="3.1855580358863342" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

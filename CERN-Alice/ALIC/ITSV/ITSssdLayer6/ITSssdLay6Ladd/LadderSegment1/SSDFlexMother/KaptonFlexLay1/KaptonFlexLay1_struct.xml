@@ -1,5 +1,0 @@
-<structure><volume name="KaptonFlexLay1">
-      <materialref ref="ITS_KAPTONHPOLYCH2"/>
-      <solidref ref="TGeoXtru0x32"/>
-    </volume>
-    </structure>

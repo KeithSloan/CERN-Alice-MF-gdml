@@ -1,2 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="OSA20x1" rmin="3.1500000953674316" rmax="3.1600000858306885" z="4.6999998092651367" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
-    </solids>

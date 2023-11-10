@@ -1,9 +1,0 @@
-
-<!DOCTYPE gdml [
-<!ENTITY materials SYSTEM "EndCapCoverPlateSmallHole_materials.xml">
-<!ENTITY solids SYSTEM "EndCapCoverPlateSmallHole_solids.xml">
-<!ENTITY setup SYSTEM "EndCapCoverPlateSmallHole_setup.xml">
-<!ENTITY struct SYSTEM "EndCapCoverPlateSmallHole_struct.xml">
-]>
-
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

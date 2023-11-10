@@ -1,9 +1,0 @@
-
-<!DOCTYPE gdml [
-<!ENTITY materials SYSTEM "CoolingTubeSupportBox_materials.xml">
-<!ENTITY solids SYSTEM "CoolingTubeSupportBox_solids.xml">
-<!ENTITY setup SYSTEM "CoolingTubeSupportBox_setup.xml">
-<!ENTITY struct SYSTEM "CoolingTubeSupportBox_struct.xml">
-]>
-
-<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

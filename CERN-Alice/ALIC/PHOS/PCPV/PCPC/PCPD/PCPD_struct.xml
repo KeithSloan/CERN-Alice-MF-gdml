@@ -1,5 +1,0 @@
-<structure><volume name="PCPD">
-      <materialref ref="PHOS_Cu"/>
-      <solidref ref="PCPD0x1"/>
-    </volume>
-    </structure>

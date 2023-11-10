@@ -1,5 +1,0 @@
-<structure><volume name="TPC_ICVS">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoPcon0x154"/>
-    </volume>
-    </structure>

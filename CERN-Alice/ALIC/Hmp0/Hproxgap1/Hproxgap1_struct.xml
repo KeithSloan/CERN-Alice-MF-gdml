@@ -1,5 +1,0 @@
-<structure><volume name="Hproxgap1">
-      <materialref ref="HMPID_CH4"/>
-      <solidref ref="Hproxgap10x1"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<structure><volume name="EndCapCardElectBoardLayer">
-      <materialref ref="ITS_KAPTONHPOLYCH2"/>
-      <solidref ref="TGeoXtru0x79"/>
-    </volume>
-    </structure>

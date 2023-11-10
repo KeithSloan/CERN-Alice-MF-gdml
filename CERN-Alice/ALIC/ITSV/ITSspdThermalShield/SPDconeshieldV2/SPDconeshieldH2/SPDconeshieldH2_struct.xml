@@ -1,5 +1,0 @@
-<structure><volume name="SPDconeshieldH2">
-      <materialref ref="ITS_SPD_AIR"/>
-      <solidref ref="TGeoArb80x152"/>
-    </volume>
-    </structure>

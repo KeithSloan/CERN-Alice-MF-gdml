@@ -1,8 +1,0 @@
-<structure><volume name="Hgap0x8">
-      <materialref ref="HMPID_CH4"/>
-      <solidref ref="Hgap0x9"/>
-      <divisionvol axis="kYAxis" number="48" width="0.84000000000000008" offset="0" unit="cm">
-        <volumeref ref="Hrow0x4"/>
-      </divisionvol>
-    </volume>
-    </structure>

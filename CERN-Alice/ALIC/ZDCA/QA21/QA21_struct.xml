@@ -1,5 +1,0 @@
-<structure><volume name="QA21">
-      <materialref ref="ZDC_IRON0"/>
-      <solidref ref="QA210x1"/>
-    </volume>
-    </structure>

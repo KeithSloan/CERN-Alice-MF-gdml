@@ -1,5 +1,0 @@
-<structure><volume name="cradleSbase">
-      <materialref ref="HMPID_Al"/>
-      <solidref ref="cradleSbase0x1"/>
-    </volume>
-    </structure>

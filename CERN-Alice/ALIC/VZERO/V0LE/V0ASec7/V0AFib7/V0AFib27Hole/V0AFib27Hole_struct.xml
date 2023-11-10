@@ -1,5 +1,0 @@
-<structure><volume name="V0AFib27Hole">
-      <materialref ref="VZERO_V0AFib"/>
-      <solidref ref="sV0AFib27Hole"/>
-    </volume>
-    </structure>

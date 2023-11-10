@@ -1,5 +1,0 @@
-<structure><volume name="V0ASuppbr">
-      <materialref ref="VZERO_V0ALuc"/>
-      <solidref ref="sV0ASuppbr"/>
-    </volume>
-    </structure>

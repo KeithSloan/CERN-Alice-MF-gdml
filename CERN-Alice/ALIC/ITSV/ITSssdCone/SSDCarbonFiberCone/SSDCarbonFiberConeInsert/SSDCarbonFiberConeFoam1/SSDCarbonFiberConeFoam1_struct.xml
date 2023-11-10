@@ -1,5 +1,0 @@
-<structure><volume name="SSDCarbonFiberConeFoam1">
-      <materialref ref="ITS_ROHACELL"/>
-      <solidref ref="TGeoPcon0x108"/>
-    </volume>
-    </structure>

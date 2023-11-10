@@ -1,5 +1,0 @@
-<structure><volume name="EFEE">
-      <materialref ref="PMD_G10"/>
-      <solidref ref="EFEE0x1"/>
-    </volume>
-    </structure>

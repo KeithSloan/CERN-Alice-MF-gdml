@@ -1,5 +1,0 @@
-<structure><volume name="TPC_PR_O">
-      <materialref ref="TPC_Water"/>
-      <solidref ref="TGeoTube0x159"/>
-    </volume>
-    </structure>

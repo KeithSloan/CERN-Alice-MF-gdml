@@ -1,5 +1,0 @@
-<structure><volume name="FOSL">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FOSL0x1"/>
-    </volume>
-    </structure>

@@ -1,5 +1,0 @@
-<structure><volume name="TPC_ORB4">
-      <materialref ref="TPC_Al"/>
-      <solidref ref="TGeoTrd10x13"/>
-    </volume>
-    </structure>

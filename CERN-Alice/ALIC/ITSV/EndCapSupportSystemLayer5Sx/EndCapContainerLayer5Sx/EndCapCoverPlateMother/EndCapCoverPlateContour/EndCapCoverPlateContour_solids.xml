@@ -1,9 +1,0 @@
-<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><subtraction name="contourShape">
-      <first ref="EndCapCoverPlateContourBoxOut"/>
-      <second ref="EndCapCoverPlateContourBoxIn"/>
-      <firstposition name="contourShapeEndCapCoverPlateContourBoxOutpos" x="2.75" y="2.8000000000000003" z="0" unit="cm"/>
-      <position name="contourShapeEndCapCoverPlateContourBoxInpos" x="2.75" y="2.8000000000000003" z="0" unit="cm"/>
-    </subtraction>
-    <box name="EndCapCoverPlateContourBoxOut" x="6.9000000000000004" y="6.2000000000000002" z="0.050000000000000003" lunit="cm"/>
-    <box name="EndCapCoverPlateContourBoxIn" x="5.75" y="5.8500000000000005" z="0.070000000000000007" lunit="cm"/>
-    </solids>

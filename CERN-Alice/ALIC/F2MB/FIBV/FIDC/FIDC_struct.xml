@@ -1,5 +1,0 @@
-<structure><volume name="FIDC">
-      <materialref ref="FMD_Copper"/>
-      <solidref ref="FIDC0x1"/>
-    </volume>
-    </structure>
