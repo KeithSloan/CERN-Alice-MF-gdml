@@ -1,0 +1,8 @@
+<structure><volume name="FIAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FIAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="18" offset="-360" unit="deg">
+        <volumeref ref="FISC"/>
+      </divisionvol>
+    </volume>
+    </structure>

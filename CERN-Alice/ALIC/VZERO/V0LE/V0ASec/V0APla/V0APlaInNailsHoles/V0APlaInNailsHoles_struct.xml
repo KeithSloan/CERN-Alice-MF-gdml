@@ -1,0 +1,5 @@
+<structure><volume name="V0APlaInNailsHoles">
+      <materialref ref="VZERO_V0APlaIn"/>
+      <solidref ref="sV0APlaInNailsHoles"/>
+    </volume>
+    </structure>

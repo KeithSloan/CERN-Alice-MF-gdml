@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="HybridWireShape" rmin="0" rmax="0.018499999999999999" z="3.1855580358863342" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

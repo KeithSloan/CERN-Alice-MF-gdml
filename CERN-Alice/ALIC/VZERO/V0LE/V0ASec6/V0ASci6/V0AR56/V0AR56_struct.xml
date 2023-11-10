@@ -1,0 +1,5 @@
+<structure><volume name="V0AR56">
+      <materialref ref="VZERO_V0ASci"/>
+      <solidref ref="V0AR560x1"/>
+    </volume>
+    </structure>

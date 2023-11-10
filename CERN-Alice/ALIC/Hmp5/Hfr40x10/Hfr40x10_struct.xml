@@ -1,0 +1,1635 @@
+<structure><volume name="Hcol0x10">
+      <materialref ref="HMPID_Cu"/>
+      <solidref ref="Hcol0x11"/>
+    </volume>
+    <volume name="Hf4i0x10">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hf4i0x11"/>
+    </volume>
+    <volume name="Hf4a0x10">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="Hf4a0x11"/>
+      <physvol name="Hf4i_1" copynumber="1">
+        <volumeref ref="Hf4i0x10"/>
+        <positionref ref="Hf4i_10x5inHf4a0x10pos"/>
+      </physvol>
+    </volume>
+    <volume name="Hfr40x10">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr40x11"/>
+      <physvol name="Hcol_1" copynumber="1">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_10x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_10x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_2" copynumber="2">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_20x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_20x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_3" copynumber="3">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_30x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_30x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_4" copynumber="4">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_40x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_40x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_5" copynumber="5">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_50x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_50x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_6" copynumber="6">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_60x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_60x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_7" copynumber="7">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_70x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_70x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_8" copynumber="8">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_80x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_80x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_9" copynumber="9">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_90x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_90x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_10" copynumber="10">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_100x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_100x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_11" copynumber="11">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_110x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_110x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_12" copynumber="12">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_120x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_120x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_13" copynumber="13">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_130x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_130x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_14" copynumber="14">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_140x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_140x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_15" copynumber="15">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_150x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_150x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_16" copynumber="16">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_160x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_160x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_17" copynumber="17">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_170x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_170x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_18" copynumber="18">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_180x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_180x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_19" copynumber="19">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_190x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_190x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_20" copynumber="20">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_200x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_200x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_21" copynumber="21">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_210x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_210x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_22" copynumber="22">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_220x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_220x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_23" copynumber="23">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_230x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_230x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_24" copynumber="24">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_240x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_240x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_25" copynumber="25">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_250x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_250x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_26" copynumber="26">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_260x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_260x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_27" copynumber="27">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_270x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_270x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_28" copynumber="28">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_280x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_280x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_29" copynumber="29">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_290x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_290x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_30" copynumber="30">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_300x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_300x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_31" copynumber="31">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_310x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_310x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_32" copynumber="32">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_320x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_320x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_33" copynumber="33">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_330x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_330x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_34" copynumber="34">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_340x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_340x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_35" copynumber="35">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_350x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_350x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_36" copynumber="36">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_360x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_360x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_37" copynumber="37">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_370x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_370x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_38" copynumber="38">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_380x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_380x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_39" copynumber="39">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_390x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_390x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_40" copynumber="40">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_400x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_400x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_41" copynumber="41">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_410x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_410x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_42" copynumber="42">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_420x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_420x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_43" copynumber="43">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_430x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_430x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_44" copynumber="44">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_440x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_440x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_45" copynumber="45">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_450x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_450x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_46" copynumber="46">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_460x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_460x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_47" copynumber="47">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_470x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_470x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_48" copynumber="48">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_480x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_480x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_49" copynumber="49">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_490x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_490x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_50" copynumber="50">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_500x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_500x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_51" copynumber="51">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_510x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_510x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_52" copynumber="52">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_520x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_520x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_53" copynumber="53">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_530x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_530x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_54" copynumber="54">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_540x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_540x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_55" copynumber="55">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_550x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_550x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_56" copynumber="56">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_560x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_560x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_57" copynumber="57">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_570x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_570x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_58" copynumber="58">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_580x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_580x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_59" copynumber="59">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_590x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_590x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_60" copynumber="60">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_600x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_600x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_61" copynumber="61">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_610x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_610x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_62" copynumber="62">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_620x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_620x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_63" copynumber="63">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_630x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_630x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_64" copynumber="64">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_640x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_640x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_65" copynumber="65">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_650x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_650x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_66" copynumber="66">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_660x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_660x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_67" copynumber="67">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_670x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_670x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_68" copynumber="68">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_680x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_680x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_69" copynumber="69">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_690x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_690x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_70" copynumber="70">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_700x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_700x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_71" copynumber="71">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_710x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_710x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_72" copynumber="72">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_720x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_720x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_73" copynumber="73">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_730x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_730x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_74" copynumber="74">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_740x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_740x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_75" copynumber="75">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_750x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_750x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_76" copynumber="76">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_760x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_760x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_77" copynumber="77">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_770x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_770x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_78" copynumber="78">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_780x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_780x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_79" copynumber="79">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_790x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_790x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_80" copynumber="80">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_800x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_800x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_81" copynumber="81">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_810x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_810x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_82" copynumber="82">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_820x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_820x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_83" copynumber="83">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_830x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_830x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_84" copynumber="84">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_840x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_840x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_85" copynumber="85">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_850x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_850x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_86" copynumber="86">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_860x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_860x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_87" copynumber="87">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_870x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_870x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_88" copynumber="88">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_880x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_880x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_89" copynumber="89">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_890x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_890x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_90" copynumber="90">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_900x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_900x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_91" copynumber="91">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_910x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_910x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_92" copynumber="92">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_920x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_920x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_93" copynumber="93">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_930x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_930x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_94" copynumber="94">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_940x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_940x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_95" copynumber="95">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_950x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_950x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_96" copynumber="96">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_960x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_960x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_97" copynumber="97">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_970x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_970x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_98" copynumber="98">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_980x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_980x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_99" copynumber="99">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_990x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_990x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_100" copynumber="100">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1000x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1000x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_101" copynumber="101">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1010x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1010x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_102" copynumber="102">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1020x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1020x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_103" copynumber="103">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1030x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1030x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_104" copynumber="104">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1040x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1040x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_105" copynumber="105">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1050x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1050x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_106" copynumber="106">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1060x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1060x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_107" copynumber="107">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1070x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1070x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_108" copynumber="108">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1080x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1080x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_109" copynumber="109">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1090x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1090x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_110" copynumber="110">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1100x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1100x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_111" copynumber="111">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1110x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1110x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_112" copynumber="112">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1120x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1120x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_113" copynumber="113">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1130x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1130x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_114" copynumber="114">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1140x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1140x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_115" copynumber="115">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1150x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1150x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_116" copynumber="116">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1160x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1160x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_117" copynumber="117">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1170x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1170x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_118" copynumber="118">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1180x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1180x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_119" copynumber="119">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1190x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1190x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_120" copynumber="120">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1200x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1200x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_121" copynumber="121">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1210x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1210x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_122" copynumber="122">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1220x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1220x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_123" copynumber="123">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1230x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1230x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_124" copynumber="124">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1240x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1240x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_125" copynumber="125">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1250x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1250x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_126" copynumber="126">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1260x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1260x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_127" copynumber="127">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1270x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1270x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_128" copynumber="128">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1280x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1280x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_129" copynumber="129">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1290x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1290x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_130" copynumber="130">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1300x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1300x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_131" copynumber="131">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1310x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1310x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_132" copynumber="132">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1320x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1320x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_133" copynumber="133">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1330x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1330x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_134" copynumber="134">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1340x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1340x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_135" copynumber="135">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1350x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1350x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_136" copynumber="136">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1360x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1360x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_137" copynumber="137">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1370x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1370x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_138" copynumber="138">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1380x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1380x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_139" copynumber="139">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1390x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1390x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_140" copynumber="140">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1400x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1400x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_141" copynumber="141">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1410x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1410x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_142" copynumber="142">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1420x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1420x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_143" copynumber="143">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1430x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1430x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_144" copynumber="144">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1440x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1440x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_145" copynumber="145">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1450x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1450x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_146" copynumber="146">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1460x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1460x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_147" copynumber="147">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1470x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1470x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_148" copynumber="148">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1480x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1480x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_149" copynumber="149">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1490x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1490x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_150" copynumber="150">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1500x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1500x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_151" copynumber="151">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1510x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1510x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_152" copynumber="152">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1520x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1520x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_153" copynumber="153">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1530x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1530x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_154" copynumber="154">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1540x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1540x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_155" copynumber="155">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1550x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1550x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_156" copynumber="156">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1560x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1560x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_157" copynumber="157">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1570x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1570x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_158" copynumber="158">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1580x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1580x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_159" copynumber="159">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1590x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1590x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_160" copynumber="160">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1600x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1600x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_161" copynumber="161">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1610x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1610x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_162" copynumber="162">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1620x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1620x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_163" copynumber="163">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1630x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1630x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_164" copynumber="164">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1640x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1640x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_165" copynumber="165">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1650x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1650x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_166" copynumber="166">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1660x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1660x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_167" copynumber="167">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1670x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1670x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_168" copynumber="168">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1680x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1680x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_169" copynumber="169">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1690x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1690x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_170" copynumber="170">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1700x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1700x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_171" copynumber="171">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1710x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1710x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_172" copynumber="172">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1720x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1720x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_173" copynumber="173">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1730x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1730x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_174" copynumber="174">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1740x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1740x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_175" copynumber="175">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1750x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1750x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_176" copynumber="176">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1760x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1760x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_177" copynumber="177">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1770x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1770x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_178" copynumber="178">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1780x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1780x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_179" copynumber="179">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1790x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1790x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_180" copynumber="180">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1800x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1800x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_181" copynumber="181">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1810x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1810x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_182" copynumber="182">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1820x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1820x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_183" copynumber="183">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1830x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1830x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_184" copynumber="184">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1840x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1840x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_185" copynumber="185">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1850x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1850x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_186" copynumber="186">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1860x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1860x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_187" copynumber="187">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1870x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1870x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_188" copynumber="188">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1880x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1880x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_189" copynumber="189">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1890x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1890x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_190" copynumber="190">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1900x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1900x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_191" copynumber="191">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1910x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1910x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_192" copynumber="192">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1920x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1920x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_193" copynumber="193">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1930x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1930x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_194" copynumber="194">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1940x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1940x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_195" copynumber="195">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1950x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1950x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_196" copynumber="196">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1960x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1960x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_197" copynumber="197">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1970x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1970x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_198" copynumber="198">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1980x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1980x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_199" copynumber="199">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_1990x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_1990x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_200" copynumber="200">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2000x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2000x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_201" copynumber="201">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2010x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2010x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_202" copynumber="202">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2020x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2020x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_203" copynumber="203">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2030x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2030x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_204" copynumber="204">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2040x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2040x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_205" copynumber="205">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2050x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2050x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_206" copynumber="206">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2060x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2060x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_207" copynumber="207">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2070x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2070x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_208" copynumber="208">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2080x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2080x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_209" copynumber="209">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2090x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2090x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_210" copynumber="210">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2100x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2100x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_211" copynumber="211">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2110x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2110x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_212" copynumber="212">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2120x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2120x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_213" copynumber="213">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2130x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2130x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_214" copynumber="214">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2140x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2140x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_215" copynumber="215">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2150x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2150x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_216" copynumber="216">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2160x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2160x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_217" copynumber="217">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2170x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2170x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_218" copynumber="218">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2180x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2180x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_219" copynumber="219">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2190x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2190x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_220" copynumber="220">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2200x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2200x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_221" copynumber="221">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2210x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2210x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_222" copynumber="222">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2220x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2220x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_223" copynumber="223">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2230x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2230x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_224" copynumber="224">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2240x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2240x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_225" copynumber="225">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2250x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2250x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_226" copynumber="226">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2260x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2260x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_227" copynumber="227">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2270x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2270x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_228" copynumber="228">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2280x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2280x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_229" copynumber="229">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2290x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2290x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_230" copynumber="230">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2300x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2300x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_231" copynumber="231">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2310x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2310x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_232" copynumber="232">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2320x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2320x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_233" copynumber="233">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2330x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2330x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_234" copynumber="234">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2340x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2340x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_235" copynumber="235">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2350x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2350x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_236" copynumber="236">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2360x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2360x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_237" copynumber="237">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2370x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2370x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_238" copynumber="238">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2380x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2380x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_239" copynumber="239">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2390x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2390x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_240" copynumber="240">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2400x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2400x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_241" copynumber="241">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2410x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2410x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_242" copynumber="242">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2420x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2420x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_243" copynumber="243">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2430x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2430x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_244" copynumber="244">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2440x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2440x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_245" copynumber="245">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2450x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2450x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_246" copynumber="246">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2460x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2460x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_247" copynumber="247">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2470x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2470x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_248" copynumber="248">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2480x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2480x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_249" copynumber="249">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2490x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2490x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_250" copynumber="250">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2500x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2500x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_251" copynumber="251">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2510x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2510x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_252" copynumber="252">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2520x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2520x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_253" copynumber="253">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2530x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2530x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_254" copynumber="254">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2540x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2540x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_255" copynumber="255">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2550x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2550x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_256" copynumber="256">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2560x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2560x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_257" copynumber="257">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2570x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2570x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_258" copynumber="258">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2580x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2580x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_259" copynumber="259">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2590x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2590x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_260" copynumber="260">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2600x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2600x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_261" copynumber="261">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2610x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2610x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_262" copynumber="262">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2620x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2620x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_263" copynumber="263">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2630x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2630x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_264" copynumber="264">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2640x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2640x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_265" copynumber="265">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2650x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2650x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_266" copynumber="266">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2660x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2660x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_267" copynumber="267">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2670x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2670x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_268" copynumber="268">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2680x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2680x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_269" copynumber="269">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2690x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2690x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_270" copynumber="270">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2700x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2700x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_271" copynumber="271">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2710x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2710x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_272" copynumber="272">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2720x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2720x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_273" copynumber="273">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2730x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2730x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_274" copynumber="274">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2740x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2740x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_275" copynumber="275">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2750x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2750x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_276" copynumber="276">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2760x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2760x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_277" copynumber="277">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2770x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2770x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_278" copynumber="278">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2780x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2780x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_279" copynumber="279">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2790x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2790x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_280" copynumber="280">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2800x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2800x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_281" copynumber="281">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2810x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2810x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_282" copynumber="282">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2820x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2820x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_283" copynumber="283">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2830x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2830x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_284" copynumber="284">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2840x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2840x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_285" copynumber="285">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2850x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2850x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_286" copynumber="286">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2860x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2860x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_287" copynumber="287">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2870x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2870x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_288" copynumber="288">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2880x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2880x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_289" copynumber="289">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2890x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2890x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_290" copynumber="290">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2900x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2900x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_291" copynumber="291">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2910x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2910x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_292" copynumber="292">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2920x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2920x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_293" copynumber="293">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2930x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2930x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_294" copynumber="294">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2940x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2940x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_295" copynumber="295">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2950x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2950x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_296" copynumber="296">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2960x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2960x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_297" copynumber="297">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2970x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2970x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_298" copynumber="298">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2980x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2980x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_299" copynumber="299">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_2990x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_2990x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_300" copynumber="300">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3000x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3000x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_301" copynumber="301">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3010x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3010x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_302" copynumber="302">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3020x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3020x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_303" copynumber="303">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3030x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3030x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_304" copynumber="304">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3040x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3040x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_305" copynumber="305">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3050x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3050x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_306" copynumber="306">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3060x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3060x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_307" copynumber="307">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3070x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3070x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_308" copynumber="308">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3080x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3080x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_309" copynumber="309">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3090x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3090x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_310" copynumber="310">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3100x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3100x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_311" copynumber="311">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3110x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3110x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_312" copynumber="312">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3120x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3120x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_313" copynumber="313">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3130x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3130x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_314" copynumber="314">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3140x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3140x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_315" copynumber="315">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3150x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3150x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_316" copynumber="316">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3160x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3160x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_317" copynumber="317">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3170x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3170x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_318" copynumber="318">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3180x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3180x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_319" copynumber="319">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3190x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3190x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_320" copynumber="320">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3200x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3200x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_321" copynumber="321">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3210x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3210x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hcol_322" copynumber="322">
+        <volumeref ref="Hcol0x10"/>
+        <positionref ref="Hcol_3220x5inHfr40x10pos"/>
+        <rotationref ref="Hcol_3220x5inHfr40x10rot"/>
+      </physvol>
+      <physvol name="Hf4a_1" copynumber="1">
+        <volumeref ref="Hf4a0x10"/>
+        <positionref ref="Hf4a_10x5inHfr40x10pos"/>
+      </physvol>
+    </volume>
+    </structure>

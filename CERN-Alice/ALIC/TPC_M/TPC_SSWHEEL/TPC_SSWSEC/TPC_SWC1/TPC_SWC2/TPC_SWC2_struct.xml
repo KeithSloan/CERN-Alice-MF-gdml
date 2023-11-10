@@ -1,0 +1,5 @@
+<structure><volume name="TPC_SWC2">
+      <materialref ref="TPC_Air"/>
+      <solidref ref="TGeoPgon0x186"/>
+    </volume>
+    </structure>

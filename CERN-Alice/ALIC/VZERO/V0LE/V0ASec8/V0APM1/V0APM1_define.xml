@@ -1,0 +1,12 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="V0APMB8_1inV0APM1pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0APMT18_1inV0APMT8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0APMT28_1inV0APMT8pos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0APMTT8_1inV0APMT8pos" x="0" y="5.5" z="0" unit="cm"/>
+    <position name="V0APMT8_1inV0APM1pos" x="-9" y="0" z="0" unit="cm"/>
+    <position name="V0APMT8_2inV0APM1pos" x="-3" y="0" z="0" unit="cm"/>
+    <position name="V0APMT8_3inV0APM1pos" x="3" y="0" z="0" unit="cm"/>
+    <position name="V0APMT8_4inV0APM1pos" x="9" y="0" z="0" unit="cm"/>
+    <rotation name="V0APMT18_1inV0APMT8rot" x="90" y="-0" z="0" unit="deg"/>
+    <rotation name="V0APMT28_1inV0APMT8rot" x="90" y="-0" z="0" unit="deg"/>
+    <rotation name="V0APMTT8_1inV0APMT8rot" x="90" y="-0" z="0" unit="deg"/>
+    </define>

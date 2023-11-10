@@ -1,0 +1,21 @@
+<structure><volume name="SPDcentralomega">
+      <materialref ref="ITS_SPD_shield"/>
+      <solidref ref="TGeoXtru0x89"/>
+    </volume>
+    <volume name="SPDcentralairshield">
+      <materialref ref="ITS_SPD_AIR"/>
+      <solidref ref="TGeoXtru0x88"/>
+      <physvol name="SPDcentralomega_1" copynumber="1">
+        <volumeref ref="SPDcentralomega"/>
+        <positionref ref="SPDcentralomega_1inSPDcentralairshieldpos"/>
+      </physvol>
+    </volume>
+    <volume name="SPDcentralshield">
+      <materialref ref="ITS_SPD_shield"/>
+      <solidref ref="TGeoXtru0x87"/>
+      <physvol name="SPDcentralairshield_1" copynumber="1">
+        <volumeref ref="SPDcentralairshield"/>
+        <positionref ref="SPDcentralairshield_1inSPDcentralshieldpos"/>
+      </physvol>
+    </volume>
+    </structure>

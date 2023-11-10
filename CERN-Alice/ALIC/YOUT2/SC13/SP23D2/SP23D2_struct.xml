@@ -1,0 +1,11 @@
+<structure><volume name="SPINO30x36">
+      <materialref ref="MUON_Kapton"/>
+      <solidref ref="SPINO30x37"/>
+    </volume>
+    <assembly name="SP23D2">
+      <physvol name="SPINO3_155" copynumber="155">
+        <volumeref ref="SPINO30x36"/>
+        <positionref ref="SPINO3_155inSP23D2pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSP23D2"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SP23D2"><volumeref ref="SP23D2"/><positionref ref="center"/></physvol></volume></structure>

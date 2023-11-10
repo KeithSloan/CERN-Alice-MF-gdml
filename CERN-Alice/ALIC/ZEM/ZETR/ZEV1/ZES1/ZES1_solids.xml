@@ -1,0 +1,3 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="ZEMF0x1" rmin="0" rmax="0.027499999850988388" z="9.8364953994750977" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <para name="TGeoPara0x6" x="0.091095447540283203" y="7" z="0.076086956521739135" alpha="45" theta="0" phi="0" aunit="deg" lunit="cm"/>
+    </solids>

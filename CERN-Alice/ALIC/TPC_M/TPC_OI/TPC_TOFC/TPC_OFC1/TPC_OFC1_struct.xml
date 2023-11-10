@@ -1,0 +1,21 @@
+<structure><volume name="TPC_OFC3">
+      <materialref ref="TPC_NOMEX"/>
+      <solidref ref="TGeoTube0x168"/>
+    </volume>
+    <volume name="TPC_OFC2">
+      <materialref ref="TPC_Prepreg3"/>
+      <solidref ref="TGeoTube0x167"/>
+      <physvol name="TPC_OFC3_1" copynumber="1">
+        <volumeref ref="TPC_OFC3"/>
+        <positionref ref="TPC_OFC3_1inTPC_OFC2pos"/>
+      </physvol>
+    </volume>
+    <volume name="TPC_OFC1">
+      <materialref ref="TPC_Tedlar"/>
+      <solidref ref="TGeoTube0x166"/>
+      <physvol name="TPC_OFC2_1" copynumber="1">
+        <volumeref ref="TPC_OFC2"/>
+        <positionref ref="TPC_OFC2_1inTPC_OFC1pos"/>
+      </physvol>
+    </volume>
+    </structure>

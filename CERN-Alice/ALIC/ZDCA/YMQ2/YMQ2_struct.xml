@@ -1,0 +1,5 @@
+<structure><volume name="YMQ2">
+      <materialref ref="ZDC_IRON0"/>
+      <solidref ref="YMQ20x1"/>
+    </volume>
+    </structure>

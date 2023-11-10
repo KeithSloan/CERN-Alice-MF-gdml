@@ -1,0 +1,30 @@
+<structure><volume name="V0APMT18">
+      <materialref ref="VZERO_V0APMG"/>
+      <solidref ref="sV0APMT18"/>
+    </volume>
+    <volume name="V0APMT28">
+      <materialref ref="VZERO_V0APMA"/>
+      <solidref ref="sV0APMT28"/>
+    </volume>
+    <volume name="V0APMTT8">
+      <materialref ref="VZERO_V0APMA"/>
+      <solidref ref="sV0APMTT8"/>
+    </volume>
+    <assembly name="V0APMT8">
+      <physvol name="V0APMT18_1" copynumber="1">
+        <volumeref ref="V0APMT18"/>
+        <positionref ref="V0APMT18_1inV0APMT8pos"/>
+        <rotationref ref="V0APMT18_1inV0APMT8rot"/>
+      </physvol>
+      <physvol name="V0APMT28_1" copynumber="1">
+        <volumeref ref="V0APMT28"/>
+        <positionref ref="V0APMT28_1inV0APMT8pos"/>
+        <rotationref ref="V0APMT28_1inV0APMT8rot"/>
+      </physvol>
+      <physvol name="V0APMTT8_1" copynumber="1">
+        <volumeref ref="V0APMTT8"/>
+        <positionref ref="V0APMTT8_1inV0APMT8pos"/>
+        <rotationref ref="V0APMTT8_1inV0APMT8rot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootV0APMT8"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-V0APMT8"><volumeref ref="V0APMT8"/><positionref ref="center"/></physvol></volume></structure>

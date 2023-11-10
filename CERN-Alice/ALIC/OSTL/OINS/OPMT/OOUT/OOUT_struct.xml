@@ -1,0 +1,5 @@
+<structure><volume name="OOUT">
+      <materialref ref="T0_PMT_glass___"/>
+      <solidref ref="OOUT0x1"/>
+    </volume>
+    </structure>

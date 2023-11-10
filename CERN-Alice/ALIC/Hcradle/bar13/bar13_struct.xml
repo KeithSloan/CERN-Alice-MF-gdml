@@ -1,0 +1,5 @@
+<structure><volume name="bar13">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="bar130x1"/>
+    </volume>
+    </structure>

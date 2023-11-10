@@ -1,0 +1,5 @@
+<structure><volume name="SSDChipcableAllay1Left">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x26"/>
+    </volume>
+    </structure>

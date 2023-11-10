@@ -1,0 +1,5 @@
+<structure><volume name="EFEB">
+      <materialref ref="PMD_STAINLESS_STEEL"/>
+      <solidref ref="EFEB0x1"/>
+    </volume>
+    </structure>

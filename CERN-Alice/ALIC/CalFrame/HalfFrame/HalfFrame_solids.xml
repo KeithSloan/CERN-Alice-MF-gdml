@@ -1,0 +1,9 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="End_Beams0x1" x="38" y="3" z="304.60000000000002" lunit="cm"/>
+    <tube name="supportBottom0x1" rmin="490" rmax="493" z="30.399999999999999" startphi="76.799999999999997" deltaphi="116.23" aunit="deg" lunit="cm"/>
+    <tube name="RibVolume0x1" rmin="493" rmax="528" z="3" startphi="76.799999999999997" deltaphi="116.23" aunit="deg" lunit="cm"/>
+    <box name="crossBottom0x1" x="3" y="30.399999999999999" z="61.000000000000007" lunit="cm"/>
+    <box name="crossTop0x1" x="35" y="3" z="61.000000000000007" lunit="cm"/>
+    <tube name="subSetCross0x1" rmin="489" rmax="528.14999999999998" z="61.000000000000007" startphi="76.799999999999997" deltaphi="116.23" aunit="deg" lunit="cm"/>
+    <tube name="skin0x1" rmin="528.14999999999998" rmax="529.14999999999998" z="304.60000000000002" startphi="76.799999999999997" deltaphi="116.23" aunit="deg" lunit="cm"/>
+    <tube name="HalfFrame0x1" rmin="488" rmax="529.14999999999998" z="304.60000000000002" startphi="73.899999999999991" deltaphi="122.03000000000002" aunit="deg" lunit="cm"/>
+    </solids>

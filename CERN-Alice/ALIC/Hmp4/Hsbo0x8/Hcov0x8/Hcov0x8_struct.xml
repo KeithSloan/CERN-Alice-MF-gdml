@@ -1,0 +1,5 @@
+<structure><volume name="Hcov0x8">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="Hcov0x9"/>
+    </volume>
+    </structure>

@@ -1,0 +1,13 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="TGeoTube0x139" rmin="76.711200000000005" rmax="78.711200000000005" z="187.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x138" rmin="76.681200000000004" rmax="78.741200000000006" z="187.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x137" rmin="76.677400000000006" rmax="78.745000000000005" z="187.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x143" rmin="76.736199999999997" rmax="78.736199999999997" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x142" rmin="76.706199999999995" rmax="78.766199999999998" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x141" rmin="76.681200000000004" rmax="78.791200000000003" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x140" rmin="76.677400000000006" rmax="78.795000000000002" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x147" rmin="76.761200000000002" rmax="78.761200000000002" z="148.34999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x146" rmin="76.731200000000001" rmax="78.791200000000003" z="148.34999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x145" rmin="76.681200000000004" rmax="78.841200000000001" z="148.34999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x144" rmin="76.677400000000006" rmax="78.844999999999999" z="148.34999999999999" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="TGeoTube0x148" rmin="76.677400000000006" rmax="78.844999999999999" z="1.5" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

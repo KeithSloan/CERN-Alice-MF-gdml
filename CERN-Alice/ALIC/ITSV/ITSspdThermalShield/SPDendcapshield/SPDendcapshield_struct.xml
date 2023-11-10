@@ -1,0 +1,21 @@
+<structure><volume name="SPDendcapomega">
+      <materialref ref="ITS_SPD_shield"/>
+      <solidref ref="TGeoXtru0x92"/>
+    </volume>
+    <volume name="SPDendcapairshield">
+      <materialref ref="ITS_SPD_AIR"/>
+      <solidref ref="TGeoXtru0x91"/>
+      <physvol name="SPDendcapomega_1" copynumber="1">
+        <volumeref ref="SPDendcapomega"/>
+        <positionref ref="SPDendcapomega_1inSPDendcapairshieldpos"/>
+      </physvol>
+    </volume>
+    <volume name="SPDendcapshield">
+      <materialref ref="ITS_SPD_shield"/>
+      <solidref ref="TGeoXtru0x90"/>
+      <physvol name="SPDendcapairshield_1" copynumber="1">
+        <volumeref ref="SPDendcapairshield"/>
+        <positionref ref="SPDendcapairshield_1inSPDendcapshieldpos"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,5 @@
+<structure><volume name="SSDSensorSupport0x3">
+      <materialref ref="ITS_G10FR4"/>
+      <solidref ref="TGeoXtru0x38"/>
+    </volume>
+    </structure>

@@ -1,0 +1,11 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><xtru name="FMDO_hybrid_pcb" lunit="cm">
+      <twoDimVertex x="14.910399999999999" y="-2.0783"/>
+      <twoDimVertex x="26.5395" y="-3.9201999999999999"/>
+      <twoDimVertex x="28.25" y="-0.6784"/>
+      <twoDimVertex x="28.25" y="0.6784"/>
+      <twoDimVertex x="26.5395" y="3.9201999999999999"/>
+      <twoDimVertex x="14.910399999999999" y="2.0783"/>
+      <section zOrder="0" zPosition="-0.040000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.040000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

@@ -1,0 +1,27 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="V0CA_1inV0RIpos" x="0" y="0" z="2.1999999940395356" unit="cm"/>
+    <position name="V0CA_2inV0RIpos" x="0" y="0" z="-2.1999999940395356" unit="cm"/>
+    <position name="V0IR_1inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0ER_1inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R1_1inV0R0pos" x="0" y="0" z="-1.0499999523162842" unit="cm"/>
+    <position name="V0R2_1inV0R0pos" x="0" y="0.20000000000000001" z="-0.04999995231628418" unit="cm"/>
+    <position name="V0R3_1inV0R0pos" x="0" y="0.20000000000000001" z="0.95000004768371582" unit="cm"/>
+    <position name="V0R4_1inV0R0pos" x="0" y="0.20000000000000001" z="0.95000004768371582" unit="cm"/>
+    <position name="V0R5_1inV0R0pos" x="0" y="0" z="0.95000004768371582" unit="cm"/>
+    <position name="V0R6_1inV0R0pos" x="0" y="0" z="0.95000004768371582" unit="cm"/>
+    <position name="V0R0_1inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R0_2inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R0_3inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R0_4inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R0_5inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R0_6inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R0_7inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="V0R0_8inV0RIpos" x="0" y="0" z="0" unit="cm"/>
+    <rotation name="V0R0_1inV0RIrot" x="0" y="-0" z="-22.5" unit="deg"/>
+    <rotation name="V0R0_2inV0RIrot" x="0" y="-0" z="-67.5" unit="deg"/>
+    <rotation name="V0R0_3inV0RIrot" x="0" y="-0" z="-112.5" unit="deg"/>
+    <rotation name="V0R0_4inV0RIrot" x="0" y="-0" z="-157.50000000000003" unit="deg"/>
+    <rotation name="V0R0_5inV0RIrot" x="0" y="-0" z="157.5" unit="deg"/>
+    <rotation name="V0R0_6inV0RIrot" x="0" y="-0" z="112.49999999999999" unit="deg"/>
+    <rotation name="V0R0_7inV0RIrot" x="0" y="-0" z="67.499999999999986" unit="deg"/>
+    <rotation name="V0R0_8inV0RIrot" x="0" y="-0" z="22.499999999999989" unit="deg"/>
+    </define>

@@ -1,0 +1,20 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><subtraction name="sV0APlaOuNailsHoles8">
+      <first ref="sV0APlaOu8"/>
+      <second ref="sV0ANailsPlaOuHoles8"/>
+    </subtraction>
+    <arb8 name="sV0APlaOu8" v1x="4.2000000000000002" v1y="0" v2x="72.599999999999994" v2y="0" v3x="38.41869436416895" v3y="-83.594281642661258" v4x="1.7538969166251044" v4y="-3.8162606836867097" v5x="4.2000000000000002" v5y="0" v6x="72.599999999999994" v6y="0" v7x="38.41869436416895" v7y="-83.594281642661258" v8x="1.7538969166251044" v8y="-3.8162606836867097" dz="0.029999999999999999" lunit="cm"/>
+    <union name="sV0ANailsPlaOuHoles8">
+      <first ref="TGeoCompositeShape0x309"/>
+      <second ref="sV0ANail3PlaOuHole8"/>
+      <position name="sV0ANailsPlaOuHoles8sV0ANail3PlaOuHole8pos" x="30.050000000000001" y="-30.789999999999999" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x309">
+      <first ref="sV0ANail1PlaOuHole8"/>
+      <second ref="sV0ANail2PlaOuHole8"/>
+      <firstposition name="TGeoCompositeShape0x309sV0ANail1PlaOuHole8pos" x="42.899999999999999" y="-0.51000000000000001" z="0" unit="cm"/>
+      <position name="TGeoCompositeShape0x309sV0ANail2PlaOuHole8pos" x="30.800000000000001" y="-30.039999999999999" z="0" unit="cm"/>
+    </union>
+    <tube name="sV0ANail1PlaOuHole8" rmin="0" rmax="0.40000000000000002" z="0.059999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail2PlaOuHole8" rmin="0" rmax="0.40000000000000002" z="0.059999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0ANail3PlaOuHole8" rmin="0" rmax="0.40000000000000002" z="0.059999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

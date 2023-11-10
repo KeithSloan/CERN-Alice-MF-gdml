@@ -1,0 +1,5 @@
+<structure><volume name="crossBottom">
+      <materialref ref="EMCAL_STAINLESS_STEEL"/>
+      <solidref ref="crossBottom0x1"/>
+    </volume>
+    </structure>

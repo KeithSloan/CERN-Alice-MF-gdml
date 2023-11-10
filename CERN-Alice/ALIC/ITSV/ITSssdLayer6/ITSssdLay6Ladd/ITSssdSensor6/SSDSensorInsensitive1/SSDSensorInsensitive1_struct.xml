@@ -1,0 +1,5 @@
+<structure><volume name="SSDSensorInsensitive1">
+      <materialref ref="ITS_SI"/>
+      <solidref ref="SSDSensorInsensitiveShape1"/>
+    </volume>
+    </structure>

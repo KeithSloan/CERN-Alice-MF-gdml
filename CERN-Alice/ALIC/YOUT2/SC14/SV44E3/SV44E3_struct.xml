@@ -1,0 +1,11 @@
+<structure><volume name="SA4V40x26">
+      <materialref ref="MUON_ALUMINIUM0"/>
+      <solidref ref="SA4V40x27"/>
+    </volume>
+    <assembly name="SV44E3">
+      <physvol name="SA4V4_224" copynumber="224">
+        <volumeref ref="SA4V40x26"/>
+        <positionref ref="SA4V4_224inSV44E3pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootSV44E3"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-SV44E3"><volumeref ref="SV44E3"/><positionref ref="center"/></physvol></volume></structure>

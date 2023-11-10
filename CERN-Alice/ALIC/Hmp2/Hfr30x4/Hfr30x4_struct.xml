@@ -1,0 +1,21 @@
+<structure><volume name="Hfr3up0x4">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr3up0x5"/>
+    </volume>
+    <volume name="Hfr3down0x4">
+      <materialref ref="HMPID_CH4"/>
+      <solidref ref="Hfr3down0x5"/>
+    </volume>
+    <volume name="Hfr30x4">
+      <materialref ref="HMPID_Al"/>
+      <solidref ref="Hfr30x5"/>
+      <physvol name="Hfr3up_1" copynumber="1">
+        <volumeref ref="Hfr3up0x4"/>
+        <positionref ref="Hfr3up_10x2inHfr30x4pos"/>
+      </physvol>
+      <physvol name="Hfr3down_1" copynumber="1">
+        <volumeref ref="Hfr3down0x4"/>
+        <positionref ref="Hfr3down_10x2inHfr30x4pos"/>
+      </physvol>
+    </volume>
+    </structure>

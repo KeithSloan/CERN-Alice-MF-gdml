@@ -1,0 +1,5 @@
+<structure><volume name="EndCapCoverPlateBox2">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoBBox0x1128"/>
+    </volume>
+    </structure>

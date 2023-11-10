@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY define SYSTEM "SDDCarbonFiberConeFoam_define.xml">
+<!ENTITY materials SYSTEM "SDDCarbonFiberConeFoam_materials.xml">
+<!ENTITY solids SYSTEM "SDDCarbonFiberConeFoam_solids.xml">
+<!ENTITY setup SYSTEM "SDDCarbonFiberConeFoam_setup.xml">
+<!ENTITY struct SYSTEM "SDDCarbonFiberConeFoam_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&define;&materials;&solids;&setup;&struct;</gdml>

@@ -1,0 +1,5 @@
+<structure><volume name="FOCH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDO_hybrid_chip"/>
+    </volume>
+    </structure>

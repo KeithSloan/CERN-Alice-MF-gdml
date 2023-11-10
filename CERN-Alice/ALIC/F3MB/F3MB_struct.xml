@@ -1,0 +1,598 @@
+<structure><volume name="FIAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FIAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="18" offset="-360" unit="deg">
+        <volumeref ref="FISC"/>
+      </divisionvol>
+    </volume>
+    <volume name="FISE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDI_physical_sensor"/>
+      <physvol name="FIAC_0" copynumber="0">
+        <volumeref ref="FIAC"/>
+        <positionref ref="FIAC_0inFISEpos"/>
+      </physvol>
+    </volume>
+    <volume name="FIPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDI_hybrid_pcb"/>
+    </volume>
+    <volume name="FICU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDI_hybrid_copper"/>
+    </volume>
+    <volume name="FICH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDI_hybrid_chip"/>
+    </volume>
+    <volume name="FILL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FILL0x1"/>
+    </volume>
+    <assembly name="FIFH">
+      <physvol name="FISE_0" copynumber="0">
+        <volumeref ref="FISE"/>
+        <positionref ref="FISE_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FIPB_0" copynumber="0">
+        <volumeref ref="FIPB"/>
+        <positionref ref="FIPB_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FICU_0" copynumber="0">
+        <volumeref ref="FICU"/>
+        <positionref ref="FICU_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FICH_0" copynumber="0">
+        <volumeref ref="FICH"/>
+        <positionref ref="FICH_00x1inFIFHpos"/>
+      </physvol>
+      <physvol name="FILL_0" copynumber="0">
+        <volumeref ref="FILL"/>
+        <positionref ref="FILL_0inFIFHpos"/>
+      </physvol>
+      <physvol name="FILL_1" copynumber="1">
+        <volumeref ref="FILL"/>
+        <positionref ref="FILL_1inFIFHpos"/>
+      </physvol>
+      <physvol name="FILL_2" copynumber="2">
+        <volumeref ref="FILL"/>
+        <positionref ref="FILL_2inFIFHpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFIFH"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FIFH"><volumeref ref="FIFH"/><positionref ref="center"/></physvol></volume><volume name="FIAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FIAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="18" offset="-360" unit="deg">
+        <volumeref ref="FISC"/>
+      </divisionvol>
+    </volume>
+    <volume name="FISE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDI_physical_sensor"/>
+      <physvol name="FIAC_0" copynumber="0">
+        <volumeref ref="FIAC"/>
+        <positionref ref="FIAC_0inFISEpos"/>
+      </physvol>
+    </volume>
+    <volume name="FIPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDI_hybrid_pcb"/>
+    </volume>
+    <volume name="FICU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDI_hybrid_copper"/>
+    </volume>
+    <volume name="FICH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDI_hybrid_chip"/>
+    </volume>
+    <volume name="FISL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FISL0x1"/>
+    </volume>
+    <assembly name="FIBH">
+      <physvol name="FISE_0" copynumber="0">
+        <volumeref ref="FISE"/>
+        <positionref ref="FISE_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FIPB_0" copynumber="0">
+        <volumeref ref="FIPB"/>
+        <positionref ref="FIPB_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FICU_0" copynumber="0">
+        <volumeref ref="FICU"/>
+        <positionref ref="FICU_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FICH_0" copynumber="0">
+        <volumeref ref="FICH"/>
+        <positionref ref="FICH_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_0" copynumber="0">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_0inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_1" copynumber="1">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_1inFIBHpos"/>
+      </physvol>
+      <physvol name="FISL_2" copynumber="2">
+        <volumeref ref="FISL"/>
+        <positionref ref="FISL_2inFIBHpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFIBH"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FIBH"><volumeref ref="FIBH"/><positionref ref="center"/></physvol></volume><volume name="FIDP">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FIDP0x1"/>
+    </volume>
+    <volume name="FIDC">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FIDC0x1"/>
+    </volume>
+    <volume name="FIDI">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FIDI0x1"/>
+    </volume>
+    <assembly name="FIBV">
+      <physvol name="FIFH_5" copynumber="5">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_5inFIBVpos"/>
+        <rotationref ref="FIFH_5inFIBVrot"/>
+      </physvol>
+      <physvol name="FIBH_6" copynumber="6">
+        <volumeref ref="FIBH"/>
+        <positionref ref="FIBH_6inFIBVpos"/>
+        <rotationref ref="FIBH_6inFIBVrot"/>
+      </physvol>
+      <physvol name="FIFH_7" copynumber="7">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_7inFIBVpos"/>
+        <rotationref ref="FIFH_7inFIBVrot"/>
+      </physvol>
+      <physvol name="FIBH_8" copynumber="8">
+        <volumeref ref="FIBH"/>
+        <positionref ref="FIBH_8inFIBVpos"/>
+        <rotationref ref="FIBH_8inFIBVrot"/>
+      </physvol>
+      <physvol name="FIFH_9" copynumber="9">
+        <volumeref ref="FIFH"/>
+        <positionref ref="FIFH_9inFIBVpos"/>
+        <rotationref ref="FIFH_9inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDP_1" copynumber="1">
+        <volumeref ref="FIDP"/>
+        <positionref ref="FIDP_1inFIBVpos"/>
+        <rotationref ref="FIDP_1inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDC_1" copynumber="1">
+        <volumeref ref="FIDC"/>
+        <positionref ref="FIDC_1inFIBVpos"/>
+        <rotationref ref="FIDC_1inFIBVrot"/>
+      </physvol>
+      <physvol name="FIDI_1" copynumber="1">
+        <volumeref ref="FIDI"/>
+        <positionref ref="FIDI_1inFIBVpos"/>
+        <rotationref ref="FIDI_1inFIBVrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFIBV"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FIBV"><volumeref ref="FIBV"/><positionref ref="center"/></physvol></volume><volume name="F3HI">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="F3HI0x1"/>
+    </volume>
+    <volume name="FOAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FOAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="9" offset="-360" unit="deg">
+        <volumeref ref="FOSC"/>
+      </divisionvol>
+    </volume>
+    <volume name="FOSE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDO_physical_sensor"/>
+      <physvol name="FOAC_0" copynumber="0">
+        <volumeref ref="FOAC"/>
+        <positionref ref="FOAC_0inFOSEpos"/>
+      </physvol>
+    </volume>
+    <volume name="FOPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDO_hybrid_pcb"/>
+    </volume>
+    <volume name="FOCU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDO_hybrid_copper"/>
+    </volume>
+    <volume name="FOCH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDO_hybrid_chip"/>
+    </volume>
+    <volume name="FOLL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FOLL0x1"/>
+    </volume>
+    <assembly name="FOFH">
+      <physvol name="FOSE_0" copynumber="0">
+        <volumeref ref="FOSE"/>
+        <positionref ref="FOSE_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOPB_0" copynumber="0">
+        <volumeref ref="FOPB"/>
+        <positionref ref="FOPB_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOCU_0" copynumber="0">
+        <volumeref ref="FOCU"/>
+        <positionref ref="FOCU_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOCH_0" copynumber="0">
+        <volumeref ref="FOCH"/>
+        <positionref ref="FOCH_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_0" copynumber="0">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_0inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_1" copynumber="1">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_1inFOFHpos"/>
+      </physvol>
+      <physvol name="FOLL_2" copynumber="2">
+        <volumeref ref="FOLL"/>
+        <positionref ref="FOLL_2inFOFHpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFOFH"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FOFH"><volumeref ref="FOFH"/><positionref ref="center"/></physvol></volume><volume name="FOAC">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FOAC0x1"/>
+      <divisionvol axis="kPhi" number="2" width="9" offset="-360" unit="deg">
+        <volumeref ref="FOSC"/>
+      </divisionvol>
+    </volume>
+    <volume name="FOSE">
+      <materialref ref="FMD_Si"/>
+      <solidref ref="FMDO_physical_sensor"/>
+      <physvol name="FOAC_0" copynumber="0">
+        <volumeref ref="FOAC"/>
+        <positionref ref="FOAC_0inFOSEpos"/>
+      </physvol>
+    </volume>
+    <volume name="FOPB">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FMDO_hybrid_pcb"/>
+    </volume>
+    <volume name="FOCU">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FMDO_hybrid_copper"/>
+    </volume>
+    <volume name="FOCH">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FMDO_hybrid_chip"/>
+    </volume>
+    <volume name="FOSL">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FOSL0x1"/>
+    </volume>
+    <assembly name="FOBH">
+      <physvol name="FOSE_0" copynumber="0">
+        <volumeref ref="FOSE"/>
+        <positionref ref="FOSE_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOPB_0" copynumber="0">
+        <volumeref ref="FOPB"/>
+        <positionref ref="FOPB_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOCU_0" copynumber="0">
+        <volumeref ref="FOCU"/>
+        <positionref ref="FOCU_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOCH_0" copynumber="0">
+        <volumeref ref="FOCH"/>
+        <positionref ref="FOCH_00x1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOSL_0" copynumber="0">
+        <volumeref ref="FOSL"/>
+        <positionref ref="FOSL_0inFOBHpos"/>
+      </physvol>
+      <physvol name="FOSL_1" copynumber="1">
+        <volumeref ref="FOSL"/>
+        <positionref ref="FOSL_1inFOBHpos"/>
+      </physvol>
+      <physvol name="FOSL_2" copynumber="2">
+        <volumeref ref="FOSL"/>
+        <positionref ref="FOSL_2inFOBHpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFOBH"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FOBH"><volumeref ref="FOBH"/><positionref ref="center"/></physvol></volume><volume name="FODP">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FODP0x1"/>
+    </volume>
+    <volume name="FODC">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FODC0x1"/>
+    </volume>
+    <volume name="FODI">
+      <materialref ref="FMD_Si_Chip"/>
+      <solidref ref="FODI0x1"/>
+    </volume>
+    <assembly name="FOBV">
+      <physvol name="FOFH_10" copynumber="10">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_10inFOBVpos"/>
+        <rotationref ref="FOFH_10inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_11" copynumber="11">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_11inFOBVpos"/>
+        <rotationref ref="FOBH_11inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_12" copynumber="12">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_12inFOBVpos"/>
+        <rotationref ref="FOFH_12inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_13" copynumber="13">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_13inFOBVpos"/>
+        <rotationref ref="FOBH_13inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_14" copynumber="14">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_14inFOBVpos"/>
+        <rotationref ref="FOFH_14inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_15" copynumber="15">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_15inFOBVpos"/>
+        <rotationref ref="FOBH_15inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_16" copynumber="16">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_16inFOBVpos"/>
+        <rotationref ref="FOFH_16inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_17" copynumber="17">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_17inFOBVpos"/>
+        <rotationref ref="FOBH_17inFOBVrot"/>
+      </physvol>
+      <physvol name="FOFH_18" copynumber="18">
+        <volumeref ref="FOFH"/>
+        <positionref ref="FOFH_18inFOBVpos"/>
+        <rotationref ref="FOFH_18inFOBVrot"/>
+      </physvol>
+      <physvol name="FOBH_19" copynumber="19">
+        <volumeref ref="FOBH"/>
+        <positionref ref="FOBH_19inFOBVpos"/>
+        <rotationref ref="FOBH_19inFOBVrot"/>
+      </physvol>
+      <physvol name="FODP_1" copynumber="1">
+        <volumeref ref="FODP"/>
+        <positionref ref="FODP_1inFOBVpos"/>
+        <rotationref ref="FODP_1inFOBVrot"/>
+      </physvol>
+      <physvol name="FODC_1" copynumber="1">
+        <volumeref ref="FODC"/>
+        <positionref ref="FODC_1inFOBVpos"/>
+        <rotationref ref="FODC_1inFOBVrot"/>
+      </physvol>
+      <physvol name="FODI_1" copynumber="1">
+        <volumeref ref="FODI"/>
+        <positionref ref="FODI_1inFOBVpos"/>
+        <rotationref ref="FODI_1inFOBVrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFOBV"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FOBV"><volumeref ref="FOBV"/><positionref ref="center"/></physvol></volume><volume name="F3HO">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="F3HO0x1"/>
+    </volume>
+    <volume name="FMD3_cooling_plate">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD3_cooling_plate0x1"/>
+    </volume>
+    <volume name="FMD3_bolt">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_bolt0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_side">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_side0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_back">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_back0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_wing">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_wing0x1"/>
+    </volume>
+    <volume name="FMD3_sheeve_wheel">
+      <materialref ref="FMD_Plastic"/>
+      <solidref ref="FMD3_sheeve_wheel0x1"/>
+    </volume>
+    <assembly name="FMD3_sheeve_box">
+      <physvol name="FMD3_sheeve_side_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_side"/>
+        <positionref ref="FMD3_sheeve_side_1inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_side_2" copynumber="2">
+        <volumeref ref="FMD3_sheeve_side"/>
+        <positionref ref="FMD3_sheeve_side_2inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_back_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_back"/>
+        <positionref ref="FMD3_sheeve_back_1inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_wing_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_wing"/>
+        <positionref ref="FMD3_sheeve_wing_1inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_wing_2" copynumber="2">
+        <volumeref ref="FMD3_sheeve_wing"/>
+        <positionref ref="FMD3_sheeve_wing_2inFMD3_sheeve_boxpos"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_wheel_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_wheel"/>
+        <positionref ref="FMD3_sheeve_wheel_1inFMD3_sheeve_boxpos"/>
+        <rotationref ref="FMD3_sheeve_wheel_1inFMD3_sheeve_boxrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFMD3_sheeve_box"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FMD3_sheeve_box"><volumeref ref="FMD3_sheeve_box"/><positionref ref="center"/></physvol></volume><volume name="FMD3_Cone">
+      <materialref ref="FMD_Carbon"/>
+      <solidref ref="FMD3_cone"/>
+    </volume>
+    <volume name="FMD_tension_end">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_end0x1"/>
+    </volume>
+    <volume name="FMD_tension_top">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_top0x1"/>
+    </volume>
+    <assembly name="FMD_tension_box">
+      <physvol name="FMD_tension_end_1" copynumber="1">
+        <volumeref ref="FMD_tension_end"/>
+        <positionref ref="FMD_tension_end_1inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_end_2" copynumber="2">
+        <volumeref ref="FMD_tension_end"/>
+        <positionref ref="FMD_tension_end_2inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_1" copynumber="1">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_1inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_2" copynumber="2">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_2inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_3" copynumber="3">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_3inFMD_tension_boxpos"/>
+      </physvol>
+      <physvol name="FMD_tension_top_4" copynumber="4">
+        <volumeref ref="FMD_tension_top"/>
+        <positionref ref="FMD_tension_top_4inFMD_tension_boxpos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootFMD_tension_box"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-FMD_tension_box"><volumeref ref="FMD_tension_box"/><positionref ref="center"/></physvol></volume><volume name="FMD3_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_wire0x1"/>
+    </volume>
+    <volume name="FMD3_bend_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="TGeoTorus0x19"/>
+    </volume>
+    <volume name="FMD3_end_wire">
+      <materialref ref="FMD_Steel"/>
+      <solidref ref="FMD3_end_wire0x1"/>
+    </volume>
+    <assembly name="F3SU">
+      <physvol name="FMD3_cooling_plate_0" copynumber="0">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_0inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_0inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_cooling_plate_1" copynumber="1">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_1inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_cooling_plate_2" copynumber="2">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_2inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_cooling_plate_3" copynumber="3">
+        <volumeref ref="FMD3_cooling_plate"/>
+        <positionref ref="FMD3_cooling_plate_3inF3SUpos"/>
+        <rotationref ref="FMD3_cooling_plate_3inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bolt_1" copynumber="1">
+        <volumeref ref="FMD3_bolt"/>
+        <positionref ref="FMD3_bolt_1inF3SUpos"/>
+        <rotationref ref="FMD3_bolt_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bolt_2" copynumber="2">
+        <volumeref ref="FMD3_bolt"/>
+        <positionref ref="FMD3_bolt_2inF3SUpos"/>
+        <rotationref ref="FMD3_bolt_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_box_1" copynumber="1">
+        <volumeref ref="FMD3_sheeve_box"/>
+        <positionref ref="FMD3_sheeve_box_1inF3SUpos"/>
+        <rotationref ref="FMD3_sheeve_box_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_sheeve_box_2" copynumber="2">
+        <volumeref ref="FMD3_sheeve_box"/>
+        <positionref ref="FMD3_sheeve_box_2inF3SUpos"/>
+        <rotationref ref="FMD3_sheeve_box_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_Cone_0" copynumber="0">
+        <volumeref ref="FMD3_Cone"/>
+        <positionref ref="FMD3_Cone_0inF3SUpos"/>
+      </physvol>
+      <physvol name="FMD_tension_box_1" copynumber="1">
+        <volumeref ref="FMD_tension_box"/>
+        <positionref ref="FMD_tension_box_10x1inF3SUpos"/>
+        <rotationref ref="FMD_tension_box_10x1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD_tension_box_2" copynumber="2">
+        <volumeref ref="FMD_tension_box"/>
+        <positionref ref="FMD_tension_box_2inF3SUpos"/>
+        <rotationref ref="FMD_tension_box_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_wire_1" copynumber="1">
+        <volumeref ref="FMD3_wire"/>
+        <positionref ref="FMD3_wire_1inF3SUpos"/>
+        <rotationref ref="FMD3_wire_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_wire_2" copynumber="2">
+        <volumeref ref="FMD3_wire"/>
+        <positionref ref="FMD3_wire_2inF3SUpos"/>
+        <rotationref ref="FMD3_wire_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bend_wire_1" copynumber="1">
+        <volumeref ref="FMD3_bend_wire"/>
+        <positionref ref="FMD3_bend_wire_1inF3SUpos"/>
+        <rotationref ref="FMD3_bend_wire_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_bend_wire_2" copynumber="2">
+        <volumeref ref="FMD3_bend_wire"/>
+        <positionref ref="FMD3_bend_wire_2inF3SUpos"/>
+        <rotationref ref="FMD3_bend_wire_2inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_end_wire_1" copynumber="1">
+        <volumeref ref="FMD3_end_wire"/>
+        <positionref ref="FMD3_end_wire_1inF3SUpos"/>
+        <rotationref ref="FMD3_end_wire_1inF3SUrot"/>
+      </physvol>
+      <physvol name="FMD3_end_wire_2" copynumber="2">
+        <volumeref ref="FMD3_end_wire"/>
+        <positionref ref="FMD3_end_wire_2inF3SUpos"/>
+        <rotationref ref="FMD3_end_wire_2inF3SUrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootF3SU"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-F3SU"><volumeref ref="F3SU"/><positionref ref="center"/></physvol></volume><assembly name="F3MB">
+      <physvol name="FIBV_73" copynumber="73">
+        <volumeref ref="FIBV"/>
+        <positionref ref="FIBV_730x2inF3MBpos"/>
+      </physvol>
+      <physvol name="F3HI_1" copynumber="1">
+        <volumeref ref="F3HI"/>
+        <positionref ref="F3HI_1inF3MBpos"/>
+        <rotationref ref="F3HI_1inF3MBrot"/>
+      </physvol>
+      <physvol name="FOBV_79" copynumber="79">
+        <volumeref ref="FOBV"/>
+        <positionref ref="FOBV_790x1inF3MBpos"/>
+      </physvol>
+      <physvol name="F3HO_1" copynumber="1">
+        <volumeref ref="F3HO"/>
+        <positionref ref="F3HO_1inF3MBpos"/>
+        <rotationref ref="F3HO_1inF3MBrot"/>
+      </physvol>
+      <physvol name="F3SU_2" copynumber="2">
+        <volumeref ref="F3SU"/>
+        <positionref ref="F3SU_2inF3MBpos"/>
+        <rotationref ref="F3SU_2inF3MBrot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootF3MB"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-F3MB"><volumeref ref="F3MB"/><positionref ref="center"/></physvol></volume></structure>

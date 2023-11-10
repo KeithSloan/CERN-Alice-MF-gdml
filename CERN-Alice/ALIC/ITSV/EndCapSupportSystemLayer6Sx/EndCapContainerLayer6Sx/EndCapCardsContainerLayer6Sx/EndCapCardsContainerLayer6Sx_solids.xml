@@ -1,0 +1,115 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="TGeoBBox0x1140" x="6.1000000000000005" y="0.59699999999999998" z="0.30000000000000004" lunit="cm"/>
+    <xtru name="TGeoXtru0x76" lunit="cm">
+      <twoDimVertex x="0" y="0"/>
+      <twoDimVertex x="0" y="0.33000000000000002"/>
+      <twoDimVertex x="0.11000000000000001" y="0.33000000000000002"/>
+      <twoDimVertex x="0.11000000000000001" y="0.44000000000000006"/>
+      <twoDimVertex x="0.47999999999999998" y="0.44000000000000006"/>
+      <twoDimVertex x="0.47999999999999998" y="0"/>
+      <section zOrder="0" zPosition="0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="1.9000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x77" lunit="cm">
+      <twoDimVertex x="0" y="0"/>
+      <twoDimVertex x="0" y="0.19"/>
+      <twoDimVertex x="0.35000000000000003" y="0.19"/>
+      <twoDimVertex x="0.35000000000000003" y="0.014999999999999999"/>
+      <twoDimVertex x="0.40000000000000002" y="0.014999999999999999"/>
+      <twoDimVertex x="0.40000000000000002" y="0.19"/>
+      <twoDimVertex x="0.52000000000000002" y="0.19"/>
+      <twoDimVertex x="0.52000000000000002" y="0"/>
+      <section zOrder="0" zPosition="0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="1.9000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x78" lunit="cm">
+      <twoDimVertex x="0" y="0"/>
+      <twoDimVertex x="0" y="4.7000000000000002"/>
+      <twoDimVertex x="6.2000000000000002" y="4.7000000000000002"/>
+      <twoDimVertex x="6.2000000000000002" y="0"/>
+      <twoDimVertex x="4.0129999999999999" y="0"/>
+      <twoDimVertex x="4.0129999999999999" y="0.034999999999999996"/>
+      <twoDimVertex x="2.1870000000000003" y="0.034999999999999996"/>
+      <twoDimVertex x="2.1870000000000003" y="0"/>
+      <section zOrder="0" zPosition="0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.10000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x79" lunit="cm">
+      <twoDimVertex x="0.020000000000000462" y="0"/>
+      <twoDimVertex x="0.020000000000000462" y="4.3500000000000005"/>
+      <twoDimVertex x="6.1799999999999997" y="4.3500000000000005"/>
+      <twoDimVertex x="6.1799999999999997" y="0"/>
+      <twoDimVertex x="4.0129999999999999" y="0"/>
+      <twoDimVertex x="4.0129999999999999" y="0.069999999999999993"/>
+      <twoDimVertex x="2.1870000000000003" y="0.069999999999999993"/>
+      <twoDimVertex x="2.1870000000000003" y="0"/>
+      <section zOrder="0" zPosition="0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.014999999999999999" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x81" lunit="cm">
+      <twoDimVertex x="0" y="0"/>
+      <twoDimVertex x="0" y="1.7000000000000002"/>
+      <twoDimVertex x="0.31000000000000005" y="1.7000000000000002"/>
+      <twoDimVertex x="0.31000000000000005" y="2.7000000000000002"/>
+      <twoDimVertex x="0" y="2.7000000000000002"/>
+      <twoDimVertex x="0" y="3.29"/>
+      <twoDimVertex x="6.8000000000000007" y="3.29"/>
+      <twoDimVertex x="6.8000000000000007" y="2.7000000000000002"/>
+      <twoDimVertex x="6.4900000000000002" y="2.7000000000000002"/>
+      <twoDimVertex x="6.4900000000000002" y="1.7000000000000002"/>
+      <twoDimVertex x="6.8000000000000007" y="1.7000000000000002"/>
+      <twoDimVertex x="6.8000000000000007" y="0"/>
+      <section zOrder="0" zPosition="0" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.10000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x82" lunit="cm">
+      <twoDimVertex x="0.36000000000000004" y="1"/>
+      <twoDimVertex x="0.36000000000000004" y="1.6400000000000001"/>
+      <twoDimVertex x="0.55000000000000004" y="1.6400000000000001"/>
+      <twoDimVertex x="0.55000000000000004" y="2.2800000000000002"/>
+      <twoDimVertex x="0.80000000000000004" y="2.2800000000000002"/>
+      <twoDimVertex x="0.80000000000000004" y="1.6400000000000001"/>
+      <twoDimVertex x="2.2199999999999998" y="1.6400000000000001"/>
+      <twoDimVertex x="2.2199999999999998" y="2.0300000000000002"/>
+      <twoDimVertex x="4.2199999999999998" y="2.0300000000000002"/>
+      <twoDimVertex x="4.2199999999999998" y="1.3900000000000001"/>
+      <twoDimVertex x="4.3700000000000001" y="1.3900000000000001"/>
+      <twoDimVertex x="4.3700000000000001" y="0.75"/>
+      <twoDimVertex x="2.1200000000000001" y="0.75"/>
+      <twoDimVertex x="2.1200000000000001" y="1"/>
+      <section zOrder="0" zPosition="0.10000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.115" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="TGeoXtru0x80" lunit="cm">
+      <twoDimVertex x="0" y="0"/>
+      <twoDimVertex x="0" y="3.29"/>
+      <twoDimVertex x="0.10000000000000001" y="3.29"/>
+      <twoDimVertex x="0.10000000000000001" y="2.2800000000000002"/>
+      <twoDimVertex x="0.115" y="2.2800000000000002"/>
+      <twoDimVertex x="0.115" y="0.75"/>
+      <twoDimVertex x="0.10000000000000001" y="0.75"/>
+      <twoDimVertex x="0.10000000000000001" y="0.51000000000000001"/>
+      <twoDimVertex x="0.57999999999999996" y="0.51000000000000001"/>
+      <twoDimVertex x="0.57999999999999996" y="0"/>
+      <section zOrder="0" zPosition="-1.0000000000000001e-15" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="6.8000000000000007" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <box name="TGeoBBox0x1141" x="0.5" y="0.5" z="6.8000000000000007" lunit="cm"/>
+    <xtru name="TGeoXtru0x75" lunit="cm">
+      <twoDimVertex x="-4.8289999999999997" y="0"/>
+      <twoDimVertex x="-4.8289999999999997" y="0.51000000000000001"/>
+      <twoDimVertex x="-4.4369999999999994" y="0.51000000000000001"/>
+      <twoDimVertex x="-4.4369999999999994" y="4.4000000000000004"/>
+      <twoDimVertex x="-4.8289999999999997" y="4.4000000000000004"/>
+      <twoDimVertex x="-4.8289999999999997" y="4.7000000000000002"/>
+      <twoDimVertex x="1.3439999999999999" y="4.7000000000000002"/>
+      <twoDimVertex x="1.3439999999999999" y="3.29"/>
+      <twoDimVertex x="1.444" y="3.29"/>
+      <twoDimVertex x="1.444" y="2.2800000000000002"/>
+      <twoDimVertex x="1.4589999999999999" y="2.2800000000000002"/>
+      <twoDimVertex x="1.4589999999999999" y="0.51000000000000001"/>
+      <twoDimVertex x="2.6709999999999998" y="0.51000000000000001"/>
+      <twoDimVertex x="2.6709999999999998" y="0"/>
+      <section zOrder="0" zPosition="-0.30000000000000127" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="6.5" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    </solids>

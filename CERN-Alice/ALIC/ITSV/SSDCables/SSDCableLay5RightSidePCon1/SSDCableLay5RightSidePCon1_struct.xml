@@ -1,0 +1,5 @@
+<structure><volume name="SSDCableLay5RightSidePCon1">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoPcon0x128"/>
+    </volume>
+    </structure>

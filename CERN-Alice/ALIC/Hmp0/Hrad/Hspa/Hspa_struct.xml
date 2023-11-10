@@ -1,0 +1,5 @@
+<structure><volume name="Hspa">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hspa0x1"/>
+    </volume>
+    </structure>

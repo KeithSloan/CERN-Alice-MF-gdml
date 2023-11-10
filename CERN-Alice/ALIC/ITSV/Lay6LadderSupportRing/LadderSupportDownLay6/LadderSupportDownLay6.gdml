@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY define SYSTEM "LadderSupportDownLay6_define.xml">
+<!ENTITY materials SYSTEM "LadderSupportDownLay6_materials.xml">
+<!ENTITY solids SYSTEM "LadderSupportDownLay6_solids.xml">
+<!ENTITY setup SYSTEM "LadderSupportDownLay6_setup.xml">
+<!ENTITY struct SYSTEM "LadderSupportDownLay6_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&define;&materials;&solids;&setup;&struct;</gdml>

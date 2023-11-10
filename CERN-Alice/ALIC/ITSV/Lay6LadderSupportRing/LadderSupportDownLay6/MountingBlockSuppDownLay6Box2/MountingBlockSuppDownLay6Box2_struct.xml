@@ -1,0 +1,5 @@
+<structure><volume name="MountingBlockSuppDownLay6Box2">
+      <materialref ref="ITS_GEN_C_M55J"/>
+      <solidref ref="TGeoBBox0x1124"/>
+    </volume>
+    </structure>

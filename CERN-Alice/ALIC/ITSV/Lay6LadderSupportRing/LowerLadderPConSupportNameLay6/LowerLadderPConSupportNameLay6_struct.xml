@@ -1,0 +1,5 @@
+<structure><volume name="LowerLadderPConSupportNameLay6">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoPcon0x92"/>
+    </volume>
+    </structure>

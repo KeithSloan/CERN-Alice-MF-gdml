@@ -1,0 +1,17 @@
+<structure><volume name="MountingBlockSupportCenterLay5Arc">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoXtru0x56"/>
+    </volume>
+    <assembly name="LadderSupportUpLay5">
+      <physvol name="MountingBlockSupportCenterLay5Arc_1" copynumber="1">
+        <volumeref ref="MountingBlockSupportCenterLay5Arc"/>
+        <positionref ref="MountingBlockSupportCenterLay5Arc_10x1inLadderSupportUpLay5pos"/>
+        <rotationref ref="MountingBlockSupportCenterLay5Arc_10x1inLadderSupportUpLay5rot"/>
+      </physvol>
+      <physvol name="MountingBlockSupportCenterLay5Arc_2" copynumber="2">
+        <volumeref ref="MountingBlockSupportCenterLay5Arc"/>
+        <positionref ref="MountingBlockSupportCenterLay5Arc_20x1inLadderSupportUpLay5pos"/>
+        <rotationref ref="MountingBlockSupportCenterLay5Arc_20x1inLadderSupportUpLay5rot"/>
+      </physvol>
+    </assembly>
+    <volume name="rootLadderSupportUpLay5"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-LadderSupportUpLay5"><volumeref ref="LadderSupportUpLay5"/><positionref ref="center"/></physvol></volume></structure>

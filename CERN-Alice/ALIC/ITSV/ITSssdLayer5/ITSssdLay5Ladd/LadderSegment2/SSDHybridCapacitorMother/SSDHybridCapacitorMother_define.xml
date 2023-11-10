@@ -1,0 +1,12 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="SSDConnectorAl_1inSSDHybridCapacitorMotherpos" x="0.41399999999999998" y="2.8819949999999999" z="0" unit="cm"/>
+    <position name="SSDConnectorNi_1inSSDHybridCapacitorMotherpos" x="0.41399999999999998" y="2.8819949999999999" z="0" unit="cm"/>
+    <position name="SSDConnectorAl_2inSSDHybridCapacitorMotherpos" x="0.67400000000000004" y="2.8819949999999999" z="0" unit="cm"/>
+    <position name="SSDConnectorNi_2inSSDHybridCapacitorMotherpos" x="0.67400000000000004" y="2.8819949999999999" z="0" unit="cm"/>
+    <position name="SSDConnectorAl_3inSSDHybridCapacitorMotherpos" x="-0.41399999999999998" y="-0.11199499999999998" z="0" unit="cm"/>
+    <position name="SSDConnectorNi_3inSSDHybridCapacitorMotherpos" x="-0.41399999999999998" y="-0.11199499999999998" z="0" unit="cm"/>
+    <position name="SSDConnectorAl_4inSSDHybridCapacitorMotherpos" x="-0.67400000000000004" y="-0.11199499999999998" z="0" unit="cm"/>
+    <position name="SSDConnectorNi_4inSSDHybridCapacitorMotherpos" x="-0.67400000000000004" y="-0.11199499999999998" z="0" unit="cm"/>
+    <position name="Capacitor1812_1inSSDHybridCapacitorMotherpos" x="0" y="2.8920000000000003" z="0" unit="cm"/>
+    <position name="HybridWire_1inSSDHybridCapacitorMotherpos" x="0.11664253714303527" y="1.3716330726683728" z="0.037449999999999997" unit="cm"/>
+    <rotation name="HybridWire_1inSSDHybridCapacitorMotherrot" x="-90" y="19.970813268961319" z="1.2748710069330689e-15" unit="deg"/>
+    </define>

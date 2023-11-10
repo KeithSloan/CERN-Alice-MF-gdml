@@ -1,0 +1,11 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><union name="intTrousersC">
+      <first ref="QCLint0x1"/>
+      <second ref="QCLint0x1"/>
+      <firstposition name="intTrousersCQCLint0x1pos" x="-3.9700000000000002" y="0" z="0" unit="cm"/>
+      <firstrotation name="intTrousersCQCLint0x1rot" x="180" y="-5.0109000000000057" z="180" unit="deg"/>
+      <position name="intTrousersCQCLint0x1pos" x="3.9700000000000002" y="0" z="0" unit="cm"/>
+      <rotation name="intTrousersCQCLint0x1rot" x="180" y="5.0108999999999986" z="180" unit="deg"/>
+    </union>
+    <cone name="QCLint0x1" z="88.881499999999988" rmin1="0" rmin2="0" rmax1="10.6" rmax2="2.7000000000000002" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <cone name="QCLint0x1" z="88.881499999999988" rmin1="0" rmin2="0" rmax1="10.6" rmax2="2.7000000000000002" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

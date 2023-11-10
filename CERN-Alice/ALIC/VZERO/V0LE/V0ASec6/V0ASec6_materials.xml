@@ -1,0 +1,46 @@
+<materials><element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.0079400000000001"/>
+    </element>
+    <element name="ALUMINIUM_elm" formula="AL" Z="13">
+      <atom unit="g/mole" value="26.981538"/>
+    </element>
+    <element name="MAGNESIUM_elm" formula="MG" Z="12">
+      <atom unit="g/mole" value="24.305"/>
+    </element>
+    <material name="VZERO_V0ALuc">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.91555047035217285" ref="CARBON_elm"/>
+      <fraction n="0.084449529647827148" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0AFib">
+      <D unit="g/cm3" value="1.0499999523162842"/>
+      <fraction n="0.92302095890045166" ref="CARBON_elm"/>
+      <fraction n="0.076979033648967743" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0ASci">
+      <D unit="g/cm3" value="1.031999945640564"/>
+      <fraction n="0.91555047035217285" ref="CARBON_elm"/>
+      <fraction n="0.084449529647827148" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0APlaIn">
+      <D unit="g/cm3" value="0.041999999433755875"/>
+      <fraction n="0.91555047035217285" ref="CARBON_elm"/>
+      <fraction n="0.084449529647827148" ref="HYDROGEN_elm"/>
+    </material>
+    <material name="VZERO_V0APlaOu">
+      <D unit="g/cm3" value="3.0339999198913574"/>
+      <fraction n="0.27009820938110352" ref="ALUMINIUM_elm"/>
+      <fraction n="0.72990179061889648" ref="MAGNESIUM_elm"/>
+    </material>
+    <material name="VZERO_V0APMA" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+    <material name="VZERO_V0APMG" Z="13">
+      <D unit="g/cm3" value="2.7000000476837158"/>
+      <atom unit="g/mole" value="26.979999542236328"/>
+    </material>
+  </materials>

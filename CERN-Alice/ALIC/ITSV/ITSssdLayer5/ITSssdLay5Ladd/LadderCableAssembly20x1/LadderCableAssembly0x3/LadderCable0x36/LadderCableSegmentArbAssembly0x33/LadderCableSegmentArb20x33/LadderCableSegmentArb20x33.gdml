@@ -1,0 +1,9 @@
+
+<!DOCTYPE gdml [
+<!ENTITY materials SYSTEM "LadderCableSegmentArb20x33_materials.xml">
+<!ENTITY solids SYSTEM "LadderCableSegmentArb20x33_solids.xml">
+<!ENTITY setup SYSTEM "LadderCableSegmentArb20x33_setup.xml">
+<!ENTITY struct SYSTEM "LadderCableSegmentArb20x33_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

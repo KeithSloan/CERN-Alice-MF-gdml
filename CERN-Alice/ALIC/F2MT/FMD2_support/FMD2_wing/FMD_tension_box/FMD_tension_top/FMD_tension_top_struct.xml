@@ -1,0 +1,5 @@
+<structure><volume name="FMD_tension_top">
+      <materialref ref="FMD_Aluminum"/>
+      <solidref ref="FMD_tension_top0x1"/>
+    </volume>
+    </structure>

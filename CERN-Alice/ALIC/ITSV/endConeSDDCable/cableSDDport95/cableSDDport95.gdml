@@ -1,0 +1,10 @@
+
+<!DOCTYPE gdml [
+<!ENTITY define SYSTEM "cableSDDport95_define.xml">
+<!ENTITY materials SYSTEM "cableSDDport95_materials.xml">
+<!ENTITY solids SYSTEM "cableSDDport95_solids.xml">
+<!ENTITY setup SYSTEM "cableSDDport95_setup.xml">
+<!ENTITY struct SYSTEM "cableSDDport95_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&define;&materials;&solids;&setup;&struct;</gdml>

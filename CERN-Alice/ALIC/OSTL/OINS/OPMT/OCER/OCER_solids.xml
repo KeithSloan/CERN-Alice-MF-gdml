@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="OCER0x1" rmin="0.89999997615814209" rmax="1.1000000238418579" z="2.7000000476837158" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

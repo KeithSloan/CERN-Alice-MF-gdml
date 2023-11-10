@@ -1,0 +1,5 @@
+<structure><volume name="FODP">
+      <materialref ref="FMD_PCB"/>
+      <solidref ref="FODP0x1"/>
+    </volume>
+    </structure>

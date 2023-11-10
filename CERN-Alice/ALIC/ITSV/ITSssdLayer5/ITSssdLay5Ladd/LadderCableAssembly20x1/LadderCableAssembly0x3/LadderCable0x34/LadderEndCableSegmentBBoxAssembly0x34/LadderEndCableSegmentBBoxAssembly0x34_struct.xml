@@ -1,0 +1,19 @@
+<structure><volume name="LadderEndCableSegmentBBox10x34">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="LadderEndCableSegmentBBoxShape10x34"/>
+    </volume>
+    <volume name="LadderEndCableSegmentBBox20x34">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="LadderEndCableSegmentBBoxShape20x34"/>
+    </volume>
+    <assembly name="LadderEndCableSegmentBBoxAssembly0x34">
+      <physvol name="LadderEndCableSegmentBBox1_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox10x34"/>
+        <positionref ref="LadderEndCableSegmentBBox1_10x34inLadderEndCableSegmentBBoxAssembly0x34pos"/>
+      </physvol>
+      <physvol name="LadderEndCableSegmentBBox2_1" copynumber="1">
+        <volumeref ref="LadderEndCableSegmentBBox20x34"/>
+        <positionref ref="LadderEndCableSegmentBBox2_10x34inLadderEndCableSegmentBBoxAssembly0x34pos"/>
+      </physvol>
+    </assembly>
+    <volume name="rootLadderEndCableSegmentBBoxAssembly0x34"><materialref ref="G4_AIR"/><solidref ref="WorldBox"/><physvol name="PV-LadderEndCableSegmentBBoxAssembly0x34"><volumeref ref="LadderEndCableSegmentBBoxAssembly0x34"/><positionref ref="center"/></physvol></volume></structure>

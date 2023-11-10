@@ -1,0 +1,5 @@
+<structure><volume name="ClipScrewShape">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="TGeoCompositeShape0x225"/>
+    </volume>
+    </structure>

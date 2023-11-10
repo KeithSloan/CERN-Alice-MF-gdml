@@ -1,0 +1,5 @@
+<structure><volume name="EffectiveEndCapInnerTube">
+      <materialref ref="ITS_COPPER"/>
+      <solidref ref="TGeoTube0x123"/>
+    </volume>
+    </structure>

@@ -1,0 +1,12 @@
+<materials><element name="ALUMINIUM_elm" formula="AL" Z="13">
+      <atom unit="g/mole" value="26.981538"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <material name="ITS_SDD_ruby_sph._Al2O3">
+      <D unit="g/cm3" value="3.9700000286102295"/>
+      <fraction n="0.47069999575614929" ref="ALUMINIUM_elm"/>
+      <fraction n="0.52929997444152832" ref="OXYGEN_elm"/>
+    </material>
+    </materials>

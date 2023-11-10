@@ -1,0 +1,189 @@
+<structure><volume name="OTOP">
+      <materialref ref="T0_PMT_Optical_glass___"/>
+      <solidref ref="OTOP0x1"/>
+    </volume>
+    <volume name="OTOO">
+      <materialref ref="T0_T0_Opt_Air"/>
+      <solidref ref="OTOO0x1"/>
+    </volume>
+    <volume name="OREG">
+      <materialref ref="T0_PMT_Optical_glass_cathode_"/>
+      <solidref ref="OREG0x1"/>
+    </volume>
+    <volume name="OBOT">
+      <materialref ref="T0_PMT_glass___"/>
+      <solidref ref="OBOT0x1"/>
+    </volume>
+    <volume name="OOUT">
+      <materialref ref="T0_PMT_glass___"/>
+      <solidref ref="OOUT0x1"/>
+    </volume>
+    <volume name="OCER">
+      <materialref ref="T0_Ceramic__"/>
+      <solidref ref="OCER0x1"/>
+    </volume>
+    <volume name="OSTE">
+      <materialref ref="T0_Steel"/>
+      <solidref ref="OSTE0x1"/>
+    </volume>
+    <volume name="OPMT">
+      <materialref ref="T0_Air"/>
+      <solidref ref="OPMT0x1"/>
+      <physvol name="0TOP_1" copynumber="1">
+        <volumeref ref="OTOP"/>
+        <positionref ref="OTOP_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0TOO_1" copynumber="1">
+        <volumeref ref="OTOO"/>
+        <positionref ref="OTOO_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0REG_1" copynumber="1">
+        <volumeref ref="OREG"/>
+        <positionref ref="OREG_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0BOT_1" copynumber="1">
+        <volumeref ref="OBOT"/>
+        <positionref ref="OBOT_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0OUT_1" copynumber="1">
+        <volumeref ref="OOUT"/>
+        <positionref ref="OOUT_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0CER_1" copynumber="1">
+        <volumeref ref="OCER"/>
+        <positionref ref="OCER_1inOPMTpos"/>
+      </physvol>
+      <physvol name="0STE_1" copynumber="1">
+        <volumeref ref="OSTE"/>
+        <positionref ref="OSTE_1inOPMTpos"/>
+      </physvol>
+    </volume>
+    <volume name="OSU8">
+      <materialref ref="T0_Aliminium"/>
+      <solidref ref="OSU80x1"/>
+    </volume>
+    <volume name="OSU6">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU60x1"/>
+      <physvol name="0SU8_1" copynumber="1">
+        <volumeref ref="OSU8"/>
+        <positionref ref="OSU8_1inOSU6pos"/>
+      </physvol>
+    </volume>
+    <volume name="OSU7">
+      <materialref ref="T0_Aliminium"/>
+      <solidref ref="OSU70x1"/>
+    </volume>
+    <volume name="OINS">
+      <materialref ref="T0_Air"/>
+      <solidref ref="OINS0x1"/>
+      <physvol name="0PMT_1" copynumber="1">
+        <volumeref ref="OPMT"/>
+        <positionref ref="OPMT_1inOINSpos"/>
+      </physvol>
+      <physvol name="0SU6_1" copynumber="1">
+        <volumeref ref="OSU6"/>
+        <positionref ref="OSU6_1inOINSpos"/>
+      </physvol>
+      <physvol name="0SU7_1" copynumber="1">
+        <volumeref ref="OSU7"/>
+        <positionref ref="OSU7_1inOINSpos"/>
+      </physvol>
+    </volume>
+    <volume name="OSU1">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU10x1"/>
+    </volume>
+    <volume name="OSU2">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU20x1"/>
+    </volume>
+    <volume name="OSU3">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU30x1"/>
+    </volume>
+    <volume name="OSU4">
+      <materialref ref="T0_CarbonPlastic"/>
+      <solidref ref="OSU40x1"/>
+    </volume>
+    <volume name="OSTR">
+      <materialref ref="T0_Air"/>
+      <solidref ref="OSTR0x1"/>
+      <physvol name="0INS_1" copynumber="1">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_1inOSTRpos"/>
+        <rotationref ref="OINS_1inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_2" copynumber="2">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_2inOSTRpos"/>
+        <rotationref ref="OINS_2inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_3" copynumber="3">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_3inOSTRpos"/>
+        <rotationref ref="OINS_3inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_4" copynumber="4">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_4inOSTRpos"/>
+        <rotationref ref="OINS_4inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_5" copynumber="5">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_5inOSTRpos"/>
+        <rotationref ref="OINS_5inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_6" copynumber="6">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_6inOSTRpos"/>
+        <rotationref ref="OINS_6inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_7" copynumber="7">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_7inOSTRpos"/>
+        <rotationref ref="OINS_7inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_8" copynumber="8">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_8inOSTRpos"/>
+        <rotationref ref="OINS_8inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_9" copynumber="9">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_9inOSTRpos"/>
+        <rotationref ref="OINS_9inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_10" copynumber="10">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_10inOSTRpos"/>
+        <rotationref ref="OINS_10inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_11" copynumber="11">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_11inOSTRpos"/>
+        <rotationref ref="OINS_11inOSTRrot"/>
+      </physvol>
+      <physvol name="0INS_12" copynumber="12">
+        <volumeref ref="OINS"/>
+        <positionref ref="OINS_12inOSTRpos"/>
+        <rotationref ref="OINS_12inOSTRrot"/>
+      </physvol>
+      <physvol name="0SU1_1" copynumber="1">
+        <volumeref ref="OSU1"/>
+        <positionref ref="OSU1_1inOSTRpos"/>
+      </physvol>
+      <physvol name="0SU2_1" copynumber="1">
+        <volumeref ref="OSU2"/>
+        <positionref ref="OSU2_1inOSTRpos"/>
+      </physvol>
+      <physvol name="0SU3_1" copynumber="1">
+        <volumeref ref="OSU3"/>
+        <positionref ref="OSU3_1inOSTRpos"/>
+      </physvol>
+      <physvol name="0SU4_1" copynumber="1">
+        <volumeref ref="OSU4"/>
+        <positionref ref="OSU4_1inOSTRpos"/>
+      </physvol>
+    </volume>
+    </structure>

@@ -1,0 +1,5 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><polyhedra name="TGeoPgon0x184" startphi="0" deltaphi="20" numsides="1" aunit="deg" lunit="cm">
+      <zplane z="-1.8720000000000001" rmin="75.741229516856365" rmax="244.99122951685638"/>
+      <zplane z="1.8720000000000001" rmin="75.741229516856365" rmax="244.99122951685638"/>
+    </polyhedra>
+    </solids>

@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="LadderEndCableSegmentBBoxShape20x21" x="6.1464998280000023" y="2.3500000000000001" z="0.002" lunit="cm"/>
+    </solids>

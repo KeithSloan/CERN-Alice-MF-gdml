@@ -1,0 +1,79 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><subtraction name="Osupsh">
+      <first ref="OsupPgon"/>
+      <second ref="TGeoCompositeShape0x295"/>
+    </subtraction>
+    <polycone name="OsupPgon" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="0" rmin="4.0999999999999996" rmax="5.5"/>
+      <zplane z="10.5" rmin="4.0999999999999996" rmax="5.5"/>
+      <zplane z="10.5" rmin="4.0999999999999996" rmax="4.9000000000000004"/>
+      <zplane z="12.5" rmin="4.0999999999999996" rmax="4.9000000000000004"/>
+    </polycone>
+    <union name="TGeoCompositeShape0x295">
+      <first ref="TGeoCompositeShape0x296"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x295OHOLEpos" x="-3.2500000000000031" y="5.6291651245988499" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x296">
+      <first ref="TGeoCompositeShape0x297"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x296OHOLEpos" x="-5.6291651245988534" y="3.2499999999999956" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x297">
+      <first ref="TGeoCompositeShape0x298"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x297OHOLEpos" x="-6.5" y="-1.1939911949768178e-15" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x298">
+      <first ref="TGeoCompositeShape0x299"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x298OHOLEpos" x="-5.6291651245988499" y="-3.2500000000000027" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x299">
+      <first ref="TGeoCompositeShape0x300"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x299OHOLEpos" x="-3.2499999999999982" y="-5.6291651245988525" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x300">
+      <first ref="TGeoCompositeShape0x301"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x300OHOLEpos" x="7.9599412998454522e-16" y="-6.5" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x301">
+      <first ref="TGeoCompositeShape0x302"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x301OHOLEpos" x="3.2500000000000022" y="-5.6291651245988499" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x302">
+      <first ref="TGeoCompositeShape0x303"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x302OHOLEpos" x="5.6291651245988517" y="-3.2499999999999987" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x303">
+      <first ref="TGeoCompositeShape0x304"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x303OHOLEpos" x="6.5" y="3.9799706499227261e-16" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x304">
+      <first ref="TGeoCompositeShape0x305"/>
+      <second ref="OHOLE"/>
+      <position name="TGeoCompositeShape0x304OHOLEpos" x="5.6291651245988508" y="3.2500000000000004" z="6.5" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x305">
+      <first ref="OHOLE"/>
+      <second ref="OHOLE"/>
+      <firstposition name="TGeoCompositeShape0x305OHOLEpos" x="0" y="6.5" z="6.5" unit="cm"/>
+      <position name="TGeoCompositeShape0x305OHOLEpos" x="3.2499999999999996" y="5.6291651245988517" z="6.5" unit="cm"/>
+    </union>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="OHOLE" rmin="0" rmax="1.51" z="13" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

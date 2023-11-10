@@ -1,0 +1,23 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="PXTL_1inPWRApos" x="0" y="0" z="0" unit="cm"/>
+    <position name="PWRA_1inPCELpos" x="0" y="0.24000000953674316" z="0" unit="cm"/>
+    <position name="PPIN_1inPCELpos" x="0" y="9.244999885559082" z="0" unit="cm"/>
+    <position name="PREA_1inPCELpos" x="0" y="9.5" z="0" unit="cm"/>
+    <position name="PCEL_1inPSTRpos" x="-7.8925004005432129" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_2inPSTRpos" x="-7.8925004005432129" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PCEL_3inPSTRpos" x="-5.6375002861022949" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_4inPSTRpos" x="-5.6375002861022949" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PCEL_5inPSTRpos" x="-3.382500171661377" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_6inPSTRpos" x="-3.382500171661377" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PCEL_7inPSTRpos" x="-1.127500057220459" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_8inPSTRpos" x="-1.127500057220459" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PCEL_9inPSTRpos" x="1.127500057220459" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_10inPSTRpos" x="1.127500057220459" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PCEL_11inPSTRpos" x="3.382500171661377" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_12inPSTRpos" x="3.382500171661377" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PCEL_13inPSTRpos" x="5.6375002861022949" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_14inPSTRpos" x="5.6375002861022949" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PCEL_15inPSTRpos" x="7.8925004005432129" y="-3" z="1.127500057220459" unit="cm"/>
+    <position name="PCEL_16inPSTRpos" x="7.8925004005432129" y="-3" z="-1.127500057220459" unit="cm"/>
+    <position name="PSHO_1inPSUPpos" x="0" y="0" z="0.15000000596046448" unit="cm"/>
+    <position name="PSUP_1inPSTRpos" x="0" y="9.75" z="0" unit="cm"/>
+    </define>

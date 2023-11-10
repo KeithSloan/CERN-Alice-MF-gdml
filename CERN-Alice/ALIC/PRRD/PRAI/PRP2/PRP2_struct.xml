@@ -1,0 +1,5 @@
+<structure><volume name="PRP2">
+      <materialref ref="PHOS_Steel"/>
+      <solidref ref="PRP20x1"/>
+    </volume>
+    </structure>

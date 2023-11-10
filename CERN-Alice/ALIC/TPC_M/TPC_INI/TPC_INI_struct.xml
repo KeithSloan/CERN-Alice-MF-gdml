@@ -1,0 +1,17 @@
+<structure><volume name="TPC_IFC1">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTube0x169"/>
+    </volume>
+    <volume name="TPC_INI">
+      <materialref ref="TPC_CO2"/>
+      <solidref ref="TGeoPcon0x152"/>
+      <physvol name="TPC_IFC1_1" copynumber="1">
+        <volumeref ref="TPC_IFC1"/>
+        <positionref ref="TPC_IFC1_1inTPC_INIpos"/>
+      </physvol>
+      <physvol name="TPC_IFC1_2" copynumber="2">
+        <volumeref ref="TPC_IFC1"/>
+        <positionref ref="TPC_IFC1_2inTPC_INIpos"/>
+      </physvol>
+    </volume>
+    </structure>

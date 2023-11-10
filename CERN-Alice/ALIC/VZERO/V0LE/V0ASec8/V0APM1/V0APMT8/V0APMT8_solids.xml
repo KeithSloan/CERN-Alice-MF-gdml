@@ -1,0 +1,4 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="sV0APMT18" rmin="2.4399999999999999" rmax="2.54" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0APMT28" rmin="2.54" rmax="2.7000000000000002" z="10" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="sV0APMTT8" rmin="0" rmax="2.7000000000000002" z="1" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

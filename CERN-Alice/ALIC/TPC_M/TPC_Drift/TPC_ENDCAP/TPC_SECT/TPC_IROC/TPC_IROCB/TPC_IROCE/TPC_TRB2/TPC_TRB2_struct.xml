@@ -1,0 +1,5 @@
+<structure><volume name="TPC_TRB2">
+      <materialref ref="TPC_Al"/>
+      <solidref ref="TGeoTrd10x5"/>
+    </volume>
+    </structure>

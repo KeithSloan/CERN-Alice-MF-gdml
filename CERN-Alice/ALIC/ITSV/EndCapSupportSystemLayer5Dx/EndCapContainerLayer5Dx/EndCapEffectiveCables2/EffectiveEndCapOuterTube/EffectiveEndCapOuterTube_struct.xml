@@ -1,0 +1,5 @@
+<structure><volume name="EffectiveEndCapOuterTube">
+      <materialref ref="ITS_KAPTONHPOLYCH2"/>
+      <solidref ref="TGeoTube0x124"/>
+    </volume>
+    </structure>

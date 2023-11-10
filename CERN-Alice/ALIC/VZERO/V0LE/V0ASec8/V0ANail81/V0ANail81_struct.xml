@@ -1,0 +1,5 @@
+<structure><volume name="V0ANail81">
+      <materialref ref="VZERO_V0APMA"/>
+      <solidref ref="sV0ANail81"/>
+    </volume>
+    </structure>

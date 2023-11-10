@@ -1,0 +1,5 @@
+<structure><volume name="SDDFoamCylinder">
+      <materialref ref="ITS_ROHACELL"/>
+      <solidref ref="TGeoTube0x128"/>
+    </volume>
+    </structure>

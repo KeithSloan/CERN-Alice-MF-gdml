@@ -1,0 +1,5 @@
+<structure><volume name="ICYL">
+      <materialref ref="ITS_AL"/>
+      <solidref ref="ICYL0x1"/>
+    </volume>
+    </structure>

@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><box name="TGeoBBox0x499" x="0.60000002384185791" y="702" z="6.3000001907348633" lunit="cm"/>
+    </solids>

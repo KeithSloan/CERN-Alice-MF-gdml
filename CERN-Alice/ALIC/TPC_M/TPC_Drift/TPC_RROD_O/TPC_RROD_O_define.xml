@@ -1,0 +1,6 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="TPC_RR_O_1inTPC_RROD_Opos" x="0" y="0" z="0" unit="cm"/>
+    <position name="TPC_W_O_1inTPC_CR_Opos" x="0" y="0" z="0" unit="cm"/>
+    <position name="TPC_CR_O_1inTPC_RROD_Opos" x="0.5" y="0.86599999999999999" z="0" unit="cm"/>
+    <position name="TPC_CR_O_2inTPC_RROD_Opos" x="0.5" y="-0.86599999999999999" z="0" unit="cm"/>
+    <position name="TPC_PR_O_1inTPC_RROD_Opos" x="0" y="0" z="0" unit="cm"/>
+    </define>

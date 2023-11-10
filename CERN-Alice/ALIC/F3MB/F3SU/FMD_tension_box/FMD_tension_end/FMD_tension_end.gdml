@@ -1,0 +1,9 @@
+
+<!DOCTYPE gdml [
+<!ENTITY materials SYSTEM "FMD_tension_end_materials.xml">
+<!ENTITY solids SYSTEM "FMD_tension_end_solids.xml">
+<!ENTITY setup SYSTEM "FMD_tension_end_setup.xml">
+<!ENTITY struct SYSTEM "FMD_tension_end_struct.xml">
+]>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">&materials;&solids;&setup;&struct;</gdml>

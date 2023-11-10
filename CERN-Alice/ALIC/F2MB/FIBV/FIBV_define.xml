@@ -1,0 +1,32 @@
+<define><position name="center" x="0" y="0" z="0"/><position name="FIAC_0inFISEpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="FISE_00x1inFIFHpos" x="0" y="0" z="0.016" unit="cm"/>
+    <position name="FIPB_00x1inFIFHpos" x="0" y="0" z="0.122" unit="cm"/>
+    <position name="FICU_00x1inFIFHpos" x="0" y="0" z="0.16700000000000001" unit="cm"/>
+    <position name="FICH_00x1inFIFHpos" x="0" y="0" z="0.17700000000000002" unit="cm"/>
+    <position name="FILL_0inFIFHpos" x="8.0533999999999999" y="0.055168700000000001" z="0.86699999999999999" unit="cm"/>
+    <position name="FILL_1inFIFHpos" x="12.9457" y="2.9992999999999999" z="0.86699999999999999" unit="cm"/>
+    <position name="FILL_2inFIFHpos" x="12.950799999999999" y="-2.9062000000000001" z="0.86699999999999999" unit="cm"/>
+    <position name="FIFH_5inFIBVpos" x="0" y="-0" z="-0.25" unit="cm"/>
+    <position name="FISE_0inFIBHpos" x="0" y="0" z="0.016" unit="cm"/>
+    <position name="FIPB_0inFIBHpos" x="0" y="0" z="0.122" unit="cm"/>
+    <position name="FICU_0inFIBHpos" x="0" y="0" z="0.16700000000000001" unit="cm"/>
+    <position name="FICH_0inFIBHpos" x="0" y="0" z="0.17700000000000002" unit="cm"/>
+    <position name="FISL_0inFIBHpos" x="8.0533999999999999" y="0.055168700000000001" z="0.61699999999999999" unit="cm"/>
+    <position name="FISL_1inFIBHpos" x="12.9457" y="2.9992999999999999" z="0.61699999999999999" unit="cm"/>
+    <position name="FISL_2inFIBHpos" x="12.950799999999999" y="-2.9062000000000001" z="0.61699999999999999" unit="cm"/>
+    <position name="FIBH_6inFIBVpos" x="0" y="-0" z="0.25" unit="cm"/>
+    <position name="FIFH_7inFIBVpos" x="0" y="-0" z="-0.25" unit="cm"/>
+    <position name="FIBH_8inFIBVpos" x="0" y="0" z="0.25" unit="cm"/>
+    <position name="FIFH_9inFIBVpos" x="0" y="0" z="-0.25" unit="cm"/>
+    <position name="FIDP_1inFIBVpos" x="0" y="0" z="2.8120000000000003" unit="cm"/>
+    <position name="FIDC_1inFIBVpos" x="0" y="0" z="2.9020000000000001" unit="cm"/>
+    <position name="FIDI_1inFIBVpos" x="0" y="0" z="2.9220000000000002" unit="cm"/>
+    <rotation name="FIFH_5inFIBVrot" x="-0" y="-0" z="162.00000000000003" unit="deg"/>
+    <rotation name="FIBH_6inFIBVrot" x="-0" y="-0" z="126.00000000000003" unit="deg"/>
+    <rotation name="FIFH_7inFIBVrot" x="-0" y="-0" z="90.000000000000014" unit="deg"/>
+    <rotation name="FIBH_8inFIBVrot" x="0" y="-0" z="54.000000000000021" unit="deg"/>
+    <rotation name="FIFH_9inFIBVrot" x="0" y="-0" z="18.000000000000014" unit="deg"/>
+    <rotation name="FIDP_1inFIBVrot" x="0" y="0" z="-180" unit="deg"/>
+    <rotation name="FIDC_1inFIBVrot" x="0" y="0" z="-180" unit="deg"/>
+    <rotation name="FIDI_1inFIBVrot" x="0" y="0" z="-180" unit="deg"/>
+    </define>

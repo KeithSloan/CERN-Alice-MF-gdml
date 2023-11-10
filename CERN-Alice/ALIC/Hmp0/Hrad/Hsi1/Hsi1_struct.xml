@@ -1,0 +1,5 @@
+<structure><volume name="Hsi1">
+      <materialref ref="HMPID_SiO2"/>
+      <solidref ref="Hsi10x1"/>
+    </volume>
+    </structure>

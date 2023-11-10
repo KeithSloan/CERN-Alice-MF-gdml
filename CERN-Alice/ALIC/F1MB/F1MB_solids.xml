@@ -1,0 +1,163 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="FIAC0x1" rmin="4.2999999999999998" rmax="17.199999999999999" z="0.032000000000000001" startphi="342" deltaphi="36" aunit="deg" lunit="cm"/>
+    <xtru name="FMDI_physical_sensor" lunit="cm">
+      <twoDimVertex x="4.1914999999999996" y="-1.5792999999999999"/>
+      <twoDimVertex x="15.4251" y="-5.2293000000000003"/>
+      <twoDimVertex x="17.3035" y="-1.9806999999999999"/>
+      <twoDimVertex x="17.3035" y="1.9806999999999999"/>
+      <twoDimVertex x="15.4251" y="5.2293000000000003"/>
+      <twoDimVertex x="4.1914999999999996" y="1.5792999999999999"/>
+      <section zOrder="0" zPosition="-0.016" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.016" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="FMDI_hybrid_pcb" lunit="cm">
+      <twoDimVertex x="4.1699999999999999" y="-1.0573999999999999"/>
+      <twoDimVertex x="15.2622" y="-4.6614000000000004"/>
+      <twoDimVertex x="17.399999999999999" y="-0.96430000000000005"/>
+      <twoDimVertex x="17.399999999999999" y="0.96430000000000005"/>
+      <twoDimVertex x="15.2622" y="4.6614000000000004"/>
+      <twoDimVertex x="4.1699999999999999" y="1.0573999999999999"/>
+      <section zOrder="0" zPosition="-0.040000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.040000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="FMDI_hybrid_copper" lunit="cm">
+      <twoDimVertex x="4.1699999999999999" y="-1.0573999999999999"/>
+      <twoDimVertex x="15.2622" y="-4.6614000000000004"/>
+      <twoDimVertex x="17.399999999999999" y="-0.96430000000000005"/>
+      <twoDimVertex x="17.399999999999999" y="0.96430000000000005"/>
+      <twoDimVertex x="15.2622" y="4.6614000000000004"/>
+      <twoDimVertex x="4.1699999999999999" y="1.0573999999999999"/>
+      <section zOrder="0" zPosition="-0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <xtru name="FMDI_hybrid_chip" lunit="cm">
+      <twoDimVertex x="4.1699999999999999" y="-1.0573999999999999"/>
+      <twoDimVertex x="15.2622" y="-4.6614000000000004"/>
+      <twoDimVertex x="17.399999999999999" y="-0.96430000000000005"/>
+      <twoDimVertex x="17.399999999999999" y="0.96430000000000005"/>
+      <twoDimVertex x="15.2622" y="4.6614000000000004"/>
+      <twoDimVertex x="4.1699999999999999" y="1.0573999999999999"/>
+      <section zOrder="0" zPosition="-0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+      <section zOrder="1" zPosition="0.0050000000000000001" xOffset="0" yOffset="0" scalingFactor="1"/>
+    </xtru>
+    <tube name="FILL0x1" rmin="0" rmax="0.25" z="1.3500000000000001" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FISL0x1" rmin="0" rmax="0.25" z="0.84999999999999998" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <intersection name="FIDP0x1">
+      <first ref="FIDP_inner"/>
+      <second ref="FIDP_clip"/>
+      <position name="FIDP0x1FIDP_clippos" x="0" y="9.1699999999999999" z="0" unit="cm"/>
+    </intersection>
+    <tube name="FIDP_inner" rmin="5.1599999999999993" rmax="16.34" z="0.16" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FIDP_clip" x="32.68" y="16.34" z="0.32000000000000001" lunit="cm"/>
+    <intersection name="FIDC0x1">
+      <first ref="FIDC_inner"/>
+      <second ref="FIDC_clip"/>
+      <position name="FIDC0x1FIDC_clippos" x="0" y="9.1699999999999999" z="0" unit="cm"/>
+    </intersection>
+    <tube name="FIDC_inner" rmin="5.1599999999999993" rmax="16.34" z="0.02" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FIDC_clip" x="32.68" y="16.34" z="0.040000000000000001" lunit="cm"/>
+    <intersection name="FIDI0x1">
+      <first ref="FIDI_inner"/>
+      <second ref="FIDI_clip"/>
+      <position name="FIDI0x1FIDI_clippos" x="0" y="9.1699999999999999" z="0" unit="cm"/>
+    </intersection>
+    <tube name="FIDI_inner" rmin="5.1599999999999993" rmax="16.34" z="0.02" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FIDI_clip" x="32.68" y="16.34" z="0.040000000000000001" lunit="cm"/>
+    <subtraction name="F1HI0x1">
+      <first ref="TGeoCompositeShape0x233"/>
+      <second ref="FMD1I_E_X"/>
+      <position name="F1HI0x1FMD1I_E_Xpos" x="0" y="0.14999999999999999" z="0" unit="cm"/>
+    </subtraction>
+    <union name="TGeoCompositeShape0x233">
+      <first ref="TGeoCompositeShape0x234"/>
+      <second ref="FMD1I_C_O"/>
+      <position name="TGeoCompositeShape0x233FMD1I_C_Opos" x="13.827329782388002" y="0.34999999999999998" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x234">
+      <first ref="TGeoCompositeShape0x235"/>
+      <second ref="FMD1I_C_O"/>
+      <position name="TGeoCompositeShape0x234FMD1I_C_Opos" x="-13.827329782388002" y="0.34999999999999998" z="0" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x235">
+      <first ref="TGeoCompositeShape0x236"/>
+      <second ref="FMD1I_R_O"/>
+    </union>
+    <union name="TGeoCompositeShape0x236">
+      <first ref="TGeoCompositeShape0x237"/>
+      <second ref="FMD1I_R_I"/>
+    </union>
+    <union name="TGeoCompositeShape0x237">
+      <first ref="FMD1I_F_1"/>
+      <second ref="FMD1I_B_1"/>
+      <firstposition name="TGeoCompositeShape0x237FMD1I_F_1pos" x="0" y="0" z="0.27500000000000002" unit="cm"/>
+      <position name="TGeoCompositeShape0x237FMD1I_B_1pos" x="0" y="0" z="-0.27500000000000002" unit="cm"/>
+    </union>
+    <tube name="FMD1I_F_1" rmin="5.2999999999999998" rmax="22.371600000000001" z="0.10000000000000001" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <tube name="FMD1I_B_1" rmin="5.2999999999999998" rmax="22.371600000000001" z="0.10000000000000001" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <tube name="FMD1I_R_I" rmin="5.2999999999999998" rmax="5.3999999999999995" z="0.65000000000000002" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <tube name="FMD1I_R_O" rmin="22.271599999999999" rmax="22.371600000000001" z="0.65000000000000002" startphi="0" deltaphi="180" aunit="deg" lunit="cm"/>
+    <box name="FMD1I_C_O" x="17.0716" y="0.10000000000000001" z="0.65000000000000002" lunit="cm"/>
+    <box name="FMD1I_C_O" x="17.0716" y="0.10000000000000001" z="0.65000000000000002" lunit="cm"/>
+    <box name="FMD1I_E_X" x="44.7532" y="0.31" z="0.66000000000000003" lunit="cm"/>
+    <subtraction name="FMD1_lid0x1">
+      <first ref="FMD1_lid_base"/>
+      <second ref="TGeoCompositeShape0x238"/>
+    </subtraction>
+    <polycone name="FMD1_lid_base" startphi="0" deltaphi="180" aunit="deg" lunit="cm">
+      <zplane z="0" rmin="4.2000000000000002" rmax="20.949999999999999"/>
+      <zplane z="0.14999999999999999" rmin="4.2000000000000002" rmax="20.949999999999999"/>
+      <zplane z="0.14999999999999999" rmin="20.800000000000001" rmax="20.949999999999999"/>
+      <zplane z="3" rmin="20.800000000000001" rmax="20.949999999999999"/>
+      <zplane z="3" rmin="20.800000000000001" rmax="22.300000000000001"/>
+      <zplane z="3.1499999999999999" rmin="20.800000000000001" rmax="22.300000000000001"/>
+      <zplane z="3.1499999999999999" rmin="20.949999999999999" rmax="24.649999999999999"/>
+      <zplane z="3.2999999999999998" rmin="20.949999999999999" rmax="24.649999999999999"/>
+      <zplane z="3.2999999999999998" rmin="24.5" rmax="24.649999999999999"/>
+      <zplane z="6.7999999999999998" rmin="24.5" rmax="24.649999999999999"/>
+      <zplane z="6.7999999999999998" rmin="24.5" rmax="26"/>
+      <zplane z="6.9500000000000002" rmin="24.5" rmax="26"/>
+    </polycone>
+    <union name="TGeoCompositeShape0x238">
+      <first ref="TGeoCompositeShape0x239"/>
+      <second ref="FMD1_lid_hole"/>
+      <position name="TGeoCompositeShape0x238FMD1_lid_holepos" x="25.260899999999999" y="2.6550199999999999" z="6.8700000000000001" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x239">
+      <first ref="TGeoCompositeShape0x240"/>
+      <second ref="FMD1_lid_hole"/>
+      <position name="TGeoCompositeShape0x239FMD1_lid_holepos" x="-25.260899999999999" y="2.6550199999999999" z="6.8700000000000001" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x240">
+      <first ref="TGeoCompositeShape0x241"/>
+      <second ref="FMD1_lid_hole"/>
+      <position name="TGeoCompositeShape0x240FMD1_lid_holepos" x="21.997" y="12.699999999999999" z="6.8700000000000001" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x241">
+      <first ref="TGeoCompositeShape0x242"/>
+      <second ref="FMD1_lid_hole"/>
+      <position name="TGeoCompositeShape0x241FMD1_lid_holepos" x="-21.997" y="12.699999999999999" z="6.8700000000000001" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x242">
+      <first ref="TGeoCompositeShape0x243"/>
+      <second ref="FMD1_lid_hole"/>
+      <position name="TGeoCompositeShape0x242FMD1_lid_holepos" x="20.548999999999999" y="14.9297" z="6.8700000000000001" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x243">
+      <first ref="TGeoCompositeShape0x244"/>
+      <second ref="FMD1_lid_hole"/>
+      <position name="TGeoCompositeShape0x243FMD1_lid_holepos" x="-20.548999999999999" y="14.9297" z="6.8700000000000001" unit="cm"/>
+    </union>
+    <union name="TGeoCompositeShape0x244">
+      <first ref="FMD1_lid_hole"/>
+      <second ref="FMD1_lid_hole"/>
+      <firstposition name="TGeoCompositeShape0x244FMD1_lid_holepos" x="-7.84903" y="24.1568" z="6.8700000000000001" unit="cm"/>
+      <position name="TGeoCompositeShape0x244FMD1_lid_holepos" x="7.84903" y="24.1568" z="6.8700000000000001" unit="cm"/>
+    </union>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="FMD1_lid_hole" rmin="0" rmax="0.26500000000000001" z="0.16" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

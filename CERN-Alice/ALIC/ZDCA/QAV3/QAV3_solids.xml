@@ -1,0 +1,2 @@
+<solids><box name="WorldBox" x="10000" y="10000" z="10000"/><tube name="QAV30x1" rmin="4.5" rmax="4.7000000000000002" z="31" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    </solids>

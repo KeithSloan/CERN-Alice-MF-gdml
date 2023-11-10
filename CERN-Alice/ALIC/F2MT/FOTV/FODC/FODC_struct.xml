@@ -1,0 +1,5 @@
+<structure><volume name="FODC">
+      <materialref ref="FMD_Copper"/>
+      <solidref ref="FODC0x1"/>
+    </volume>
+    </structure>
