@@ -43,6 +43,10 @@ class volAsm_class:
 		return self.vaName
 
 
+	def getLevel(self):
+		return self.level
+
+
 	def addSubVolAsms(self, volasmList):
 		self.subVolAsmList = volasmList
 
@@ -60,7 +64,7 @@ class volAsm_class:
 	def processPath(self, path, level, levels, volAsmDict):
 		print(f"Processing path {path} level {level}")
 		vaName = os.path.splitext(os.path.basename(path))[0]
-		print(f"Processing VolAsm {vaName}")
+		print(f"Processing VolAsm {vaName} Level {level}")
 		volAsm = volAsm_class(vaName, path, level)
 		#volAsm = volAsm_class(vaName, path)
 		# Add volume to dictionary
@@ -111,7 +115,7 @@ class volAsm_class:
      
 		import freecad.gdml.importGDML
 		#freecad.gdml.importGDML.open(u"/Users/keithsloan/Downloads/CERN-Dipole/Dipole/DCoil/DL0/DL1/DL1.gdml")
-		freecad.gdml.importGDML.open(path, processType = 1, prompt=False)
+		freecad.gdml.importGDML.open(path, processType = 2, prompt=False)
 		doc = FreeCAD.ActiveDocument
 		print(f"GDML file opened {path} Root Volume {self.vaName}")
 		obj = doc.getObject(self.vaName)
@@ -164,7 +168,7 @@ class levelDet:
 
 
     def levelAddVolAsm(self, volAsm, path, level):
-        print(f"Add Volume {volAsm.getName()} to level {level}")
+        print(f"Add Volume {volAsm.getName()} to level_i {level} level {volAsm.getLevel()}")
         #self.volAsmList.append(volAsm_class(vaName, path, level))    
         self.volAsmList.append(volAsm)   
 
@@ -210,16 +214,13 @@ class levels_class:
         print(f"\nProcess levels in Reverse order\n")
         for i, l in reversed(list(enumerate(self.levels))):
             numVolAsm = l.getNumVolAsm()
-            print(f" Level {i} Number of VolAsm {numVolAsm}")
-            if numVolAsm > self.numVolAsm or i == 0 :
-                volAsmList = l.getVolAsms()
-                for volAsm in volAsmList:
-                    print(f"volAsm {volAsm.getName()}")
-                    volAsm.exportBrepStep()
+            print(f" >>>>>>> Processing Level {i} Number of VolAsm {numVolAsm}")
+            #if numVolAsm > self.numVolAsm or i == 0 :
+            volAsmList = l.getVolAsms()
+            for volAsm in volAsmList:
+                print(f">>>>> Process volAsm {volAsm.getName()} Level_i {i} Level {volAsm.getLevel()}")
+                volAsm.exportBrepStep()
            
-
-
-
 
 class dirBase_class:
 	def __init__(self):
