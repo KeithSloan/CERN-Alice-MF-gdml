@@ -9,9 +9,9 @@ Use the followings Macros to create Step & Brep files
     
 Remember that these need to be copied to FreeCAD's Macro directory
 
- On MacOS is /Users/<user>/Library/Application Support/FreeCAD/Macro
- On Linux is ???
- On Windows is ???
+ * On MacOS is /Users/<user>/Library/Application Support/FreeCAD/Macro
+ * On Linux is ???
+ * On Windows is ???
 
 Do not use ProcessDirStruct.FCMacro this is being retained and will be updated in the future
 
