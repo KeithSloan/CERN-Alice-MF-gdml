@@ -20,6 +20,10 @@
 # *   USA                                                                  *
 # *                                                                        *
 # *   Acknowledgements :                                                   *
+#
+#	Thanks to FreeCAD forum members
+#
+#		TheMarkster
 #                                                                          *
 #     Takes as input a GDML file directory and creates/updates             *
 #          STEP / BREP files from the GDML definitions                     *
@@ -28,6 +32,7 @@
 #                                                                          *
 #***************************************************************************
 import sys, os
+import math
 
 class volAsm_class:
  	# ??? volasm in several places aslo different levels?
@@ -81,6 +86,40 @@ class volAsm_class:
 		return(os.path.join(path, name))
 
 
+	def printList(self, name, objList, msg=""):
+		print(f"List ===== {name} ===== {msg}")
+		#print(dir(objList))
+		for o in objList:
+			print(f" {o.Name} : {o}")
+		print("===================")
+
+	def objSortedShapesOnly(self, obj):
+		saveList =[]
+		for o in obj.OutList:
+			if hasattr(o, "Shape"):
+				saveList += [o]
+		self.printList("SaveList", saveList)
+		testList = sorted(saveList, key=lambda x: x.Shape.BoundBox.DiagonalLength, reverse=True)
+		for o in testList:
+			print(f"{o.Name} : {o.Shape.BoundBox.DiagonalLength}")
+		return testList
+
+	def countGDMLObj(self, obj):
+		print(f"Count GDML Obj")
+		gdmlCnt = 0
+		subVol = []
+		if hasattr(obj, "OutList"):
+			for o in obj.OutList:
+				if hasattr(o, "Proxy"):
+					if hasattr(o.Proxy, "Type"):
+						if o.Proxy.Type[0:4] == "GDML":
+							gdmlCnt += 1
+				if o.TypeId == "App::Part":
+					subVol += [o]
+		print(f"SubVol {subVol} gdmlCnt {gdmlCnt}")
+		return subVol, gdmlCnt
+
+
 	def exportStep(self, obj):
 		# Step export uses Import
 		import Import
@@ -93,6 +132,7 @@ class volAsm_class:
 		else:
 			Import.export([obj], exportPath)
 			print(f"Step exported {obj.Name} ")
+
 
 	def exportBrep(self, obj):
 		# Brep export uses Part:
@@ -121,16 +161,22 @@ class volAsm_class:
 			Part.export([obj], exportPath)
 			print(f"Brep exported {obj.Name}")
 
-
-
-	def checkNotInside(self, obj, testList):
-		for o in testList:
-			# Don;t test with self.
-			if o != obj:
-				if not o.Shape.BoundBox.isInside(obj.Shape.BoundBox):
-					return True
-			else:
+	def checkNotInside(self, obj1, obj2, tolerance=Part.Precision.confusion()):
+		# Don;t test with self.
+		if obj1 != obj2:
+			print(f"BoundBox : {obj1.Name} : {obj1.Shape.BoundBox} : {obj1.Name} : {obj2.Shape.BoundBox} {obj1.Shape.BoundBox.isInside(obj2.Shape.BoundBox)}")
+			#if not obj.Shape.BoundBox.isInside(o.Shape.BoundBox): 
+			if not obj1.Shape.BoundBox.isInside(obj2.Shape.BoundBox):
 				return True
+			#return o.Shape.BoundBox.isInside(obj.Shape.BoundBox)
+			#self.checkBoundBoxes(obj.Shape, o.Shape, tolerance)
+			cutShape = obj1.Shape.cut(obj2.Shape)
+			cutVol = obj1.Shape.Volume - obj2.Shape.Volume
+			print(f"CutShape Volume {cutShape.Volume} Vol Diff  {cutVol}")
+			if math.isclose(cutVol, cutShape.Volume, abs_tol = tolerance):
+				print(f"Return False")
+				return False
+		return True
 
 
 	def exportBrepStep(self):
@@ -188,73 +234,138 @@ class volAsm_class:
 			print(f"No BrepShe; created")
 		FreeCAD.closeDocument(doc.Name)
 
+	def processGDMLfile(self):
+		print(f"Export Brep Shell path {self.path}")
+		name = self.vaName+".gdml"
+		#path = "u"+ self.join(self.path, name)
+		self.fullPath = self.join(self.path, name)     
+
+		import freecad.gdml.importGDML
+		#freecad.gdml.importGDML.open(u"/Users/keithsloan/Downloads/CERN-Dipole/Dipole/DCoil/DL0/DL1/DL1.gdml")
+		freecad.gdml.importGDML.open(self.fullPath, processType = 2, prompt=False)
+		doc = FreeCAD.ActiveDocument
+		print(f"GDML file opened {self.fullPath} Root Volume {self.vaName}")
+		obj = doc.getObject(self.vaName)
+		doc.recompute()
+		# If problem with name i,e has underscore etc
+		#if obj is None:
+		#	obj = doc.RootObjects[-1]
+		#	print(f"Root Vol {self.vaName} type {obj.TypeId}")
+		#self.export(obj, ".step")
+      
+		print(f"GDML file opened GDML file {self.path}")
+		obj = doc.RootObjects[-1]
+		print(f"Root Vol {obj.Name} type {obj.TypeId}")
+		subVol, gdmlCnt = self.countGDMLObj(obj)
+		lnSubVol = len(subVol)
+		if lnSubVol == 1 :
+			print(f"World Volume - skip World Object")
+			obj = subVol[0]
+		# Create List that have Shapes)
+		testList = self.objSortedShapesOnly(obj)
+		if lnSubVol > 1 and gdmlCnt == 1:
+			print(f"Omit World BoundBox")
+			testList = testList[1:]
+		cmpLinks = [testList[0]]
+		rmvList = []
+		#print(f"cmpLinks {cmpLinks}")
+		self.printList("cmpLinks", cmpLinks, "Compound Links")
+		for o in testList:
+			for t in testList[1:]:
+				if o != t:
+					#self.printList("RmvList", rmvList)
+					if t not in rmvList:
+						print(f"Testing if {t.Name} isNotInside {o.Name}")
+						#print(f"Check if NOT inside {self.checkNotInside(o, t)}")
+						if self.checkNotInside(o, t) == True:
+							if t not in cmpLinks:
+								print(f"Append {t.Name}")
+								cmpLinks += [t]
+							else:
+								print("Already appended")
+						else:
+							print(f"Remove {t.Name}")
+							rmvList += [t]
+		print(f"cmpLinks {cmpLinks}")	
+		if len(cmpLinks) > 0 :
+			cmp = obj.newObject("Part::Compound","Compound")
+			cmp.Links = cmpLinks		
+			self.printList("cmpLinks", cmp.Links, "Compound Links")
+			doc.recompute()
+			#asm.recompute()
+			print(f"Compound Created")
+			self.exportBrepShell(cmp)
+		else:
+			print(f"No BrepShape; created")
+		FreeCAD.closeDocument(doc.Name)
+
 
 class levelDet:
-    def __init__(self):
-        self.volAsmList = []
+	def __init__(self):
+		self.volAsmList = []
 
 
-    def getNumVolAsm(self):
-        return len(self.volAsmList)
+	def getNumVolAsm(self):
+		return len(self.volAsmList)
 
 
-    def getVolAsms(self):
-        return self.volAsmList
+	def getVolAsms(self):
+		return self.volAsmList
 
 
-    def levelAddVolAsm(self, volAsm, path, level):
-        print(f"Add Volume {volAsm.getName()} to level_i {level} level {volAsm.getLevel()}")
-        #self.volAsmList.append(volAsm_class(vaName, path, level))    
-        self.volAsmList.append(volAsm)   
+	def levelAddVolAsm(self, volAsm, path, level):
+		print(f"Add Volume {volAsm.getName()} to level_i {level} level {volAsm.getLevel()}")
+		#self.volAsmList.append(volAsm_class(vaName, path, level))    
+		self.volAsmList.append(volAsm)   
 
 
 class levels_class:
-    def __init__(self):
-        self.levels = []
+	def __init__(self):
+		self.levels = []
 
 
-    def addLevel(self):
-        #print(f"levels add level")
-        self.levels.append(levelDet())
-        #print(f"len self.levels {len(self.levels)}")
+	def addLevel(self):
+ 		#print(f"levels add level")
+		self.levels.append(levelDet())
+		#print(f"len self.levels {len(self.levels)}")
 
 
-    def checkLevel(self, lvlNum):
-        #print(f"levels checkLevel lvlNum {lvlNum} levels {len(self.levels)}")
-        #print(f"test {lvlNum > len(self.levels)}")
-        # Lists index from 0
-        lvl = int(lvlNum) - 1
-        if lvlNum > len(self.levels):
-            self.addLevel()
-        #else:
-        #    print("No need to add")    
-
-        return self.levels[lvl]
-
-
-    def addVolAsm(self, volAsm, path, lvlNum):
-        #print(f"levels add VolAsm {volAsm.getName()}")
-        levelDet = self.checkLevel(lvlNum)
-        levelDet.levelAddVolAsm(volAsm, path, lvlNum)
+	def checkLevel(self, lvlNum):
+		#print(f"levels checkLevel lvlNum {lvlNum} levels {len(self.levels)}")
+		#print(f"test {lvlNum > len(self.levels)}")
+		# Lists index from 0
+		lvl = int(lvlNum) - 1
+		if lvlNum > len(self.levels):
+			self.addLevel()
+		#else:
+		#    print("No need to add")    
+		return self.levels[lvl]
 
 
-    def print(self):
-        # print(f"Levels {self.levels}")
-        for i, l in enumerate(self.levels):
-            print(f" Level {i} Number of VolAsm {l.getNumVolAsm()}")
+	def addVolAsm(self, volAsm, path, lvlNum):
+		#print(f"levels add VolAsm {volAsm.getName()}")
+		levelDet = self.checkLevel(lvlNum)
+		levelDet.levelAddVolAsm(volAsm, path, lvlNum)
 
-    def process(self):
-        self.numVolAsm = 3
-        # print(f"Levels {self.levels}")
-        print(f"\nProcess levels in Reverse order\n")
-        for i, l in reversed(list(enumerate(self.levels))):
-            numVolAsm = l.getNumVolAsm()
-            print(f" >>>>>>> Processing Level {i} Number of VolAsm {numVolAsm}")
-            #if numVolAsm > self.numVolAsm or i == 0 :
-            volAsmList = l.getVolAsms()
-            for volAsm in volAsmList:
-                print(f">>>>> Process volAsm {volAsm.getName()} Level_i {i} Level {volAsm.getLevel()}")
-                volAsm.exportBrepStep()
+
+	def print(self):
+		# print(f"Levels {self.levels}")
+		for i, l in enumerate(self.levels):
+			print(f" Level {i} Number of VolAsm {l.getNumVolAsm()}")
+
+	def process(self):
+		self.numVolAsm = 3
+		# print(f"Levels {self.levels}")
+		print(f"\nProcess levels in Reverse order\n")
+		for i, l in reversed(list(enumerate(self.levels))):
+			numVolAsm = l.getNumVolAsm()
+			print(f" >>>>>>> Processing Level {i} Number of VolAsm {numVolAsm}")
+		#if numVolAsm > self.numVolAsm or i == 0 :
+		volAsmList = l.getVolAsms()
+		for volAsm in volAsmList:
+			print(f">>>>> Process volAsm {volAsm.getName()} Level_i {i} Level {volAsm.getLevel()}")
+			#volAsm.exportBrepStep()
+			volAsm.processGDMLfile()
            
 
 class dirBase_class:

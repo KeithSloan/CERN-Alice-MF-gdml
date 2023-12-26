@@ -21,11 +21,9 @@
 # *                                                                        *
 # *   Acknowledgements :                                                   *
 #                                                                          *
-#     Takes as input a GDML file directory and creates/updates             *
-#          STEP / BREP files from the GDML definitions                     *
-#                                                                          *
-#             python3 processDirStruct.py <directory>                      *
-#                                                                          *
+#     Macro prompts for a GDML file directory and creates/updates             *
+#          BREP files from the GDML definitions                     *
+#                                                                          *                                                           *
 #***************************************************************************
 import sys, os
 
@@ -107,6 +105,10 @@ class volAsm_class:
 			Part.export([obj], exportPath)
 			print(f"Brep exported {obj.Name}")
 
+	def saveFC(self):
+		savePath = self.join(self.path, self.vaName)
+		FreeCAD.ActiveDocument.saveAs(savePath)
+
 	def exportBrepStep(self):
 		print(f"Export STEP & Brep {self.vaName} path {self.path}")
 		name = self.vaName+".gdml"
@@ -132,25 +134,29 @@ class volAsm_class:
 		# Make Compound and save Brep
 		print(f"obj {obj.Name}")
 		#print(f"obj {obj.Name} OutList {obj.OutList}")
-		#saveList = obj.OutList
-		#asm = obj.newObject("Part::Compound","Assembly")
-		#print(dir(asm))
-		#if hasattr(asm, "Links"):
-		#	print("Has Links")
-		#	print(asm.Links)
-		#	print(type(asm.Links))
-		#asm.Links = []
-		#for o in saveList:
-		#	if hasattr(o,"Shape"):
-		#		#print(f"Has Shape {o.Name}")
-	        # 			#asm.Links.append(o)
-		#		asm.Links = asm.Links + [o]
+		saveList = obj.OutList		
+		asmLinks = []
+		for o in saveList:
+			if hasattr(o,"Shape"):
+				#print(f"Has Shape {o.Name}")
+				#asm.Links.append(o)
+				asmLinks = asmLinks + [o]
 		#print(f"Assembly Links {asm.Links}")
+		asmLen = len(asmLinks)
+		if asmLen > 1:
+			print(f"Assembly Created")
+			asm = obj.newObject("Part::Compound","Assembly")
+			asm.Links = asmLinks
+		elif asmLen == 1:
+			asm = obj
+		else:
+			print(F"Nothing to export")
+			return
 		print("Recompute")
 		doc.recompute()
-		#asm.recompute()
-		#print(f"Assembly Created")
-		self.exportStep(obj)
+		#asm.recompute()		
+		self.exportBrep(asm)
+		self.saveFC()
 		FreeCAD.closeDocument(doc.Name)
 
 
@@ -218,8 +224,9 @@ class levels_class:
             #if numVolAsm > self.numVolAsm or i == 0 :
             volAsmList = l.getVolAsms()
             for volAsm in volAsmList:
-                print(f">>>>> Process volAsm {volAsm.getName()} Level_i {i} Level {volAsm.getLevel()}")
-                volAsm.exportBrepStep()
+                 print(f">>>>> Process volAsm {volAsm.getName()} Level_i {i} Level {volAsm.getLevel()}")
+                 #volAsm.exportBrepStep()
+                 print(f"Need to code Clear Brep and FC files")
            
 
 class dirBase_class:

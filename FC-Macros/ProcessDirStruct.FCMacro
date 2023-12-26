@@ -88,6 +88,9 @@ class volAsm_class:
         doc = FreeCAD.ActiveDocument
         print(f"GDML file opened {path} Root Volume {self.vaName}")
         obj = doc.getObject(self.vaName)
+        # If problem with name i,e has underscore etc
+        if obj is None:
+            obj = doc.RootObjects[-1]
         print(f"Root Vol {self.vaName} type {obj.TypeId}")
         import Import
         exportPath = self.join(self.path, self.vaName+".step")
@@ -97,7 +100,10 @@ class volAsm_class:
             print(f"exported wih Options")
         else:
             Import.export([obj], exportPath)
-            print(f"exported close {doc.Name)")
+            print(f"exported close {doc.Name}")
+        #print(f"Save FC file {doc.Name}")
+        #savePath = self.join(self.path, self.vaName)
+        #doc.saveAs(savePath)
         FreeCAD.closeDocument(doc.Name)
 
 
