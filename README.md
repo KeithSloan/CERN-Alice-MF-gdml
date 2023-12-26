@@ -1,5 +1,20 @@
 ### Latest Status
 
+23/11/23
+
+Use the followings Macros to create Step & Brep files
+
+  * ProcessDirStruct_Brep.FCMacro
+  * ProcessDirStruct_Step.FCMacro
+    
+Remember that these need to be copied to FreeCAD's Macro directory
+
+ * On MacOS is /Users/<user>/Library/Application Support/FreeCAD/Macro
+ * On Linux is ???
+ * On Windows is ???
+
+Do not use ProcessDirStruct.FCMacro this is being retained and will be updated in the future
+
 29/10/23
 
 Latest version of GDML workbench https://github.com/KeithSloan/GDML supports 
