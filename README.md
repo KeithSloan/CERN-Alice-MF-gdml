@@ -1,5 +1,14 @@
 ### Latest Status
 
+BrepShell is a Brep where totally enclosed shapes have been omitted
+
+26/12/23
+
+ * ProcessDirStruct_BrepShell.FCMacro
+      Create BrepShell's in directory structure
+ * ProcessDir_BrepShell.FCMacro
+      Create BrepShells for all gdml files in a directory
+
 23/11/23
 
 Use the followings Macros to create Step & Brep files
