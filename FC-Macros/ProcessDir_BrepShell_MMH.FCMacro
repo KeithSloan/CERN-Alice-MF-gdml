@@ -1,0 +1,232 @@
+# **************************************************************************
+# *                                                                        *
+# *   Copyright (c) 2023 Keith Sloan <keith@sloan-home.co.uk>              *
+# *                      Munther Hindi                                      *
+# *                                                                        *
+# *   This program is free software; you can redistribute it and/or modify *
+# *   it under the terms of the GNU Lesser General Public License (LGPL)   *
+# *   as published by the Free Software Foundation; either version 2 of    *
+# *   the License, or (at your option) any later version.                  *
+# *   for detail see the LICENCE text file.                                *
+# *                                                                        *
+# *   This program is distributed in the hope that it will be useful,      *
+# *   but WITHOUT ANY WARRANTY; without even the implied warranty of       *
+# *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        *
+# *   GNU Library General Public License for more details.                 *
+# *                                                                        *
+# *   You should have received a copy of the GNU Library General Public    *
+# *   License along with this program; if not, write to the Free Software  *
+# *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 *
+# *   USA                                                                  *
+# *                                                                        *
+# *   Acknowledgements :                                                   *
+#
+#    Thanks to FreeCAD forum members
+#
+#        TheMarkster
+#                                                                          *
+#     Takes as input a GDML file directory and creates/updates             *
+#          STEP / BREP files from the GDML definitions                     *
+#                                                                          *
+#             python3 processDirStruct.py <directory>                      *
+#                                                                          *
+#***************************************************************************
+import sys, os
+import math
+import Part
+
+class dirBase_class:
+    def __init__(self):
+        from PySide2 import QtGui, QtCore, QtWidgets
+        import glob
+        basePath = QtWidgets.QFileDialog.getExistingDirectory(None, "Select Directory")
+        print(f"\nProcessing directory for GDML files : {basePath}")
+        processPath = os.path.join(basePath, "*.gdml")
+        print(f"Process Path {processPath}")
+        for fn in glob.glob(processPath):
+            self.setPathAndName(fn)
+            self.processGDMLfile(fn)
+
+    def setPathAndName(self, path):
+        names = os.path.split(path)
+        self.path = names[0]
+        self.vaName = names[1]
+        print(f"Path : {self.path} : vaName{self.vaName}")
+
+    def join(self, path, name):
+        import os
+        return(os.path.join(path, name))
+
+    def printList(self, name, objList, msg=""):
+        print(f"List ===== {name} ===== {msg}")
+        for o in objList:
+            print(f"{o.Name} {o}")
+        print("===================")
+
+    def printTupleList(self, name, objList, msg=""):
+        print(f"List ===== {name} ===== {msg}")
+        # print(dir(objList))
+        for o in objList:
+            print(f"Level {o[0]} : {o[1].Name}")
+        print("===================")
+
+    def checkBoundBoxes(self, shape1, shape2, tolerance):
+        for i in range(4):
+            if shape1.BoundBox.isInside(shape2.BoundBox.getPoint(i), tolerance)  is False:
+                return False
+        return True
+
+    def checkNotInside(self, item1, item2, tolerance=Part.Precision.confusion()):
+        global shapeNames
+        shp1 = item1
+        shp2 = item2
+        print(f"Testing if {shapeNames[shp2]} isNotInside {shapeNames[shp1]}")
+        commonShape = shp1.common(shp2)
+        print(f"Shape1 Volume {shp1.Volume}  Shape2 Volume {shp2.Volume} commonShape Volume {commonShape.Volume}")
+        
+        if math.isclose(commonShape.Volume, shp2.Volume, abs_tol=tolerance):
+            print("Return Not Inside False")
+            return False
+        print("Return Not Inside True")
+        return True
+
+    def exportBrep(self, obj):
+        # Brep export uses Part:
+        import Part
+        exportPath = self.join(self.path, self.vaName+".brep")
+        print(f"export Path {exportPath}")
+        if hasattr(Part, "exportOptions"):
+            options = Part.exportOptions(exportPath)
+            Part.export(obj, exportPath, options)
+            print(f"exported {obj.Name} type {obj.TypeId} wih Options")
+        else:
+            Part.export([obj], exportPath)
+            print(f"Brep exported {obj.Name}")
+
+    def exportBrepShell(self, obj):
+        # Brep export uses Part:
+        import Part
+        exportPath = self.join(self.path, self.vaName+"_Shell.brep")
+        print(f"export Path {exportPath}")
+        if hasattr(Part, "exportOptions"):
+            options = Part.exportOptions(exportPath)
+            Part.export(obj, exportPath, options)
+            print(f"exported {obj.Name} type {obj.TypeId} wih Options")
+        else:
+            Part.export([obj], exportPath)
+            print(f"Brep exported {obj.Name}")
+
+    def objSortedShapesOnly(self, obj):
+        saveList = []
+        for o in obj.OutList:
+            if hasattr(o, "Shape"):
+                saveList += [o]
+        self.printList("SaveList", saveList)
+        testList = sorted(saveList, key=lambda x: x.Shape.Volume,
+                          reverse=True)
+        for o in testList:
+            print(f"{o.Name} : {o.Shape.Volume}")
+        return testList
+
+    def sortObjList(self, inputList):
+        testList = sorted(inputList, key=lambda x: x.Volume, reverse=True)
+        for o in testList:
+            print(f"Item {o} : {o.Volume}")
+        return testList
+
+    def getObjectList(self, lvl, obj):
+	# Now Level only used for avoiding WorldBox
+        print(f">>>>>  Get Object List {obj.Name}  level {lvl} <<<<<")
+        lst = []
+        if hasattr(obj, "OutList"):
+            print(obj.OutList)
+            self.printList("OutList", obj.OutList )
+            for o in obj.OutList:
+                print(f"{o.Name} TypeId {o.TypeId}")
+                if o.TypeId == "App::Part" or o.TypeId == "App::Link":
+                    subItem = self.getObjectList(lvl+1, o)
+                    lst += subItem
+                elif hasattr(o, "Proxy"):
+                    print("Proxy")
+                    if hasattr(o.Proxy, "Type"):
+                        print(f"Type {o.Proxy.Type}")
+                        if o.Proxy.Type[0:4] == "GDML":
+                            if lvl > 0:
+                                lst.append((lvl, o))
+        # print(f"Returning {(lvl, lst)}")
+        print(f"Returning {lst}")
+        self.printTupleList("Tuple List", lst)
+        # return (lvl, lst)
+        return lst
+
+    def countGDMLObj(self, obj):
+        print("Count GDML Obj")
+        gdmlCnt = 0
+        subVol = []
+        if hasattr(obj, "OutList"):
+            for o in obj.OutList:
+                if hasattr(o, "Proxy"):
+                    if hasattr(o.Proxy, "Type"):
+                        if o.Proxy.Type[0:4] == "GDML":
+                            gdmlCnt += 1
+                if o.TypeId == "App::Part":
+                    subVol += [o]
+        print(f"SubVol {subVol} gdmlCnt {gdmlCnt}")
+        return subVol, gdmlCnt
+
+    def processGDMLfile(self, path):
+        global shapeNames
+        shapeNames = {}
+        print(f"Export STEP & Brep path {path}")
+
+        import freecad.gdml.importGDML
+    
+        freecad.gdml.importGDML.open(path, processType = 2, prompt=False)
+        doc = FreeCAD.ActiveDocument
+        print(f"GDML file opened GDML file {path}")
+        obj = doc.RootObjects[-1]
+        print(f"Root Vol {obj.Name} type {obj.TypeId}")
+        #subVol, gdmlCnt = self.countGDMLObj(obj)
+        inputList = self.getObjectList(0, obj)
+        self.printTupleList("inputList", inputList)
+        shapes = []
+        for t in inputList:
+            s = Part.getShape(t[1], mat=t[1].getGlobalPlacement().Matrix, transform=False)
+            shapeNames[s] = t[1].Name
+            shapes.append(s)
+        testList = self.sortObjList(shapes)
+        insideSomething = {}
+        insideSomething[testList[0]] = False
+        for i, o in enumerate(testList[:-1]):
+            for t in testList[i+1:]:
+                if self.checkNotInside(o, t) is True:
+                    if t in insideSomething:
+                        insideSomething[t] |= False
+                    else:
+                        insideSomething[t] = False
+                else:
+                    if t in insideSomething:
+                        insideSomething[t] |= True
+                    else:
+                        insideSomething[t] = True
+        shape = shapes[0]
+        for t in insideSomething:
+            if insideSomething[t] is False:
+                print(f"fusing {shapeNames[t]}")
+                shape = shape.fuse(t)
+                print(f"Current Volume {shape.Volume}")
+
+        print(f"Volume {shape.Volume}")
+        o = Part.show(shape)
+        #cmp = obj.newObject("App::Part", "Outside")
+        #cmp.addObject(o)
+        #cmp.Shape = shape
+        doc.recompute()
+        # asm.recompute()
+        print("Shape created")    
+        #print("Compound Shape Created")
+        self.exportBrepShell(o)
+        FreeCAD.closeDocument(doc.Name)
+
+
+base = dirBase_class()
