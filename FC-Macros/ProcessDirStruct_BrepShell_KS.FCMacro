@@ -102,6 +102,12 @@ class volAsm_class:
 	        print("===================")
 
 
+	def sortObjList(self, inputList):
+		testList = sorted(inputList, key=lambda x: x.Volume, reverse=True)
+		for o in testList:
+			print(f"Item {o} : {o.Volume}")
+		return testList
+
 	def objSortedShapesOnly(self, obj):
 		saveList =[]
 		for o in obj.OutList:
@@ -113,10 +119,8 @@ class volAsm_class:
 			print(f"{o.Name} : {o.Shape.BoundBox.DiagonalLength}")
 		return testList
 
-	def countGDMLObj(self, obj):
-		print(f"Count GDML Obj")
+	def countGDMLObj(self, subVols, obj):
 		gdmlCnt = 0
-		subVol = []
 		if hasattr(obj, "OutList"):
 			for o in obj.OutList:
 				if hasattr(o, "Proxy"):
@@ -124,9 +128,10 @@ class volAsm_class:
 						if o.Proxy.Type[0:4] == "GDML":
 							gdmlCnt += 1
 				if o.TypeId == "App::Part":
-					subVol += [o]
-		print(f"SubVol {subVol} gdmlCnt {gdmlCnt}")
-		return subVol, gdmlCnt
+					s, g = self.countGDMLObj(subVols, o)
+					subVols += s +1
+		print(f"SubVols {subVols} gdmlCnt {gdmlCnt}")
+		return subVols, gdmlCnt
 
 
 	def exportStep(self, obj):
@@ -275,6 +280,8 @@ class volAsm_class:
 		FreeCAD.closeDocument(doc.Name)
 
 	def processGDMLfile(self):
+		global shapeNames
+		shapeNames = {}
 		print(f"Export Brep Shell path {self.path}")
 		name = self.vaName+".gdml"
 		#path = "u"+ self.join(self.path, name)
@@ -287,8 +294,12 @@ class volAsm_class:
 		print(f"GDML file opened {self.fullPath} Root Volume {self.vaName}")
 		obj = doc.RootObjects[-1]
 		print(f"Root Vol {obj.Name} type {obj.TypeId}")
-		#subVol, gdmlCnt = self.countGDMLObj(obj)
-		inputList = self.getObjectList(0, obj)
+		subVols, gdmlCnt = self.countGDMLObj(0, obj)
+		if subVols > 1 and gdmlCnt == 1:
+			# Remove any world gdml Object
+			inputList = self.getObjectList(0, obj)
+		else:
+			inputList = self.getObjectList(1, obj)
 		self.printTupleList("inputList", inputList)
 		shapes = []
 		for t in inputList:
