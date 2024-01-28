@@ -1,3 +1,10 @@
+### Important Notice
+
+This repro has a lot of files and therefore uses git-lfs
+You therefore need to install git-lfs before cloning the repro
+
+See https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+
 ### Latest Status
 
 BrepShell is a Brep where totally enclosed shapes have been omitted
