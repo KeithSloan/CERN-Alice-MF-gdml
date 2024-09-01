@@ -8,6 +8,15 @@ See https://docs.github.com/en/repositories/working-with-files/managing-large-fi
 ### Create an initial directory structure
 
 The buildDirStruct.py process a gdml file building a directory structure where each volume creates a directory
+with a set of files.
+
+      volname.gdml (With appropriate includes for the following)
+      volname.setup.xml
+      volname.solids.xml
+      volname.materials.xml
+      volname.structure.xml
+      volname.define.xml
+
 ```
 Run newUtils/buildDirStruct.py <option> <primary volume> <complete gdml file> <target directory>
 
