@@ -7,7 +7,7 @@ See https://docs.github.com/en/repositories/working-with-files/managing-large-fi
 
 ### Create an initial directory structure
 
-The buildDirStruct.py process a gdml file building a directory structure where each <volume> creates a directory
+The buildDirStruct.py process a gdml file building a directory structure where each volume creates a directory
 ```
 Run newUtils/buildDirStruct.py <option> <primary volume> <complete gdml file> <target directory>
 
