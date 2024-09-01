@@ -5,6 +5,25 @@ You therefore need to install git-lfs before cloning the repro
 
 See https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
 
+### Create an initial directory structure
+
+The buildDirStruct.py process a gdml file building a directory structure where each <volume> creates a directory
+```
+Run newUtils/buildDirStruct.py <option> <primary volume> <complete gdml file> <target directory>
+
+<option>  : for future use
+<primary> : the script will look for the primary volumes and start building the structure from there.
+<complete gdml file> : source gdml file to be used to build the scructure from
+<target directory> : target direcory
+```
+
+Example: (Note creating the stcucture for Alice takes around 12 hours
+
+      python3 newUtils/buildDirStruct.py 1 ALIC Alice_original.gdml $HOME/Downloads/CERN-Alice
+
+      see also script buildALic
+
+
 ### Latest Status
 
 BrepShell is a Brep where totally enclosed shapes have been omitted
